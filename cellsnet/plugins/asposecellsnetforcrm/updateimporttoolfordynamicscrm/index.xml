@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Update Import Tool for Dynamics CRM on Aspose.Cells Product Family</title>
+    <link>http://192.168.1.240:1313/cellsnet/plugins/asposecellsnetforcrm/updateimporttoolfordynamicscrm/</link>
+    <description>Recent content in Update Import Tool for Dynamics CRM on Aspose.Cells Product Family</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://192.168.1.240:1313/cellsnet/plugins/asposecellsnetforcrm/updateimporttoolfordynamicscrm/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Extend and Contribute to CRM Update Import Tool</title>
+      <link>http://192.168.1.240:1313/cellsnet/plugins/asposecellsnetforcrm/updateimporttoolfordynamicscrm/extend&#43;and&#43;contribute&#43;to&#43;crm&#43;update&#43;import&#43;tool/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.1.240:1313/cellsnet/plugins/asposecellsnetforcrm/updateimporttoolfordynamicscrm/extend&#43;and&#43;contribute&#43;to&#43;crm&#43;update&#43;import&#43;tool/</guid>
+      <description>You can download the latest source code at:
+ CodePlex. [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Dynamics CRM/Aspose.Plugins.UpdateImportTool). Code.MSDN.  Export Data from CRM to Excel
+SaveFileDialog fileDialog = new SaveFileDialog();
+fileDialog.DefaultExt = &amp;ldquo;.xlsx&amp;rdquo;;
+fileDialog.FileName = &amp;ldquo;Aspose ImportTool Export.xlsx&amp;rdquo;;
+if (fileDialog.ShowDialog().Value)
+{
+string FileName = fileDialog.FileName;
+Workbook workbook = new Workbook();
+workbook.Worksheets.Add(&amp;ldquo;Aspose Export&amp;rdquo;);
+Worksheet MyWorksheet = workbook.Worksheets[&amp;ldquo;Aspose Export&amp;rdquo;];
+int i = 0;
+foreach (string attrib in SelectedAttributes)
+MyWorksheet.Cells[0, i++].Value = attrib;
+int Row = 1,cell=0;
+foreach (Entity record in Result.</description>
+    </item>
+    
+    <item>
+      <title>Using and Configuring CRM Update Import Tool</title>
+      <link>http://192.168.1.240:1313/cellsnet/plugins/asposecellsnetforcrm/updateimporttoolfordynamicscrm/using&#43;and&#43;configuring&#43;crm&#43;update&#43;import&#43;tool/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.1.240:1313/cellsnet/plugins/asposecellsnetforcrm/updateimporttoolfordynamicscrm/using&#43;and&#43;configuring&#43;crm&#43;update&#43;import&#43;tool/</guid>
+      <description>Below are the screenshot steps we need to follow to use the tool:
+ To create a connection with CRM, Click Login to CRM and add your CRM organization information Once the connection is established, select Entity and select the list of desired Attributes. Get from CRM: Click here to show the data from CRM in the Grid Export To Excel: Click here to Export the data from CRM to Excel file by providing the file.</description>
+    </item>
+    
+  </channel>
+</rss>

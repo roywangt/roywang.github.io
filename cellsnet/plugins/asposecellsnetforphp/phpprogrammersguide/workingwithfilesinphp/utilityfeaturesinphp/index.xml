@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Utility Features in PHP on Aspose.Cells Product Family</title>
+    <link>http://192.168.1.240:1313/cellsnet/plugins/asposecellsnetforphp/phpprogrammersguide/workingwithfilesinphp/utilityfeaturesinphp/</link>
+    <description>Recent content in Utility Features in PHP on Aspose.Cells Product Family</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://192.168.1.240:1313/cellsnet/plugins/asposecellsnetforphp/phpprogrammersguide/workingwithfilesinphp/utilityfeaturesinphp/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Encrypting Files in PHP</title>
+      <link>http://192.168.1.240:1313/cellsnet/plugins/asposecellsnetforphp/phpprogrammersguide/workingwithfilesinphp/utilityfeaturesinphp/encrypting&#43;files&#43;in&#43;php/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.1.240:1313/cellsnet/plugins/asposecellsnetforphp/phpprogrammersguide/workingwithfilesinphp/utilityfeaturesinphp/encrypting&#43;files&#43;in&#43;php/</guid>
+      <description>Aspose.Cells - Encrypt Excel Files
+Encrypting a Microsoft Excel File
+PHP Code
+$dataDir = &amp;lsquo;&#39;;
+// Create Aspose.Cells Helper Object
+$ptr = new \COM(&amp;lsquo;Aspose.Cells.Interop.InteropHelper&amp;rsquo;);
+// Opening through Path
+// Creating a Workbook object and opening an Excel file using its file path
+$workbook = $ptr-&amp;gt;New(&amp;ldquo;Aspose.Cells.Workbook&amp;rdquo;,array($dataDir . &amp;lsquo;/Book1.xls&amp;rsquo;));
+$XOR = $ptr-&amp;gt;New(&amp;ldquo;Aspose.Cells.EncryptionType.XOR&amp;rdquo;,array());
+$crypt = $ptr-&amp;gt;New(&amp;ldquo;Aspose.Cells.EncryptionType.StrongCryptographicProvider&amp;rdquo;,array());
+$ptr-&amp;gt;Call($workbook,&amp;ldquo;SetEncryptionOptions&amp;rdquo;,array($XOR,40));
+$ptr-&amp;gt;Call($workbook,&amp;ldquo;SetEncryptionOptions&amp;rdquo;,array($crypt,128));
+$settings = $ptr-&amp;gt;Get($workbook,&amp;ldquo;Settings&amp;rdquo;,array());
+$ptr-&amp;gt;Set($settings,&amp;ldquo;Password&amp;rdquo;,&amp;ldquo;1234&amp;rdquo;,array());
+$ptr-&amp;gt;Call($workbook,&amp;ldquo;Save&amp;rdquo;,array($dataDir.&amp;quot;/encryptedoutBook1.xls&amp;rdquo;));
+print &amp;ldquo;Completed.&amp;rdquo; . PHP_EOL;
+Download Running Code
+Download Encrypting Files (Aspose.</description>
+    </item>
+    
+    <item>
+      <title>Excel to PDF Conversion in PHP</title>
+      <link>http://192.168.1.240:1313/cellsnet/plugins/asposecellsnetforphp/phpprogrammersguide/workingwithfilesinphp/utilityfeaturesinphp/excel&#43;to&#43;pdf&#43;conversion&#43;in&#43;php/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.1.240:1313/cellsnet/plugins/asposecellsnetforphp/phpprogrammersguide/workingwithfilesinphp/utilityfeaturesinphp/excel&#43;to&#43;pdf&#43;conversion&#43;in&#43;php/</guid>
+      <description>Aspose.Cells - Excel to PDF Conversion
+Convert Microsoft Excel File to PDF
+PHP Code
+$dataDir = &amp;lsquo;&#39;;
+// Create Aspose.Cells Helper Object
+$ptr = new \COM(&amp;lsquo;Aspose.Cells.Interop.InteropHelper&amp;rsquo;);
+// Opening through Path
+// Creating a Workbook object and opening an Excel file using its file path
+$workbook = $ptr-&amp;gt;New(&amp;ldquo;Aspose.Cells.Workbook&amp;rdquo;,array($dataDir . &amp;lsquo;/Book1.xls&amp;rsquo;));
+$ptr-&amp;gt;Call($workbook,&amp;ldquo;Save&amp;rdquo;,array($dataDir.&amp;quot;/outBook1.pdf&amp;rdquo;));
+print &amp;ldquo;Conversion Completed&amp;rdquo; . PHP_EOL;
+Download Running Code
+Download Excel to PDF Conversion (Aspose.Cells) from any of the below mentioned social coding sites:</description>
+    </item>
+    
+    <item>
+      <title>Managing Document Properties in PHP</title>
+      <link>http://192.168.1.240:1313/cellsnet/plugins/asposecellsnetforphp/phpprogrammersguide/workingwithfilesinphp/utilityfeaturesinphp/managing&#43;document&#43;properties&#43;in&#43;php/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.1.240:1313/cellsnet/plugins/asposecellsnetforphp/phpprogrammersguide/workingwithfilesinphp/utilityfeaturesinphp/managing&#43;document&#43;properties&#43;in&#43;php/</guid>
+      <description>Aspose.Cells - Managing Document Properties
+Managing Document Properties of Microsoft Excel File
+PHP Code
+$dataDir = &amp;lsquo;&#39;;
+// Create Aspose.Cells Helper Object
+$ptr = new \COM(&amp;lsquo;Aspose.Cells.Interop.InteropHelper&amp;rsquo;);
+// Opening through Path
+// Creating a Workbook object and opening an Excel file using its file path
+$workbook = $ptr-&amp;gt;New(&amp;ldquo;Aspose.Cells.Workbook&amp;rdquo;,array($dataDir . &amp;lsquo;/Book1.xls&amp;rsquo;));
+$worksheets = $ptr-&amp;gt;Get($workbook,&amp;ldquo;Worksheets&amp;rdquo;,array());
+//Retrieve a list of all custom document properties of the Excel file
+$customDocProp = $ptr-&amp;gt;Get($worksheets,&amp;ldquo;CustomDocumentProperties&amp;rdquo;,array());
+//Accessing a custom document property by using the property index</description>
+    </item>
+    
+    <item>
+      <title>Worksheet to Image Conversion in PHP</title>
+      <link>http://192.168.1.240:1313/cellsnet/plugins/asposecellsnetforphp/phpprogrammersguide/workingwithfilesinphp/utilityfeaturesinphp/worksheet&#43;to&#43;image&#43;conversion&#43;in&#43;php/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.1.240:1313/cellsnet/plugins/asposecellsnetforphp/phpprogrammersguide/workingwithfilesinphp/utilityfeaturesinphp/worksheet&#43;to&#43;image&#43;conversion&#43;in&#43;php/</guid>
+      <description>Aspose.Cells - Convert Worksheet to Image
+Convert a Microsoft Excel Worksheet to Image File
+PHP Code
+$dataDir = &amp;lsquo;&#39;;
+// Create Aspose.Cells Helper Object
+$ptr = new \COM(&amp;lsquo;Aspose.Cells.Interop.InteropHelper&amp;rsquo;);
+// Opening through Path
+// Creating a Workbook object and opening an Excel file using its file path
+$workbook = $ptr-&amp;gt;New(&amp;ldquo;Aspose.Cells.Workbook&amp;rdquo;,array($dataDir . &amp;lsquo;/MyTestBook1.xls&amp;rsquo;));
+$worksheets = $ptr-&amp;gt;Get($workbook,&amp;ldquo;Worksheets&amp;rdquo;,array());
+$sheet = $ptr-&amp;gt;Get($worksheets,&amp;lsquo;Item&amp;rsquo;,array(0));
+$imgOptions = $ptr-&amp;gt;New(&amp;ldquo;Aspose.Cells.Rendering.ImageOrPrintOptions&amp;rdquo;,array());
+$imageFormat = new \DOTNET(&amp;lsquo;mscorlib&amp;rsquo;, &amp;lsquo;System.Drawing.Imaging.ImageFormat&amp;rsquo;);
+$ptr-&amp;gt;Set($imgOptions,&amp;lsquo;ImageFormat&amp;rsquo;,$imageFormat-&amp;gt;Jpeg,array());
+$ptr-&amp;gt;Set($imgOptions,&amp;lsquo;OnePagePerSheet&amp;rsquo;,true,array());
+$sr = $ptr-&amp;gt;New(&amp;ldquo;Aspose.Cells.Rendering.SheetRender&amp;rdquo;,array($sheet,$imgOptions));</description>
+    </item>
+    
+  </channel>
+</rss>

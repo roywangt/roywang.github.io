@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Working with Workbooks in NPOI and Aspose.Cells on Aspose.Cells Product Family</title>
+    <link>http://192.168.1.240:1313/cellsnet/plugins/asposecellsnetfornpoi/codecomparisonforcommonfeatureswithnpoi/workingwithworkbooksinnpoiandasposecells/</link>
+    <description>Recent content in Working with Workbooks in NPOI and Aspose.Cells on Aspose.Cells Product Family</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://192.168.1.240:1313/cellsnet/plugins/asposecellsnetfornpoi/codecomparisonforcommonfeatureswithnpoi/workingwithworkbooksinnpoiandasposecells/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Add Data in Cells</title>
+      <link>http://192.168.1.240:1313/cellsnet/plugins/asposecellsnetfornpoi/codecomparisonforcommonfeatureswithnpoi/workingwithworkbooksinnpoiandasposecells/add&#43;data&#43;in&#43;cells/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.1.240:1313/cellsnet/plugins/asposecellsnetfornpoi/codecomparisonforcommonfeatureswithnpoi/workingwithworkbooksinnpoiandasposecells/add&#43;data&#43;in&#43;cells/</guid>
+      <description>Aspose.Cells - Add Data in Cells
+Aspose.Cells provides a class, Workbook, that represents a Microsoft Excel file. Workbook class contains a WorksheetCollection that allows access to each worksheet in the Excel file. A worksheet is represented by the Worksheet class. The Worksheet class provides a Cellscollection. Each item in the Cells collection represents an object of the Cell class.
+C#
+//Instantiating a Workbook object
+Workbook workbook = new Workbook();
+//Accessing the added worksheet in the Excel file</description>
+    </item>
+    
+    <item>
+      <title>Create New Workbook</title>
+      <link>http://192.168.1.240:1313/cellsnet/plugins/asposecellsnetfornpoi/codecomparisonforcommonfeatureswithnpoi/workingwithworkbooksinnpoiandasposecells/create&#43;new&#43;workbook/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.1.240:1313/cellsnet/plugins/asposecellsnetfornpoi/codecomparisonforcommonfeatureswithnpoi/workingwithworkbooksinnpoiandasposecells/create&#43;new&#43;workbook/</guid>
+      <description>Aspose.Cells - Create New Workbook
+Workbook class is available for simple use
+C#
+Workbook workbook = new Workbook(); // Creating a Workbook object
+workbook.Save(&amp;ldquo;test.xlsx&amp;rdquo;, SaveFormat.Xlsx); //Workbooks can be saved in many formats
+NPOI - HSSF XSSF - Create New Workbook
+Create new Workbook using Workbook class and save using FileOutputStream.
+C#
+IWorkbook workbook = new XSSFWorkbook();
+workbook.CreateSheet(&amp;ldquo;Sheet A1&amp;rdquo;);
+workbook.CreateSheet(&amp;ldquo;Sheet A2&amp;rdquo;);
+workbook.CreateSheet(&amp;ldquo;Sheet A3&amp;rdquo;);
+FileStream sw = File.Create(&amp;ldquo;test.xlsx&amp;rdquo;);
+workbook.Write(sw);
+sw.Close();
+Download Running Code</description>
+    </item>
+    
+    <item>
+      <title>Set Print Area</title>
+      <link>http://192.168.1.240:1313/cellsnet/plugins/asposecellsnetfornpoi/codecomparisonforcommonfeatureswithnpoi/workingwithworkbooksinnpoiandasposecells/set&#43;print&#43;area/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.1.240:1313/cellsnet/plugins/asposecellsnetfornpoi/codecomparisonforcommonfeatureswithnpoi/workingwithworkbooksinnpoiandasposecells/set&#43;print&#43;area/</guid>
+      <description>Aspose.Cells - Set Print Area
+By default, only the print area incorporates all areas of the worksheet that contain data. Developers can establish a specific print area of the worksheet.
+To select a specific print area, use the PageSetup class&amp;rsquo; PrintArea property. Assign a cell range that defines the print area to this property.
+C#
+// Instantiating a Workbook object
+Workbook workbook = new Workbook();
+workbook.Worksheets.Add(&amp;ldquo;new sheet&amp;rdquo;);
+workbook.Worksheets.Add(&amp;ldquo;second sheet&amp;rdquo;);
+Worksheet sheet1 = workbook.</description>
+    </item>
+    
+  </channel>
+</rss>

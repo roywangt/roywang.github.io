@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>User Guide on Aspose.Cells Product Family</title>
+    <link>http://192.168.1.240:1313/cellsjasperreports/userguide/</link>
+    <description>Recent content in User Guide on Aspose.Cells Product Family</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://192.168.1.240:1313/cellsjasperreports/userguide/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Filling a .jasper File with Editable Chart Support</title>
+      <link>http://192.168.1.240:1313/cellsjasperreports/userguide/filling&#43;a&#43;.jasper&#43;file&#43;with&#43;editable&#43;chart&#43;support/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.1.240:1313/cellsjasperreports/userguide/filling&#43;a&#43;.jasper&#43;file&#43;with&#43;editable&#43;chart&#43;support/</guid>
+      <description>Aspose.Cells for JasperReports requires a .jasper file to be filled to a .jrprint or a JasperPrint object before it can be exported to an XLS file. There&amp;rsquo;s no modification needed for the .jrxml file whatsoever. The filling procedure stores internal representations of charts into the JasperPrint object which is then used to generate editable charts.
+Please read JasperReports&amp;rsquo; documentation for detailed description of how to fill a report.
+Here&amp;rsquo;s an example:</description>
+    </item>
+    
+    <item>
+      <title>Exporting .jrprint Files to XLS Formats</title>
+      <link>http://192.168.1.240:1313/cellsjasperreports/userguide/exporting&#43;.jrprint&#43;files&#43;to&#43;xls&#43;formats/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.1.240:1313/cellsjasperreports/userguide/exporting&#43;.jrprint&#43;files&#43;to&#43;xls&#43;formats/</guid>
+      <description>Aspose.Cells for JasperReports provides a class named ACXlsExporter for exporting reports to XLS files. It takes a .jrprint file or a JasperPrint object as its input, and exports it to an XLS file.
+The following code snippet demonstrates how to export the jasperPrint object to some file path, for example, destFile.
+Java
+import com.aspose.cells.jasperreports. ACXlsExporter;
+&amp;hellip;&amp;hellip;&amp;hellip;&amp;hellip;&amp;hellip;..
+ACXlsExporter exporter = new ACXlsExporter ();
+exporter.setParameter(JRExporterParameter.JASPER_PRINT, jasperPrint);
+exporter.setParameter(JRExporterParameter.OUTPUT_FILE_NAME, destFile.toString());
+exporter.setParameter(JRXlsExporterParameter.IS_ONE_PAGE_PER_SHEET, Boolean.TRUE);
+exporter.setParameter(ACXlsExporterParameter.IS_USE_EXCEL_CHART, Boolean.FALSE);</description>
+    </item>
+    
+  </channel>
+</rss>

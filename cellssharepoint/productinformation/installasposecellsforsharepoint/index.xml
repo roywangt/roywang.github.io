@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Install Aspose.Cells for SharePoint on Aspose.Cells Product Family</title>
+    <link>http://192.168.1.240:1313/cellssharepoint/productinformation/installasposecellsforsharepoint/</link>
+    <description>Recent content in Install Aspose.Cells for SharePoint on Aspose.Cells Product Family</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://192.168.1.240:1313/cellssharepoint/productinformation/installasposecellsforsharepoint/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Installing Aspose.Cells for SharePoint</title>
+      <link>http://192.168.1.240:1313/cellssharepoint/productinformation/installasposecellsforsharepoint/installing&#43;aspose.cells&#43;for&#43;sharepoint/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.1.240:1313/cellssharepoint/productinformation/installasposecellsforsharepoint/installing&#43;aspose.cells&#43;for&#43;sharepoint/</guid>
+      <description>Aspose.Cells for SharePoint is downloadable as the Aspose.Cells.SharePoint.zip archive.
+Archive Contents
+The Aspose.Cells.SharePoint.zip archive contains:
+ Aspose.Cells.SharePoint.wsp – SharePoint solution file. Aspose.Cells for SharePoint is packaged as a SharePoint solution to facilitate deployment/retraction and feature activation/deactivation across the server farm. Aspose_LicenseAgreement.rtf – End user license agreement Aspose.Cells for SharePoint.pdf – User documentation Aspose.Cells for SharePoint Documentation.chm – User documentation with Public API reference setup.exe – Setup program setup.exe.config – Setup configuration file  The setup program checks the following conditions before proceeding with installation:</description>
+    </item>
+    
+    <item>
+      <title>Deployment and Activation</title>
+      <link>http://192.168.1.240:1313/cellssharepoint/productinformation/installasposecellsforsharepoint/deployment&#43;and&#43;activation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.1.240:1313/cellssharepoint/productinformation/installasposecellsforsharepoint/deployment&#43;and&#43;activation/</guid>
+      <description>Installing Aspose.Cells for SharePoint walks you through the installation process. This article explains what the installation process is deployed and activated.
+**Deployment **
+Aspose.Cells for SharePoint performs the following actions during deployment:
+ Installs Aspose.Cells.SharePoint.dll into the Global Assembly Cache and adds a SafeControl entry to the web.config file. Installs feature manifest and other necessary files to the appropriate directories. Registers the feature in the SharePoint database and makes it available for activation at the feature scope.</description>
+    </item>
+    
+    <item>
+      <title>Activation and Deactivation after installation</title>
+      <link>http://192.168.1.240:1313/cellssharepoint/productinformation/installasposecellsforsharepoint/activation&#43;and&#43;deactivation&#43;after&#43;installation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.1.240:1313/cellssharepoint/productinformation/installasposecellsforsharepoint/activation&#43;and&#43;deactivation&#43;after&#43;installation/</guid>
+      <description>During installation, Aspose.Cells for SharePoint is activated for all selected site collections. After installation, use the Site Actions menu at the root web site of a site collection to activate and deactivate Aspose.Cells for SharePoint.
+Activating Aspose.Cells for SharePoint on a site collection.
+**Activating Aspose.Cells **
+Attachments: Activation and Deactivation after installation-001.png (image/png)</description>
+    </item>
+    
+    <item>
+      <title>Known Issue - Permissions to Personal Site Collections</title>
+      <link>http://192.168.1.240:1313/cellssharepoint/productinformation/installasposecellsforsharepoint/known&#43;issue&#43;-&#43;permissions&#43;to&#43;personal&#43;site&#43;collections/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.1.240:1313/cellssharepoint/productinformation/installasposecellsforsharepoint/known&#43;issue&#43;-&#43;permissions&#43;to&#43;personal&#43;site&#43;collections/</guid>
+      <description>SharePoint by default does not grant full permissions to manage personal sites to portal administrators. That is why activation and deactivation on a personal site collection might fail when it is performed by portal administrators. This includes activation and deactivation during setup.
+Granting Permission to Personal Sites
+When this issue occurs during installation, an UnauthorizedAccessException at Microsoft.SharePoint.SPFeature.Activate() is logged to the SharePoint trace log. When deactivation fails as a part of un-installation, an UnauthorizedAccessException is displayed on the last setup screen for the failed deactivation(s).</description>
+    </item>
+    
+    <item>
+      <title>Uninstalling Aspose.Cells for SharePoint</title>
+      <link>http://192.168.1.240:1313/cellssharepoint/productinformation/installasposecellsforsharepoint/uninstalling&#43;aspose.cells&#43;for&#43;sharepoint/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.1.240:1313/cellssharepoint/productinformation/installasposecellsforsharepoint/uninstalling&#43;aspose.cells&#43;for&#43;sharepoint/</guid>
+      <description>To uninstall Aspose.Cells for SharePoint, run the setup program. If Aspose.Cells for SharePoint is already installed, the setup program suggests removing or repairing it.
+Uninstallation
+During removal, the setup program deactivates Aspose.Cells for SharePoint for all site collections and retracts the solution from the server farm.
+**Uninstalling Aspose.Cells **
+Please note that running the Repair option does not re-activate Aspose.Cells for SharePoint on site collections. Instead, the feature must be activated manually after re-deployment with the Repair option.</description>
+    </item>
+    
+  </channel>
+</rss>

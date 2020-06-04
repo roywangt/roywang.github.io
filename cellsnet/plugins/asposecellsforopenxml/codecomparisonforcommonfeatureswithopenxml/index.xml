@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Code Comparison for common features with OpenXML on Aspose.Cells Product Family</title>
+    <link>http://192.168.1.240:1313/cellsnet/plugins/asposecellsforopenxml/codecomparisonforcommonfeatureswithopenxml/</link>
+    <description>Recent content in Code Comparison for common features with OpenXML on Aspose.Cells Product Family</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://192.168.1.240:1313/cellsnet/plugins/asposecellsforopenxml/codecomparisonforcommonfeatureswithopenxml/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Calculate the sum of a range of cells</title>
+      <link>http://192.168.1.240:1313/cellsnet/plugins/asposecellsforopenxml/codecomparisonforcommonfeatureswithopenxml/calculate&#43;the&#43;sum&#43;of&#43;a&#43;range&#43;of&#43;cells/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.1.240:1313/cellsnet/plugins/asposecellsforopenxml/codecomparisonforcommonfeatureswithopenxml/calculate&#43;the&#43;sum&#43;of&#43;a&#43;range&#43;of&#43;cells/</guid>
+      <description>OpenXML Excel
+Following are the namespaces we need to use in code:
+using DocumentFormat.OpenXml;
+using DocumentFormat.OpenXml.Packaging;
+using DocumentFormat.OpenXml.Spreadsheet;
+Below is the code:
+string FilePath = @&amp;quot;........\Sample Files&amp;quot;;
+string FileName = FilePath + &amp;ldquo;Calculate the sum of a range of cells.xlsx&amp;rdquo;;
+string worksheetName = &amp;ldquo;Sheet1&amp;rdquo;;
+string firstCellName = &amp;ldquo;A1&amp;rdquo;;
+string lastCellName = &amp;ldquo;A3&amp;rdquo;;
+string resultCell = &amp;ldquo;A4&amp;rdquo;;
+CalculateSumOfCellRange(FileName, worksheetName, firstCellName, lastCellName, resultCell);
+private static void CalculateSumOfCellRange(string docName, string worksheetName, string firstCellName, string lastCellName, string resultCell)</description>
+    </item>
+    
+    <item>
+      <title>Create a spreadsheet document</title>
+      <link>http://192.168.1.240:1313/cellsnet/plugins/asposecellsforopenxml/codecomparisonforcommonfeatureswithopenxml/create&#43;a&#43;spreadsheet&#43;document/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.1.240:1313/cellsnet/plugins/asposecellsforopenxml/codecomparisonforcommonfeatureswithopenxml/create&#43;a&#43;spreadsheet&#43;document/</guid>
+      <description>OpenXML Excel
+string FilePath = @&amp;quot;........\Sample Files&amp;quot;;
+string FileName = FilePath + &amp;ldquo;Create a spreadsheet document.xlsx&amp;rdquo;;
+CreateSpreadsheetWorkbook(FileName);
+private static void CreateSpreadsheetWorkbook(string filepath)
+{
+// Create a spreadsheet document by supplying the filepath.
+// By default, AutoSave = true, Editable = true, and Type = xlsx.
+SpreadsheetDocument spreadsheetDocument = SpreadsheetDocument.
+Create(filepath, SpreadsheetDocumentType.Workbook);
+// Add a WorkbookPart to the document.
+WorkbookPart workbookpart = spreadsheetDocument.AddWorkbookPart();
+workbookpart.Workbook = new Workbook();
+// Add a WorksheetPart to the WorkbookPart.</description>
+    </item>
+    
+    <item>
+      <title>Delete text from a cell</title>
+      <link>http://192.168.1.240:1313/cellsnet/plugins/asposecellsforopenxml/codecomparisonforcommonfeatureswithopenxml/delete&#43;text&#43;from&#43;a&#43;cell/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.1.240:1313/cellsnet/plugins/asposecellsforopenxml/codecomparisonforcommonfeatureswithopenxml/delete&#43;text&#43;from&#43;a&#43;cell/</guid>
+      <description>OpenXML Excel
+string FilePath = @&amp;quot;........\Sample Files&amp;quot;;
+string FileName = FilePath + &amp;ldquo;Delete text from a cell.xlsx&amp;rdquo;;
+string sheetName = &amp;ldquo;Sheet1&amp;rdquo;;
+string colName = &amp;ldquo;B&amp;rdquo;;
+uint rowIndex = 2;
+DeleteTextFromCell(FileName, sheetName, colName, rowIndex);
+// Given a document, a worksheet name, a column name, and a one-based row index,
+// deletes the text from the cell at the specified column and row on the specified worksheet.
+public static void DeleteTextFromCell(string docName, string sheetName, string colName, uint rowIndex)</description>
+    </item>
+    
+    <item>
+      <title>Get a column heading</title>
+      <link>http://192.168.1.240:1313/cellsnet/plugins/asposecellsforopenxml/codecomparisonforcommonfeatureswithopenxml/get&#43;a&#43;column&#43;heading/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.1.240:1313/cellsnet/plugins/asposecellsforopenxml/codecomparisonforcommonfeatureswithopenxml/get&#43;a&#43;column&#43;heading/</guid>
+      <description>OpenXML Excel
+string FilePath = @&amp;quot;........\Sample Files&amp;quot;;
+string FileName = FilePath + &amp;ldquo;Get a column heading.xlsx&amp;rdquo;;
+string worksheetName = &amp;ldquo;Sheet1&amp;rdquo;;
+string cellName = &amp;ldquo;B3&amp;rdquo;;
+string s1 = GetColumnHeading(FileName, worksheetName, cellName);
+// Given a document name, a worksheet name, and a cell name, gets the column of the cell and returns
+// the content of the first cell in that column.
+public static string GetColumnHeading(string docName, string worksheetName, string cellName)
+{</description>
+    </item>
+    
+    <item>
+      <title>Get worksheet information</title>
+      <link>http://192.168.1.240:1313/cellsnet/plugins/asposecellsforopenxml/codecomparisonforcommonfeatureswithopenxml/get&#43;worksheet&#43;information/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.1.240:1313/cellsnet/plugins/asposecellsforopenxml/codecomparisonforcommonfeatureswithopenxml/get&#43;worksheet&#43;information/</guid>
+      <description>OpenXML Excel
+string FilePath = @&amp;quot;........\Sample Files&amp;quot;;
+string FileName = FilePath + &amp;ldquo;Get worksheet information.xlsx&amp;rdquo;;
+GetSheetInfo(FileName);
+Console.ReadKey();
+}
+public static void GetSheetInfo(string fileName)
+{
+// Open file as read-only.
+using (SpreadsheetDocument mySpreadsheet = SpreadsheetDocument.Open(fileName, false))
+{
+S sheets = mySpreadsheet.WorkbookPart.Workbook.Sheets;
+// For each sheet, display the sheet information.
+foreach (E sheet in sheets)
+{
+foreach (A attr in sheet.GetAttributes())
+{
+Console.WriteLine(&amp;quot;{0}: {1}&amp;quot;, attr.LocalName, attr.Value);
+}
+}
+}
+Aspose.Cells
+string FilePath = @&amp;quot;.</description>
+    </item>
+    
+    <item>
+      <title>Insert a chart</title>
+      <link>http://192.168.1.240:1313/cellsnet/plugins/asposecellsforopenxml/codecomparisonforcommonfeatureswithopenxml/insert&#43;a&#43;chart/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.1.240:1313/cellsnet/plugins/asposecellsforopenxml/codecomparisonforcommonfeatureswithopenxml/insert&#43;a&#43;chart/</guid>
+      <description>OpenXML Excel
+string FilePath = @&amp;quot;........\Sample Files&amp;quot;;
+string FileName = FilePath + &amp;ldquo;Insert a chart.xlsx&amp;rdquo;;
+string worksheetName = &amp;ldquo;Sheet1&amp;rdquo;;
+string title = &amp;ldquo;New Chart&amp;rdquo;;
+Dictionary&amp;lt;string, int&amp;gt; data = new Dictionary&amp;lt;string, int&amp;gt;();
+data.Add(&amp;ldquo;abc&amp;rdquo;, 1);
+InsertChartInSpreadsheet(FileName, worksheetName, title, data);
+// Given a document name, a worksheet name, a chart title, and a Dictionary collection of text keys
+// and corresponding integer data, creates a column chart with the text as the series and the integers as the values.</description>
+    </item>
+    
+    <item>
+      <title>Insert a new worksheet</title>
+      <link>http://192.168.1.240:1313/cellsnet/plugins/asposecellsforopenxml/codecomparisonforcommonfeatureswithopenxml/insert&#43;a&#43;new&#43;worksheet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.1.240:1313/cellsnet/plugins/asposecellsforopenxml/codecomparisonforcommonfeatureswithopenxml/insert&#43;a&#43;new&#43;worksheet/</guid>
+      <description>OpenXML Excel
+string FilePath = @&amp;quot;........\Sample Files&amp;quot;;
+string FileName = FilePath + &amp;ldquo;Insert a new worksheet.xlsx&amp;rdquo;;
+InsertWorksheet(FileName);
+}
+private static void InsertWorksheet(string docName)
+{
+// Open the document for editing.
+using (SpreadsheetDocument spreadSheet = SpreadsheetDocument.Open(docName, true))
+{
+// Add a blank WorksheetPart.
+WorksheetPart newWorksheetPart = spreadSheet.WorkbookPart.AddNewPart();
+newWorksheetPart.Worksheet = new Worksheet(new SheetData());
+Sheets sheets = spreadSheet.WorkbookPart.Workbook.GetFirstChild();
+string relationshipId = spreadSheet.WorkbookPart.GetIdOfPart(newWorksheetPart);
+// Get a unique ID for the new worksheet.
+uint sheetId = 1;</description>
+    </item>
+    
+    <item>
+      <title>Insert text into a cell</title>
+      <link>http://192.168.1.240:1313/cellsnet/plugins/asposecellsforopenxml/codecomparisonforcommonfeatureswithopenxml/insert&#43;text&#43;into&#43;a&#43;cell/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.1.240:1313/cellsnet/plugins/asposecellsforopenxml/codecomparisonforcommonfeatureswithopenxml/insert&#43;text&#43;into&#43;a&#43;cell/</guid>
+      <description>OpenXML Excel
+string FilePath = @&amp;quot;........\Sample Files&amp;quot;;
+string FileName = FilePath + &amp;ldquo;Insert text into a cell.xlsx&amp;rdquo;;
+InsertText(FileName, &amp;ldquo;Inserted Text&amp;rdquo;);
+// Given a document name and text,
+// inserts a new work sheet and writes the text to cell &amp;ldquo;A1&amp;rdquo; of the new worksheet.
+public static void InsertText(string docName, string text)
+{
+// Open the document for editing.
+using (SpreadsheetDocument spreadSheet = SpreadsheetDocument.Open(docName, true))
+{
+// Get the SharedStringTablePart. If it does not exist, create a new one.</description>
+    </item>
+    
+    <item>
+      <title>Merge two adjacent cells</title>
+      <link>http://192.168.1.240:1313/cellsnet/plugins/asposecellsforopenxml/codecomparisonforcommonfeatureswithopenxml/merge&#43;two&#43;adjacent&#43;cells/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.1.240:1313/cellsnet/plugins/asposecellsforopenxml/codecomparisonforcommonfeatureswithopenxml/merge&#43;two&#43;adjacent&#43;cells/</guid>
+      <description>OpenXML Excel
+string FilePath = @&amp;quot;........\Sample Files&amp;quot;;
+string FileName = FilePath + &amp;ldquo;Merge two adjacent cells.xlsx&amp;rdquo;;
+string sheetName = &amp;ldquo;Sheet1&amp;rdquo;;
+string cell1Name = &amp;ldquo;A2&amp;rdquo;;
+string cell2Name = &amp;ldquo;B2&amp;rdquo;;
+MergeTwoCells(FileName, sheetName, cell1Name, cell2Name);
+// Given a document name, a worksheet name, and the names of two adjacent cells, merges the two cells.
+// When two cells are merged, only the content from one cell is preserved:
+// the upper-left cell for left-to-right languages or the upper-right cell for right-to-left languages.</description>
+    </item>
+    
+    <item>
+      <title>Open a spreadsheet document for read-only access</title>
+      <link>http://192.168.1.240:1313/cellsnet/plugins/asposecellsforopenxml/codecomparisonforcommonfeatureswithopenxml/open&#43;a&#43;spreadsheet&#43;document&#43;for&#43;read-only&#43;access/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.1.240:1313/cellsnet/plugins/asposecellsforopenxml/codecomparisonforcommonfeatureswithopenxml/open&#43;a&#43;spreadsheet&#43;document&#43;for&#43;read-only&#43;access/</guid>
+      <description>OpenXML Excel
+string FilePath = @&amp;quot;........\Sample Files&amp;quot;;
+string FileName = FilePath + &amp;ldquo;Open a spreadsheet document for read-only access.xlsx&amp;rdquo;;
+OpenSpreadsheetDocumentReadonly(FileName);
+}
+public static void OpenSpreadsheetDocumentReadonly(string filepath)
+{
+// Open a SpreadsheetDocument based on a filepath.
+using (SpreadsheetDocument spreadsheetDocument = SpreadsheetDocument.Open(filepath, false))
+{
+// Attempt to add a new WorksheetPart.
+// The call to AddNewPart generates an exception because the file is read-only.
+WorksheetPart newWorksheetPart = spreadsheetDocument.WorkbookPart.AddNewPart();
+// The rest of the code will not be called.</description>
+    </item>
+    
+    <item>
+      <title>Open a spreadsheet document from a stream</title>
+      <link>http://192.168.1.240:1313/cellsnet/plugins/asposecellsforopenxml/codecomparisonforcommonfeatureswithopenxml/open&#43;a&#43;spreadsheet&#43;document&#43;from&#43;a&#43;stream/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.1.240:1313/cellsnet/plugins/asposecellsforopenxml/codecomparisonforcommonfeatureswithopenxml/open&#43;a&#43;spreadsheet&#43;document&#43;from&#43;a&#43;stream/</guid>
+      <description>OpenXML Excel
+string FilePath = @&amp;quot;........\Sample Files&amp;quot;;
+string FileName = FilePath + &amp;ldquo;Open a spreadsheet document from a stream.xlsx&amp;rdquo;;
+Stream stream = File.Open(FileName, FileMode.Open);
+OpenAndAddToSpreadsheetStream(stream);
+stream.Close();
+public static void OpenAndAddToSpreadsheetStream(Stream stream)
+{
+// Open a SpreadsheetDocument based on a stream.
+SpreadsheetDocument spreadsheetDocument =
+SpreadsheetDocument.Open(stream, true);
+// Add a new worksheet.
+WorksheetPart newWorksheetPart = spreadsheetDocument.WorkbookPart.AddNewPart();
+newWorksheetPart.Worksheet = new Worksheet(new SheetData());
+newWorksheetPart.Worksheet.Save();
+Sheets sheets = spreadsheetDocument.WorkbookPart.Workbook.GetFirstChild();
+string relationshipId = spreadsheetDocument.WorkbookPart.GetIdOfPart(newWorksheetPart);
+// Get a unique ID for the new worksheet.</description>
+    </item>
+    
+    <item>
+      <title>Retrieve a dictionary of all named ranges in a spreadsheet document</title>
+      <link>http://192.168.1.240:1313/cellsnet/plugins/asposecellsforopenxml/codecomparisonforcommonfeatureswithopenxml/retrieve&#43;a&#43;dictionary&#43;of&#43;all&#43;named&#43;ranges&#43;in&#43;a&#43;spreadsheet&#43;document/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.1.240:1313/cellsnet/plugins/asposecellsforopenxml/codecomparisonforcommonfeatureswithopenxml/retrieve&#43;a&#43;dictionary&#43;of&#43;all&#43;named&#43;ranges&#43;in&#43;a&#43;spreadsheet&#43;document/</guid>
+      <description>OpenXML Excel
+string FilePath = @&amp;quot;........\Sample Files&amp;quot;;
+string FileName = FilePath + &amp;ldquo;Retrieve a dictionary of all named ranges.xlsx&amp;rdquo;;
+Dictionary&amp;lt;String, String&amp;gt; ranges = GetDefinedNames(FileName);
+public static Dictionary&amp;lt;String, String&amp;gt; GetDefinedNames(String fileName)
+{
+// Given a workbook name, return a dictionary of defined names.
+// The pairs include the range name and a string representing the range.
+var returnValue = new Dictionary&amp;lt;String, String&amp;gt;();
+// Open the spreadsheet document for read-only access.
+using (SpreadsheetDocument document =</description>
+    </item>
+    
+    <item>
+      <title>Retrieve the values of cells</title>
+      <link>http://192.168.1.240:1313/cellsnet/plugins/asposecellsforopenxml/codecomparisonforcommonfeatureswithopenxml/retrieve&#43;the&#43;values&#43;of&#43;cells/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.1.240:1313/cellsnet/plugins/asposecellsforopenxml/codecomparisonforcommonfeatureswithopenxml/retrieve&#43;the&#43;values&#43;of&#43;cells/</guid>
+      <description>OpenXML SDK
+string FilePath = @&amp;quot;........\Sample Files&amp;quot;;
+string FileName = FilePath + &amp;ldquo;Retrieve the values of cells.xlsx&amp;rdquo;;
+// Retrieve the value in cell A1.
+string value = GetCellValue(FileName, &amp;ldquo;Sheet1&amp;rdquo;, &amp;ldquo;A1&amp;rdquo;);
+Console.WriteLine(value);
+// Retrieve the value of a cell, given a file name, sheet name,
+// and address name.
+public static string GetCellValue(string fileName,
+string sheetName,
+string addressName)
+{
+string value = null;
+// Open the spreadsheet document for read-only access.</description>
+    </item>
+    
+  </channel>
+</rss>

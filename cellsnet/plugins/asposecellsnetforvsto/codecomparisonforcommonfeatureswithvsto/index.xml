@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Code Comparison for common features with VSTO on Aspose.Cells Product Family</title>
+    <link>http://192.168.1.240:1313/cellsnet/plugins/asposecellsnetforvsto/codecomparisonforcommonfeatureswithvsto/</link>
+    <description>Recent content in Code Comparison for common features with VSTO on Aspose.Cells Product Family</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://192.168.1.240:1313/cellsnet/plugins/asposecellsnetforvsto/codecomparisonforcommonfeatureswithvsto/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Add Borders to Cells in a Worksheet in VSTO and Aspose.Cells</title>
+      <link>http://192.168.1.240:1313/cellsnet/plugins/asposecellsnetforvsto/codecomparisonforcommonfeatureswithvsto/add&#43;borders&#43;to&#43;cells&#43;in&#43;a&#43;worksheet&#43;in&#43;vsto&#43;and&#43;aspose.cells/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.1.240:1313/cellsnet/plugins/asposecellsnetforvsto/codecomparisonforcommonfeatureswithvsto/add&#43;borders&#43;to&#43;cells&#43;in&#43;a&#43;worksheet&#43;in&#43;vsto&#43;and&#43;aspose.cells/</guid>
+      <description>To add borders to cells in a spreadsheet, take the following steps:
+ Set up the worksheet:  Instantiate an Application object(VSTO only) Add a Workbook Get the first sheet Add text to the cells that you&amp;rsquo;ll add borders to   Add borders:  Define a range Apply a border style to the range Repeat for each range and each border style you want to set. This example applies hairlines, thin,medium and thick lines   Finish:  Autofit the column that the cells are in to fit the text neatly Save the document    These steps are shown in code below.</description>
+    </item>
+    
+    <item>
+      <title>Add Hyperlinks to Cells in VSTO and Aspose.Cells</title>
+      <link>http://192.168.1.240:1313/cellsnet/plugins/asposecellsnetforvsto/codecomparisonforcommonfeatureswithvsto/add&#43;hyperlinks&#43;to&#43;cells&#43;in&#43;vsto&#43;and&#43;aspose.cells/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.1.240:1313/cellsnet/plugins/asposecellsnetforvsto/codecomparisonforcommonfeatureswithvsto/add&#43;hyperlinks&#43;to&#43;cells&#43;in&#43;vsto&#43;and&#43;aspose.cells/</guid>
+      <description>To add hyperlinks to cells in a spreadsheet, take the following steps:
+ Set up the worksheet:  Instantiate an Application object.(VSTO only.) Add a Workbook. Get the first sheet. Add text to the cells that you&amp;rsquo;ll add a hyperlink to.   Add hyperlink. Save the document.  These steps are shown in the code examples below. The first examples shows how to use VSTO with either C# to add a hyperlink to a cell.</description>
+    </item>
+    
+    <item>
+      <title>Adding New Worksheets to Workbook and Activating a Sheet in VSTO and Aspose.Cells</title>
+      <link>http://192.168.1.240:1313/cellsnet/plugins/asposecellsnetforvsto/codecomparisonforcommonfeatureswithvsto/adding&#43;new&#43;worksheets&#43;to&#43;workbook&#43;and&#43;activating&#43;a&#43;sheet&#43;in&#43;vsto&#43;and&#43;aspose.cells/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.1.240:1313/cellsnet/plugins/asposecellsnetforvsto/codecomparisonforcommonfeatureswithvsto/adding&#43;new&#43;worksheets&#43;to&#43;workbook&#43;and&#43;activating&#43;a&#43;sheet&#43;in&#43;vsto&#43;and&#43;aspose.cells/</guid>
+      <description>Migration tip:
+ Add new worksheets to an existing Microsoft Excel file. Fill data into the cells of each new worksheet. Activate a sheet in the workbook. Save as Microsoft Excel file.  Below, are parallel code snippets for VSTO (C#) and Aspose.Cells for .NET (C#), that show how to achieve these tasks.
+VSTO
+//intiate application object
+Excel.Application excelApp = Application;
+//Specify the template excel file path.
+string myPath = &amp;ldquo;Book1.</description>
+    </item>
+    
+    <item>
+      <title>Apply Styles to Ranges in Workbooks</title>
+      <link>http://192.168.1.240:1313/cellsnet/plugins/asposecellsnetforvsto/codecomparisonforcommonfeatureswithvsto/apply&#43;styles&#43;to&#43;ranges&#43;in&#43;workbooks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.1.240:1313/cellsnet/plugins/asposecellsnetforvsto/codecomparisonforcommonfeatureswithvsto/apply&#43;styles&#43;to&#43;ranges&#43;in&#43;workbooks/</guid>
+      <description>Below is the code comparison of applying style to rows and columns of workbooks:
+VSTO
+Excel.Workbook myWorkbook = this.Application.Workbooks.Open(fileName);
+Excel.Worksheet mySheet = myWorkbook.ActiveSheet;
+Excel.Style style = this.Application.ActiveWorkbook.Styles.Add(&amp;ldquo;NewStyle&amp;rdquo;);
+style.Font.Name = &amp;ldquo;Verdana&amp;rdquo;;
+style.Font.Size = 12;
+style.Font.Color = System.Drawing.ColorTranslator.ToOle(System.Drawing.Color.Red);
+style.Interior.Color = System.Drawing.ColorTranslator.ToOle(System.Drawing.Color.Gray);
+style.Interior.Pattern = Excel.XlPattern.xlPatternSolid;
+Excel.Range FormatingRange = mySheet.get_Range(&amp;ldquo;A1&amp;rdquo;, &amp;ldquo;A10&amp;rdquo;);
+FormatingRange.Style = &amp;ldquo;NewStyle&amp;rdquo;;
+Aspose.Cells
+Workbook myWorkbook = new Workbook(fileName);
+Worksheet mySheet = myWorkbook.Worksheets[myWorkbook.Worksheets.ActiveSheetIndex];
+Style style = myWorkbook.CreateStyle();
+style.VerticalAlignment = TextAlignmentType.Center;
+//Setting the horizontal alignment of the text in the &amp;ldquo;A1&amp;rdquo; cell</description>
+    </item>
+    
+    <item>
+      <title>Auto Filter Data in VSTO and Aspose.Cells</title>
+      <link>http://192.168.1.240:1313/cellsnet/plugins/asposecellsnetforvsto/codecomparisonforcommonfeatureswithvsto/auto&#43;filter&#43;data&#43;in&#43;vsto&#43;and&#43;aspose.cells/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.1.240:1313/cellsnet/plugins/asposecellsnetforvsto/codecomparisonforcommonfeatureswithvsto/auto&#43;filter&#43;data&#43;in&#43;vsto&#43;and&#43;aspose.cells/</guid>
+      <description>To apply auto-filtering to a column:
+ Create a workbook. Get a worksheet. Add sample data. Apply auto-filter. Auto-fit columns to make the display attractive. Save the spreadsheet.  The code samples in this article show how to perform these steps using VSTO with either C#, or using Apose.Cells, again with either C#.
+VSTO
+Excel.Application ExcelApp = Application;
+//Add a Workbook.
+Excel.Workbook objBook = ExcelApp.Workbooks.Add(System.Reflection.Missing.Value);
+//Get the First sheet.
+Excel.Worksheet sheet = (Excel.</description>
+    </item>
+    
+    <item>
+      <title>Copy Worksheets</title>
+      <link>http://192.168.1.240:1313/cellsnet/plugins/asposecellsnetforvsto/codecomparisonforcommonfeatureswithvsto/copy&#43;worksheets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.1.240:1313/cellsnet/plugins/asposecellsnetforvsto/codecomparisonforcommonfeatureswithvsto/copy&#43;worksheets/</guid>
+      <description>Migration Tip:
+\1. Create Workbook object and get Worksheet. \2. Insert text in worksheet. \3. Create new Worksheet and Copy it to previous before made worksheet.
+VSTO
+Error rendering macro &amp;lsquo;code&amp;rsquo; : Invalid value specified for parameter lang
+Aspose.Cells
+private static string fileName =&amp;quot;CopyWorksheets.xlsx&amp;rdquo;;
+Workbook newWorkbook = new Workbook();
+Worksheet worksheet = newWorkbook.Worksheets.Add(&amp;ldquo;New Sheet&amp;rdquo;);
+Cells cells = worksheet.Cells;
+cells[0, 0].PutValue(&amp;ldquo;Some Text&amp;rdquo;);
+Worksheet worksheet2 = newWorkbook.Worksheets.Add(&amp;ldquo;MySheet&amp;rdquo;);
+worksheet2.Copy(worksheet);
+newWorkbook.Save(fileName);
+Download
+ CodePlex GitHub  </description>
+    </item>
+    
+    <item>
+      <title>Create and Save New Workbooks</title>
+      <link>http://192.168.1.240:1313/cellsnet/plugins/asposecellsnetforvsto/codecomparisonforcommonfeatureswithvsto/create&#43;and&#43;save&#43;new&#43;workbooks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.1.240:1313/cellsnet/plugins/asposecellsnetforvsto/codecomparisonforcommonfeatureswithvsto/create&#43;and&#43;save&#43;new&#43;workbooks/</guid>
+      <description>Migration Tips:
+\1. Create Workbook object \2. Get current Worksheet. \3. Insert some text in any cell. \4. Save the Workbook.
+VSTO
+Below is code example for VSTO
+Excel.Workbook newWorkbook = this.Application.Workbooks.Add();
+Excel.Worksheet worksheet = newWorkbook.ActiveSheet;
+Excel.Range cells = worksheet.Cells;
+cells.set_Item(1,1,&amp;ldquo;Some Text&amp;rdquo;);
+newWorkbook.Save();
+Aspose.Cells
+Below is code example for Aspose.Cells
+Workbook newWorkbook = new Workbook();
+Worksheet worksheet = newWorkbook.Worksheets.Add(&amp;ldquo;New Sheet&amp;rdquo;);
+Cells cells = worksheet.Cells;
+cells[0,0].PutValue(&amp;ldquo;Some Text&amp;rdquo;);
+newWorkbook.Save(fileName);
+Download
+ CodePlex GitHub  </description>
+    </item>
+    
+    <item>
+      <title>Create a Pie Chart in VSTO and Aspose.Cells</title>
+      <link>http://192.168.1.240:1313/cellsnet/plugins/asposecellsnetforvsto/codecomparisonforcommonfeatureswithvsto/create&#43;a&#43;pie&#43;chart&#43;in&#43;vsto&#43;and&#43;aspose.cells/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.1.240:1313/cellsnet/plugins/asposecellsnetforvsto/codecomparisonforcommonfeatureswithvsto/create&#43;a&#43;pie&#43;chart&#43;in&#43;vsto&#43;and&#43;aspose.cells/</guid>
+      <description>This article compares how to create a pie chart using Office Automation and VSTO to using Aspose.Cells for .NET. The steps for creating a pie chart are:
+ Creating a workbook and worksheet. Adding sample data. Referencing productsChart. Adding a pie chart, defining the data range and chart title. Saving spreadsheet. The code samples in this article show how to add a pie chart with VSTO, using either C#, compared to creating one with Aspose.</description>
+    </item>
+    
+    <item>
+      <title>Creating a Named Range in VSTO and Aspose.Cells</title>
+      <link>http://192.168.1.240:1313/cellsnet/plugins/asposecellsnetforvsto/codecomparisonforcommonfeatureswithvsto/creating&#43;a&#43;named&#43;range&#43;in&#43;vsto&#43;and&#43;aspose.cells/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.1.240:1313/cellsnet/plugins/asposecellsnetforvsto/codecomparisonforcommonfeatureswithvsto/creating&#43;a&#43;named&#43;range&#43;in&#43;vsto&#43;and&#43;aspose.cells/</guid>
+      <description>To create a named range:
+ Set up the worksheet:  Instantiate an Application object.(VSTO only.) Add a Workbook. Get the first sheet.   Create a named range:  Define a range. Name the range. Save the file.    The code examples below show how to perform these steps using VSTO with either C#. The code examples that follow show how to do the same thing using Aspose.</description>
+    </item>
+    
+    <item>
+      <title>Delete Worksheets from Workbooks</title>
+      <link>http://192.168.1.240:1313/cellsnet/plugins/asposecellsnetforvsto/codecomparisonforcommonfeatureswithvsto/delete&#43;worksheets&#43;from&#43;workbooks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.1.240:1313/cellsnet/plugins/asposecellsnetforvsto/codecomparisonforcommonfeatureswithvsto/delete&#43;worksheets&#43;from&#43;workbooks/</guid>
+      <description>You can delete any worksheet in a workbook. To delete a worksheet, use the worksheet host item or access the worksheet by using the sheets collection of the workbook.
+VSTO
+Excel.Workbook myWorkbook= this.Application.Workbooks.Open(fileName);
+myWorkbook.Sheets[2].Delete();
+Aspose.Cells
+Workbook myWorkbook = new Workbook(fileName);
+myWorkbook.Worksheets.RemoveAt(1);
+myWorkbook.Save(fileName);
+Download
+ CodePlex GitHub  </description>
+    </item>
+    
+    <item>
+      <title>Display String in Worksheet Cell</title>
+      <link>http://192.168.1.240:1313/cellsnet/plugins/asposecellsnetforvsto/codecomparisonforcommonfeatureswithvsto/display&#43;string&#43;in&#43;worksheet&#43;cell/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.1.240:1313/cellsnet/plugins/asposecellsnetforvsto/codecomparisonforcommonfeatureswithvsto/display&#43;string&#43;in&#43;worksheet&#43;cell/</guid>
+      <description>VSTO
+Excel.Workbook myWorkbook = this.Application.Workbooks.Open(fileName);
+Excel.Worksheet mySheet = myWorkbook.ActiveSheet;
+Excel.Range cells = mySheet.Cells;
+cells.set_Item(1, 1, &amp;ldquo;Some Text&amp;rdquo;);
+Aspose.Cells
+Workbook myWorkbook = new Workbook(fileName);
+Worksheet mySheet = myWorkbook.Worksheets[myWorkbook.Worksheets.ActiveSheetIndex];
+Cells cells = mySheet.Cells;
+cells[0, 0].PutValue(&amp;ldquo;Some Text&amp;rdquo;);
+myWorkbook.Save(fileName);
+Download
+ CodePlex GitHub  </description>
+    </item>
+    
+    <item>
+      <title>Find Specific Word Occurrence</title>
+      <link>http://192.168.1.240:1313/cellsnet/plugins/asposecellsnetforvsto/codecomparisonforcommonfeatureswithvsto/find&#43;specific&#43;word&#43;occurrence/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.1.240:1313/cellsnet/plugins/asposecellsnetforvsto/codecomparisonforcommonfeatureswithvsto/find&#43;specific&#43;word&#43;occurrence/</guid>
+      <description>VSTO Excel
+Excel.Application excelApp = Application;
+//Specify the template excel file path.
+string myPath = &amp;ldquo;List All Worksheets in a Workbook.xls&amp;rdquo;;
+//Open the excel file.
+Microsoft.Office.Interop.Excel.Workbook ThisWorkbook = excelApp.Workbooks.Open(myPath, Missing.Value, Missing.Value,
+Missing.Value, Missing.Value,
+Missing.Value, Missing.Value,
+Missing.Value, Missing.Value,
+Missing.Value, Missing.Value,
+Missing.Value, Missing.Value,
+Missing.Value, Missing.Value);
+Excel.Worksheet Worksheet = ThisWorkbook.Worksheets[&amp;ldquo;Sheet1&amp;rdquo;];
+findNow(Worksheet, &amp;ldquo;test&amp;rdquo;);
+//Save the file.
+excelApp.ActiveWorkbook.Save();
+excelApp.Quit();
+Aspose.Cells
+static void Main(string[] args)
+{
+//Instantiate a new Workbook.
+Workbook workbook = new Workbook();
+//Specify the template Excel file path.</description>
+    </item>
+    
+    <item>
+      <title>Get Text of Specific Cell</title>
+      <link>http://192.168.1.240:1313/cellsnet/plugins/asposecellsnetforvsto/codecomparisonforcommonfeatureswithvsto/get&#43;text&#43;of&#43;specific&#43;cell/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.1.240:1313/cellsnet/plugins/asposecellsnetforvsto/codecomparisonforcommonfeatureswithvsto/get&#43;text&#43;of&#43;specific&#43;cell/</guid>
+      <description>VSTO
+//Instantiate the Application object.
+Excel.Application excelApp = Application;
+//Specify the template excel file path.
+string myPath = &amp;ldquo;Get Text of Specific Cell.xlsx&amp;rdquo;;
+//Open the excel file.
+Microsoft.Office.Interop.Excel.Workbook ThisWorkbook = excelApp.Workbooks.Open(myPath, Missing.Value, Missing.Value,
+Missing.Value, Missing.Value,
+Missing.Value, Missing.Value,
+Missing.Value, Missing.Value,
+Missing.Value, Missing.Value,
+Missing.Value, Missing.Value,
+Missing.Value, Missing.Value);
+String res = &amp;ldquo;&amp;quot;;
+res = ThisWorkbook.Worksheets[&amp;ldquo;Sheet1&amp;rdquo;].Range(&amp;ldquo;A1&amp;rdquo;).Text;
+MessageBox.Show(res);
+//Save the file.
+excelApp.ActiveWorkbook.Save();
+excelApp.Quit();
+Aspose
+//Specify the excel file path.
+string myPath = &amp;ldquo;Get Text of Specific Cell.</description>
+    </item>
+    
+    <item>
+      <title>Hide and Unhide Worksheets in a Workbook in VSTO and Aspose.Cells</title>
+      <link>http://192.168.1.240:1313/cellsnet/plugins/asposecellsnetforvsto/codecomparisonforcommonfeatureswithvsto/hide&#43;and&#43;unhide&#43;worksheets&#43;in&#43;a&#43;workbook&#43;in&#43;vsto&#43;and&#43;aspose.cells/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.1.240:1313/cellsnet/plugins/asposecellsnetforvsto/codecomparisonforcommonfeatureswithvsto/hide&#43;and&#43;unhide&#43;worksheets&#43;in&#43;a&#43;workbook&#43;in&#43;vsto&#43;and&#43;aspose.cells/</guid>
+      <description>This article compares hiding and unhiding worksheets with VSTO, using either C# or Visual Basic, to performing the same task with Aspose.Cells, again using either C# or Visual Basic. Aspose.Cells lets you work without Microsoft Excel installed.
+The steps to hide a worksheet are:
+ Open a file. Get a worksheet. Hide the worksheet. Save the file. To unhide a worksheet again, simply toggle visibility on for the hidden sheet.  The code samples below first show how to hide a worksheet.</description>
+    </item>
+    
+    <item>
+      <title>Inserting and Removing Cell Comments in a Worksheet in VSTO and Aspose.Cells</title>
+      <link>http://192.168.1.240:1313/cellsnet/plugins/asposecellsnetforvsto/codecomparisonforcommonfeatureswithvsto/inserting&#43;and&#43;removing&#43;cell&#43;comments&#43;in&#43;a&#43;worksheet&#43;in&#43;vsto&#43;and&#43;aspose.cells/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.1.240:1313/cellsnet/plugins/asposecellsnetforvsto/codecomparisonforcommonfeatureswithvsto/inserting&#43;and&#43;removing&#43;cell&#43;comments&#43;in&#43;a&#43;worksheet&#43;in&#43;vsto&#43;and&#43;aspose.cells/</guid>
+      <description>To add comments to cells:
+ Open an existing Excel file. Add a comment to a cell. Save the file.  To remove the comments, the process is similar, with the exception that the comment is removed.
+The code samples below illustrate first how to add a comment and then how to remove a comment with either VSTO or Aspose.Cells for .NET.
+Inserting Comments
+These code snippets show how to add a comment to a cell first with VSTO (C#) and then with Aspose.</description>
+    </item>
+    
+    <item>
+      <title>List All Worksheets in a Workbook</title>
+      <link>http://192.168.1.240:1313/cellsnet/plugins/asposecellsnetforvsto/codecomparisonforcommonfeatureswithvsto/list&#43;all&#43;worksheets&#43;in&#43;a&#43;workbook/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.1.240:1313/cellsnet/plugins/asposecellsnetforvsto/codecomparisonforcommonfeatureswithvsto/list&#43;all&#43;worksheets&#43;in&#43;a&#43;workbook/</guid>
+      <description>VSTO
+Excel.Application excelApp = Application;
+//Specify the template excel file path.
+string myPath = &amp;ldquo;List All Worksheets in a Workbook.xlsx&amp;rdquo;;
+//Open the excel file.
+Microsoft.Office.Interop.Excel.Workbook ThisWorkbook = excelApp.Workbooks.Open(myPath, Missing.Value, Missing.Value,
+Missing.Value, Missing.Value,
+Missing.Value, Missing.Value,
+Missing.Value, Missing.Value,
+Missing.Value, Missing.Value,
+Missing.Value, Missing.Value,
+Missing.Value, Missing.Value);
+ListSheets(ThisWorkbook);
+}
+private void ListSheets(Microsoft.Office.Interop.Excel.Workbook workbook)
+{
+int index = 0;
+Excel.Range rng = this.Application.get_Range(&amp;ldquo;A1&amp;rdquo;, missing);
+foreach (Excel.Worksheet displayWorksheet in workbook.Worksheets)
+{
+rng.get_Offset(index, 0).Value2 = displayWorksheet.Name;
+index++;
+}</description>
+    </item>
+    
+    <item>
+      <title>Merge or UnMerge Cells in a Worksheet in VSTO and Aspose.Cells</title>
+      <link>http://192.168.1.240:1313/cellsnet/plugins/asposecellsnetforvsto/codecomparisonforcommonfeatureswithvsto/merge&#43;or&#43;unmerge&#43;cells&#43;in&#43;a&#43;worksheet&#43;in&#43;vsto&#43;and&#43;aspose.cells/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.1.240:1313/cellsnet/plugins/asposecellsnetforvsto/codecomparisonforcommonfeatureswithvsto/merge&#43;or&#43;unmerge&#43;cells&#43;in&#43;a&#43;worksheet&#43;in&#43;vsto&#43;and&#43;aspose.cells/</guid>
+      <description>Open an existing excel file, Merge some cells in the first worksheet in the workbook and save the excel file.
+Merging Cells
+VSTO
+Following are the parallel code snippets for VSTO (C#) and Aspose.Cells for .NET (C#).
+//Instantiate the Application object.
+Excel.Application excelApp = Application;
+//Specify the template excel file path.
+string myPath = &amp;ldquo;Book1.xls&amp;rdquo;;
+//Open the excel file.
+excelApp.Workbooks.Open(myPath, Missing.Value, Missing.Value,
+Missing.Value, Missing.Value,
+Missing.Value, Missing.Value,
+Missing.Value, Missing.Value,
+Missing.Value, Missing.Value,</description>
+    </item>
+    
+    <item>
+      <title>Open Text Files as Workbooks</title>
+      <link>http://192.168.1.240:1313/cellsnet/plugins/asposecellsnetforvsto/codecomparisonforcommonfeatureswithvsto/open&#43;text&#43;files&#43;as&#43;workbooks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.1.240:1313/cellsnet/plugins/asposecellsnetforvsto/codecomparisonforcommonfeatureswithvsto/open&#43;text&#43;files&#43;as&#43;workbooks/</guid>
+      <description>Below are comparison code example for opening textfile as Workbooks:
+VSTO
+this.Application.Workbooks.OpenText(@&amp;ldquo;OpenTextFilesAsWorkbooks.txt&amp;rdquo;,
+missing, 3,
+Excel.XlTextParsingType.xlDelimited,
+Excel.XlTextQualifier.xlTextQualifierNone,
+missing, missing, missing, true, missing, missing, missing,
+missing, missing, missing, missing, missing, missing);
+Aspose.Cells
+private static string fileName = &amp;ldquo;OpenTextFilesAsWorkbooks.xlsx&amp;rdquo;;
+private static string TextFile = &amp;ldquo;OpenTextFilesAsWorkbooks.txt&amp;rdquo;;
+//loadoption to represent the option of load file
+LoadOptions loadOptions = new LoadOptions(LoadFormat.CSV);
+Workbook newWorkbook = new Workbook(TextFile, loadOptions);
+newWorkbook.Save(fileName);
+Download
+ CodePlex GitHub  </description>
+    </item>
+    
+    <item>
+      <title>Protect and unProtect Worksheets</title>
+      <link>http://192.168.1.240:1313/cellsnet/plugins/asposecellsnetforvsto/codecomparisonforcommonfeatureswithvsto/protect&#43;and&#43;unprotect&#43;worksheets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.1.240:1313/cellsnet/plugins/asposecellsnetforvsto/codecomparisonforcommonfeatureswithvsto/protect&#43;and&#43;unprotect&#43;worksheets/</guid>
+      <description>VSTO
+//Instantiate the Application object.
+Excel.Application excelApp = Application;
+//Excel.Application excelApp = Application;
+//Specify the template excel file path.
+string myPath = &amp;ldquo;Protect and unProtect Worksheets.xlsx&amp;rdquo;;
+//Open the excel file.
+excelApp.Workbooks.Open(myPath, Missing.Value, Missing.Value,
+Missing.Value, Missing.Value,
+Missing.Value, Missing.Value,
+Missing.Value, Missing.Value,
+Missing.Value, Missing.Value,
+Missing.Value, Missing.Value,
+Missing.Value, Missing.Value);
+//Protect the worksheet specifying a password with Structure and Windows attributes.
+((Excel.Worksheet)excelApp.ActiveSheet).Protect(&amp;ldquo;thispassword&amp;rdquo;,
+missing, missing, missing, missing, missing, missing, missing, missing,
+missing, missing, missing, missing, true, missing, missing);</description>
+    </item>
+    
+    <item>
+      <title>Protecting and Unprotecting Workbooks in VSTO and Aspose.Cells</title>
+      <link>http://192.168.1.240:1313/cellsnet/plugins/asposecellsnetforvsto/codecomparisonforcommonfeatureswithvsto/protecting&#43;and&#43;unprotecting&#43;workbooks&#43;in&#43;vsto&#43;and&#43;aspose.cells/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.1.240:1313/cellsnet/plugins/asposecellsnetforvsto/codecomparisonforcommonfeatureswithvsto/protecting&#43;and&#43;unprotecting&#43;workbooks&#43;in&#43;vsto&#43;and&#43;aspose.cells/</guid>
+      <description>To open an existing Microsoft Excel file, protect the workbook with structure and Windows attributes and save the file.
+Below are parallel code snippets for VSTO (C#) and Aspose.Cells for .NET (C#) that show how to protect a workbook.
+VSTO
+Protecting Workbook
+//Instantiate the Application object.
+Excel.Application excelApp = Application;
+//Excel.Application excelApp = Application;
+//Specify the template excel file path.
+string myPath = &amp;ldquo;MyBook.xls&amp;rdquo;;
+//Open the excel file.
+excelApp.Workbooks.Open(myPath, Missing.Value, Missing.</description>
+    </item>
+    
+    <item>
+      <title>Rotating Cell Text in VSTO and Aspose.Cells</title>
+      <link>http://192.168.1.240:1313/cellsnet/plugins/asposecellsnetforvsto/codecomparisonforcommonfeatureswithvsto/rotating&#43;cell&#43;text&#43;in&#43;vsto&#43;and&#43;aspose.cells/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.1.240:1313/cellsnet/plugins/asposecellsnetforvsto/codecomparisonforcommonfeatureswithvsto/rotating&#43;cell&#43;text&#43;in&#43;vsto&#43;and&#43;aspose.cells/</guid>
+      <description>To rotate text in a cell on a worksheet, take the following steps:
+ Create a workbook and get a worksheet. Add samples text. Format the text: rotate, add background colour. Save the file. The code samples that follow show how to perform these steps first in VSTO, using either C#, and then in Aspose.Cells, again using either C#.  VSTO
+//intiate Application object
+Excel.Application ExcelApp = Application;
+//Add a Workbook.</description>
+    </item>
+    
+    <item>
+      <title>Set Background Picture of a Worksheet in VSTO and Aspose.Cells</title>
+      <link>http://192.168.1.240:1313/cellsnet/plugins/asposecellsnetforvsto/codecomparisonforcommonfeatureswithvsto/set&#43;background&#43;picture&#43;of&#43;a&#43;worksheet&#43;in&#43;vsto&#43;and&#43;aspose.cells/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.1.240:1313/cellsnet/plugins/asposecellsnetforvsto/codecomparisonforcommonfeatureswithvsto/set&#43;background&#43;picture&#43;of&#43;a&#43;worksheet&#43;in&#43;vsto&#43;and&#43;aspose.cells/</guid>
+      <description>To apply a background image to a spreadsheet:
+ Create a workbook and access the sheet you want to apply a background image to. Apply the background image. Save the workbook.  The code samples that follow show how to do this first with VSTO, using either C# or Visual Basic, and then with Aspose.Cells for .NET, again using either C# or Visual Basic.
+The code examples in this article create a worksheet with a repeating background image, like the one in the screentshot below.</description>
+    </item>
+    
+    <item>
+      <title>Sort Data in Worksheets</title>
+      <link>http://192.168.1.240:1313/cellsnet/plugins/asposecellsnetforvsto/codecomparisonforcommonfeatureswithvsto/sort&#43;data&#43;in&#43;worksheets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.1.240:1313/cellsnet/plugins/asposecellsnetforvsto/codecomparisonforcommonfeatureswithvsto/sort&#43;data&#43;in&#43;worksheets/</guid>
+      <description>Below is the comparison code example for VSTO and Aspose.Cells.
+VSTO
+Excel.Workbook myWorkbook = this.Application.Workbooks.Open(fileName);
+Excel.Worksheet mySheet = myWorkbook.ActiveSheet;
+Excel.Range Colors = mySheet.get_Range(&amp;ldquo;A1&amp;rdquo;, &amp;ldquo;A10&amp;rdquo;);
+Colors.Sort(
+Colors.Rows[1], Excel.XlSortOrder.xlAscending,
+Colors.Rows[2], missing, Excel.XlSortOrder.xlAscending,
+missing, Excel.XlSortOrder.xlAscending,
+Excel.XlYesNoGuess.xlNo, missing, missing,
+Excel.XlSortOrientation.xlSortColumns,
+Excel.XlSortMethod.xlPinYin,
+Excel.XlSortDataOption.xlSortNormal,
+Excel.XlSortDataOption.xlSortNormal,
+Excel.XlSortDataOption.xlSortNormal);
+Aspose.Cells
+Workbook myWorkbook = new Workbook(fileName);
+Worksheet mySheet = myWorkbook.Worksheets[myWorkbook.Worksheets.ActiveSheetIndex];
+DataSorter sorter = myWorkbook.DataSorter;
+sorter.Order1 = Aspose.Cells.SortOrder.Ascending;
+sorter.Key1 = 0;
+sorter.Sort(mySheet.Cells, 0, 0, 10, 0);
+myWorkbook.Save(fileName);
+Download
+ CodePlex GitHub  </description>
+    </item>
+    
+    <item>
+      <title>Use Formulas Functions to Process Data in VSTO and Aspose.Cells</title>
+      <link>http://192.168.1.240:1313/cellsnet/plugins/asposecellsnetforvsto/codecomparisonforcommonfeatureswithvsto/use&#43;formulas&#43;functions&#43;to&#43;process&#43;data&#43;in&#43;vsto&#43;and&#43;aspose.cells/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.1.240:1313/cellsnet/plugins/asposecellsnetforvsto/codecomparisonforcommonfeatureswithvsto/use&#43;formulas&#43;functions&#43;to&#43;process&#43;data&#43;in&#43;vsto&#43;and&#43;aspose.cells/</guid>
+      <description>Adding Cell Formula
+VSTO
+//Note: To help you better, the code uses full namespacing
+private void AddingCellFormula()
+{
+//Access vsto application
+Microsoft.Office.Interop.Excel.Application app = Globals.ThisAddIn.Application;
+//Access workbook
+Microsoft.Office.Interop.Excel.Workbook workbook = app.ActiveWorkbook;
+//Access worksheet
+Microsoft.Office.Interop.Excel.Worksheet m_sheet = workbook.Worksheets[1];
+//Access vsto worksheet
+Microsoft.Office.Tools.Excel.Worksheet worksheet = Globals.Factory.GetVstoObject(m_sheet);
+//Access cells A1, A2, A3 , A4
+Microsoft.Office.Interop.Excel.Range cellA1 = worksheet.Range[&amp;ldquo;A1&amp;rdquo;];
+Microsoft.Office.Interop.Excel.Range cellA2 = worksheet.Range[&amp;ldquo;A2&amp;rdquo;];
+Microsoft.Office.Interop.Excel.Range cellA3 = worksheet.Range[&amp;ldquo;A3&amp;rdquo;];
+Microsoft.Office.Interop.Excel.Range cellA4 = worksheet.Range[&amp;ldquo;A4&amp;rdquo;];
+//Set integer values in cells A1, A2 and A3</description>
+    </item>
+    
+    <item>
+      <title>Wrapping Cell Text in VSTO and Aspose.Cells</title>
+      <link>http://192.168.1.240:1313/cellsnet/plugins/asposecellsnetforvsto/codecomparisonforcommonfeatureswithvsto/wrapping&#43;cell&#43;text&#43;in&#43;vsto&#43;and&#43;aspose.cells/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.1.240:1313/cellsnet/plugins/asposecellsnetforvsto/codecomparisonforcommonfeatureswithvsto/wrapping&#43;cell&#43;text&#43;in&#43;vsto&#43;and&#43;aspose.cells/</guid>
+      <description>To create a worksheet with two cells, one with wrapped text and one without:
+ Set up the worksheet:  Create a workbook. Access the first worksheet.   Add text:  Add text to cell A1. Add wrapped text to cell A5.   Save the spreadsheet. The code samples below show how to perform these steps using VSTO with either C#. Code samples that show how to do the same thing using Aspose.</description>
+    </item>
+    
+  </channel>
+</rss>

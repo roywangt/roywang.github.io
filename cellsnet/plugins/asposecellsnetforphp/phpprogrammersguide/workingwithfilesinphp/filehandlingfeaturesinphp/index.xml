@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>File Handling Features in PHP on Aspose.Cells Product Family</title>
+    <link>http://192.168.1.240:1313/cellsnet/plugins/asposecellsnetforphp/phpprogrammersguide/workingwithfilesinphp/filehandlingfeaturesinphp/</link>
+    <description>Recent content in File Handling Features in PHP on Aspose.Cells Product Family</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://192.168.1.240:1313/cellsnet/plugins/asposecellsnetforphp/phpprogrammersguide/workingwithfilesinphp/filehandlingfeaturesinphp/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Opening Files in PHP</title>
+      <link>http://192.168.1.240:1313/cellsnet/plugins/asposecellsnetforphp/phpprogrammersguide/workingwithfilesinphp/filehandlingfeaturesinphp/opening&#43;files&#43;in&#43;php/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.1.240:1313/cellsnet/plugins/asposecellsnetforphp/phpprogrammersguide/workingwithfilesinphp/filehandlingfeaturesinphp/opening&#43;files&#43;in&#43;php/</guid>
+      <description>Aspose.Cells - Open Excel Files
+Opening through Path
+Simply open a Microsoft Excel file by referencing the file&amp;rsquo;s path
+PHP Code
+$dataDir = &amp;lsquo;&#39;;
+// Create Aspose.Cells Helper Object
+$ptr = new \COM(&amp;lsquo;Aspose.Cells.Interop.InteropHelper&amp;rsquo;);
+// Opening through Path
+// Creating a Workbook object and opening an Excel file using its file path
+$workbook = $ptr-&amp;gt;New(&amp;ldquo;Aspose.Cells.Workbook&amp;rdquo;,array($dataDir . &amp;lsquo;/Book1.xls&amp;rsquo;));
+$worksheets = $ptr-&amp;gt;Get($workbook,&amp;ldquo;Worksheets&amp;rdquo;,array());
+Download Running Code
+Download Opening Files (Aspose.Cells) from any of the below mentioned social coding sites:</description>
+    </item>
+    
+    <item>
+      <title>Saving Files in PHP</title>
+      <link>http://192.168.1.240:1313/cellsnet/plugins/asposecellsnetforphp/phpprogrammersguide/workingwithfilesinphp/filehandlingfeaturesinphp/saving&#43;files&#43;in&#43;php/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.1.240:1313/cellsnet/plugins/asposecellsnetforphp/phpprogrammersguide/workingwithfilesinphp/filehandlingfeaturesinphp/saving&#43;files&#43;in&#43;php/</guid>
+      <description>Aspose.Cells - Save Excel Files
+Opening through Path
+Saving a Microsoft Excel file by referencing the file&amp;rsquo;s path
+PHP Code
+$dataDir = &amp;lsquo;&#39;;
+// Create Aspose.Cells Helper Object
+$ptr = new \COM(&amp;lsquo;Aspose.Cells.Interop.InteropHelper&amp;rsquo;);
+// Opening through Path
+// Creating a Workbook object and opening an Excel file using its file path
+$workbook = $ptr-&amp;gt;New(&amp;ldquo;Aspose.Cells.Workbook&amp;rdquo;,array());
+//Your Code goes here for any workbook related operations
+$ptr-&amp;gt;Call($workbook,&amp;ldquo;Save&amp;rdquo;,array($dataDir.&#39;/book1.xls&amp;rsquo;));
+print &amp;ldquo;File saved successfully!&amp;rdquo; . PHP_EOL;
+Download Running Code</description>
+    </item>
+    
+  </channel>
+</rss>
