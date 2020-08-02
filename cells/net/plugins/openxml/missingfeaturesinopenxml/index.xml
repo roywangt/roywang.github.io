@@ -1,0 +1,536 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Missing Features in OpenXML</title>
+    <link>https://roywangt.github.io/cells/net/plugins/openxml/missingfeaturesinopenxml/</link>
+    <description>Recent content in Missing Features in OpenXML on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://roywangt.github.io/cells/net/plugins/openxml/missingfeaturesinopenxml/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Net: Calculate or Recalculate formulas dynamically</title>
+      <link>https://roywangt.github.io/cells/net/plugins/openxml/missingfeaturesinopenxml/calculate&#43;or&#43;recalculate&#43;formulas&#43;dynamically/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/plugins/openxml/missingfeaturesinopenxml/calculate&#43;or&#43;recalculate&#43;formulas&#43;dynamically/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--calculate-or-recalculate-formulas-dynamically&#34;&gt;Aspose.Cells for .NET : Calculate or Recalculate formulas dynamically&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Formula calculation&lt;/strong&gt; engine is embedded in &lt;strong&gt;Aspose.Cells&lt;/strong&gt;. It can not only re-calculate the formula imported from the designer file but also supports to calculate the results of formulas added at runtime.&lt;/p&gt;
+&lt;h2 id=&#34;adding-formulas--calculating-results&#34;&gt;Adding Formulas &amp;amp; Calculating Results&lt;/h2&gt;
+&lt;p&gt;Aspose.Cells supports most of the formulas or functions that are the part of Microsoft Excel. Developers can use these formulas using API or Designer Spreadsheets. Aspose.Excel supports a huge set of Mathematical, String, Boolean, Date/Time, Statistical, Database, Lookup and Reference formulas.&lt;/p&gt;
+&lt;p&gt;Use the Cell class&amp;rsquo; Formula property to add a formula to a cell. When applying a formula to a cell, always begin the string with an equal sign (=) as you do when creating a formula in Microsoft Excel. Use a comma (,) to delimit function parameters.&lt;/p&gt;
+&lt;p&gt;To calclulate the results of the formulas, call the Excel class&amp;rsquo; CalculateFormula method which processes all the formulas embedded in an Excel file. Read the &lt;a href=&#34;http://www.aspose.com/docs/display/cellsnet/Supported+Formula+Functions&#34;&gt;url:list of functions supported by the CalculateFormula method&lt;/a&gt;.&lt;/p&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_824153bc41&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_824153bc41&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//Instantiating a Workbook object
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Workbook&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;workbook&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Workbook&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;();&lt;/span&gt;
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//Adding a new worksheet to the Excel object
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;int&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;sheetIndex&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;workbook&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Worksheets&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Add&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;();&lt;/span&gt;
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//Obtaining the reference of the newly added worksheet by passing its sheet index
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Worksheet&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;worksheet&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;workbook&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Worksheets&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;sheetIndex&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;];&lt;/span&gt;
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//Adding a value to &amp;#34;A1&amp;#34; cell
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;worksheet&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Cells&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;A1&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;].&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;PutValue&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;1&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//Adding a value to &amp;#34;A2&amp;#34; cell
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;worksheet&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Cells&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;A2&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;].&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;PutValue&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;2&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//Adding a value to &amp;#34;A3&amp;#34; cell
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;worksheet&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Cells&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;A3&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;].&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;PutValue&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;3&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//Adding a SUM formula to &amp;#34;A4&amp;#34; cell
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;worksheet&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Cells&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;A4&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;].&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Formula&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;=SUM(A1:A3)&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//Calculating the results of formulas
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;workbook&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;CalculateFormula&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;();&lt;/span&gt;
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//Get the calculated value of the cell
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;string&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;value&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;worksheet&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Cells&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;A4&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;].&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Value&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;ToString&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;();&lt;/span&gt;
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//Saving the Excel file
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;workbook&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Save&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Adding Formula.xls&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;h2 id=&#34;calculating-formulas-once-only&#34;&gt;Calculating Formulas Once Only&lt;/h2&gt;
+&lt;p&gt;When the user calls Workbook.CalculateFormula() to calculate the values of the formulas inside the workbook template, Aspose.Cells creates a calculating chain. It increases performance when formulas are calculated for the second or third time etc.&lt;br&gt;
+However, if the user template contains lots of diverse formulas, then first time of formula calculation can consume lot of CPU processing time and memory.&lt;/p&gt;
+&lt;p&gt;Aspose.Cells allows you to turn off creating calculating chain which is useful in scenarios when you want to calculate formulas of your file only once.&lt;/p&gt;
+&lt;p&gt;If you are seeking to improve performance of formula calculations by Aspose.Cells and you do not want to create formula calculating chain, then please set &lt;strong&gt;Workbook.Settings.CreateCalcChain&lt;/strong&gt; as &lt;strong&gt;false&lt;/strong&gt;. By default, it is set as &lt;strong&gt;true&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;string FilePath = @&amp;rdquo;..\..\..\Sample Files\&amp;quot;;string FileName = FilePath + &amp;ldquo;Adding Formula.xlsx&amp;rdquo;;//Load the template workbookWorkbook workbook = new Workbook(FileName);//Print the time before formula calculationConsole.WriteLine(DateTime.Now);//Set the CreateCalcChain as falseworkbook.Settings.CreateCalcChain = false;//Calculate the workbook formulasworkbook.CalculateFormula();//Print the time after formula calculationConsole.WriteLine(DateTime.Now);workbook.Save(FileName);&lt;/p&gt;
+&lt;h2 id=&#34;direct-calculation-of-formula&#34;&gt;Direct Calculation of Formula&lt;/h2&gt;
+&lt;p&gt;Formula calculation engine is embedded in Aspose.Cells. Besides, re-calculating the formula imported from the designer file, Aspose.Cells also supports to calculate the results of formulas directly.&lt;br&gt;
+Sometimes, you need to calculate the results of formulas directly without adding them actually in a worksheet. The values of the cells used in formula already exist in a worksheet and all you need is to find the result of those values based on some Ms-Excel formula without adding the formula in a worksheet.&lt;/p&gt;
+&lt;p&gt;You can use Aspose.Cells Formula Calculation Engine API i.e &lt;strong&gt;worksheet.Calculate(string formula)&lt;/strong&gt; to calculate the results of such formulas without actually adding them in worksheet.&lt;/p&gt;
+&lt;p&gt;//Create a workbookWorkbook workbook = new Workbook();//Access first worksheetWorksheet worksheet = workbook.Worksheets[0];//Put 20 in cell A1Cell cellA1 = worksheet.Cells[&amp;ldquo;A1&amp;rdquo;];cellA1.PutValue(20);//Put 30 in cell A2Cell cellA2 = worksheet.Cells[&amp;ldquo;A2&amp;rdquo;];cellA2.PutValue(30);//Calculate the Sum of A1 and A2var results = worksheet.CalculateFormula(&amp;ldquo;=Sum(A1:A2)&amp;quot;);Cell cellA3 = worksheet.Cells[&amp;ldquo;A3&amp;rdquo;];cellA3.PutValue(results);//Print the outputDebug.WriteLine(&amp;ldquo;Value of A1: &amp;quot; + cellA1.StringValue);Debug.WriteLine(&amp;ldquo;Value of A2: &amp;quot; + cellA2.StringValue);Debug.WriteLine(&amp;ldquo;Result of Sum(A1:A2): &amp;quot; + results.ToString());workbook.Save(&amp;ldquo;Calulate Any Formulae.xls&amp;rdquo;);&lt;/p&gt;
+&lt;h2 id=&#34;download-sample-code&#34;&gt;Download Sample Code&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://asposecellsopenxml.codeplex.com/releases/view/619160&#34;&gt;Codeplex&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1&#34;&gt;Github&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://code.msdn.microsoft.com/AsposeCells-Features-8fba7c3c&#34;&gt;Code.MSDN&lt;/a&gt;* &lt;a href=&#34;https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Direct%20Formulae%20Call%20%28Aspose.Cells%29.zip&#34;&gt;Bitbucket&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Convert between Excel formats</title>
+      <link>https://roywangt.github.io/cells/net/plugins/openxml/missingfeaturesinopenxml/convert&#43;between&#43;excel&#43;formats/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/plugins/openxml/missingfeaturesinopenxml/convert&#43;between&#43;excel&#43;formats/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--convert-between-excel-formats&#34;&gt;Aspose.Cells for .NET : Convert between Excel formats&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&#34;download/thumbnails/5020532/887745142&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;converting-excel-to-pdf&#34;&gt;Converting Excel to PDF&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;PDF&lt;/strong&gt; files are widely used for exchanging documents between organizations, government sectors and individuals. It is a standard document format and software developers are often asked to find a way to convert Microsoft Excel files into &lt;strong&gt;PDF&lt;/strong&gt; documents.&lt;br&gt;
+&lt;strong&gt;Aspose.Cells&lt;/strong&gt; supports converting Excel files to PDF and maintains high visual fidelity in the conversion.&lt;/p&gt;
+&lt;p&gt;Aspose.Cells for .NET supports conversion from spreadsheets to PDF independently of other software. Save an Excel file to PDF using the Workbook class&amp;rsquo; Save method. The Save method provides the SaveFormat.Pdf enum member that converts the native Excel files to PDF format.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Converting&lt;/strong&gt; directly from spreadsheet to PDF, instead of using a third-party tool or external API, has several &lt;strong&gt;advantages&lt;/strong&gt;:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Direct conversion does not require temporary files because the whole process can be done in memory.&lt;/li&gt;
+&lt;li&gt;No XML file is needed so large files can easily be converted.&lt;/li&gt;
+&lt;li&gt;The conversion speed is much faster.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;To convert files to PDF:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Instantiate an object of the &lt;strong&gt;Workbook&lt;/strong&gt; class by calling its empty constructor.&lt;/li&gt;
+&lt;li&gt;You may &lt;strong&gt;open/load&lt;/strong&gt; an existing template file or skip this step if you are creating the workbook from scratch.&lt;/li&gt;
+&lt;li&gt;Do your desired work (input data, apply formatting, set formulas, insert pictures or other drawing objects, and so on) on the spreadsheet using Aspose.Cells&amp;rsquo; APIs.&lt;/li&gt;
+&lt;li&gt;When the spreadsheet code is complete, call the &lt;strong&gt;Workbook class&amp;rsquo; Save method&lt;/strong&gt; to save the spreadsheet. The file format should be PDF so select Pdf (a pre-defined value) from the SaveFormat enumeration to generate the final PDF document.&lt;/li&gt;
+&lt;/ol&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_dd6b6fcf9a&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_dd6b6fcf9a&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;
+  &lt;span style=&#34;color:#000&#34;&gt;Workbook&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;workbook&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Workbook&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;openFileDialog1&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;FileName&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+  &lt;span style=&#34;color:#000&#34;&gt;workbook&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Save&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;saveFileDialog1&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;FileName&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;SaveFormat&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Pdf&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;h2 id=&#34;converting-excel-to-mhtml&#34;&gt;Converting Excel to MHTML&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;MHTML&lt;/strong&gt; combines normal HTML with external resources (that is, content that is usually linked in, like images, animations, audio and so on) into one file. They are used for emails with the .mht file extension.&lt;br&gt;
+Aspose.Cells supports reading and writing MHTML files.&lt;/p&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_7a9187be8c&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_7a9187be8c&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;
+  &lt;span style=&#34;color:#000&#34;&gt;Workbook&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;workbook&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Workbook&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;openFileDialog1&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;FileName&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+  &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//Specify the HTML Saving Options
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;  &lt;span style=&#34;color:#000&#34;&gt;HtmlSaveOptions&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;sv&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;HtmlSaveOptions&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;SaveFormat&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;MHtml&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+  &lt;span style=&#34;color:#000&#34;&gt;workbook&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Save&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;saveFileDialog1&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;FileName&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;sv&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;h2 id=&#34;converting-excel-to-xps&#34;&gt;Converting Excel to XPS&lt;/h2&gt;
+&lt;p&gt;Sometimes, you want to convert or save a workbook with multiple worksheets into text format. For text formats (for example TXT, TabDelim, CSV etc.), by default both Microsoft Excel and Aspose.Cells save the contents of the active worksheet only.&lt;/p&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_96bfbc4a85&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_96bfbc4a85&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;
+ &lt;span style=&#34;color:#000&#34;&gt;Workbook&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;workbook&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Workbook&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;openFileDialog1&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;FileName&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+ &lt;span style=&#34;color:#000&#34;&gt;workbook&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Save&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;saveFileDialog1&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;FileName&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;SaveFormat&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;CSV&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;h2 id=&#34;download-sample-code&#34;&gt;Download Sample Code&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://asposecellsopenxml.codeplex.com/releases/view/619160&#34;&gt;Codeplex&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1&#34;&gt;Github&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://code.msdn.microsoft.com/AsposeCells-Features-8fba7c3c&#34;&gt;Code.MSDN&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Convert%20between%20Excel%20formats%20%28Aspose.Cells%29.zip&#34;&gt;Bitbucket&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Encrypting Excel Files using Aspose.Cells</title>
+      <link>https://roywangt.github.io/cells/net/plugins/openxml/missingfeaturesinopenxml/encrypting&#43;excel&#43;files&#43;using&#43;aspose.cells/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/plugins/openxml/missingfeaturesinopenxml/encrypting&#43;excel&#43;files&#43;using&#43;aspose.cells/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--encrypting-excel-files-using-asposecells&#34;&gt;Aspose.Cells for .NET : Encrypting Excel Files using Aspose.Cells&lt;/h1&gt;
+&lt;p&gt;Microsoft Excel (97 - 2007) enables you to encrypt and password protect your spreadsheets. It uses algorithms provided by a cryptographic service provider, or CSP, a set of cryptographic algorithms with different properties. The default CSP is &amp;lsquo;Office 97/2000 Compatible&amp;rsquo; or &amp;lsquo;Weak Encryption (XOR)&amp;rsquo;. It&amp;rsquo;s important to choose the proper encryption key length. Some CSPs don&amp;rsquo;t support more than 40 or 56 bits. That&amp;rsquo;s considered to be a weak encryption. For strong encryption, a minimum key length of 128 bits is required. Microsoft Windows contains CSPs that offer strong encryption types as well, for example the &amp;lsquo;Microsoft Strong Cryptographic Provider&amp;rsquo;. To give you an idea, 128 bits encryption is what banks use to encrypt the connection with their Internet Banking systems.&lt;/p&gt;
+&lt;p&gt;Aspose.Cells allows you to encrypt and password protect Microsoft Excel files with your desired encryption type.&lt;/p&gt;
+&lt;h4 id=&#34;using-microsoft-excel&#34;&gt;Using Microsoft Excel&lt;/h4&gt;
+&lt;p&gt;To set file encryption settings in Microsoft Excel (here Microsoft Excel 2003):&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;From the &lt;strong&gt;Tools&lt;/strong&gt; menu, select &lt;strong&gt;Options&lt;/strong&gt;.&lt;br&gt;
+A dialog appears.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Select the &lt;strong&gt;Security&lt;/strong&gt; tab.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Input a password and click &lt;strong&gt;Advanced&lt;/strong&gt;&lt;br&gt;
+&lt;strong&gt;Options dialog&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5020521/5115042.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Choose the encryption type and confirm the password.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Encryption Type dialog&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5020521/5115041.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;encryption-with-asposecells&#34;&gt;Encryption with Aspose.Cells&lt;/h4&gt;
+&lt;p&gt;The following example shows how to encrypt and password protect an excel file using the Aspose.Cells API.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;C#&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;string FilePath = @&amp;rdquo;..\..\..\Sample Files\&amp;quot;;string srcFileName = FilePath + &amp;ldquo;Encrypting Excel Files.xlsx&amp;rdquo;;string destFileName = FilePath + &amp;ldquo;Result Encrypting Excel Files.xlsx&amp;rdquo;;//Open an excel file.Workbook workbook = new Workbook(srcFileName);//Specify XOR encryption type.workbook.SetEncryptionOptions(EncryptionType.XOR, 40);//Specify Strong Encryption type (RC4,Microsoft Strong Cryptographic Provider).workbook.SetEncryptionOptions(EncryptionType.StrongCryptographicProvider, 128);//Password protect the file.workbook.Settings.Password = &amp;ldquo;1234&amp;rdquo;;//Save the excel file.workbook.Save(destFileName);&lt;/p&gt;
+&lt;h3 id=&#34;download-running-code&#34;&gt;Download Running Code&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://asposecellsopenxml.codeplex.com/releases/view/619160&#34;&gt;Codeplex&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1&#34;&gt;Github&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://code.msdn.microsoft.com/AsposeCells-Features-8fba7c3c&#34;&gt;Code.MSDN&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;download-sample-code&#34;&gt;Download Sample Code&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;[Codeplex](&lt;a href=&#34;https://asposeopenxml.codeplex.com/SourceControl/latest#Aspose.Cells&#34;&gt;https://asposeopenxml.codeplex.com/SourceControl/latest#Aspose.Cells&lt;/a&gt; Features missing in OpenXML/Encrypting Excel Files/)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20OpenXML%20Spreadsheets/OpenXML%20Missing%20Features/Encrypting%20Excel%20Files&#34;&gt;Github&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://code.msdn.microsoft.com/AsposeCells-Features-8fba7c3c&#34;&gt;Code.MSDN&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Generate reports populate documents with data</title>
+      <link>https://roywangt.github.io/cells/net/plugins/openxml/missingfeaturesinopenxml/generatereports/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/plugins/openxml/missingfeaturesinopenxml/generatereports/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--generate-reports-populate-documents-with-data&#34;&gt;Aspose.Cells for .NET : Generate reports, populate documents with data&lt;/h1&gt;
+&lt;p&gt;This section includes the following topics&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/plugins/openxml/missingfeaturesinopenxml/generatereports/import+export+data+from+document&#34;&gt;Import Export data from document&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/plugins/openxml/missingfeaturesinopenxml/generatereports/insert+or+delete+rows+or+columns&#34;&gt;Insert or Delete Rows or Columns&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/plugins/openxml/missingfeaturesinopenxml/generatereports/smartmarkers/&#34;&gt;Smart Markers feature in Aspose.Cells&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/plugins/openxml/missingfeaturesinopenxml/generatereports/smartmarkers/grouping+data+in+aspose.cells&#34;&gt;Grouping Data in Aspose.Cells&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/plugins/openxml/missingfeaturesinopenxml/generatereports/smartmarkers/image+markers+in+aspose.cells&#34;&gt;Image Markers in Aspose.Cells&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/plugins/openxml/missingfeaturesinopenxml/generatereports/smartmarkers/using+anonymous+types+or+custom+objects+in+aspose.cells&#34;&gt;Using Anonymous Types or Custom Objects in Aspose.Cells&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/plugins/openxml/missingfeaturesinopenxml/generatereports/smartmarkers/using+nested+objects+in+aspose.cells&#34;&gt;Using Nested Objects in Aspose.Cells&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: High-level programming with a workbook object model</title>
+      <link>https://roywangt.github.io/cells/net/plugins/openxml/missingfeaturesinopenxml/high-levelprogramming/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/plugins/openxml/missingfeaturesinopenxml/high-levelprogramming/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--high-level-programming-with-a-workbook-object-model&#34;&gt;Aspose.Cells for .NET : High-level programming with a workbook object model&lt;/h1&gt;
+&lt;p&gt;This section includes the following topics&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/plugins/openxml/missingfeaturesinopenxml/high-levelprogramming/assemble+spreadsheets&#34;&gt;Assemble Spreadsheets&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/plugins/openxml/missingfeaturesinopenxml/high-levelprogramming/copyfragmentsandworksheets/&#34;&gt;Copy fragments and worksheets between Workbooks&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/plugins/openxml/missingfeaturesinopenxml/high-levelprogramming/copyfragmentsandworksheets/copy+worksheets+between+workbooks&#34;&gt;Copy Worksheets between Workbooks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/plugins/openxml/missingfeaturesinopenxml/high-levelprogramming/copyfragmentsandworksheets/copy+worksheets+within+a+workbook&#34;&gt;Copy Worksheets within a Workbook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/plugins/openxml/missingfeaturesinopenxml/high-levelprogramming/copyfragmentsandworksheets/move+worksheets+within+workbook&#34;&gt;Move Worksheets within Workbook&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/plugins/openxml/missingfeaturesinopenxml/high-levelprogramming/find+and+replace+in+spreadsheet&#34;&gt;Find and Replace in Spreadsheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Managing Charts and Shapes in Aspose.Cells</title>
+      <link>https://roywangt.github.io/cells/net/plugins/openxml/missingfeaturesinopenxml/mngchartsandshapes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/plugins/openxml/missingfeaturesinopenxml/mngchartsandshapes/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--managing-charts-and-shapes-in-asposecells&#34;&gt;Aspose.Cells for .NET : Managing Charts and Shapes in Aspose.Cells&lt;/h1&gt;
+&lt;p&gt;This section includes the following topics:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/plugins/openxml/missingfeaturesinopenxml/mngchartsandshapes/add+wordart+watermark+to+chart+in+aspose.cells&#34;&gt;Add WordArt Watermark to Chart in Aspose.Cells&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/plugins/openxml/missingfeaturesinopenxml/mngchartsandshapes/add+wordart+watermark+to+worksheet+in+aspose.cells&#34;&gt;Add WordArt Watermark to Worksheet in Aspose.Cells&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/plugins/openxml/missingfeaturesinopenxml/mngchartsandshapes/copy+shapes+between+worksheets+in+aspose.cells&#34;&gt;Copy Shapes between Worksheets in Aspose.Cells&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/plugins/openxml/missingfeaturesinopenxml/mngchartsandshapes/locking+wordart+watermark+in+aspose.cells&#34;&gt;Locking WordArt Watermark in Aspose.Cells&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Rendering and Printing in Aspose.Cells</title>
+      <link>https://roywangt.github.io/cells/net/plugins/openxml/missingfeaturesinopenxml/rnd-prt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/plugins/openxml/missingfeaturesinopenxml/rnd-prt/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--rendering-and-printing-in-asposecells&#34;&gt;Aspose.Cells for .NET : Rendering and Printing in Aspose.Cells&lt;/h1&gt;
+&lt;p&gt;This section includes the following topics&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/plugins/openxml/missingfeaturesinopenxml/rnd-prt/convert+charts+to+images&#34;&gt;Convert charts to images&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/plugins/openxml/missingfeaturesinopenxml/rnd-prt/print+spreadsheets&#34;&gt;Print spreadsheets&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/plugins/openxml/missingfeaturesinopenxml/rnd-prt/specify+image+resolution+quality+compression+and+other+options&#34;&gt;Specify image resolution, quality, compression and other options&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Save Workbook to Text or CSV Format using Aspose.Cells</title>
+      <link>https://roywangt.github.io/cells/net/plugins/openxml/missingfeaturesinopenxml/save&#43;workbook&#43;to&#43;text&#43;or&#43;csv&#43;format&#43;using&#43;aspose.cells/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/plugins/openxml/missingfeaturesinopenxml/save&#43;workbook&#43;to&#43;text&#43;or&#43;csv&#43;format&#43;using&#43;aspose.cells/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--save-workbook-to-text-or-csv-format-using-asposecells&#34;&gt;Aspose.Cells for .NET : Save Workbook to Text or CSV Format using Aspose.Cells&lt;/h1&gt;
+&lt;p&gt;Sometimes, you want to convert or save a workbook with multiple worksheets into text format. For text formats (for example TXT, TabDelim, CSV etc.), by default both Microsoft Excel and Aspose.Cells save the contents of the active worksheet only.&lt;/p&gt;
+&lt;p&gt;The following code example explains how to save an entire workbook into text format. Load the source workbook which could be any Microsoft Excel or OpenOffice spreadsheet file (so XLS, XLSX, XLSM, XLSB, ODS and so on) with any number of worksheets.&lt;/p&gt;
+&lt;p&gt;When the code is executed, it converts the data of all sheets in the workbook to TXT format.&lt;/p&gt;
+&lt;p&gt;You can modify the same example to save your file to CSV. By default, &lt;code&gt;TxtSaveOptions.Separator&lt;/code&gt; is comma, so do not specify a separator if saving to CSV format.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;C#&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;string FilePath = @&amp;rdquo;..\..\..\Sample Files\&amp;quot;;string FileName = FilePath + &amp;ldquo;Save Workbook to Text or CSV Format.xlsx&amp;rdquo;;string destFileName = FilePath + &amp;ldquo;Save Workbook to Text or CSV Format.txt&amp;rdquo;;//Load your source workbookWorkbook workbook = new Workbook(FileName);//0-byte arraybyte[] workbookData = new byte[0];//Text save options. You can use any type of separatorTxtSaveOptions opts = new TxtSaveOptions();opts.Separator = &amp;lsquo;\t&amp;rsquo;;//Copy each worksheet data in text format inside workbook data arrayfor (int idx = 0; idx &amp;lt; workbook.Worksheets.Count; idx++){    //Save the active worksheet into text format    MemoryStream ms = new MemoryStream();    workbook.Worksheets.ActiveSheetIndex = idx;    workbook.Save(ms, opts);    //Save the worksheet data into sheet data array    ms.Position = 0;    byte[] sheetData = ms.ToArray();    //Combine this worksheet data into workbook data array    byte[] combinedArray = new byte[workbookData.Length + sheetData.Length];    Array.Copy(workbookData, 0, combinedArray, 0, workbookData.Length);    Array.Copy(sheetData, 0, combinedArray, workbookData.Length, sheetData.Length);    workbookData = combinedArray;}//Save entire workbook data into fileFile.WriteAllBytes(destFileName, workbookData);&lt;/p&gt;
+&lt;h3 id=&#34;download-sample-code&#34;&gt;Download Sample Code&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;[Codeplex](&lt;a href=&#34;https://asposeopenxml.codeplex.com/SourceControl/latest#Aspose.Cells&#34;&gt;https://asposeopenxml.codeplex.com/SourceControl/latest#Aspose.Cells&lt;/a&gt; Features missing in OpenXML/Save Workbook to Text or CSV Format/)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20OpenXML%20Spreadsheets/OpenXML%20Missing%20Features/Save%20Workbook%20to%20Text%20or%20CSV%20Format&#34;&gt;Github&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://code.msdn.microsoft.com/AsposeCells-Features-8fba7c3c/view/SourceCode#content&#34;&gt;Code.MSDN&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;download-running-example&#34;&gt;Download Running Example&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://asposecellsopenxml.codeplex.com/releases/view/619160&#34;&gt;Codeplex&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/asposecells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1&#34;&gt;Github&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://code.msdn.microsoft.com/AsposeCells-Features-8fba7c3c&#34;&gt;Code.MSDN&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Set External Links in Formulas in Aspose.Cells</title>
+      <link>https://roywangt.github.io/cells/net/plugins/openxml/missingfeaturesinopenxml/set&#43;external&#43;links&#43;in&#43;formulas&#43;in&#43;aspose.cells/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/plugins/openxml/missingfeaturesinopenxml/set&#43;external&#43;links&#43;in&#43;formulas&#43;in&#43;aspose.cells/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--set-external-links-in-formulas-in-asposecells&#34;&gt;Aspose.Cells for .NET : Set External Links in Formulas in Aspose.Cells&lt;/h1&gt;
+&lt;p&gt;Sometimes, it is necessary to include links to external files in formulas, for example to evaluate a cell or range value against them. Aspose.Cells provides this feature and this document explains how to use it.&lt;/p&gt;
+&lt;p&gt;The sample code below shows how to include external files in formulas.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;C#&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;string FilePath = @&amp;rdquo;..\..\..\Sample Files\&amp;quot;;string FileName = FilePath + &amp;ldquo;Set External Links in Formula.xlsx&amp;rdquo;;//Instantiate a new Workbook.Workbook workbook = new Workbook();//Get first WorksheetWorksheet sheet = workbook.Worksheets[0];//Get Cells collectionAspose.Cells.Cells cells = sheet.Cells;//Set formula with external linkscells[&amp;ldquo;A1&amp;rdquo;].Formula = &amp;ldquo;=SUM(&#39;[book1.xls]Sheet1&amp;rsquo;!A2, &amp;lsquo;[book1.xls]Sheet1&amp;rsquo;!A4)&amp;quot;;//Set formula with external linkscells[&amp;ldquo;A2&amp;rdquo;].Formula = &amp;ldquo;=&amp;rsquo;[book1.xls]Sheet1&amp;rsquo;!A8&amp;rdquo;;//Save the workbookworkbook.Save(FileName);&lt;/p&gt;
+&lt;h3 id=&#34;download-sample-code&#34;&gt;Download Sample Code&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;[Codeplex](&lt;a href=&#34;https://asposeopenxml.codeplex.com/SourceControl/latest#Aspose.Cells&#34;&gt;https://asposeopenxml.codeplex.com/SourceControl/latest#Aspose.Cells&lt;/a&gt; Features missing in OpenXML/Set External Links in Formula/)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20OpenXML%20Spreadsheets/OpenXML%20Missing%20Features/Set%20External%20Links%20in%20Formula&#34;&gt;Github&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://code.msdn.microsoft.com/AsposeCells-Features-8fba7c3c/view/SourceCode#content&#34;&gt;Code.MSDN&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;download-running-example&#34;&gt;Download Running Example&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://asposecellsopenxml.codeplex.com/releases/view/619160&#34;&gt;Codeplex&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1&#34;&gt;Github&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://code.msdn.microsoft.com/AsposeCells-Features-8fba7c3c&#34;&gt;Code.MSDN&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Setting Formula Calculation Mode of Workbook in Aspose.Cells</title>
+      <link>https://roywangt.github.io/cells/net/plugins/openxml/missingfeaturesinopenxml/setting&#43;formula&#43;calculation&#43;mode&#43;of&#43;workbook&#43;in&#43;aspose.cells/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/plugins/openxml/missingfeaturesinopenxml/setting&#43;formula&#43;calculation&#43;mode&#43;of&#43;workbook&#43;in&#43;aspose.cells/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--setting-formula-calculation-mode-of-workbook-in-asposecells&#34;&gt;Aspose.Cells for .NET : Setting Formula Calculation Mode of Workbook in Aspose.Cells&lt;/h1&gt;
+&lt;p&gt;Microsoft Excel allows you to set the formula calculation mode, that is, the way formulas are calculated. There are three possible values:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Automatic - recalculate whenever something is changed, and every time a workbook is opened.&lt;/li&gt;
+&lt;li&gt;Automatic except for data tables - recalculate whenever something is changed, but leaving out data tables.&lt;/li&gt;
+&lt;li&gt;Manual - recalculate only when the user explicitly requests it by pressing F9 or CTRL+ALT+F9, or when the workbook is saved.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;To set the formula calculation mode in Microsoft Excel:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Select &lt;strong&gt;Formulas&lt;/strong&gt; and then &lt;strong&gt;Calculation Options&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Select one of the options.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Aspose.Cells also allows you to set the &lt;strong&gt;Formula Calculation Mode&lt;/strong&gt; using &lt;code&gt;Workbook.Settings.CalcMode&lt;/code&gt; mode property. You can assign it the &lt;code&gt;CalcModeType&lt;/code&gt; enumeration which has one of the following values:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;CalcModeType.Automatic&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;CalcModeType.AutomaticExceptTable&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;CalcModeType.Manual&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The following sample code first creates a workbook, then it sets the formula calculation mode to &lt;strong&gt;Manual&lt;/strong&gt; and saves the workbook as output Excel file on disk.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;C#&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;string FilePath = @&amp;rdquo;..\..\..\Sample Files\&amp;quot;;string FileName = FilePath + &amp;ldquo;Setting Formula Calculation Mode.xlsx&amp;rdquo;;//Create a workbookWorkbook workbook = new Workbook();//Set the Formula Calculation Mode to Manualworkbook.Settings.CalcMode = CalcModeType.Manual;//Save the workbookworkbook.Save(FileName, SaveFormat.Xlsx);&lt;/p&gt;
+&lt;h3 id=&#34;download-sample-code&#34;&gt;Download Sample Code&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;[Codeplex](&lt;a href=&#34;https://asposeopenxml.codeplex.com/SourceControl/latest#Aspose.Cells&#34;&gt;https://asposeopenxml.codeplex.com/SourceControl/latest#Aspose.Cells&lt;/a&gt; Features missing in OpenXML/Setting Formula Calculation Mode/)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20OpenXML%20Spreadsheets/OpenXML%20Missing%20Features/Setting%20Formula%20Calculation%20Mode&#34;&gt;Github&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://code.msdn.microsoft.com/AsposeCells-Features-8fba7c3c/view/SourceCode#content&#34;&gt;Code.MSDN&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;download-running-example&#34;&gt;Download Running Example&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://asposecellsopenxml.codeplex.com/releases/view/619160&#34;&gt;Codeplex&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1&#34;&gt;Github&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://code.msdn.microsoft.com/AsposeCells-Features-8fba7c3c&#34;&gt;Code.MSDN&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Setting Shared Formula in Aspose.Cells</title>
+      <link>https://roywangt.github.io/cells/net/plugins/openxml/missingfeaturesinopenxml/setting&#43;shared&#43;formula&#43;in&#43;aspose.cells/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/plugins/openxml/missingfeaturesinopenxml/setting&#43;shared&#43;formula&#43;in&#43;aspose.cells/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--setting-shared-formula-in-asposecells&#34;&gt;Aspose.Cells for .NET : Setting Shared Formula in Aspose.Cells&lt;/h1&gt;
+&lt;p&gt;Suppose you have a worksheet filled with data.&lt;/p&gt;
+&lt;p&gt;You want to add a function in B2 that will calculate the sales tax for the first row of data. The tax is &lt;strong&gt;9%&lt;/strong&gt;. The formula that calculates the sales tax is: &lt;strong&gt;&amp;ldquo;=A2*0.09&amp;rdquo;&lt;/strong&gt;. This article explains how to apply this formula with Aspose.Cells.&lt;/p&gt;
+&lt;p&gt;Aspose.Cells lets you specify a formula using the &lt;code&gt;Cell.Formula&lt;/code&gt; property.&lt;/p&gt;
+&lt;p&gt;There are two options for adding formulas to the other cells (B3, B4, B5, and so on) in the column.&lt;/p&gt;
+&lt;p&gt;Either do what you did for the first cell, effectively setting the formula for each cell, updating the cell reference accordingly (A3*0.09, A4*0.09, A5*0.09 and so on). This requires the cell references for each row to be updated. It also requires Aspose.Cells to parse each formula individually, which can be time consuming for larg spreadsheets and complex formulas. It also adds extra lines of codes although loops can cut them down somewhat.&lt;/p&gt;
+&lt;p&gt;Another approach is to use a &lt;strong&gt;shared formula&lt;/strong&gt;. With a shared formula, the formulas are automatically updated for the cell references in each row so that the tax would be calculated properly. The &lt;code&gt;Cell.SetSharedFormula&lt;/code&gt; method is more efficient than the first method.&lt;/p&gt;
+&lt;p&gt;The following example demonstrates how to use it.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;C#&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;string FilePath = @&amp;rdquo;..\..\..\Sample Files\&amp;quot;;string FileName = FilePath + &amp;ldquo;Setting Shared Formula.xlsx&amp;rdquo;;//Instantiate a Workbook from existing fileWorkbook workbook = new Workbook(FileName);//Get the cells collection in the first worksheetAspose.Cells.Cells cells = workbook.Worksheets[0].Cells;//Apply the shared formula in the range i.e.., B2:B14cells[&amp;ldquo;B2&amp;rdquo;].SetSharedFormula(&amp;ldquo;=A2*0.09&amp;rdquo;, 13, 1);//Save the excel fileworkbook.Save(FileName, SaveFormat.Xlsx);&lt;/p&gt;
+&lt;h3 id=&#34;download-sample-code&#34;&gt;Download Sample Code&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;[Codeplex](&lt;a href=&#34;https://asposeopenxml.codeplex.com/SourceControl/latest#Aspose.Cells&#34;&gt;https://asposeopenxml.codeplex.com/SourceControl/latest#Aspose.Cells&lt;/a&gt; Features missing in OpenXML/Setting Shared Formula/)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20OpenXML%20Spreadsheets/OpenXML%20Missing%20Features/Setting%20Shared%20Formula&#34;&gt;Github&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://code.msdn.microsoft.com/AsposeCells-Features-8fba7c3c/view/SourceCode#content&#34;&gt;Code.MSDN&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;download-running-example&#34;&gt;Download Running Example&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://asposecellsopenxml.codeplex.com/releases/view/619160&#34;&gt;Codeplex&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1&#34;&gt;Github&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://code.msdn.microsoft.com/AsposeCells-Features-8fba7c3c&#34;&gt;Code.MSDN&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

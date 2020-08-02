@@ -1,0 +1,463 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Loading Saving and Converting</title>
+    <link>https://roywangt.github.io/cells/cpp/developerguide/ld-sv-cvt/</link>
+    <description>Recent content in Loading Saving and Converting on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://roywangt.github.io/cells/cpp/developerguide/ld-sv-cvt/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Cpp: Opening Files</title>
+      <link>https://roywangt.github.io/cells/cpp/developerguide/ld-sv-cvt/opening&#43;files/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/cpp/developerguide/ld-sv-cvt/opening&#43;files/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-c--opening-files&#34;&gt;Aspose.Cells for C++ : Opening Files&lt;/h1&gt;
+&lt;p&gt;With Aspose.Cells it is possible to open files, for example to retrieve data, or to use a designer template to speed up the development process. Aspose.Cells can open a range of different files, such as Microsoft Excel spreadsheets (XLS, XLSX, XLSM, XLSB), CSV or TabDelimited files.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#opening-a-file-via-a-path&#34;&gt;Opening a File via a Path&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#opening-a-file-using-a-stream&#34;&gt;Opening a File using a Stream&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;opening-a-file-via-a-path&#34;&gt;Opening a File via a Path&lt;/h2&gt;
+&lt;p&gt;Developers can open a Microsoft Excel file using its file path on the local computer by specifying it in the &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_workbook/&#34;&gt;IWorkbook&lt;/a&gt; class constructor. Simply pass the path in the constructor as String. Aspose.Cells will automatically detect the file format type.&lt;/p&gt;
+&lt;h2 id=&#34;opening-a-file-using-a-stream&#34;&gt;Opening a File using a Stream&lt;/h2&gt;
+&lt;p&gt;It is also possible to open an Excel file as a stream. To do so, use an overloaded version of the constructor that takes the *Stream *object that contains the file.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Cpp: Saving Files</title>
+      <link>https://roywangt.github.io/cells/cpp/developerguide/ld-sv-cvt/saving&#43;files/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/cpp/developerguide/ld-sv-cvt/saving&#43;files/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-c--saving-files&#34;&gt;Aspose.Cells for C++ : Saving Files&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells makes it possible to create and save files, and to manipulate existing files. This article explains the various ways in which files can be saved.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#different-ways-to-save-files&#34;&gt;Different Ways to Save Files&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#saving-file-to-some-location&#34;&gt;Saving File to Some Location&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#saving-file-to-stream&#34;&gt;Saving File to Stream&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;different-ways-to-save-files&#34;&gt;Different Ways to Save Files&lt;/h2&gt;
+&lt;p&gt;Aspose.Cells provides the &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_workbook/&#34;&gt;IWorkbook&lt;/a&gt; which represents a Microsoft Excel file and provides methods necessary to work with Excel files. The &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_workbook/&#34;&gt;IWorkbook&lt;/a&gt; class provides the &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_workbook/#a77072cfb929787df9ad1f38b02f58349&#34;&gt;Save&lt;/a&gt; method used to save Excel files. The &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_workbook/#a77072cfb929787df9ad1f38b02f58349&#34;&gt;Save&lt;/a&gt; method has many overloads that are used to save files in different ways. The file format that the file is saved to is decided by the &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/namespace/aspose.cells/#a11cae527e4e68f1adcac8f47ea64481a&#34;&gt;SaveFormat&lt;/a&gt; enumeration.&lt;/p&gt;
+&lt;h2 id=&#34;saving-file-to-some-location&#34;&gt;Saving File to Some Location&lt;/h2&gt;
+&lt;p&gt;To save files to a storage location, specify the file name (complete with storage path) and the desired file format (from the &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/namespace/aspose.cells/#a11cae527e4e68f1adcac8f47ea64481a&#34;&gt;SaveFormat&lt;/a&gt; enumeration) when calling the &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_workbook/&#34;&gt;IWorkbook&lt;/a&gt; object&amp;rsquo;s &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_workbook/#a77072cfb929787df9ad1f38b02f58349&#34;&gt;Save&lt;/a&gt; method.&lt;/p&gt;
+&lt;h2 id=&#34;saving-file-to-stream&#34;&gt;Saving File to Stream&lt;/h2&gt;
+&lt;p&gt;To save files to a stream, create a MemoryStream or FileStream object and save the file to that stream object by calling the &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_workbook/&#34;&gt;IWorkbook&lt;/a&gt; object&amp;rsquo;s &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_workbook/#a77072cfb929787df9ad1f38b02f58349&#34;&gt;Save&lt;/a&gt; method. Specify the desired file format using the &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/namespace/aspose.cells/#a11cae527e4e68f1adcac8f47ea64481a&#34;&gt;SaveFormat&lt;/a&gt; enumeration when calling the &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_workbook/#a77072cfb929787df9ad1f38b02f58349&#34;&gt;Save&lt;/a&gt; method.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Cpp: Managing Document Properties</title>
+      <link>https://roywangt.github.io/cells/cpp/developerguide/ld-sv-cvt/managing&#43;document&#43;properties/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/cpp/developerguide/ld-sv-cvt/managing&#43;document&#43;properties/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-c--managing-document-properties&#34;&gt;Aspose.Cells for C++ : Managing Document Properties&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenario&#34;&gt;Possible Usage Scenario&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#managing-document-properties&#34;&gt;Managing Document Properties&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;4 &lt;a href=&#34;#console-output&#34;&gt;Console Output&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenario&#34;&gt;Possible Usage Scenario&lt;/h2&gt;
+&lt;p&gt;Aspose.Cells allows you to work with Built-In and Custom document properties. Here is the Microsoft Excel interface to open these &lt;em&gt;Document Properties&lt;/em&gt;. Just click on the &lt;em&gt;Advanced Properties&lt;/em&gt; as shown in this screenshot and view them.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/cpp/attachments/22970896/23166988.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;managing-document-properties&#34;&gt;Managing Document Properties&lt;/h2&gt;
+&lt;p&gt;The following sample code loads &lt;a href=&#34;https://docs2.aspose.com/cells/cpp/attachments/22970896/23166989.xlsx&#34;&gt;sample excel file&lt;/a&gt; and reads the built-in document properties e.g. &lt;em&gt;Title, Subject&lt;/em&gt; and then changes them. Then it also reads the custom document property i.e. *MyCustom1 *and then adds a new custom document property i.e. *MyCustom5 *and writes the &lt;a href=&#34;https://docs2.aspose.com/cells/cpp/attachments/22970896/23166986.xlsx&#34;&gt;output excel file&lt;/a&gt;. The following screenshot shows the effect of the sample code on the sample excel file.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/cpp/attachments/22970896/23166987.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+&lt;h2 id=&#34;console-output&#34;&gt;Console Output&lt;/h2&gt;
+&lt;p&gt;This is the console output of the above sample code when executed with the provided &lt;a href=&#34;https://docs2.aspose.com/cells/cpp/attachments/22970896/23166989.xlsx&#34;&gt;sample excel file&lt;/a&gt;.&lt;/p&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_bcd051ae60&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_bcd051ae60&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Title&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Aspose&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Team&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Subject&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Aspose&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Cells&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;for&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;C&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;++&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;MyCustom1&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;This&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;is&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;my&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;custom&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;one&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Cpp: Read and Write CSV File Format</title>
+      <link>https://roywangt.github.io/cells/cpp/developerguide/ld-sv-cvt/read&#43;and&#43;write&#43;csv&#43;file&#43;format/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/cpp/developerguide/ld-sv-cvt/read&#43;and&#43;write&#43;csv&#43;file&#43;format/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-c--read-and-write-csv-file-format&#34;&gt;Aspose.Cells for C++ : Read and Write CSV File Format&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#read-and-write-csv-file-format&#34;&gt;Read and Write CSV File Format&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;Microsoft Excel supports many formats like XLS, XLSX, XLSM, XLSB, CSV, etc. Aspose.Cells also supports many of these formats. This article explains how to read and write the excel file having CSV format using Aspose.Cells.&lt;/p&gt;
+&lt;h2 id=&#34;read-and-write-csv-file-format&#34;&gt;Read and Write CSV File Format&lt;/h2&gt;
+&lt;p&gt;The following sample code loads the &lt;a href=&#34;https://docs2.aspose.com/cells/cpp/attachments/22970904/23166994.csv&#34;&gt;source CSV file&lt;/a&gt; and reads its cell A1 and then copies its contents to cell C4 and saves it as &lt;a href=&#34;https://docs2.aspose.com/cells/cpp/attachments/22970904/23166994.csv&#34;&gt;output CSV file&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Cpp: Read and Write Tab Delimited File Format</title>
+      <link>https://roywangt.github.io/cells/cpp/developerguide/ld-sv-cvt/read&#43;and&#43;write&#43;tab&#43;delimited&#43;file&#43;format/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/cpp/developerguide/ld-sv-cvt/read&#43;and&#43;write&#43;tab&#43;delimited&#43;file&#43;format/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-c--read-and-write-tab-delimited-file-format&#34;&gt;Aspose.Cells for C++ : Read and Write Tab Delimited File Format&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#read-and-write-tab-delimited-file-format&#34;&gt;Read and Write Tab Delimited File Format&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;Microsoft Excel supports many formats like XLS, XLSX, XLSM, XLSB, CSV, tab-delimited, etc. Aspose.Cells also supports many of these formats. This article explains how to read and write the excel file having Tab Delimited format using Aspose.Cells.&lt;/p&gt;
+&lt;h2 id=&#34;read-and-write-tab-delimited-file-format&#34;&gt;Read and Write Tab Delimited File Format&lt;/h2&gt;
+&lt;p&gt;The following sample code loads the &lt;a href=&#34;https://docs2.aspose.com/cells/cpp/attachments/22970906/23166997.txt&#34;&gt;source tab-delimited file&lt;/a&gt; and reads its cell A1 and then copies its contents to cell C4 and saves it as &lt;a href=&#34;https://docs2.aspose.com/cells/cpp/attachments/22970906/23166996.txt&#34;&gt;output tab-delimited file&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Cpp: Read and Write XLSB File Format</title>
+      <link>https://roywangt.github.io/cells/cpp/developerguide/ld-sv-cvt/read&#43;and&#43;write&#43;xlsb&#43;file&#43;format/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/cpp/developerguide/ld-sv-cvt/read&#43;and&#43;write&#43;xlsb&#43;file&#43;format/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-c--read-and-write-xlsb-file-format&#34;&gt;Aspose.Cells for C++ : Read and Write XLSB File Format&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#read-and-write-xlsb-file-format&#34;&gt;Read and Write XLSB File Format&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;Microsoft Excel supports many formats like XLS, XLSX, XLSM, XLSB, CSV, etc. Aspose.Cells also supports many of these formats. This article explains how to read and write the excel file having XLSB format using Aspose.Cells.&lt;/p&gt;
+&lt;h2 id=&#34;read-and-write-xlsb-file-format&#34;&gt;Read and Write XLSB File Format&lt;/h2&gt;
+&lt;p&gt;The following sample code loads the &lt;a href=&#34;https://docs2.aspose.com/cells/cpp/attachments/22970901/23166992.xlsb&#34;&gt;source XLSB file&lt;/a&gt; and reads its &lt;code&gt;cell A1&lt;/code&gt; and then copies its contents to &lt;code&gt;cell C4&lt;/code&gt; and saves it as &lt;a href=&#34;https://docs2.aspose.com/cells/cpp/attachments/22970901/23166993.xlsb&#34;&gt;output XLSB file&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Cpp: Read and Write XLSM File Format</title>
+      <link>https://roywangt.github.io/cells/cpp/developerguide/ld-sv-cvt/read&#43;and&#43;write&#43;xlsm&#43;file&#43;format/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/cpp/developerguide/ld-sv-cvt/read&#43;and&#43;write&#43;xlsm&#43;file&#43;format/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-c--read-and-write-xlsm-file-format&#34;&gt;Aspose.Cells for C++ : Read and Write XLSM File Format&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#read-and-write-xlsm-file-format&#34;&gt;Read and Write XLSM File Format&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;Microsoft Excel supports many formats like XLS, XLSX, XLSM, XLSB, CSV, etc. Aspose.Cells also supports many of these formats. This article explains how to read and write the excel file having &lt;code&gt;XLSM&lt;/code&gt; format using Aspose.Cells.&lt;/p&gt;
+&lt;h2 id=&#34;read-and-write-xlsm-file-format&#34;&gt;Read and Write XLSM File Format&lt;/h2&gt;
+&lt;p&gt;The following sample code loads the &lt;a href=&#34;https://docs2.aspose.com/cells/cpp/attachments/22970899/23166990.xlsm&#34;&gt;source XLSM file&lt;/a&gt; and reads its cell A1 and then copies its contents to cell C4 and saves it as &lt;a href=&#34;https://docs2.aspose.com/cells/cpp/attachments/22970899/23166991.xlsm&#34;&gt;output XLSM file&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Cpp: Convert Excel Workbook to PDF</title>
+      <link>https://roywangt.github.io/cells/cpp/developerguide/ld-sv-cvt/convert&#43;excel&#43;workbook&#43;to&#43;pdf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/cpp/developerguide/ld-sv-cvt/convert&#43;excel&#43;workbook&#43;to&#43;pdf/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-c--convert-excel-workbook-to-pdf&#34;&gt;Aspose.Cells for C++ : Convert Excel Workbook to PDF&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#converting-excel-workbook-to-pdf&#34;&gt;Converting Excel Workbook to PDF&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#direct-conversion&#34;&gt;Direct Conversion&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.2 &lt;a href=&#34;#advanced-conversion&#34;&gt;Advanced Conversion&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.2.1 &lt;a href=&#34;#saving-workbook-to-pdf/a-complied-files&#34;&gt;Saving Workbook to PDF/A Complied Files&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.2.2 &lt;a href=&#34;#set-the-pdf-creation-time&#34;&gt;Set the PDF Creation Time&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;converting-excel-workbook-to-pdf&#34;&gt;Converting Excel Workbook to PDF&lt;/h2&gt;
+&lt;p&gt;PDF files are widely used to exchange documents between organizations, government sectors, and individuals. It is a standard document format and software developers are often asked to find a way to convert Microsoft Excel files into PDF documents.&lt;/p&gt;
+&lt;p&gt;Aspose.Cells supports converting Excel files to PDF and maintains high visual fidelity in the conversion.&lt;/p&gt;
+&lt;p&gt;Aspose.Cells directly writes the information about API and Version Number in output documents. For example, upon rendering Document to PDF, Aspose.Cells for C++ populates the &lt;strong&gt;Application&lt;/strong&gt; field with value &amp;lsquo;Aspose.Cells&amp;rsquo; and &lt;strong&gt;PDF Producer&lt;/strong&gt; field with value, e.g &amp;lsquo;Aspose.Cells v18.5.0&amp;rsquo;.&lt;/p&gt;
+&lt;p&gt;Please note that you cannot instruct Aspose.Cells for C++ to change or remove this information from output Documents.&lt;/p&gt;
+&lt;h3 id=&#34;direct-conversion&#34;&gt;Direct Conversion&lt;/h3&gt;
+&lt;p&gt;Aspose.Cells supports conversion from spreadsheets to PDF independently of other software. Simply save an Excel file to PDF using the &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_workbook/&#34;&gt;IWorkbook&lt;/a&gt; class&amp;rsquo; &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_workbook/#a77072cfb929787df9ad1f38b02f58349&#34;&gt;Save&lt;/a&gt; method. The &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_workbook/#a77072cfb929787df9ad1f38b02f58349&#34;&gt;Save&lt;/a&gt; method provides the &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/namespace/aspose.cells/#a11cae527e4e68f1adcac8f47ea64481a&#34;&gt;SaveFormat_Pdf&lt;/a&gt; enumeration member that converts the native Excel files to PDF format.&lt;/p&gt;
+&lt;p&gt;Follow the below steps to directly convert the Excel spreadsheets to PDF format:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Instantiate an object of the &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_workbook/&#34;&gt;IWorkbook&lt;/a&gt; class by calling its empty constructor.&lt;/li&gt;
+&lt;li&gt;You may open/load an existing template file or skip this step if you are creating the workbook from scratch.&lt;/li&gt;
+&lt;li&gt;Do any work (input data, apply formatting, set formulas, insert pictures or other drawing objects, and so on) on the spreadsheet using Aspose.Cells&amp;rsquo; APIs.&lt;/li&gt;
+&lt;li&gt;When the spreadsheet code is complete, call the &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_workbook/&#34;&gt;IWorkbook&lt;/a&gt; class&amp;rsquo; &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_workbook/#a77072cfb929787df9ad1f38b02f58349&#34;&gt;Save&lt;/a&gt; method to save the spreadsheet.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The file format should be PDF so select relevant PDF (a pre-defined value) from the &lt;code&gt;SaveFormat&lt;/code&gt; enumeration to generate the final PDF document&lt;/p&gt;
+&lt;p&gt;Please see the following sample code, its &lt;a href=&#34;https://docs2.aspose.com/cells/cpp/attachments/66946026/67338368.xlsx&#34;&gt;sample Excel file&lt;/a&gt; and &lt;a href=&#34;https://docs2.aspose.com/cells/cpp/attachments/66946026/67338369.pdf&#34;&gt;output PDF&lt;/a&gt; for your reference.&lt;/p&gt;
+&lt;h3 id=&#34;advanced-conversion&#34;&gt;Advanced Conversion&lt;/h3&gt;
+&lt;p&gt;You may also opt to use the &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_pdf_save_options/&#34;&gt;IPdfSaveOptions&lt;/a&gt; class to set different attributes for the conversion. Setting different properties of the &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_pdf_save_options/&#34;&gt;IPdfSaveOptions&lt;/a&gt; class gives you control over the print, font, security and compression settings for the output PDF. The most important property is &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_pdf_save_options/#a2158ff23d7c071f8224b1cd063233c07&#34;&gt;SetCompliance&lt;/a&gt; which enables you to save the Excel files to PDF/A compliant PDF files.&lt;/p&gt;
+&lt;h4 id=&#34;saving-workbook-to-pdfa-complied-files&#34;&gt;Saving Workbook to PDF/A Complied Files&lt;/h4&gt;
+&lt;p&gt;The following code snippet demonstrates how to use the &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_pdf_save_options/&#34;&gt;IPdfSaveOptions&lt;/a&gt; class to save Excel files to PDF/A compliant PDF format&lt;/p&gt;
+&lt;p&gt;Please see the following sample code and its &lt;a href=&#34;https://docs2.aspose.com/cells/cpp/attachments/66946026/67338370.pdf&#34;&gt;output PDF&lt;/a&gt; for your reference.&lt;/p&gt;
+&lt;h4 id=&#34;set-the-pdf-creation-time&#34;&gt;Set the PDF Creation Time&lt;/h4&gt;
+&lt;p&gt;With the &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_pdf_save_options/&#34;&gt;IPdfSaveOptions&lt;/a&gt; class, you can get or set the PDF creation time.&lt;/p&gt;
+&lt;p&gt;Please see the following sample code and its &lt;a href=&#34;https://docs2.aspose.com/cells/cpp/attachments/66946026/67338371.pdf&#34;&gt;output PDF&lt;/a&gt; for your reference.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Cpp: Converting Worksheet to Different Image Formats</title>
+      <link>https://roywangt.github.io/cells/cpp/developerguide/ld-sv-cvt/converting&#43;worksheet&#43;to&#43;different&#43;image&#43;formats/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/cpp/developerguide/ld-sv-cvt/converting&#43;worksheet&#43;to&#43;different&#43;image&#43;formats/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-c--converting-worksheet-to-different-image-formats&#34;&gt;Aspose.Cells for C++ : Converting Worksheet to Different Image Formats&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells allows you to export a worksheet from a workbook and convert it into different image formats. This article explains how to convert a worksheet to different image formats.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#converting-worksheet-to-image&#34;&gt;Converting Worksheet to Image&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#png-format&#34;&gt;PNG Format&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.2 &lt;a href=&#34;#tiff-format&#34;&gt;TIFF Format&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#converting-worksheet-to-svg&#34;&gt;Converting Worksheet to SVG&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;converting-worksheet-to-image&#34;&gt;Converting Worksheet to Image&lt;/h2&gt;
+&lt;p&gt;Worksheets contain data that you want to analyze. For example, a worksheet can contain parameters, totals, percentages, exceptions, and calculations.&lt;/p&gt;
+&lt;p&gt;As a developer, you might need to present worksheets as images. For example, you might need to use an image of a worksheet in an application or web page. You might want to insert an image into a Microsoft Word document, a PDF file, a PowerPoint presentation or some other document type. Simply put, you want a worksheet rendered as an image so that you can use it somewhere else.&lt;/p&gt;
+&lt;p&gt;Aspose.Cells supports converting Excel worksheets to images. To use this feature, you need to import the &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/namespace/aspose.cells.rendering/&#34;&gt;Aspose.Cells.Rendering&lt;/a&gt; namespace to your program or project. It has several valuable classes for rendering and printing, for example, &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.rendering.i_sheet_render/&#34;&gt;ISheetRender&lt;/a&gt;, &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.rendering.i_image_or_print_options/&#34;&gt;IImageOrPrintOptions&lt;/a&gt; and others.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.rendering.i_sheet_render/&#34;&gt;Aspose.Cells.Rendering.ISheetRender&lt;/a&gt; class represents a worksheet to render as images. It has an overloaded method, &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.rendering.i_sheet_render/#ae508827a76d0c353ab0890024ec363c5&#34;&gt;ToImage&lt;/a&gt;, that can convert a worksheet to image file(s) with different attributes or options. Several image formats are supported, for example, BMP, PNG, GIF, JPG, JPEG, TIFF, EMF.&lt;/p&gt;
+&lt;p&gt;The following code snippet shows how to convert a worksheet in an Excel file to an image file.&lt;/p&gt;
+&lt;h3 id=&#34;png-format&#34;&gt;PNG Format&lt;/h3&gt;
+&lt;p&gt;Please see the following sample code, its &lt;a href=&#34;https://docs2.aspose.com/cells/cpp/attachments/66946350/67338402.xlsx&#34;&gt;sample Excel file&lt;/a&gt;, and the &lt;a href=&#34;https://docs2.aspose.com/cells/cpp/attachments/66946350/67338401.zip&#34;&gt;output PNG Images&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;tiff-format&#34;&gt;TIFF Format&lt;/h3&gt;
+&lt;p&gt;Please see the following sample code, its &lt;a href=&#34;https://docs2.aspose.com/cells/cpp/attachments/66946350/67338402.xlsx&#34;&gt;sample Excel file&lt;/a&gt;, and the &lt;a href=&#34;https://docs2.aspose.com/cells/cpp/attachments/66946350/67338419.zip&#34;&gt;output TIFF Image&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;converting-worksheet-to-svg&#34;&gt;Converting Worksheet to SVG&lt;/h2&gt;
+&lt;p&gt;SVG stands for Scalable Vector Graphics. SVG is a specification based on XML standards for two-dimensional vector graphics. It is an open standard that has been under development by the World Wide Web Consortium (W3C) since 1999.&lt;/p&gt;
+&lt;p&gt;Aspose.Cells for C++ has been able to convert worksheets to SVG image since version 18.5.0.&lt;/p&gt;
+&lt;p&gt;To use this feature, import the &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/namespace/aspose.cells.rendering/&#34;&gt;Aspose.Cells.Rendering&lt;/a&gt; namespace to your program or project. It has several valuable classes for rendering and printing, for example, &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.rendering.i_sheet_render/&#34;&gt;ISheetRender&lt;/a&gt;, &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.rendering.i_image_or_print_options/&#34;&gt;IImageOrPrintOptions&lt;/a&gt;, and others.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.rendering.i_image_or_print_options/&#34;&gt;Aspose.Cells.Rendering.IImageOrPrintOptions&lt;/a&gt; class specifies that the worksheet will be saved in SVG format. The following code snippet shows how to convert a worksheet in an Excel file to an SVG image file&lt;/p&gt;
+&lt;p&gt;Please see the following sample code, its &lt;a href=&#34;https://docs2.aspose.com/cells/cpp/attachments/66946350/67338402.xlsx&#34;&gt;sample Excel file&lt;/a&gt;, and the &lt;a href=&#34;https://docs2.aspose.com/cells/cpp/attachments/66946350/67338403.zip&#34;&gt;output SVG Images&lt;/a&gt;.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

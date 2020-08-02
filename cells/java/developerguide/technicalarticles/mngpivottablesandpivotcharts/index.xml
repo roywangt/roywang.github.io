@@ -1,0 +1,219 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Managing Pivot Tables and Pivot Charts</title>
+    <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngpivottablesandpivotcharts/</link>
+    <description>Recent content in Managing Pivot Tables and Pivot Charts on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngpivottablesandpivotcharts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Java: Create Pivot Tables and Pivot Charts</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngpivottablesandpivotcharts/create&#43;pivot&#43;tables&#43;and&#43;pivot&#43;charts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngpivottablesandpivotcharts/create&#43;pivot&#43;tables&#43;and&#43;pivot&#43;charts/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--create-pivot-tables-and-pivot-charts&#34;&gt;Aspose.Cells for Java : Create Pivot Tables and Pivot Charts&lt;/h1&gt;
+&lt;p&gt;A pivot table is an interactive summary of records. For example, you may have hundreds of invoice entries in a list in a worksheet. A pivot table can total the invoices by customer, product or date. With Microsoft Excel it is possible to quickly re-arrange the information in the pivot table by dragging buttons to a new position.&lt;/p&gt;
+&lt;p&gt;A pivot chart is an interactive graphical representation of the data in a pivot table. Pivot charts were introduced in Excel 2000. Using a pivot chart makes it even easier to understand the data since the pivot table creates subtotals and totals automatically.&lt;/p&gt;
+&lt;p&gt;Aspose.Cells supports &lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/mngpivottablesandpivotcharts/create+pivot+tables+and+pivot+charts&#34;&gt;pivot tables&lt;/a&gt; and &lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/mngpivottablesandpivotcharts/create+pivot+tables+and+pivot+charts&#34;&gt;pivot charts&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;adding-pivot-tables-and-charts&#34;&gt;Adding Pivot Tables and Charts&lt;/h3&gt;
+&lt;p&gt;Aspose.Cells provides a special set of classes used to create pivot tables. These classes are used to create and set &lt;code&gt;PivotTable&lt;/code&gt; objects, which act as a &lt;code&gt;PivotTable&lt;/code&gt; object&amp;rsquo;s basic building blocks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;PivotField&lt;/code&gt;, a field in a pivot table report.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;PivotFields&lt;/code&gt;, a collection of all the &lt;code&gt;PivotField&lt;/code&gt; objects in a pivot table.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;PivotTable&lt;/code&gt;, a &lt;code&gt;PivotTable&lt;/code&gt; report on a worksheet.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;PivotTables&lt;/code&gt;, a collection of all the &lt;code&gt;PivotTable&lt;/code&gt; objects on the worksheet.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;preparing-to-use-asposecells&#34;&gt;Preparing to use Aspose.Cells&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;Download and install Aspose.Cells.Zip:
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.aspose.com/community/files/72/java-components/aspose.cells-for-java/default.aspx&#34;&gt;Download Aspose.Cells for Java&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Unzip it on your development computer.&lt;br&gt;
+All &lt;a href=&#34;http://www.aspose.com/&#34;&gt;Aspose&lt;/a&gt; components, when installed, work in evaluation mode. The evaluation mode has no time limit and it only injects watermarks into produced documents.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Create a project
+&lt;ol&gt;
+&lt;li&gt;You can either create a project using some Java Editor e.g. Eclipse or create a simple program using a NotePad.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Add class path:&lt;br&gt;
+To set a class path using Eclipse:
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Extract the Aspose.Cells.jar and dom4j_1.6.1.jar from Aspose.Cells.zip.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Set the classpath of project in Eclipse:&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Select your project in Eclipse and then click menus Project-Properties.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Select &amp;ldquo;Java Build Path&amp;rdquo; in the left side of the popup window, then select the &amp;ldquo;Libraries&amp;rdquo; tab, click &amp;ldquo;Add JARs&amp;rdquo; or &amp;ldquo;Add External JARs&amp;rdquo; to select Aspose.Cells.jar and dom4j_1.6.1.jar and add them into build paths.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Write application to invoke APIs of Aspose&amp;rsquo;s components.&lt;br&gt;
+Or you may set it at runtime at dos prompt in Windows.&lt;/p&gt;
+&lt;p&gt;javac \-classpath %classpath%;e:\Aspose.Cells.jar; ClassName .javajava \-classpath %classpath%;e:\Aspose.Cells.jar; ClassName&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;creating-a-pivot-table&#34;&gt;Creating a Pivot Table&lt;/h4&gt;
+&lt;p&gt;To create a pivot table using Aspose.Cells:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Add some data to a worksheet cells using a &lt;code&gt;Cell&lt;/code&gt; object&amp;rsquo;s &lt;code&gt;PutValue&lt;/code&gt;/&lt;code&gt;setValue&lt;/code&gt; method. You also use a template file already filled with data. The data will be used as the pivot table&amp;rsquo;s data source.&lt;/li&gt;
+&lt;li&gt;Add a pivot table to the worksheet by calling the &lt;code&gt;PivotTables&lt;/code&gt; collection&amp;rsquo;s &lt;code&gt;add&lt;/code&gt; method (encapsulated in the &lt;code&gt;Worksheet&lt;/code&gt; object).&lt;/li&gt;
+&lt;li&gt;Access the new &lt;code&gt;PivotTable&lt;/code&gt; object from the &lt;code&gt;PivotTables&lt;/code&gt; collection by passing its index.&lt;/li&gt;
+&lt;li&gt;Use any of the pivot table objects encapsulated in the &lt;code&gt;PivotTable&lt;/code&gt; object to manage the table.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;A code sample is given below. Executing the code generates a new file: pivotTable_test.xls.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Input data&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276674/5473027.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The output pivot table&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276674/5473026.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;creating-a-pivot-chart-based-on-the-pivot-table&#34;&gt;Creating a Pivot Chart based on the Pivot Table&lt;/h4&gt;
+&lt;p&gt;To create a pivot chart using Aspose.Cells:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Add a chart.&lt;/li&gt;
+&lt;li&gt;Set the &lt;code&gt;PivotSource&lt;/code&gt; of the chart to refer to an existing pivot table in the spreadsheet.&lt;/li&gt;
+&lt;li&gt;Set other attributes.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Below is the code used by the component to accomplish the task. Executing the code generates a new file: pivotChart_test.xls.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The pivot chart sheet&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276674/5473033.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;This article shows how to create pivot tables and pivot charts using Aspose.Cells. Hopefully, it will help you use these features in your own scenarios.&lt;/p&gt;
+&lt;p&gt;Aspose.Cells has benefited from years of research, design and careful tuning.&lt;/p&gt;
+&lt;p&gt;We welcome your queries, comments and suggestions at &lt;a href=&#34;http://www.aspose.com/community/forums/aspose.cells-product-family/19/showforum.aspx&#34;&gt;Aspose.Cells Forum&lt;/a&gt;. We warranty a prompt reply.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Format Pivot Table Cells</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngpivottablesandpivotcharts/format&#43;pivot&#43;table&#43;cells/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngpivottablesandpivotcharts/format&#43;pivot&#43;table&#43;cells/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--format-pivot-table-cells&#34;&gt;Aspose.Cells for Java : Format Pivot Table Cells&lt;/h1&gt;
+&lt;p&gt;Sometimes, you want to format pivot table cells. For example, you want to apply a background color to pivot table cells. Aspose.Cells provides two methods &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/pivottable#formatAll(com.aspose.cells.Style)&#34;&gt;PivotTable.formatAll()&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/pivottable#format(int,%20int,%20com.aspose.cells.Style)&#34;&gt;PivotTable.format()&lt;/a&gt;, which you can use for this purpose.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/pivottable#formatAll(com.aspose.cells.Style)&#34;&gt;PivotTable.formatAll()&lt;/a&gt;applies the style to the entire pivot table while &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/pivottable#format(int,%20int,%20com.aspose.cells.Style)&#34;&gt;PivotTable.format()&lt;/a&gt; applies the style to a single cell of the pivot table.&lt;/p&gt;
+&lt;p&gt;The following sample code formats the entire pivot table with a light blue color and then formats the second table row yellow.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The input pivot table, before executing the code&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276673/5473037.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The ouput pivot table, after the executing the code&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276673/5473036.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Setting Pivot Table Option - For Empty Cells Show</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngpivottablesandpivotcharts/setting&#43;pivot&#43;table&#43;option&#43;-&#43;for&#43;empty&#43;cells&#43;show/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngpivottablesandpivotcharts/setting&#43;pivot&#43;table&#43;option&#43;-&#43;for&#43;empty&#43;cells&#43;show/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--setting-pivot-table-option---for-empty-cells-show&#34;&gt;Aspose.Cells for Java : Setting Pivot Table Option - For Empty Cells Show&lt;/h1&gt;
+&lt;p&gt;You can set different pivot table options using Aspose.Cells. One such option is &amp;ldquo;For empty cells show&amp;rdquo;. Setting this option means that all empty cells in the pivot table are displayed with a specified string.&lt;/p&gt;
+&lt;p&gt;To find and set this option in Microsoft Excel:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Select a pivot table and right-click it.&lt;/li&gt;
+&lt;li&gt;Select &lt;strong&gt;PivotTable Options&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Select the &lt;strong&gt;Layout &amp;amp; Format&lt;/strong&gt; tab.&lt;/li&gt;
+&lt;li&gt;Select the &lt;strong&gt;For empty cells show&lt;/strong&gt; option and specify a string.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276672/5472974.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Aspose.Cells provides the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/pivottable#DisplayNullString&#34;&gt;PivotTable.setDisplayNullString()&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/pivottable#NullString&#34;&gt;PivotTable.setNullString()&lt;/a&gt; properties for setting the &amp;ldquo;For empty cells show&amp;rdquo; pivot table option.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Specifying the absolute position of the Pivot Item</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngpivottablesandpivotcharts/specifying&#43;the&#43;absolute&#43;position&#43;of&#43;the&#43;pivot&#43;item/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngpivottablesandpivotcharts/specifying&#43;the&#43;absolute&#43;position&#43;of&#43;the&#43;pivot&#43;item/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--specifying-the-absolute-position-of-the-pivot-item&#34;&gt;Aspose.Cells for Java : Specifying the absolute position of the Pivot Item&lt;/h1&gt;
+&lt;p&gt;Sometimes, the user needs to specify the absolute position of the pivot items, Aspose.Cells API has exposed a few new properties and a method to achieve this user requirement.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Added &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/pivotitem#Position&#34;&gt;PivotItem.setPosition()&lt;/a&gt; property that can be used to specify the position index in all the PivotItems regardless of the parent node. Added &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/pivotitem#PositionInSameParentNode&#34;&gt;PivotItem.setPositionInSameParentNode()&lt;/a&gt; property that can be used to specify the position index in the PivotItems under the same parent node.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Added &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/pivotitem#move(int,%20boolean)&#34;&gt;PivotItem.move(int count, boolean isSameParent)&lt;/a&gt; method in order to move the item up or down based on the count value, where the count is the number of positions to move the PivotItem up or down. If the count value is less than zero, the item will be moved up whereas if the count value is larger than zero, the PivotItem will move down, Boolean type isSameParent parameter specifying whether the moving operation has to be performed in the same parent node or not.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Obsoleted the &lt;em&gt;PivotItem.move(int count)&lt;/em&gt; method, therefore, it is suggested to use the newly added method &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/pivotitem#move(int,%20boolean)&#34;&gt;PivotItem.move(int count, boolean isSameParent)&lt;/a&gt;instead.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Please note, it is necessary to call the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/pivottable#refreshData()&#34;&gt;PivotTable.refreshData&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/pivottable#calculateData()&#34;&gt;PivotTable.calculateData&lt;/a&gt; methods before using &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/pivotitem#Position&#34;&gt;PivotItem.setPosition()&lt;/a&gt;, &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/pivotitem#PositionInSameParentNode&#34;&gt;PivotItem.setPositionInSameParentNode()&lt;/a&gt;properties and &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/pivotitem#move(int,%20boolean)&#34;&gt;PivotItem.move(int count, boolean isSameParent)&lt;/a&gt; method.&lt;/p&gt;
+&lt;h4 id=&#34;example&#34;&gt;Example&lt;/h4&gt;
+&lt;p&gt;The following sample code creates a Pivot Table and then it specifies the Pivot Items positions in the same parent node.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Delete Pivot Table from a Worksheet</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngpivottablesandpivotcharts/delete&#43;pivot&#43;table&#43;from&#43;a&#43;worksheet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngpivottablesandpivotcharts/delete&#43;pivot&#43;table&#43;from&#43;a&#43;worksheet/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--delete-pivot-table-from-a-worksheet&#34;&gt;Aspose.Cells for Java : Delete Pivot Table from a Worksheet&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells provides a feature to delete or remove a Pivot Table from a Worksheet. You can delete the pivot table using the pivot table object or pivot table position. Please use the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/pivottablecollection#remove(com.aspose.cells.PivotTable)&#34;&gt;Worksheet.getPivotTables().remove()&lt;/a&gt; method to delete the pivot table using the pivot table object and &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/pivottablecollection#removeAt(int)&#34;&gt;Worksheet.getPivotTables().removeAt()&lt;/a&gt; method to delete a pivot table object using its position inside the pivot table collection.&lt;/p&gt;
+&lt;h4 id=&#34;example&#34;&gt;Example&lt;/h4&gt;
+&lt;p&gt;The following sample code deletes two pivot tables from the worksheet. First, it removes the pivot table using &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/pivottablecollection#remove(com.aspose.cells.PivotTable)&#34;&gt;Worksheet.getPivotTables().remove()&lt;/a&gt;method and then it removes the pivot table using &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/pivottablecollection#removeAt(int)&#34;&gt;Worksheet.getPivotTables().removeAt()&lt;/a&gt; method&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Changing the Layout of Pivot Table</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngpivottablesandpivotcharts/changing&#43;the&#43;layout&#43;of&#43;pivot&#43;table/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngpivottablesandpivotcharts/changing&#43;the&#43;layout&#43;of&#43;pivot&#43;table/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--changing-the-layout-of-pivot-table&#34;&gt;Aspose.Cells for Java : Changing the Layout of Pivot Table&lt;/h1&gt;
+&lt;p&gt;Microsoft Excel allows you to change the Layout of Pivot Table using &lt;em&gt;PivotTable Tools &amp;gt; Design &amp;gt; Report&lt;/em&gt; Layout menu commands. You can change the Layout in these three forms&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Show in Compact Form&lt;/li&gt;
+&lt;li&gt;Show in Outline Form&lt;/li&gt;
+&lt;li&gt;Show in Tabular Form&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Aspose.Cells also provides &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/pivottable#showInCompactForm()&#34;&gt;PivotTable.showInCompactForm()&lt;/a&gt;, &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/pivottable#showInOutlineForm()&#34;&gt;PivotTable.showInOutlineForm()&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/pivottable#showInTabularForm()&#34;&gt;PivotTable.showInTabularForm()&lt;/a&gt; methods to change the layout of pivot table in these three forms.&lt;/p&gt;
+&lt;h4 id=&#34;example&#34;&gt;Example&lt;/h4&gt;
+&lt;p&gt;The following sample code first shows the Pivot Table in &lt;strong&gt;Compact Form&lt;/strong&gt;, then it shows the Pivot Table in &lt;strong&gt;Outline Form&lt;/strong&gt; and lastly, it shows Pivot Table in &lt;strong&gt;Tabular Form&lt;/strong&gt;.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

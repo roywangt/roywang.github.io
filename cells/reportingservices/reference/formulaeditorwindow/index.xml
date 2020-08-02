@@ -1,0 +1,249 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Formula Editor Window</title>
+    <link>https://roywangt.github.io/cells/reportingservices/reference/formulaeditorwindow/</link>
+    <description>Recent content in Formula Editor Window on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://roywangt.github.io/cells/reportingservices/reference/formulaeditorwindow/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Reportingservices: Formula List</title>
+      <link>https://roywangt.github.io/cells/reportingservices/reference/formulaeditorwindow/formula&#43;list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/reportingservices/reference/formulaeditorwindow/formula&#43;list/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-reporting-services--formula-list&#34;&gt;Aspose.Cells for Reporting Services : Formula List&lt;/h1&gt;
+&lt;h3 id=&#34;report-fields&#34;&gt;Report fields&lt;/h3&gt;
+
+&lt;div class=&#34;table table-striped&#34; role=&#34;alert&#34;&gt;
+    &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Set Name&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Formula Name&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Description&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Global fields&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;ExecutionTime&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;The date and time when the report began to run.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;ReportServerUrl&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;The URL of the report server on which the report is being run.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;ReportName&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;The name of the report as it is stored in the report server database.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;ReportFolder&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;The full path to the folder containing the report. This does not include the report server URL.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;User&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;UserID&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;The ID of the user running the report.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Language&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;The language ID of the user running the report.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+
+&lt;h3 id=&#34;report-fields-1&#34;&gt;Report fields&lt;/h3&gt;
+
+&lt;div class=&#34;table table-striped&#34; role=&#34;alert&#34;&gt;
+    &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Set Name&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Description&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Parameters&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;The Parameters collection contains the report parameters within the report. Parameters can be passed to queries, used in filters or used in other functions that alter the report appearance based on the parameter.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Fields&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;The Fields collection contains the fields within the current dataset.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;DataSet&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+
+&lt;h3 id=&#34;operators&#34;&gt;Operators&lt;/h3&gt;
+&lt;p&gt;Arithmetic operators are used to combine numbers, numeric variables, numeric fields and numeric functions to get another number. Comparison operators are usually used to compare operands for a condition in a control structure such as an If statement. Boolean operators are typically used with comparison operators to generate conditions for control structures.&lt;/p&gt;
+
+&lt;div class=&#34;table table-striped&#34; role=&#34;alert&#34;&gt;
+    &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Set Name&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Formula name&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;strong&gt;Description&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Arithmetic&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;^&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Exponentiation, for example 2^3.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;*&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Multiplication, for example 2*3.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;/&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Division, for example 2/3.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;\\\&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Integer division, for example 2\\\3.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Mod&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Modulus, for example 4 Mod 3.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;+&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Addition, for example 4 + 3.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;-&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Subtraction, for example 4 – 3.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Comparison&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&amp;lt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Less than, for example 4 &amp;lt; 3 false.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&amp;lt;=&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Less than or equal, for example 4 &amp;lt;= 3 false.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&amp;gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Greater than, for example 4 &amp;gt; 3 true.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&amp;gt;=&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Greater than or equal, for example 4 &amp;gt;= 3 true.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;=&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Equal, for example 4 = 3 false.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&amp;lt;&amp;gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Not equal, for example 4 &amp;lt;&amp;gt; 3 true.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Like&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Compares a string against a pattern. For example result = string Like pattern.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Is&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Compares two object reference variables, for example asp Is aspose.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Concatenation&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&amp;amp;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Generates a string concatenation of two expressions.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;+&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Adds two numbers or returns the positive value of a numeric expression. Can also be used to concatenate two string expressions.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Logical/Bitwise&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;And&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Performs a logical conjunction on two Boolean expressions, or a bitwise conjunction on two numeric expressions.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Not&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Performs logical negation on a Boolean expression, or bitwise negation on a numeric expression.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Or&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Performs a logical disjunction on two Boolean expressions, or a bitwise disjunction on two numeric expressions.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Xor&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Performs a logical exclusion on two Boolean expressions, or a bitwise exclusion on two numeric expressions.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;AndAlso&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Performs short-circuiting logical conjunction on two expressions.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;OrElse&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Performs short-circuiting inclusive logical disjunction on two expressions.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Bit Shift&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&amp;raquo;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Performs an arithmetic left shift on a bit pattern.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&amp;laquo;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Performs an arithmetic right shift on a bit pattern.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

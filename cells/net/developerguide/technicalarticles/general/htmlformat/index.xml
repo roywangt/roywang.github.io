@@ -1,0 +1,319 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Working with HTML Format</title>
+    <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/htmlformat/</link>
+    <description>Recent content in Working with HTML Format on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/htmlformat/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Net: Avoid exponential notation of large numbers while importing from Html</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/htmlformat/avoid&#43;exponential&#43;notation&#43;of&#43;large&#43;numbers&#43;while&#43;importing&#43;from&#43;html/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/htmlformat/avoid&#43;exponential&#43;notation&#43;of&#43;large&#43;numbers&#43;while&#43;importing&#43;from&#43;html/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--avoid-exponential-notation-of-large-numbers-while-importing-from-html&#34;&gt;Aspose.Cells for .NET : Avoid exponential notation of large numbers while importing from Html&lt;/h1&gt;
+&lt;p&gt;Sometimes your Html contains numbers like 1234567890123456 which are longer than 15 digits and when you import your HTML to excel file, these numbers convert to exponential notation like 1.23457E+15. If you want, your number should be imported as it is and not converted to exponential notation, then please use &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/abstracttextloadoptions/properties/keepprecision&#34;&gt;HTMLLoadOptions.KeepPrecision&lt;/a&gt; property and set it &lt;strong&gt;true&lt;/strong&gt; while loading your HTML.&lt;/p&gt;
+&lt;p&gt;The following sample code explains the usage of &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/abstracttextloadoptions/properties/keepprecision&#34;&gt;HTMLLoadOptions.KeepPrecision&lt;/a&gt;property. The API will import the number as it is without converting it to exponential notation.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Delete redundant spaces after line break while importing Html</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/htmlformat/delete&#43;redundant&#43;spaces&#43;after&#43;line&#43;break&#43;while&#43;importing&#43;html/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/htmlformat/delete&#43;redundant&#43;spaces&#43;after&#43;line&#43;break&#43;while&#43;importing&#43;html/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--delete-redundant-spaces-after-line-break-while-importing-html&#34;&gt;Aspose.Cells for .NET : Delete redundant spaces after line break while importing Html&lt;/h1&gt;
+&lt;p&gt;Please use &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/htmlloadoptions/properties/deleteredundantspaces&#34;&gt;HTMLLoadOptions.DeleteRedundantSpaces&lt;/a&gt; property and set it &lt;strong&gt;true&lt;/strong&gt; to delete all the redundant spaces coming after the line break tag. By default, this property is &lt;strong&gt;false&lt;/strong&gt; and redundant spaces are preserved in the output excel files.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#effect-of-setting-the-htmlloadoptions.deleteredundantspaces%C2%A0property-to-false-and-true&#34;&gt;Effect of setting the HTMLLoadOptions.DeleteRedundantSpaces property to false and true&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#delete-redundant-spaces-after-line-break-while-importing-html&#34;&gt;Delete redundant spaces after line break while importing Html&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;2.1 &lt;a href=&#34;#programming-sample&#34;&gt;Programming Sample&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;effect-of-setting-the-htmlloadoptionsdeleteredundantspacesproperty-to-false-and-true&#34;&gt;Effect of setting the HTMLLoadOptions.DeleteRedundantSpaces property to false and true&lt;/h2&gt;
+&lt;p&gt;The following screenshot shows the effect of setting this property to &lt;strong&gt;false&lt;/strong&gt; and &lt;strong&gt;true&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5024990/5115490.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;delete-redundant-spaces-after-line-break-while-importing-html&#34;&gt;Delete redundant spaces after line break while importing Html&lt;/h2&gt;
+&lt;h3 id=&#34;programming-sample&#34;&gt;Programming Sample&lt;/h3&gt;
+&lt;p&gt;The following sample code shows the usage of the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/htmlloadoptions/properties/deleteredundantspaces&#34;&gt;HTMLLoadOptions.DeleteRedundantSpaces&lt;/a&gt; property. Please set it &lt;strong&gt;true&lt;/strong&gt; or &lt;strong&gt;false&lt;/strong&gt; to get the output as shown in the above screenshot.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Export DataBar ColorScale and IconSet Conditional Formatting while Excel to HTML Conversion</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/htmlformat/export&#43;databar&#43;colorscale&#43;and&#43;iconset&#43;conditional&#43;formatting&#43;while&#43;excel&#43;to&#43;html&#43;conversion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/htmlformat/export&#43;databar&#43;colorscale&#43;and&#43;iconset&#43;conditional&#43;formatting&#43;while&#43;excel&#43;to&#43;html&#43;conversion/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--export-databar-colorscale-and-iconset-conditional-formatting-while-excel-to-html-conversion&#34;&gt;Aspose.Cells for .NET : Export DataBar, ColorScale and IconSet Conditional Formatting while Excel to HTML Conversion&lt;/h1&gt;
+&lt;p&gt;You can export DataBar, ColorScale and IconSet Conditional Formatting while converting your Excel file into HTML. This feature is partially supported by Microsoft Excel but Aspose.Cells supports it fully.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#export-databar,-colorscale-and-iconset-conditional-formatting-while-excel-to-html-conversion&#34;&gt;Export DataBar, ColorScale and IconSet Conditional Formatting while Excel to HTML Conversion&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;export-databar-colorscale-and-iconset-conditional-formatting-while-excel-to-html-conversion&#34;&gt;Export DataBar, ColorScale and IconSet Conditional Formatting while Excel to HTML Conversion&lt;/h2&gt;
+&lt;p&gt;The following screenshot shows the &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/5013589/5115558.xlsx&#34;&gt;sample excel file&lt;/a&gt; with DataBar, ColorScale and IconSet Conditional Formatting. You can download the &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/5013589/5115558.xlsx&#34;&gt;sample excel file&lt;/a&gt; from the given link.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5013589/5115560.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The following screenshot shows the Aspose.Cells output HTML file showing DataBar, ColorScale and IconSet Conditional Formatting. As you can see, it looks exactly like &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/5013589/5115558.xlsx&#34;&gt;sample excel file&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5013589/5115559.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h3&gt;
+&lt;p&gt;The following sample code converts the sample excel file into HTML which is just a normal &lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/ld-sv-cvt-mng/convert+workbook+to+different+formats#convertworkbooktodifferentformats-convertingexcelworkbooktohtml&#34;&gt;Excel to HTML conversion&lt;/a&gt;.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Export Excel to HTML with GridLines</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/htmlformat/export&#43;excel&#43;to&#43;html&#43;with&#43;gridlines/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/htmlformat/export&#43;excel&#43;to&#43;html&#43;with&#43;gridlines/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--export-excel-to-html-with-gridlines&#34;&gt;Aspose.Cells for .NET : Export Excel to HTML with GridLines&lt;/h1&gt;
+&lt;p&gt;If you want to export your Excel file into HTML with GridLines, then please use the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/htmlsaveoptions/properties/exportgridlines&#34;&gt;HtmlSaveOptions.ExportGridLines&lt;/a&gt; property and set it &lt;strong&gt;true&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;export-excel-to-html-with-gridlines&#34;&gt;Export Excel to HTML with GridLines&lt;/h2&gt;
+&lt;p&gt;The following sample code creates a workbook and fills its worksheet with some values and then saves it in HTML format after setting the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/htmlsaveoptions/properties/exportgridlines&#34;&gt;HtmlSaveOptions.ExportGridLines&lt;/a&gt; to &lt;strong&gt;true&lt;/strong&gt;.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Support the layout of DIV tags while loading HTML to excel workbook</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/htmlformat/support&#43;the&#43;layout&#43;of&#43;div&#43;tags&#43;while&#43;loading&#43;html&#43;to&#43;excel&#43;workbook/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/htmlformat/support&#43;the&#43;layout&#43;of&#43;div&#43;tags&#43;while&#43;loading&#43;html&#43;to&#43;excel&#43;workbook/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--support-the-layout-of-div-tags-while-loading-html-to-excel-workbook&#34;&gt;Aspose.Cells for .NET : Support the layout of DIV tags while loading HTML to excel workbook&lt;/h1&gt;
+&lt;p&gt;Normally, the layout of div tags are ignored while loading HTML into an excel workbook object. However, if you want the layout of div tags are not ignored, then please set the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/htmlloadoptions/properties/supportdivtag&#34;&gt;HTMLLoadOptions.SupportDivTag&lt;/a&gt; property to &lt;strong&gt;true&lt;/strong&gt;. The default value of this property is &lt;strong&gt;false&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;The following sample code illustrates the usage of &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/htmlloadoptions/properties/supportdivtag&#34;&gt;HTMLLoadOptions.SupportDivTag&lt;/a&gt;property. Please download the &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/5013819/5115218.png&#34;&gt;Aspose Logo&lt;/a&gt; used inside the input HTML and the &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/5013819/5115220.xlsx&#34;&gt;output excel file&lt;/a&gt; generated by the code.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Expanding text from right to left while exporting Excel file to HTML</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/htmlformat/expanding&#43;text&#43;from&#43;right&#43;to&#43;left&#43;while&#43;exporting&#43;excel&#43;file&#43;to&#43;html/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/htmlformat/expanding&#43;text&#43;from&#43;right&#43;to&#43;left&#43;while&#43;exporting&#43;excel&#43;file&#43;to&#43;html/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--expanding-text-from-right-to-left-while-exporting-excel-file-to-html&#34;&gt;Aspose.Cells for .NET : Expanding text from right to left while exporting Excel file to HTML&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells now supports expanding text from right to left while exporting Excel file to HTML. This feature has been implemented since the v8.9.0.0. Now if your source excel file contains any text which expands from right to left, then Aspose.Cells will export it to HTML correctly.&lt;/p&gt;
+&lt;h2 id=&#34;expanding-text-from-right-to-left-while-exporting-excel-file-to-html&#34;&gt;Expanding text from right to left while exporting Excel file to HTML&lt;/h2&gt;
+&lt;p&gt;The following sample code converts the &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/5024960/5115502.xlsx&#34;&gt;sample excel file&lt;/a&gt; into HTML. This screenshot shows how the sample excel looks like in Microsoft Excel 2013.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5024960/5115505.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;This screenshot shows the &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/5024960/5115509.html&#34;&gt;output HTML generated with older version&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5024960/5115504.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;This screenshot shows the &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/5024960/5115508.html&#34;&gt;output HTML generated with newer version&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5024960/5115503.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;As you can see in the screenshots, the newer version expands the right-aligned text to left correctly just like Microsoft Excel.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Provide exported worksheet html file path via IFilePathProvider interface</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/htmlformat/provide&#43;exported&#43;worksheet&#43;html&#43;file&#43;path&#43;via&#43;ifilepathprovider&#43;interface/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/htmlformat/provide&#43;exported&#43;worksheet&#43;html&#43;file&#43;path&#43;via&#43;ifilepathprovider&#43;interface/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--provide-exported-worksheet-html-file-path-via-ifilepathprovider-interface&#34;&gt;Aspose.Cells for .NET : Provide exported worksheet html file path via IFilePathProvider interface&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#provide-exported-worksheet-html-file-path-via-ifilepathprovider-interface&#34;&gt;Provide exported worksheet HTML file path via IFilePathProvider interface&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;Suppose, you have an excel file with multiples sheets and you want to export each sheet to individual HTML file. If any of your sheets have links to other sheets, then those links will be broken in the exported HTML. To deal with this problem, Aspose.Cells provides &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/ifilepathprovider&#34;&gt;IFilePathProvider&lt;/a&gt; interface which you can implement to fix the broken links.&lt;/p&gt;
+&lt;h2 id=&#34;provide-exported-worksheet-html-file-path-via-ifilepathprovider-interface&#34;&gt;Provide exported worksheet HTML file path via IFilePathProvider interface&lt;/h2&gt;
+&lt;p&gt;Please download the &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/5013737/5115213.zip&#34;&gt;sample excel file&lt;/a&gt; used in the following code and its exported HTML files. All these files are inside the &lt;code&gt;Temp&lt;/code&gt; directory. You should extract it on &lt;code&gt;C:&lt;/code&gt; drive. Then it will become &lt;code&gt;C:\Temp&lt;/code&gt; directory. Then you will open the &lt;code&gt;Sheet1.html&lt;/code&gt; file in the browser and click the two links inside it. These links refer to these two exported HTML worksheets which are inside the &lt;code&gt;C:\Temp\OtherSheets&lt;/code&gt; directory.&lt;/p&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_8946f348f2&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_8946f348f2&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;
+&lt;span style=&#34;color:#000&#34;&gt;file&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;///C:/Temp/OtherSheets/Sheet2.html#RANGE!A1
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;file&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;///C:/Temp/OtherSheets/Sheet3.html#RANGE!A1
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;p&gt;The following screenshot shows how the &lt;code&gt;C:\Temp\Sheet1.html&lt;/code&gt; and its links look like&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5013737/5115214.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The following screenshot shows the HTML source. As you can see that the links are now referring to &lt;code&gt;C:\Temp\OtherSheets&lt;/code&gt; directory. This was achieved using the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/ifilepathprovider&#34;&gt;IFilePathProvider&lt;/a&gt; interface.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5013737/5115212.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+&lt;p&gt;Please note &lt;code&gt;C:\Temp&lt;/code&gt; directory is just for illustration purpose. You can use any directory of your choice and place &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/5013737/5115211.xlsx&#34;&gt;sample excel file&lt;/a&gt; inside there and execute the provided sample code. It will then create &lt;code&gt;OtherSheets&lt;/code&gt; sub-directory inside your directory and export second and third worksheets HTML inside it. Please change the &lt;code&gt;dirPath&lt;/code&gt; variable inside the provided code and refer it to the directory of your choice before execution.&lt;/p&gt;
+&lt;p&gt;The sample code will only work when you will set Aspose.Cells license. If you will try to run the code without setting the license, it will go into an infinite loop. Therefore, we have added a check to print a message and stop execution when the license is not set. You can either purchase a license or request for a 30-day temporary license from Aspose.Purchase team.&lt;/p&gt;
+&lt;p&gt;Please see commenting these lines inside the code will break the links in &lt;code&gt;Sheet1.html&lt;/code&gt; and &lt;code&gt;Sheet2.html&lt;/code&gt; or &lt;code&gt;Sheet3.html&lt;/code&gt; will not open up when their links will be clicked inside the &lt;code&gt;Sheet1.html&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Here is the complete sample code which you can be executed with the provided &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/5013737/5115211.xlsx&#34;&gt;sample excel file&lt;/a&gt;.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Implementing IStreamProvider for HtmlSaveOptions.StreamProvider</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/htmlformat/implementing&#43;istreamprovider&#43;for&#43;htmlsaveoptions.streamprovider/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/htmlformat/implementing&#43;istreamprovider&#43;for&#43;htmlsaveoptions.streamprovider/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--implementing-istreamprovider-for-htmlsaveoptionsstreamprovider&#34;&gt;Aspose.Cells for .NET : Implementing IStreamProvider for HtmlSaveOptions.StreamProvider&lt;/h1&gt;
+&lt;p&gt;This article explains how to implement &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/istreamprovider&#34;&gt;IStreamProvider&lt;/a&gt; interface for setting the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/htmlsaveoptions/properties/streamprovider&#34;&gt;HtmlSaveOptions.StreamProvider&lt;/a&gt; property. By implementing this interface, you will be able to save the created resources during HTML generation to your specific locations or memory streams.&lt;/p&gt;
+&lt;p&gt;This is the main code showing the usage of &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/htmlsaveoptions/properties/streamprovider&#34;&gt;HtmlSaveOptions.StreamProvider&lt;/a&gt; property&lt;/p&gt;
+&lt;p&gt;Here is the code for *ExportStreamProvider *class which implements &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/istreamprovider&#34;&gt;IStreamProvider&lt;/a&gt;interface used inside the above code.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Render Gradient Fill for the WordArt while Converting Spreadsheets to HTML</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/htmlformat/render&#43;gradient&#43;fill&#43;for&#43;the&#43;wordart&#43;while&#43;converting&#43;spreadsheets&#43;to&#43;html/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/htmlformat/render&#43;gradient&#43;fill&#43;for&#43;the&#43;wordart&#43;while&#43;converting&#43;spreadsheets&#43;to&#43;html/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--render-gradient-fill-for-the-wordart-while-converting-spreadsheets-to-html&#34;&gt;Aspose.Cells for .NET : Render Gradient Fill for the WordArt while Converting Spreadsheets to HTML&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#render-gradient-fill-for-the-wordart-while-converting-spreadsheets-to-html&#34;&gt;Render Gradient Fill for the WordArt while converting spreadsheets to HTML&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;Before Aspose.Cells 17.1, Aspose.Cells did not render gradient fill of the word art when the Excel file was converted to HTML format. Since the release of Aspose.Cells 17.1, word art gradient fill is supported. The following screenshot compares the effect on the gradient fill by converting the excel file using Aspose.Cells 17.1 and the older version.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/22546716/22774110.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;render-gradient-fill-for-the-wordart-while-converting-spreadsheets-to-html&#34;&gt;Render Gradient Fill for the WordArt while converting spreadsheets to HTML&lt;/h2&gt;
+&lt;p&gt;The following sample code converts the &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/22546716/22774111.xlsx&#34;&gt;source excel file&lt;/a&gt; into &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/22546716/22774109.zip&#34;&gt;output HTML format&lt;/a&gt;. The source excel file contains a word art object with gradient fill as shown in the above screenshot.&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

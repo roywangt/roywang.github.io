@@ -1,0 +1,199 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Document Properties</title>
+    <link>https://roywangt.github.io/cells/java/developerguide/documentproperties/</link>
+    <description>Recent content in Document Properties on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://roywangt.github.io/cells/java/developerguide/documentproperties/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Java: Managing Document Properties</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/documentproperties/managing&#43;document&#43;properties/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/documentproperties/managing&#43;document&#43;properties/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--managing-document-properties&#34;&gt;Aspose.Cells for Java : Managing Document Properties&lt;/h1&gt;
+
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#introduction&#34;&gt;Introduction&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#managing-document-properties-using-microsoft-excel&#34;&gt;Managing Document Properties Using Microsoft Excel&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#working-with-document-properties-using-aspose.cells&#34;&gt;Working with Document Properties Using Aspose.Cells&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;3.1 &lt;a href=&#34;#accessing-document-properties&#34;&gt;Accessing Document Properties&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3.2 &lt;a href=&#34;#adding-or-removing-custom-document-properties&#34;&gt;Adding or Removing Custom Document Properties&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3.3 &lt;a href=&#34;#adding-custom-properties&#34;&gt;Adding Custom Properties&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3.4 &lt;a href=&#34;#configuring-%E2%80%9Clink-to-content%E2%80%9D-custom-property&#34;&gt;Configuring “Link to content” Custom Property&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3.5 &lt;a href=&#34;#removing-custom-properties&#34;&gt;Removing Custom Properties&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Microsoft Excel provides the ability to add properties to spreadsheet files. These document properties provide useful information and are divided into 2 categories as detailed below.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;System-defined (built-in) properties: Built-in properties contain general information about the document like document title, author name, document statistics and so on.&lt;/li&gt;
+&lt;li&gt;User-defined (custom) properties: Custom properties defined by the end user in the form of name-value pair.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The most important point to know about built-in and custom properties is that built-in properties can be accessed and modified, but cannot be created or removed, however, custom document properties can be created and managed.&lt;/p&gt;
+&lt;h2 id=&#34;managing-document-properties-using-microsoft-excel&#34;&gt;Managing Document Properties Using Microsoft Excel&lt;/h2&gt;
+&lt;p&gt;Microsoft Excel allows managing document properties of the Excel files in a WYSIWYG manner. Please follow the below steps to open the &lt;strong&gt;Properties&lt;/strong&gt; dialog in Excel 2016.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;From the &lt;strong&gt;File&lt;/strong&gt; menu, select &lt;strong&gt;Info&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&#34;table table-striped&#34; role=&#34;alert&#34;&gt;
+    &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Selecting Info Menu&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/22546336/22773815.png&#34; alt=&#34;&#34;&gt;    2.  Click on &lt;strong&gt;Properties&lt;/strong&gt; heading and select &amp;ldquo;Advanced Properties&amp;rdquo;.        &lt;strong&gt;Clicking Advanced Properties Selection&lt;/strong&gt;        &lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/22546336/22773816.png&#34; alt=&#34;&#34;&gt;    3.  Manage the file&amp;rsquo;s document properties.        &lt;strong&gt;Properties Dialog&lt;/strong&gt;        &lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/22546336/22773817.png&#34; alt=&#34;&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;In the Properties dialog, there are different tabs, like General, Summary, Statistics, Contents, and Customs. Each tab helps configure different kinds of information related to the file. The Custom tab is used to manage custom properties.&lt;/p&gt;
+&lt;h2 id=&#34;working-with-document-properties-using-asposecells&#34;&gt;Working with Document Properties Using Aspose.Cells&lt;/h2&gt;
+&lt;p&gt;Developers can dynamically manage the document properties using the Aspose.Cells APIs. This feature helps the developers to store useful information along with the file, such as when the file was received, processed, time-stamped and so on.&lt;/p&gt;
+&lt;p&gt;Aspose.Cells for Java directly writes the information about API and Version Number in output documents. For example, upon rendering Document to PDF, Aspose.Cells for Java populates &lt;strong&gt;Application&lt;/strong&gt; field with value &amp;lsquo;Aspose.Cells&amp;rsquo; and &lt;strong&gt;PDF Producer&lt;/strong&gt; field with the value, e.g &amp;lsquo;Aspose.Cells for Java v17.9&amp;rsquo;.&lt;/p&gt;
+&lt;p&gt;Please note that you cannot instruct Aspose.Cells for Java to change or remove this information from output Documents.&lt;/p&gt;
+&lt;h3 id=&#34;accessing-document-properties&#34;&gt;Accessing Document Properties&lt;/h3&gt;
+&lt;p&gt;Aspose.Cells APIs support both types of document properties, built-in and custom. Aspose.Cells&amp;rsquo; &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/workbook&#34;&gt;Workbook&lt;/a&gt; class represents an Excel file and, like an Excel file, the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/workbook&#34;&gt;Workbook&lt;/a&gt; class can contain multiple worksheets, each represented by the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/Worksheet&#34;&gt;Worksheet&lt;/a&gt; class whereas the collection of worksheets is represented by the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/WorksheetCollection&#34;&gt;WorksheetCollection&lt;/a&gt; class.&lt;/p&gt;
+&lt;p&gt;Use the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/WorksheetCollection&#34;&gt;WorksheetCollection&lt;/a&gt; to access the file&amp;rsquo;s document properties as described below.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;To access built-in document properties, use &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/worksheetcollection#BuiltInDocumentProperties&#34;&gt;WorksheetCollection.BuiltInDocumentProperties&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;To access custom document properties, use the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/worksheetcollection#CustomDocumentProperties&#34;&gt;WorksheetCollection.CustomDocumentProperties&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Both the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/worksheetcollection#BuiltInDocumentProperties&#34;&gt;WorksheetCollection.BuiltInDocumentProperties&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/worksheetcollection#CustomDocumentProperties&#34;&gt;WorksheetCollection.CustomDocumentProperties&lt;/a&gt; return an instance of &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/DocumentPropertyCollection&#34;&gt;DocumentPropertyCollection&lt;/a&gt;. This collection contains &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/DocumentProperty&#34;&gt;DocumentProperty&lt;/a&gt; objects, each of which represents a single built-in or custom document property.&lt;/p&gt;
+&lt;p&gt;It is up to the application requirement how to access a property, that is; by using the index or name of the property from the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/DocumentPropertyCollection&#34;&gt;DocumentPropertyCollection&lt;/a&gt; as demonstrated in the example below.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/DocumentProperty&#34;&gt;DocumentProperty&lt;/a&gt; class allows to retrieve the name, value, and type of the document property:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;To get the property name, use &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/documentproperty#Name&#34;&gt;DocumentProperty.Name&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;To get the property value, use &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/documentproperty#Value&#34;&gt;DocumentProperty.Value&lt;/a&gt;. &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/documentproperty#Value&#34;&gt;DocumentProperty.Value&lt;/a&gt; returns the value as an Object.&lt;/li&gt;
+&lt;li&gt;To get the property type, use &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/documentproperty#Type&#34;&gt;DocumentProperty.Type&lt;/a&gt;. This returns one of the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/PropertyType&#34;&gt;PropertyType&lt;/a&gt; enumeration values.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;adding-or-removing-custom-document-properties&#34;&gt;Adding or Removing Custom Document Properties&lt;/h3&gt;
+&lt;p&gt;As we have described earlier at the beginning of this topic, developers can&amp;rsquo;t add or remove built-in properties because these properties are system-defined but it&amp;rsquo;s possible to add or remove custom properties because these are user-defined.&lt;/p&gt;
+&lt;h3 id=&#34;adding-custom-properties&#34;&gt;Adding Custom Properties&lt;/h3&gt;
+&lt;p&gt;Aspose.Cells APIs have exposed the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/customdocumentpropertycollection#add(java.lang.String,%20boolean)&#34;&gt;add&lt;/a&gt; method for the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/CustomDocumentPropertyCollection&#34;&gt;CustomDocumentPropertyCollection&lt;/a&gt; class in order to add custom properties to the collection. The &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/customdocumentpropertycollection#add(java.lang.String,%20boolean)&#34;&gt;add&lt;/a&gt; method adds the property to the Excel file and returns a reference for the new document property as a &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/DocumentProperty&#34;&gt;DocumentProperty&lt;/a&gt; object.&lt;/p&gt;
+&lt;h3 id=&#34;configuring-link-to-content-custom-property&#34;&gt;Configuring “Link to content” Custom Property&lt;/h3&gt;
+&lt;p&gt;To create a custom property linked to the content of a given range, call the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/customdocumentpropertycollection#addLinkToContent(java.lang.String,%20java.lang.String)&#34;&gt;CustomDocumentPropertyCollection.addLinkToContent&lt;/a&gt; method and pass property name and source. You can check whether a property is configured as linked to content using the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/documentproperty#IsLinkedToContent&#34;&gt;DocumentProperty.isLinkedToContent&lt;/a&gt; property. Moreover, it is also possible to get the source range using the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/documentproperty#Source&#34;&gt;Source&lt;/a&gt; property of the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/DocumentProperty&#34;&gt;DocumentProperty&lt;/a&gt; class.&lt;/p&gt;
+&lt;p&gt;We use a simple template Microsoft Excel file in the example. The workbook has a defined named range labeled &lt;strong&gt;MyRange&lt;/strong&gt; which refers to a cell value.&lt;/p&gt;
+&lt;h3 id=&#34;removing-custom-properties&#34;&gt;Removing Custom Properties&lt;/h3&gt;
+&lt;p&gt;To remove custom properties using Aspose.Cells, call the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/documentpropertycollection#remove(java.lang.String)&#34;&gt;DocumentPropertyCollection.remove&lt;/a&gt; method and pass the name of the document property to be removed.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Specify Document Version of the Excel File using BuiltIn Document Properties</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/documentproperties/specify&#43;document&#43;version&#43;of&#43;the&#43;excel&#43;file&#43;using&#43;builtin&#43;document&#43;properties/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/documentproperties/specify&#43;document&#43;version&#43;of&#43;the&#43;excel&#43;file&#43;using&#43;builtin&#43;document&#43;properties/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--specify-document-version-of-the-excel-file-using-builtin-document-properties&#34;&gt;Aspose.Cells for Java : Specify Document Version of the Excel File using BuiltIn Document Properties&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#specify-document-version-of-the-excel-file-using-builtin-document-properties&#34;&gt;Specify Document Version of the Excel File using BuiltIn Document Properties&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;You can change the &lt;em&gt;Version number&lt;/em&gt; of Excel file by right-clicking the file and then selecting &lt;em&gt;Properties &amp;gt; Details&lt;/em&gt; and then editing the &lt;em&gt;Version number&lt;/em&gt; field. Please use &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/builtindocumentpropertycollection#DocumentVersion&#34;&gt;BuiltInDocumentPropertyCollection.DocumentVersion&lt;/a&gt; property to change it programmatically using Aspose.Cells APIs. &lt;/p&gt;
+&lt;h2 id=&#34;specify-document-version-of-the-excel-file-using-builtin-document-properties&#34;&gt;Specify Document Version of the Excel File using BuiltIn Document Properties&lt;/h2&gt;
+&lt;p&gt;The following sample code creates a workbook and changes its built-in document properties that include &lt;em&gt;Title&lt;/em&gt;, &lt;em&gt;Authors&lt;/em&gt; and &lt;em&gt;Version number&lt;/em&gt;. Please see the &lt;a href=&#34;https://docs2.aspose.com/cells/java/attachments/64454890/64716836.xlsx&#34;&gt;output Excel file&lt;/a&gt; generated by the code and screenshot that shows the modified &lt;em&gt;Version number&lt;/em&gt; by &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/builtindocumentpropertycollection#DocumentVersion&#34;&gt;BuiltInDocumentPropertyCollection.DocumentVersion&lt;/a&gt; property.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/64454890/64716835.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Specify the Language of the Excel File using BuiltIn Document Properties</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/documentproperties/specify&#43;the&#43;language&#43;of&#43;the&#43;excel&#43;file&#43;using&#43;builtin&#43;document&#43;properties/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/documentproperties/specify&#43;the&#43;language&#43;of&#43;the&#43;excel&#43;file&#43;using&#43;builtin&#43;document&#43;properties/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--specify-the-language-of-the-excel-file-using-builtin-document-properties&#34;&gt;Aspose.Cells for Java : Specify the Language of the Excel File using BuiltIn Document Properties&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#specify-the-language-of-the-excel-file-using-builtin-document-properties&#34;&gt;Specify the Language of the Excel File using BuiltIn Document Properties&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;You can change the *Language *of Excel file by right-clicking the file and then selecting *Properties &amp;gt; Details *and then editing the *Language *field. Please use &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/builtindocumentpropertycollection#Language&#34;&gt;BuiltInDocumentPropertyCollection.Language&lt;/a&gt; property to change it programmatically using Aspose.Cells APIs.&lt;/p&gt;
+&lt;h2 id=&#34;specify-the-language-of-the-excel-file-using-builtin-document-properties&#34;&gt;Specify the Language of the Excel File using BuiltIn Document Properties&lt;/h2&gt;
+&lt;p&gt;The following sample code creates a workbook and changes its built-in document property named &lt;em&gt;Language&lt;/em&gt;. Please see the &lt;a href=&#34;https://docs.aspose.com/download/attachments/64456175/outputSpecifyLanguageOfExcelFile.xlsx?version=1&amp;amp;modificationDate=1524795510264&amp;amp;api=v2&#34;&gt;output Excel file&lt;/a&gt; generated by the code and screenshot that shows the modified *Language *field by &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/builtindocumentpropertycollection#Language&#34;&gt;BuiltInDocumentPropertyCollection.Language&lt;/a&gt; property.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/64456175/64716889.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

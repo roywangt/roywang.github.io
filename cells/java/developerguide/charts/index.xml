@@ -1,0 +1,2009 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Charts</title>
+    <link>https://roywangt.github.io/cells/java/developerguide/charts/</link>
+    <description>Recent content in Charts on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://roywangt.github.io/cells/java/developerguide/charts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Java: Chart Formatting</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/charts/chart&#43;formatting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/charts/chart&#43;formatting/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--chart-formatting&#34;&gt;Aspose.Cells for Java : Chart Formatting&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#setting-chart-appearance&#34;&gt;Setting Chart Appearance&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#setting-chart-area&#34;&gt;Setting Chart Area&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.2 &lt;a href=&#34;#setting-chart-lines&#34;&gt;Setting Chart Lines&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.3 &lt;a href=&#34;#applying-microsoft-excel-2007/2010-themes-to-charts&#34;&gt;Applying Microsoft Excel 2007/2010 Themes to Charts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.4 &lt;a href=&#34;#setting-the-titles-of-charts-or-axes&#34;&gt;Setting the Titles of Charts or Axes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.5 &lt;a href=&#34;#setting-major-gridlines&#34;&gt;Setting Major Gridlines&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.5.1 &lt;a href=&#34;#hiding-major-gridlines&#34;&gt;Hiding Major Gridlines&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.5.2 &lt;a href=&#34;#changing-major-gridlines-settings&#34;&gt;Changing Major Gridlines Settings&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;1.6 &lt;a href=&#34;#setting-borders-for-back-and-side-walls&#34;&gt;Setting Borders for Back and Side Walls&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#change-the-chart-position-and-size&#34;&gt;Change the Chart Position and Size&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;2.1 &lt;a href=&#34;#modifying-chart&#39;s-position-and-size&#34;&gt;Modifying Chart&amp;rsquo;s Position and Size&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#manipulating-designer-charts&#34;&gt;Manipulating Designer Charts&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;3.1 &lt;a href=&#34;#manipulating-designer-charts-in-the-template-files&#34;&gt;Manipulating Designer Charts in the Template Files&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;3.1.1 &lt;a href=&#34;#creating-a-chart&#34;&gt;Creating a Chart&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3.1.2 &lt;a href=&#34;#manipulating-the-chart&#34;&gt;Manipulating the Chart&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3.1.3 &lt;a href=&#34;#manipulating-a-line-chart-in-the-designer-template&#34;&gt;Manipulating a Line Chart in the Designer Template&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;4 &lt;a href=&#34;#using-sparklines&#34;&gt;Using Sparklines&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;4.1 &lt;a href=&#34;#sparklines-in-microsoft-excel&#34;&gt;Sparklines in Microsoft Excel&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;4.2 &lt;a href=&#34;#sparklines-using-aspose.cells&#34;&gt;Sparklines using Aspose.Cells&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;5 &lt;a href=&#34;#applying-3d-format-to-chart&#34;&gt;Applying 3D Format to Chart&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;5.1 &lt;a href=&#34;#setting-3d-format-to-chart&#34;&gt;Setting 3D Format to Chart&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;setting-chart-appearance&#34;&gt;Setting Chart Appearance&lt;/h2&gt;
+&lt;p&gt;In &lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/charts/chart+types&#34;&gt;Chart Types&lt;/a&gt;, we gave a brief introduction to the types of charts and charting objects offered by Aspose.Cells.&lt;/p&gt;
+&lt;p&gt;In this article, we discuss how to customize the appearance of charts by setting a number of different properties:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/charts/chart+formatting&#34;&gt;Setting the chart area&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/charts/chart+formatting&#34;&gt;Setting chart lines&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/charts/chart+formatting&#34;&gt;Applying themes&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/charts/chart+formatting&#34;&gt;Setting titles to charts and axes&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/charts/chart+formatting&#34;&gt;Working with gridlines&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/charts/chart+formatting&#34;&gt;Setting borders for back and side walls&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;setting-chart-area&#34;&gt;Setting Chart Area&lt;/h3&gt;
+&lt;p&gt;There are different kinds of areas in a chart and Aspose.Cells provides the flexibility of modifying the appearance of each area. Developers can apply different formatting settings on an area by changing its foreground color, background color and fill format etc.&lt;/p&gt;
+&lt;p&gt;In the example given below, we have applied different formatting settings on different kinds of areas of a chart. These areas include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Plot area&lt;/li&gt;
+&lt;li&gt;Chart area&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/SeriesCollection&#34;&gt;SeriesCollection&lt;/a&gt; area&lt;/li&gt;
+&lt;li&gt;The area of a single point in an &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/SeriesCollection&#34;&gt;SeriesCollection&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;After executing the example code, a column chart will be added to the worksheet as shown below:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;A column chart with filled areas&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276210/5472446.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;setting-chart-lines&#34;&gt;Setting Chart Lines&lt;/h3&gt;
+&lt;p&gt;Developers can also apply different kinds of styles on the lines or data markers of the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/SeriesCollection&#34;&gt;SeriesCollection&lt;/a&gt; as shown below in the example. Executing the example code adds a column chart to the worksheet as shown below:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Column chart after applying line styles&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276210/5472445.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;applying-microsoft-excel-20072010-themes-to-charts&#34;&gt;Applying Microsoft Excel 2007/2010 Themes to Charts&lt;/h3&gt;
+&lt;p&gt;Developers can apply different Microsoft Excel themes and colors to the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/SeriesCollection&#34;&gt;SeriesCollection&lt;/a&gt; or other chart objects as shown in the example below.&lt;/p&gt;
+&lt;h3 id=&#34;setting-the-titles-of-charts-or-axes&#34;&gt;Setting the Titles of Charts or Axes&lt;/h3&gt;
+&lt;p&gt;You can use Microsoft Excel to set the titles of a chart and its axes in a WYSIWYG environment as shown below.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Setting titles of a chart &amp;amp; its axes using Microsoft Excel&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276210/5472444.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Aspose.Cells also allows developers to set the titles of a chart and its axes at runtime. All charts and their axes contain a &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/title#Text&#34;&gt;Title.setText&lt;/a&gt; method that can be used to set their titles as shown below in an example. After executing the example code, a column chart will be added to the worksheet as shown below:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Column chart after setting titles&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276210/5472443.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;setting-major-gridlines&#34;&gt;Setting Major Gridlines&lt;/h3&gt;
+&lt;h4 id=&#34;hiding-major-gridlines&#34;&gt;Hiding Major Gridlines&lt;/h4&gt;
+&lt;p&gt;Developers can control the visibility of major gridlines by using the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/line#IsVisible&#34;&gt;setVisible&lt;/a&gt; method of the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/Line&#34;&gt;Line&lt;/a&gt; object. After hiding the major gridlines, a column chart added to the worksheet has the following appearance:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;A column chart with hidden major gridlines&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276210/5472442.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;changing-major-gridlines-settings&#34;&gt;Changing Major Gridlines Settings&lt;/h4&gt;
+&lt;p&gt;Developers cannot only control the visibility of major gridlines but also other properties including its color etc. After setting the color of major gridlines, a column chart added to the worksheet will have the following appearance:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Column chart with colored major gridlines&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276210/5472441.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;setting-borders-for-back-and-side-walls&#34;&gt;Setting Borders for Back and Side Walls&lt;/h3&gt;
+&lt;p&gt;Since the release of Microsoft Excel 2007, the walls of a 3D chart have been divided into two parts: side wall and back wall, so we have to use two &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/Walls&#34;&gt;Walls&lt;/a&gt; objects to represent them separately and you can access them by using &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/chart#BackWall&#34;&gt;Chart.getBackWall()&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/chart#SideWall&#34;&gt;Chart.getSideWall()&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The example given below shows how to set the border of the sidewall by using different attributes.&lt;/p&gt;
+&lt;h2 id=&#34;change-the-chart-position-and-size&#34;&gt;Change the Chart Position and Size&lt;/h2&gt;
+&lt;p&gt;Sometimes, you want to change the position or size of the new or existing chart inside the worksheet. Aspose.Cells provides the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/chart#ChartObject&#34;&gt;Chart.getChartObject()&lt;/a&gt; property to achieve this. You can use its sub-properties to re-size the chart with new &lt;strong&gt;height&lt;/strong&gt; and &lt;strong&gt;width&lt;/strong&gt; or re-position it with new &lt;strong&gt;X&lt;/strong&gt; and &lt;strong&gt;Y&lt;/strong&gt; coordinates.&lt;/p&gt;
+&lt;h3 id=&#34;modifying-charts-position-and-size&#34;&gt;Modifying Chart&amp;rsquo;s Position and Size&lt;/h3&gt;
+&lt;p&gt;To change the chart&amp;rsquo;s position (X, Y coordinates) and size (height, width), use these properties:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/chartshape#Width&#34;&gt;Chart.getChartObject().get/setWidth()&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/chartshape#Height&#34;&gt;Chart.getChartObject().get/setHeight()&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/chartshape#X&#34;&gt;Chart.getChartObject().get/setX()&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/chartshape#Y&#34;&gt;Chart.getChartObject().get/setY()&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The following example explains the usage of the above properties. It loads the existing workbook which contains a chart in its first worksheet. Then it re-sizes and re-positions the chart and save the workbook.&lt;/p&gt;
+&lt;p&gt;Before the execution of the sample code, the source file looks like this:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Chart size and position before the execution of sample code&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276210/5472440.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;After the execution, the output file looks like this:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Chart size and position after the execution of sample code&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276210/5472439.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;manipulating-designer-charts&#34;&gt;Manipulating Designer Charts&lt;/h2&gt;
+&lt;p&gt;There is a time where you might need to manipulate or modify the charts in your designer template files. Aspose.Cells fully supports to manipulate designer charts with its contents and elements. The data, chart contents, background image, and formattings can be preserved with accuracy.&lt;/p&gt;
+&lt;h3 id=&#34;manipulating-designer-charts-in-the-template-files&#34;&gt;Manipulating Designer Charts in the Template Files&lt;/h3&gt;
+&lt;p&gt;To manipulate designer charts in a template file, use all chart related API calls. For example, use &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/worksheet#Charts&#34;&gt;Worksheet.getCharts&lt;/a&gt; method to get the existing charts collection in the template file.&lt;/p&gt;
+&lt;h4 id=&#34;creating-a-chart&#34;&gt;Creating a Chart&lt;/h4&gt;
+&lt;p&gt;The following example shows how to create a pie chart. We will manipulate this chart later on. The following output is generated by the code.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The input pie chart&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276210/5472438.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;manipulating-the-chart&#34;&gt;Manipulating the Chart&lt;/h4&gt;
+&lt;p&gt;The following example shows how to manipulate the existing chart. In this example we modify the chart created above. The following output is generated by the code. Note that the color of the chart title has changed from blue to black, and &amp;lsquo;England 30000&amp;rsquo; has been changed to &amp;lsquo;United Kingdom, 30K&amp;rsquo;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The pie chart has been modified&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276210/5472437.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;manipulating-a-line-chart-in-the-designer-template&#34;&gt;Manipulating a Line Chart in the Designer Template&lt;/h4&gt;
+&lt;p&gt;In this example, we will manipulate a line chart. We will add some data series to the existing chart and change their line colors.&lt;/p&gt;
+&lt;p&gt;First, take a look at the designer line chart.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The input line chart&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276210/5472436.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Now we manipulate the line chart (which is contained in the &lt;strong&gt;linechart.xls&lt;/strong&gt; file) using the following code. The following output is generated by the code.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The manipulated line chart&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276210/5472435.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;using-sparklines&#34;&gt;Using Sparklines&lt;/h2&gt;
+&lt;p&gt;Microsoft Excel 2010 can analyze information in more ways than ever before. It allows users to track and highlight important data trends with new data analysis and visualization tools. Sparklines are mini-charts that you can place inside cells so that you can view data and chart on the same table. When sparklines are used properly, data analysis is quicker and more to the point. They also provide a simple view of information, avoiding over-crowded worksheets with a lot of busy charts.&lt;/p&gt;
+&lt;p&gt;Aspose.Cells provides an API for manipulating sparklines in spreadsheets.&lt;/p&gt;
+&lt;h3 id=&#34;sparklines-in-microsoft-excel&#34;&gt;Sparklines in Microsoft Excel&lt;/h3&gt;
+&lt;p&gt;To insert sparklines in Microsoft Excel 2010:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Select the cells where you want the sparklines to appear. To make them easy to view, select cells at the side of the data.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Click &lt;strong&gt;Insert&lt;/strong&gt; on the ribbon and then choose &lt;strong&gt;column&lt;/strong&gt; in the &lt;strong&gt;Sparklines&lt;/strong&gt; group.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276210/5472362.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Select or enter the range of cells in the worksheet that contain the source data.&lt;br&gt;
+The charts appear.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Sparklines help you see trends, for example, or the win or loss record for a softball league. Sparklines can even sum up the entire season of each team in the league.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276210/5472361.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;sparklines-using-asposecells&#34;&gt;Sparklines using Aspose.Cells&lt;/h3&gt;
+&lt;p&gt;Developers can create, delete or read sparklines (in the template file) using the API provided by Aspose.Cells. By adding custom graphics for a given data range, developers have the freedom to add different types of tiny charts to selected cell areas.&lt;/p&gt;
+&lt;p&gt;The example below demonstrates the Sparklines feature. The example shows how to:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Open a simple template file.&lt;/li&gt;
+&lt;li&gt;Read sparklines information for a worksheet.&lt;/li&gt;
+&lt;li&gt;Add new sparklines for a given data range to a cell area.&lt;/li&gt;
+&lt;li&gt;Saves the Excel file to disk.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;applying-3d-format-to-chart&#34;&gt;Applying 3D Format to Chart&lt;/h2&gt;
+&lt;p&gt;You might need 3D charting styles so you can get just the results for your scenario. Aspose.Cells APIs provide the relevant API to apply Microsoft Excel 2007 3D formatting as demonstrated in this article.&lt;/p&gt;
+&lt;h3 id=&#34;setting-3d-format-to-chart&#34;&gt;Setting 3D Format to Chart&lt;/h3&gt;
+&lt;p&gt;A complete example is given below to demonstrate how to create a chart and apply Microsoft Excel 2007 3D formatting. After executing the above example code, a column chart (with 3D effects) will be added to the worksheet as shown below.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;A column chart with 3D formatting&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276210/5472360.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;For a full list of which 2D and 3D charts are supported, see &lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/charts/chart+rendering#chartrendering-supportedcharttypesforrendering&#34;&gt;Supported chart types for rendering&lt;/a&gt;.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Chart Types</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/charts/chart&#43;types/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/charts/chart&#43;types/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--chart-types&#34;&gt;Aspose.Cells for Java : Chart Types&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#chart-types&#34;&gt;Chart Types&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#standard-types&#34;&gt;Standard Types&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1.1 &lt;a href=&#34;#column-charts&#34;&gt;Column Charts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.1.2 &lt;a href=&#34;#bar-charts&#34;&gt;Bar Charts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.1.3 &lt;a href=&#34;#line-charts&#34;&gt;Line Charts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.1.4 &lt;a href=&#34;#pie-charts&#34;&gt;Pie Charts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.1.5 &lt;a href=&#34;#scatter-charts&#34;&gt;Scatter Charts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.1.6 &lt;a href=&#34;#area-charts&#34;&gt;Area Charts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.1.7 &lt;a href=&#34;#doughnut-charts&#34;&gt;Doughnut Charts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.1.8 &lt;a href=&#34;#radar-charts&#34;&gt;Radar Charts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.1.9 &lt;a href=&#34;#surface-3d-charts&#34;&gt;Surface 3D Charts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.1.10 &lt;a href=&#34;#bubble-charts&#34;&gt;Bubble Charts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.1.11 &lt;a href=&#34;#stock-charts&#34;&gt;Stock Charts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.1.12 &lt;a href=&#34;#cylinder-charts&#34;&gt;Cylinder Charts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.1.13 &lt;a href=&#34;#cone-charts&#34;&gt;Cone Charts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.1.14 &lt;a href=&#34;#pyramid-charts&#34;&gt;Pyramid Charts&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;1.2 &lt;a href=&#34;#custom-chart-types&#34;&gt;Custom Chart Types&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt;A chart is a visual display of information. Aspose.Cells allows developers to visualize information in charts just as Microsoft Excel does. Presenting information in charts is always helpful to decision-makers for making quick and timely decisions. It&amp;rsquo;s easier to quickly see comparisons, patterns, and trends in data with charts than raw numbers. Creating charts at runtime, based on the data in a spreadsheet, is one of Aspose.Cells&amp;rsquo; most powerful feature.&lt;/p&gt;
+&lt;h2 id=&#34;chart-types&#34;&gt;Chart Types&lt;/h2&gt;
+&lt;p&gt;Aspose.Cells supports almost all chart types supported in Microsoft Excel. Charts are categorized into two major categories:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/charts/chart+types&#34;&gt;Standard types&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/charts/chart+types&#34;&gt;Custom types&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;standard-types&#34;&gt;Standard Types&lt;/h3&gt;
+&lt;p&gt;Standard charts are those normally used with standard formatting:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/charts/chart+types&#34;&gt;Column&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/charts/chart+types&#34;&gt;Bar&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/charts/chart+types&#34;&gt;Line&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/charts/chart+types&#34;&gt;Pie&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/charts/chart+types&#34;&gt;Scatter&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/charts/chart+types&#34;&gt;Area&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/charts/chart+types&#34;&gt;Doughnut&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/charts/chart+types&#34;&gt;Radar&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/charts/chart+types&#34;&gt;Surface 3D&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/charts/chart+types&#34;&gt;Bubble&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/charts/chart+types&#34;&gt;Stock&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/charts/chart+types&#34;&gt;Cylinder&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/charts/chart+types&#34;&gt;Cone&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/charts/chart+types&#34;&gt;Pyramid&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Each of the standard chart types is described in more detail below.&lt;/p&gt;
+&lt;h4 id=&#34;column-charts&#34;&gt;Column Charts&lt;/h4&gt;
+&lt;p&gt;Column charts use vertical bars (called columns) to display different values of one or more data items. Column charts are mostly used to compare values across different categories. They are ideal for showing variations in an item&amp;rsquo;s value over time, for example, when doing a budget analysis.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Column charts supported in Microsoft Excel&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276207/5472359.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The following column charts are supported in Aspose.Cells:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Clustered column chart&lt;/li&gt;
+&lt;li&gt;Stacked column chart&lt;/li&gt;
+&lt;li&gt;100% stacked column chart&lt;/li&gt;
+&lt;li&gt;3D clustered column chart&lt;/li&gt;
+&lt;li&gt;3D stacked column chart&lt;/li&gt;
+&lt;li&gt;3D 100% stacked column chart&lt;/li&gt;
+&lt;li&gt;3D column chart&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;bar-charts&#34;&gt;Bar Charts&lt;/h4&gt;
+&lt;p&gt;Bar charts are almost the same type as column charts. The difference is that they use horizontal bars instead of vertical ones.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bar charts supported in Microsoft Excel&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276207/5472366.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The following bar charts are supported in Aspose.Cells:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Clustered bar chart&lt;/li&gt;
+&lt;li&gt;Stacked bar chart&lt;/li&gt;
+&lt;li&gt;100% stacked bar chart&lt;/li&gt;
+&lt;li&gt;3D clustered bar chart&lt;/li&gt;
+&lt;li&gt;3D stacked bar chart&lt;/li&gt;
+&lt;li&gt;3D 100% stacked bar chart&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;line-charts&#34;&gt;Line Charts&lt;/h4&gt;
+&lt;p&gt;Line charts make use of lines to display information. These charts are very useful to show a temporal trend over time and are often used to show variations in the value of more than one item over time.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Line charts supported in Microsoft Excel&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276207/5472365.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The following line charts are supported in Aspose.Cells:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Simple line chart&lt;/li&gt;
+&lt;li&gt;Stacked line chart&lt;/li&gt;
+&lt;li&gt;100% stacked line chart&lt;/li&gt;
+&lt;li&gt;Line chart with data markers&lt;/li&gt;
+&lt;li&gt;Stacked line chart with data markers&lt;/li&gt;
+&lt;li&gt;100% stacked line chart with data markers&lt;/li&gt;
+&lt;li&gt;3D line chart&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Data markers are used to represents data points, the individual values plotted in a chart. Data markers of the same color constitute a data series.&lt;/p&gt;
+&lt;h4 id=&#34;pie-charts&#34;&gt;Pie Charts&lt;/h4&gt;
+&lt;p&gt;Pie charts are mostly used to display information when you want to represent the different parts of a whole or the percentages of a total.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Pie charts supported in Microsoft Excel&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276207/5472364.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The following pie charts are supported in Aspose.Cells:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Simple pie chart&lt;/li&gt;
+&lt;li&gt;3D pie chart&lt;/li&gt;
+&lt;li&gt;Pie of pie chart&lt;/li&gt;
+&lt;li&gt;Exploded pie chart&lt;/li&gt;
+&lt;li&gt;3D exploded pie chart&lt;/li&gt;
+&lt;li&gt;Bar of pie chart&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;scatter-charts&#34;&gt;Scatter Charts&lt;/h4&gt;
+&lt;p&gt;Scatter charts are mostly used in statistics to visually display and compare two sets of related quantitative or numerical data by displaying only finitely many points, each having a coordinate on a horizontal (&amp;ldquo;X&amp;rdquo;) and a vertical (&amp;ldquo;Y&amp;rdquo;) axis.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Scatter charts supported in Microsoft Excel&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276207/5472363.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The following scatter charts are supported in Aspose.Cells:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Simple scatter chart&lt;/li&gt;
+&lt;li&gt;Scatter chart connected by curves, with data markers&lt;/li&gt;
+&lt;li&gt;Scatter chart connected by curves, without data markers&lt;/li&gt;
+&lt;li&gt;Scatter chart connected by lines, with data markers&lt;/li&gt;
+&lt;li&gt;Scatter chart connected by lines, without data markers&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;area-charts&#34;&gt;Area Charts&lt;/h4&gt;
+&lt;p&gt;An area chart is a kind of line chart in which each area is given a solid color or pattern to emphasize the relationships between the pieces of charted information.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Area charts supported in Microsoft Excel&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276207/5472370.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The following area charts are supported in Aspose.Cells:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Simple area chart&lt;/li&gt;
+&lt;li&gt;Stacked area chart&lt;/li&gt;
+&lt;li&gt;100% stacked area chart&lt;/li&gt;
+&lt;li&gt;3D area chart&lt;/li&gt;
+&lt;li&gt;3D stacked area chart&lt;/li&gt;
+&lt;li&gt;3D 100% stacked area chart&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;doughnut-charts&#34;&gt;Doughnut Charts&lt;/h4&gt;
+&lt;p&gt;A doughnut chart is similar to a pie chart and is mostly used to show how proportions of data contribute to the whole.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Doughnut charts supported in Microsoft Excel&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276207/5472369.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The following doughnut charts are supported in Aspose.Cells:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Simple doughnut chart&lt;/li&gt;
+&lt;li&gt;Exploded doughnut chart&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;radar-charts&#34;&gt;Radar Charts&lt;/h4&gt;
+&lt;p&gt;Radar charts are most useful when you want to look at several different factors, which are related to one item. These charts have multiple axes along which data can be plotted.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Radar charts supported in Microsoft Excel&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276207/5472368.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The following radar charts are supported in Aspose.Cells:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Simple radar chart&lt;/li&gt;
+&lt;li&gt;Radar chart with data markers&lt;/li&gt;
+&lt;li&gt;Filled radar chart&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;surface-3d-charts&#34;&gt;Surface 3D Charts&lt;/h4&gt;
+&lt;p&gt;Like other 3D charts, surface 3D charts are based on the X, Y and Z axes. These charts are useful for showing a variation in the &amp;ldquo;Z&amp;rdquo; variable according to the other two variables, &amp;ldquo;X&amp;rdquo; and &amp;ldquo;Y&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Surface 3D charts supported in Microsoft Excel&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276207/5472367.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The following surface 3D charts are supported in Aspose.Cells:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;3D surface chart&lt;/li&gt;
+&lt;li&gt;Wireframe 3D surface chart&lt;/li&gt;
+&lt;li&gt;Surface contour chart&lt;/li&gt;
+&lt;li&gt;Wireframe contour chart&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;bubble-charts&#34;&gt;Bubble Charts&lt;/h4&gt;
+&lt;p&gt;A bubble chart is a variation of a scatter chart in which the data points are replaced with bubbles. A Bubble chart can be used instead of a scatter chart if your data has three data series, each of which contains a set of values. Bubble charts are mostly used to display financial data.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bubble charts supported in Microsoft Excel&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276207/5472374.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The following bubble charts are supported in Aspose.Cells:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Simple bubble chart&lt;/li&gt;
+&lt;li&gt;3D bubble chart&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;stock-charts&#34;&gt;Stock Charts&lt;/h4&gt;
+&lt;p&gt;Stock charts are mostly used for stock price data, but can also be used for scientific data.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Stock charts supported in Microsoft Excel&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276207/5472345.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The following stock charts are supported in Aspose.Cells:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;High-low-close stock chart&lt;/li&gt;
+&lt;li&gt;Open-high-low-close stock chart&lt;/li&gt;
+&lt;li&gt;Volume-high-low-close stock chart&lt;/li&gt;
+&lt;li&gt;Volume-open-high-low-close stock chart&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;cylinder-charts&#34;&gt;Cylinder Charts&lt;/h4&gt;
+&lt;p&gt;These chart types use cylinder data markers to lend a dramatic effect to column, bar, and 3D column charts.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Cylinder charts supported in Microsoft Excel&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276207/5472373.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The following cylinder charts are supported in Aspose.Cells:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Simple cylinder chart&lt;/li&gt;
+&lt;li&gt;Stacked cylinder chart&lt;/li&gt;
+&lt;li&gt;100% stacked cylinder chart&lt;/li&gt;
+&lt;li&gt;Cylindrical bar chart&lt;/li&gt;
+&lt;li&gt;Stacked cylindrical bar chart&lt;/li&gt;
+&lt;li&gt;100% stacked cylindrical bar chart&lt;/li&gt;
+&lt;li&gt;3D cylindrical column chart&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;cone-charts&#34;&gt;Cone Charts&lt;/h4&gt;
+&lt;p&gt;These chart types use cone data markers to lend a dramatic effect to column, bar, and 3D column charts.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276207/5472372.png&#34; alt=&#34;&#34;&gt;&lt;br&gt;
+&lt;strong&gt;Cone charts supported in Microsoft Excel&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The following cone charts are supported in Aspose.Cells:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Simple cone chart&lt;/li&gt;
+&lt;li&gt;Stacked cone chart&lt;/li&gt;
+&lt;li&gt;100% stacked cone chart&lt;/li&gt;
+&lt;li&gt;Conical bar chart&lt;/li&gt;
+&lt;li&gt;Stacked conical bar chart&lt;/li&gt;
+&lt;li&gt;100% stacked conical bar chart&lt;/li&gt;
+&lt;li&gt;3D conical column chart&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;pyramid-charts&#34;&gt;Pyramid Charts&lt;/h4&gt;
+&lt;p&gt;These chart types use pyramid data markers to lend a dramatic effect to column, bar, and 3D column charts.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Pyramid charts supported in Microsoft Excel&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276207/5472371.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The following pyramid charts are supported in Aspose.Cells:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Simple pyramid chart&lt;/li&gt;
+&lt;li&gt;Stacked pyramid chart&lt;/li&gt;
+&lt;li&gt;100% stacked pyramid chart&lt;/li&gt;
+&lt;li&gt;Pyramid bar chart&lt;/li&gt;
+&lt;li&gt;Stacked pyramid bar chart&lt;/li&gt;
+&lt;li&gt;100% stacked pyramid bar chart&lt;/li&gt;
+&lt;li&gt;3D pyramid column chart&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;custom-chart-types&#34;&gt;Custom Chart Types&lt;/h3&gt;
+&lt;p&gt;Custom charts allow you to create charts with custom formatting that can also be applied to other charts. Here, we&amp;rsquo;ve only discussed the standard charts. If you want to know more details about custom charts then please read the &lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/charts/creating+and+customizing+charts#creatingandcustomizingcharts-usingchartingobjects&#34;&gt;Creating Custom Charts&lt;/a&gt; article which describes how to create custom charts.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Controls in Charts</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/charts/controls&#43;in&#43;charts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/charts/controls&#43;in&#43;charts/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--controls-in-charts&#34;&gt;Aspose.Cells for Java : Controls in Charts&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#adding-label-control-to-the-chart&#34;&gt;Adding Label Control to the Chart&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#adding-textbox-control-to-the-chart&#34;&gt;Adding TextBox Control to the Chart&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#adding-picture-to-the-chart&#34;&gt;Adding Picture to the Chart&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;4 &lt;a href=&#34;#adding-checkbox-in-the-chart&#34;&gt;Adding Checkbox in the Chart&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt;Sometimes you need to insert drawing objects like labels, text boxes, pictures and so on into a chart. Aspose.Cells can add the controls to a chart at runtime.&lt;/p&gt;
+&lt;h2 id=&#34;adding-label-control-to-the-chart&#34;&gt;Adding Label Control to the Chart&lt;/h2&gt;
+&lt;p&gt;Labels provide a means for giving information to users about a spreadsheet&amp;rsquo;s content. Aspose.Cells allows you to add and manipulate labels even into charts.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/ShapeCollection&#34;&gt;ShapeCollection&lt;/a&gt; class provides a method named &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/shapecollection#addLabelInChart(int,%20int,%20int,%20int)&#34;&gt;addLabelInChart&lt;/a&gt;, used to add a label control to a chart. Below is a list of the parameters used for the method:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;top&lt;/strong&gt; – the vertical offset of the label from the upper left corner in units of 1/4000 of the chart area.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;left&lt;/strong&gt; – the vertical offset of the label from the upper left corner in units of 1/4000 of the chart area.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;height&lt;/strong&gt; – the height of the label, in units of 1/4000 of the chart area.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;width&lt;/strong&gt; – the width of the label, in units of 1/4000 of the chart area.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The method returns an object of the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/Label&#34;&gt;Label&lt;/a&gt; class, where the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/Label&#34;&gt;Label&lt;/a&gt; class represents a label in the chart. It has some important members as detailed below:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/label#Text&#34;&gt;Text&lt;/a&gt; property specifies a label&amp;rsquo;s caption string.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/label#Fill&#34;&gt;Fill&lt;/a&gt; property specifies the fill color attributes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The following example shows how to add a label to the chart. The example uses a designer file which has a chart in it. We use this file to insert a label into the chart.&lt;/p&gt;
+&lt;p&gt;Below is a screenshot of the designer file.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The designer chart&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276024/5472346.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Below is the original code for adding a label to the chart. The following output is generated when executing the code.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;A label is added in the chart&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276024/5472343.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;adding-textbox-control-to-the-chart&#34;&gt;Adding TextBox Control to the Chart&lt;/h2&gt;
+&lt;p&gt;One way to highlight important information in a report is to use a text box. For example, enter text to highlight the company name or to indicate the geographic region with the highest sales. The &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/ShapeCollection&#34;&gt;ShapeCollection&lt;/a&gt; class provides a method named &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/shapecollection#addTextBoxInChart(int,%20int,%20int,%20int)&#34;&gt;addTextBoxInChart&lt;/a&gt;, which is used to add a text box control to a chart. Following is the parameters list used for the method:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;top&lt;/strong&gt; – the vertical offset of the text box from the upper left corner in units of 1/4000 of the chart area.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;left&lt;/strong&gt; – the vertical offset of the text box from the upper left corner in units of 1/4000 of the chart area.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;height&lt;/strong&gt; – the height of text box, in units of 1/4000 of the chart area.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;width&lt;/strong&gt; – the width of the text box, in units of 1/4000 of the chart area.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The method returns an object of the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/TextBox&#34;&gt;TextBox&lt;/a&gt; class where the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/TextBox&#34;&gt;TextBox&lt;/a&gt; class represents a text box in the chart. &lt;/p&gt;
+&lt;p&gt;The following example shows how to add a text box to a chart. The example uses the previous designer file which has a chart in it. We use this file to insert a text box into the chart to show the chart title.&lt;/p&gt;
+&lt;p&gt;Below is the original code for adding a text box to the chart. The following output is generated when executing the code.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;A text box is added in the chart&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276024/5472344.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;adding-picture-to-the-chart&#34;&gt;Adding Picture to the Chart&lt;/h2&gt;
+&lt;p&gt;Aspose.Cells allows you to insert images into a chart. For example, add a picture to emphasize or give more meaning to a chart or its contents, or insert a brand image file.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/ShapeCollection&#34;&gt;ShapeCollection&lt;/a&gt; class provides a method named &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/shapecollection#addPictureInChart(int,%20int,%20java.io.InputStream,%20int,%20int)&#34;&gt;addPictureInChart&lt;/a&gt;, which is used to add a picture object to the chart. Following is the parameters list used for the method:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;top&lt;/strong&gt; – the vertical offset of the picture from the upper left corner in units of 1/4000 of the chart area.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;left&lt;/strong&gt; – the vertical offset of the picture from the upper left corner in units of 1/4000 of the chart area.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;stream&lt;/strong&gt; – a stream object which contains the image data.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;widthScale&lt;/strong&gt; – the scale of image width, a percentage value.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;heightScale&lt;/strong&gt; – the scale of image height, a percentage value.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The method returns an object of the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/Picture&#34;&gt;Picture&lt;/a&gt; class where the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/Picture&#34;&gt;Picture&lt;/a&gt; class represents a picture object in the chart. &lt;/p&gt;
+&lt;p&gt;The following example shows how to add a picture to the chart. The example utilizes the previous designer file which has a chart in it. We use this file to insert an image into the chart.&lt;/p&gt;
+&lt;p&gt;Below is the original code for adding a picture to the chart. The following output is generated when executing the code&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;A picture is inserted into the chart&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276024/5472349.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;adding-checkbox-in-the-chart&#34;&gt;Adding Checkbox in the Chart&lt;/h2&gt;
+&lt;p&gt;Aspose.Cells allows you to insert checkboxes into a chart sheet by using &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/MsoDrawingType&#34;&gt;MsoDrawingType&lt;/a&gt; enumeration. The following example demonstrates adding a checkbox to a chart sheet.&lt;/p&gt;
+&lt;p&gt;The following image shows the chart sheet with the checkbox in the output file.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5017124/101089315.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&#34;https://docs.aspose.com/download/attachments/5017124/InsertCheckboxInChartSheet_out.xlsx?version=1&amp;amp;modificationDate=1581072519417&amp;amp;api=v2&#34;&gt;output file&lt;/a&gt; generated by the following code snippet is attached for your reference.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Creating and Customizing Charts</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/charts/creating&#43;and&#43;customizing&#43;charts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/charts/creating&#43;and&#43;customizing&#43;charts/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--creating-and-customizing-charts&#34;&gt;Aspose.Cells for Java : Creating and Customizing Charts&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#creating-charts&#34;&gt;Creating Charts&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#things-to-know-before-creating-a-chart&#34;&gt;Things to Know Before Creating a Chart&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1.1 &lt;a href=&#34;#charting-objects&#34;&gt;Charting Objects&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.1.2 &lt;a href=&#34;#using-charting-objects&#34;&gt;Using Charting Objects&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;1.2 &lt;a href=&#34;#creating-a-simple-chart&#34;&gt;Creating a Simple Chart&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.2.1 &lt;a href=&#34;#line-with-data-marker-chart&#34;&gt;Line with Data Marker Chart&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#creating-custom-charts&#34;&gt;Creating Custom Charts&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;2.1 &lt;a href=&#34;#creating-custom-charts&#34;&gt;Creating Custom Charts&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;creating-charts&#34;&gt;Creating Charts&lt;/h2&gt;
+&lt;p&gt;It is possible to add a variety of charts to spreadsheets with Aspose.Cells. Aspose.Cells provides many flexible charting objects. This topic discusses Aspose.Cells&amp;rsquo; charting objects.&lt;/p&gt;
+&lt;h3 id=&#34;things-to-know-before-creating-a-chart&#34;&gt;Things to Know Before Creating a Chart&lt;/h3&gt;
+&lt;p&gt;Before creating charts it&amp;rsquo;s important to understand some basic concepts that are helpful when creating charts using Aspose.Cells.&lt;/p&gt;
+&lt;h4 id=&#34;charting-objects&#34;&gt;Charting Objects&lt;/h4&gt;
+&lt;p&gt;Aspose.Cells provides a special set of classes used to create all kinds of charts. These classes are used to create &lt;strong&gt;charting objects&lt;/strong&gt;, which act as the chart building blocks. The charting objects are listed below:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/Axis&#34;&gt;Axis&lt;/a&gt;, a chart&amp;rsquo;s axis.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/Chart&#34;&gt;Chart&lt;/a&gt;, a single Excel chart.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/ChartArea&#34;&gt;ChartArea&lt;/a&gt;, the chart area in the worksheet.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/ChartDataTable&#34;&gt;ChartDataTable&lt;/a&gt;, a chart data table.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/ChartFrame&#34;&gt;ChartFrame&lt;/a&gt;, the frame object in a chart.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/ChartPoint&#34;&gt;ChartPoint&lt;/a&gt;, a single point in a series in a chart.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/ChartPointCollection&#34;&gt;ChartPointCollection&lt;/a&gt;, a collection that contains all the points in one series.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/ChartCollection&#34;&gt;ChartCollection&lt;/a&gt;, a collection of &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/Chart&#34;&gt;Chart&lt;/a&gt; objects.&lt;/li&gt;
+&lt;li&gt;DataLabels, DataLabels for the specified &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/Series&#34;&gt;Series&lt;/a&gt;, &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/ChartPoint&#34;&gt;ChartPoint&lt;/a&gt;, &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/Trendline&#34;&gt;Trendline&lt;/a&gt;, etc.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/FillFormat&#34;&gt;FillFormat&lt;/a&gt;, fill format for a shape.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/Floor&#34;&gt;Floor&lt;/a&gt;, the floor of a 3D chart.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/Legend&#34;&gt;Legend&lt;/a&gt;, the chart legend.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/Line&#34;&gt;Line&lt;/a&gt;, the chart line.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/SeriesCollection&#34;&gt;SeriesCollection&lt;/a&gt;, a collection of &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/Series&#34;&gt;Series&lt;/a&gt; objects.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/Series&#34;&gt;Series&lt;/a&gt;, represents a single data series in a chart.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/TickLabels&#34;&gt;TickLabels&lt;/a&gt;, the tick mark labels associated with tick marks on a chart axis.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/Title&#34;&gt;Title&lt;/a&gt;, the title of a chart or axis.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/Trendline&#34;&gt;Trendline&lt;/a&gt;, a trendline in a chart.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/TrendlineCollection&#34;&gt;TrendlineCollection&lt;/a&gt;, a collection of all Trendline objects for the specified data series.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/Walls&#34;&gt;Walls&lt;/a&gt;, the walls of a 3D chart.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;using-charting-objects&#34;&gt;Using Charting Objects&lt;/h4&gt;
+&lt;p&gt;As mentioned above, all charting objects are instances of their respective classes and provide specific properties and methods to perform specific tasks. Use charting objects to create charts.&lt;/p&gt;
+&lt;p&gt;Add any type of chart to a worksheet using the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/ChartCollection&#34;&gt;ChartCollection&lt;/a&gt; collection. Each item in the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/ChartCollection&#34;&gt;ChartCollection&lt;/a&gt; collection represents a &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/Chart&#34;&gt;Chart&lt;/a&gt; object. A &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/Chart&#34;&gt;Chart&lt;/a&gt; object encapsulates all Charting Objects required to customize the appearance of the chart. The next section shows how to use a few basic charting objects to create a simple chart.&lt;/p&gt;
+&lt;h3 id=&#34;creating-a-simple-chart&#34;&gt;Creating a Simple Chart&lt;/h3&gt;
+&lt;p&gt;It is possible to create many different types of charts with Aspose.Cells. All standard charts supported by Aspose.Cells are pre-defined in an enumeration named &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/ChartType&#34;&gt;ChartType&lt;/a&gt;. The pre-defined chart types are:&lt;/p&gt;
+
+&lt;div class=&#34;table table-striped&#34; role=&#34;alert&#34;&gt;
+    &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Chart Types&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Column&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents the Clustered Column Chart&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;ColumnStacked&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents Stacked Column Chart&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Column100PercentStacked&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents 100% Stacked Column Chart&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Column3DClustered&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents 3D Clustered Column Chart&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Column3DStacked&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents 3D Stacked Column Chart&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Column3D100PercentStacked&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents 3D 100% Stacked Column Chart&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Column3D&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents 3D Column Chart&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Bar&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents Clustered Bar Chart&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;BarStacked&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents Stacked Bar Chart&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Bar100PercentStacked&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents 100% Stacked Bar Chart&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Bar3DClustered&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents 3D Clustered Bar Chart&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Bar3DStacked&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents 3D Stacked Bar Chart&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Bar3D100PercentStacked&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents 3D 100% Stacked Bar Chart&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Line&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents Line Chart&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;LineStacked&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents Stacked Line Chart&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Line100PercentStacked&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents 100% Stacked Line Chart&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;LineWithDataMarkers&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents Line Chart with data markers&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;LineStackedWithDataMarkers&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents Stacked Line Chart with data markers&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Line100PercentStackedWithDataMarkers&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents 100% Stacked Line Chart with data markers&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Line3D&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents 3D Line Chart&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Pie&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents Pie Chart&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Pie3D&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents 3D Pie Chart&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PiePie&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents Pie of Pie Chart&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PieExploded&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents Exploded Pie Chart&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Pie3DExploded&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents 3D Exploded Pie Chart&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PieBar&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents Bar of Pie Chart&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Scatter&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents the Scatter Chart&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;ScatterConnectedByCurvesWithDataMarker&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents the Scatter Chart connected by curves, with data markers&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;ScatterConnectedByCurvesWithoutDataMarker&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents the Scatter Chart connected by curves, without data markers&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;ScatterConnectedByLinesWithDataMarker&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents the Scatter Chart connected by lines, with data markers&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;ScatterConnectedByLinesWithoutDataMarker&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents the Scatter Chart connected by lines, without data markers&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Area&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents Area Chart&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;AreaStacked&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents Stacked Area Chart&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Area100PercentStacked&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents 100% Stacked Area Chart&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Area3D&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents 3D Area Chart&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Area3DStacked&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents 3D Stacked Area Chart&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Area3D100PercentStacked&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents 3D 100% Stacked Area Chart&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Doughnut&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents Doughnut Chart&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;DoughnutExploded&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents Exploded Doughnut Chart&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Radar&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents the Radar Chart&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;RadarWithDataMarkers&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents the Radar Chart with data markers&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;RadarFilled&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents Filled Radar Chart&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Surface3D&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents 3D Surface Chart&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;SurfaceWireframe3D&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents the Wireframe 3D Surface Chart&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;SurfaceContour&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents Contour Chart&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;SurfaceContourWireframe&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents Wireframe Contour Chart&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Bubble&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents Bubble Chart&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Bubble3D&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents 3D Bubble Chart&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Cylinder&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents Cylinder Chart&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CylinderStacked&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents Stacked Cylinder Chart&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Cylinder100PercentStacked&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents 100% Stacked Cylinder Chart&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CylindricalBar&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents Cylindrical Bar Chart.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CylindricalBarStacked&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents Stacked Cylindrical Bar Chart&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CylindricalBar100PercentStacked&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents 100% Stacked Cylindrical Bar Chart&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CylindricalColumn3D&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents 3D Cylindrical Column Chart&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Cone&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents Cone Chart&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;ConeStacked&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents Stacked Cone Chart&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Cone100PercentStacked&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents 100% Stacked Cone Chart&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;ConicalBar&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents Conical Bar Chart&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;ConicalBarStacked&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents Stacked Conical Bar Chart&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;ConicalBar100PercentStacked&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents 100% Stacked Conical Bar Chart&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;ConicalColumn3D&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents 3D Conical Column Chart&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Pyramid&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents Pyramid Chart&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PyramidStacked&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents Stacked Pyramid Chart&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Pyramid100PercentStacked&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents 100% Stacked Pyramid Chart&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PyramidBar&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents the Pyramid Bar Chart&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PyramidBarStacked&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents Stacked Pyramid Bar Chart&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PyramidBar100PercentStacked&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents 100% Stacked Pyramid Bar Chart&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PyramidColumn3D&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents 3D Pyramid Column Chart&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;To create a chart using Aspose.Cells:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Add some data to worksheet cells with the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/Cell&#34;&gt;Cell&lt;/a&gt; object&amp;rsquo;s &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/cell#Value&#34;&gt;setValue&lt;/a&gt; method.&lt;br&gt;
+This will be used as the data source for the chart.&lt;/li&gt;
+&lt;li&gt;Add a chart to the worksheet by calling the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/ChartCollection&#34;&gt;ChartCollection&lt;/a&gt; collection&amp;rsquo;s &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/chartcollection#add(int,%20int,%20int,%20int,%20int)&#34;&gt;add&lt;/a&gt; method, encapsulated in the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/Worksheet&#34;&gt;Worksheet&lt;/a&gt; object.&lt;/li&gt;
+&lt;li&gt;Specify the type of chart with the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/ChartType&#34;&gt;ChartType&lt;/a&gt; enumeration.&lt;br&gt;
+For example, the example uses the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/charttype#PYRAMID&#34;&gt;ChartType.PYRAMID&lt;/a&gt; value as the chart type.&lt;/li&gt;
+&lt;li&gt;Access the new &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/Chart&#34;&gt;Chart&lt;/a&gt; object from the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/ChartCollection&#34;&gt;ChartCollection&lt;/a&gt; collection by passing its index.&lt;/li&gt;
+&lt;li&gt;Use any of the charting objects encapsulated in the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/Chart&#34;&gt;Chart&lt;/a&gt; object to manage the chart.&lt;br&gt;
+The example below uses the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/SeriesCollection&#34;&gt;SeriesCollection&lt;/a&gt; charting object to specify the chart&amp;rsquo;s data source.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;When adding source data to chart, the data source can be a range of cells (such as &amp;ldquo;A1:C3&amp;rdquo;), or a sequence of non-contiguous cells (such as &amp;ldquo;A1, A3, A5&amp;rdquo;), or a sequence of values (such as &amp;ldquo;1,2,3&amp;rdquo;).&lt;/p&gt;
+&lt;p&gt;When you assign a range of cells as a data source, you can only set the range from top left to bottom right. For example, &amp;ldquo;A1:C3&amp;rdquo; is valid while &amp;ldquo;C3:A1&amp;rdquo; is invalid.&lt;/p&gt;
+&lt;p&gt;These general steps allow you to create any type of chart. Use different charting objects to create different charts.&lt;/p&gt;
+&lt;p&gt;When the example code is executed, a pyramid chart is added to the worksheet as shown below.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Pyramid chart with its data source&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276022/5472347.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;To create a bubble chart, the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/ChartType&#34;&gt;ChartType&lt;/a&gt; has to be set to &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/charttype#BUBBLE&#34;&gt;ChartType.BUBBLE&lt;/a&gt; and few extra properties such as &lt;code&gt;BubbleSizes&lt;/code&gt;, &lt;code&gt;Values&lt;/code&gt; &amp;amp; &lt;code&gt;XValues&lt;/code&gt; need to be set accordingly. Upon executing the following code, a bubble chart is added to the worksheet as shown below.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bubble chart with its data source&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276022/5472348.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;line-with-data-marker-chart&#34;&gt;Line with Data Marker Chart&lt;/h4&gt;
+&lt;p&gt;To create a line with a data marker chart, the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/ChartType&#34;&gt;ChartType&lt;/a&gt; has to be set to &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/charttype#LINE_WITH_DATA_MARKERS&#34;&gt;ChartType.LINE_WITH_DATA_MARKERS&lt;/a&gt; and few extra properties such as &lt;code&gt;background area,Series Markers &lt;/code&gt;, &lt;code&gt;Values&lt;/code&gt; &amp;amp; &lt;code&gt;XValues&lt;/code&gt; need to be set accordingly. Upon executing the following code, a line with a data marker chart is added to the worksheet.&lt;/p&gt;
+&lt;h2 id=&#34;creating-custom-charts&#34;&gt;Creating Custom Charts&lt;/h2&gt;
+&lt;p&gt;So far, when we&amp;rsquo;ve discussed charts, we&amp;rsquo;ve looked at standard charts that have their standard formatting settings. We only define the data source, set a few properties and the chart is created with its default format settings. But Aspose.Cells also supports creating custom charts that allows developers to create charts with their own format settings.&lt;/p&gt;
+&lt;h3 id=&#34;creating-custom-charts-1&#34;&gt;Creating Custom Charts&lt;/h3&gt;
+&lt;p&gt;Developers can create custom charts at runtime using Aspose.Cells simple API.&lt;/p&gt;
+&lt;p&gt;A chart is composed of a data series. Each data series in Aspose.Cells is represented by a &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/Series&#34;&gt;Series&lt;/a&gt; object whereas the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/SeriesCollection&#34;&gt;SeriesCollection&lt;/a&gt; object serves as a collection of &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/Series&#34;&gt;Series&lt;/a&gt; objects. When creating a custom chart, developers have the freedom to use different types of charts for different data series (collected in a &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/SeriesCollection&#34;&gt;SeriesCollection&lt;/a&gt; object).&lt;/p&gt;
+&lt;p&gt;Currently Aspose.Cells only supports custom charts that combine pie, line, column and column stack charts but more charts will be supported in future releases. For a full list of the standard charts that Aspose.Cells supports, read the &lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/charts/chart+types&#34;&gt;Chart Types&lt;/a&gt; article.&lt;/p&gt;
+&lt;p&gt;The example code below demonstrates how to create custom charts. In this example, we are going to use a column chart for the first data series and a line chart for the second series. The result is that we add a column chart, combined with a line chart, to the worksheet.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Custom chart combining column and line charts&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276022/5472350.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Programming Example&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;To see a list of supported chart types, read the&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/charts/chart+types&#34;&gt;Chart Types&lt;/a&gt; article.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Data Formatting in Charts</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/charts/data&#43;formatting&#43;in&#43;charts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/charts/data&#43;formatting&#43;in&#43;charts/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--data-formatting-in-charts&#34;&gt;Aspose.Cells for Java : Data Formatting in Charts&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#setting-chart-data&#34;&gt;Setting Chart Data&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#chart-data&#34;&gt;Chart Data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.2 &lt;a href=&#34;#category-data&#34;&gt;Category Data&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt;In our previous topics, we have already provided many examples to demonstrate that how can you set a data source for your chart but in this topic, we are going to provide more details about the types of data that can be set for a chart.&lt;/p&gt;
+&lt;h3 id=&#34;setting-chart-data&#34;&gt;Setting Chart Data&lt;/h3&gt;
+&lt;p&gt;There are two types of data to deal with while working on charts using Aspose.Cells as follows:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/charts/data+formatting+in+charts&#34;&gt;Chart data&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/charts/data+formatting+in+charts&#34;&gt;Category data&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;chart-data&#34;&gt;Chart Data&lt;/h4&gt;
+&lt;p&gt;Chart data is that data that we use as a data source to build our charts. We can add a range of the cells (containing chart data) by calling the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/SeriesCollection&#34;&gt;SeriesCollection&lt;/a&gt; object&amp;rsquo;s &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/seriescollection#add(java.lang.Object)&#34;&gt;Add&lt;/a&gt; method.&lt;/p&gt;
+&lt;h4 id=&#34;category-data&#34;&gt;Category Data&lt;/h4&gt;
+&lt;p&gt;Category data is used for the labeling of chart data and can be added to &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/SeriesCollection&#34;&gt;SeriesCollection&lt;/a&gt; by using its &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/seriescollection#CategoryData&#34;&gt;setCategoryData&lt;/a&gt; method.&lt;/p&gt;
+&lt;p&gt;**&lt;br&gt;
+Column chart with chart &amp;amp; category data**&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276023/5472353.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Set the Values Format Code of Chart Series</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/charts/set&#43;the&#43;values&#43;format&#43;code&#43;of&#43;chart&#43;series/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/charts/set&#43;the&#43;values&#43;format&#43;code&#43;of&#43;chart&#43;series/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--set-the-values-format-code-of-chart-series&#34;&gt;Aspose.Cells for Java : Set the Values Format Code of Chart Series&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#set-the-values-format-code-of-chart-series&#34;&gt;Set the Values Format Code of Chart Series&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;You can set the values format code of chart series using the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/series#ValuesFormatCode&#34;&gt;Series.ValuesFormatCode&lt;/a&gt; property. This property is not only useful for the series which are based on the range inside the worksheet but also works well for the series created with an array of values.&lt;/p&gt;
+&lt;h2 id=&#34;set-the-values-format-code-of-chart-series&#34;&gt;Set the Values Format Code of Chart Series&lt;/h2&gt;
+&lt;p&gt;The following sample code adds a series in the empty chart which has no series before. It adds the series using the array of values. Once, it adds the series, it formats it with the code $#,##0 using the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/series#ValuesFormatCode&#34;&gt;Series.ValuesFormatCode&lt;/a&gt; property and the number &lt;code&gt;10000&lt;/code&gt; becomes &lt;code&gt;$10,000&lt;/code&gt;. The screenshot shows the effect of code on the &lt;a href=&#34;https://docs2.aspose.com/cells/java/attachments/51480058/51740736.xlsx&#34;&gt;sample Excel file&lt;/a&gt; and &lt;a href=&#34;https://docs2.aspose.com/cells/java/attachments/51480058/51740735.xlsx&#34;&gt;output Excel file&lt;/a&gt; after execution.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/51480058/51740737.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Set the Shape Type of Data Labels of Chart</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/charts/set&#43;the&#43;shape&#43;type&#43;of&#43;data&#43;labels&#43;of&#43;chart/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/charts/set&#43;the&#43;shape&#43;type&#43;of&#43;data&#43;labels&#43;of&#43;chart/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--set-the-shape-type-of-data-labels-of-chart&#34;&gt;Aspose.Cells for Java : Set the Shape Type of Data Labels of Chart&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#set-the-shape-type-of-data-labels-of-chart&#34;&gt;Set the Shape Type of Data Labels of Chart&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;You can change the shape type of data labels of the chart using the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/datalabels#ShapeType&#34;&gt;DataLabels.ShapeType&lt;/a&gt; property. It takes the value of &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/DataLabelShapeType&#34;&gt;DataLabelShapeType&lt;/a&gt; enumeration and changes the shape type of data labels accordingly. Some of its values are&lt;/p&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_07aa5af40c&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_07aa5af40c&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;
+&lt;span style=&#34;color:#000&#34;&gt;DataLabelShapeType&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;BENT_LINE_CALLOUT&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;DataLabelShapeType&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;DOWN_ARROW_CALLOUT&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;DataLabelShapeType&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;ELLIPSE&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;DataLabelShapeType&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;LINE_CALLOUT&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;DataLabelShapeType&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;RECT&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;etc&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;h2 id=&#34;set-the-shape-type-of-data-labels-of-chart&#34;&gt;Set the Shape Type of Data Labels of Chart&lt;/h2&gt;
+&lt;p&gt;The following sample code changes the shape type of data labels of the chart to &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/datalabelshapetype#WEDGE_ELLIPSE_CALLOUT&#34;&gt;DataLabelShapeType.WEDGE_ELLIPSE_CALLOUT&lt;/a&gt;. Please see the &lt;a href=&#34;https://docs2.aspose.com/cells/java/attachments/60229099/60489794.xlsx&#34;&gt;sample Excel file&lt;/a&gt; used in this code and the &lt;a href=&#34;https://docs2.aspose.com/cells/java/attachments/60229099/60489793.xlsx&#34;&gt;output Excel file&lt;/a&gt; generated by it. The screenshot shows the effect of the code on the sample Excel file. &lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/60229099/60489795.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Handle Automatic Units of Chart Axis like Microsoft Excel</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/charts/handle&#43;automatic&#43;units&#43;of&#43;chart&#43;axis&#43;like&#43;microsoft&#43;excel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/charts/handle&#43;automatic&#43;units&#43;of&#43;chart&#43;axis&#43;like&#43;microsoft&#43;excel/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--handle-automatic-units-of-chart-axis-like-microsoft-excel&#34;&gt;Aspose.Cells for Java : Handle Automatic Units of Chart Axis like Microsoft Excel&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#handle-automatic-units-of-chart-axis-like-microsoft-excel&#34;&gt;Handle Automatic Units of Chart Axis like Microsoft Excel&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;Early versions of Aspose.Cells were not able to handle automatic units of chart axis properly when the chart was rendered to image or PDF. Now, Aspose.Cells supports the handling of automatic units of chart axis. There is no code change. Just convert your chart into image or PDF and it will render the chart axis just like Microsoft Excel renders it.&lt;/p&gt;
+&lt;h2 id=&#34;handle-automatic-units-of-chart-axis-like-microsoft-excel&#34;&gt;Handle Automatic Units of Chart Axis like Microsoft Excel&lt;/h2&gt;
+&lt;p&gt;The following sample code loads the &lt;a href=&#34;https://docs2.aspose.com/cells/java/attachments/61540754/61767769.xlsx&#34;&gt;sample Excel file&lt;/a&gt; and generates the &lt;a href=&#34;https://docs2.aspose.com/cells/java/attachments/61540754/61767768.pdf&#34;&gt;output PDF chart&lt;/a&gt;. The screenshot shows the automatic units of chart axis in red rectangles and also compares the sample Excel file chart with output PDF chart. Both are exactly similar.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/61540754/61767767.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Read Axis Labels after Calculating the Chart</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/charts/read&#43;axis&#43;labels&#43;after&#43;calculating&#43;the&#43;chart/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/charts/read&#43;axis&#43;labels&#43;after&#43;calculating&#43;the&#43;chart/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--read-axis-labels-after-calculating-the-chart&#34;&gt;Aspose.Cells for Java : Read Axis Labels after Calculating the Chart&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#read-axis-labels-after-calculating-the-chart&#34;&gt;Read Axis Labels after Calculating the Chart&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;4 &lt;a href=&#34;#console-output&#34;&gt;Console Output&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;You can read axis labels of your chart after calculating its values using the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/chart#calculate()&#34;&gt;Chart.calculate()&lt;/a&gt; method. Please use the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/axis#AxisLabels&#34;&gt;Axis.AxisLabels&lt;/a&gt; property for this purpose that will return the list of axis labels.&lt;/p&gt;
+&lt;h2 id=&#34;read-axis-labels-after-calculating-the-chart&#34;&gt;Read Axis Labels after Calculating the Chart&lt;/h2&gt;
+&lt;p&gt;Please see the following sample code that loads the &lt;a href=&#34;https://docs2.aspose.com/cells/java/attachments/64454883/64716829.xlsx&#34;&gt;sample Excel file&lt;/a&gt; and reads the category axis labels of the chart in the first worksheet. It then prints the values of the axis labels on the console. Please see the console output of the sample code given below for a reference.&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+&lt;h2 id=&#34;console-output&#34;&gt;Console Output&lt;/h2&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_72acbfe637&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_72acbfe637&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Category&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Axis&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Labels&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; 
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;---------------------&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Iran&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;China&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;USA&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Brazil&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;England&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Create Chart PDF with Desired Page Size</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/charts/create&#43;chart&#43;pdf&#43;with&#43;desired&#43;page&#43;size/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/charts/create&#43;chart&#43;pdf&#43;with&#43;desired&#43;page&#43;size/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--create-chart-pdf-with-desired-page-size&#34;&gt;Aspose.Cells for Java : Create Chart PDF with Desired Page Size&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#create-chart-pdf-with-desired-page-size&#34;&gt;Create Chart PDF with Desired Page Size&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;You can create a chart PDF with your desired page size using Aspose.Cells and specify how you want to align the chart inside the page. You may align the chart to the top, bottom, center, left, right, etc. Besides, the output chart can be created in a stream or on disk.&lt;/p&gt;
+&lt;h2 id=&#34;create-chart-pdf-with-desired-page-size&#34;&gt;Create Chart PDF with Desired Page Size&lt;/h2&gt;
+&lt;p&gt;Please see the following sample code that loads the &lt;a href=&#34;https://docs2.aspose.com/cells/java/attachments/64456320/64716912.xlsx&#34;&gt;sample Excel file&lt;/a&gt;, accesses the first chart inside the worksheet and then converts it into &lt;a href=&#34;https://docs2.aspose.com/cells/java/attachments/64456320/64716911.pdf&#34;&gt;output PDF&lt;/a&gt; with desired page size. The following screenshot shows that the page size in the output PDF is 7x7 as specified inside the code and chart is center aligned both horizontally as well as vertically. &lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/64456320/64716910.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Find Type of X and Y Values of Points in Chart Series</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/charts/find&#43;type&#43;of&#43;x&#43;and&#43;y&#43;values&#43;of&#43;points&#43;in&#43;chart&#43;series/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/charts/find&#43;type&#43;of&#43;x&#43;and&#43;y&#43;values&#43;of&#43;points&#43;in&#43;chart&#43;series/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--find-type-of-x-and-y-values-of-points-in-chart-series&#34;&gt;Aspose.Cells for Java : Find Type of X and Y Values of Points in Chart Series&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#find-type-of-x-and-y-values-of-points-in-chart-series&#34;&gt;Find Type of X and Y Values of Points in Chart Series&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;4 &lt;a href=&#34;#console-output&#34;&gt;Console Output&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;Sometimes, you want to know the type of X and Y values of chart points in a series. Aspose.Cells provides &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/chartpoint#XValueType&#34;&gt;ChartPoint.XValueType&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/chartpoint#YValueType&#34;&gt;ChartPoint.YValueType&lt;/a&gt; properties that can be used for this purpose. Please note, you will have to call &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/chart#calculate()&#34;&gt;Chart.calculate()&lt;/a&gt; method before you could use these properties effectively.&lt;/p&gt;
+&lt;h2 id=&#34;find-type-of-x-and-y-values-of-points-in-chart-series&#34;&gt;Find Type of X and Y Values of Points in Chart Series&lt;/h2&gt;
+&lt;p&gt;The following sample code loads the &lt;a href=&#34;https://docs2.aspose.com/cells/java/attachments/64456365/64716920.xlsx&#34;&gt;sample Excel file&lt;/a&gt; and accesses the first chart inside the first worksheet. It then calls the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/chart#calculate()&#34;&gt;Chart.calculate()&lt;/a&gt; method and finds the type of X and Y values of first chart point and prints them on the console. Please see the console output shown below for a reference.&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+&lt;h2 id=&#34;console-output&#34;&gt;Console Output&lt;/h2&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_7c6a071710&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_7c6a071710&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;
+&lt;span style=&#34;color:#000&#34;&gt;X&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Value&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Type&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;IsString&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Y&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Value&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Type&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;IsNumeric&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Read Chart Subtitle from ODS File</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/charts/read&#43;chart&#43;subtitle&#43;from&#43;ods&#43;file/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/charts/read&#43;chart&#43;subtitle&#43;from&#43;ods&#43;file/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--read-chart-subtitle-from-ods-file&#34;&gt;Aspose.Cells for Java : Read Chart Subtitle from ODS File&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#read-chart-subtitle-from-ods-file&#34;&gt;Read Chart Subtitle from ODS File&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.2 &lt;a href=&#34;#console-output&#34;&gt;Console Output&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h1 id=&#34;read-chart-subtitle-from-ods-file&#34;&gt;Read Chart Subtitle from ODS File&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells provides you with the ability to read chart subtitles in ODS files by using the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/chart#SubTitle&#34;&gt;Chart.SubTitle&lt;/a&gt; property. The following sample code loads the &lt;a href=&#34;https://docs.aspose.com/download/attachments/89456665/SampleChart.ods?version=1&amp;amp;modificationDate=1557885401767&amp;amp;api=v2&#34;&gt;sample ODS file&lt;/a&gt; and reads the chart subtitle using &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/chart#SubTitle&#34;&gt;Chart.SubTitle&lt;/a&gt; property and prints it in the Console Window. Please see the console output of the code given below for reference.&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+&lt;h2 id=&#34;console-output&#34;&gt;Console Output&lt;/h2&gt;
+&lt;p&gt;Chart Subtitle: Sample Chart Subtitle&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Change Tick Label Direction</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/charts/change&#43;tick&#43;label&#43;direction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/charts/change&#43;tick&#43;label&#43;direction/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--change-tick-label-direction&#34;&gt;Aspose.Cells for Java : Change Tick Label Direction&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#change-tick-label-direction&#34;&gt;Change Tick Label Direction&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#source-file-image&#34;&gt;Source file image&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.2 &lt;a href=&#34;#output-file-image&#34;&gt;Output file image&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h1 id=&#34;change-tick-label-direction&#34;&gt;Change Tick Label Direction&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells provides you with the ability to change the chart tick label direction by using the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/ticklabels#DirectionType&#34;&gt;TickLabels.DirectionType&lt;/a&gt; property. The &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/ticklabels#DirectionType&#34;&gt;TickLabels.DirectionType&lt;/a&gt; property accepts the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/ChartTextDirectionType&#34;&gt;ChartTextDirectionType&lt;/a&gt; enumeration value. The &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/ChartTextDirectionType&#34;&gt;ChartTextDirectionType&lt;/a&gt; enumeration provides the following members&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/charttextdirectiontype#HORIZONTAL&#34;&gt;HORIZONTAL&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/charttextdirectiontype#VERTICAL&#34;&gt;VERTICAL&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/charttextdirectiontype#ROTATE_90&#34;&gt;ROTATE_90&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/charttextdirectiontype#ROTATE_270&#34;&gt;ROTATE_270&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/charttextdirectiontype#STACKED&#34;&gt;STACKED&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The following image compares the source and output files&lt;/p&gt;
+&lt;h4 id=&#34;source-file-image&#34;&gt;Source file image&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/105284039/105480224.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;output-file-image&#34;&gt;Output file image&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/105284039/105480225.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The following code snippet changes the tick label direction from &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/charttextdirectiontype#ROTATE_90&#34;&gt;ROTATE_90&lt;/a&gt; to &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/charttextdirectiontype#HORIZONTAL&#34;&gt;HORIZONTAL&lt;/a&gt;.&lt;/p&gt;
+&lt;h1 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h1&gt;
+&lt;p&gt;The source and output files can be downloaded from the following links.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs.aspose.com/download/attachments/105284039/SampleChangeTickLabelDirection.xlsx?version=1&amp;amp;modificationDate=1585811151935&amp;amp;api=v2&#34;&gt;Source File&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs.aspose.com/download/attachments/105284039/outputChangeChartDataLableDirection.xlsx?version=1&amp;amp;modificationDate=1585811151921&amp;amp;api=v2&#34;&gt;Output File&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Chart Rendering</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/charts/chart&#43;rendering/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/charts/chart&#43;rendering/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--chart-rendering&#34;&gt;Aspose.Cells for Java : Chart Rendering&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#creating-charts&#34;&gt;Creating Charts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#rendering-charts&#34;&gt;Rendering Charts&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;2.1 &lt;a href=&#34;#rendering-charts-to-images&#34;&gt;Rendering Charts to Images&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2.2 &lt;a href=&#34;#rendering-chart-to-pdf&#34;&gt;Rendering Chart to PDF&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#supported-chart-types-for-rendering&#34;&gt;Supported Chart Types for Rendering&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;creating-charts&#34;&gt;Creating Charts&lt;/h2&gt;
+&lt;p&gt;Aspose.Cells APIs support to create a verity of Excel charts as detailed under the topic &lt;a href=&#34;http://www.aspose.com/docs/display/cellsjava/Creating+and+Customizing+Charts&#34;&gt;Creating &amp;amp; Customizing Excel Charts&lt;/a&gt;. In order to demonstrate the usage of Aspose.Cells APIs to render the charts in image &amp;amp; PDF format, we will create a chart of type Column as per the following snippet.&lt;/p&gt;
+&lt;h2 id=&#34;rendering-charts&#34;&gt;Rendering Charts&lt;/h2&gt;
+&lt;p&gt;Aspose.Cells APIs support to convert the Excel Charts to images and PDF formats without requiring any additional tools or applications. In order to provide rendering support, the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/Chart&#34;&gt;Chart&lt;/a&gt; class has exposed &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/chart#toImage(java.io.OutputStream,%20com.aspose.cells.ImageOrPrintOptions)&#34;&gt;toImage&lt;/a&gt;&amp;amp; &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/chart#toPdf(java.io.OutputStream)&#34;&gt;toPdf &lt;/a&gt;methods with a verity of overloads to best suit the application requirements.&lt;/p&gt;
+&lt;h4 id=&#34;rendering-charts-to-images&#34;&gt;Rendering Charts to Images&lt;/h4&gt;
+&lt;p&gt;The &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/chart#toImage(java.io.OutputStream,%20com.aspose.cells.ImageOrPrintOptions)&#34;&gt;Chart.toImage&lt;/a&gt; method has a verity of overloads to support simple as well as advanced rendering. If the application requirement is to render the chart in its default dimensions, we suggest you use the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/chart#toImage(java.io.OutputStream,%20com.aspose.cells.ImageOrPrintOptions)&#34;&gt;Chart.toImage&lt;/a&gt; method as follow.&lt;/p&gt;
+&lt;p&gt;It is also possible to render the charts to images with advanced settings. Aspose.Cells APIs have exposed an overload version of &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/chart#toImage(java.lang.String,%20com.aspose.cells.ImageOrPrintOptions)&#34;&gt;Chart.toImage&lt;/a&gt; method that could accept an instance of &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/ImageOrPrintOptions&#34;&gt;ImageOrPrintOptions&lt;/a&gt; while allowing to specify parameters such as resolution, rendering hints, image format and so on.&lt;/p&gt;
+&lt;h4 id=&#34;rendering-chart-to-pdf&#34;&gt;Rendering Chart to PDF&lt;/h4&gt;
+&lt;p&gt;In order to render the chart to PDF format, the Aspose.Cells APIs have exposed the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/chart#toPdf(java.io.OutputStream)&#34;&gt;Chart.toPdf&lt;/a&gt; method with the ability to store the resultant PDF on disc path or an instance of &lt;code&gt;OutputStream&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;supported-chart-types-for-rendering&#34;&gt;Supported Chart Types for Rendering&lt;/h2&gt;
+&lt;p&gt;There are a few chart types that are currently not supported for rendering. Such chart types contain &lt;strong&gt;N&lt;/strong&gt; in the &lt;strong&gt;Supported&lt;/strong&gt; column of below table.&lt;/p&gt;
+
+&lt;div class=&#34;table table-striped&#34; role=&#34;alert&#34;&gt;
+    &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Chart type&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Chart sub-type&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Supported&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Column&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Column&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;ColumnStacked&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Column100PercentStacked&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Column3DClustered&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Column3DStacked&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Column3D100PercentStacked&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Column3D&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Bar&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bar&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;BarStacked&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bar100PercentStacked&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bar3DClustered&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bar3DStacked&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bar3D100PercentStacked&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Line&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Line&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;LineStacked&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Line100PercentStacked&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;LineWithDataMarkers&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;LineStackedWithDataMarkers&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Line100PercentStackedWithDataMarkers&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Line3D&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Pie&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Pie&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Pie3D&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PiePie&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PieExploded&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Pie3DExploded&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PieBar&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Scatter&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Scatter&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;ScatterConnectedByCurvesWithDataMarker&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;ScatterConnectedByCurvesWithoutDataMarker&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;ScatterConnectedByLinesWithDataMarker&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;ScatterConnectedByLinesWithoutDataMarker&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Area&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Area&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;AreaStacked&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Area100PercentStacked&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Area3D&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Area3DStacked&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Area3D100PercentStacked&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Doughnut&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Doughnut&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;DoughnutExploded&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Radar&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Radar&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;RadarWithDataMarkers&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;RadarFilled&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Surface&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Surface3D&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;N&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;SurfaceWireframe3D&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;N&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;SurfaceContour&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;N&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;SurfaceContourWireframe&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;N&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Bubble&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bubble&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bubble3D&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;N&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Stock&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;StockHighLowClose&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;StockOpenHighLowClose&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;StockVolumeHighLowClose&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;StockVolumeOpenHighLowClose&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Cylinder&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Cylinder&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;CylinderStacked&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Cylinder100PercentStacked&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;CylindricalBar&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;CylindricalBarStacked&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;CylindricalBar100PercentStacked&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;CylindricalColumn3D&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Cone&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Cone&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;ConeStacked&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Cone100PercentStacked&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;ConicalBar&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;ConicalBarStacked&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;ConicalBar100PercentStacked&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;ConicalColumn3D&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Pyramid&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Pyramid&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PyramidStacked&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Pyramid100PercentStacked&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PyramidBar&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PyramidBarStacked&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PyramidBar100PercentStacked&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PyramidColumn3D&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;In case you try to render the non-supported chart types to image or PDF, you may end up with 0 sized images or blank PDF.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://gist.github.com/aspose-com-gists/a20e8fa273e7cfa37d032b8211fcf8bf&#34;&gt;https://gist.github.com/aspose-com-gists/a20e8fa273e7cfa37d032b8211fcf8bf&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Read and Manipulate Excel 2016 Charts</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/charts/read&#43;and&#43;manipulate&#43;excel&#43;2016&#43;charts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/charts/read&#43;and&#43;manipulate&#43;excel&#43;2016&#43;charts/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--read-and-manipulate-excel-2016-charts&#34;&gt;Aspose.Cells for Java : Read and Manipulate Excel 2016 Charts&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#read-and-manipulate-excel-2016-charts&#34;&gt;Read and Manipulate Excel 2016 Charts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;4 &lt;a href=&#34;#console-output&#34;&gt;Console Output&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;Aspose.Cells supports the reading and manipulation of Microsoft Excel 2016 charts which are not present in Microsoft Excel 2013 or earlier versions.&lt;/p&gt;
+&lt;h2 id=&#34;read-and-manipulate-excel-2016-charts&#34;&gt;Read and Manipulate Excel 2016 Charts&lt;/h2&gt;
+&lt;p&gt;The following sample code loads the &lt;a href=&#34;https://docs2.aspose.com/cells/java/attachments/22970431/23166980.xlsx&#34;&gt;source excel file&lt;/a&gt; which contains Microsoft Excel 2016 charts in the first worksheet. It reads all charts one by one and changes its title as per its chart type. The following screenshot shows the source excel file before the execution of code. As you can see, the chart title is the same for all charts.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/22970431/23166977.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The following screenshot shows the &lt;a href=&#34;https://docs2.aspose.com/cells/java/attachments/22970431/23166978.xlsx&#34;&gt;output excel file&lt;/a&gt; after the execution of code. As you can see, the chart title is changed as per its chart type.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/22970431/23166979.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+&lt;h2 id=&#34;console-output&#34;&gt;Console Output&lt;/h2&gt;
+&lt;p&gt;Here is the console output of the above sample code when executed with the provided &lt;a href=&#34;https://docs2.aspose.com/cells/java/attachments/22970431/23166980.xlsx&#34;&gt;source excel file&lt;/a&gt;.&lt;/p&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_a7991d3caf&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_a7991d3caf&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Waterfall&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Treemap&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Sunburst&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Histogram&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;BoxWhisker&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

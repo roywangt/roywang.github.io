@@ -1,0 +1,40 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Introduction in Ruby</title>
+    <link>https://roywangt.github.io/cells/java/plugins/ruby/guide/introduction/</link>
+    <description>Recent content in Introduction in Ruby on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://roywangt.github.io/cells/java/plugins/ruby/guide/introduction/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Java: Hello World in Ruby</title>
+      <link>https://roywangt.github.io/cells/java/plugins/ruby/guide/introduction/hello&#43;world&#43;in&#43;ruby/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/plugins/ruby/guide/introduction/hello&#43;world&#43;in&#43;ruby/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--hello-world-in-ruby&#34;&gt;Aspose.Cells for Java : Hello World in Ruby&lt;/h1&gt;
+&lt;h2 id=&#34;asposecells---hello-world&#34;&gt;Aspose.Cells - Hello World&lt;/h2&gt;
+&lt;p&gt;To Write anything in the Spreadsheet Document using Aspose.Cells for Java in Ruby, simply invoke HelloWorld module.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Ruby Code&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + &amp;lsquo;/data/&#39;# Instantiating a Workbook object that represents a Microsoft Excel file.workbook = Rjb::import(&amp;lsquo;com.aspose.cells.Workbook&amp;rsquo;).new# Note when you create a new workbook, a default worksheet,# &amp;ldquo;Sheet1&amp;rdquo;, is by default added to the workbook.# Accessing the first worksheet in the book (&amp;ldquo;Sheet1&amp;rdquo;).sheet = workbook.getWorksheets().get(0)# Access cell &amp;ldquo;A1&amp;rdquo; in the sheet.cell = sheet.getCells().get(&amp;ldquo;A1&amp;rdquo;)# Input the &amp;ldquo;Hello World!&amp;rdquo; text into the &amp;ldquo;A1&amp;rdquo; cellcell.setValue(&amp;ldquo;Hello World!&amp;quot;)# Saving the modified Excel file in default (that is Excel 2003) formatfile_format_type = Rjb::import(&amp;lsquo;com.aspose.cells.FileFormatType&amp;rsquo;)workbook.save(data_dir + &amp;ldquo;HelloWorld.xls&amp;rdquo;, file_format_type.EXCEL_97_TO_2003)puts &amp;ldquo;Document has been saved, please check the output file.&amp;rdquo;&lt;/p&gt;
+&lt;h2 id=&#34;download-running-code&#34;&gt;Download Running Code&lt;/h2&gt;
+&lt;p&gt;Download &lt;strong&gt;Hello World (Aspose.Cells)&lt;/strong&gt; from any of the below mentioned social coding sites:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/helloworld.rb&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

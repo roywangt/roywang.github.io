@@ -1,0 +1,758 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Rendering and Printing</title>
+    <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/rnd-prt/</link>
+    <description>Recent content in Rendering and Printing on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://roywangt.github.io/cells/java/developerguide/technicalarticles/rnd-prt/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Java: Page Setup and Printing Options</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/rnd-prt/page&#43;setup&#43;and&#43;printing&#43;options/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/rnd-prt/page&#43;setup&#43;and&#43;printing&#43;options/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--page-setup-and-printing-options&#34;&gt;Aspose.Cells for Java : Page Setup and Printing Options&lt;/h1&gt;
+&lt;p&gt;Sometimes, developers need to configure page setup and print settings to control the printing process. Page setup and print settings offer various options and are fully supported in Aspose.Cells.&lt;/p&gt;
+&lt;p&gt;This article shows how to create a console application and apply page setup and printing options to a worksheet with a few simple lines of code using the Aspose.Cells API.&lt;/p&gt;
+&lt;h3 id=&#34;working-with-page-and-print-settings&#34;&gt;Working with Page and Print Settings&lt;/h3&gt;
+&lt;p&gt;For this example, we created a workbook in Microsoft Excel and use Aspose.Cells to set page setup and print options.&lt;/p&gt;
+&lt;h4 id=&#34;setting-page-setup-options&#34;&gt;Setting Page Setup Options&lt;/h4&gt;
+&lt;p&gt;First create a simple worksheet in Microsoft Excel. Then apply page setup options to it. Executing the code changes the Page Setup options as in the screenshot below.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Output file&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276589/5472717.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Create a worksheet with some data in Microsoft Excel:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Open a new workbook in Microsoft Excel.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Add some data.&lt;br&gt;
+Below is a screenshot of the file.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Input file&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276589/5472715.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Set page setup options:&lt;br&gt;
+Apply page setup options to the file. Below is a screenshot of the default options, before the new options are applied.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Default page setup options&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276589/5472714.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Downlaod and install Aspose.Cells:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.aspose.com/community/files/72/java-components/aspose.cells-for-java/default.aspx&#34;&gt;Download&lt;/a&gt; Aspose.Cells for Java.&lt;/li&gt;
+&lt;li&gt;Unzip it on your development computer.&lt;br&gt;
+All &lt;a href=&#34;http://www.aspose.com/&#34;&gt;Aspose&lt;/a&gt; components, when installed, work in evaluation mode. The evaluation mode has no time limit and it only injects watermarks into produced documents.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Create a project.&lt;br&gt;
+Either create a project using a Java editor, for example Eclipse, or create a simple program using a text editor.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Add a class path.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Extract the Aspose.Cells.jar and dom4j_1.6.1.jar from Aspose.Cells.zip.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Set the classpath of project in Eclipse:&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Select your project in Eclipse and then click &lt;strong&gt;Project&lt;/strong&gt; followed by &lt;strong&gt;Properties&lt;/strong&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Select &lt;strong&gt;Java Build Path&lt;/strong&gt; to the left of the dialog.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Select the Libraries tab, click &lt;strong&gt;Add JARs&lt;/strong&gt; or &lt;strong&gt;Add External JARs&lt;/strong&gt; to select Aspose.Cells.jar and dom4j_1.6.1.jar and add them to the build paths.&lt;br&gt;
+Or you may set it at runtime at a DOS prompt in Windows:&lt;/p&gt;
+&lt;p&gt;javac \-classpath %classpath%;e:\Aspose.Cells.jar; ClassName .javajava \-classpath %classpath%;e:\Aspose.Cells.jar; ClassName&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Write the application that invokes APIs:&lt;br&gt;
+Below is the code used by the component in this example.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;setting-print-options&#34;&gt;Setting Print options&lt;/h4&gt;
+&lt;p&gt;Page setup settings also provide several print options (also called sheet options) that allow users to control how worksheet pages are printed. They allow users to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Select a specific print area of a worksheet.&lt;/li&gt;
+&lt;li&gt;Print titles.&lt;/li&gt;
+&lt;li&gt;Print gridlines.&lt;/li&gt;
+&lt;li&gt;Print row/column headings.&lt;/li&gt;
+&lt;li&gt;Achieve draft quality.&lt;/li&gt;
+&lt;li&gt;Print comments.&lt;/li&gt;
+&lt;li&gt;Print cell errors.&lt;/li&gt;
+&lt;li&gt;Define page ordering.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The example that follows applies print options to the file created in the example above (PageSetup.xls). The screenshot below shows the default print options before new options are applied.&lt;br&gt;
+&lt;strong&gt;Input document&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276589/5472716.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Executing the code changes the print options.&lt;br&gt;
+&lt;strong&gt;Output file&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276589/5472711.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;summary&#34;&gt;Summary&lt;/h3&gt;
+&lt;p&gt;This article shows how to set page setup and sheet print options using Aspose.Cells. Hopefully, it will give you some insight, and you can use these options in your own scenarios.&lt;/p&gt;
+&lt;p&gt;Aspose.Cells benefits from years of research, design and careful tuning. We heartily welcome your queries, comments and suggestions at &lt;a href=&#34;http://www.aspose.com/community/forums/aspose.cells-product-family/19/showforum.aspx&#34;&gt;Aspose.Cells Forum&lt;/a&gt;. We warranty a prompt reply.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Printing Workbooks</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/rnd-prt/printing&#43;workbooks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/rnd-prt/printing&#43;workbooks/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--printing-workbooks&#34;&gt;Aspose.Cells for Java : Printing Workbooks&lt;/h1&gt;
+&lt;p&gt;This document is designed to provide the developers with understanding (in a compact manner) on how to print spreadsheets.&lt;/p&gt;
+&lt;p&gt;After you finish creating your spreadsheet, you will probably want to print a hard copy of the sheet for your need. When you are printing, MS Excel assumes you want to print the entire worksheet area unless you specify your selection. In this document, we have provided the simplest lines of code using &lt;strong&gt;Aspose.Cells API&lt;/strong&gt; to perform the task for you.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276595/5472709.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure:&lt;/strong&gt; Print Dialog Box&lt;/p&gt;
+&lt;p&gt;The component provides &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/sheetrender#toPrinter(java.lang.String)&#34;&gt;SheetRender.toPrinter&lt;/a&gt; method to print a worksheet for your requirement.&lt;/p&gt;
+&lt;h5 id=&#34;code-snippet&#34;&gt;&lt;em&gt;Code Snippet&lt;/em&gt;&lt;/h5&gt;
+&lt;p&gt;Please see the following sample code to find how you can print your selected worksheet.&lt;/p&gt;
+&lt;p&gt;The developers can also use &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/workbookrender#toPrinter(java.lang.String)&#34;&gt;WorkbookRender.toPrinter&lt;/a&gt; method to print the whole workbook. Please see the following sample code to find how you can print the whole workbook.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Generate a Thumbnail Image of a Worksheet</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/rnd-prt/generate&#43;a&#43;thumbnail&#43;image&#43;of&#43;a&#43;worksheet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/rnd-prt/generate&#43;a&#43;thumbnail&#43;image&#43;of&#43;a&#43;worksheet/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--generate-a-thumbnail-image-of-a-worksheet&#34;&gt;Aspose.Cells for Java : Generate a Thumbnail Image of a Worksheet&lt;/h1&gt;
+&lt;p&gt;It can be useful to generate thumbnails from worksheets. A thumbnail is a small image that can be pasted into a Word document or a PowerPoint presentation to give a preview of what&amp;rsquo;s on the worksheet. It can be added to a webpage with a link to download the original document and has a host of other uses.&lt;/p&gt;
+&lt;p&gt;Aspose.Cells for Java allows you to output worksheets to image files so making a thumbnail is easy.&lt;/p&gt;
+&lt;p&gt;The sample code below shows you how, step by step.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Render One PDF Page Per Excel Worksheet - Excel to PDF Conversion</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/rnd-prt/render&#43;one&#43;pdf&#43;page&#43;per&#43;excel&#43;worksheet&#43;-&#43;excel&#43;to&#43;pdf&#43;conversion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/rnd-prt/render&#43;one&#43;pdf&#43;page&#43;per&#43;excel&#43;worksheet&#43;-&#43;excel&#43;to&#43;pdf&#43;conversion/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--render-one-pdf-page-per-excel-worksheet---excel-to-pdf-conversion&#34;&gt;Aspose.Cells for Java : Render One PDF Page Per Excel Worksheet - Excel to PDF Conversion&lt;/h1&gt;
+&lt;p&gt;When working with large Microsoft Excel files (for example a workbook that has many sheets, each with 50 columns and 300 or more rows of data), you might want the PDF output to show one page per worksheet, regardless of the size of the worksheet. This would mean that each page is likely to have a radically different page size. This can be achieved by using Aspose.Cells for Java.&lt;/p&gt;
+&lt;p&gt;Please see the following sample code that converts an Excel file with multiple worksheets to PDF.&lt;/p&gt;
+&lt;p&gt;If the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/pdfsaveoptions#OnePagePerSheet&#34;&gt;PdfSaveOptions.OnePagePerSheet&lt;/a&gt; option is set to &lt;strong&gt;true&lt;/strong&gt;, all the sheet content is rendered to one PDF page. The paper size set by &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/PageSetup&#34;&gt;PageSetup&lt;/a&gt; is invalid, but the other settings set with &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/PageSetup&#34;&gt;PageSetup&lt;/a&gt; still take effect.&lt;/p&gt;
+&lt;p&gt;If your spreadsheet contains formulas, it is best to call the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/workbook#calculateFormula()&#34;&gt;Workbook.calculateFormula&lt;/a&gt; method just before rendering the spreadsheet to PDF. This ensures that the formula dependent values are recalculated, and the correct values are rendered in the PDF.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Save Each Worksheet to a Different PDF File</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/rnd-prt/save&#43;each&#43;worksheet&#43;to&#43;a&#43;different&#43;pdf&#43;file/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/rnd-prt/save&#43;each&#43;worksheet&#43;to&#43;a&#43;different&#43;pdf&#43;file/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--save-each-worksheet-to-a-different-pdf-file&#34;&gt;Aspose.Cells for Java : Save Each Worksheet to a Different PDF File&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells supports converting spreadsheet files (that contain images, charts, etc.) to PDF documents. Aspose.Cells for Java can work independently to convert a spreadsheet to PDF document and you do not need to use Aspose.PDF for Java for the conversion any longer. The conversion does not require to create / use any temporary file(s) too as the whole process can be done in the memory.&lt;/p&gt;
+&lt;p&gt;If you need to save each worksheet in your template Excel file to generate different PDF files. This can be achieved easily. You may try to hide sheets in the file and make one sheet visible at a time based on which you would render PDFs.&lt;/p&gt;
+&lt;p&gt;If the spreadsheet contains formulas, it is best to call the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/workbook#calculateFormula()&#34;&gt;Workbook.calculateFormula&lt;/a&gt; method just before rendering the spreadsheet to PDF. This ensures that formula dependent values are recalculated, and the correct values are rendered in the PDF.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Limit the Number of Pages Generated - Excel to PDF Conversion</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/rnd-prt/limit&#43;the&#43;number&#43;of&#43;pages&#43;generated&#43;-&#43;excel&#43;to&#43;pdf&#43;conversion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/rnd-prt/limit&#43;the&#43;number&#43;of&#43;pages&#43;generated&#43;-&#43;excel&#43;to&#43;pdf&#43;conversion/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--limit-the-number-of-pages-generated---excel-to-pdf-conversion&#34;&gt;Aspose.Cells for Java : Limit the Number of Pages Generated - Excel to PDF Conversion&lt;/h1&gt;
+&lt;p&gt;Sometimes, you want to print a range of pages to an output PDF file. Aspose.Cells has the ability to set a limit on how many pages are generated when converting an Excel spreadsheet to PDF.&lt;/p&gt;
+&lt;h3 id=&#34;limiting-the-number-of-pages-generated&#34;&gt;Limiting the Number of Pages Generated&lt;/h3&gt;
+&lt;p&gt;The following example shows how to render a range of pages (3 and 4) in a Microsoft Excel file to PDF.&lt;/p&gt;
+&lt;p&gt;If the spreadsheet contains formulas, it is best to call &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/workbook#calculateFormula()&#34;&gt;Workbook.calculateFormula&lt;/a&gt; just before rendering it to PDF format. Doing so ensures that formula dependent values are recalculated, and the correct values are rendered in the output file.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Fit All Worksheet Columns on Single PDF Page</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/rnd-prt/fit&#43;all&#43;worksheet&#43;columns&#43;on&#43;single&#43;pdf&#43;page/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/rnd-prt/fit&#43;all&#43;worksheet&#43;columns&#43;on&#43;single&#43;pdf&#43;page/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--fit-all-worksheet-columns-on-single-pdf-page&#34;&gt;Aspose.Cells for Java : Fit All Worksheet Columns on Single PDF Page&lt;/h1&gt;
+&lt;p&gt;Sometimes you want to generate a PDF file that fits all a worksheet&amp;rsquo;s columns onto a single page. The &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/pdfsaveoptions#AllColumnsInOnePagePerSheet&#34;&gt;PdfSaveOptions.setAllColumnsInOnePagePerSheet&lt;/a&gt; property provides this feature in a very easy-to-use manner. Complex calculations such as the height and width of the output PDF page are handled internally and are based on the data in the worksheet.&lt;/p&gt;
+&lt;h4 id=&#34;fit-worksheet-columns-on-single-pdf-page&#34;&gt;Fit Worksheet Columns on Single PDF Page&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/pdfsaveoptions#AllColumnsInOnePagePerSheet&#34;&gt;PdfSaveOptions.setAllColumnsInOnePagePerSheet&lt;/a&gt; ensures that all columns of a worksheet are rendered to a single PDF page, although rows may expand to several pages depending upon the data in worksheet.&lt;/p&gt;
+&lt;p&gt;When a given worksheet has many columns, the rendered PDF file may show the contents at a very small size. It is still readable when scaled up in a viewing application such as Acrobat Reader.&lt;/p&gt;
+&lt;p&gt;The sample code below shows how to use the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/pdfsaveoptions#AllColumnsInOnePagePerSheet&#34;&gt;PdfSaveOptions.setAllColumnsInOnePagePerSheet&lt;/a&gt; property to render a large worksheet of 100 columns.&lt;/p&gt;
+&lt;p&gt;If your spreadsheet contains formulas, it is best to call &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/workbook#calculateFormula()&#34;&gt;Workbook.calculateFormula&lt;/a&gt; method just before rendering the spreadsheet to PDF format. Doing so will ensure that the formula dependent values are recalculated, and the correct values are rendered in the PDF.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Create Transparent Image of Excel Worksheet</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/rnd-prt/create&#43;transparent&#43;image&#43;of&#43;excel&#43;worksheet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/rnd-prt/create&#43;transparent&#43;image&#43;of&#43;excel&#43;worksheet/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--create-transparent-image-of-excel-worksheet&#34;&gt;Aspose.Cells for Java : Create Transparent Image of Excel Worksheet&lt;/h1&gt;
+&lt;p&gt;Sometimes, you need to generate the image of your worksheet as a transparent image. You want to apply transparency to all cells which have no fill colors. Aspose.Cells provides the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/imageorprintoptions#Transparent&#34;&gt;ImageOrPrintOptions.setTransparent()&lt;/a&gt; property to apply transparency to worksheet image. When this property is &lt;strong&gt;false&lt;/strong&gt;, then cells with no fill colors are drawn with white color and when it is &lt;strong&gt;true&lt;/strong&gt;, cells with no fill colors are drawn transparent.&lt;/p&gt;
+&lt;p&gt;In the following worksheet image, transparency has not been applied. The cells with no fill colors are drawn white.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Worksheet image without applying transparency&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276632/5472703.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;While, in the following worksheet image, transparency has been applied. The cells with no fill colors are transparent.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Worksheet image after applying transparency&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276632/5472702.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;You can use the following sample code to generate a transparent image of your Excel worksheet.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Prevent Exporting Hidden Worksheet Contents on Saving to HTML</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/rnd-prt/prevent&#43;exporting&#43;hidden&#43;worksheet&#43;contents&#43;on&#43;saving&#43;to&#43;html/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/rnd-prt/prevent&#43;exporting&#43;hidden&#43;worksheet&#43;contents&#43;on&#43;saving&#43;to&#43;html/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--prevent-exporting-hidden-worksheet-contents-on-saving-to-html&#34;&gt;Aspose.Cells for Java : Prevent Exporting Hidden Worksheet Contents on Saving to HTML&lt;/h1&gt;
+&lt;p&gt;You can save Excel workbooks to HTML. However, if the workbook contains hidden worksheets, Aspose.Cells by default exports the hidden worksheet contents to the HTML output (_files) directory which contains files such as worksheets, images, tabstrip.htm, stylesheet.css, etc. Sometimes, exporting the content of the hidden worksheets this way isn&amp;rsquo;t appropriate. For example, if the hidden worksheet contains images that should not be exported to the _files directory.&lt;/p&gt;
+&lt;p&gt;Aspose.Cells provides the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/htmlsaveoptions#ExportHiddenWorksheet&#34;&gt;HtmlSaveOptions.ExportHiddenWorksheet&lt;/a&gt; property. By default, the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/htmlsaveoptions#ExportHiddenWorksheet&#34;&gt;ExportHiddenWorksheet&lt;/a&gt; method is set to &lt;strong&gt;true&lt;/strong&gt;. If you set it to &lt;strong&gt;false&lt;/strong&gt;, then Aspose.Cells will not export hidden worksheet contents.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Aspose.Cells Font Usage</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/rnd-prt/fontusage/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/rnd-prt/fontusage/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--asposecells-font-usage&#34;&gt;Aspose.Cells for Java : Aspose.Cells Font Usage&lt;/h1&gt;
+&lt;h6 id=&#34;this-section-includes-the-following-topics&#34;&gt;This section includes the following topics:&lt;/h6&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/rnd-prt/fontusage/how+aspose.cells+uses+truetype+fonts&#34;&gt;How Aspose.Cells uses TrueType Fonts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/rnd-prt/fontusage/how+to+install+truetype+fonts+on+linux&#34;&gt;How to Install TrueType Fonts on Linux&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/rnd-prt/fontusage/how+to+specify+truetype+fonts+location&#34;&gt;How to Specify TrueType Fonts Location&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Excel to HTML - Use PresentationPreference Option for Better Layout</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/rnd-prt/excel&#43;to&#43;html&#43;-&#43;use&#43;presentationpreference&#43;option&#43;for&#43;better&#43;layout/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/rnd-prt/excel&#43;to&#43;html&#43;-&#43;use&#43;presentationpreference&#43;option&#43;for&#43;better&#43;layout/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--excel-to-html---use-presentationpreference-option-for-better-layout&#34;&gt;Aspose.Cells for Java : Excel to HTML - Use PresentationPreference Option for Better Layout&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells provides a useful property, &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/htmlsaveoptions#PresentationPreference&#34;&gt;HtmlSaveOptions.PresentationPreference&lt;/a&gt;, that developers can use to get better layout when saving a Microsoft Excel file to HTML or MHT format. The default value of the property is &lt;strong&gt;false&lt;/strong&gt;. We recommend setting this property to &lt;strong&gt;true&lt;/strong&gt; to get better-looking presentations from an Excel report.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Get Warnings for Font Substitution while Rendering Excel File</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/rnd-prt/get&#43;warnings&#43;for&#43;font&#43;substitution&#43;while&#43;rendering&#43;excel&#43;file/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/rnd-prt/get&#43;warnings&#43;for&#43;font&#43;substitution&#43;while&#43;rendering&#43;excel&#43;file/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--get-warnings-for-font-substitution-while-rendering-excel-file&#34;&gt;Aspose.Cells for Java : Get Warnings for Font Substitution while Rendering Excel File&lt;/h1&gt;
+&lt;p&gt;Sometimes, when rendering Microsoft Excel files to PDF, Aspose.Cells substitutes fonts. Aspose.Cells provides a feature that lets developers know that a particular font has been substituted by firing a warning. This is a useful feature that can help you identify why Aspose.Cells rendered PDF is differently than the actual Excel file and you can then take appropriate actions. For example, you can install the missing fonts so that rendering results could look same.&lt;/p&gt;
+&lt;p&gt;If you want to get the warnings for font substitution while rendering an Excel file to PDF, implement the &lt;code&gt;IWarningCallback&lt;/code&gt; interface and set the &lt;code&gt;PdfSaveOptions.setWarningCallback()&lt;/code&gt; method with your implemented interface.&lt;/p&gt;
+&lt;p&gt;The screenshot below shows the source Excel file used in the following code. It has some text in cells A6 and A7 in fonts that are not rendered well by Microsoft Excel.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276637/5472701.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Aspose.Cells will substitute the fonts in the cells A6 and A7 with suitable fonts as shown below.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276637/5472698.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;download-source-file-and-output-pdf&#34;&gt;Download Source File and Output PDF&lt;/h4&gt;
+&lt;p&gt;You can download the source Excel file and the output PDF from the following links&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/attachments/5276637/5472700.xlsx&#34;&gt;source.xlsx&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/attachments/5276637/5472699.pdf&#34;&gt;output.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The following code implements the &lt;code&gt;IWarningCallback&lt;/code&gt; and set the &lt;code&gt;PdfSaveOptions.setWarningCallback()&lt;/code&gt; method with the implemented interface. Now, whenever any font will be substituted in any cell, Aspose.Cells will fire a warning inside the &lt;code&gt;WarningCallback.warning()&lt;/code&gt; method.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;C#&lt;/strong&gt;&lt;/p&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_4948ed9fa6&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_4948ed9fa6&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-c#&#34; data-lang=&#34;c#&#34;&gt;
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;WarningCallback&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;implements&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;IWarningCallback&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt;
+
+    &lt;span style=&#34;color:#000&#34;&gt;@Override&lt;/span&gt;
+    &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;warning&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;WarningInfo&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;info&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt;
+        &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;if&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;info&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;getWarningType&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;()&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;==&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;WarningType&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;FONT_SUBSTITUTION&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+        &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt;
+            &lt;span style=&#34;color:#000&#34;&gt;System&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;out&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;println&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;WARNING INFO: &amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;info&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;getDescription&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;());&lt;/span&gt;
+        &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;}&lt;/span&gt;
+    &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;}&lt;/span&gt;
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;}&lt;/span&gt;
+
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//........
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//........
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Run&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;()&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;throws&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Exception&lt;/span&gt;
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt;
+    &lt;span style=&#34;color:#000&#34;&gt;Workbook&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;workbook&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Workbook&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;source.xlsx&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+    &lt;span style=&#34;color:#000&#34;&gt;PdfSaveOptions&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;options&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;PdfSaveOptions&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;();&lt;/span&gt;
+    &lt;span style=&#34;color:#000&#34;&gt;options&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;setWarningCallback&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;WarningCallback&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;());&lt;/span&gt;
+
+    &lt;span style=&#34;color:#000&#34;&gt;workbook&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;save&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;output.pdf&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;options&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;}&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;h4 id=&#34;warnings-output&#34;&gt;Warnings Output&lt;/h4&gt;
+&lt;p&gt;After converting the source file, the following warnings are output to the debug console:&lt;/p&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_1054d88d41&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_1054d88d41&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;
+&lt;span style=&#34;color:#000&#34;&gt;WARNING&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;INFO&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Font&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;substitution&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Font&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;[&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Athene&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Logos&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Regular&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;]&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;has&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;been&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;substituted&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;in&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Cell&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;[&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;A6&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;]&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;in&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Sheet&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;[&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Sheet1&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;].&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;WARNING&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;INFO&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Font&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;substitution&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Font&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;[&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;B&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Traffic&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Regular&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;]&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;has&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;been&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;substituted&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;in&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Cell&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;[&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;A7&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;]&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;in&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Sheet&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;[&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Sheet1&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;].&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;p&gt;If your spreadsheet contains formulas, it is best to call &lt;code&gt;Workbook.calculateFormula&lt;/code&gt; method just before rendering the spreadsheet to PDF format. Doing so will ensure that the formula dependent values are recalculated, and the correct values are rendered in the PDF.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Export Range of Cells in a Worksheet to Image</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/rnd-prt/export&#43;range&#43;of&#43;cells&#43;in&#43;a&#43;worksheet&#43;to&#43;image/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/rnd-prt/export&#43;range&#43;of&#43;cells&#43;in&#43;a&#43;worksheet&#43;to&#43;image/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--export-range-of-cells-in-a-worksheet-to-image&#34;&gt;Aspose.Cells for Java : Export Range of Cells in a Worksheet to Image&lt;/h1&gt;
+&lt;p&gt;You can make an image of a worksheet using Aspose.Cells. However, sometimes you need to export only a range of cells in a worksheet to an image. This article explains how to achieve this.&lt;/p&gt;
+&lt;p&gt;To take an image of a range, set the print area to the desired range and then set all margins to 0. Also set &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/imageorprintoptions#OnePagePerSheet&#34;&gt;ImageOrPrintOptions.setOnePagePerSheet()&lt;/a&gt; to &lt;strong&gt;true&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;The following code takes an image of the range E8:H10. Below is a screenshot of the source workbook used in the code. You can try the code with any workbook.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Input file&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276640/5472690.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Executing the code creates an image of the range E8:H10 only.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Output image&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276640/5472691.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Converting Chart to Image in SVG Format</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/rnd-prt/converting&#43;chart&#43;to&#43;image&#43;in&#43;svg&#43;format/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/rnd-prt/converting&#43;chart&#43;to&#43;image&#43;in&#43;svg&#43;format/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--converting-chart-to-image-in-svg-format&#34;&gt;Aspose.Cells for Java : Converting Chart to Image in SVG Format&lt;/h1&gt;
+&lt;p&gt;Scalable Vector Graphics (SVG) is an XML-based vector image format for two-dimensional graphics that also supports interactivity and animation. The SVG specification is an open standard developed by the World Wide Web Consortium (W3C) since 1999.&lt;/p&gt;
+&lt;p&gt;SVG images and their behaviors are defined in XML text files. This means that they can be searched, indexed, scripted, and compressed. As XML files, SVG images can be created and edited with any text editor, but are more often created with drawing software.&lt;/p&gt;
+&lt;p&gt;Aspose.Cells can save charts as images in various formats like BMP, JPEG, PNG, GIF, SVG, etc. This article explains how to save charts as SVG images.&lt;/p&gt;
+&lt;p&gt;The following sample code explains how to use Aspose.Cells to convert a chart into an SVG format image. The code loads the source Excel file and then saves the first chart found on the first worksheet to SVG.&lt;/p&gt;
+&lt;p&gt;The following screenshot shows the converted chart image in SVG format created with the sample code.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Output image&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276639/5472686.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Because SVG is an XML-based format, you can also open the output chart image in a text editor like Notepad as shown in this screenshot.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Output SCG in a text editor&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276639/5472687.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Change the Font on just the specific Unicode characters while saving to PDF</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/rnd-prt/change&#43;the&#43;font&#43;on&#43;just&#43;the&#43;specific&#43;unicode&#43;characters&#43;while&#43;saving&#43;to&#43;pdf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/rnd-prt/change&#43;the&#43;font&#43;on&#43;just&#43;the&#43;specific&#43;unicode&#43;characters&#43;while&#43;saving&#43;to&#43;pdf/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--change-the-font-on-just-the-specific-unicode-characters-while-saving-to-pdf&#34;&gt;Aspose.Cells for Java : Change the Font on just the specific Unicode characters while saving to PDF&lt;/h1&gt;
+&lt;p&gt;Some Unicode characters are not displayable by the user-specified font. One such Unicode character is &lt;strong&gt;Non-breaking Hyphen&lt;/strong&gt; (U+2011) and its Unicode number is 8209. This character cannot be displayed with &lt;strong&gt;Times New Roman&lt;/strong&gt;, but it can be displayed with other fonts like &lt;strong&gt;Arial Unicode MS&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;When such a character occurs inside some word or sentence which is in some specific font like Times New Roman, then Aspose.Cells changes the font of the entire word or sentence to font which could display this character like Arial Unicode to MS.&lt;/p&gt;
+&lt;p&gt;However, this is undesirable behavior for some users and they want only that the specific character&amp;rsquo;s font must be changed instead of changing the font of the entire word or sentence.&lt;/p&gt;
+&lt;p&gt;To deal with this problem, Aspose.Cells provides &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/pdfsaveoptions#IsFontSubstitutionCharGranularity&#34;&gt;PdfSaveOptions.setFontSubstitutionCharGranularity()&lt;/a&gt; property which should be set &lt;strong&gt;true&lt;/strong&gt; so that only the font of the specific character which is not displayable is changed and the font for the rest of the word or sentence remains the same.&lt;/p&gt;
+&lt;h4 id=&#34;example&#34;&gt;Example&lt;/h4&gt;
+&lt;p&gt;The following screenshot compares the two output PDFs generated by the sample code below. One was generated without setting &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/pdfsaveoptions#IsFontSubstitutionCharGranularity&#34;&gt;PdfSaveOptions.setFontSubstitutionCharGranularity()&lt;/a&gt; property and the other was generated after setting the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/pdfsaveoptions#IsFontSubstitutionCharGranularity&#34;&gt;PdfSaveOptions.setFontSubstitutionCharGranularity()&lt;/a&gt; property to &lt;strong&gt;true&lt;/strong&gt;. As you can see in the first PDF, the font of the entire sentence has changed from Times New Roman to Arial Unicode MS because of Non-Breaking Hyphen. While in the second PDF, only the font of Non-Breaking Hyphen has changed.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276642/5472685.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Specify Job or Document Name while printing with Aspose.Cells</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/rnd-prt/specify&#43;job&#43;or&#43;document&#43;name&#43;while&#43;printing&#43;with&#43;aspose.cells/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/rnd-prt/specify&#43;job&#43;or&#43;document&#43;name&#43;while&#43;printing&#43;with&#43;aspose.cells/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--specify-job-or-document-name-while-printing-with-asposecells&#34;&gt;Aspose.Cells for Java : Specify Job or Document Name while printing with Aspose.Cells&lt;/h1&gt;
+&lt;p&gt;You can specify Job or Document Name while printing your workbook or worksheet using the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/WorkbookRender&#34;&gt;WorkbookRender&lt;/a&gt; or &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/SheetRender&#34;&gt;SheetRender&lt;/a&gt; objects. Aspose.Cells provides the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/workbookrender#toPrinter(java.lang.String,%20java.lang.String)&#34;&gt;WorkbookRender.toPrinter(printerName, jobName)&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/sheetrender#toPrinter(java.lang.String,%20java.lang.String)&#34;&gt;SheetRender.toPrinter(printerName, jobName)&lt;/a&gt; methods which you can use to specify Job Name while printing your workbook or worksheet&lt;/p&gt;
+&lt;h4 id=&#34;specify-job-or-document-name-while-printing-with-asposecells&#34;&gt;Specify Job or Document Name while printing with Aspose.Cells&lt;/h4&gt;
+&lt;p&gt;The sample code loads the source Excel file and then sends it to the printer by specifying the job or document name using the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/workbookrender#toPrinter(java.lang.String,%20java.lang.String)&#34;&gt;WorkbookRender.toPrinter(printerName, jobName)&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/sheetrender#toPrinter(java.lang.String,%20java.lang.String)&#34;&gt;SheetRender.toPrinter(printerName, jobName)&lt;/a&gt; methods. The screenshot shows how the job name looks like in the printer queue.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276641/5472683.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Generate Conditional Formatting DataBars Images</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/rnd-prt/generate&#43;conditional&#43;formatting&#43;databars&#43;images/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/rnd-prt/generate&#43;conditional&#43;formatting&#43;databars&#43;images/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--generate-conditional-formatting-databars-images&#34;&gt;Aspose.Cells for Java : Generate Conditional Formatting DataBars Images&lt;/h1&gt;
+&lt;p&gt;Sometimes, you need to generate images of Conditional Formatting DataBars. You can use Aspose.Cells &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/databar#toImage(com.aspose.cells.Cell,%20com.aspose.cells.ImageOrPrintOptions)&#34;&gt;DataBar.toImage()&lt;/a&gt; method to generate these images. This article shows how to generate a DataBar image using Aspose.Cells.&lt;/p&gt;
+&lt;h4 id=&#34;example&#34;&gt;Example&lt;/h4&gt;
+&lt;p&gt;The following sample code generates the DataBar image of cell C1. First, it accesses the format condition object of the cell, and then from that object, it accesses the DataBar object and uses its &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/databar#toImage(com.aspose.cells.Cell,%20com.aspose.cells.ImageOrPrintOptions)&#34;&gt;DataBar.toImage()&lt;/a&gt;method to generate the image of the cell. Finally, it saves the image on disk.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Print Comments while saving to PDF</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/rnd-prt/print&#43;comments&#43;while&#43;saving&#43;to&#43;pdf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/rnd-prt/print&#43;comments&#43;while&#43;saving&#43;to&#43;pdf/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--print-comments-while-saving-to-pdf&#34;&gt;Aspose.Cells for Java : Print Comments while saving to PDF&lt;/h1&gt;
+&lt;p&gt;Microsoft Excel allows you to print comments while printing or saving to PDF format with the following options&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;None&lt;/li&gt;
+&lt;li&gt;At end of the sheet&lt;/li&gt;
+&lt;li&gt;As displayed on sheet&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Aspose.Cells provides the following enums to support the same feature&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/printcommentstype#PRINT_NO_COMMENTS&#34;&gt;PrintCommentsType.PRINT_NO_COMMENTS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/printcommentstype#PRINT_IN_PLACE&#34;&gt;PrintCommentsType.PRINT_IN_PLACE&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/printcommentstype#PRINT_SHEET_END&#34;&gt;PrintCommentsType.PRINT_SHEET_END&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;print-comments-while-saving-to-pdf&#34;&gt;Print Comments while saving to PDF&lt;/h4&gt;
+&lt;p&gt;The following sample code illustrates how to use these enums to print comments while saving to PDF.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Export Chart to SVG with viewBox attribute</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/rnd-prt/export&#43;chart&#43;to&#43;svg&#43;with&#43;viewbox&#43;attribute/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/rnd-prt/export&#43;chart&#43;to&#43;svg&#43;with&#43;viewbox&#43;attribute/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--export-chart-to-svg-with-viewbox-attribute&#34;&gt;Aspose.Cells for Java : Export Chart to SVG with viewBox attribute&lt;/h1&gt;
+&lt;p&gt;By default, when the chart is export to SVG format, the &lt;strong&gt;viewBox&lt;/strong&gt; attribute is not included in its XML. However, Aspose.Cells provides &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/imageorprintoptions#SVGFitToViewPort&#34;&gt;ImageOrPrintOptions.setSVGFitToViewPort()&lt;/a&gt; property which when set to &lt;strong&gt;true&lt;/strong&gt; exports the chart to SVG with viewBox attribute.&lt;/p&gt;
+&lt;p&gt;If you open the chart&amp;rsquo;s SVG in notepad, you will find the &lt;strong&gt;viewBox&lt;/strong&gt; attribute similar to this.&lt;/p&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_b0dbaefb31&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_b0dbaefb31&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;svg&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;xmlns&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;http://www.w3.org/2000/svg&amp;#34;&lt;/span&gt;
+     &lt;span style=&#34;color:#000&#34;&gt;xmlns&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;xlink&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;http://www.w3.org/1999/xlink&amp;#34;&lt;/span&gt;
+     &lt;span style=&#34;color:#000&#34;&gt;width&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;100%&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;height&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;100%&amp;#34;&lt;/span&gt;
+     &lt;span style=&#34;color:#000&#34;&gt;viewBox&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;0 0 480 288&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;h4 id=&#34;export-chart-to-svg-with-viewbox-attribute&#34;&gt;Export Chart to SVG with viewBox attribute&lt;/h4&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Export Worksheet or Chart into Image with Desired Width and Height</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/rnd-prt/export&#43;worksheet&#43;or&#43;chart&#43;into&#43;image&#43;with&#43;desired&#43;width&#43;and&#43;height/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/rnd-prt/export&#43;worksheet&#43;or&#43;chart&#43;into&#43;image&#43;with&#43;desired&#43;width&#43;and&#43;height/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--export-worksheet-or-chart-into-image-with-desired-width-and-height&#34;&gt;Aspose.Cells for Java : Export Worksheet or Chart into Image with Desired Width and Height&lt;/h1&gt;
+&lt;p&gt;You can use Aspose.Cells to export your worksheet or chart into an image with the desired width and height. It provides &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/imageorprintoptions#setDesiredSize(int,%20int)&#34;&gt;ImageOrPrintOptions.setDesiredSize()&lt;/a&gt; method to set the desired width and height of the exported image. The width and height are specified in the unit of pixels.&lt;/p&gt;
+&lt;h4 id=&#34;export-worksheet-into-image-with-desired-width-and-height&#34;&gt;Export Worksheet into Image with Desired Width and Height&lt;/h4&gt;
+&lt;p&gt;The following code exports the worksheet into an image with 400x400 size.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Converting Worksheet to Image and Worksheet to Image by Page</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/rnd-prt/converting&#43;worksheet&#43;to&#43;image&#43;and&#43;worksheet&#43;to&#43;image&#43;by&#43;page/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/rnd-prt/converting&#43;worksheet&#43;to&#43;image&#43;and&#43;worksheet&#43;to&#43;image&#43;by&#43;page/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--converting-worksheet-to-image-and-worksheet-to-image-by-page&#34;&gt;Aspose.Cells for Java : Converting Worksheet to Image and Worksheet to Image by Page&lt;/h1&gt;
+&lt;p&gt;This document is designed to provide the developers with a detailed understanding of how to convert a worksheet to an image file &amp;amp; worksheet with multiple pages to an image file per page.&lt;/p&gt;
+&lt;p&gt;Sometimes, you might need to present worksheets as images, for example, to use them in applications or web pages. You might need to insert the images into a Word document, a PDF file, a PowerPoint presentation, or use them in some other scenario. Simply, you want to render the worksheet as an image. Aspose.Cells APIs support converting worksheets in Microsoft Excel files to images. Also, Aspose.Cells supports converting a workbook to multiple image files, one per page.&lt;/p&gt;
+&lt;h3 id=&#34;using-asposecells-to-convert-worksheet-to-image-file&#34;&gt;Using Aspose.Cells to Convert Worksheet to Image File&lt;/h3&gt;
+&lt;p&gt;This article shows how to use Aspose.Cells for Java API to convert a worksheet to image. The API provides several valuable classes, such as &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/SheetRender&#34;&gt;SheetRender&lt;/a&gt;, &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/ImageOrPrintOptions&#34;&gt;ImageOrPrintOptions&lt;/a&gt;, &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/WorkbookRender&#34;&gt;WorkbookRender&lt;/a&gt;, and so on. The &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/SheetRender&#34;&gt;SheetRender&lt;/a&gt; class represents a worksheet to render images for the worksheet and has an overloaded &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/sheetrender#toImage(int,%20java.io.OutputStream)&#34;&gt;toImage&lt;/a&gt; method that can convert a worksheet to image files directly with any attributes or options set.&lt;/p&gt;
+&lt;h4 id=&#34;result&#34;&gt;Result&lt;/h4&gt;
+&lt;p&gt;After executing the above code, the worksheet named Sheet1 is converted into an image file SheetImage.jpg.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The output JPG&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276615/5472678.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;using-asposecells-to-convert-worksheet-to-image-file-by-page&#34;&gt;Using Aspose.Cells to Convert Worksheet to Image File by Page&lt;/h3&gt;
+&lt;p&gt;This example shows how to use Aspose.Cells to convert a worksheet from a template workbook that has several pages to one image file per page.&lt;/p&gt;
+&lt;h4 id=&#34;result-1&#34;&gt;Result&lt;/h4&gt;
+&lt;p&gt;After executing the above code, the worksheet named Sheet1 is converted into two image files (1 per page) Sheet 1 Page 1.Tiff and Sheet 1 Page 2.Tiff.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Generated image file (Sheet 1 Page 1.Tiff)&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276615/5472681.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Generated image file (Sheet 1 Page 2.Tiff)&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276615/5472676.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;This article shows how to convert a worksheet to an image file and convert worksheets with multiple pages to multiple image files (one per page) using Aspose.Cells. Aspose.Cells offers more flexibility than other components and provides outstanding speed, efficiency, and reliability. The results show that Aspose.Cells has benefited from years of research, design, and careful tuning.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Render the Worksheet and Workbook to Image using ImageOrPrintOptions</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/rnd-prt/render&#43;the&#43;worksheet&#43;and&#43;workbook&#43;to&#43;image&#43;using&#43;imageorprintoptions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/rnd-prt/render&#43;the&#43;worksheet&#43;and&#43;workbook&#43;to&#43;image&#43;using&#43;imageorprintoptions/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--render-the-worksheet-and-workbook-to-image-using-imageorprintoptions&#34;&gt;Aspose.Cells for Java : Render the Worksheet and Workbook to Image using ImageOrPrintOptions&lt;/h1&gt;
+&lt;p&gt;This document is designed to provide a detailed understanding of how to convert a worksheet or a workbook to an image file and apply different image and print options for the image, options like resolution, TIFF compression, image format, and page quality.&lt;/p&gt;
+&lt;h3 id=&#34;overview&#34;&gt;Overview&lt;/h3&gt;
+&lt;p&gt;Sometimes, you might require presenting your worksheets as a pictorial representation. You do need to present the worksheet images into your applications or web pages. You might need to insert the images into a Word document, a PDF file, a PowerPoint presentation, or use them in some other scenario. Simply you want a worksheet rendered as an image so that you can use it elsewhere. Aspose.Cells supports converting worksheets in Excel files to images. Also, Aspose.Cells supports setting different options like image format, resolution (both vertical and horizontal), image quality, and other image and print options.&lt;/p&gt;
+&lt;p&gt;The API provides several valuable classes, for example, &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/SheetRender&#34;&gt;SheetRender&lt;/a&gt;, &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/ImageOrPrintOptions&#34;&gt;ImageOrPrintOptions&lt;/a&gt;, &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/WorkbookRender&#34;&gt;WorkbookRender&lt;/a&gt;, etc.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/SheetRender&#34;&gt;SheetRender&lt;/a&gt; class handles the task of rendering images for the worksheet whereas the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/WorkbookRender&#34;&gt;WorkbookRender&lt;/a&gt; does the same for a workbook. Both aforesaid classes have several overloaded versions of the *toImage *method that can directly convert a worksheet or a workbook to image file(s) specified with your desired attributes or options. You can save the image file to the disk/stream. There are several image formats supported, e.g BMP, PNG, GIFF, JPEG, TIFF, EMF, and so on.&lt;/p&gt;
+&lt;h4 id=&#34;convert-worksheet-to-image&#34;&gt;Convert Worksheet to Image&lt;/h4&gt;
+&lt;h3 id=&#34;conversion-options&#34;&gt;Conversion Options&lt;/h3&gt;
+&lt;p&gt;It is possible to save specific pages to image. The following code converts the first and second worksheets in a workbook to JPG images.&lt;/p&gt;
+&lt;p&gt;Or you can cycle through the workbook and render each worksheet in it to a separate image:&lt;/p&gt;
+&lt;h3 id=&#34;convert-workbook-to-image&#34;&gt;Convert Workbook to Image:&lt;/h3&gt;
+&lt;p&gt;In order to render the complete workbook to image format, you may either use the above approach or simply use the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/WorkbookRender&#34;&gt;WorkbookRender&lt;/a&gt; class that accepts an instance of &lt;a href=&#34;https://apireference.aspose.com/cells/java/com.aspose.cells/Workbook&#34;&gt;Workbook&lt;/a&gt; as well as the object of &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/ImageOrPrintOptions&#34;&gt;ImageOrPrintOptions&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/WorkbookRender&#34;&gt;WorkbookRender&lt;/a&gt; class can only save the workbook to the TIFF format.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Convert XLS with Images and Charts to PDF</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/rnd-prt/convert&#43;xls&#43;with&#43;images&#43;and&#43;charts&#43;to&#43;pdf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/rnd-prt/convert&#43;xls&#43;with&#43;images&#43;and&#43;charts&#43;to&#43;pdf/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--convert-xls-with-images-and-charts-to-pdf&#34;&gt;Aspose.Cells for Java : Convert XLS with Images and Charts to PDF&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells supports converting XLS files that contain images and charts to PDF documents. Aspose.Cells for Java can work independently to convert a spreadsheet to PDF: Aspose.PDF APIs are not required for the conversion.&lt;/p&gt;
+&lt;p&gt;The process can be done in memory as the process does not depend on temporary or intermediary XML files. This means that large Excel files, for example, ones containing images, charts, and other drawing objects, can be converted quickly and efficiently.&lt;/p&gt;
+&lt;p&gt;If the spreadsheet contains formulas, it is best to call the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/workbook#calculateFormula()&#34;&gt;Workbook.calculateFormula&lt;/a&gt; method just before rendering to PDF. Doing so ensures that formula dependent values are recalculated, and the correct values are rendered in the PDF.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Extract Images from Worksheets</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/rnd-prt/extract&#43;images&#43;from&#43;worksheets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/rnd-prt/extract&#43;images&#43;from&#43;worksheets/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--extract-images-from-worksheets&#34;&gt;Aspose.Cells for Java : Extract Images from Worksheets&lt;/h1&gt;
+&lt;p&gt;Microsoft Excel users can add images to spreadsheets. With Aspose.Cells, it&amp;rsquo;s possible to read images from Microsoft Excel files and save them to a local drive. This article shows how to achieve this using Aspose.Cells for Java API.&lt;/p&gt;
+&lt;p&gt;The sample code below shows how to extract images from an Excel file and save them.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Resample Images for Excel to PDF Conversion</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/rnd-prt/resample&#43;images&#43;for&#43;excel&#43;to&#43;pdf&#43;conversion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/rnd-prt/resample&#43;images&#43;for&#43;excel&#43;to&#43;pdf&#43;conversion/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--resample-images-for-excel-to-pdf-conversion&#34;&gt;Aspose.Cells for Java : Resample Images for Excel to PDF Conversion&lt;/h1&gt;
+&lt;p&gt;While working with big Microsoft Excel files with lots of images, you might need to compress images that have been added to reduce the output PDF file size and improve the overall conversion performance. Aspose.Cells supports re-sampling added images to reduce the output PDF file size and improve performance.&lt;/p&gt;
+&lt;h4 id=&#34;resample-images-for-excel-to-pdf-conversion&#34;&gt;Resample Images for Excel to PDF Conversion&lt;/h4&gt;
+&lt;p&gt;Please see the following sample code that describes how to perform the task using the Aspose.Cells API. The example converts a Microsoft Excel file to a PDF file while compressing the images in the file.&lt;/p&gt;
+&lt;p&gt;Using the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/pdfsaveoptions#setImageResample(int,%20int)&#34;&gt;PdfSaveOptions.setImageResample&lt;/a&gt; option minimizes the size of the output PDF but it may affect the image quality a bit.&lt;/p&gt;
+&lt;p&gt;If your spreadsheet contains formulas, it is best to call &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/workbook#calculateFormula()&#34;&gt;Workbook.calculateFormula()&lt;/a&gt; just before rendering the spreadsheet to PDF format. Doing so will ensure that the formula dependent values are recalculated, and the correct values are rendered in the PDF.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Secure PDF Documents</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/rnd-prt/secure&#43;pdf&#43;documents/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/rnd-prt/secure&#43;pdf&#43;documents/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--secure-pdf-documents&#34;&gt;Aspose.Cells for Java : Secure PDF Documents&lt;/h1&gt;
+&lt;p&gt;Sometimes, developers need to work with encrypted PDF files. For example, they need to secure documents with user and owner passwords so not just anyone can open them, or want to restrict whether the document content can be printed or extracted.&lt;/p&gt;
+&lt;p&gt;This article explains how to pass in PDF security options when saving spreadsheets to PDF.&lt;/p&gt;
+&lt;p&gt;Aspose.Cells APIs provide the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/PdfSecurityOptions&#34;&gt;PdfSecurityOptions&lt;/a&gt; class for working with the security of PDF file format. The sample code below describes how to create secured PDF files with Aspose.Cells for Java API.&lt;/p&gt;
+&lt;p&gt;If the spreadsheet contains formulas, it is best to call &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/workbook#calculateFormula()&#34;&gt;Workbook.calculateFormula()&lt;/a&gt; just before rendering it to PDF. This ensures that formula dependent values are recalculated, and the correct values are rendered in the PDF.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Remove White Spaces from the Data before Rendering to Image</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/rnd-prt/remove&#43;white&#43;spaces&#43;from&#43;the&#43;data&#43;before&#43;rendering&#43;to&#43;image/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/rnd-prt/remove&#43;white&#43;spaces&#43;from&#43;the&#43;data&#43;before&#43;rendering&#43;to&#43;image/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--remove-white-spaces-from-the-data-before-rendering-to-image&#34;&gt;Aspose.Cells for Java : Remove White Spaces from the Data before Rendering to Image&lt;/h1&gt;
+&lt;p&gt;Sometimes, you need to present worksheet images in applications or web pages. For example, you might need to insert an images into a Word document, a PDF file, a PowerPoint presentation or some other document. Basically, you want to render a worksheet as an image so that it can be pasted into other applications. Aspose.Cells APIs allows you to convert Microsoft Excel worksheets to images.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/SheetRender&#34;&gt;SheetRender&lt;/a&gt; class is capable of converting a worksheet to an image file with any specified attributes, for example, image format, paginated sheets, etc. Several image formats are supported, including BMP, GIF, JPG, TIFF, and EMF.&lt;/p&gt;
+&lt;p&gt;When you use the sheet-to-image feature, the output image has white/blank space, that is, a border, around it by default. You can remove this. Set the top, left, bottom, and right page setup margins for the source worksheet to 0 and specify &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/ImageOrPrintOptions&#34;&gt;ImageOrPrintOptions&lt;/a&gt; attributes accordingly.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

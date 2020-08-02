@@ -1,0 +1,59 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – File Handling Features in Ruby</title>
+    <link>https://roywangt.github.io/cells/java/plugins/ruby/guide/files/filehandling/</link>
+    <description>Recent content in File Handling Features in Ruby on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://roywangt.github.io/cells/java/plugins/ruby/guide/files/filehandling/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Java: Opening Files in Ruby</title>
+      <link>https://roywangt.github.io/cells/java/plugins/ruby/guide/files/filehandling/opening&#43;files&#43;in&#43;ruby/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/plugins/ruby/guide/files/filehandling/opening&#43;files&#43;in&#43;ruby/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--opening-files-in-ruby&#34;&gt;Aspose.Cells for Java : Opening Files in Ruby&lt;/h1&gt;
+&lt;h2 id=&#34;asposecells---simple-ways-to-open-excel-files&#34;&gt;Aspose.Cells - Simple Ways to Open Excel Files&lt;/h2&gt;
+&lt;h5 id=&#34;opening-through-path&#34;&gt;Opening through Path&lt;/h5&gt;
+&lt;p&gt;Simply open a Microsoft Excel file by referencing the file&amp;rsquo;s path&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Ruby Code&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + &amp;lsquo;/data/&amp;lsquo;workbook = Rjb::import(&amp;lsquo;com.aspose.cells.Workbook&amp;rsquo;).new(data_dir + &amp;lsquo;Book1.xls&amp;rsquo;)&lt;/p&gt;
+&lt;h5 id=&#34;opening-through-stream&#34;&gt;Opening through Stream&lt;/h5&gt;
+&lt;p&gt;Sometimes, the Excel file that you want to open is stored as a stream. In that case, use an overloaded version of the&lt;code&gt;Open&lt;/code&gt;method that takes the&lt;code&gt;Stream&lt;/code&gt;object that contains the Excel file to open the file.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Ruby Code&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + &amp;lsquo;/data/&amp;lsquo;fstream = IO.sysopen(@data_dir + &amp;lsquo;Book1.xls&amp;rsquo;)workbook = Rjb::import(&amp;lsquo;com.aspose.cells.Workbook&amp;rsquo;).new(fstream)&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Saving Files in Ruby</title>
+      <link>https://roywangt.github.io/cells/java/plugins/ruby/guide/files/filehandling/saving&#43;files&#43;in&#43;ruby/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/plugins/ruby/guide/files/filehandling/saving&#43;files&#43;in&#43;ruby/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--saving-files-in-ruby&#34;&gt;Aspose.Cells for Java : Saving Files in Ruby&lt;/h1&gt;
+&lt;h2 id=&#34;asposecells---saving-files&#34;&gt;Aspose.Cells - Saving Files&lt;/h2&gt;
+&lt;h5 id=&#34;saving-file-to-some-location&#34;&gt;Saving file to some location&lt;/h5&gt;
+&lt;p&gt;If developers need to save their files using &lt;strong&gt;Aspose.Cells Java for Ruby&lt;/strong&gt; to some storage location then they can simply specify the file name (with its complete storage path) and desired file format (using the&lt;strong&gt;FileFormatType&lt;/strong&gt;enumeration) while calling the&lt;strong&gt;save&lt;/strong&gt;method of&lt;strong&gt;Workbook&lt;/strong&gt;object.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Ruby Code&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + &amp;lsquo;/data/&amp;lsquo;file_format_type = Rjb::import(&amp;lsquo;com.aspose.cells.FileFormatType&amp;rsquo;)# Save in default (Excel2003) formatworkbook.save(data_dir + &amp;ldquo;Book1.xls&amp;rdquo;)#Save in Excel2003 formatworkbook.save(data_dir + &amp;ldquo;Book1.xls&amp;rdquo;, file_format_type.EXCEL_97_TO_2003)# Save in Excel2007 xlsx formatworkbook.save(data_dir + &amp;ldquo;Book1.xls&amp;rdquo;, file_format_type.XLSX)# Save in SpreadsheetML formatworkbook.save(data_dir + &amp;ldquo;Book1.xls&amp;rdquo;, file_format_type.EXCEL_2003_XML)&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

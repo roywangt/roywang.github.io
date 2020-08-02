@@ -1,0 +1,871 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Working with GridWeb Rows and Columns</title>
+    <link>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridwebrowsandcolumns/</link>
+    <description>Recent content in Working with GridWeb Rows and Columns on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridwebrowsandcolumns/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Net: Insert Rows and Columns</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridwebrowsandcolumns/insert&#43;rows&#43;and&#43;columns/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridwebrowsandcolumns/insert&#43;rows&#43;and&#43;columns/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--insert-rows-and-columns&#34;&gt;Aspose.Cells for .NET : Insert Rows and Columns&lt;/h1&gt;
+&lt;p&gt;This topic explains how to insert new rows and columns into a worksheet using the Aspose.Cells.GridWeb API. Rows or columns can be inserted at any position in the worksheet.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#inserting-rows&#34;&gt;Inserting Rows&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#inserting-columns&#34;&gt;Inserting Columns&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;inserting-rows&#34;&gt;Inserting Rows&lt;/h2&gt;
+&lt;p&gt;To insert a row at any position in a worksheet:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Add the Aspose.Cells.GridWeb control to the Web Form.&lt;/li&gt;
+&lt;li&gt;Access the worksheet you&amp;rsquo;re adding rows to.&lt;/li&gt;
+&lt;li&gt;Insert a row by specifying a row index where the row would be inserted.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;inserting-columns&#34;&gt;Inserting Columns&lt;/h2&gt;
+&lt;p&gt;To insert a column at any position in a worksheet:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Add the Aspose.Cells.GridWeb control to a Web Form.&lt;/li&gt;
+&lt;li&gt;Access the worksheet you&amp;rsquo;re adding columns to.&lt;/li&gt;
+&lt;li&gt;Insert a column by specifying the column index where the column would be inserted.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;You can also use &lt;code&gt;InsertRows/InsertColumns&lt;/code&gt; methods to insert multiple rows/columns into the worksheets accordingly.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Delete Rows and Columns</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridwebrowsandcolumns/delete&#43;rows&#43;and&#43;columns/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridwebrowsandcolumns/delete&#43;rows&#43;and&#43;columns/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--delete-rows-and-columns&#34;&gt;Aspose.Cells for .NET : Delete Rows and Columns&lt;/h1&gt;
+&lt;p&gt;This topic demonstrates how to delete rows and columns from a worksheet using the Aspose.Cells.GridWeb API. With the help of this feature, developers can delete rows or columns at runtime.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#deleting-rows&#34;&gt;Deleting Rows&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#deleting-columns&#34;&gt;Deleting Columns&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;deleting-rows&#34;&gt;Deleting Rows&lt;/h2&gt;
+&lt;p&gt;To delete a row from your worksheet:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Add the Aspose.Cells.GridWeb control to a Web Form.&lt;/li&gt;
+&lt;li&gt;Access the worksheet you are deleting rows from.&lt;/li&gt;
+&lt;li&gt;Delete a row from the worksheet by specifying its row index.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;deleting-columns&#34;&gt;Deleting Columns&lt;/h2&gt;
+&lt;p&gt;To delete a column from your worksheet:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Add the Aspose.Cells.GridWeb control to a Web Form.&lt;/li&gt;
+&lt;li&gt;Access the worksheet you want to delete columns from.&lt;/li&gt;
+&lt;li&gt;Delete a column from the worksheet by specifying its column index.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;You can also use &lt;code&gt;DeleteRows/DeleteColumns&lt;/code&gt; methods to delete multiple rows/columns into the worksheets.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Resize Rows and Columns</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridwebrowsandcolumns/resize&#43;rows&#43;and&#43;columns/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridwebrowsandcolumns/resize&#43;rows&#43;and&#43;columns/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--resize-rows-and-columns&#34;&gt;Aspose.Cells for .NET : Resize Rows and Columns&lt;/h1&gt;
+&lt;p&gt;Sometimes cell values are wider that the cell they are in, or are on several lines. Such values are not fully visible to users unless they change the height and width of rows and columns. Aspose.Cells.GridWeb fully supports setting row heights and column width. This topic discusses these features in detail with the help of examples.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#working-with-row-heights-and-column-width&#34;&gt;Working with Row Heights and Column Width&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#setting-row-height&#34;&gt;Setting Row Height&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.2 &lt;a href=&#34;#setting-column-width&#34;&gt;Setting Column Width&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;working-with-row-heights-and-column-width&#34;&gt;Working with Row Heights and Column Width&lt;/h2&gt;
+&lt;h3 id=&#34;setting-row-height&#34;&gt;Setting Row Height&lt;/h3&gt;
+&lt;p&gt;To set the height of a row:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Add the Aspose.Cells.GridWeb control to your Web Form.&lt;/li&gt;
+&lt;li&gt;Access the worksheet&amp;rsquo;s &lt;code&gt;Cells&lt;/code&gt; collection.&lt;/li&gt;
+&lt;li&gt;Set the height of all cells in any specified row.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;code&gt;SetRowHeight&lt;/code&gt; and &lt;code&gt;SetColumnWidth&lt;/code&gt; method of the &lt;code&gt;Cells&lt;/code&gt; collection also has variants available to set row height and column width measurements in inches and pixels.&lt;/p&gt;
+&lt;h3 id=&#34;setting-column-width&#34;&gt;Setting Column Width&lt;/h3&gt;
+&lt;p&gt;To set the width of a column:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Add the Aspose.Cells.GridWeb control to your Web Form.&lt;/li&gt;
+&lt;li&gt;Access the worksheet&amp;rsquo;s &lt;code&gt;Cells&lt;/code&gt; collection.&lt;/li&gt;
+&lt;li&gt;Set the width of all cells in any specified column.&lt;/li&gt;
+&lt;/ol&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Customize Row and Column Headers</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridwebrowsandcolumns/customize&#43;row&#43;and&#43;column&#43;headers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridwebrowsandcolumns/customize&#43;row&#43;and&#43;column&#43;headers/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--customize-row-and-column-headers&#34;&gt;Aspose.Cells for .NET : Customize Row and Column Headers&lt;/h1&gt;
+&lt;p&gt;Like Microsoft Excel, Aspose.Cells.GridWeb also uses standard headers or captions for rows (numbers like 1, 2, 3 and so on) and columns (alphabetic like A, B, C and so on). Aspose.Cells.GridWeb also makes it possible to customize captions. This topic discuss customizing row and column headers at runtime using Aspose.Cells.GridWeb API.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#customizing-row-header&#34;&gt;Customizing Row Header&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#customizing-column-header&#34;&gt;Customizing Column Header&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;customizing-row-header&#34;&gt;Customizing Row Header&lt;/h2&gt;
+&lt;p&gt;To customize the header or caption of a row:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Add the Aspose.Cells.GridWeb control to a Web Form.&lt;/li&gt;
+&lt;li&gt;Access the worksheet in the &lt;code&gt;GridWorksheetCollection&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Set the caption of any specified row.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;The headers of row 1 and 2 has been customized&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5013771/5115384.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;customizing-column-header&#34;&gt;Customizing Column Header&lt;/h2&gt;
+&lt;p&gt;To customize the header or caption of a column:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Add the Aspose.Cells.GridWeb control to a Web Form.&lt;/li&gt;
+&lt;li&gt;Access the worksheet in the &lt;code&gt;GridWorksheetCollection&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Set the caption of any specified column.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;The headers of column 1, 2 and 3 has been customized&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5013771/5115400.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Freeze and Unfreeze Panes</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridwebrowsandcolumns/freeze&#43;and&#43;unfreeze&#43;panes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridwebrowsandcolumns/freeze&#43;and&#43;unfreeze&#43;panes/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--freeze-and-unfreeze-panes&#34;&gt;Aspose.Cells for .NET : Freeze and Unfreeze Panes&lt;/h1&gt;
+&lt;p&gt;This topic explains how to freeze and unfreeze rows and columns. Freezing columns or rows allows users to keep the column headings or row titles visible while they scroll to other parts of the worksheet. This feature is very helpful when working with worksheets that contain large volumes of data. When users scroll only data is scrolled down and the headings stay in place, making the date easier to read. The freeze panes feature is only supported in Internet Explorer 6.0 or above.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#freezing-rows-&amp;amp;-columns&#34;&gt;Freezing Rows &amp;amp; Columns&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#unfreezing-rows-&amp;amp;-columns&#34;&gt;Unfreezing Rows &amp;amp; Columns&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;freezing-rows--columns&#34;&gt;Freezing Rows &amp;amp; Columns&lt;/h2&gt;
+&lt;p&gt;To freeze a specific number of rows and columns:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Add the Aspose.Cells.GridWeb control to a Web Form.&lt;/li&gt;
+&lt;li&gt;Access a worksheet.&lt;/li&gt;
+&lt;li&gt;Freeze a number of rows &amp;amp; columns.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;It is also possible to freeze a specific number of rows &amp;amp; columns using the interface. Right-click a cell where you want to freeze rows &amp;amp; columns and select &lt;strong&gt;Freeze&lt;/strong&gt; from the list.&lt;/p&gt;
+&lt;h2 id=&#34;unfreezing-rows--columns&#34;&gt;Unfreezing Rows &amp;amp; Columns&lt;/h2&gt;
+&lt;p&gt;To unfreeze rows and columns:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Add the Aspose.Cells.GridWeb control to a Web Form.&lt;/li&gt;
+&lt;li&gt;Access a worksheet.&lt;/li&gt;
+&lt;li&gt;Unfreeze rows &amp;amp; columns.&lt;/li&gt;
+&lt;/ol&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Protect Rows and Columns</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridwebrowsandcolumns/protect&#43;rows&#43;and&#43;columns/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridwebrowsandcolumns/protect&#43;rows&#43;and&#43;columns/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--protect-rows-and-columns&#34;&gt;Aspose.Cells for .NET : Protect Rows and Columns&lt;/h1&gt;
+&lt;p&gt;This topic discusses a few techniques for protecting cells in rows and columns from any kind of action performed by end users. Developers can implement this protection using two techniques: by making cells in rows and columns read only, or by restricting the Aspose.Cells.GridWeb&amp;rsquo;s context menu options. Both of these techniques are discussed below with the help of examples.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#protecting-cells-in-rows-&amp;amp;-columns&#34;&gt;Protecting Cells in Rows &amp;amp; Columns&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#making-rows-&amp;amp;-columns-read-only&#34;&gt;Making Rows &amp;amp; Columns Read Only&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.2 &lt;a href=&#34;#restricting-context-menu-options&#34;&gt;Restricting Context Menu Options&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;protecting-cells-in-rows--columns&#34;&gt;Protecting Cells in Rows &amp;amp; Columns&lt;/h2&gt;
+&lt;h3 id=&#34;making-rows--columns-read-only&#34;&gt;Making Rows &amp;amp; Columns Read Only&lt;/h3&gt;
+&lt;p&gt;One way of protecting rows and columns in a worksheet is to make the cells read only. Then they cannot be deleted by end users.&lt;/p&gt;
+&lt;p&gt;To make rows and columns read only:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Add the Aspose.Cells.GridWeb control to a Web Form.&lt;/li&gt;
+&lt;li&gt;Access the &lt;code&gt;GridWorksheet&lt;/code&gt; in the collection.&lt;/li&gt;
+&lt;li&gt;Set your desired cells in rows or columns to read only.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;restricting-context-menu-options&#34;&gt;Restricting Context Menu Options&lt;/h3&gt;
+&lt;p&gt;Aspose.Cells.GridWeb provides a context menu that end users can use to perform operations on the control. The menu provides many options for manipulating cells, rows and columns.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Complete contextual options&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5013770/5115401.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;It is possible to restrict any kind of client side operations on rows and columns by restricting the options available in the context menu. It can be done by setting the &lt;code&gt;EnableClientColumnOperations&lt;/code&gt; and &lt;code&gt;EnableClientRowOperations&lt;/code&gt; properties of the GridWeb control to false. It is also possible to restrict users from freezing rows and columns by setting the GridWeb control&amp;rsquo;s &lt;code&gt;EnableClientFreeze&lt;/code&gt; property to false.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Context menu after restricting row &amp;amp; column options&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5013770/5115404.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Group Rows and Create Subtotal</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridwebrowsandcolumns/group&#43;rows&#43;and&#43;create&#43;subtotal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridwebrowsandcolumns/group&#43;rows&#43;and&#43;create&#43;subtotal/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--group-rows-and-create-subtotal&#34;&gt;Aspose.Cells for .NET : Group Rows and Create Subtotal&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells.GridWeb can create an outline for your data. This lets you show and hide levels of detail by clicking the outline symbols &amp;ldquo;+&amp;rdquo; and &amp;ldquo;-&amp;rdquo; to display only the rows that provide summaries or headings for sections in a worksheet. You can use the symbols to see details under an individual summary or heading.&lt;/p&gt;
+&lt;p&gt;When grouping rows, it is important to select only the detail rows that make up the group. Do not include the related summary row. For example, if row 6 contains totals for the data in row 3 through 5, select only row 3 through 5 to define the group. The Aspose.Cells.GridWeb control displays the &lt;strong&gt;show detail&lt;/strong&gt; (+) and &lt;strong&gt;hide detail&lt;/strong&gt; (-) symbols next to the row headers specifying the groups in the worksheet.&lt;/p&gt;
+&lt;p&gt;Aspose.Cells.GridWeb also allows you to create subtotals based on any field of data. A subtotal is not necessarily a sum: It can be an average, count, minimum, maximum or other statistical calculation.&lt;/p&gt;
+&lt;p&gt;This topic discusses grouping rows and creating subtotals using the Aspose.Cells.GridWeb API. Developers can group rows with any nesting level and create subtotals easily.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#grouping-rows&#34;&gt;Grouping Rows&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#nesting-grouped-rows&#34;&gt;Nesting Grouped Rows&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.2 &lt;a href=&#34;#internal-process:-how-does-the-control-work?&#34;&gt;Internal Process: How does the Control Work?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#ungroup-rows&#34;&gt;Ungroup Rows&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#creating-subtotal&#34;&gt;Creating Subtotal&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;3.1 &lt;a href=&#34;#parameters-list&#34;&gt;Parameters List&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3.2 &lt;a href=&#34;#summary-functions-list&#34;&gt;Summary Functions List&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;4 &lt;a href=&#34;#removing-subtotal&#34;&gt;Removing Subtotal&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;5 &lt;a href=&#34;#about-the-subtotal-function&#34;&gt;About the SUBTOTAL function&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;grouping-rows&#34;&gt;Grouping Rows&lt;/h2&gt;
+&lt;p&gt;To group a specific number of rows:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Add the Aspose.Cells.GridWeb control to a Web Form.&lt;/li&gt;
+&lt;li&gt;Access a worksheet.&lt;/li&gt;
+&lt;li&gt;Select the desired number of cells in rows.&lt;/li&gt;
+&lt;li&gt;Group the rows.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;When the rows are grouped, an expand/collapse button is displayed at the top of the rows&amp;rsquo; Summary Line. You may change the direction setting. The &lt;code&gt;WebWorksheet.IsSummaryRowBelow&lt;/code&gt; property is a Boolean property. Set it to false (default) and the summary row will be above the detail rows. Set it to true and the summary row will be below the detail rows. Click the expand/collapse button to expand or collapse grouped rows.&lt;/p&gt;
+&lt;p&gt;The following example groups the rows from 2nd row to 10th row.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Grouping rows&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5013767/5115403.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_189fefa70b&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_189fefa70b&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// Accessing the reference of the worksheet that is currently active
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;GridWorksheet&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;sheet&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;GridWeb1&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;WorkSheets&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;GridWeb1&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;ActiveSheetIndex&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;];&lt;/span&gt;
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// Group the rows
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;sheet&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Cells&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;GroupRows&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;1&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;9&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;h3 id=&#34;nesting-grouped-rows&#34;&gt;Nesting Grouped Rows&lt;/h3&gt;
+&lt;p&gt;You can create levels of organization while grouping a set of rows. You may group rows among the grouped rows. The following example shows nesting grouped rows.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Grouping rows&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5013767/5115406.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_61dd11dfd1&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_61dd11dfd1&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// Accessing the reference of the worksheet that is currently active
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;GridWorksheet&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;sheet&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;GridWeb1&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;WorkSheets&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;GridWeb1&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;ActiveSheetIndex&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;];&lt;/span&gt;
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// Group the rows
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;sheet&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Cells&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;GroupRows&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;1&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;9&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// Create nested group of rows
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;sheet&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Cells&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;GroupRows&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;4&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;6&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;h3 id=&#34;internal-process-how-does-the-control-work&#34;&gt;Internal Process: How does the Control Work?&lt;/h3&gt;
+&lt;p&gt;Each row of the sheet has an outline number. The default value of the outline number is zero. Every time you group the rows, the outline number is increased by 1. You may get the outline number by calling the &lt;code&gt;GridWorksheet.Cells.GetRowOutlineLevel()&lt;/code&gt; method.&lt;/p&gt;
+&lt;h2 id=&#34;ungroup-rows&#34;&gt;Ungroup Rows&lt;/h2&gt;
+&lt;p&gt;Aspose.Cells.GridWeb allows you to ungroup grouped rows.&lt;/p&gt;
+&lt;p&gt;To ungroup a specific number of rows:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Select a number of cells in the rows in the worksheet to ungroup.&lt;/li&gt;
+&lt;li&gt;Ungroup the rows.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The following example ungroups the rows from 2nd row to 10th row.&lt;/p&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_8745bdeec0&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_8745bdeec0&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// Accessing the reference of the worksheet that is currently active
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;GridWorksheet&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;sheet&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;GridWeb1&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;WorkSheets&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;GridWeb1&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;ActiveSheetIndex&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;];&lt;/span&gt;
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// Ungroup the rows
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;sheet&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Cells&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;UngroupRows&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;1&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;9&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt; 
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;p&gt;When you call the &lt;code&gt;GridWorksheet.Cells.UngroupRows()&lt;/code&gt; method, grouped rows&amp;rsquo; outline number is set to zero.&lt;/p&gt;
+&lt;h2 id=&#34;creating-subtotal&#34;&gt;Creating Subtotal&lt;/h2&gt;
+&lt;p&gt;The control&amp;rsquo;s subtotal feature can group the rows in the sheet with a specified column, and calculate the summary of the columns. Aspose.Cells.GridWeb can automatically calculate subtotal values for a list. When you implement subtotals, the control outlines the list so that you can display and hide the detail rows for each subtotal. Before adding subtotals, sort on the field you wish to subtotal on. To create subtotals, use any version of the overloaded &lt;code&gt;WebWorksheet.CreateSubtotal&lt;/code&gt; method.&lt;/p&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_79ff9210a9&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_79ff9210a9&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;CreateSubtotal&lt;/span&gt;
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;
+           &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;int&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;columnNameRowIndex&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt;
+           &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;int&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;dataRows&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt;
+           &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;int&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;groupByColumnIndex&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt;
+           &lt;span style=&#34;color:#000&#34;&gt;SubtotalFunction&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;subtotalFunction&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt;
+           &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;int&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;[]&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;subtotalColumnIndexList&lt;/span&gt;
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;h3 id=&#34;parameters-list&#34;&gt;Parameters List&lt;/h3&gt;
+&lt;p&gt;No.&lt;/p&gt;
+&lt;p&gt;Parameter Name&lt;/p&gt;
+&lt;p&gt;Description&lt;/p&gt;
+&lt;p&gt;1&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;columnNameRowIndex&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;The row index of the column name row.&lt;/p&gt;
+&lt;p&gt;2&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;dataRows&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;The number of the data rows.&lt;/p&gt;
+&lt;p&gt;3&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;groupByColumnIndex&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;The column index of the column to be grouped.&lt;/p&gt;
+&lt;p&gt;4&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;subtotalFunction&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;The subtotal function type enumeration.&lt;/p&gt;
+&lt;p&gt;5&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;subtotalColumnIndexList&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;The column indexes to be subtotaled.&lt;/p&gt;
+&lt;h3 id=&#34;summary-functions-list&#34;&gt;Summary Functions List&lt;/h3&gt;
+&lt;p&gt;There are several types of summary functions supported by the {[SubtotalFunction}} enumeration:&lt;/p&gt;
+&lt;p&gt;No.&lt;/p&gt;
+&lt;p&gt;Function Name&lt;/p&gt;
+&lt;p&gt;Description&lt;/p&gt;
+&lt;p&gt;1&lt;/p&gt;
+&lt;p&gt;AVERAGE&lt;/p&gt;
+&lt;p&gt;Calculates the average of the values.&lt;/p&gt;
+&lt;p&gt;2&lt;/p&gt;
+&lt;p&gt;COUNT&lt;/p&gt;
+&lt;p&gt;Counts the numeric values in the cells.&lt;/p&gt;
+&lt;p&gt;3&lt;/p&gt;
+&lt;p&gt;COUNTA&lt;/p&gt;
+&lt;p&gt;Counts the non-numeric data in the cells.&lt;/p&gt;
+&lt;p&gt;4&lt;/p&gt;
+&lt;p&gt;MAX&lt;/p&gt;
+&lt;p&gt;Calculates the largest value.&lt;/p&gt;
+&lt;p&gt;5&lt;/p&gt;
+&lt;p&gt;MIN&lt;/p&gt;
+&lt;p&gt;Calculates the smallest value.&lt;/p&gt;
+&lt;p&gt;6&lt;/p&gt;
+&lt;p&gt;PRODUCT&lt;/p&gt;
+&lt;p&gt;Calculates the product of the values.&lt;/p&gt;
+&lt;p&gt;7&lt;/p&gt;
+&lt;p&gt;SUM&lt;/p&gt;
+&lt;p&gt;Calculates the sum of the values.&lt;/p&gt;
+&lt;p&gt;The following example generates the subtotals that calculates the non-numeric values grouped by the second column in the worksheet.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Subtotals&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5013767/5115405.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;sheet.CreateSubtotal(0, sheet.Cells.MaxRow, 1, SubtotalFunction.COUNTA, new int[] { 1, 2, 3, 4, 5 });&lt;/p&gt;
+&lt;h2 id=&#34;removing-subtotal&#34;&gt;Removing Subtotal&lt;/h2&gt;
+&lt;p&gt;To remove a subtotal, use the &lt;code&gt;WebWorksheet.RemoveSubtotal&lt;/code&gt; method. The following example removes the subtotals.&lt;/p&gt;
+&lt;p&gt;// Accessing the reference of the worksheet that is currently activeGridWorksheet sheet = GridWeb1.WorkSheets[GridWeb1.ActiveSheetIndex];//Remove the subtotalssheet.RemoveSubtotal();&lt;/p&gt;
+&lt;h2 id=&#34;about-the-subtotal-function&#34;&gt;About the SUBTOTAL function&lt;/h2&gt;
+&lt;p&gt;The GridWeb control makes use of the formula function SUBTOTAL to calculate the subtotal value.&lt;/p&gt;
+&lt;p&gt;Syntax: &lt;code&gt;SUBTOTAL(function_num, ref1, ref2, ...)&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;function_num&lt;/code&gt; is a number specifying the type of the function used in subtotal calculation.&lt;/p&gt;
+&lt;p&gt;1&lt;/p&gt;
+&lt;p&gt;AVERAGE&lt;/p&gt;
+&lt;p&gt;2&lt;/p&gt;
+&lt;p&gt;COUNT&lt;/p&gt;
+&lt;p&gt;3&lt;/p&gt;
+&lt;p&gt;COUNTA&lt;/p&gt;
+&lt;p&gt;4&lt;/p&gt;
+&lt;p&gt;MAX&lt;/p&gt;
+&lt;p&gt;5&lt;/p&gt;
+&lt;p&gt;MIN&lt;/p&gt;
+&lt;p&gt;6&lt;/p&gt;
+&lt;p&gt;PRODUCT&lt;/p&gt;
+&lt;p&gt;7&lt;/p&gt;
+&lt;p&gt;SUM&lt;/p&gt;
+&lt;p&gt;ref1, ref2, are the areas to be subtotaled. If ref1, ref2, &amp;hellip; contain other subtotal functions, the referenced cells are ignored to avoid duplicate calculation.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Copy GridWeb Rows and Columns</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridwebrowsandcolumns/copy&#43;gridweb&#43;rows&#43;and&#43;columns/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridwebrowsandcolumns/copy&#43;gridweb&#43;rows&#43;and&#43;columns/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--copy-gridweb-rows-and-columns&#34;&gt;Aspose.Cells for .NET : Copy GridWeb Rows and Columns&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells.GridWeb component offers the means to copy row &amp;amp; column while using the &lt;code&gt;GridCells&lt;/code&gt; class. This article demonstrates the usage of APIs exposed by the Aspose.Cells.GridWeb to copy rows &amp;amp; columns on GridWeb interface.&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;GridCells.CopyRow&lt;/code&gt;, &lt;code&gt;GridCells.CopyColumn&lt;/code&gt;, &lt;code&gt;GridCells.CopyRows&lt;/code&gt; &amp;amp; &lt;code&gt;GridCells.CopyColumns&lt;/code&gt; methods will copy the contents, styling &amp;amp; formulas from the source row &amp;amp; column to destination.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#copying-rows-&amp;amp;-columns&#34;&gt;Copying Rows &amp;amp; Columns&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#copying-single-row&#34;&gt;Copying Single Row&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.2 &lt;a href=&#34;#copying-single-column&#34;&gt;Copying Single Column&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.3 &lt;a href=&#34;#copying-multiple-rows&#34;&gt;Copying Multiple Rows&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.4 &lt;a href=&#34;#copying-multiple-columns&#34;&gt;Copying Multiple Columns&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;copying-rows--columns&#34;&gt;Copying Rows &amp;amp; Columns&lt;/h2&gt;
+&lt;p&gt;If you are not already acquainted with Aspose.Cells.GridWeb component, we strongly suggest you to check the &lt;a href=&#34;http://www.aspose.com/docs/display/cellsnet/Introduction+of+GridWeb&#34;&gt;Introduction to Aspose.Cells.GridWeb&lt;/a&gt; and detailed article on &lt;a href=&#34;http://www.aspose.com/docs/display/cellsnet/Creating+Control+on+a+Web+Form&#34;&gt;How to add Aspose.Cells.GridWeb component in a WebForms application&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;copying-single-row&#34;&gt;Copying Single Row&lt;/h3&gt;
+&lt;p&gt;In order to keep the example simple, the article uses an existing spreadsheet with one row and a simple formula that sums all the values in the row. Here is how the spreadsheet is displayed in the Aspose.Cells.GridWeb interface before copying the row.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5013768/5115392.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The code snippet is simple as demonstrated below. It accesses &lt;code&gt;GridCells&lt;/code&gt; object of active worksheet order to make a copy of the first row to the subsequent row.&lt;/p&gt;
+&lt;p&gt;Here is how the Aspose.Cells.GridWeb looks after copy row operation.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5013768/5115391.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;copying-single-column&#34;&gt;Copying Single Column&lt;/h3&gt;
+&lt;p&gt;The following example uses an existing spreadsheet with one column and a simple formula that sums all the values in the column. Here is how the spreadsheet is displayed in the Aspose.Cells.GridWeb interface before copying the column.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5013768/5115394.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Similar to the above example, the following code snippet accesses the &lt;code&gt;GridCells&lt;/code&gt; object of active worksheet order to make a copy of the first column to the subsequent column.&lt;/p&gt;
+&lt;p&gt;Here is how the Aspose.Cells.GridWeb looks after copy column operation.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5013768/5115393.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;You may use the &lt;code&gt;GridCells.CopyRow&lt;/code&gt; &amp;amp; &lt;code&gt;GridCells.CopyColumn&lt;/code&gt; methods in loop to copy the source row &amp;amp; column to multiple rows &amp;amp; columns respectively.&lt;/p&gt;
+&lt;h3 id=&#34;copying-multiple-rows&#34;&gt;Copying Multiple Rows&lt;/h3&gt;
+&lt;p&gt;It is also possible to copy multiple rows to a new destination while using the &lt;code&gt;GridCells.CopyRows&lt;/code&gt; method, which takes an additional parameter of type integer to specify the number of source rows to be copied.&lt;/p&gt;
+&lt;p&gt;Here is how Aspose.Cells.GridWeb look before &amp;amp; after copy rows operation.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5013768/5115396.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5013768/5115395.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;copying-multiple-columns&#34;&gt;Copying Multiple Columns&lt;/h3&gt;
+&lt;p&gt;The &lt;code&gt;GridCells&lt;/code&gt; class also provide the &lt;code&gt;CopyColumns&lt;/code&gt; method, which takes an additional parameter of type integer to specify the number of source columns to be copied.&lt;/p&gt;
+&lt;p&gt;Here is how Aspose.Cells.GridWeb look before &amp;amp; after copy rows operation.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5013768/5115398.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5013768/5115397.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Handle Column Filter Server Side Events</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridwebrowsandcolumns/handle&#43;column&#43;filter&#43;server&#43;side&#43;events/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridwebrowsandcolumns/handle&#43;column&#43;filter&#43;server&#43;side&#43;events/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--handle-column-filter-server-side-events&#34;&gt;Aspose.Cells for .NET : Handle Column Filter Server Side Events&lt;/h1&gt;
+&lt;p&gt;Data filtering is probably the most widely used Excel feature that allows you to filter the data based on a specific criteria. Filtered data displays only the rows that meet the condition by hiding the rows that do not fulfill the criteria.&lt;br&gt;
+Aspose.Cells.GridWeb component provides the ability to perform the data filtering using its interface. In order to extend its capabilities, Aspose.Cells.GridWeb component also provides two events that can serve as callback to the filtering mechanism done through the GridWeb UI.&lt;/p&gt;
+&lt;h2 id=&#34;handling-server-side-event-on-applying-column-filter&#34;&gt;Handling Server Side Event on Applying Column Filter&lt;/h2&gt;
+&lt;p&gt;There are two main events as detailed below.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;OnBeforeColumnFilter&lt;/code&gt;: Fires before the filter is going to be applied on a column.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;OnAfterColumnFilter&lt;/code&gt;: Fires after the filter has been applied on a column.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Here is the ASPX script of the Aspose.Cells.GridWeb component to add and assign the aforementioned events.&lt;/p&gt;
+&lt;p&gt;These events can be used to get useful information about the filtering process such as column index and value on which filter has to be applied. Following is the snippet demonstrating the usage of &lt;code&gt;OnBeforeColumnFilter&lt;/code&gt; event to retrieve the column index and value which user has selected on GridWeb UI for filtering.&lt;/p&gt;
+&lt;p&gt;On the other hand, if the requirement is to get number of filtered rows after the filter has been applied then you can use the &lt;code&gt;OnAfterColumnFilter&lt;/code&gt; event as demonstrated below.&lt;/p&gt;
+&lt;p&gt;Check introduction to all &lt;a href=&#34;http://www.aspose.com/docs/display/cellsnet/Working+with+GridWeb+Events&#34;&gt;Working with GridWeb Events&lt;/a&gt; along with some details on how to handle these event.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Create Remove and Get GridCell Comments</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridwebrowsandcolumns/create&#43;remove&#43;and&#43;get&#43;gridcell&#43;comments/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridwebrowsandcolumns/create&#43;remove&#43;and&#43;get&#43;gridcell&#43;comments/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--create-remove-and-get-gridcell-comments&#34;&gt;Aspose.Cells for .NET : Create Remove and Get GridCell Comments&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#create-comment-object-inside-cell&#34;&gt;Create Comment object inside Cell&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#remove-comment-object-from-cell&#34;&gt;Remove Comment object from Cell&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;4 &lt;a href=&#34;#get-comment-object-from-cell&#34;&gt;Get Comment object from Cell&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;The following article explains how to create, remove and get GridCell comments inside the GridWeb worksheet. It is worth noting that GridWeb displays comment as Tooltip like MS-Excel when you hover mouse over the cell as shown in this screenshot.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/50266181/50528371.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;create-comment-object-inside-cell&#34;&gt;Create Comment object inside Cell&lt;/h2&gt;
+&lt;p&gt;Please use the &lt;code&gt;GridCell.CreateComment&lt;/code&gt; method to create a comment object inside cell. The following sample code creates a sample comment in cell B4 of the first worksheet of GridWeb.&lt;/p&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_6ed11cce99&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_6ed11cce99&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//Access first worksheet of GridWeb
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;GridWorksheet&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;sheet&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;GridWeb1&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;WorkSheets&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;0&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;];&lt;/span&gt;
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//Access cell B4
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;GridCell&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;cell&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;sheet&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Cells&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;B4&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;];&lt;/span&gt;
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//Create comment with these parameters
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//i.e. note, author, isvisible
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;cell&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;CreateComment&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;This is a B4 note.&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Peter&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;true&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;h2 id=&#34;remove-comment-object-from-cell&#34;&gt;Remove Comment object from Cell&lt;/h2&gt;
+&lt;p&gt;Please use the &lt;code&gt;GridCell.RemoveComment&lt;/code&gt; method to remove a comment object from cell. The following sample code removes cell B4 comment inside the first worksheet of GridWeb.&lt;/p&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_d9f967aff5&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_d9f967aff5&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//Access first worksheet of GridWeb
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;GridWorksheet&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;sheet&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;GridWeb1&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;WorkSheets&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;0&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;];&lt;/span&gt;
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//Access cell B4
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;GridCell&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;cell&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;sheet&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Cells&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;B4&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;];&lt;/span&gt;
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//Remove the comment object from this cell.
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;cell&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;RemoveComment&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;();&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;h2 id=&#34;get-comment-object-from-cell&#34;&gt;Get Comment object from Cell&lt;/h2&gt;
+&lt;p&gt;Please use the &lt;code&gt;GridCell.GetComment()&lt;/code&gt; method to get comment object from cell. The following sample code gets the comment object from cell B4 and then accesses its various properties like Author, Note, Visibility etc.&lt;/p&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_8955f1ea6e&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_8955f1ea6e&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//Access first worksheet of GridWeb
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;GridWorksheet&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;sheet&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;GridWeb1&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;WorkSheets&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;0&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;];&lt;/span&gt;
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//Access cell B4
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;GridCell&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;cell&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;sheet&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Cells&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;B4&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;];&lt;/span&gt;
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//Get comment of this cell
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;GridComment&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;gridComm&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;cell&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;GetComment&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;();&lt;/span&gt;
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//Access its various properties
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;string&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;strAuth&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;gridComm&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Author&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;string&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;strNote&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;gridComm&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Note&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;bool&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;isVis&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;gridComm&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;IsVisible&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

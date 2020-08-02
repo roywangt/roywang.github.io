@@ -1,0 +1,1583 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Technical Articles</title>
+    <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/</link>
+    <description>Recent content in Technical Articles on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://roywangt.github.io/cells/java/developerguide/technicalarticles/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Java: Setting Strong Encryption Type</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/setting&#43;strong&#43;encryption&#43;type/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/setting&#43;strong&#43;encryption&#43;type/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--setting-strong-encryption-type&#34;&gt;Aspose.Cells for Java : Setting Strong Encryption Type&lt;/h1&gt;
+&lt;p&gt;Microsoft Excel (97-2007/2010) enables you to encrypt and password protect spreadsheets. It uses algorithms provided by a Crypto Service Provider. A Crypto Service Provider (or CSP) is a set of cryptographic algorithms with different properties. The default CSP is &amp;ldquo;Office 97/2000 Compatible&amp;rdquo;. This is a CSP with some public known security issues. Spreadsheets that are secured with the &amp;ldquo;weak encryption (XOR)&amp;rdquo; or with the &amp;ldquo;Office 97/2000 Compatible&amp;rdquo; encryption type can be cracked easily.&lt;/p&gt;
+&lt;p&gt;To overcome this problem, use one of the strong encryption types provided by Microsoft Excel. You can change the encryption type to the strongest available CSP. For strong encryption, a minimum key length of 128 bits is required, for example &amp;lsquo;Microsoft Strong Cryptographic Provider&amp;rsquo;.&lt;/p&gt;
+&lt;p&gt;You can also encrypt and password protect Excel files with strong encryption type using the Aspose.Cells API.&lt;/p&gt;
+&lt;h4 id=&#34;applying-encryption-with-microsoft-excel&#34;&gt;Applying Encryption with Microsoft Excel&lt;/h4&gt;
+&lt;p&gt;To implement file encryption in Microsoft Excel (for example 2007):&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;From the &lt;strong&gt;Tools&lt;/strong&gt; menu, select &lt;strong&gt;Options&lt;/strong&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Select the &lt;strong&gt;Security&lt;/strong&gt; tab.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Enter a value for the &lt;strong&gt;Password to open&lt;/strong&gt; field.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Click &lt;strong&gt;Advanced&lt;/strong&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Choose the encryption type and confirm the password.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Setting encryption in Microsoft Excel&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276604/5472617.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;applying-encryption-with-asposecells&#34;&gt;Applying Encryption with Aspose.Cells&lt;/h4&gt;
+&lt;p&gt;The code example below applies strong encryption on a file and sets a password.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Add Image Hyperlinks</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/add&#43;image&#43;hyperlinks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/add&#43;image&#43;hyperlinks/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--add-image-hyperlinks&#34;&gt;Aspose.Cells for Java : Add Image Hyperlinks&lt;/h1&gt;
+&lt;p&gt;Hyperlinks are useful for accessing the information on other worksheets, or on websites. Microsoft Excel lets users add hyperlinks to the text in cells, and on images. Image hyperlinks can make navigating a worksheet easier, for example, as next and previous buttons, or logos that link to particular sites. This document explains how to insert image hyperlinks in a worksheet using Aspose.Cells.&lt;/p&gt;
+&lt;p&gt;Aspose.Cells allows you to add hyperlinks to images in spreadsheets at runtime. It is possible to set and modify the link&amp;rsquo;s screen tip and address.&lt;/p&gt;
+&lt;p&gt;The following sample code illustrates how to add an image hyperlink into a worksheet.&lt;/p&gt;
+&lt;p&gt;When the code runs, it saves an output file with an image hyperlink in it.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The output file&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276603/5472614.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Sort Data</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/sort&#43;data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/sort&#43;data/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--sort-data&#34;&gt;Aspose.Cells for Java : Sort Data&lt;/h1&gt;
+&lt;p&gt;This article is designed to provide developers with detailed understanding of how to sort data in a worksheet.&lt;/p&gt;
+&lt;p&gt;Data sorting is a handy and versatile feature of Microsoft Excel. Generally, sorting is performed on a list, which is defined as a contiguous group of data where the data is displayed in columns. Aspose.Cells allows you to sort worksheet data alphabetically or numerically. It sorts data in the same way as Microsoft Excel does.&lt;/p&gt;
+&lt;p&gt;You might work with Office Automation for data sorting but Office Automation has its drawbacks. There are several reasons and issues involved: security, stability, scalability/speed, price, and features. In short, there are many reasons to look for a different solution, with the top one being that Microsoft themselves strongly recommends against Office Automation from software solutions.&lt;/p&gt;
+&lt;p&gt;In this article, we create a console application, and sort data with a few simple lines of code using the Aspose.Cells API.&lt;/p&gt;
+&lt;h3 id=&#34;using-asposecells-to-sort-data-in-a-worksheet&#34;&gt;Using Aspose.Cells to Sort Data in a Worksheet&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Create a Microsoft Excel file with different data sets or contents.&lt;br&gt;
+I created a new workbook in Microsoft Excel and added sample data into cells on the first worksheet.&lt;br&gt;
+&lt;strong&gt;The template worksheet created in Microsoft Excel&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276602/5472608.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Download and install Aspose.Cells:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.aspose.com/community/files/72/java-components/aspose.cells-for-java/default.aspx&#34;&gt;Download&lt;/a&gt; Aspose.Cells for Java.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Install it on your development computer.&lt;/p&gt;
+&lt;p&gt;All &lt;a href=&#34;http://www.aspose.com/&#34;&gt;Aspose&lt;/a&gt; components, when installed, work in evaluation mode. The evaluation mode has no time limit and it only injects watermarks into produced documents.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Create a project.&lt;br&gt;
+Create a new console application in an editor or Notepad.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Add a class path.&lt;br&gt;
+To set a Class Path using Eclipse:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Extract the Aspose.Cells.jar and dom4j_1.6.1.jar from Aspose.Cells.zip.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Set the classpath of project in Eclipse:&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Select your project in Eclipse and then click menus Project-Properties.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Select &amp;ldquo;Java Build Path&amp;rdquo; in the left side of the popup window, then select the &amp;ldquo;Libraries&amp;rdquo; tab, click &amp;ldquo;Add JARs&amp;rdquo; or &amp;ldquo;Add External JARs&amp;rdquo; to select Aspose.Cells.jar and dom4j_1.6.1.jar and add them into build paths.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;write application to invoke APIs of Aspose&amp;rsquo;s components.&lt;br&gt;
+Or you set it at runtime at the DOS prompt in Windows.&lt;/p&gt;
+&lt;p&gt;javac -classpath %classpath%;e:\Aspose.Cells.jar;  ClassName .javajava -classpath %classpath%;e:\Aspose.Cells.jar;  ClassName&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Sort the data in the worksheet:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Add code to the project.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Execute the program.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;When the above code is executed, the data is sorted:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Output file&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276602/5472609.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h3&gt;
+&lt;p&gt;In this article I have shown how we can sort data using Aspose.Cells. Hopefully, you will be able to adapt these options to your own scenarios.&lt;/p&gt;
+&lt;p&gt;Aspose.Cells offer more flexibility than other components and provides outstanding speed, efficiency and reliability. Aspose.Cells benefits from years of research, design and careful tuning.&lt;/p&gt;
+&lt;p&gt;We heartily welcome your queries, comments and suggestions at &lt;a href=&#34;http://www.aspose.com/community/forums/aspose.cells-product-family/19/showforum.aspx&#34;&gt;Aspose.Cells Forum&lt;/a&gt;. We warranty a prompt reply.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Utilize Aspose.Cells in other Programming Languages</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/inotherlanguages/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/inotherlanguages/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--utilize-asposecells-in-other-programming-languages&#34;&gt;Aspose.Cells for Java : Utilize Aspose.Cells in other Programming Languages&lt;/h1&gt;
+&lt;h6 id=&#34;this-section-includes-the-following-topics&#34;&gt;This section includes the following topics:&lt;/h6&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/inotherlanguages/choose+the+platform+and+other+interoperability+technology&#34;&gt;Choose the Platform and Other Interoperability Technology&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/inotherlanguages/aspose.cells+for+java+and+php&#34;&gt;Aspose.Cells for Java and PHP&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/inotherlanguages/using+aspose.cells+for+java+with+perl&#34;&gt;Using Aspose.Cells for Java with Perl&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/inotherlanguages/using+aspose.cells+for+java+with+coldfusion&#34;&gt;Using Aspose.Cells for Java with ColdFusion&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Create Table by Using Border Lines for a Range</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/create&#43;table&#43;by&#43;using&#43;border&#43;lines&#43;for&#43;a&#43;range/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/create&#43;table&#43;by&#43;using&#43;border&#43;lines&#43;for&#43;a&#43;range/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--create-table-by-using-border-lines-for-a-range&#34;&gt;Aspose.Cells for Java : Create Table by Using Border Lines for a Range&lt;/h1&gt;
+&lt;p&gt;Sometimes, you want to create a table by adding border lines for a &lt;strong&gt;Range&lt;/strong&gt;/&lt;strong&gt;CellArea&lt;/strong&gt; based on the address of the cells you have. You can use &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/cells#createRange(int,%20int,%20boolean)&#34;&gt;Cells.createRange&lt;/a&gt; method to create a range of cells. The &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/cells#createRange(int,%20int,%20boolean)&#34;&gt;Cells.createRange&lt;/a&gt; method returns a &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/Range&#34;&gt;Range&lt;/a&gt;object. You can create a &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/Style&#34;&gt;Style&lt;/a&gt;object and specify the borders (top, left, bottom, right) options accordingly. Later, you may get the cells of the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/Range&#34;&gt;Range&lt;/a&gt;and apply your desired formatting to the cells.&lt;/p&gt;
+&lt;h5 id=&#34;example&#34;&gt;*Example:&lt;/h5&gt;
+&lt;p&gt;*&lt;/p&gt;
+&lt;p&gt;The following example shows how to create a &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/Range&#34;&gt;Range&lt;/a&gt;and specify the borderlines for the range cells.&lt;/p&gt;
+&lt;p&gt;After running the above code, we can have the generated excel file containing the formatted table; here is the screenshot of the file.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276612/5472600.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Use Error Checking Options</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/use&#43;error&#43;checking&#43;options/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/use&#43;error&#43;checking&#43;options/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--use-error-checking-options&#34;&gt;Aspose.Cells for Java : Use Error Checking Options&lt;/h1&gt;
+&lt;p&gt;Microsoft Excel allows users to define error checking options and rules. Users often see error checks when creating formulas, a small triangle at the top right corner of a cell highlights when there&amp;rsquo;s a problem with a cell. Excel provides information that helps users correct common problems.&lt;/p&gt;
+&lt;h4 id=&#34;types-of-errors&#34;&gt;Types of Errors&lt;/h4&gt;
+&lt;p&gt;Errors that mean that the formula cannot return a result - such as dividing a number by zero - require immediate attention and an error value is displayed in the cell. Clicking on the green triangle shows an exclamation mark, clicking this opens list of options.&lt;/p&gt;
+&lt;p&gt;The error can be resolved using the options, or be ignored. Ignoring an error means that that error will not appear in further error checks.&lt;/p&gt;
+&lt;p&gt;Aspose.Cells provides error checking option features. The &lt;code&gt;ErrorCheckOptions&lt;/code&gt; class manages different types of errors checks, for example numbers stored as text, formula calculation errors and validation errors. Use the &lt;code&gt;ErrorCheckType&lt;/code&gt; enumeration to set the desired error checking.&lt;/p&gt;
+&lt;h4 id=&#34;numbers-stored-as-text&#34;&gt;Numbers Stored as Text&lt;/h4&gt;
+&lt;p&gt;Occasionally, numbers might be formatted and stored in cells as text. This can cause problems with calculations or produce confusing sort orders. Numbers that are formatted as text are left-aligned instead of right-aligned in the cell. If a formula that should perform a mathematical operation on cells doesn&amp;rsquo;t return a value, check the alignment in the cells that the formula refers to – some or all of those cells might be numbers formatted as text.&lt;/p&gt;
+&lt;p&gt;You can use the error checking options to quickly convert numbers stored as text to real numbers. In Microsoft Excel 2003:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;On the &lt;strong&gt;Tools&lt;/strong&gt; menu, click &lt;strong&gt;Options&lt;/strong&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Select the Error Checking tab.&lt;br&gt;
+&lt;strong&gt;Number stored as text&lt;/strong&gt; option is checked by default.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Disable it.&lt;br&gt;
+See the below picture on how the green triangle is displayed for the data in MS Excel.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276611/5472598.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The following sample code shows how to disable the numbers stored as text error checking option for a worksheet in the template XLS file using the Aspose.Cells APIs.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Java&lt;/strong&gt;&lt;/p&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_39d02848cc&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_39d02848cc&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//Create a workbook and opening a template spreadsheet
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Workbook&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;workbook&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Workbook&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;d:\\files\\Book1.xls&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//Get the first worksheet
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Worksheet&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;sheet&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;workbook&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;getWorksheets&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;().&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;get&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;0&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;);&lt;/span&gt;
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//Instantiate the error checking options
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;ErrorCheckOptionCollection&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;opts&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;sheet&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;getErrorCheckOptions&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;();&lt;/span&gt;
+
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;int&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;index&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;opts&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;add&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;();&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;ErrorCheckOption&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;opt&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;opts&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;get&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;index&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;);&lt;/span&gt;
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//Disable the numbers stored as text option
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;opt&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;setErrorCheck&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;ErrorCheckType&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;TEXT_NUMBER&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;false&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;);&lt;/span&gt;
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//Set the range
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;opt&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;addRange&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;CellArea&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;createCellArea&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;0&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;0&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;65535&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;255&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;));&lt;/span&gt;
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//Save the Excel file
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;workbook&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;save&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;d:\\files\\out_test.xls&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;);&lt;/span&gt;
+ 
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Aspose.Cells Formula Calculation Engine</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mulacalculationengine/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mulacalculationengine/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--asposecells-formula-calculation-engine&#34;&gt;Aspose.Cells for Java : Aspose.Cells Formula Calculation Engine&lt;/h1&gt;
+&lt;h6 id=&#34;this-section-includes-the-following-topics&#34;&gt;This section includes the following topics:&lt;/h6&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/mulacalculationengine/setting+shared+formula&#34;&gt;Setting Shared Formula&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/mulacalculationengine/setting+formulas+-+notice+for+non+english+users&#34;&gt;Setting Formulas - Notice for Non English Users&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/mulacalculationengine/set+external+links+in+formulas&#34;&gt;Set External Links in Formulas&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Using LightCells API</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/using&#43;lightcells&#43;api/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/using&#43;lightcells&#43;api/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--using-lightcells-api&#34;&gt;Aspose.Cells for Java : Using LightCells API&lt;/h1&gt;
+&lt;p&gt;Sometimes you need to read and write large Microsoft Excel files with huge list of data or contents in the worksheet. The LightCells API is useful for creating huge Excel spreadsheets: with it, you need memory and get better performance and efficiency.&lt;/p&gt;
+&lt;h3 id=&#34;event-driven-architecture&#34;&gt;Event Driven Architecture&lt;/h3&gt;
+&lt;p&gt;Aspose.Cells provides the LightCells API, mainly designed to manipulate cell data one by one without building a complete data model block (using the &lt;code&gt;Cell&lt;/code&gt; collection etc.) into memory. It works in an event-driven mode.&lt;/p&gt;
+&lt;p&gt;To save workbooks, provide the cell content cell by cell when saving, and the component saves it to the output file directly.&lt;/p&gt;
+&lt;p&gt;When reading template files, the component parses every cell and provides their value one by one.&lt;/p&gt;
+&lt;p&gt;In both procedures, one &lt;code&gt;Cell&lt;/code&gt; object is processed and then discarded, the &lt;code&gt;Workbook&lt;/code&gt; object does not hold the collection. In this mode, therefore, memory is saved when importing and exporting Microsoft Excel file that has a large data set which would otherwise use a lot of memory.&lt;/p&gt;
+&lt;p&gt;Even though the LightCells API processes the cells in the same way for XLSX and XLS files (it does not actually load all cells in memory but processes one cell and then discards it), it saves memory more effectively for XLSX files than XLS files because of the different data models and structures of the two formats.&lt;/p&gt;
+&lt;p&gt;However, &lt;strong&gt;for XLS files&lt;/strong&gt;, to save more memory, developers can specify a temporary location for saving temporary data generated during the &lt;code&gt;Save&lt;/code&gt; process. Commonly, &lt;strong&gt;using LightCells API to save XLSX file may save 50% or more memory&lt;/strong&gt; than using the common way, &lt;strong&gt;saving XLS may save about 20-40% memory&lt;/strong&gt;.&lt;/p&gt;
+&lt;h4 id=&#34;writing-large-excel-files&#34;&gt;Writing Large Excel Files&lt;/h4&gt;
+&lt;p&gt;Aspose.Cells provides an interface, &lt;code&gt;LightCellsDataProvider&lt;/code&gt;, that needs to be implemented in your program. The interface represents Data provider for saving large spreadsheet files in light-weight mode.&lt;/p&gt;
+&lt;p&gt;When saving a workbook by this mode, &lt;code&gt;startSheet(int)&lt;/code&gt; is checked when saving every worksheet in the workbook. For one sheet, if &lt;code&gt;startSheet(int)&lt;/code&gt; is true, then all the data and properties of rows and cells of this sheet to be saved is provided by this implementation. In the first place, &lt;code&gt;nextRow()&lt;/code&gt; is called to get the next row index to be saved. If a valid row index is returned (the row index must be in ascending order for the rows to be saved), then a &lt;code&gt;Row&lt;/code&gt; object representing this row is provided for implementation to set its properties by &lt;code&gt;startRow(Row)&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;For one row, &lt;code&gt;nextCell()&lt;/code&gt; is checked first. If a valid column index is returned (the column index must be in ascending order for all cells of one row to be saved), then a &lt;code&gt;Cell&lt;/code&gt; object representing this cell is provided to set the data and properties by &lt;code&gt;startCell(Cell)&lt;/code&gt;. After the data of this cell is set, this cell is saved directly to the generated spreadsheet file and the next cell will be checked and processed.&lt;/p&gt;
+&lt;p&gt;The following example shows ho the LightCells API works.&lt;/p&gt;
+&lt;p&gt;The following program creates a huge file with 100,000 records in a worksheet, filled with data. We have added some hyperlinks, string values, numeric values and also formulas to certain cells in the worksheet. Moreover, we have formatted a range of cells as well.&lt;/p&gt;
+&lt;h3 id=&#34;reading-large-excel-files&#34;&gt;Reading Large Excel Files&lt;/h3&gt;
+&lt;p&gt;Aspose.Cells provide an interface, &lt;code&gt;LightCellsDataHandler&lt;/code&gt;, that needs to be implemented in your program. The interface represents the data provider for reading large spreadsheet files in a light-weight mode.&lt;/p&gt;
+&lt;p&gt;When reading a workbook in this mode, &lt;code&gt;startSheet()&lt;/code&gt; is checked when reading every worksheet in the workbook. For a sheet, if &lt;code&gt;startSheet()&lt;/code&gt; returns true, then all the data and properties of the cells in the sheet&amp;rsquo;s rows and columns is checked and processed. For every row, &lt;code&gt;startRow()&lt;/code&gt; is called to check whether it needs to be processed. If a row needs to be processed, the row&amp;rsquo;s properties are read first and developers can access its properties with &lt;code&gt;processRow()&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;If the row&amp;rsquo;s cells also need to be processed, then &lt;code&gt;processRow()&lt;/code&gt; returns true and &lt;code&gt;startCell()&lt;/code&gt; is called for every existing cell in the row to check whether it needs to be processed. If it does, &lt;code&gt;processCell()&lt;/code&gt; is called.&lt;/p&gt;
+&lt;p&gt;The following sample code illustrates this process. The program reads a large file with millions of records. It takes a little time to read each sheet in the workbook. The sample code reads the file and retrieves the total number of cells, strings count and formulas count for each worksheet.&lt;/p&gt;
+&lt;p&gt; A class that implements LightCellsDataHandler interface&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Insert a Picture based on Cell Reference</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/insert&#43;a&#43;picture&#43;based&#43;on&#43;cell&#43;reference/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/insert&#43;a&#43;picture&#43;based&#43;on&#43;cell&#43;reference/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--insert-a-picture-based-on-cell-reference&#34;&gt;Aspose.Cells for Java : Insert a Picture based on Cell Reference&lt;/h1&gt;
+&lt;p&gt;Sometimes you have an empty picture and need to show data or contents in the picture by setting a cell reference in the Formula Bar. Aspose.Cells supports this feature (Microsoft Excel 2010).&lt;/p&gt;
+&lt;h3 id=&#34;inserting-a-picture-based-on-cell-reference&#34;&gt;Inserting a Picture Based on Cell Reference&lt;/h3&gt;
+&lt;p&gt;Aspose.Cells supports displaying the contents of a worksheet cell in an image shape. You can link the picture to the cell that contains the data that you want to display. Since the cell or cell range is linked to the graphic object, changes to the data automatically appear in the graphic object. Add a picture to the worksheet by calling the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/shapecollection#addPicture(int,%20int,%20int,%20int,%20java.io.InputStream)&#34;&gt;addPicture&lt;/a&gt; method of the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/ShapeCollection&#34;&gt;ShapeCollection&lt;/a&gt; collection (encapsulated in the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/Worksheet&#34;&gt;Worksheet&lt;/a&gt; object). Specify the cell range by using the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/picture#Formula&#34;&gt;setFormula&lt;/a&gt; method of the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/Picture&#34;&gt;Picture&lt;/a&gt; object.&lt;/p&gt;
+&lt;p&gt;Below is a screenshot of the file the code below generates.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Inserting a picture based on cell reference&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276587/5472592.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;code-example&#34;&gt;Code Example&lt;/h4&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Change Text Direction of the Comment</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/change&#43;text&#43;direction&#43;of&#43;the&#43;comment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/change&#43;text&#43;direction&#43;of&#43;the&#43;comment/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--change-text-direction-of-the-comment&#34;&gt;Aspose.Cells for Java : Change Text Direction of the Comment&lt;/h1&gt;
+&lt;p&gt;Microsoft Excel users can add comments to cells in spreadsheets to add additional information to cells and highlight the data. Developers might need to customize the comment to specify alignment settings and text direction. Aspose.Cells provides APIs to accomplish the task.&lt;/p&gt;
+&lt;p&gt;Aspose.Cells provides a &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/shape#TextDirection&#34;&gt;Shape.setTextDirection()&lt;/a&gt; method to set the desired text direction for a comment.&lt;/p&gt;
+&lt;p&gt;The following image shows the comment with its format settings in Microsoft Excel. The output file is obtained after running the below code segment.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Comment with right-to-left text direction&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276588/5472590.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Reading Cell Values in Multiple Threads Simultaneously</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/reading&#43;cell&#43;values&#43;in&#43;multiple&#43;threads&#43;simultaneously/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/reading&#43;cell&#43;values&#43;in&#43;multiple&#43;threads&#43;simultaneously/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--reading-cell-values-in-multiple-threads-simultaneously&#34;&gt;Aspose.Cells for Java : Reading Cell Values in Multiple Threads Simultaneously&lt;/h1&gt;
+&lt;p&gt;Needing to read cell values in multiple threads simultaneously is a common requirement. This article explains how to use Aspose.Cells for this purpose.&lt;/p&gt;
+&lt;p&gt;To read cell values in more than one thread simultaneously, set &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/cells#MultiThreadReading&#34;&gt;Worksheet.getCells().setMultiThreadReading()&lt;/a&gt; to &lt;strong&gt;true&lt;/strong&gt;. If you do not, you might get the wrong cell values.&lt;/p&gt;
+&lt;p&gt;The following code:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Creates a workbook.&lt;/li&gt;
+&lt;li&gt;Adds a worksheet.&lt;/li&gt;
+&lt;li&gt;Populates the worksheet with string values.&lt;/li&gt;
+&lt;li&gt;It then creates two threads that simultaneously read values from random cells.&lt;br&gt;
+If the values read are correct, nothing happens. If the values read are incorrect, then a message is displayed.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;If you comment this line:&lt;/p&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_b329e7beb3&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_b329e7beb3&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;
+&lt;span style=&#34;color:#000&#34;&gt;testWorkbook&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;getWorksheets&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;().&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;get&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;0&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;).&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;getCells&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;().&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;setMultiThreadReading&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;true&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;p&gt;then the following message is displayed:&lt;/p&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_5de2b26edf&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_5de2b26edf&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;s&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;equals&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;R&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;row&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;C&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;col&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)!=&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;true&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt;
+    &lt;span style=&#34;color:#000&#34;&gt;System&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;out&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;println&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;This message box will show up when cells read values are incorrect.&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;}&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;p&gt;Otherwise, the program runs without showing any message which means all values read from cells are correct.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Implementing IStreamProvider for HtmlSaveOptions.StreamProvider</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/implementing&#43;istreamprovider&#43;for&#43;htmlsaveoptions.streamprovider/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/implementing&#43;istreamprovider&#43;for&#43;htmlsaveoptions.streamprovider/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--implementing-istreamprovider-for-htmlsaveoptionsstreamprovider&#34;&gt;Aspose.Cells for Java : Implementing IStreamProvider for HtmlSaveOptions.StreamProvider&lt;/h1&gt;
+&lt;p&gt;This article explains how to implement &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/IStreamProvider&#34;&gt;IStreamProvider&lt;/a&gt; interface for setting the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/htmlsaveoptions#StreamProvider&#34;&gt;HtmlSaveOptions.StreamProvider&lt;/a&gt; property. By implementing this interface, you will be able to save the created resources during HTML generation to your specific locations or memory streams.&lt;/p&gt;
+&lt;h4 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h4&gt;
+&lt;p&gt;This is the main code showing the usage of &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/htmlsaveoptions#StreamProvider&#34;&gt;HtmlSaveOptions.StreamProvider&lt;/a&gt; property&lt;/p&gt;
+&lt;p&gt;Here is the code for *ExportStreamProvider *class which implements &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/IStreamProvider&#34;&gt;IStreamProvider&lt;/a&gt;interface used inside the above code.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Rendering and Printing</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/rnd-prt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/rnd-prt/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--rendering-and-printing&#34;&gt;Aspose.Cells for Java : Rendering and Printing&lt;/h1&gt;
+&lt;h6 id=&#34;this-section-includes-the-following-topics&#34;&gt;This section includes the following topics:&lt;/h6&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/rnd-prt/page+setup+and+printing+options&#34;&gt;Page Setup and Printing Options&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/rnd-prt/printing+workbooks&#34;&gt;Printing Workbooks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/rnd-prt/generate+a+thumbnail+image+of+a+worksheet&#34;&gt;Generate a Thumbnail Image of a Worksheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/rnd-prt/render+one+pdf+page+per+excel+worksheet+-+excel+to+pdf+conversion&#34;&gt;Render One PDF Page Per Excel Worksheet - Excel to PDF Conversion&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/rnd-prt/save+each+worksheet+to+a+different+pdf+file&#34;&gt;Save Each Worksheet to a Different PDF File&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/rnd-prt/limit+the+number+of+pages+generated+-+excel+to+pdf+conversion&#34;&gt;Limit the Number of Pages Generated - Excel to PDF Conversion&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/rnd-prt/fit+all+worksheet+columns+on+single+pdf+page&#34;&gt;Fit All Worksheet Columns on Single PDF Page&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/rnd-prt/create+transparent+image+of+excel+worksheet&#34;&gt;Create Transparent Image of Excel Worksheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/rnd-prt/prevent+exporting+hidden+worksheet+contents+on+saving+to+html&#34;&gt;Prevent Exporting Hidden Worksheet Contents on Saving to HTML&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/rnd-prt/fontusage/&#34;&gt;Aspose.Cells Font Usage&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/rnd-prt/excel+to+html+-+use+presentationpreference+option+for+better+layout&#34;&gt;Excel to HTML - Use PresentationPreference Option for Better Layout&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/rnd-prt/get+warnings+for+font+substitution+while+rendering+excel+file&#34;&gt;Get Warnings for Font Substitution while Rendering Excel File&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/rnd-prt/export+range+of+cells+in+a+worksheet+to+image&#34;&gt;Export Range of Cells in a Worksheet to Image&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/rnd-prt/converting+chart+to+image+in+svg+format&#34;&gt;Converting Chart to Image in SVG Format&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/rnd-prt/change+the+font+on+just+the+specific+unicode+characters+while+saving+to+pdf&#34;&gt;Change the Font on just the specific Unicode characters while saving to PDF&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/rnd-prt/specify+job+or+document+name+while+printing+with+aspose.cells&#34;&gt;Specify Job or Document Name while printing with Aspose.Cells&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/rnd-prt/generate+conditional+formatting+databars+images&#34;&gt;Generate Conditional Formatting DataBars Images&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/rnd-prt/print+comments+while+saving+to+pdf&#34;&gt;Print Comments while saving to PDF&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/rnd-prt/export+chart+to+svg+with+viewbox+attribute&#34;&gt;Export Chart to SVG with viewBox attribute&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/rnd-prt/export+worksheet+or+chart+into+image+with+desired+width+and+height&#34;&gt;Export Worksheet or Chart into Image with Desired Width and Height&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/rnd-prt/converting+worksheet+to+image+and+worksheet+to+image+by+page&#34;&gt;Converting Worksheet to Image and Worksheet to Image by Page&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/rnd-prt/render+the+worksheet+and+workbook+to+image+using+imageorprintoptions&#34;&gt;Render the Worksheet and Workbook to Image using ImageOrPrintOptions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/rnd-prt/convert+xls+with+images+and+charts+to+pdf&#34;&gt;Convert XLS with Images and Charts to PDF&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/rnd-prt/extract+images+from+worksheets&#34;&gt;Extract Images from Worksheets&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/rnd-prt/resample+images+for+excel+to+pdf+conversion&#34;&gt;Resample Images for Excel to PDF Conversion&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/rnd-prt/secure+pdf+documents&#34;&gt;Secure PDF Documents&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/rnd-prt/remove+white+spaces+from+the+data+before+rendering+to+image&#34;&gt;Remove White Spaces from the Data before Rendering to Image&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Styling and Data Formatting</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/stl-dtfmt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/stl-dtfmt/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--styling-and-data-formatting&#34;&gt;Aspose.Cells for Java : Styling and Data Formatting&lt;/h1&gt;
+&lt;h6 id=&#34;this-section-includes-the-following-topics&#34;&gt;This section includes the following topics:&lt;/h6&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/stl-dtfmt/line+breaks+and+text+wrapping&#34;&gt;Line Breaks and Text Wrapping&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/stl-dtfmt/implement+1904+date+system&#34;&gt;Implement 1904 Date System&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/stl-dtfmt/apply+superscript+and+subscript+effects+on+fonts&#34;&gt;Apply Superscript and Subscript Effects on Fonts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/stl-dtfmt/apply+conditional+formatting+in+worksheets&#34;&gt;Apply Conditional Formatting in Worksheets&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/stl-dtfmt/modify+an+existing+style&#34;&gt;Modify an Existing Style&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/stl-dtfmt/reusing+style+objects&#34;&gt;Reusing Style Objects&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/stl-dtfmt/add+conditional+icons+set+with+the+cell+text&#34;&gt;Add Conditional Icons Set with the Cell Text&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/stl-dtfmt/find+cells+with+specific+style&#34;&gt;Find cells with specific style&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/stl-dtfmt/adding+html+rich+text+inside+the+cell&#34;&gt;Adding HTML Rich Text inside the Cell&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/stl-dtfmt/specify+custom+number+decimal+and+group+separators+for+workbook&#34;&gt;Specify Custom Number Decimal and Group Separators for Workbook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/stl-dtfmt/extract+theme+data+from+excel+file&#34;&gt;Extract Theme Data from Excel File&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/stl-dtfmt/display+bullets+by+setting+cell+value+using+html&#34;&gt;Display Bullets by setting Cell Value using HTML&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/stl-dtfmt/excel+2007+themes+and+colors&#34;&gt;Excel 2007 Themes and Colors&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/stl-dtfmt/format+worksheet+cells+in+a+workbook&#34;&gt;Format Worksheet Cells in a Workbook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/stl-dtfmt/convert+text+numeric+data+to+number&#34;&gt;Convert Text Numeric Data to Number&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/stl-dtfmt/check+custom+number+format+when+setting+style.custom+property&#34;&gt;Check Custom Number Format when Setting Style.Custom Property&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Managing Pivot Tables and Pivot Charts</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngpivottablesandpivotcharts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngpivottablesandpivotcharts/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--managing-pivot-tables-and-pivot-charts&#34;&gt;Aspose.Cells for Java : Managing Pivot Tables and Pivot Charts&lt;/h1&gt;
+&lt;h6 id=&#34;this-section-includes-the-following-topics&#34;&gt;This section includes the following topics:&lt;/h6&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/mngpivottablesandpivotcharts/create+pivot+tables+and+pivot+charts&#34;&gt;Create Pivot Tables and Pivot Charts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/mngpivottablesandpivotcharts/format+pivot+table+cells&#34;&gt;Format Pivot Table Cells&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/mngpivottablesandpivotcharts/setting+pivot+table+option+-+for+empty+cells+show&#34;&gt;Setting Pivot Table Option - For Empty Cells Show&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/mngpivottablesandpivotcharts/specifying+the+absolute+position+of+the+pivot+item&#34;&gt;Specifying the absolute position of the Pivot Item&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/mngpivottablesandpivotcharts/delete+pivot+table+from+a+worksheet&#34;&gt;Delete Pivot Table from a Worksheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/mngpivottablesandpivotcharts/changing+the+layout+of+pivot+table&#34;&gt;Changing the Layout of Pivot Table&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Managing Workbooks and Worksheets</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngworkbooksandworksheets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngworkbooksandworksheets/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--managing-workbooks-and-worksheets&#34;&gt;Aspose.Cells for Java : Managing Workbooks and Worksheets&lt;/h1&gt;
+&lt;h6 id=&#34;this-section-includes-the-following-topics&#34;&gt;This section includes the following topics:&lt;/h6&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/mngworkbooksandworksheets/create+workbook+global+and+worksheet+scoped+named+ranges&#34;&gt;Create Workbook (Global) and Worksheet Scoped Named Ranges&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/mngworkbooksandworksheets/copy+and+move+worksheets+within+and+between+workbooks&#34;&gt;Copy and Move Worksheets Within and Between Workbooks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/mngworkbooksandworksheets/set+background+picture+for+a+worksheet&#34;&gt;Set Background Picture for a Worksheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/mngworkbooksandworksheets/set+worksheet+tab+color&#34;&gt;Set Worksheet Tab Color&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/mngworkbooksandworksheets/insert+a+linked+picture+from+web+address&#34;&gt;Insert a Linked Picture from Web Address&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/mngworkbooksandworksheets/add+a+picture+to+an+excel+comment&#34;&gt;Add a Picture to an Excel Comment&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/mngworkbooksandworksheets/combine+multiple+worksheets+into+a+single+worksheet&#34;&gt;Combine Multiple Worksheets into a Single Worksheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/mngworkbooksandworksheets/combine+multiple+workbooks+into+a+single+workbook&#34;&gt;Combine Multiple Workbooks into a Single Workbook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/mngworkbooksandworksheets/how+to+detect+a+file+format+and+check+if+the+file+is+encrypted&#34;&gt;How to Detect a File Format and Check if the File is Encrypted&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/mngworkbooksandworksheets/show+formulas+instead+of+values+in+a+worksheet&#34;&gt;Show Formulas instead of Values in a Worksheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/mngworkbooksandworksheets/optimizing+memory+usage+while+working+with+big+files+having+large+datasets&#34;&gt;Optimizing Memory Usage while Working with Big Files having Large Datasets&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/mngworkbooksandworksheets/create+manipulate+or+remove+scenarios+from+worksheets&#34;&gt;Create, Manipulate or Remove Scenarios from Worksheets&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/mngworkbooksandworksheets/setting+formula+calculation+mode+of+workbook&#34;&gt;Setting Formula Calculation Mode of Workbook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/mngworkbooksandworksheets/reading+csv+file+with+multiple+encodings&#34;&gt;Reading CSV File with Multiple Encodings&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/mngworkbooksandworksheets/get+the+version+number+of+the+application+that+created+the+excel+document&#34;&gt;Get the Version Number of the Application that Created the Excel Document&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/mngworkbooksandworksheets/how+to+set+autorecover+property+of+workbook&#34;&gt;How to set AutoRecover property of Workbook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/mngworkbooksandworksheets/save+ods+file+in+odf+1.1+and+1.2+specifications&#34;&gt;Save ODS file in ODF 1.1 and 1.2 Specifications&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/mngworkbooksandworksheets/create+signature+line+in+an+excel+workbook+using+aspose.cells&#34;&gt;Create Signature Line in an Excel Workbook using Aspose.Cells&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/mngworkbooksandworksheets/check+password+to+modify+using+aspose.cells&#34;&gt;Check Password to modify using Aspose.Cells&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/mngworkbooksandworksheets/adding+custom+properties+visible+inside+document+information+panel&#34;&gt;Adding Custom Properties visible inside Document Information Panel&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/mngworkbooksandworksheets/determining+if+the+license+is+loaded+successfully&#34;&gt;Determining if the License is loaded successfully&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/mngworkbooksandworksheets/activating+sheets+and+activating+a+cell+in+worksheet&#34;&gt;Activating Sheets and Activating a Cell in Worksheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/mngworkbooksandworksheets/load+specific+worksheets+in+a+workbook&#34;&gt;Load Specific Worksheets in a Workbook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/mngworkbooksandworksheets/insert+web+image+from+a+url+into+an+excel+worksheet&#34;&gt;Insert Web Image from a URL into an Excel Worksheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/mngworkbooksandworksheets/hiding+the+display+of+zero+values+in+the+worksheet&#34;&gt;Hiding the Display of Zero Values in the Worksheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/mngworkbooksandworksheets/extract+ole+objects+from+workbook&#34;&gt;Extract OLE Objects from Workbook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/mngworkbooksandworksheets/disable+compatibility+checker+in+excel&#34;&gt;Disable Compatibility Checker in Excel&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/mngworkbooksandworksheets/detect+if+worksheet+is+password+protected&#34;&gt;Detect if Worksheet is Password Protected&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/mngworkbooksandworksheets/verify+password+used+to+protect+the+worksheet&#34;&gt;Verify Password Used to Protect the Worksheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/mngworkbooksandworksheets/get+paper+width+and+height+from+pagesetup+of+worksheet&#34;&gt;Get Paper Width and Height from PageSetup of Worksheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Managing Rows Columns and Cells</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngrowscolumnsandcells/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngrowscolumnsandcells/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--managing-rows-columns-and-cells&#34;&gt;Aspose.Cells for Java : Managing Rows, Columns and Cells&lt;/h1&gt;
+&lt;h6 id=&#34;this-section-includes-the-following-topics&#34;&gt;This section includes the following topics:&lt;/h6&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/mngrowscolumnsandcells/populate+data+first+by+row+then+by+column&#34;&gt;Populate Data First by Row then by Column&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/mngrowscolumnsandcells/insert+or+delete+rows+in+an+excel+worksheet&#34;&gt;Insert or Delete Rows in an Excel Worksheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/mngrowscolumnsandcells/detect+merged+cells+in+a+worksheet&#34;&gt;Detect Merged Cells in a Worksheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/mngrowscolumnsandcells/copy+rows+and+columns&#34;&gt;Copy Rows and Columns&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/mngrowscolumnsandcells/autofit+rows+for+merged+cells&#34;&gt;AutoFit Rows for Merged Cells&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/mngrowscolumnsandcells/search+and+replace+data+in+a+range&#34;&gt;Search and Replace Data in a Range&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/mngrowscolumnsandcells/merge+or+unmerge+range+of+cells&#34;&gt;Merge or Unmerge Range of Cells&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/mngrowscolumnsandcells/get+validation+applied+on+a+cell&#34;&gt;Get Validation Applied on a Cell&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/mngrowscolumnsandcells/verify+that+cell+value+satisfies+data+validation+rules&#34;&gt;Verify that Cell Value Satisfies Data Validation Rules&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/mngrowscolumnsandcells/applying+subtotal+and+changing+direction+of+outline+summary+rows+below+detail&#34;&gt;Applying Subtotal and Changing Direction of Outline Summary Rows below Detail&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/mngrowscolumnsandcells/accessing+table+from+cell+and+adding+values+inside+it+using+row+and+column+offsets&#34;&gt;Accessing Table from Cell and Adding Values inside it using Row and Column Offsets&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/mngrowscolumnsandcells/implementing+non-sequential+ranges&#34;&gt;Implementing Non-Sequential Ranges&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Managing Charts and Shapes</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngchartsandshapes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngchartsandshapes/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--managing-charts-and-shapes&#34;&gt;Aspose.Cells for Java : Managing Charts and Shapes&lt;/h1&gt;
+&lt;h6 id=&#34;this-section-includes-the-following-topics&#34;&gt;This section includes the following topics:&lt;/h6&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/mngchartsandshapes/copy+shapes+between+worksheets&#34;&gt;Copy Shapes between Worksheets&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/mngchartsandshapes/add+wordart+watermark+to+worksheet&#34;&gt;Add WordArt Watermark to Worksheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/mngchartsandshapes/custom+slice+or+sector+colors+in+pie+chart&#34;&gt;Custom Slice or Sector Colors in Pie Chart&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/mngchartsandshapes/add+wordart+watermark+to+chart&#34;&gt;Add WordArt Watermark to Chart&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/mngchartsandshapes/set+picture+as+background+fill+in+the+chart&#34;&gt;Set Picture as Background Fill in the Chart&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/mngchartsandshapes/disable+text+wrapping+for+data+labels+of+the+chart&#34;&gt;Disable Text Wrapping for Data Labels of the Chart&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/mngchartsandshapes/finding+absolute+position+of+shape+inside+the+worksheet&#34;&gt;Finding Absolute Position of Shape inside the Worksheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/mngchartsandshapes/get+worksheet+of+the+chart&#34;&gt;Get Worksheet of the Chart&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/mngchartsandshapes/get+equation+text+of+chart+trendline&#34;&gt;Get Equation Text of Chart Trendline&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/mngchartsandshapes/refresh+values+of+linked+shapes&#34;&gt;Refresh Values of Linked Shapes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/mngchartsandshapes/showing+cell+range+as+the+data+labels&#34;&gt;Showing Cell Range as the Data Labels&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/mngchartsandshapes/copy+sparkline+by+specifying+data+range+and+location+of+sparkline+group&#34;&gt;Copy Sparkline by Specifying Data Range and Location of Sparkline Group&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/mngchartsandshapes/determine+which+axis+exists+in+the+chart&#34;&gt;Determine which Axis exists in the Chart&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/mngchartsandshapes/creating+waterfall+chart&#34;&gt;Creating Waterfall Chart&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/mngchartsandshapes/rich+text+custom+data+label+of+chart+point&#34;&gt;Rich Text Custom Data Label of Chart Point&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/mngchartsandshapes/locking+wordart+watermark&#34;&gt;Locking WordArt Watermark&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/mngchartsandshapes/creating+pie+chart+with+leader+lines&#34;&gt;Creating Pie Chart with Leader Lines&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/mngchartsandshapes/generate+chart+by+processing+smart+markers&#34;&gt;Generate Chart by Processing Smart Markers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/mngchartsandshapes/resize+charts+data+label+shape+to+fit+text&#34;&gt;Resize Chart&amp;rsquo;s Data Label Shape To Fit Text&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/mngchartsandshapes/create+dynamic+charts&#34;&gt;Create Dynamic Charts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/mngchartsandshapes/read+color+of+the+shapes+glow+effect&#34;&gt;Read Color of the Shape&amp;rsquo;s Glow Effect&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/mngchartsandshapes/applying+text+alignment+to+partial+text+inside+the+textbox&#34;&gt;Applying text alignment to partial text inside the TextBox&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/mngchartsandshapes/get+connection+points+from+shape&#34;&gt;Get Connection points from shape&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Managing Database Connections</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngdatabaseconnections/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngdatabaseconnections/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--managing-database-connections&#34;&gt;Aspose.Cells for Java : Managing Database Connections&lt;/h1&gt;
+&lt;h6 id=&#34;this-section-includes-the-following-topics&#34;&gt;This section includes the following topics:&lt;/h6&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/mngdatabaseconnections/retrieving+external+data+sources+details&#34;&gt;Retrieving External Data Sources Details&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/mngdatabaseconnections/retrieving+sql+connection+data&#34;&gt;Retrieving SQL Connection Data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/mngdatabaseconnections/modify+existing+sql+data+connection+using+aspose.cells&#34;&gt;Modify existing SQL Data Connection using Aspose.Cells&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Calculating IFNA function using Aspose.Cells</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/calculating&#43;ifna&#43;function&#43;using&#43;aspose.cells/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/calculating&#43;ifna&#43;function&#43;using&#43;aspose.cells/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--calculating-ifna-function-using-asposecells&#34;&gt;Aspose.Cells for Java : Calculating IFNA function using Aspose.Cells&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells supports the calculation of IFNA Excel function. IFNA function returns the value you specify if the formula returns the #N/A error value; otherwise returns the result of the formula.&lt;/p&gt;
+&lt;h4 id=&#34;calculating-ifna-function-using-asposecells&#34;&gt;Calculating IFNA function using Aspose.Cells&lt;/h4&gt;
+&lt;p&gt;The following sample code illustrates the calculation of IFNA function by Aspose.Cells.&lt;/p&gt;
+&lt;h4 id=&#34;console-output&#34;&gt;Console Output&lt;/h4&gt;
+&lt;p&gt;Here is the console output of the above sample code.&lt;/p&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_8267bbab07&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_8267bbab07&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Not&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;found&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Orange&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Easy way for Chart Setup using Chart.setChartDataRange method</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/easy&#43;way&#43;for&#43;chart&#43;setup&#43;using&#43;chart.setchartdatarange&#43;method/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/easy&#43;way&#43;for&#43;chart&#43;setup&#43;using&#43;chart.setchartdatarange&#43;method/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--easy-way-for-chart-setup-using-chartsetchartdatarange-method&#34;&gt;Aspose.Cells for Java : Easy way for Chart Setup using Chart.setChartDataRange method&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells now provides &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/chart#setChartDataRange(java.lang.String,%20boolean)&#34;&gt;Chart.setChartDataRange()&lt;/a&gt; method to set up chart easily. Using this method, you will now not need to add series and category axis data separately.&lt;/p&gt;
+&lt;h4 id=&#34;the-easy-way-for-chart-setup-using-chartsetchartdatarange-method&#34;&gt;The easy way for Chart Setup using Chart.setChartDataRange method&lt;/h4&gt;
+&lt;p&gt;The following sample code explains the use &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/chart#setChartDataRange(java.lang.String,%20boolean)&#34;&gt;Chart.setChartDataRange()&lt;/a&gt; method to set up the chart easily.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Convert Revision of XLSB to XLSM</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/convert&#43;revision&#43;of&#43;xlsb&#43;to&#43;xlsm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/convert&#43;revision&#43;of&#43;xlsb&#43;to&#43;xlsm/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--convert-revision-of-xlsb-to-xlsm&#34;&gt;Aspose.Cells for Java : Convert Revision of XLSB to XLSM&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells now supports to fully convert revisions of XLSB file into XLSM file. Revisions are found inside the path \xl\revisions. You can view them by changing your XLSB file extension to ZIP. The \xl\revisions path contains files ending with .bin extensions.&lt;/p&gt;
+&lt;p&gt;When you convert your XLSB file into XLSM file using Aspose.Cells, these .bin files successfully converts to .xml files as shown in these two screenshots.&lt;/p&gt;
+&lt;h4 id=&#34;convert-revision-of-xlsb-to-xlsm&#34;&gt;Convert Revision of XLSB to XLSM&lt;/h4&gt;
+&lt;p&gt;The following screenshot shows the .bin files inside the path \xl\revisions of the XLSB file.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276475/5472965.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The following screenshot shows how .bin files have been converted into .xml files when the XLSB file is converted to XLSM format using Aspose.Cells.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276475/5472962.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Here is the code to convert the XLSB file into XLSM format using Aspose.Cells.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Get Cell String Value with and without Formatting</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/get&#43;cell&#43;string&#43;value&#43;with&#43;and&#43;without&#43;formatting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/get&#43;cell&#43;string&#43;value&#43;with&#43;and&#43;without&#43;formatting/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--get-cell-string-value-with-and-without-formatting&#34;&gt;Aspose.Cells for Java : Get Cell String Value with and without Formatting&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells provides a method &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/cell#getStringValue(int)&#34;&gt;Cell.getStringValue()&lt;/a&gt; which can be used to get the string value of the cell with or without any formatting. Suppose, you have a cell with value 0.012345 and you have formatted it to display two decimal places only. It will then display as 0.01 in Excel. You can retrieve string values both as 0.01 and as 0.012345 using the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/cell#getStringValue(int)&#34;&gt;Cell.getStringValue()&lt;/a&gt; method. It takes &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/CellValueFormatStrategy&#34;&gt;CellValueFormatStrategy&lt;/a&gt; enum as a parameter which has the following values&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/cellvalueformatstrategy#CELL_STYLE&#34;&gt;CellValueFormatStrategy.CELL_STYLE&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/cellvalueformatstrategy#DISPLAY_STYLE&#34;&gt;CellValueFormatStrategy.DISPLAY_STYLE&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/cellvalueformatstrategy#NONE&#34;&gt;CellValueFormatStrategy.NONE&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;get-cell-string-value-with-and-without-formatting&#34;&gt;Get Cell String Value with and without Formatting&lt;/h4&gt;
+&lt;p&gt;The following sample code explains the use of &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/cell#getStringValue(int)&#34;&gt;Cell.getStringValue()&lt;/a&gt; method.&lt;/p&gt;
+&lt;h4 id=&#34;console-output&#34;&gt;Console Output&lt;/h4&gt;
+&lt;p&gt;Below is the console output of the above sample code.&lt;/p&gt;
+&lt;p&gt;0.010.012345&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Render Custom Date Format Pattern g and ge mm dd</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/render&#43;custom&#43;date&#43;format&#43;pattern&#43;g&#43;and&#43;ge&#43;mm&#43;dd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/render&#43;custom&#43;date&#43;format&#43;pattern&#43;g&#43;and&#43;ge&#43;mm&#43;dd/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--render-custom-date-format-pattern-g-and-ge-mm-dd&#34;&gt;Aspose.Cells for Java : Render Custom Date Format Pattern g and ge mm dd&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells is now able to render the custom date format pattern like g, ge.mm.dd and similar. Please check the attached &lt;a href=&#34;https://docs2.aspose.com/cells/java/attachments/5276477/95584282.xlsx&#34;&gt;source excel file&lt;/a&gt; and the &lt;a href=&#34;https://docs2.aspose.com/cells/java/attachments/5276477/95584283.pdf&#34;&gt;converted PDF&lt;/a&gt; by Aspose.Cells for your reference.&lt;/p&gt;
+&lt;h4 id=&#34;render-custom-date-format-pattern-g-and-gemmdd&#34;&gt;Render Custom Date Format Pattern g and ge.mm.dd&lt;/h4&gt;
+&lt;p&gt;The following sample code converts the &lt;a href=&#34;https://docs2.aspose.com/cells/java/attachments/5276477/95584282.xlsx&#34;&gt;source excel file&lt;/a&gt; which contains date values with custom format patterns like g and ge.mm.dd into &lt;a href=&#34;https://docs2.aspose.com/cells/java/attachments/5276477/95584283.pdf&#34;&gt;output PDF&lt;/a&gt;.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Copy Row Heights of Source Range to Destination Range</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/copy&#43;row&#43;heights&#43;of&#43;source&#43;range&#43;to&#43;destination&#43;range/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/copy&#43;row&#43;heights&#43;of&#43;source&#43;range&#43;to&#43;destination&#43;range/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--copy-row-heights-of-source-range-to-destination-range&#34;&gt;Aspose.Cells for Java : Copy Row Heights of Source Range to Destination Range&lt;/h1&gt;
+&lt;p&gt;Sometime user needs to copy row heights of source range to destination range. Aspose.Cells provides &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/pastetype#ROW_HEIGHTS&#34;&gt;PasteType.ROW_HEIGHTS&lt;/a&gt; enum for this purpose. When you will set &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/pasteoptions#PasteType&#34;&gt;PasteOptions.setPasteType()&lt;/a&gt; property with &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/pastetype#ROW_HEIGHTS&#34;&gt;PasteType.ROW_HEIGHTS&lt;/a&gt; enum then heights of all rows inside the source range will be copied to the destination range.&lt;/p&gt;
+&lt;h4 id=&#34;copy-row-heights-of-source-range-to-destination-range&#34;&gt;Copy Row Heights of Source Range to Destination Range&lt;/h4&gt;
+&lt;p&gt;The following sample code explains how to use &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/pastetype#ROW_HEIGHTS&#34;&gt;PasteType.ROW_HEIGHTS&lt;/a&gt; enum to copy row heights of source range into destination range. Once you will open the output excel file generated by this code in Microsoft Excel, you will see that destination range row heights are exactly the same as source range row heights.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Calculate Page Setup Scaling Factor</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/calculate&#43;page&#43;setup&#43;scaling&#43;factor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/calculate&#43;page&#43;setup&#43;scaling&#43;factor/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--calculate-page-setup-scaling-factor&#34;&gt;Aspose.Cells for Java : Calculate Page Setup Scaling Factor&lt;/h1&gt;
+&lt;p&gt;When you set Page Setup Scaling using &lt;strong&gt;Fit to n page(s) wide by m tall&lt;/strong&gt; option, Microsoft Excel calculates the Page Setup Scaling Factor. You can calculate the same thing using &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/sheetrender#PageScale&#34;&gt;SheetRender.getPageScale()&lt;/a&gt; property. This property returns a double value which can be converted to a percentage value. For example, if it returns 0.5079621076 then it means the scaling factor is 51%.&lt;/p&gt;
+&lt;h4 id=&#34;calculate-page-setup-scaling-factor&#34;&gt;Calculate Page Setup Scaling Factor&lt;/h4&gt;
+&lt;p&gt;The following sample code illustrates how to calculate page setup scaling factor using &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/sheetrender#PageScale&#34;&gt;SheetRender.getPageScale()&lt;/a&gt; property.&lt;/p&gt;
+&lt;h4 id=&#34;console-output&#34;&gt;Console Output&lt;/h4&gt;
+&lt;p&gt;Here is the console output of the above sample code.&lt;/p&gt;
+&lt;p&gt;0.5079621076583862&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Returning a Range of Values using ICustomFunction</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/returning&#43;a&#43;range&#43;of&#43;values&#43;using&#43;icustomfunction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/returning&#43;a&#43;range&#43;of&#43;values&#43;using&#43;icustomfunction/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--returning-a-range-of-values-using-icustomfunction&#34;&gt;Aspose.Cells for Java : Returning a Range of Values using ICustomFunction&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells provides &lt;a href=&#34;https://apireference.aspose.com/cells/java/com.aspose.cells/ICustomFunction&#34;&gt;ICustomFunction&lt;/a&gt; interface which is used to implement user-defined or custom functions that are not supported by Microsoft Excel as built-in functions.&lt;/p&gt;
+&lt;p&gt;Mostly when you implement the &lt;a href=&#34;https://apireference.aspose.com/cells/java/com.aspose.cells/ICustomFunction&#34;&gt;ICustomFunction&lt;/a&gt;interface method, you need to return a single cell value. But sometimes, you need to return a range of values. This article will explain how to return the range of values from &lt;a href=&#34;https://apireference.aspose.com/cells/java/com.aspose.cells/ICustomFunction&#34;&gt;ICustomFunction&lt;/a&gt;.&lt;/p&gt;
+&lt;h4 id=&#34;returning-a-range-of-values-using-icustomfunction&#34;&gt;Returning a Range of Values using ICustomFunction&lt;/h4&gt;
+&lt;p&gt;The following code implements &lt;a href=&#34;https://apireference.aspose.com/cells/java/com.aspose.cells/ICustomFunction&#34;&gt;ICustomFunction&lt;/a&gt;and returns the range of values via its method. Please check the &lt;a href=&#34;https://docs2.aspose.com/cells/java/attachments/5276466/5472922.xlsx&#34;&gt;output excel file&lt;/a&gt; and &lt;a href=&#34;https://docs2.aspose.com/cells/java/attachments/5276466/5472925.pdf&#34;&gt;pdf&lt;/a&gt; generated with the code for your reference.&lt;/p&gt;
+&lt;p&gt;Create a class with a function &lt;em&gt;CalculateCustomFunction&lt;/em&gt;. This class implements &lt;a href=&#34;https://apireference.aspose.com/cells/java/com.aspose.cells/ICustomFunction&#34;&gt;ICustomFunction&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Now use the above function into your program.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Calculate the Width and Height of the Cell Value in Unit of Pixels</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/calculate&#43;the&#43;width&#43;and&#43;height&#43;of&#43;the&#43;cell&#43;value&#43;in&#43;unit&#43;of&#43;pixels/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/calculate&#43;the&#43;width&#43;and&#43;height&#43;of&#43;the&#43;cell&#43;value&#43;in&#43;unit&#43;of&#43;pixels/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--calculate-the-width-and-height-of-the-cell-value-in-unit-of-pixels&#34;&gt;Aspose.Cells for Java : Calculate the Width and Height of the Cell Value in Unit of Pixels&lt;/h1&gt;
+&lt;p&gt;Sometimes you need to calculate the width and height of cell value to fit the cell value inside the cell. Aspose.Cells provides &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/cell#getWidthOfValue()&#34;&gt;Cell.getWidthOfValue()&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/cell#getHeightOfValue()&#34;&gt;Cell.getHeightOfValue()&lt;/a&gt; methods for this purpose. By using these methods you can calculate width and height of the cell value and then set the width of the column and height of the row of that cell respectively and this will then adjust or fit the cell value inside the cell.&lt;/p&gt;
+&lt;p&gt;Alternatively, you can also &lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/rowsandcolumns/autofit+rows+and+columns&#34;&gt;autofit rows and columns of your cell or range of cells&lt;/a&gt; using Aspose.Cells APIs.&lt;/p&gt;
+&lt;h4 id=&#34;calculate-the-width-and-height-of-the-cell-value-in-unit-of-pixels&#34;&gt;Calculate the Width and Height of the Cell Value in Unit of Pixels&lt;/h4&gt;
+&lt;p&gt;The following code explains the use of &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/cell#getWidthOfValue()&#34;&gt;Cell.getWidthOfValue()&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/cell#getHeightOfValue()&#34;&gt;Cell.getHeightOfValue()&lt;/a&gt; methods.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Release Unmanaged Resources of the Workbook</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/release&#43;unmanaged&#43;resources&#43;of&#43;the&#43;workbook/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/release&#43;unmanaged&#43;resources&#43;of&#43;the&#43;workbook/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--release-unmanaged-resources-of-the-workbook&#34;&gt;Aspose.Cells for Java : Release Unmanaged Resources of the Workbook&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells provides &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/workbook#dispose()&#34;&gt;Workbook.dispose()&lt;/a&gt; method to release the unmanaged resources of the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/Workbook&#34;&gt;Workbook&lt;/a&gt; object. The dispose pattern is used only for objects that access unmanaged resources, such as file and pipe handles, registry handles, wait handles or pointers to blocks of unmanaged memory. This is because the garbage collector is very efficient at reclaiming unused managed objects, but it is unable to reclaim unmanaged objects.&lt;/p&gt;
+&lt;h4 id=&#34;release-unmanaged-resources-of-the-workbook&#34;&gt;Release Unmanaged Resources of the Workbook&lt;/h4&gt;
+&lt;p&gt;The following sample code shows how to make use of the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/workbook#dispose()&#34;&gt;Workbook.dispose()&lt;/a&gt; method.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Render Worksheet to Graphic Context</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/render&#43;worksheet&#43;to&#43;graphic&#43;context/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/render&#43;worksheet&#43;to&#43;graphic&#43;context/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--render-worksheet-to-graphic-context&#34;&gt;Aspose.Cells for Java : Render Worksheet to Graphic Context&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells can now render worksheet to graphic context. Graphic context can be anything like image file, screen or printer etc. Please us the following method to render worksheet to graphic context.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;SheetRender.toImage(int pageIndex, Graphics2D graphic)&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;render-worksheet-to-graphic-context&#34;&gt;Render Worksheet to Graphic Context&lt;/h4&gt;
+&lt;p&gt;The following code illustrates how to use Aspose.Cells to render worksheet to graphic context. Once you will execute a code, it will print the entire worksheet and fill the leftover empty space with blue color in graphics context and save the image as &lt;strong&gt;test.png&lt;/strong&gt; file. You can use any source excel file to try this code. Please also read the comments inside the code for better understanding.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Get the Cell object by DisplayName of PivotField of PivotTable</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/get&#43;the&#43;cell&#43;object&#43;by&#43;displayname&#43;of&#43;pivotfield&#43;of&#43;pivottable/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/get&#43;the&#43;cell&#43;object&#43;by&#43;displayname&#43;of&#43;pivotfield&#43;of&#43;pivottable/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--get-the-cell-object-by-displayname-of-pivotfield-of-pivottable&#34;&gt;Aspose.Cells for Java : Get the Cell object by DisplayName of PivotField of PivotTable&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells provides &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/pivottable#getCellByDisplayName(java.lang.String)&#34;&gt;PivotTable.getCellByDisplayName()&lt;/a&gt; method which you can use to access the cell object by the display name of the pivot field. This method is useful when you want to highlight or format your pivot field header. This article explains how to retrieve the cell object by the display name of the data field and then apply formatting to it.&lt;/p&gt;
+&lt;h4 id=&#34;get-the-cell-object-by-displayname-of-pivotfield-of-pivottable&#34;&gt;Get the Cell object by DisplayName of PivotField of PivotTable&lt;/h4&gt;
+&lt;p&gt;The following code accesses the first pivot table of the worksheet and then gets cell by the display name of the second data field of the pivot table. It then changes the fill color and font color of the cell to light blue and black respectively. Below screenshots show how the pivot table looks before and after the execution of the code.&lt;/p&gt;
+&lt;h5 id=&#34;pivot-table---before&#34;&gt;Pivot Table - Before&lt;/h5&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276470/5472921.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h5 id=&#34;pivot-table---after&#34;&gt;Pivot Table - After&lt;/h5&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276470/5472918.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Change Adjustment Values of the Shape</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/change&#43;adjustment&#43;values&#43;of&#43;the&#43;shape/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/change&#43;adjustment&#43;values&#43;of&#43;the&#43;shape/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--change-adjustment-values-of-the-shape&#34;&gt;Aspose.Cells for Java : Change Adjustment Values of the Shape&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells provides &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/geometry#ShapeAdjustValues&#34;&gt;Shape.getGeometry().getShapeAdjustValues()&lt;/a&gt; property to make changes to the adjustment points with shapes. In the Microsoft Excel UI, adjustments display as yellow diamond nodes. For example:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Rounded Rectangle has an adjustment to change the arc&lt;/li&gt;
+&lt;li&gt;Triangle has an adjustment to change the location of the point&lt;/li&gt;
+&lt;li&gt;A trapezoid has an adjustment to change the width of the top&lt;/li&gt;
+&lt;li&gt;Arrows have two adjustments to change the shape of the head and tail&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This article will explain the use of &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/geometry#ShapeAdjustValues&#34;&gt;Shape.getGeometry().getShapeAdjustValues()&lt;/a&gt; property to change the adjustment value of the different shapes.&lt;/p&gt;
+&lt;h4 id=&#34;change-adjustment-values-of-the-shape&#34;&gt;Change Adjustment Values of the Shape&lt;/h4&gt;
+&lt;p&gt;The following sample code accesses first three shapes of the first worksheet in the source excel file and then changes the adjustment values of the shapes. Below screenshots show how the shapes look before changing adjustment values and then after changing adjustment values.&lt;/p&gt;
+&lt;h5 id=&#34;drawing-shapes-before-changing-adjustment-values&#34;&gt;Drawing Shapes Before Changing Adjustment Values&lt;/h5&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276469/5472917.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h5 id=&#34;drawing-shapes-after-changing-adjustment-values&#34;&gt;Drawing Shapes After Changing Adjustment Values&lt;/h5&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276469/5472914.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Copy Range Data Only</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/copy&#43;range&#43;data&#43;only/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/copy&#43;range&#43;data&#43;only/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--copy-range-data-only&#34;&gt;Aspose.Cells for Java : Copy Range Data Only&lt;/h1&gt;
+&lt;p&gt;Sometimes, you need to copy data from one range of cells to another, copying the data only, not the formatting. Aspose.Cells offers this feature by providing the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/range#copyData(com.aspose.cells.Range)&#34;&gt;Range.copyData&lt;/a&gt; method.&lt;/p&gt;
+&lt;h4 id=&#34;copy-range-data-only&#34;&gt;Copy Range Data Only&lt;/h4&gt;
+&lt;p&gt;This example shows how to:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Create a workbook.&lt;/li&gt;
+&lt;li&gt;Add data to cells in the first worksheet.&lt;/li&gt;
+&lt;li&gt;Create a range.&lt;/li&gt;
+&lt;li&gt;Create a style object with specified formatting attributes.&lt;/li&gt;
+&lt;li&gt;Apply the style formatting to the range.&lt;/li&gt;
+&lt;li&gt;Create another range of cells.&lt;/li&gt;
+&lt;li&gt;Copy data of the first range to this second range by using the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/range#copyData(com.aspose.cells.Range)&#34;&gt;Range.copyData&lt;/a&gt; method.&lt;/li&gt;
+&lt;/ol&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Copy Range Data with Style</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/copy&#43;range&#43;data&#43;with&#43;style/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/copy&#43;range&#43;data&#43;with&#43;style/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--copy-range-data-with-style&#34;&gt;Aspose.Cells for Java : Copy Range Data with Style&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/copy+range+data+only&#34;&gt;Copy Range Data Only&lt;/a&gt; explained how to copy the data from a range of cells to another range. Aspose.Cells can also copy a range complete with formatting. This article explains how.&lt;/p&gt;
+&lt;h4 id=&#34;copy-range-data-with-style&#34;&gt;Copy Range Data with Style&lt;/h4&gt;
+&lt;p&gt;Aspose.Cells provides a range of classes and methods for working with ranges, for example, &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/cells#createRange(int,%20int,%20boolean)&#34;&gt;createRange()&lt;/a&gt;, &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/StyleFlag&#34;&gt;StyleFlag&lt;/a&gt;, &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/cells#applyStyle(com.aspose.cells.Style,%20com.aspose.cells.StyleFlag)&#34;&gt;applyStyle()&lt;/a&gt;, etc.&lt;/p&gt;
+&lt;p&gt;This example:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Creates a workbook.&lt;/li&gt;
+&lt;li&gt;Fills a number of cells in the first worksheet with data.&lt;/li&gt;
+&lt;li&gt;Creates a range.&lt;/li&gt;
+&lt;li&gt;Creates a style object with specified formatting attributes.&lt;/li&gt;
+&lt;li&gt;Applies the style to the data range.&lt;/li&gt;
+&lt;li&gt;Creates a second range of cells.&lt;/li&gt;
+&lt;li&gt;Copies data with the formatting from the first range to the second range.&lt;/li&gt;
+&lt;/ol&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Copy Range Style Only</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/copy&#43;range&#43;style&#43;only/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/copy&#43;range&#43;style&#43;only/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--copy-range-style-only&#34;&gt;Aspose.Cells for Java : Copy Range Style Only&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/copy+range+data+only&#34;&gt;Copy Range Data Only&lt;/a&gt; and &lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/copy+range+data+with+style&#34;&gt;Copy Range Data with Style&lt;/a&gt; explained how to copy data from a range to another with or without formatting. It is also possible to copy only the formatting of the range. This article shows how.&lt;/p&gt;
+&lt;h4 id=&#34;copy-range-style-only&#34;&gt;Copy Range Style Only&lt;/h4&gt;
+&lt;p&gt;This example creates a workbook, populates it with data and copies a range&amp;rsquo;s style only.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Create a range.&lt;/li&gt;
+&lt;li&gt;Create a style object with specified formatting attributes.&lt;/li&gt;
+&lt;li&gt;Apply the style formatting to the range.&lt;/li&gt;
+&lt;li&gt;Create a second range of cells.&lt;/li&gt;
+&lt;li&gt;Copy the first range&amp;rsquo;s formatting to the second range.&lt;/li&gt;
+&lt;/ol&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Delete Blank Rows and Columns in a Worksheet</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/delete&#43;blank&#43;rows&#43;and&#43;columns&#43;in&#43;a&#43;worksheet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/delete&#43;blank&#43;rows&#43;and&#43;columns&#43;in&#43;a&#43;worksheet/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--delete-blank-rows-and-columns-in-a-worksheet&#34;&gt;Aspose.Cells for Java : Delete Blank Rows and Columns in a Worksheet&lt;/h1&gt;
+&lt;p&gt;It is possible to delete all blank rows and columns from a worksheet. This is useful for example when generating a PDF file from a Microsoft Excel file and you want to convert only rows and columns that contain data.&lt;/p&gt;
+&lt;p&gt;Use the following Aspose.Cells methods to delete empty rows and columns:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;To delete blank rows, use the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/cells#deleteBlankRows()&#34;&gt;Cells.deleteBlankRows()&lt;/a&gt; method.&lt;/li&gt;
+&lt;li&gt;To delete blank columns, use the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/cells#deleteBlankColumns()&#34;&gt;Cells.deleteBlankColumns()&lt;/a&gt; method.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;deleting-blank-rows&#34;&gt;Deleting Blank Rows&lt;/h4&gt;
+&lt;h4 id=&#34;deleting-blank-columns&#34;&gt;Deleting Blank Columns&lt;/h4&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Move Range of Cells in a Worksheet</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/move&#43;range&#43;of&#43;cells&#43;in&#43;a&#43;worksheet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/move&#43;range&#43;of&#43;cells&#43;in&#43;a&#43;worksheet/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--move-range-of-cells-in-a-worksheet&#34;&gt;Aspose.Cells for Java : Move Range of Cells in a Worksheet&lt;/h1&gt;
+&lt;p&gt;This article shows how to move a range of cells in a worksheet.&lt;/p&gt;
+&lt;h4 id=&#34;move-range-of-cells-in-a-worksheet&#34;&gt;Move Range of Cells in a Worksheet&lt;/h4&gt;
+&lt;p&gt;The example code uses a template file to demonstrate the task.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The input file&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276489/5472910.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Please see the following generated file with range A1:B5 moved to C1:D5.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The output file&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276489/5472913.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Adding Custom Labels to Data Points in the Series of the Chart</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/adding&#43;custom&#43;labels&#43;to&#43;data&#43;points&#43;in&#43;the&#43;series&#43;of&#43;the&#43;chart/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/adding&#43;custom&#43;labels&#43;to&#43;data&#43;points&#43;in&#43;the&#43;series&#43;of&#43;the&#43;chart/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--adding-custom-labels-to-data-points-in-the-series-of-the-chart&#34;&gt;Aspose.Cells for Java : Adding Custom Labels to Data Points in the Series of the Chart&lt;/h1&gt;
+&lt;p&gt;You can add custom labels to data points in the series of the chart. Aspose.Cells provides &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/datalabels#Text&#34;&gt;ChartPoint.getDataLabels().setText()&lt;/a&gt; property to add these custom labels. This article will explain how to use this property to add custom labels to data points in the series of the chart.&lt;/p&gt;
+&lt;h4 id=&#34;adding-custom-labels-to-data-points-in-the-series-of-the-chart&#34;&gt;Adding Custom Labels to Data Points in the Series of the Chart&lt;/h4&gt;
+&lt;p&gt;The following code creates Scatter Chart Connected By Lines With Data Markers and then adds Custom Labels to the Data Points in the Series of the Chart. Each custom label shows Series Name and Point Name. You can use any other text instead of it. After the execution of the code, the following Excel file is created. As you can see inside the Chart, each DataPoint has Custom Label set.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276490/5472939.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Using WorkbookMetadata</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/using&#43;workbookmetadata/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/using&#43;workbookmetadata/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--using-workbookmetadata&#34;&gt;Aspose.Cells for Java : Using WorkbookMetadata&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells allows you to load a light-weight version of the workbook into memory to edit its metadata information. Please use the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/WorkbookMetadata&#34;&gt;com.aspose.cells.WorkbookMetadata&lt;/a&gt; class to load the workbook.&lt;/p&gt;
+&lt;h4 id=&#34;using-workbookmetadata&#34;&gt;Using WorkbookMetadata&lt;/h4&gt;
+&lt;p&gt;The following sample code uses &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/WorkbookMetadata&#34;&gt;WorkbookMetadata&lt;/a&gt; class to edit custom document properties of a workbook. Once you open the workbook using &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/Workbook&#34;&gt;Workbook&lt;/a&gt; class, you will be able to read the document properties.&lt;/p&gt;
+&lt;p&gt;Here is a sample code using the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/WorkbookMetadata&#34;&gt;WorkbookMetadata&lt;/a&gt; class.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Assign Macro Code to Form Control</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/assign&#43;macro&#43;code&#43;to&#43;form&#43;control/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/assign&#43;macro&#43;code&#43;to&#43;form&#43;control/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--assign-macro-code-to-form-control&#34;&gt;Aspose.Cells for Java : Assign Macro Code to Form Control&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells allows you to assign a Macro Code to a Form Control like a Button. Please use the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/shapecollection#addShape(int,%20int,%20int,%20int,%20int,%20int,%20int)&#34;&gt;ShapeCollection.addShape()&lt;/a&gt; method to assign a new Macro Code to a Form Control inside the workbook.&lt;/p&gt;
+&lt;h4 id=&#34;assigning-macro-code-to-form-control-using-asposecells&#34;&gt;Assigning Macro Code to Form Control using Aspose.Cells&lt;/h4&gt;
+&lt;p&gt;The following sample code creates a new workbook, assign a Macro Code to a Form Buttom and saves the output in the XLSM format. Once, you will open the output XLSM file in Microsoft Excel you will see the following macro code.&lt;/p&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_92277c1dc7&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_92277c1dc7&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Sub&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;ShowMessage&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;()&lt;/span&gt;
+    &lt;span style=&#34;color:#000&#34;&gt;MsgBox&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Welcome to Aspose!&amp;#34;&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;End&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Sub&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;p&gt;Here is a sample code to generate the output XLSM file with Macro Code.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Disable Exporting Frame Scripts and Document Properties</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/disable&#43;exporting&#43;frame&#43;scripts&#43;and&#43;document&#43;properties/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/disable&#43;exporting&#43;frame&#43;scripts&#43;and&#43;document&#43;properties/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--disable-exporting-frame-scripts-and-document-properties&#34;&gt;Aspose.Cells for Java : Disable Exporting Frame Scripts and Document Properties&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells exports frame scripts and document properties while converting a workbook into HTML. The 8.6.0 version of Aspose.Cells for Java introduces an option that allows you optionally disable exporting frame scripts and document properties. Please use the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/htmlsaveoptions#ExportFrameScriptsAndProperties&#34;&gt;HtmlSaveOptions.setExportFrameScriptsAndProperties()&lt;/a&gt; property to disable the export.&lt;/p&gt;
+&lt;h4 id=&#34;disable-exporting-frame-scripts-and-document-properties&#34;&gt;Disable exporting frame scripts and document properties&lt;/h4&gt;
+&lt;p&gt;The following sample code allows you to disable exporting frame scripts and document properties. Once you convert a workbook into HTML, the output file will not contain any frame scripts and document properties.&lt;/p&gt;
+&lt;p&gt;Here is a sample code.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Editing Hyperlinks of Worksheet</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/editing&#43;hyperlinks&#43;of&#43;worksheet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/editing&#43;hyperlinks&#43;of&#43;worksheet/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--editing-hyperlinks-of-worksheet&#34;&gt;Aspose.Cells for Java : Editing Hyperlinks of Worksheet&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells allows you to access all the hyperlinks of the worksheet using the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/worksheet#Hyperlinks&#34;&gt;Worksheet.Hyperlinks&lt;/a&gt; collection. You can access each hyperlink from this collection one by one and edit its properties.&lt;/p&gt;
+&lt;h4 id=&#34;editing-hyperlinks-of-worksheet&#34;&gt;Editing Hyperlinks of Worksheet&lt;/h4&gt;
+&lt;p&gt;The following sample code accesses all the hyperlinks of the worksheet and changes their &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/hyperlink#Address&#34;&gt;Hyperlink.Address&lt;/a&gt; property to the Aspose website.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Working with External Data Connection of type WebQuery</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/working&#43;with&#43;external&#43;data&#43;connection&#43;of&#43;type&#43;webquery/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/working&#43;with&#43;external&#43;data&#43;connection&#43;of&#43;type&#43;webquery/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--working-with-external-data-connection-of-type-webquery&#34;&gt;Aspose.Cells for Java : Working with External Data Connection of type WebQuery&lt;/h1&gt;
+&lt;p&gt;You can access the external data connection of any type using the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/workbook#DataConnections&#34;&gt;Workbook.DataConnections&lt;/a&gt; collection. One type of such a data connection is WebQuery. This article will show you how to work with the WebQuery data connection. You can create WebQuery data connection in Microsoft Excel using the &lt;strong&gt;Data&lt;/strong&gt; &amp;gt; &lt;strong&gt;From Web&lt;/strong&gt; menu.&lt;/p&gt;
+&lt;h4 id=&#34;working-with-external-data-connection-of-type-webquery&#34;&gt;Working with External Data Connection of type WebQuery&lt;/h4&gt;
+&lt;p&gt;The following code shows how to work with external data connection of type &lt;strong&gt;WebQuery&lt;/strong&gt;. It uses the &lt;a href=&#34;https://docs2.aspose.com/cells/java/attachments/5276483/5472941.xlsx&#34;&gt;sample excel file&lt;/a&gt; which you can download from the provided link. You can also see the console output of this code further below.&lt;/p&gt;
+&lt;h4 id=&#34;console-output&#34;&gt;Console Output&lt;/h4&gt;
+&lt;p&gt;Here is the console output of the above code with this &lt;a href=&#34;https://docs2.aspose.com/cells/java/attachments/5276483/5472941.xlsx&#34;&gt;sample excel file&lt;/a&gt;.&lt;/p&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_7599cb4adb&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_7599cb4adb&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Web&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Query&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;URL&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;http&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//www.aspose.com/docs/display/cellsnet/Home
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Access and Update the Portions of Rich Text of Cell</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/access&#43;and&#43;update&#43;the&#43;portions&#43;of&#43;rich&#43;text&#43;of&#43;cell/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/access&#43;and&#43;update&#43;the&#43;portions&#43;of&#43;rich&#43;text&#43;of&#43;cell/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--access-and-update-the-portions-of-rich-text-of-cell&#34;&gt;Aspose.Cells for Java : Access and Update the Portions of Rich Text of Cell&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells allows you to access and update the portions of the rich text of cell. For this purpose, you can use &lt;code&gt;Cell.getCharacters()&lt;/code&gt; and &lt;code&gt;Cell.setCharacters()&lt;/code&gt; methods. These methods will return and accept the array of &lt;code&gt;FontSetting&lt;/code&gt; objects which you can use to access and update various properties of font like font name, font color, boldness etc.&lt;/p&gt;
+&lt;h4 id=&#34;access-and-update-the-portions-of-rich-text-of-cell&#34;&gt;Access and Update the Portions of Rich Text of Cell&lt;/h4&gt;
+&lt;p&gt;The following code demonstrates the usage of &lt;code&gt;Cell.getCharacters()&lt;/code&gt; and &lt;code&gt;Cell.setCharacters()&lt;/code&gt; method using the &lt;a href=&#34;https://docs2.aspose.com/cells/java/attachments/5276482/5472937.xlsx&#34;&gt;source excel file&lt;/a&gt; which you can download from the provided link. The source excel file has a rich text in the cell A1. It has 3 portions and each portion has different font. We will access these portions and update the first portion with new font name. Finally it saves the workbook as &lt;a href=&#34;https://docs2.aspose.com/cells/java/attachments/5276482/5472930.xlsx&#34;&gt;output excel file&lt;/a&gt;. When you will open it, you will find the font of the first portion of the text has changed to &lt;strong&gt;&amp;ldquo;Arial&amp;rdquo;&lt;/strong&gt;.&lt;/p&gt;
+&lt;h4 id=&#34;console-output&#34;&gt;Console Output&lt;/h4&gt;
+&lt;p&gt;Here is the console output of the above sample code using the &lt;a href=&#34;https://docs2.aspose.com/cells/java/attachments/5276482/5472937.xlsx&#34;&gt;source excel file&lt;/a&gt;.&lt;/p&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_bfef9c51c2&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_bfef9c51c2&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Before&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;updating&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;the&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;font&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;settings&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;....&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Century&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Courier&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;New&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Verdana&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;After&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;updating&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;the&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;font&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;settings&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;....&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Arial&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Courier&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;New&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Verdana&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Change the HTML Link Target Type</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/change&#43;the&#43;html&#43;link&#43;target&#43;type/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/change&#43;the&#43;html&#43;link&#43;target&#43;type/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--change-the-html-link-target-type&#34;&gt;Aspose.Cells for Java : Change the HTML Link Target Type&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells allows you to change the HTML link target type. HTML link looks like this&lt;/p&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_db2337cdf3&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_db2337cdf3&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;a&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;href&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;http://www.aspose.com/&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;target&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;_self&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;p&gt;As you can see the target attribute in the above HTML link is &lt;strong&gt;_self&lt;/strong&gt;. You can control this target attribute using the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/htmlsaveoptions#LinkTargetType&#34;&gt;HtmlSaveOptions.setLinkTargetType()&lt;/a&gt; property. This property takes the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/HtmlLinkTargetType&#34;&gt;HtmlLinkTargetType&lt;/a&gt; enum which has the following values.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/htmllinktargettype#BLANK&#34;&gt;BLANK&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/htmllinktargettype#PARENT&#34;&gt;PARENT&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/htmllinktargettype#SELF&#34;&gt;SELF&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/htmllinktargettype#TOP&#34;&gt;TOP&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;change-the-html-link-target-type&#34;&gt;Change the HTML Link Target Type&lt;/h4&gt;
+&lt;p&gt;The following code illustrates the usage of &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/htmlsaveoptions#LinkTargetType&#34;&gt;HtmlSaveOptions.setLinkTargetType()&lt;/a&gt; property. It changes the link target type to &lt;strong&gt;blank&lt;/strong&gt;. By default, it is the &lt;strong&gt;parent&lt;/strong&gt;. You can get the &lt;a href=&#34;https://docs2.aspose.com/cells/java/attachments/5276487/5472932.xlsx&#34;&gt;source excel file&lt;/a&gt; from this link however you can use any excel file which contains an HTML hyperlink inside it to run this code.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Getting Notifications while Merging Data with Smart Markers</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/getting&#43;notifications&#43;while&#43;merging&#43;data&#43;with&#43;smart&#43;markers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/getting&#43;notifications&#43;while&#43;merging&#43;data&#43;with&#43;smart&#43;markers/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--getting-notifications-while-merging-data-with-smart-markers&#34;&gt;Aspose.Cells for Java : Getting Notifications while Merging Data with Smart Markers&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells APIs provide the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/WorkbookDesigner&#34;&gt;WorkbookDesigner&lt;/a&gt; class to &lt;a href=&#34;http://aspose.com/docs/display/cellsjava/Smart+Markers&#34;&gt;work with Smart Markers&lt;/a&gt; where the formatting &amp;amp; formulas are placed in the &lt;a href=&#34;http://www.aspose.com/docs/display/cellsjava/What+is+a+Designer+Spreadsheet&#34;&gt;designer spreadsheets&lt;/a&gt; and then processed with &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/WorkbookDesigner&#34;&gt;WorkbookDesigner&lt;/a&gt;class to fill up the data according to specified Smart Markers. Sometimes, it may be required to get the notifications about the cell reference or the particular Smart Marker being processed. This can be achieved using the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/workbookdesigner#CallBack&#34;&gt;WorkbookDesigner.CallBack&lt;/a&gt; property and &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/ISmartMarkerCallBack&#34;&gt;ISmartMarkerCallBack&lt;/a&gt; interface exposed with the release of Aspose.Cells for Java 8.6.2.&lt;/p&gt;
+&lt;h2 id=&#34;get-notifications-while-merging-data-with-smart-markers&#34;&gt;Get Notifications while Merging Data with Smart Markers&lt;/h2&gt;
+&lt;p&gt;The following piece of code demonstrates the usage of &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/ISmartMarkerCallBack&#34;&gt;ISmartMarkerCallBack&lt;/a&gt;interface to define a new class that handles the call back for &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/workbookdesigner#process()&#34;&gt;WorkbookDesigner.process&lt;/a&gt; method.&lt;/p&gt;
+&lt;p&gt;In order to keep the example simple and to the point, the following snippet creates an empty designer spreadsheet, inserts a Smart Marker and processes it with the dynamically created data source.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Remove Unused Styles inside the Workbook</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/remove&#43;unused&#43;styles&#43;inside&#43;the&#43;workbook/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/remove&#43;unused&#43;styles&#43;inside&#43;the&#43;workbook/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--remove-unused-styles-inside-the-workbook&#34;&gt;Aspose.Cells for Java : Remove Unused Styles inside the Workbook&lt;/h1&gt;
+&lt;p&gt;Unused styles in excel file not only takes space but also cause performance issues while converting to different formats like PDF, HTML, etc. Aspose.Cells provides the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/workbook#removeUnusedStyles()&#34;&gt;Workbook.removeUnusedStyles()&lt;/a&gt; to remove all the unused styles inside the workbook.&lt;/p&gt;
+&lt;h4 id=&#34;remove-unused-styles-inside-the-workbook&#34;&gt;Remove Unused Styles inside the Workbook&lt;/h4&gt;
+&lt;p&gt;The following code explains the usage of &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/workbook#removeUnusedStyles()&#34;&gt;Workbook.removeUnusedStyles()&lt;/a&gt;. The code loads the &lt;a href=&#34;https://docs2.aspose.com/cells/java/attachments/5275811/5473451.xlsx&#34;&gt;template excel file&lt;/a&gt; which you can download from the provided link. It contains an unused style named &lt;strong&gt;AsposeStyle&lt;/strong&gt;, this style and all other unused styles will be removed after the execution of the code. Please see the following screenshot for more illustration.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5275811/5473450.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Using Built-in Styles</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/using&#43;built-in&#43;styles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/using&#43;built-in&#43;styles/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--using-built-in-styles&#34;&gt;Aspose.Cells for Java : Using Built-in Styles&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells provides a vast collection of re-usable styles to format a cell in a spreadsheet document. We can use built-in styles in our workbook and also create custom styles.&lt;/p&gt;
+&lt;h3 id=&#34;how-to-use-built-in-styles&#34;&gt;How to use Built-in Styles&lt;/h3&gt;
+&lt;p&gt;The method &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/workbook#createBuiltinStyle(int)&#34;&gt;Workbook.createBuiltinStyle&lt;/a&gt; and class &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/BuiltinStyleType&#34;&gt;BuiltinStyleType&lt;/a&gt; make it convenient to create re-usable styles. Here is a list of all possible built-in styles:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/builtinstyletype#TWENTY_PERCENT_ACCENT_1&#34;&gt;TWENTY_PERCENT_ACCENT_1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/builtinstyletype#TWENTY_PERCENT_ACCENT_2&#34;&gt;TWENTY_PERCENT_ACCENT_2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/builtinstyletype#TWENTY_PERCENT_ACCENT_3&#34;&gt;TWENTY_PERCENT_ACCENT_3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/builtinstyletype#TWENTY_PERCENT_ACCENT_4&#34;&gt;TWENTY_PERCENT_ACCENT_4&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/builtinstyletype#TWENTY_PERCENT_ACCENT_5&#34;&gt;TWENTY_PERCENT_ACCENT_5&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/builtinstyletype#TWENTY_PERCENT_ACCENT_6&#34;&gt;TWENTY_PERCENT_ACCENT_6&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/builtinstyletype#FORTY_PERCENT_ACCENT_1&#34;&gt;FORTY_PERCENT_ACCENT_1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/builtinstyletype#FORTY_PERCENT_ACCENT_2&#34;&gt;FORTY_PERCENT_ACCENT_2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/builtinstyletype#FORTY_PERCENT_ACCENT_3&#34;&gt;FORTY_PERCENT_ACCENT_3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/builtinstyletype#FORTY_PERCENT_ACCENT_4&#34;&gt;FORTY_PERCENT_ACCENT_4&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/builtinstyletype#FORTY_PERCENT_ACCENT_5&#34;&gt;FORTY_PERCENT_ACCENT_5&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/builtinstyletype#FORTY_PERCENT_ACCENT_6&#34;&gt;FORTY_PERCENT_ACCENT_6&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/builtinstyletype#SIXTY_PERCENT_ACCENT_1&#34;&gt;SIXTY_PERCENT_ACCENT_1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/builtinstyletype#SIXTY_PERCENT_ACCENT_2&#34;&gt;SIXTY_PERCENT_ACCENT_2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/builtinstyletype#SIXTY_PERCENT_ACCENT_3&#34;&gt;SIXTY_PERCENT_ACCENT_3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/builtinstyletype#SIXTY_PERCENT_ACCENT_4&#34;&gt;SIXTY_PERCENT_ACCENT_4&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/builtinstyletype#SIXTY_PERCENT_ACCENT_5&#34;&gt;SIXTY_PERCENT_ACCENT_5&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/builtinstyletype#SIXTY_PERCENT_ACCENT_6&#34;&gt;SIXTY_PERCENT_ACCENT_6&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/builtinstyletype#ACCENT_1&#34;&gt;ACCENT_1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/builtinstyletype#ACCENT_2&#34;&gt;ACCENT_2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/builtinstyletype#ACCENT_3&#34;&gt;ACCENT_3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/builtinstyletype#ACCENT_4&#34;&gt;ACCENT_4&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/builtinstyletype#ACCENT_5&#34;&gt;ACCENT_5&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/builtinstyletype#ACCENT_6&#34;&gt;ACCENT_6&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/builtinstyletype#BAD&#34;&gt;BAD&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/builtinstyletype#CALCULATION&#34;&gt;CALCULATION&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/builtinstyletype#CHECK_CELL&#34;&gt;CHECK_CELL&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/builtinstyletype#COMMA&#34;&gt;COMMA&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/builtinstyletype#COMMA_1&#34;&gt;COMMA_1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/builtinstyletype#CURRENCY&#34;&gt;CURRENCY&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/builtinstyletype#CURRENCY_1&#34;&gt;CURRENCY_1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/builtinstyletype#EXPLANATORY_TEXT&#34;&gt;EXPLANATORY_TEXT&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/builtinstyletype#GOOD&#34;&gt;GOOD&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/builtinstyletype#HEADER_1&#34;&gt;HEADER_1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/builtinstyletype#HEADER_2&#34;&gt;HEADER_2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/builtinstyletype#HEADER_3&#34;&gt;HEADER_3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/builtinstyletype#HEADER_4&#34;&gt;HEADER_4&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/builtinstyletype#HYPERLINK&#34;&gt;HYPERLINK&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/builtinstyletype#FOLLOWED_HYPERLINK&#34;&gt;FOLLOWED_HYPERLINK&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/builtinstyletype#INPUT&#34;&gt;INPUT&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/builtinstyletype#LINKED_CELL&#34;&gt;LINKED_CELL&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/builtinstyletype#NEUTRAL&#34;&gt;NEUTRAL&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/builtinstyletype#NORMAL&#34;&gt;NORMAL&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/builtinstyletype#NOTE&#34;&gt;NOTE&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/builtinstyletype#OUTPUT&#34;&gt;OUTPUT&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/builtinstyletype#PERCENT&#34;&gt;PERCENT&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/builtinstyletype#TITLE&#34;&gt;TITLE&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/builtinstyletype#TOTAL&#34;&gt;TOTAL&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/builtinstyletype#WARNING_TEXT&#34;&gt;WARNING_TEXT&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/builtinstyletype#ROW_LEVEL&#34;&gt;ROW_LEVEL&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/builtinstyletype#COLUMN_LEVEL&#34;&gt;COLUMN_LEVEL&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The following code demonstrates how to use built-in styles.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276319/5472496.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Managing Conditional Formats</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngconditionalformats/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngconditionalformats/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--managing-conditional-formats&#34;&gt;Aspose.Cells for Java : Managing Conditional Formats&lt;/h1&gt;
+&lt;h6 id=&#34;this-section-includes-the-following-topics&#34;&gt;This section includes the following topics:&lt;/h6&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/mngconditionalformats/apply+shading+to+alternate+rows+and+columns+with+conditional+formatting&#34;&gt;Apply Shading to Alternate Rows and Columns with Conditional Formatting&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Load or Import CSV file with Formulas</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/load&#43;or&#43;import&#43;csv&#43;file&#43;with&#43;formulas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/load&#43;or&#43;import&#43;csv&#43;file&#43;with&#43;formulas/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--load-or-import-csv-file-with-formulas&#34;&gt;Aspose.Cells for Java : Load or Import CSV file with Formulas&lt;/h1&gt;
+&lt;p&gt;CSV file mostly contains textual data and they do not contain any formulas. However sometimes it happens CSV files also contain formulas. Such CSV files should be loaded by setting the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/txtloadoptions#HasFormula&#34;&gt;TxtLoadOptions.HasFormula&lt;/a&gt; to &lt;strong&gt;true&lt;/strong&gt;. Once this property will be set to &lt;strong&gt;true&lt;/strong&gt;, Aspose.Cells will not treat formula as simple text. They will be treated as formula and Aspose.Cells formula calculation engine will process them as usual.&lt;/p&gt;
+&lt;h4 id=&#34;load-or-import-csv-file-with-formulas&#34;&gt;Load or Import CSV file with Formulas&lt;/h4&gt;
+&lt;p&gt;The following code illustrates how you can load as well as import a CSV file with formulas. You can use any CSV file. For illustration purpose, we use the &lt;a href=&#34;https://docs2.aspose.com/cells/java/attachments/5276090/5472505.csv&#34;&gt;simple csv file&lt;/a&gt; which contains this data. As you see it contains a formula.&lt;/p&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_adcc8eadbc&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_adcc8eadbc&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;
+&lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;300&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt;&lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;500&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,=&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Sum&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;A1&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;B1&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;p&gt;The code first loads the CSV file, then import it again at cell D4. Finally, it saves the workbook object in XSLX format. The &lt;a href=&#34;https://docs2.aspose.com/cells/java/attachments/5276090/5472503.xlsx&#34;&gt;output XLSX file&lt;/a&gt; looks like this. As you see cell C3 and F4 contains formula and its result 800.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276090/5472506.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

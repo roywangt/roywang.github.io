@@ -1,0 +1,1896 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Worksheets</title>
+    <link>https://roywangt.github.io/cells/java/developerguide/worksheets/</link>
+    <description>Recent content in Worksheets on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://roywangt.github.io/cells/java/developerguide/worksheets/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Java: Copying and Moving Worksheets</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/worksheets/copying&#43;and&#43;moving&#43;worksheets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/worksheets/copying&#43;and&#43;moving&#43;worksheets/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--copying-and-moving-worksheets&#34;&gt;Aspose.Cells for Java : Copying and Moving Worksheets&lt;/h1&gt;
+&lt;p&gt;Sometimes, you do need a number of worksheets with common formatting and data. For example, if you work with quarterly budgets, you might want to create a workbook with sheets that contain the same column headings, row headings, and formulas. There is a way to do this: by creating one sheet and then copying it.&lt;/p&gt;
+&lt;p&gt;Aspose.Cells supports copying and moving worksheets within or between workbooks. Worksheet, complete with data, formatting, tables, matrices, charts, images and other objects, are copied with the highest degree of precision.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#moving-or-copying-sheets-using-microsoft-excel&#34;&gt;Moving or Copying Sheets using Microsoft Excel&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#copy-worksheets-within-a-workbook&#34;&gt;Copy Worksheets within a Workbook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.2 &lt;a href=&#34;#copy-worksheets-between-workbooks&#34;&gt;Copy Worksheets between Workbooks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.3 &lt;a href=&#34;#move-worksheets-within-workbook&#34;&gt;Move Worksheets within Workbook&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;moving-or-copying-sheets-using-microsoft-excel&#34;&gt;Moving or Copying Sheets using Microsoft Excel&lt;/h2&gt;
+&lt;p&gt;Following are the steps involved for copying and moving worksheets within or between workbooks.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;To move or copy sheets to another workbook, open the workbook that will receive the sheets.&lt;/li&gt;
+&lt;li&gt;Switch to the workbook that contains the sheets you want to move or copy, and then select the sheets.&lt;/li&gt;
+&lt;li&gt;On the &lt;strong&gt;Edit&lt;/strong&gt; menu, click &lt;strong&gt;Move or Copy Sheet&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;In the To book box, click the workbook to receive the sheets.&lt;/li&gt;
+&lt;li&gt;To move or copy the selected sheets to a new workbook, click &lt;strong&gt;new book&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;In the &lt;strong&gt;Before sheet&lt;/strong&gt; box, click the sheet before which you want to insert the moved or copied sheets.&lt;/li&gt;
+&lt;li&gt;To copy the sheets instead of moving them, select the &lt;strong&gt;Create a copy&lt;/strong&gt; checkbox.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;copy-worksheets-within-a-workbook&#34;&gt;Copy Worksheets within a Workbook&lt;/h3&gt;
+&lt;p&gt;Aspose.Cells provides an overloaded method, &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/worksheetcollection#addCopy(int)&#34;&gt;WorksheetCollection.addCopy()&lt;/a&gt;, that is used to add a worksheet to the collection and copy data from an existing worksheet. One version of the method takes the index of the source worksheet as a parameter. The other version takes the name of the source worksheet.&lt;/p&gt;
+&lt;p&gt;The following example shows how to copy an existing worksheet within a workbook.&lt;/p&gt;
+&lt;h3 id=&#34;copy-worksheets-between-workbooks&#34;&gt;Copy Worksheets between Workbooks&lt;/h3&gt;
+&lt;p&gt;Aspose.Cells provides a method, &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/worksheet#copy(com.aspose.cells.Worksheet)&#34;&gt;Worksheet.copy()&lt;/a&gt;, used to copy data and formatting from a source worksheet to another worksheet within or between the workbooks. The method takes the source worksheet object as a parameter.&lt;/p&gt;
+&lt;p&gt;The following example shows how to copy a worksheet from one workbook to another workbook.&lt;/p&gt;
+&lt;p&gt;The following example shows how to copy a worksheet from one workbook to another.&lt;/p&gt;
+&lt;h3 id=&#34;move-worksheets-within-workbook&#34;&gt;Move Worksheets within Workbook&lt;/h3&gt;
+&lt;p&gt;Aspose.Cells provides a method, &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/worksheet#moveTo(int)&#34;&gt;Worksheet.moveTo()&lt;/a&gt;, used to move a worksheet to another location in the same spreadsheet.&lt;/p&gt;
+&lt;p&gt;The following example shows how to move a worksheet to another location within the workbook.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Manage Worksheets</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/worksheets/manage&#43;worksheets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/worksheets/manage&#43;worksheets/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--manage-worksheets&#34;&gt;Aspose.Cells for Java : Manage Worksheets&lt;/h1&gt;
+&lt;p&gt;Developers can easily create and manage worksheets in their Excel files programmatically using the flexible API of Aspose.Cells. In this topic, we will discuss some approaches to add and remove worksheets in Excel files.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#adding-worksheets-to-a-new-excel-file&#34;&gt;Adding Worksheets to a New Excel File&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#example:&#34;&gt;Example:&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#adding-worksheets-to-a-designer-spreadsheet&#34;&gt;Adding Worksheets to a Designer Spreadsheet&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;2.1 &lt;a href=&#34;#example:&#34;&gt;Example:&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#accessing-worksheets-using-sheet-name&#34;&gt;Accessing Worksheets using Sheet Name&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;3.1 &lt;a href=&#34;#example:&#34;&gt;Example:&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;4 &lt;a href=&#34;#removing-worksheets-using-sheet-name&#34;&gt;Removing Worksheets using Sheet Name&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;4.1 &lt;a href=&#34;#example:&#34;&gt;Example:&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;5 &lt;a href=&#34;#removing-worksheets-using-sheet-index&#34;&gt;Removing Worksheets using Sheet Index&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;5.1 &lt;a href=&#34;#example:&#34;&gt;Example:&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt;Managing worksheets using Aspose.Cells is as easy as ABC. In this section, we will describe how can we:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Create a new Excel file from scratch and add a worksheet to it&lt;/li&gt;
+&lt;li&gt;Add worksheets to designer spreadsheets&lt;/li&gt;
+&lt;li&gt;Accessing Worksheets using Sheet Name&lt;/li&gt;
+&lt;li&gt;Remove a worksheet from an Excel file using its sheet name&lt;/li&gt;
+&lt;li&gt;Remove a worksheet from an Excel file using its sheet index&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Aspose.Cells provides a class, &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/workbook&#34;&gt;Workbook&lt;/a&gt; that represents an Excel file. &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/workbook&#34;&gt;Workbook&lt;/a&gt; class contains a &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/WorksheetCollection&#34;&gt;WorksheetCollection&lt;/a&gt; that allows access to each worksheet in the Excel file.&lt;/p&gt;
+&lt;p&gt;A worksheet is represented by the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/worksheet&#34;&gt;Worksheet&lt;/a&gt; class. &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/worksheet&#34;&gt;Worksheet&lt;/a&gt; class provides a wide range of properties and methods to manage a worksheet. Let&amp;rsquo;s see how can we make use of these basic set of APIs.&lt;/p&gt;
+&lt;h2 id=&#34;adding-worksheets-to-a-new-excel-file&#34;&gt;Adding Worksheets to a New Excel File&lt;/h2&gt;
+&lt;p&gt;To create a new Excel file programmatically, developers would need to create an object of &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/workbook&#34;&gt;Workbook&lt;/a&gt; class that represents an Excel file. Then developers can call &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/worksheetcollection#add()&#34;&gt;add&lt;/a&gt; method of the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/WorksheetCollection&#34;&gt;WorksheetCollection&lt;/a&gt;. When we call &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/worksheetcollection#add()&#34;&gt;add&lt;/a&gt; method, an empty worksheet is added to the Excel file automatically, which can be referenced by passing the sheet index of the newly added worksheet to the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/WorksheetCollection&#34;&gt;WorksheetCollection&lt;/a&gt;. After the worksheet reference is obtained, developers can work on their worksheets according to their requirements. After the work is done on the worksheets, developers can save their newly created Excel file with new worksheets by calling the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions)&#34;&gt;save&lt;/a&gt; method of the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/workbook&#34;&gt;Workbook&lt;/a&gt; class.&lt;/p&gt;
+&lt;h4 id=&#34;example&#34;&gt;Example:&lt;/h4&gt;
+&lt;h2 id=&#34;adding-worksheets-to-a-designer-spreadsheet&#34;&gt;Adding Worksheets to a Designer Spreadsheet&lt;/h2&gt;
+&lt;p&gt;The process of adding worksheets to a designer spreadsheet is entirely same as that of the above approach except that the Excel file is already created and we need to open that Excel file first before adding a worksheet to it. A designer spreadsheet can be opened by passing the file path or stream while initializing the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/workbook&#34;&gt;Workbook&lt;/a&gt; class.&lt;/p&gt;
+&lt;h4 id=&#34;example-1&#34;&gt;Example:&lt;/h4&gt;
+&lt;h2 id=&#34;accessing-worksheets-using-sheet-name&#34;&gt;Accessing Worksheets using Sheet Name&lt;/h2&gt;
+&lt;p&gt;Developers may access or get any worksheet by specifying its name or index.&lt;/p&gt;
+&lt;h4 id=&#34;example-2&#34;&gt;Example:&lt;/h4&gt;
+&lt;h2 id=&#34;removing-worksheets-using-sheet-name&#34;&gt;Removing Worksheets using Sheet Name&lt;/h2&gt;
+&lt;p&gt;Sometimes, developers may need to remove worksheets from existing Excel files and that task can be performed by calling the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/worksheetcollection#removeAt(java.lang.String)&#34;&gt;removeAt&lt;/a&gt; method of the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/WorksheetCollection&#34;&gt;WorksheetCollection&lt;/a&gt; collection. We can pass the sheet name to the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/worksheetcollection#removeAt(java.lang.String)&#34;&gt;removeAt&lt;/a&gt; method to remove a specific worksheet.&lt;/p&gt;
+&lt;h4 id=&#34;example-3&#34;&gt;Example:&lt;/h4&gt;
+&lt;h2 id=&#34;removing-worksheets-using-sheet-index&#34;&gt;Removing Worksheets using Sheet Index&lt;/h2&gt;
+&lt;p&gt;The above approach of removing worksheets works well if developers already know the sheet names of the worksheets to be deleted. But, what if you don&amp;rsquo;t know the sheet name of the worksheet that you want to remove from your Excel file?&lt;/p&gt;
+&lt;p&gt;Well, in such circumstances, developers can use an overloaded version of &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/worksheetcollection#removeAt(int)&#34;&gt;removeAt &lt;/a&gt;method that takes the sheet index of the worksheet instead of its sheet name.&lt;/p&gt;
+&lt;h4 id=&#34;example-4&#34;&gt;Example:&lt;/h4&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Managing Page Breaks</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/worksheets/managing&#43;page&#43;breaks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/worksheets/managing&#43;page&#43;breaks/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--managing-page-breaks&#34;&gt;Aspose.Cells for Java : Managing Page Breaks&lt;/h1&gt;
+&lt;p&gt;A page break is a place in the text where one page ends and the next one begins. Microsoft Excel can add page breaks at any selected cell in a worksheet.&lt;br&gt;
+The page ends at the cell where the page break is added and all the data after the page break is printed on the next page. In simple words, page breaks split worksheets into multiple pages. It is also possible to add page breaks to worksheets at runtime using Aspose.Cells. Aspose.Cells supports two kinds of page break:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;horizontal&lt;/li&gt;
+&lt;li&gt;vertical.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This article describes that how to add horizontal or vertical page breaks into worksheets using Aspose.Cells.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#aspose.cells-&amp;amp;-page-breaks&#34;&gt;Aspose.Cells &amp;amp; Page Breaks&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#adding-page-breaks&#34;&gt;Adding Page Breaks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.2 &lt;a href=&#34;#clearing-all-page-breaks&#34;&gt;Clearing All Page Breaks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.3 &lt;a href=&#34;#removing-specific-page-break&#34;&gt;Removing Specific Page Break&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;asposecells--page-breaks&#34;&gt;Aspose.Cells &amp;amp; Page Breaks&lt;/h2&gt;
+&lt;p&gt;Aspose.Cells provides a class, &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/workbook&#34;&gt;Workbook&lt;/a&gt; that represents an Excel file. The &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/workbook&#34;&gt;Workbook&lt;/a&gt; class contains a &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/WorksheetCollection&#34;&gt;WorksheetCollection&lt;/a&gt; that allows access to each worksheet in the Excel file.&lt;/p&gt;
+&lt;p&gt;A worksheet is represented by the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/worksheet&#34;&gt;Worksheet&lt;/a&gt; class which provides a wide range of properties and methods for managing worksheets. To add the page breaks, use the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/worksheet&#34;&gt;Worksheet&lt;/a&gt; class&amp;rsquo; &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/worksheet#HorizontalPageBreaks&#34;&gt;HorizontalPageBreaks&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/worksheet#VerticalPageBreaks&#34;&gt;VerticalPageBreaks&lt;/a&gt; properties.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/worksheet#HorizontalPageBreaks&#34;&gt;HorizontalPageBreaks&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/worksheet#VerticalPageBreaks&#34;&gt;VerticalPageBreaks&lt;/a&gt; properties are in fact collections that may contain several page breaks. Each collection contains several methods for managing horizontal and vertical page breaks. How these methods are used is discussed below.&lt;/p&gt;
+&lt;h3 id=&#34;adding-page-breaks&#34;&gt;Adding Page Breaks&lt;/h3&gt;
+&lt;p&gt;To add a page break in a worksheet, insert vertical and horizontal page breaks at the specified cell by calling the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/HorizontalPageBreakCollection&#34;&gt;HorizontalPageBreaks&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/VerticalPageBreakCollection&#34;&gt;VerticalPageBreaks&lt;/a&gt; collections&amp;rsquo; **Add **methods. Each **Add **method takes the cell name where the page break is to be added.&lt;/p&gt;
+&lt;p&gt;In page break preview or print preview modes, you can see how these page breaks work.&lt;/p&gt;
+&lt;h3 id=&#34;clearing-all-page-breaks&#34;&gt;Clearing All Page Breaks&lt;/h3&gt;
+&lt;p&gt;To clear all page breaks in a worksheet, call the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/HorizontalPageBreakCollection&#34;&gt;HorizontalPageBreakCollection&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/VerticalPageBreakCollection&#34;&gt;VerticalPageBreakCollection&lt;/a&gt; collections&amp;rsquo; &lt;strong&gt;Clear&lt;/strong&gt; methods.&lt;/p&gt;
+&lt;h3 id=&#34;removing-specific-page-break&#34;&gt;Removing Specific Page Break&lt;/h3&gt;
+&lt;p&gt;To remove a specific page break in the worksheet, call the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/HorizontalPageBreakCollection&#34;&gt;HorizontalPageBreakCollection&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/VerticalPageBreakCollection&#34;&gt;VerticalPageBreakCollection&lt;/a&gt; collections&amp;rsquo; **removeAt **methods. Each **removeAt **method will take the index of the page break to be removed.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Important to know&lt;/strong&gt;: When you set the fit to page properties (that is &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/pagesetup#FitToPagesTall&#34;&gt;FitToPagesTall&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/pagesetup#FitToPagesWide&#34;&gt;FitToPagesWide&lt;/a&gt;) in the page setup settings, the page break settings are affected, so, if you print the worksheet, the page break settings are not considered although they still exist in the file.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Page Setup Features</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/worksheets/pagesetupfeatures/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/worksheets/pagesetupfeatures/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--page-setup-features&#34;&gt;Aspose.Cells for Java : Page Setup Features&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#setting-page-options&#34;&gt;Setting Page Options&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#page-orientation&#34;&gt;Page Orientation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.2 &lt;a href=&#34;#scaling-factor&#34;&gt;Scaling Factor&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.3 &lt;a href=&#34;#fittopages-options&#34;&gt;FitToPages Options&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.4 &lt;a href=&#34;#paper-size&#34;&gt;Paper Size&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.5 &lt;a href=&#34;#print-quality&#34;&gt;Print Quality&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.6 &lt;a href=&#34;#first-page-number&#34;&gt;First Page Number&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#setting-margins&#34;&gt;Setting Margins&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;2.1 &lt;a href=&#34;#page-margins&#34;&gt;Page Margins&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2.2 &lt;a href=&#34;#center-on-page&#34;&gt;Center on Page&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2.3 &lt;a href=&#34;#header-and-footer-margins&#34;&gt;Header and Footer Margins&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#setting-headers-and-footers&#34;&gt;Setting Headers and Footers&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;3.1 &lt;a href=&#34;#script-commands&#34;&gt;Script Commands&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3.2 &lt;a href=&#34;#set-headers-and-footers&#34;&gt;Set Headers and Footers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3.3 &lt;a href=&#34;#insert-a-graphic-into-a-header-or-footer&#34;&gt;Insert a Graphic into a Header or Footer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3.4 &lt;a href=&#34;#insert-a-graphic-in-the-first-page-header-only&#34;&gt;Insert a Graphic in the First Page Header Only&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;4 &lt;a href=&#34;#setting-print-options&#34;&gt;Setting Print Options&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;4.1 &lt;a href=&#34;#setting-print-and-sheet-options&#34;&gt;Setting Print and Sheet Options&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;4.2 &lt;a href=&#34;#set-print-area&#34;&gt;Set Print Area&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;4.3 &lt;a href=&#34;#set-print-titles&#34;&gt;Set Print Titles&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;4.4 &lt;a href=&#34;#set-other-print-options&#34;&gt;Set Other Print Options&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;4.5 &lt;a href=&#34;#set-page-order&#34;&gt;Set Page Order&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;5 &lt;a href=&#34;#remove-existing-printersettings-of-worksheets-in-excel-file&#34;&gt;Remove Existing PrinterSettings of Worksheets in Excel file&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Sometimes, it is necessary to configure page setup settings for worksheets to control printing. These page setup settings offer various options.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Page Options&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276187/5472460.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Page setup options are fully supported in Aspose.Cells. This article explains how to set page options with Aspose.Cells and shows code samples for setting:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/worksheets/pagesetupfeatures/&#34;&gt;Page orientation&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/worksheets/pagesetupfeatures/&#34;&gt;Scaling&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/worksheets/pagesetupfeatures/&#34;&gt;FitToPages settings&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/worksheets/pagesetupfeatures/&#34;&gt;Paper size&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/worksheets/pagesetupfeatures/&#34;&gt;Print quality&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/worksheets/pagesetupfeatures/&#34;&gt;First page number&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;setting-page-options&#34;&gt;Setting Page Options&lt;/h2&gt;
+&lt;p&gt;Aspose.Cells provides a class, &lt;a href=&#34;http://www.aspose.com/api/java/cells/com.aspose.cells/classes/Workbook&#34;&gt;&lt;code&gt;Workbook&lt;/code&gt;&lt;/a&gt;, that represents a Microsoft Excel file. The &lt;code&gt;Workbook&lt;/code&gt; class contains a &lt;code&gt;Worksheets&lt;/code&gt; collection that allows access to each worksheet in the Excel file. A worksheet is represented by the &lt;a href=&#34;http://www.aspose.com/api/java/cells/com.aspose.cells/classes/Worksheet&#34;&gt;&lt;code&gt;Worksheet&lt;/code&gt;&lt;/a&gt; class.&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;Worksheet&lt;/code&gt; class provides the &lt;code&gt;PageSetup&lt;/code&gt; property, used to set page setup options. In fact, the &lt;code&gt;PageSetup&lt;/code&gt; property is an object of the &lt;code&gt;PageSetup&lt;/code&gt; class which makes it possible to set page layout options for a printed worksheet. The &lt;code&gt;PageSetup&lt;/code&gt; class provides various properties are used to set page setup options. Some of these properties are discussed below.&lt;/p&gt;
+&lt;h3 id=&#34;page-orientation&#34;&gt;Page Orientation&lt;/h3&gt;
+&lt;p&gt;Page orientation can be set to portrait or landscape using the &lt;a href=&#34;http://www.aspose.com/api/java/cells/com.aspose.cells/classes/PageSetup&#34;&gt;&lt;code&gt;PageSetup&lt;/code&gt;&lt;/a&gt; class&amp;rsquo; &lt;code&gt;setOrientation(PageOrientationType)&lt;/code&gt; method. The members of the &lt;code&gt;PageOrientationType&lt;/code&gt; enumeration are listed below.&lt;/p&gt;
+
+&lt;div class=&#34;table table-striped&#34; role=&#34;alert&#34;&gt;
+    &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Page Orientation Types&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Landscape&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Landscape orientation&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Portrait&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Portrait orientation&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+
+&lt;h3 id=&#34;scaling-factor&#34;&gt;Scaling Factor&lt;/h3&gt;
+&lt;p&gt;It is possible to reduce or enlarge a worksheet&amp;rsquo;s size by adjusting the scaling factor with the &lt;code&gt;setZoom&lt;/code&gt; method of the &lt;code&gt;PageSetup&lt;/code&gt; class.&lt;/p&gt;
+&lt;h3 id=&#34;fittopages-options&#34;&gt;FitToPages Options&lt;/h3&gt;
+&lt;p&gt;To fit the contents of the worksheet to a specific number of pages, use the &lt;a href=&#34;http://www.aspose.com/api/java/cells/com.aspose.cells/classes/PageSetup&#34;&gt;&lt;code&gt;PageSetup&lt;/code&gt;&lt;/a&gt; class&amp;rsquo; &lt;code&gt;setFitToPagesTall&lt;/code&gt; and &lt;code&gt;setFitToPagesWide&lt;/code&gt; methods. These methods are also used to scale worksheets.&lt;/p&gt;
+&lt;h3 id=&#34;paper-size&#34;&gt;Paper Size&lt;/h3&gt;
+&lt;p&gt;Set the paper size that the worksheets will be printed to using the &lt;a href=&#34;http://www.aspose.com/api/java/cells/com.aspose.cells/classes/PageSetup&#34;&gt;&lt;code&gt;PageSetup&lt;/code&gt;&lt;/a&gt; class&amp;rsquo; &lt;code&gt;PaperSize&lt;/code&gt; property. The &lt;code&gt;PaperSize&lt;/code&gt; property accepts one of the pre-defined values in the &lt;code&gt;PaperSizeType&lt;/code&gt; enumeration, listed below.&lt;/p&gt;
+
+&lt;div class=&#34;table table-striped&#34; role=&#34;alert&#34;&gt;
+    &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Paper Size Types&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Paper10x14&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;10 in. x 14 in.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Paper11x17&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;11 in. x 17 in.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperA3&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;A3 (297 mm x 420 mm)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperA4&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;A4 (210 mm x 297 mm)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperA4Small&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;A4 Small (210 mm x 297 mm)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperA5&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;A5 (148 mm x 210 mm)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperB3&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;B3 (13.9 x 19.7 inches)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperB4&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;B4 (250 mm x 354 mm)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperB5&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;B5 (182 mm x 257 mm)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperBusinessCard&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Business Card (90 mm x 55 mm)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperCSheet&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;C size sheet&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperDSheet&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;D size sheet&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperEnvelope10&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Envelope #10 (4-1/8 in. x 9-1/2 in.)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperEnvelope11&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Envelope #11 (4-1/2 in. x 10-3/8 in.)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperEnvelope12&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Envelope #12 (4-1/2 in. x 11 in.)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperEnvelope14&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Envelope #14 (5 in. x 11-1/2 in.)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperEnvelope9&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Envelope #9 (3-7/8 in. x 8-7/8 in.)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperEnvelopeB4&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Envelope B4 (250 mm x 353 mm)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperEnvelopeB5&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Envelope B5 (176 mm x 250 mm)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperEnvelopeB6&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Envelope B6 (176 mm x 125 mm)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperEnvelopeC3&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Envelope C3 (324 mm x 458 mm)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperEnvelopeC4&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Envelope C4 (229 mm x 324 mm)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperEnvelopeC5&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Envelope C5 (162 mm x 229 mm)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperEnvelopeC6&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Envelope C6 (114 mm x 162 mm)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperEnvelopeC65&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Envelope C65 (114 mm x 229 mm)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperEnvelopeDL&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Envelope DL (110 mm x 220 mm)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperEnvelopeItaly&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Envelope Italy (110 mm x 230 mm)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperEnvelopeMonarch&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Envelope Monarch (3-7/8 in. x 7-1/2 in.)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperEnvelopePersonal&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Envelope (3-5/8 in. x 6-1/2 in.)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperESheet&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;E size sheet&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperExecutive&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Executive (7-1/2 in. x 10-1/2 in.)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperFanfoldLegalGerman&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;German Legal Fanfold (8-1/2 in. x 13 in.)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperFanfoldStdGerman&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;German Standard Fanfold (8-1/2 in. x 12 in.)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperFanfoldUS&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;U.S. Standard Fanfold (14-7/8 in. x 11 in.)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperFolio&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Folio (8-1/2 in. x 13 in.)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperLedger&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Ledger (17 in. x 11 in.)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperLegal&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Legal (8-1/2 in. x 14 in.)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperLetter&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Letter (8-1/2 in. x 11 in.)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperLetterSmall&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Letter Small (8-1/2 in. x 11 in.)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperNote&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Note (8-1/2 in. x 11 in.)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperQuarto&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Quarto (215 mm x 275 mm)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperStatement&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Statement (5-1/2 in. x 8-1/2 in.)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperTabloid&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Tabloid (11 in. x 17 in.)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+
+&lt;h3 id=&#34;print-quality&#34;&gt;Print Quality&lt;/h3&gt;
+&lt;p&gt;Set the print quality of the worksheets to be printed with the &lt;a href=&#34;http://www.aspose.com/api/java/cells/com.aspose.cells/classes/PageSetup&#34;&gt;&lt;code&gt;PageSetup&lt;/code&gt;&lt;/a&gt; class&amp;rsquo; &lt;code&gt;setPrintQuality&lt;/code&gt; method. The measuring unit for print quality is dots per inch (DPI).&lt;/p&gt;
+&lt;h3 id=&#34;first-page-number&#34;&gt;First Page Number&lt;/h3&gt;
+&lt;p&gt;Start the numbering of worksheet pages using the &lt;a href=&#34;http://www.aspose.com/api/java/cells/com.aspose.cells/classes/PageSetup&#34;&gt;&lt;code&gt;PageSetup&lt;/code&gt;&lt;/a&gt; class&amp;rsquo; &lt;code&gt;setFirstPageNumber&lt;/code&gt; method. The &lt;code&gt;setFirstPageNumber&lt;/code&gt; method sets the page number of the first worksheet page and the following pages are numbered in ascending order.&lt;/p&gt;
+&lt;h2 id=&#34;setting-margins&#34;&gt;Setting Margins&lt;/h2&gt;
+&lt;p&gt;Aspose.Cells fully supports Microsoft Excel&amp;rsquo;s page setup options. Developers may need to configure page setup settings for worksheets to control the printing process. This topic discusses how to use Aspose.Cells to configure page margins.&lt;br&gt;
+&lt;strong&gt;Page margins in Microsoft Excel&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276187/5472459.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Aspose.Cells provides a class, &lt;a href=&#34;http://www.aspose.com/api/java/cells/com.aspose.cells/classes/Workbook&#34;&gt;&lt;code&gt;Workbook&lt;/code&gt;&lt;/a&gt; that represents a Microsoft Excel file. The &lt;code&gt;Workbook&lt;/code&gt; class contains the &lt;code&gt;Worksheets&lt;/code&gt; collection that allows access to each worksheet in a Excel file. A worksheet is represented by the &lt;a href=&#34;http://www.aspose.com/api/java/cells/com.aspose.cells/classes/Worksheet&#34;&gt;&lt;code&gt;Worksheet&lt;/code&gt;&lt;/a&gt; class.&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;Worksheet&lt;/code&gt; class provides the &lt;code&gt;PageSetup&lt;/code&gt; property, used to set page setup options. The &lt;code&gt;PageSetup&lt;/code&gt; attribute is an object of the &lt;a href=&#34;http://www.aspose.com/api/java/cells/com.aspose.cells/classes/PageSetup&#34;&gt;&lt;code&gt;PageSetup&lt;/code&gt;&lt;/a&gt; class which makes it possible to set different page layout options for a printed worksheet. The &lt;code&gt;PageSetup&lt;/code&gt; class provides various properties and methods used to set page setup options.&lt;/p&gt;
+&lt;h3 id=&#34;page-margins&#34;&gt;Page Margins&lt;/h3&gt;
+&lt;p&gt;Set the margins (left, right, top, bottom) of a page with &lt;a href=&#34;http://www.aspose.com/api/java/cells/com.aspose.cells/classes/PageSetup&#34;&gt;&lt;code&gt;PageSetup&lt;/code&gt;&lt;/a&gt; class members. A few of the methods used to specify page margins are listed below:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;setLeftMargin(int)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;setRightMargin(int)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;setTopMargin(int)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;setBottomMargin(int)&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;center-on-page&#34;&gt;Center on Page&lt;/h3&gt;
+&lt;p&gt;It is possible to center something on a page horizontally and vertically. The &lt;code&gt;PageSetup&lt;/code&gt; class has members for this purpose: &lt;code&gt;setCenterHorizontally&lt;/code&gt; and &lt;code&gt;setCenterVertically&lt;/code&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;header-and-footer-margins&#34;&gt;Header and Footer Margins&lt;/h3&gt;
+&lt;p&gt;Set header and footer margins with &lt;code&gt;PageSetup&lt;/code&gt; members such as &lt;code&gt;setHeaderMargin&lt;/code&gt; and &lt;code&gt;setFooterMargin&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;setting-headers-and-footers&#34;&gt;Setting Headers and Footers&lt;/h2&gt;
+&lt;p&gt;Headers and footers are the sections of text and images above the top margin or below the bottom margin on a page. It&amp;rsquo;s possible to add headers and footers to worksheets also. Headers &amp;amp; footers can be used to display any kind of useful information, for example page number, author name, document title or date and time. Headers &amp;amp; footers are also managed using the Page Setup dialog.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The Page Setup dialog&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276187/5472462.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Aspose.Cells allows to add headers and footer to the worksheets at runtime but it is recommended that headers and footers are set manually in a pre-designed file for printing. You can use Microsoft Excel as a GUI tool to set headers and footers easily to reduce development time. Aspose.Cells can import the file and reserve these settings.&lt;/p&gt;
+&lt;p&gt;To add headers and footers at runtime, Aspose.Cells provides special classes and some script commands to control formatting.&lt;/p&gt;
+&lt;h3 id=&#34;script-commands&#34;&gt;Script Commands&lt;/h3&gt;
+&lt;p&gt;Script commands are special commands provided by Aspose.Cells that allow developers to format headers and footers.&lt;/p&gt;
+
+&lt;div class=&#34;table table-striped&#34; role=&#34;alert&#34;&gt;
+    &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Script Commands&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&amp;amp;P&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;The current page number.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&amp;amp;G&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;A picture.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&amp;amp;N&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;The total number of pages.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&amp;amp;D&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;The current date.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&amp;amp;T&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;The current time.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&amp;amp;A&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;The worksheet&amp;rsquo;s name.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&amp;amp;F&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;The file name without the path.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&amp;amp;&amp;quot;&amp;lt;FontName&amp;gt;&amp;quot;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;A font name. For example: &amp;amp;&amp;ldquo;Arial&amp;rdquo;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&amp;amp;&amp;quot;&amp;lt;FontName&amp;gt;, &amp;lt;FontStyle&amp;gt;&amp;quot;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;A font name with a style. For example: &amp;amp;&amp;ldquo;Arial,Bold&amp;rdquo;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&amp;amp;&amp;lt;FontSize&amp;gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents font size. For example: “&amp;amp;14abc”. But, if this command is followed by a plain number to be printed in the header, this should be separated with a space character from the font size. For example: “&amp;amp;14 123”.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+
+&lt;h3 id=&#34;set-headers-and-footers&#34;&gt;Set Headers and Footers&lt;/h3&gt;
+&lt;p&gt;The &lt;code&gt;PageSetup&lt;/code&gt; class provides method &lt;code&gt;setHeader&lt;/code&gt; for adding a header and &lt;code&gt;setFooter&lt;/code&gt; for adding a footer to a worksheet. The script is used as an argument for all the above mentioned methods. It represents the script to be used for header or footer. This script contains script commands to format headers or footers.&lt;/p&gt;
+&lt;h3 id=&#34;insert-a-graphic-into-a-header-or-footer&#34;&gt;Insert a Graphic into a Header or Footer&lt;/h3&gt;
+&lt;p&gt;The &lt;code&gt;PageSetup&lt;/code&gt; class has the methods &lt;code&gt;setHeadPicture&lt;/code&gt; and &lt;code&gt;setFooterPicture&lt;/code&gt; for adding pictures to a worksheet&amp;rsquo;s header and footer. These methods take two parameters:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Section&lt;/strong&gt;, the section of the header or footer where the picture will be placed. There are three sections: left, center and right, represented by the numeric values 0, 1 and 2 respectively.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;File InputStream&lt;/strong&gt;, the graphical data. The binary data should be written into the buffer of a byte array.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;After executing the code and opening the file, check the worksheet&amp;rsquo;s header in Microsoft Excel:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;On the &lt;strong&gt;File&lt;/strong&gt; menu, select &lt;strong&gt;Page Setup&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;On the Page Setup dialog, select the &lt;strong&gt;Header/Footer&lt;/strong&gt; tab.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Inserting a graphic in a header/footer&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276187/5472458.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;insert-a-graphic-in-the-first-page-header-only&#34;&gt;Insert a Graphic in the First Page Header Only&lt;/h3&gt;
+&lt;p&gt;The &lt;code&gt;PageSetup&lt;/code&gt; class also has other useful methods, for example &lt;code&gt;setPicture&lt;/code&gt;, &lt;code&gt;setFirstPageHeader&lt;/code&gt;, &lt;code&gt;setFirstPageFooter&lt;/code&gt;, for adding pictures into a worksheet&amp;rsquo;s first page header/footer. The first page is a special page: it is common to want it to show special information, for example a company logo.&lt;/p&gt;
+&lt;h2 id=&#34;setting-print-options&#34;&gt;Setting Print Options&lt;/h2&gt;
+&lt;p&gt;Microsoft Excel&amp;rsquo;s page setup settings provide several print options (also referred to as sheet options) that allow users to control how worksheet pages are printed. These print options allow users to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Select a specific print area on a worksheet.&lt;/li&gt;
+&lt;li&gt;Print titles.&lt;/li&gt;
+&lt;li&gt;Print gridlines.&lt;/li&gt;
+&lt;li&gt;Print row and column headings&lt;/li&gt;
+&lt;li&gt;Achieve draft quality.&lt;/li&gt;
+&lt;li&gt;Print comments.&lt;/li&gt;
+&lt;li&gt;Print cell errors.&lt;/li&gt;
+&lt;li&gt;Define page ordering.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;All of these print options are shown below.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Print (sheet) options&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276187/5472461.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;setting-print-and-sheet-options&#34;&gt;Setting Print and Sheet Options&lt;/h3&gt;
+&lt;p&gt;spose.Cells supports all the print options offered by Microsoft Excel and developers can easily configure these options for worksheets using the properties offered by the &lt;a href=&#34;http://www.aspose.com/api/java/cells/com.aspose.cells/classes/PageSetup&#34;&gt;&lt;code&gt;PageSetup&lt;/code&gt;&lt;/a&gt; class. How these properties are used is discussed below in more detail.&lt;/p&gt;
+&lt;h3 id=&#34;set-print-area&#34;&gt;Set Print Area&lt;/h3&gt;
+&lt;p&gt;By default, only the print area incorporates all areas of the worksheet that contain data. Developers can establish a specific print area of the worksheet.&lt;/p&gt;
+&lt;p&gt;To select a specific print area, use the &lt;a href=&#34;http://www.aspose.com/api/java/cells/com.aspose.cells/classes/PageSetup&#34;&gt;&lt;code&gt;PageSetup&lt;/code&gt;&lt;/a&gt; class&amp;rsquo; &lt;code&gt;setPrintArea&lt;/code&gt; method. Assign a cell range that defines the print area to this property.&lt;/p&gt;
+&lt;h3 id=&#34;set-print-titles&#34;&gt;Set Print Titles&lt;/h3&gt;
+&lt;p&gt;Aspose.Cells allows you to designate row and column headers to repeat on all pages of a printed worksheet. To do so, use the &lt;a href=&#34;http://www.aspose.com/api/java/cells/com.aspose.cells/classes/PageSetup&#34;&gt;&lt;code&gt;PageSetup&lt;/code&gt;&lt;/a&gt; class&amp;rsquo; &lt;code&gt;setPrintTitleColumns&lt;/code&gt; and &lt;code&gt;setPrintTitleRows&lt;/code&gt; properties.&lt;/p&gt;
+&lt;p&gt;The rows or columns that will be repeated are defined by passing their row or column numbers. For example, rows are defined as $1:$2 and columns are defined as $A:$B.&lt;/p&gt;
+&lt;h3 id=&#34;set-other-print-options&#34;&gt;Set Other Print Options&lt;/h3&gt;
+&lt;p&gt;The &lt;code&gt;PageSetup&lt;/code&gt; class also provides several other properties to set general print options as follows:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;setPrintGridlines&lt;/code&gt;, a Boolean property that defines whether to print gridlines or not print.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;setPrintHeadings&lt;/code&gt;, a Boolean property that defines whether to print row and column headings or not.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;setBlackAndWhite&lt;/code&gt;, a Boolean property that defines whether to print worksheet in black and white mode or not.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;setPrintComments&lt;/code&gt;, defines that whether to display the print comments on the worksheet or at the end of the worksheet.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;setPrintDraft&lt;/code&gt;, a boolean property that defines whether to print worksheet in draft quality or not.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;setPrintErrors&lt;/code&gt;, defines that whether to print cell errors as displayed, blank, dash or N/A.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;To set the &lt;code&gt;PrintComments&lt;/code&gt; and &lt;code&gt;PrintErrors&lt;/code&gt; properties, Aspose.Cells also provides two enumerations, &lt;code&gt;PrintCommentsType&lt;/code&gt; and &lt;code&gt;PrintErrorsType&lt;/code&gt; that contain pre-defined values to be assigned to the &lt;code&gt;setPrintComments&lt;/code&gt; and &lt;code&gt;setPrintErrors&lt;/code&gt; methods respectively.&lt;/p&gt;
+&lt;p&gt;The pre-defined values in the &lt;code&gt;PrintCommentsType&lt;/code&gt; enumeration are described below.&lt;/p&gt;
+&lt;p&gt;Print Comments Types&lt;/p&gt;
+&lt;p&gt;Description&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;PrintInPlace&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Specifies to print comments as displayed on worksheet.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;PrintNoComments&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Specifies not to print comments.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;PrintSheetEnd&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Specifies to print comments at the end of worksheet.&lt;/p&gt;
+&lt;p&gt;The pre-defined values of the &lt;code&gt;PrintErrorsType&lt;/code&gt; enumeration are described below.&lt;/p&gt;
+&lt;p&gt;Print Errors Types&lt;/p&gt;
+&lt;p&gt;Description&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;PrintErrorsBlank&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Specifies not to print errors.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;PrintErrorsDash&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Specifies to print errors as &amp;ldquo;&amp;ndash;&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;PrintErrorsDisplayed&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Specifies to print errors as displayed.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;PrintErrorsNA&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Specifies to print errors as &amp;ldquo;#N/A&amp;rdquo;.&lt;/p&gt;
+&lt;h3 id=&#34;set-page-order&#34;&gt;Set Page Order&lt;/h3&gt;
+&lt;p&gt;The &lt;code&gt;PageSetup&lt;/code&gt; class provides the &lt;code&gt;setOrder&lt;/code&gt; method that is used to order multiple pages of your worksheet to be printed. There are two possibilities to order the pages as follows:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Down then over&lt;/strong&gt; prints all pages down before printing any pages to the right.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Over then down&lt;/strong&gt; prints pages left to right before printing any pages below.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Aspose.Cells provides an enumeration, &lt;code&gt;PrintOrderType&lt;/code&gt;, that contains all pre-defined order types to be assigned to &lt;code&gt;setPageOrder&lt;/code&gt; method.&lt;/p&gt;
+&lt;p&gt;The pre-defined values of &lt;code&gt;PrintOrderType&lt;/code&gt; enumeration are described below.&lt;/p&gt;
+&lt;p&gt;Print Order Types&lt;/p&gt;
+&lt;p&gt;Description&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;DownThenOver&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Print down, then over.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;OverThenDown&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Print over, then down.&lt;/p&gt;
+&lt;h2 id=&#34;remove-existing-printersettings-of-worksheets-in-excel-file&#34;&gt;Remove Existing PrinterSettings of Worksheets in Excel file&lt;/h2&gt;
+&lt;p&gt;Please see this article related to this topic.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/worksheets/pagesetupfeatures/remove+existing+printersettings+of+worksheets+in+excel+file&#34;&gt;Remove Existing PrinterSettings of Worksheets in Excel file&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Protect and Unprotect Worksheet</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/worksheets/protect&#43;and&#43;unprotect&#43;worksheet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/worksheets/protect&#43;and&#43;unprotect&#43;worksheet/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--protect-and-unprotect-worksheet&#34;&gt;Aspose.Cells for Java : Protect and Unprotect Worksheet&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#protect-worksheets&#34;&gt;Protect Worksheets&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#adding-or-removing-protection&#34;&gt;Adding or Removing Protection&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.2 &lt;a href=&#34;#protecting-a-few-cells&#34;&gt;Protecting a Few Cells&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.3 &lt;a href=&#34;#protect-a-row-in-the-worksheet&#34;&gt;Protect a Row in the Worksheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.4 &lt;a href=&#34;#protect-a-column-in-the-worksheet&#34;&gt;Protect a Column in the Worksheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#unprotect-a-worksheet&#34;&gt;Unprotect a Worksheet&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;2.1 &lt;a href=&#34;#using-microsoft-excel&#34;&gt;Using Microsoft Excel&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2.2 &lt;a href=&#34;#using-aspose.cells&#34;&gt;Using Aspose.Cells&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2.3 &lt;a href=&#34;#unprotecting-a-simply-protected-worksheet&#34;&gt;Unprotecting a Simply Protected Worksheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2.4 &lt;a href=&#34;#unprotecting-a-password-protected-worksheet&#34;&gt;Unprotecting a Password Protected Worksheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#advanced-protection-settings-since-excel-xp&#34;&gt;Advanced Protection Settings since Excel XP&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;3.1 &lt;a href=&#34;#advanced-protection-settings-using-excel-xp-and-later-versions&#34;&gt;Advanced Protection Settings Using Excel XP and Later Versions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3.2 &lt;a href=&#34;#advanced-protection-settings-using-aspose.cells&#34;&gt;Advanced Protection Settings Using Aspose.Cells&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3.3 &lt;a href=&#34;#cell-locking-issue&#34;&gt;Cell Locking Issue&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;protect-worksheets&#34;&gt;Protect Worksheets&lt;/h2&gt;
+&lt;p&gt;When a worksheet is protected, the actions a user can take are restricted. For example, they cannot input data, insert or delete rows or columns etc. The general protection options in Microsoft Excel are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Contents&lt;/li&gt;
+&lt;li&gt;Objects&lt;/li&gt;
+&lt;li&gt;Scenarios&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Protected worksheets don&amp;rsquo;t hide or protect sensitive data, so it&amp;rsquo;s different from file encryption. Generally, worksheet protection is suitable for presentation purposes. It prevents the end user from modifying data, content and formatting in the worksheet.&lt;/p&gt;
+&lt;h3 id=&#34;adding-or-removing-protection&#34;&gt;Adding or Removing Protection&lt;/h3&gt;
+&lt;p&gt;Aspose.Cells provides a class, &lt;a href=&#34;http://www.aspose.com/api/java/cells/com.aspose.cells/classes/Workbook&#34;&gt;&lt;code&gt;Workbook&lt;/code&gt;&lt;/a&gt;, that represents a Microsoft Excel file. The &lt;code&gt;Workbook&lt;/code&gt; class contains a &lt;code&gt;WorksheetCollection&lt;/code&gt; that allows to access each worksheet in an Excel file. A worksheet is represented by the &lt;a href=&#34;http://www.aspose.com/api/java/cells/com.aspose.cells/classes/Worksheet&#34;&gt;&lt;code&gt;Worksheet&lt;/code&gt;&lt;/a&gt; class.&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;Worksheet&lt;/code&gt; class provides the &lt;code&gt;Protect&lt;/code&gt; method that is used to apply protection to a worksheet. The &lt;code&gt;Protect&lt;/code&gt; method accepts the following parameters:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Protection Type, the type of protection to apply on the worksheet. Protection type is applied with the help of the &lt;code&gt;ProtectionType&lt;/code&gt; enumeration.&lt;/li&gt;
+&lt;li&gt;New Password, the new password used to protect the worksheet.&lt;/li&gt;
+&lt;li&gt;Old Password, the old password, if the worksheet is already password protected. If the worksheet is not already protected then just pass a null.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The &lt;code&gt;ProtectionType&lt;/code&gt; enumeration contains the following pre-defined protections types:&lt;/p&gt;
+
+&lt;div class=&#34;table table-striped&#34; role=&#34;alert&#34;&gt;
+    &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Protection Types&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;All&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;User cannot modify anything on this worksheet&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Contents&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;User cannot enter data in this worksheet&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Objects&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;User cannot modify drawing objects&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Scenarios&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;User cannot modify saved scenarios&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;The example below shows how to protect a worksheet with a password.&lt;/p&gt;
+&lt;p&gt;After the above code is used to protect the worksheet, check the protection on the worksheet by opening it. Once you open the file and try to add some data to the worksheet, the following dialog is displayed:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;A dialog warning that a user can&amp;rsquo;t modify the worksheet&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276189/5472341.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;To work on the worksheet, unprotect the worksheet by selecting the &lt;strong&gt;Protection&lt;/strong&gt;, then &lt;strong&gt;Unprotect Sheet&lt;/strong&gt; from the &lt;strong&gt;Tools&lt;/strong&gt; menu item as shown below.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Selecting Unprotect Sheet menu item&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276189/5472319.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;A dialog opens prompting for a password.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Entering password to unprotect the worksheet&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276189/5472320.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;protecting-a-few-cells&#34;&gt;Protecting a Few Cells&lt;/h3&gt;
+&lt;p&gt;There might be certain scenarios where you need to lock a few cells only in the worksheet. If you want to lock some specific cells in the worksheet, you have to unlock all the other cells in the worksheet. All the cells in a worksheet are already initialized for locking, you may check this opening any excel file into MS Excel and click the &lt;strong&gt;Format | Cells&amp;hellip;&lt;/strong&gt; to show &lt;strong&gt;Format Cells&lt;/strong&gt; dialog box and then click the Protection tab and see a check box labeled &amp;ldquo;Locked&amp;rdquo; is checked by default.&lt;/p&gt;
+&lt;p&gt;Following are the two approaches to implement the task.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Method1:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The following points describe how to lock a few cells using MS Excel. This method applies to Microsoft Office Excel 97, 2000, 2002, 2003 and greater versions.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Select the entire worksheet by clicking the Select All button (the gray rectangle directly above the row number for row 1 and to the left of column letter A).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Click Cells on the Format menu, click the Protection tab, and then clear the Locked check box.&lt;/p&gt;
+&lt;p&gt;This unlocks all the cells on the worksheet&lt;/p&gt;
+&lt;p&gt;If the cells command is not available, parts of the worksheet may already be locked. On the Tools menu, point to Protection , and then click Unprotect Sheet .&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Select just the cells you want to lock and repeat step 2, but this time select the Locked check box.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;On the &lt;strong&gt;Tools&lt;/strong&gt; menu, select &lt;strong&gt;Protection&lt;/strong&gt;, click &lt;strong&gt;Protect Sheet&lt;/strong&gt;, and then click &lt;strong&gt;OK&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;In the Protect Sheet dialog box, you have the option to specify a password and select the elements that you want users to be able to change.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Method2:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;In this method, we use Aspose.Cells API only to do the task.&lt;/p&gt;
+&lt;p&gt;The following example exhibits how to protect a few cells in the worksheet. It unlocks all the cells in the worksheet first and then locks 3 cells (A1, B1, C1) in it. Finally, it protects the worksheet. A row / column has a Style API that further contains a set Locked method . You can use this method to lock or unlock the row / column.&lt;/p&gt;
+&lt;h3 id=&#34;protect-a-row-in-the-worksheet&#34;&gt;Protect a Row in the Worksheet&lt;/h3&gt;
+&lt;p&gt;Aspose.Cells allows you to easily lock any row in the worksheet. Here, we can make use of &lt;strong&gt;applyStyle()&lt;/strong&gt; method of Cells.Row class to apply Style to a particular row in the worksheet. This method takes two arguments: a Style object and StyleFlag struct which has all the members related to applied formatting.&lt;/p&gt;
+&lt;p&gt;The following example shows how to protect a row in the worksheet. It unlocks all the cells in the worksheet first and then locks the first row in it. Finally, it protects the worksheet. A row / column has a Style API that further contains a setCellLocked method . You can lock or unlock the row / column using the StyleFlag struct.&lt;/p&gt;
+&lt;h3 id=&#34;protect-a-column-in-the-worksheet&#34;&gt;Protect a Column in the Worksheet&lt;/h3&gt;
+&lt;p&gt;Aspose.Cells allows you to easily lock any column in the worksheet. Here, we can make use of &lt;strong&gt;applyStyle()&lt;/strong&gt; method of Cells.Column class to apply Style to a particular column in the worksheet. This method takes two arguments: a Style object and StyleFlag struct which has all the members related to applied formatting.&lt;/p&gt;
+&lt;p&gt;The following example shows how to protect a column in the worksheet. It unlocks all the cells in the worksheet first and then locks the first column in it. Finally, it protects the worksheet. A row / column has a Style API that further contains a set Locked method . You can lock or unlock the row / column using the StyleFlag struct.&lt;/p&gt;
+&lt;h2 id=&#34;unprotect-a-worksheet&#34;&gt;Unprotect a Worksheet&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://roywangt.github.io/cells/pages/createpage.action?spaceKey=cellsjava&amp;amp;title=Protecting+Worksheets&amp;amp;linkCreation=true&amp;amp;fromPageId=5276189&#34;&gt;Protecting Worksheets&lt;/a&gt; and &lt;a href=&#34;https://roywangt.github.io/cells/pages/createpage.action?spaceKey=cellsjava&amp;amp;title=Advanced+Protection+Settings+since+Excel+XP&amp;amp;linkCreation=true&amp;amp;fromPageId=5276189&#34;&gt;Advanced Protection Settings since Excel XP&lt;/a&gt; discussed different approaches of protecting worksheets. What if a developer needs to remove protection from a protected worksheet at runtime so that some changes can be made to the file? This can easily be done with Aspose.Cells.&lt;/p&gt;
+&lt;h3 id=&#34;using-microsoft-excel&#34;&gt;Using Microsoft Excel&lt;/h3&gt;
+&lt;p&gt;To remove protection from a worksheet:&lt;/p&gt;
+&lt;p&gt;From the &lt;strong&gt;Tools&lt;/strong&gt; menu, select &lt;strong&gt;Protection&lt;/strong&gt; followed by &lt;strong&gt;Unprotect Sheet&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Selecting Unprotect Sheet&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276189/5472321.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Protection is removed, unless the worksheet is password protected. In this case, a dialog prompts for the password.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Entering password to unprotect the worksheet&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276189/5472322.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;using-asposecells&#34;&gt;Using Aspose.Cells&lt;/h3&gt;
+&lt;p&gt;A worksheet can be unprotected by calling the &lt;a href=&#34;http://www.aspose.com/api/java/cells/com.aspose.cells/classes/Worksheet&#34;&gt;&lt;code&gt;Worksheet&lt;/code&gt;&lt;/a&gt; class&amp;rsquo; &lt;code&gt;Unprotect&lt;/code&gt; method. The &lt;code&gt;Unprotect&lt;/code&gt; method can be used in two ways, described below.&lt;/p&gt;
+&lt;h3 id=&#34;unprotecting-a-simply-protected-worksheet&#34;&gt;Unprotecting a Simply Protected Worksheet&lt;/h3&gt;
+&lt;p&gt;A simply protected worksheet is one which is not protected with a password. Such worksheets can be unprotected by calling the &lt;code&gt;unprotect&lt;/code&gt; method without passing a parameter.&lt;/p&gt;
+&lt;h3 id=&#34;unprotecting-a-password-protected-worksheet&#34;&gt;Unprotecting a Password Protected Worksheet&lt;/h3&gt;
+&lt;p&gt;A password protected worksheet is one that is protected with a password. Such worksheets can be unprotected by calling an overloaded version of the &lt;code&gt;Unprotect&lt;/code&gt; method that takes the password as a parameter.&lt;/p&gt;
+&lt;h2 id=&#34;advanced-protection-settings-since-excel-xp&#34;&gt;Advanced Protection Settings since Excel XP&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://roywangt.github.io/cells/pages/createpage.action?spaceKey=cellsjava&amp;amp;title=Protecting+Worksheets&amp;amp;linkCreation=true&amp;amp;fromPageId=5276189&#34;&gt;Protecting Worksheets&lt;/a&gt; discussed protecting a worksheet in Microsoft Excel 97 and 2000. But since the release of Excel 2002 or XP, Microsoft has added many advanced protection settings. These protection settings restrict or allow users to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Delete rows or columns.&lt;/li&gt;
+&lt;li&gt;Edit contents, objects or scenarios.&lt;/li&gt;
+&lt;li&gt;Format cells, rows or columns.&lt;/li&gt;
+&lt;li&gt;Insert rows, columns or hyperlinks.&lt;/li&gt;
+&lt;li&gt;Select locked or unlocked cells.&lt;/li&gt;
+&lt;li&gt;Use pivot tables and much more.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Aspose.Cells supports all the advanced protection settings offered by Excel XP and later versions.&lt;/p&gt;
+&lt;h3 id=&#34;advanced-protection-settings-using-excel-xp-and-later-versions&#34;&gt;Advanced Protection Settings Using Excel XP and Later Versions&lt;/h3&gt;
+&lt;p&gt;To view the protection settings available in Excel XP:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;From the &lt;strong&gt;Tools&lt;/strong&gt; menu, select &lt;strong&gt;Protection&lt;/strong&gt; followed by &lt;strong&gt;Protect Sheet&lt;/strong&gt;.&lt;br&gt;
+A dialog is displayed.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Dialog to show protection options in Excel XP&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276189/5472340.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Allow or restrict worksheets features or apply a password.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;advanced-protection-settings-using-asposecells&#34;&gt;Advanced Protection Settings Using Aspose.Cells&lt;/h3&gt;
+&lt;p&gt;Aspose.Cells support all of the advanced protection settings.&lt;/p&gt;
+&lt;p&gt;Aspose.Cells provides a class, &lt;a href=&#34;http://www.aspose.com/api/java/cells/com.aspose.cells/classes/Workbook&#34;&gt;&lt;code&gt;Workbook&lt;/code&gt;&lt;/a&gt;, that represents a Microsoft Excel file. The &lt;code&gt;Workbook&lt;/code&gt; class contains a &lt;code&gt;WorksheetCollection&lt;/code&gt; collection that allows access to each worksheet in the Excel file. A worksheet is represented by the &lt;a href=&#34;http://www.aspose.com/api/java/cells/com.aspose.cells/classes/Worksheet&#34;&gt;&lt;code&gt;Worksheet&lt;/code&gt;&lt;/a&gt; class.&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;Worksheet&lt;/code&gt; class provides the &lt;code&gt;Protection&lt;/code&gt; property that is used to apply these advanced protection settings. The &lt;code&gt;Protection&lt;/code&gt; property is in fact an object of the &lt;a href=&#34;http://www.aspose.com/api/java/cells/com.aspose.cells/classes/Protection&#34;&gt;&lt;code&gt;Protection&lt;/code&gt;&lt;/a&gt; class that encapsulates several Boolean properties for disabling or enabling restrictions.&lt;/p&gt;
+&lt;p&gt;Below is a small example application. It opens an Excel file and uses most of the advanced protection settings supported by Excel XP and later versions.&lt;/p&gt;
+&lt;p&gt;Save the file to EXCEL97TO2003 or XLSX format because these advanced protection settings are only supported by MS Excel XP and later versions.&lt;/p&gt;
+&lt;h3 id=&#34;cell-locking-issue&#34;&gt;Cell Locking Issue&lt;/h3&gt;
+&lt;p&gt;If you want to restrict users from editing cells the cells must be locked before any protection settings are applied. Otherwise the cells can be edited even if worksheet is protected. In Microsoft Excel XP, cells can be locked through the following dialog:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Dialog to lock cells in Excel XP&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276189/5472342.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;It is possible to lock cells using the Aspose.Cells API too. Each cell has a &lt;code&gt;Style&lt;/code&gt; API that further contains a &lt;code&gt;setLocked&lt;/code&gt; method. Use it lock or unlock cells.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Show and Hide Elements</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/worksheets/show&#43;and&#43;hide&#43;elements/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/worksheets/show&#43;and&#43;hide&#43;elements/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--show-and-hide-elements&#34;&gt;Aspose.Cells for Java : Show and Hide Elements&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells allows the user to show and hide elements of a workbook includeing worksheets, rows, columns, tabs, scrollbars, gridlines,&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#show-and-hide-a-worksheet&#34;&gt;Show and Hide a Worksheet&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#making-a-worksheet-visible&#34;&gt;Making a Worksheet Visible&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.2 &lt;a href=&#34;#hiding-a-worksheet&#34;&gt;Hiding a Worksheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#show-or-hide-tabs&#34;&gt;Show or Hide Tabs&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;2.1 &lt;a href=&#34;#hiding-tabs&#34;&gt;Hiding Tabs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2.2 &lt;a href=&#34;#making-tabs-visible&#34;&gt;Making Tabs Visible&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#show-and-hide-rows-and-columns&#34;&gt;Show and Hide Rows and Columns&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;3.1 &lt;a href=&#34;#hiding-row/column-headers&#34;&gt;Hiding Row/Column Headers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3.2 &lt;a href=&#34;#making-row/column-headers-visible&#34;&gt;Making Row/Column Headers Visible&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;4 &lt;a href=&#34;#show-and-hide-scroll-bars&#34;&gt;Show and Hide Scroll Bars&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;4.1 &lt;a href=&#34;#hiding-scroll-bars&#34;&gt;Hiding Scroll Bars&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;4.2 &lt;a href=&#34;#making-scroll-bars-visible&#34;&gt;Making Scroll Bars Visible&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;5 &lt;a href=&#34;#show-and-hide-gridlines&#34;&gt;Show and Hide Gridlines&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;5.1 &lt;a href=&#34;#controlling-the-visibility-of-gridlines&#34;&gt;Controlling the Visibility of Gridlines&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;5.1.1 &lt;a href=&#34;#making-gridlines-visible&#34;&gt;Making Gridlines Visible&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;5.1.2 &lt;a href=&#34;#hiding-gridlines&#34;&gt;Hiding Gridlines&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;5.2 &lt;a href=&#34;#related-articles&#34;&gt;Related Articles&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;show-and-hide-a-worksheet&#34;&gt;Show and Hide a Worksheet&lt;/h2&gt;
+&lt;p&gt;An Excel file can have one or more than one worksheets. Whenever we create an Excel file, we add worksheets to the Excel file in which we work. Each worksheet in an Excel file is independent from the other worksheet by having its own data and formatting settings etc. Sometimes, developers may require to make few worksheets hidden and others visible in the Excel file for their own interest. So, &lt;strong&gt;Aspose.Cells&lt;/strong&gt; allows developers to control the visibility of the worksheets in their Excel files.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Controlling the Visibility of the Worksheets:&lt;/strong&gt;&lt;br&gt;
+Aspose.Cells provides a class, &lt;strong&gt;Workbook&lt;/strong&gt; that represents an Excel file. &lt;strong&gt;Workbook&lt;/strong&gt; class contains a &lt;strong&gt;WorksheetCollection&lt;/strong&gt; that allows to access each worksheet in the Excel file.&lt;/p&gt;
+&lt;p&gt;A worksheet is represented by the &lt;strong&gt;Worksheet&lt;/strong&gt; class. &lt;strong&gt;Worksheet&lt;/strong&gt; class provides a wide range of properties and methods to manage a worksheet. But, to control the visibility of a worksheet, developers may use &lt;strong&gt;setVisible&lt;/strong&gt; &lt;em&gt;{&lt;/em&gt;} method of the &lt;strong&gt;Worksheet&lt;/strong&gt; class.&lt;/p&gt;
+&lt;h3 id=&#34;making-a-worksheet-visible&#34;&gt;Making a Worksheet Visible&lt;/h3&gt;
+&lt;p&gt;Developers can make a worksheet visible by setting the &lt;em&gt;setVisible(&lt;/em&gt; &lt;em&gt;true&lt;/em&gt; &lt;em&gt;)&lt;/em&gt; method of the &lt;strong&gt;Worksheet&lt;/strong&gt; class.&lt;/p&gt;
+&lt;h3 id=&#34;hiding-a-worksheet&#34;&gt;Hiding a Worksheet&lt;/h3&gt;
+&lt;p&gt;Developers can hide a worksheet by setting the setVisible(false) method of the &lt;strong&gt;Worksheet&lt;/strong&gt; class.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Example:&lt;/strong&gt;&lt;br&gt;
+A complete example is given below that demonstrates the use of &lt;em&gt;setVisible(&lt;/em&gt; &lt;em&gt;false&lt;/em&gt; &lt;em&gt;)&lt;/em&gt; method of &lt;strong&gt;Worksheet&lt;/strong&gt; class to hide the first worksheet of the Excel file.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Worksheet - Before Modification:&lt;/strong&gt;&lt;br&gt;
+In the screenshot below, you can see that &lt;strong&gt;Book1.xls&lt;/strong&gt; file contains three worksheets: &lt;strong&gt;Sheet1&lt;/strong&gt; , &lt;strong&gt;Sheet2&lt;/strong&gt; and &lt;strong&gt;Sheet3&lt;/strong&gt; .&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276190/5472332.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure:&lt;/strong&gt; Worksheet view before any modification&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Worksheet - After Executing the Example Code&lt;/strong&gt;&lt;br&gt;
+{_}&lt;br&gt;
+&lt;strong&gt;Book1.xls&lt;/strong&gt; file is opened by calling the &lt;strong&gt;Open&lt;/strong&gt; method of &lt;strong&gt;Workbook&lt;/strong&gt; class and then the first worksheet of the &lt;strong&gt;Book1.xls&lt;/strong&gt; file is made hidden. The modified file is saved as &lt;strong&gt;output.xls&lt;/strong&gt; file whose pictorial view is shown below:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276190/5472333.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure:&lt;/strong&gt; Worksheet view after modification&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Setting VisibilityType&lt;/strong&gt;&lt;br&gt;
+You can also hide the worksheets in a special way. This feature can h ide the worksheet so that the only way for you to make it visible again is by giving &lt;strong&gt;VisibilityType.VERY_HIDDEN&lt;/strong&gt; as parameter value for the &lt;strong&gt;setVisibilityType&lt;/strong&gt; ** method in the code ( it is to be noted here, the user s cannot make the object visible in MS Excel directly by using its menu options). Users can also use &lt;strong&gt;getVisibilityType&lt;/strong&gt; method to check whether a worksheet is marked as VeryHidden or not.&lt;/p&gt;
+&lt;h2 id=&#34;show-or-hide-tabs&#34;&gt;Show or Hide Tabs&lt;/h2&gt;
+&lt;p&gt;If you closely look at the bottom of a Microsoft Excel file, you will see a number of controls. These include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Sheet tabs.&lt;/li&gt;
+&lt;li&gt;Tab scrolling buttons.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Sheet tabs represent the worksheets in the Excel file. Click any tab to switch to that worksheet. The more worksheets in the workbook, the more sheet tabs there are. If the Excel file has a good number of worksheets you need buttons to navigate through them. So, Microsoft Excel provides tab scrolling buttons for scrolling through the sheet tabs.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Sheet tabs &amp;amp; tab scrolling buttons&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276190/5472329.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Using Aspose.Cells, developers can control the visibility of sheet tabs and tabs scrolling buttons in Excel files.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Controlling the Visibility of Tabs:&lt;/strong&gt;&lt;br&gt;
+Aspose.Cells provides a class, &lt;a href=&#34;http://www.aspose.com/api/java/cells/com.aspose.cells/classes/Workbook&#34;&gt;&lt;code&gt;Workbook&lt;/code&gt;&lt;/a&gt;, that represents a Microsoft Excel file. The &lt;code&gt;Workbook&lt;/code&gt; class provides a wide range of properties and methods for managing an Excel file. To control the visibility of tabs in an Excel file, developers can use the &lt;code&gt;Workbook&lt;/code&gt; class&amp;rsquo; &lt;code&gt;setSheetTabBarHidden&lt;/code&gt; method.&lt;/p&gt;
+&lt;h3 id=&#34;hiding-tabs&#34;&gt;Hiding Tabs&lt;/h3&gt;
+&lt;p&gt;Hide tabs in an Excel file by setting the &lt;code&gt;Workbook&lt;/code&gt; class&amp;rsquo; &lt;code&gt;getSettings().setShowTabs(false)&lt;/code&gt; method.&lt;/p&gt;
+&lt;h3 id=&#34;making-tabs-visible&#34;&gt;Making Tabs Visible&lt;/h3&gt;
+&lt;p&gt;Make tabs visible with the &lt;code&gt;Workbook&lt;/code&gt; class&amp;rsquo; &lt;code&gt;setSheetTabBarHidden(false)&lt;/code&gt; method.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Complete Code Example:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Below is a complete example that opens an Excel file (book1.xls), hides its tabs and saves the modified file as output.xls.&lt;/p&gt;
+&lt;p&gt;You can see that Book1.xls file contains tabs in the figure below. After the example code is executed, the tabs are hidden, as you can see from the screenshot of the output.xls file below.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;book1.xls: Excel file before any modification&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276190/5472330.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;output.xls: Excel file after modification&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276190/5472331.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;show-and-hide-rows-and-columns&#34;&gt;Show and Hide Rows and Columns&lt;/h2&gt;
+&lt;p&gt;All worksheets in an Excel file are composed of cells that are arranged in rows and columns. All rows and columns have unique values that are used to identify them, and to identify individual cells. For example, rows are numbered – 1, 2, 3, 4, etc. – and columns are ordered alphabetically – A, B, C, D, etc. The row and column values are displayed in the headers. Using Aspose.Cells, developers can control the visibility of these row and column headers.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Controlling the Visibility of the Worksheets:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Aspose.Cells provides a class, &lt;a href=&#34;http://www.aspose.com/api/java/cells/com.aspose.cells/classes/Workbook&#34;&gt;&lt;code&gt;Workbook&lt;/code&gt;&lt;/a&gt;, that represents a Microsoft Excel file. The &lt;code&gt;Workbook&lt;/code&gt; class contains a &lt;code&gt;WorksheetCollection&lt;/code&gt; that allows access to each worksheet in an Excel file.&lt;/p&gt;
+&lt;p&gt;A worksheet is represented by the &lt;a href=&#34;http://www.aspose.com/api/java/cells/com.aspose.cells/classes/Worksheet&#34;&gt;&lt;code&gt;Worksheet&lt;/code&gt;&lt;/a&gt; class. The &lt;code&gt;Worksheet&lt;/code&gt; class provides a wide range of properties and methods for managing worksheets. To control the visibility of row and column headers, use the &lt;code&gt;Worksheet&lt;/code&gt; class&amp;rsquo; &lt;code&gt;setRowColumnHeadersVisible&lt;/code&gt; method.&lt;/p&gt;
+&lt;h3 id=&#34;hiding-rowcolumn-headers&#34;&gt;Hiding Row/Column Headers&lt;/h3&gt;
+&lt;p&gt;Hide row and column headers by using the &lt;code&gt;Worksheet&lt;/code&gt; class&amp;rsquo; &lt;code&gt;setRowColumnHeadersVisible(false)&lt;/code&gt; method.&lt;/p&gt;
+&lt;h3 id=&#34;making-rowcolumn-headers-visible&#34;&gt;Making Row/Column Headers Visible&lt;/h3&gt;
+&lt;p&gt;Make row and column headers visible by using the &lt;code&gt;Worksheet&lt;/code&gt; class&amp;rsquo; &lt;code&gt;setRowColumnHeadersVisible(true)&lt;/code&gt; method.&lt;/p&gt;
+&lt;p&gt;A complete example is given below that demonstrates how to use the &lt;code&gt;Worksheet&lt;/code&gt; class&amp;rsquo; &lt;code&gt;setRowColumnHeadersVisible(false)&lt;/code&gt; method to hide row and column headers of the first worksheet of an Excel file.&lt;/p&gt;
+&lt;p&gt;The screenshot below shows that Book1.xls contains three worksheets: Sheet1, Sheet2 and Sheet3. Each worksheet is showing row and column headers.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Book1.xls: worksheet before modification&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276190/5472325.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Book1.xls is opened by calling the &lt;code&gt;Workbook&lt;/code&gt; class&amp;rsquo; &lt;code&gt;Open&lt;/code&gt; method and the row and column headers on the first worksheet are hidden. The modified file is saved as output.xls.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Worksheet view after modification&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276190/5472326.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;show-and-hide-scroll-bars&#34;&gt;Show and Hide Scroll Bars&lt;/h2&gt;
+&lt;p&gt;Scroll bars are very used to navigate the contents of any file. Normally, there are two kinds of scroll bars:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Vertical scroll bars&lt;/li&gt;
+&lt;li&gt;Horizontal scroll bars&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Microsoft Excel also provides horizontal and vertical scroll bars so that users can scroll through worksheet contents. Using Aspose.Cells, developers can control the visibility of both types of scroll bars in Excel files.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Controlling the Visibility of the Scroll Bars:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Aspose.Cells provides a class, &lt;strong&gt;Workbook&lt;/strong&gt; that represents an Excel file. &lt;strong&gt;Workbook&lt;/strong&gt; class provides a wide range of properties and methods to manage an Excel file. But, to control the visibility of the scroll bars in the Excel file, developers may &lt;strong&gt;use&lt;/strong&gt; &lt;strong&gt;setVerticalScrollBarHidden&lt;/strong&gt; &amp;amp; &lt;strong&gt;setHorizontalScrollBarHidden&lt;/strong&gt; methods of the &lt;strong&gt;Workbook&lt;/strong&gt; class.&lt;/p&gt;
+&lt;h3 id=&#34;hiding-scroll-bars&#34;&gt;Hiding Scroll Bars&lt;/h3&gt;
+&lt;p&gt;Hide scroll bars by setting the &lt;code&gt;Workbook&lt;/code&gt; class&amp;rsquo; &lt;code&gt;setVerticalScrollBarHidden()&lt;/code&gt; or &lt;code&gt;setHorizontalScrollBarHidden()&lt;/code&gt; methods to false.&lt;/p&gt;
+&lt;h3 id=&#34;making-scroll-bars-visible&#34;&gt;Making Scroll Bars Visible&lt;/h3&gt;
+&lt;p&gt;Make scroll bars visible by setting the &lt;code&gt;Workbook&lt;/code&gt; class&amp;rsquo; &lt;code&gt;setVerticalScrollBarHidden()&lt;/code&gt; or &lt;code&gt;setHorizontalScrollBarHidden()&lt;/code&gt; methods to true.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Complete Code Example:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Below is a complete code that opens an Excel file, book1.xls, hides both scroll bars and then saves the modified file as output.xls.&lt;/p&gt;
+&lt;p&gt;The screenshot below shows Book1.xls file containing both scroll bars. The modified file is saved as output.xls file, also shown below.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Book1.xls: Excel file before any modification&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276190/5472327.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;output.xls: Excel file after modification&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276190/5472328.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;show-and-hide-gridlines&#34;&gt;Show and Hide Gridlines&lt;/h2&gt;
+&lt;p&gt;All Microsoft Excel worksheets have gridlines by default. They help delineate cells, so that it is easy to enter data into particular cells. Gridlines enable us to view a worksheet as a collection of cells, where each cell is easily identifiable.&lt;/p&gt;
+&lt;p&gt;Aspose.Cells also allows you to control the visibility of the gridlines.&lt;/p&gt;
+&lt;h3 id=&#34;controlling-the-visibility-of-gridlines&#34;&gt;Controlling the Visibility of Gridlines&lt;/h3&gt;
+&lt;p&gt;Aspose.Cells provides a class, &lt;a href=&#34;http://www.aspose.com/api/java/cells/com.aspose.cells/classes/Workbook&#34;&gt;&lt;code&gt;Workbook&lt;/code&gt;&lt;/a&gt; that represents a Microsoft Excel file. The &lt;code&gt;Workbook&lt;/code&gt; class contains a &lt;code&gt;WorksheetCollection&lt;/code&gt; that allows access to each worksheet in the file.&lt;/p&gt;
+&lt;p&gt;A worksheet is represented by the &lt;a href=&#34;http://www.aspose.com/api/java/cells/com.aspose.cells/classes/Worksheet&#34;&gt;&lt;code&gt;Worksheet&lt;/code&gt;&lt;/a&gt; class. The &lt;code&gt;Worksheet&lt;/code&gt; class provides a wide range of properties and methods for managing worksheets. To control the visibility of gridlines, use the the &lt;code&gt;Worksheet&lt;/code&gt; class&amp;rsquo; &lt;code&gt;setGridlinesVisible&lt;/code&gt; method.&lt;/p&gt;
+&lt;h4 id=&#34;making-gridlines-visible&#34;&gt;Making Gridlines Visible&lt;/h4&gt;
+&lt;p&gt;To make gridlines visible, use the the &lt;code&gt;Worksheet&lt;/code&gt; class&amp;rsquo; &lt;code&gt;setGridlinesVisible(true)&lt;/code&gt; method.&lt;/p&gt;
+&lt;h4 id=&#34;hiding-gridlines&#34;&gt;Hiding Gridlines&lt;/h4&gt;
+&lt;p&gt;Hide gridlines using the the &lt;code&gt;Worksheet&lt;/code&gt; class&amp;rsquo; &lt;code&gt;setGridlinesVisible(false)&lt;/code&gt; method.&lt;/p&gt;
+&lt;p&gt;Gridlines are applied to the entire sheet. To &amp;lsquo;hide&amp;rsquo; gridlines on a section of a worksheet, use &lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/create+table+by+using+border+lines+for+a+range&#34;&gt;border formatting&lt;/a&gt; to set the borders to a color that blends into the sheet&amp;rsquo;s color scheme.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Example: Hiding Gridlines on a Particular Worksheet&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The example below demonstrates the use of the &lt;code&gt;Worksheet&lt;/code&gt; class&amp;rsquo; &lt;code&gt;setGridlinesVisible(false)&lt;/code&gt; method to hide gridlines of the first worksheet of an Excel file.&lt;/p&gt;
+&lt;p&gt;The screenshot below shows that the Book1.xls file contains three worksheets: Sheet1, Sheet2 and Sheet3. All of these worksheets have gridlines.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Worksheet view before modification&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276190/5472323.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The Book1.xls file is opened by calling the &lt;code&gt;Open&lt;/code&gt; method of the &lt;code&gt;Workbook&lt;/code&gt; class and then the gridlines of the first worksheet are hidden. The modified file is saved as output.xls file.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Worksheet view after modification&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276190/5472324.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;related-articles&#34;&gt;Related Articles&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://roywangt.github.io/cells/pages/createpage.action?spaceKey=cellsjava&amp;amp;title=Setting+Print+Options&amp;amp;linkCreation=true&amp;amp;fromPageId=5276190&#34;&gt;Printing gridlines and setting other printing options&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/create+table+by+using+border+lines+for+a+range&#34;&gt;Adding borders to cells to create a table&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Worksheet Views</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/worksheets/worksheet&#43;views/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/worksheets/worksheet&#43;views/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--worksheet-views&#34;&gt;Aspose.Cells for Java : Worksheet Views&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#page-break-preview&#34;&gt;Page Break Preview&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#controlling-view-modes&#34;&gt;Controlling View Modes&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1.1 &lt;a href=&#34;#enabling-normal-view&#34;&gt;Enabling Normal View&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.1.2 &lt;a href=&#34;#enabling-page-break-preview&#34;&gt;Enabling Page Break Preview&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#zoom-factor&#34;&gt;Zoom Factor&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;2.1 &lt;a href=&#34;#controlling-the-zoom-factor&#34;&gt;Controlling the Zoom Factor&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#freeze-panes&#34;&gt;Freeze Panes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;4 &lt;a href=&#34;#split-panes&#34;&gt;Split Panes&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;4.1 &lt;a href=&#34;#applying-and-removing-split-panes&#34;&gt;Applying and Removing Split Panes&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;4.1.1 &lt;a href=&#34;#splitting-panes&#34;&gt;Splitting Panes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;4.1.2 &lt;a href=&#34;#removing-panes&#34;&gt;Removing Panes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;page-break-preview&#34;&gt;Page Break Preview&lt;/h2&gt;
+&lt;p&gt;All worksheets can be viewed in two modes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Normal view.&lt;/li&gt;
+&lt;li&gt;Page break preview.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A normal view is a worksheet&amp;rsquo;s default view. Page break preview is an editing view that displays a worksheet as it will print. Page break preview shows what data will go on each page so you can adjust the print area and page breaks. Using Aspose.Cells developers can enable normal view or page break preview modes.&lt;/p&gt;
+&lt;h3 id=&#34;controlling-view-modes&#34;&gt;Controlling View Modes&lt;/h3&gt;
+&lt;p&gt;Aspose.Cells provides a &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/workbook&#34;&gt;Workbook&lt;/a&gt; class that represents a Microsoft Excel file. The &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/workbook&#34;&gt;Workbook&lt;/a&gt; class contains a &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/worksheetcollection&#34;&gt;WorksheetCollection&lt;/a&gt; that allows access to each worksheet in an Excel file.&lt;/p&gt;
+&lt;p&gt;A worksheet is represented by the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/worksheet&#34;&gt;Worksheet&lt;/a&gt; class. The &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/worksheet&#34;&gt;Worksheet&lt;/a&gt; class provides a wide range of properties and methods for managing worksheets. To enable normal or page break preview modes, use the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/worksheet&#34;&gt;Worksheet&lt;/a&gt; class&amp;rsquo; &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/worksheet#IsPageBreakPreview&#34;&gt;setPageBreakPreview&lt;/a&gt; method.&lt;/p&gt;
+&lt;h4 id=&#34;enabling-normal-view&#34;&gt;Enabling Normal View&lt;/h4&gt;
+&lt;p&gt;Set any worksheet to normal view by using the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/worksheet#IsPageBreakPreview&#34;&gt;setPageBreakPreview&lt;/a&gt; method of the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/worksheet&#34;&gt;Worksheet&lt;/a&gt; class and passing &lt;strong&gt;false&lt;/strong&gt; as a parameter.&lt;/p&gt;
+&lt;h4 id=&#34;enabling-page-break-preview&#34;&gt;Enabling Page Break Preview&lt;/h4&gt;
+&lt;p&gt;Set any worksheet to page break preview using the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/worksheet#IsPageBreakPreview&#34;&gt;setPageBreakPreview&lt;/a&gt; method of the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/worksheet&#34;&gt;Worksheet&lt;/a&gt; class and passing **true **as a parameter.&lt;/p&gt;
+&lt;p&gt;A complete example is given below that demonstrates the use of the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/worksheet&#34;&gt;Worksheet&lt;/a&gt; class&amp;rsquo; &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/worksheet#IsPageBreakPreview&#34;&gt;setPageBreakPreview&lt;/a&gt; method to enable the page break preview mode for the first worksheet of the Excel file.&lt;/p&gt;
+&lt;p&gt;In the screenshot below, you can see that Book1.xls file is in Normal View.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Book1.xls: Worksheet before modification&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276181/5472451.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Book1.xls is opened with the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/workbook&#34;&gt;Workbook&lt;/a&gt; class and the mode is switched to page break preview for the first worksheet. The modified file is saved as output.xls.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Ouput.xls: worksheet after modification&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276181/5472471.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;zoom-factor&#34;&gt;Zoom Factor&lt;/h2&gt;
+&lt;p&gt;Microsoft Excel provides a feature that lets users set a worksheet&amp;rsquo;s zoom or scaling factor. This feature helps users to see the worksheet contents in smaller or larger views. Users can set the zoom factor to any value.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Setting the Zoom Factor using Microsoft Excel&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276181/5472453.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Aspose.Cells also allows developers to set the worksheet zoom factor.&lt;/p&gt;
+&lt;h3 id=&#34;controlling-the-zoom-factor&#34;&gt;Controlling the Zoom Factor&lt;/h3&gt;
+&lt;p&gt;Aspose.Cells provides a &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/workbook&#34;&gt;Workbook&lt;/a&gt; class that represents a Microsoft Excel file. The &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/workbook&#34;&gt;Workbook&lt;/a&gt; class contains a &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/worksheetcollection&#34;&gt;WorksheetCollection&lt;/a&gt; that allows access to each worksheet in an Excel file.&lt;/p&gt;
+&lt;p&gt;A worksheet is represented by the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/worksheet&#34;&gt;Worksheet&lt;/a&gt; class. The &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/worksheet&#34;&gt;Worksheet&lt;/a&gt; class provides a wide range of properties and methods for managing worksheets. To set a worksheet&amp;rsquo;s zoom factor, use the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/worksheet&#34;&gt;Worksheet&lt;/a&gt; class&amp;rsquo; &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/worksheet#Zoom&#34;&gt;setZoom &lt;/a&gt;method.&lt;/p&gt;
+&lt;p&gt;A complete example is given below that demonstrates how to use the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/worksheet#Zoom&#34;&gt;setZoom &lt;/a&gt;method to set the zoom factor of the first worksheet in an Excel file.&lt;/p&gt;
+&lt;p&gt;In the screenshot below, you can see the Book1.xls file in the default view.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Book1.xls: worksheet before modification&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276181/5472454.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The Book1.xls file is opened with the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/workbook&#34;&gt;Workbook&lt;/a&gt; class and the zoom factor of the first worksheet is set to 75. The modified file is saved as output.xls.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Output.xls: worksheet after modification&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276181/5472472.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;freeze-panes&#34;&gt;Freeze Panes&lt;/h2&gt;
+&lt;p&gt;Freeze panes is a feature provided by Microsoft Excel. Freezing panes allows you to select data to remain visible when scrolling in a worksheet.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Using freeze panes in Microsoft Excel&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276181/5472455.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Aspose.Cells also allows developers to apply freeze panes to worksheets at runtime.&lt;/p&gt;
+&lt;p&gt;Aspose.Cells provides a &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/workbook&#34;&gt;Workbook&lt;/a&gt; class that represents a Microsoft Excel file. The &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/workbook&#34;&gt;Workbook&lt;/a&gt; class contains a &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/worksheetcollection&#34;&gt;WorksheetCollection&lt;/a&gt; that allows access to each worksheet in an Excel file.&lt;/p&gt;
+&lt;p&gt;A worksheet is represented by the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/worksheet&#34;&gt;Worksheet&lt;/a&gt; class. The &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/worksheet&#34;&gt;Worksheet&lt;/a&gt; class provides a wide range of properties and methods for managing worksheets. To configure freeze panes, call the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/worksheet&#34;&gt;Worksheet&lt;/a&gt; class&amp;rsquo; &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/worksheet#freezePanes(int,%20int,%20int,%20int)&#34;&gt;freezePanes&lt;/a&gt; method. The &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/worksheet#freezePanes(int,%20int,%20int,%20int)&#34;&gt;freezePanes&lt;/a&gt; method takes the following parameters:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Row&lt;/strong&gt;, the row index of the cell that the freeze will start from.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Column&lt;/strong&gt;, the column index of the cell that the freeze will start from.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Frozen rows&lt;/strong&gt;, the number of visible rows in the top pane.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Frozen columns&lt;/strong&gt;, the number of visible columns in the left pane&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A complete example is given below that shows how to use the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/worksheet&#34;&gt;Worksheet&lt;/a&gt; class&amp;rsquo; &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/worksheet#freezePanes(int,%20int,%20int,%20int)&#34;&gt;freezePanes&lt;/a&gt; method to freeze rows and columns (starting from C4, represented by 4th row and 3rd column, where the rows and columns start from 0 indexes) of the first worksheet of the Excel file.&lt;/p&gt;
+&lt;p&gt;In the screenshot below, you can see Book1.xls file without freeze panes.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Book1.xls: worksheet view before any modification&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276181/5472456.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The Book1.xls file is opened with the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/workbook&#34;&gt;Workbook&lt;/a&gt; class and then a few rows and columns are frozen on the first worksheet. The modified file is saved as output.xls.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Outlook.xls: worksheet view after modification&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276181/5472457.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;split-panes&#34;&gt;Split Panes&lt;/h2&gt;
+&lt;p&gt;If you need to split the screen to get two different views in the same worksheet, split panes. Microsoft Excel offers a very handy feature that allows you to view more than one copy of your worksheet, and for you to be able to scroll through each pane of your worksheet independently: split panes.&lt;/p&gt;
+&lt;p&gt;The panes work simultaneously. If you make a change in one, the change simultaneously appears in the other. Aspose.Cells provides the split panes feature for the users.&lt;/p&gt;
+&lt;h3 id=&#34;applying-and-removing-split-panes&#34;&gt;Applying and Removing Split Panes&lt;/h3&gt;
+&lt;h4 id=&#34;splitting-panes&#34;&gt;Splitting Panes&lt;/h4&gt;
+&lt;p&gt;Aspose.Cells provides a &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/workbook&#34;&gt;Workbook&lt;/a&gt; class that represents a Microsoft Excel file. The &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/workbook&#34;&gt;Workbook&lt;/a&gt; class provides a wide range of properties and methods for managing Excel files. To implement split views, use the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/worksheet&#34;&gt;Worksheet&lt;/a&gt; class&amp;rsquo; &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/worksheet#split()&#34;&gt;split&lt;/a&gt; method. To remove split panes, use the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/worksheet#removeSplit()&#34;&gt;removeSplit&lt;/a&gt; method.&lt;/p&gt;
+&lt;p&gt;In the example, we use a simple template file that is loaded, then the set split panes feature is applied on a cell in the first worksheet. The updated file is saved.&lt;/p&gt;
+&lt;p&gt;After running the above code, the generated file has a split view.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Split panes in the output file&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276181/5472452.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;removing-panes&#34;&gt;Removing Panes&lt;/h4&gt;
+&lt;p&gt;Developers can remove split panes using the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/worksheet&#34;&gt;Worksheet&lt;/a&gt; class&amp;rsquo; &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/worksheet#removeSplit()&#34;&gt;removeSplit&lt;/a&gt; method.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Utilize Sheet.SheetId property of OpenXml using Aspose.Cells</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/worksheets/utilize&#43;sheet.sheetid&#43;property&#43;of&#43;openxml&#43;using&#43;aspose.cells/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/worksheets/utilize&#43;sheet.sheetid&#43;property&#43;of&#43;openxml&#43;using&#43;aspose.cells/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--utilize-sheetsheetid-property-of-openxml-using-asposecells&#34;&gt;Aspose.Cells for Java : Utilize Sheet.SheetId property of OpenXml using Aspose.Cells&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#utilize-sheet.sheetid-property-of-openxml-using-aspose.cells&#34;&gt;Utilize Sheet.SheetId property of OpenXml using Aspose.Cells&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;4 &lt;a href=&#34;#console-output&#34;&gt;Console Output&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Sheet.SheetId&lt;/em&gt; property is found inside the &lt;em&gt;DocumentFormat.OpenXml.Spreadsheet&lt;/em&gt; namespace and is part of OpenXml. You can see this property and its value inside &lt;em&gt;workbook.xml&lt;/em&gt; as shown in the following screenshot. Aspose.Cells provides the equivalent property as &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/worksheet#TabId&#34;&gt;Worksheet.TabId&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/51480066/51740738.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;utilize-sheetsheetid-property-of-openxml-using-asposecells&#34;&gt;Utilize Sheet.SheetId property of OpenXml using Aspose.Cells&lt;/h2&gt;
+&lt;p&gt;The following sample code loads the &lt;a href=&#34;https://docs2.aspose.com/cells/java/attachments/51480066/51740740.xlsx&#34;&gt;sample Excel file&lt;/a&gt;, reads its Sheet or Tab Id, then it assigns it new Tab Id and saves it as &lt;a href=&#34;https://docs2.aspose.com/cells/java/attachments/51480066/51740739.xlsx&#34;&gt;output Excel file&lt;/a&gt;. Please also see the console output of the code given below for a reference.&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+&lt;h2 id=&#34;console-output&#34;&gt;Console Output&lt;/h2&gt;
+&lt;p&gt;Sheet or Tab Id: 1297&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Update Days Preserving History of Revision Logs in Shared Workbook</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/worksheets/update&#43;days&#43;preserving&#43;history&#43;of&#43;revision&#43;logs&#43;in&#43;shared&#43;workbook/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/worksheets/update&#43;days&#43;preserving&#43;history&#43;of&#43;revision&#43;logs&#43;in&#43;shared&#43;workbook/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--update-days-preserving-history-of-revision-logs-in-shared-workbook&#34;&gt;Aspose.Cells for Java : Update Days Preserving History of Revision Logs in Shared Workbook&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#update-days-preserving-history-of-revision-logs-in-shared-workbook&#34;&gt;Update Days Preserving History of Revision Logs in Shared Workbook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;When you share a workbook, you get an option saying &lt;em&gt;&lt;strong&gt;Keep change history for N days&lt;/strong&gt;&lt;/em&gt; as shown in the following screenshot. You can update the number of days for preserving history using Aspose.Cells with &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/revisionlogcollection#DaysPreservingHistory&#34;&gt;WorksheetCollection.RevisionLogs.DaysPreservingHistory&lt;/a&gt; property.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/60229074/60489785.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;update-days-preserving-history-of-revision-logs-in-shared-workbook&#34;&gt;Update Days Preserving History of Revision Logs in Shared Workbook&lt;/h2&gt;
+&lt;p&gt;The following sample code creates an empty workbook, then shares it and updates the revision logs days preserving history to 7 days which is normally 30 days. Please see the &lt;a href=&#34;https://docs2.aspose.com/cells/java/attachments/60229074/60489784.xlsx&#34;&gt;output Excel file&lt;/a&gt; generated by the code for a reference.&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Find if the Worksheet is Dialog Sheet</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/worksheets/find&#43;if&#43;the&#43;worksheet&#43;is&#43;dialog&#43;sheet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/worksheets/find&#43;if&#43;the&#43;worksheet&#43;is&#43;dialog&#43;sheet/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--find-if-the-worksheet-is-dialog-sheet&#34;&gt;Aspose.Cells for Java : Find if the Worksheet is Dialog Sheet&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#find-if-the-worksheet-is-dialog-sheet&#34;&gt;Find if the Worksheet is Dialog Sheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;4 &lt;a href=&#34;#console-output&#34;&gt;Console Output&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;Dialog Sheet is an old format of the sheet that contains a dialog box. Such a sheet could be inserted by an older version of Microsoft Excel e.g. 2003 as shown in this screenshot. It can also be inserted with VBA in newer versions e.g. Microsoft Excel 2016.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/64454897/64716840.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;You can find if the sheet is a dialog sheet or some other type of sheet with &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/worksheet#Type&#34;&gt;Worksheet.Type&lt;/a&gt; property provided by Aspose.Cells. If it returns enumeration value &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/sheettype#DIALOG&#34;&gt;SheetType.DIALOG&lt;/a&gt;, then it means, you are dealing with a dialog sheet.&lt;/p&gt;
+&lt;h2 id=&#34;find-if-the-worksheet-is-dialog-sheet&#34;&gt;Find if the Worksheet is Dialog Sheet&lt;/h2&gt;
+&lt;p&gt;The following sample code loads the &lt;a href=&#34;https://docs2.aspose.com/cells/java/attachments/64454897/64716841.xlsx&#34;&gt;sample Excel file&lt;/a&gt; that contains a dialog sheet. It checks the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/worksheet#Type&#34;&gt;Worksheet.Type&lt;/a&gt; property compares it with &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/sheettype#DIALOG&#34;&gt;SheetType.DIALOG&lt;/a&gt; and then prints the message. Please see the console output of the sample code given below for more help.&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+&lt;h2 id=&#34;console-output&#34;&gt;Console Output&lt;/h2&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_38d1361d16&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_38d1361d16&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Worksheet&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;is&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;a&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Dialog&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Sheet&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Specify Author while Write Protecting Workbook</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/worksheets/specify&#43;author&#43;while&#43;write&#43;protecting&#43;workbook/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/worksheets/specify&#43;author&#43;while&#43;write&#43;protecting&#43;workbook/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--specify-author-while-write-protecting-workbook&#34;&gt;Aspose.Cells for Java : Specify Author while Write Protecting Workbook&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#specify-author-while-write-protecting-workbook&#34;&gt;Specify Author while Write Protecting Workbook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;You can specify author name while write protecting your workbook using Aspose.Cells API. Please use &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/writeprotection#Author&#34;&gt;Workbook.Settings.WriteProtection.Author&lt;/a&gt; property for this purpose.&lt;/p&gt;
+&lt;h2 id=&#34;specify-author-while-write-protecting-workbook&#34;&gt;Specify Author while Write Protecting Workbook&lt;/h2&gt;
+&lt;p&gt;The following sample code explains the usage of the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/writeprotection#Author&#34;&gt;Workbook.Settings.WriteProtection.Author&lt;/a&gt; property. The code creates an empty workbook, write protects it with a password, specifies the author&amp;rsquo;s name and saves it as an &lt;a href=&#34;https://docs2.aspose.com/cells/java/attachments/66950259/67338593.xlsx&#34;&gt;output Excel file&lt;/a&gt;. The following screenshot illustrates the effect of the sample code on the output Excel file for your reference.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/66950259/67338594.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Count number of cells in the Worksheet</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/worksheets/count&#43;number&#43;of&#43;cells&#43;in&#43;the&#43;worksheet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/worksheets/count&#43;number&#43;of&#43;cells&#43;in&#43;the&#43;worksheet/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--count-number-of-cells-in-the-worksheet&#34;&gt;Aspose.Cells for Java : Count number of cells in the Worksheet&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#count-number-of-cells-in-the-worksheet&#34;&gt;Count number of cells in the Worksheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;count-number-of-cells-in-the-worksheet&#34;&gt;Count number of cells in the Worksheet&lt;/h2&gt;
+&lt;p&gt;You may count the number of cells in the worksheet by calling the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/cells/properties/count&#34;&gt;Cells.getCount&lt;/a&gt;() or &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/cells/properties/countlarge&#34;&gt;Cells.getCountLarge&lt;/a&gt;() property getters as shown in the code example given below.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Get Hyperlinks in Range</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/worksheets/get&#43;hyperlinks&#43;in&#43;range/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/worksheets/get&#43;hyperlinks&#43;in&#43;range/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--get-hyperlinks-in-range&#34;&gt;Aspose.Cells for Java : Get Hyperlinks in Range&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#get-hyperlinks-in-range&#34;&gt;Get Hyperlinks in Range&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;get-hyperlinks-in-range&#34;&gt;Get Hyperlinks in Range&lt;/h2&gt;
+&lt;p&gt;The &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/range&#34;&gt;Range&lt;/a&gt; class provides a &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/range#Hyperlinks&#34;&gt;getHyperlinks()&lt;/a&gt; property getter which gets all the hyperlinks in the selected range. You may also delete the Hyperlink by calling the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/hyperlink#delete()&#34;&gt;Hyperlink.delete()&lt;/a&gt; method.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Get Range with External Links</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/worksheets/get&#43;range&#43;with&#43;external&#43;links/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/worksheets/get&#43;range&#43;with&#43;external&#43;links/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--get-range-with-external-links&#34;&gt;Aspose.Cells for Java : Get Range with External Links&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#get-range-with-external-links&#34;&gt;Get Range with External Links&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;get-range-with-external-links&#34;&gt;Get Range with External Links&lt;/h2&gt;
+&lt;p&gt;A lot of times Excel files access data from other Excel files using external links. Aspose.Cells provides the option to retrieve these external links by using the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/name#getReferredAreas(boolean)&#34;&gt;Name.GetReferredAreas&lt;/a&gt; method. The &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/name#getReferredAreas(boolean)&#34;&gt;Name.GetReferredAreas&lt;/a&gt; method returns an array of type &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/ReferredArea&#34;&gt;ReferredArea&lt;/a&gt;. The &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/ReferredArea&#34;&gt;ReferredArea&lt;/a&gt;class provides an &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/referredarea#ExternalFileName&#34;&gt;ExternalFileName&lt;/a&gt; property which returns the name of the external file. The &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/ReferredArea&#34;&gt;ReferredArea&lt;/a&gt;class exposes the following members.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/referredarea#EndColumn&#34;&gt;EndColumn&lt;/a&gt;: The end column of the area&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/referredarea#EndRow&#34;&gt;EndRow&lt;/a&gt;: The end row of the area&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/referredarea#ExternalFileName&#34;&gt;ExternalFileName&lt;/a&gt;: Get the external file name if this is an external reference&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/referredarea#IsArea&#34;&gt;IsArea&lt;/a&gt;: Indicates whether this is an area&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/referredarea#IsExternalLink&#34;&gt;IsExternalLink&lt;/a&gt;: Indicates whether this is an external link&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/referredarea#SheetName&#34;&gt;SheetName&lt;/a&gt;: Indicates which sheet this reference is in&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/referredarea#StartColumn&#34;&gt;StartColumn&lt;/a&gt;: The start column of the area&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/referredarea#StartRow&#34;&gt;StartRow&lt;/a&gt;: The start row of the area&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The sample code given below demonstrates the use of &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/name#getReferredAreas(boolean)&#34;&gt;Name.GetReferredAreas&lt;/a&gt; method to get Ranges with external links.&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Cut and Paste Cells</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/worksheets/cut&#43;and&#43;paste&#43;cells/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/worksheets/cut&#43;and&#43;paste&#43;cells/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--cut-and-paste-cells&#34;&gt;Aspose.Cells for Java : Cut and Paste Cells&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#cut-and-paste-cells&#34;&gt;Cut and Paste Cells&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h1 id=&#34;cut-and-paste-cells&#34;&gt;Cut and Paste Cells&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells provides you with the ability to cut and paste cells within a worksheet by using the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/cells#insertCutCells(com.aspose.cells.Range,%20int,%20int,%20int)&#34;&gt;insertCutCells&lt;/a&gt; method of the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/Cells&#34;&gt;Cells&lt;/a&gt; collection. The &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/cells#insertCutCells(com.aspose.cells.Range,%20int,%20int,%20int)&#34;&gt;insertCutCells&lt;/a&gt; accepts the following parameters.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/Range&#34;&gt;Range&lt;/a&gt;: The range of cells to be cut.&lt;/li&gt;
+&lt;li&gt;Row Index: The index of the row to insert cells.&lt;/li&gt;
+&lt;li&gt;Column Index: The index of the column to insert cells.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/ShiftType&#34;&gt;ShiftType&lt;/a&gt;: The shift direction of the columns.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The following example shows how to cut and paste cells within a worksheet. &lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Threaded Comments</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/worksheets/threaded&#43;comments/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/worksheets/threaded&#43;comments/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--threaded-comments&#34;&gt;Aspose.Cells for Java : Threaded Comments&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#threaded-comments&#34;&gt;Threaded Comments&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#add-threaded-comments&#34;&gt;Add Threaded Comments&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1.1 &lt;a href=&#34;#add-threaded-comment-with-excel&#34;&gt;Add Threaded comment with Excel&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.1.2 &lt;a href=&#34;#add-threaded-comment-using-aspose.cells&#34;&gt;Add Threaded Comment using Aspose.Cells&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1.2.1 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;1.2 &lt;a href=&#34;#read-threaded-comments&#34;&gt;Read Threaded Comments&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.2.1 &lt;a href=&#34;#read-threaded-comments-with-excel&#34;&gt;Read Threaded comments with Excel&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.2.2 &lt;a href=&#34;#read-threaded-comments-using-aspose.cells&#34;&gt;Read Threaded comments using Aspose.Cells&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.2.2.1 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.2.2.2 &lt;a href=&#34;#console-output&#34;&gt;Console Output&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;1.2.3 &lt;a href=&#34;#read-created-time-of-threaded-comments&#34;&gt;Read Created Time of threaded comments&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.2.3.1 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.2.3.2 &lt;a href=&#34;#console-output&#34;&gt;Console Output&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;1.3 &lt;a href=&#34;#edit-threaded-comments&#34;&gt;Edit Threaded Comments&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.3.1 &lt;a href=&#34;#edit-threaded-comment-with-excel&#34;&gt;Edit Threaded comment with Excel&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.3.2 &lt;a href=&#34;#edit-threaded-comment-using-aspose.cells&#34;&gt;Edit Threaded comment using Aspose.Cells&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.3.2.1 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;1.4 &lt;a href=&#34;#remove-threaded-comments&#34;&gt;Remove Threaded Comments&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.4.1 &lt;a href=&#34;#remove-threaded-comments-with-excel&#34;&gt;Remove Threaded comments with Excel&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.4.2 &lt;a href=&#34;#remove-threaded-comments-using-aspose.cells&#34;&gt;Remove Threaded comments using Aspose.Cells&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.4.2.1 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h1 id=&#34;threaded-comments&#34;&gt;Threaded Comments&lt;/h1&gt;
+&lt;p&gt;MS Excel 365 provides a feature to add threaded comments. These comments work as conversations and can be used for discussions. The comments now come with a Reply box that allows for threaded conversations. The old comments are called Notes in Excel 365. The screenshot below shows how threaded comments are displayed when opened in Excel.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/89686042/89849857.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Threaded comments are shown like this in older versions of Excel. The following images have been taken by opening the sample file in Excel 2016.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/89686042/89849865.jpg&#34; alt=&#34;&#34;&gt;         &lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/89686042/89849866.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Aspose.Cells also provides the feature to manage threaded comments. &lt;/p&gt;
+&lt;h2 id=&#34;add-threaded-comments&#34;&gt;Add Threaded Comments&lt;/h2&gt;
+&lt;h3 id=&#34;add-threaded-comment-with-excel&#34;&gt;Add Threaded comment with Excel&lt;/h3&gt;
+&lt;p&gt;To add threaded comments in Excel 365, follow the following steps.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Method 1
+&lt;ul&gt;
+&lt;li&gt;Click the &lt;strong&gt;Review&lt;/strong&gt; Tab&lt;/li&gt;
+&lt;li&gt;Click the **New Comment **button&lt;/li&gt;
+&lt;li&gt;This will open a dialogue to enter comments in the active cell.&lt;/li&gt;
+&lt;li&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/89686042/89849867.jpg&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Method 2
+&lt;ul&gt;
+&lt;li&gt;Right click on the cell where you want to insert the comment.&lt;/li&gt;
+&lt;li&gt;Click the &lt;strong&gt;New Comment&lt;/strong&gt; option.&lt;/li&gt;
+&lt;li&gt;This will open a dialogue to enter comments in the active cell.&lt;/li&gt;
+&lt;li&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/thumbnails/89686042/89849868&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;add-threaded-comment-using-asposecells&#34;&gt;Add Threaded Comment using Aspose.Cells&lt;/h3&gt;
+&lt;p&gt;Aspose.Cells provides &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/commentcollection#addThreadedComment(java.lang.String,%20java.lang.String,%20com.aspose.cells.ThreadedCommentAuthor)&#34;&gt;Comments.AddThreadedComment&lt;/a&gt; method to add threaded comments.The &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/commentcollection#addThreadedComment(java.lang.String,%20java.lang.String,%20com.aspose.cells.ThreadedCommentAuthor)&#34;&gt;Comments.AddThreadedComment&lt;/a&gt; method accepts the following three parameters.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Cell Name: The name of the cell where the comment will be inserted.&lt;/li&gt;
+&lt;li&gt;Comment Text: The text of the comment.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/ThreadedCommentAuthor&#34;&gt;ThreadedCommentAuthor&lt;/a&gt;: The author of the comment&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The following code sample demonstrates the use of &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/commentcollection#addThreadedComment(java.lang.String,%20java.lang.String,%20com.aspose.cells.ThreadedCommentAuthor)&#34;&gt;Comments.AddThreadedComment&lt;/a&gt; method to add threaded Comment to cell A1. Please see the &lt;a href=&#34;https://docs.aspose.com/download/attachments/89686042/AddThreadedComments_out.xlsx?version=1&amp;amp;modificationDate=1557971364318&amp;amp;api=v2&#34;&gt;output Excel file &lt;/a&gt;generated by the code for reference.&lt;/p&gt;
+&lt;h4 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h4&gt;
+&lt;h2 id=&#34;read-threaded-comments&#34;&gt;Read Threaded Comments&lt;/h2&gt;
+&lt;h3 id=&#34;read-threaded-comments-with-excel&#34;&gt;Read Threaded comments with Excel&lt;/h3&gt;
+&lt;p&gt;To read threaded comments in Excel, simply hover your mouse over the cell containing comments to view the comments. The comments view will look like the view in the following image.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/89686042/89849857.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;read-threaded-comments-using-asposecells&#34;&gt;Read Threaded comments using Aspose.Cells&lt;/h3&gt;
+&lt;p&gt;Aspose.Cells provides &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/commentcollection#getThreadedComments(java.lang.String)&#34;&gt;Comments.GetThreadedComments&lt;/a&gt; method to retrieve threaded comments for the specified column. &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/commentcollection#getThreadedComments(java.lang.String)&#34;&gt;Comments.GetThreadedComments&lt;/a&gt; method accepts the column name as a parameter and returns the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/ThreadedCommentCollection&#34;&gt;ThreadedCommentCollection&lt;/a&gt;. You can iterate over the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/ThreadedCommentCollection&#34;&gt;ThreadedCommentCollection&lt;/a&gt; to view the comments.&lt;/p&gt;
+&lt;p&gt;The following example demonstrates reading comments from column A1 by loading the &lt;a href=&#34;https://docs.aspose.com/download/attachments/89686042/ThreadedCommentsSample.xlsx?version=1&amp;amp;modificationDate=1557971364345&amp;amp;api=v2&#34;&gt;sample Excel File&lt;/a&gt;. Please see the console output generated by the code for reference.&lt;/p&gt;
+&lt;h4 id=&#34;sample-code-1&#34;&gt;Sample Code&lt;/h4&gt;
+&lt;h4 id=&#34;console-output&#34;&gt;Console Output&lt;/h4&gt;
+&lt;p&gt;Comment: Test Threaded CommentAuthor: Aspose Test&lt;/p&gt;
+&lt;h3 id=&#34;read-created-time-of-threaded-comments&#34;&gt;Read Created Time of threaded comments&lt;/h3&gt;
+&lt;p&gt;Aspose.Cells provides &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/commentcollection#getThreadedComments(java.lang.String)&#34;&gt;Comments.GetThreadedComments&lt;/a&gt; method to retrieve threaded comments for the specified column. &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/commentcollection#getThreadedComments(java.lang.String)&#34;&gt;Comments.GetThreadedComments&lt;/a&gt; method accepts the column name as a parameter and returns the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/ThreadedCommentCollection&#34;&gt;ThreadedCommentCollection&lt;/a&gt;. You can iterate over the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/ThreadedCommentCollection&#34;&gt;ThreadedCommentCollection&lt;/a&gt; and use the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/threadedcomment#CreatedTime&#34;&gt;ThreadedComment.CreatedTime&lt;/a&gt; property.&lt;/p&gt;
+&lt;p&gt;The following example demonstrates reading the created time of threaded comments by loading the &lt;a href=&#34;https://docs.aspose.com/download/attachments/89686042/ThreadedCommentsSample.xlsx?version=1&amp;amp;modificationDate=1557971364345&amp;amp;api=v2&#34;&gt;sample Excel File&lt;/a&gt;. Please see the console output generated by the code for reference.&lt;/p&gt;
+&lt;h4 id=&#34;sample-code-2&#34;&gt;Sample Code&lt;/h4&gt;
+&lt;h4 id=&#34;console-output-1&#34;&gt;Console Output&lt;/h4&gt;
+&lt;p&gt;Comment: Test Threaded CommentAuthor: Aspose TestCreated Time: 2019-05-15T12:46:23&lt;/p&gt;
+&lt;h2 id=&#34;edit-threaded-comments&#34;&gt;Edit Threaded Comments&lt;/h2&gt;
+&lt;h3 id=&#34;edit-threaded-comment-with-excel&#34;&gt;Edit Threaded comment with Excel&lt;/h3&gt;
+&lt;p&gt;To edit a threaded comment in Excel, click the &lt;strong&gt;Edit&lt;/strong&gt; link on the comment as shown in the following image.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/89686042/89849860.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;edit-threaded-comment-using-asposecells&#34;&gt;Edit Threaded comment using Aspose.Cells&lt;/h3&gt;
+&lt;p&gt;Aspose.Cells provides &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/commentcollection#getThreadedComments(java.lang.String)&#34;&gt;Comments.GetThreadedComments&lt;/a&gt; method to retrieve threaded comments for the specified column. &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/commentcollection#getThreadedComments(java.lang.String)&#34;&gt;Comments.GetThreadedComments&lt;/a&gt; method accepts the column name as a parameter and returns the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/ThreadedCommentCollection&#34;&gt;ThreadedCommentCollection&lt;/a&gt;. You can update the required comment in the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/ThreadedCommentCollection&#34;&gt;ThreadedCommentCollection&lt;/a&gt; and save the workbook.&lt;/p&gt;
+&lt;p&gt;The following example demonstrates editing the first threaded comment in column A1 by loading the &lt;a href=&#34;https://docs.aspose.com/download/attachments/89686042/ThreadedCommentsSample.xlsx?version=1&amp;amp;modificationDate=1557971364345&amp;amp;api=v2&#34;&gt;sample Excel File&lt;/a&gt;. Please see the &lt;a href=&#34;https://docs.aspose.com/download/attachments/89686042/EditThreadedComments.xlsx?version=1&amp;amp;modificationDate=1557971364334&amp;amp;api=v2&#34;&gt;output Excel file&lt;/a&gt; generated by the code showing the updated comment for reference.&lt;/p&gt;
+&lt;h4 id=&#34;sample-code-3&#34;&gt;Sample Code&lt;/h4&gt;
+&lt;h2 id=&#34;remove-threaded-comments&#34;&gt;Remove Threaded Comments&lt;/h2&gt;
+&lt;h3 id=&#34;remove-threaded-comments-with-excel&#34;&gt;Remove Threaded comments with Excel&lt;/h3&gt;
+&lt;p&gt;To remove threaded comments in Excel, right click on the cell containing the comments and click the &lt;strong&gt;Delete Comment&lt;/strong&gt; option as shown in the following image.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/89686042/89849863.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;remove-threaded-comments-using-asposecells&#34;&gt;Remove Threaded comments using Aspose.Cells&lt;/h3&gt;
+&lt;p&gt;Aspose.Cells provides &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/commentcollection#removeAt(int)&#34;&gt;Comments.RemoveAt&lt;/a&gt; method to remove comments for the specified column. &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/commentcollection#removeAt(int)&#34;&gt;Comments.RemoveAt&lt;/a&gt; method accepts the column name as a parameter removes the comments in that column. &lt;/p&gt;
+&lt;p&gt;The following example demonstrates removing comments in column A1 by loading the &lt;a href=&#34;https://docs.aspose.com/download/attachments/89686042/ThreadedCommentsSample.xlsx?version=1&amp;amp;modificationDate=1557971364345&amp;amp;api=v2&#34;&gt;sample Excel File&lt;/a&gt;. Please see the &lt;a href=&#34;https://docs.aspose.com/download/attachments/89686042/ThreadedCommentsSample_Out.xlsx?version=1&amp;amp;modificationDate=1557971364347&amp;amp;api=v2&#34;&gt;output Excel file&lt;/a&gt; generated by the code for reference.&lt;/p&gt;
+&lt;h4 id=&#34;sample-code-4&#34;&gt;Sample Code&lt;/h4&gt;
+&lt;p&gt;Please note that by removing comment with Aspose.Cells, the author is not removed automatically. If you need to remove the author as well, please use the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/threadedcommentauthorcollection#removeAt(int)&#34;&gt;ThreadedCommentAuthorCollection.removeAt&lt;/a&gt; method as shown in the example above.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Working with Background in ODS Files</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/worksheets/working&#43;with&#43;background&#43;in&#43;ods&#43;files/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/worksheets/working&#43;with&#43;background&#43;in&#43;ods&#43;files/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--working-with-background-in-ods-files&#34;&gt;Aspose.Cells for Java : Working with Background in ODS Files&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#background-in-ods-files&#34;&gt;Background in ODS Files&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#read-background-information-from-osd-file&#34;&gt;Read Background Information from OSD file&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1.1 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.1.2 &lt;a href=&#34;#console-output&#34;&gt;Console Output&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;1.2 &lt;a href=&#34;#add-colored-background-to-ods-file&#34;&gt;Add Colored Background to ODS file&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.2.1 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;1.3 &lt;a href=&#34;#add-graphic-background-to-ods-file&#34;&gt;Add Graphic Background to ODS file&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.3.1 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h1 id=&#34;background-in-ods-files&#34;&gt;Background in ODS Files&lt;/h1&gt;
+&lt;p&gt;Background can be added to sheets in ODS files. The background can either be a color background or graphic background. The background is not visible when the file is open but if the file is printed as PDF, the background is visible in the generated PDF. The background is also visible in the print preview dialogue.&lt;/p&gt;
+&lt;p&gt;Aspose.Cells provides the ability to read the background information and add background in ODS files.&lt;/p&gt;
+&lt;h2 id=&#34;read-background-information-from-osd-file&#34;&gt;Read Background Information from OSD file&lt;/h2&gt;
+&lt;p&gt;Aspose.Cells provides the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/ODSPageBackground&#34;&gt;ODSPageBackground&lt;/a&gt; class to manage background in ODS Files. The following code sample demonstrates the use of &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/ODSPageBackground&#34;&gt;ODSPageBackground&lt;/a&gt; class by loading the &lt;a href=&#34;https://docs.aspose.com/download/attachments/89981351/GraphicBackground.ods?version=2&amp;amp;modificationDate=1559420178632&amp;amp;api=v2&#34;&gt;source ODS&lt;/a&gt; file and reading the background information. Please see the Console Output generated by the code for reference.&lt;/p&gt;
+&lt;h4 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h4&gt;
+&lt;h4 id=&#34;console-output&#34;&gt;Console Output&lt;/h4&gt;
+&lt;p&gt;Background Type: GRAPHICBackgorund Position: CENTER_CENTER&lt;/p&gt;
+&lt;h2 id=&#34;add-colored-background-to-ods-file&#34;&gt;Add Colored Background to ODS file&lt;/h2&gt;
+&lt;p&gt;Aspose.Cells provides the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/ODSPageBackground&#34;&gt;ODSPageBackground&lt;/a&gt; class to manage background in ODS Files. The following code sample demonstrates the use of &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/odspagebackground#Color&#34;&gt;ODSPageBackground.Color&lt;/a&gt; property to add a color background to the ODS file. Please see the &lt;a href=&#34;https://docs.aspose.com/download/attachments/89981351/ColoredBackground.ods?version=1&amp;amp;modificationDate=1559420178618&amp;amp;api=v2&#34;&gt;output ODS&lt;/a&gt; file generated by the code for reference.&lt;/p&gt;
+&lt;h4 id=&#34;sample-code-1&#34;&gt;Sample Code&lt;/h4&gt;
+&lt;h2 id=&#34;add-graphic-background-to-ods-file&#34;&gt;Add Graphic Background to ODS file&lt;/h2&gt;
+&lt;p&gt;Aspose.Cells provides the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/ODSPageBackground&#34;&gt;ODSPageBackground&lt;/a&gt; class to manage background in ODS Files. The following code sample demonstrates the use of &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/odspagebackground#GraphicData&#34;&gt;ODSPageBackground.GraphicData&lt;/a&gt; property to add graphic background to the ODS file. Please see the &lt;a href=&#34;https://docs.aspose.com/download/attachments/89981351/GraphicBackground.ods?version=2&amp;amp;modificationDate=1559420178632&amp;amp;api=v2&#34;&gt;output ODS&lt;/a&gt; file generated by the code for reference.&lt;/p&gt;
+&lt;h4 id=&#34;sample-code-2&#34;&gt;Sample Code&lt;/h4&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Detect Hyperlink Type</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/worksheets/detect&#43;hyperlink&#43;type/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/worksheets/detect&#43;hyperlink&#43;type/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--detect-hyperlink-type&#34;&gt;Aspose.Cells for Java : Detect Hyperlink Type&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#detect%C2%A0hyperlink-type&#34;&gt;Detect Hyperlink Type&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;detecthyperlink-type&#34;&gt;Detect Hyperlink Type&lt;/h2&gt;
+&lt;p&gt;An Excel file can have different types of hyperlinks like external, cell reference, file path, etc. Aspose.Cells supports the feature to detect the type of hyperlink. The types of hyperlinks are represented by the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/TargetModeType&#34;&gt;TargetModeType&lt;/a&gt; Enumeration. The &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/TargetModeType&#34;&gt;TargetModeType&lt;/a&gt; Enumeration has the following members.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/targetmodetype#EXTERNAL&#34;&gt;EXTERNAL&lt;/a&gt;: External link&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/targetmodetype#FILE_PATH&#34;&gt;FILE_PATH&lt;/a&gt;: Local and full path to files\folders.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/targetmodetype#EMAIL&#34;&gt;EMAIL&lt;/a&gt;: Email&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/targetmodetype#CELL_REFERENCE&#34;&gt;CELL_REFERENCE&lt;/a&gt;: Link to cell or named range.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;To check the type of hyperlink, the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/Hyperlink&#34;&gt;Hyperlink&lt;/a&gt; class provides a &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/hyperlink#LinkType&#34;&gt;LinkType&lt;/a&gt; property with a return type of &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/TargetModeType&#34;&gt;TargetModeType&lt;/a&gt;. The following code snippet demonstrates the use of the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/hyperlink#LinkType&#34;&gt;LinkType&lt;/a&gt; property by using this &lt;a href=&#34;https://docs.aspose.com/download/attachments/94635648/LinkTypes.xlsx?version=1&amp;amp;modificationDate=1568199364336&amp;amp;api=v2&#34;&gt;source excel file&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The following is the output generated by the code snippet given above.&lt;/p&gt;
+&lt;p&gt;LinkTypes.xlsx: FILE_PATH&lt;br&gt;
+C:\Windows\System32\cmd.exe: FILE_PATH&lt;br&gt;
+C:\Program Files\Common Files: FILE_PATH&lt;br&gt;
+&amp;lsquo;Test Sheet&amp;rsquo;!B2: CELL_REFERENCE&lt;br&gt;
+FullPathExample: CELL_REFERENCE&lt;br&gt;
+&lt;a href=&#34;https://products.aspose.com/cells:&#34;&gt;https://products.aspose.com/cells:&lt;/a&gt; EXTERNAL&lt;br&gt;
+mailto:test@test.com?subject=TestLink: EMAIL&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Get Cell Validation in ODS Files</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/worksheets/get&#43;cell&#43;validation&#43;in&#43;ods&#43;files/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/worksheets/get&#43;cell&#43;validation&#43;in&#43;ods&#43;files/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--get-cell-validation-in-ods-files&#34;&gt;Aspose.Cells for Java : Get Cell Validation in ODS Files&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#get-cell-validation-in-ods-files&#34;&gt;Get Cell Validation in ODS Files&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;get-cell-validation-in-ods-files&#34;&gt;Get Cell Validation in ODS Files&lt;/h2&gt;
+&lt;p&gt;With Aspose.Cells,  you can get the validation applied to a cell in ODS files. For this, the API provides the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/cell#getValidation()&#34;&gt;GetValidation&lt;/a&gt; method of the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/Cell&#34;&gt;Cell&lt;/a&gt; class.&lt;/p&gt;
+&lt;p&gt;The following code sample demonstrates the use of the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/cell#getValidation()&#34;&gt;GetValidation&lt;/a&gt; method by loading the &lt;a href=&#34;https://docs.aspose.com/download/attachments/101122972/SampleBook1.ods?version=1&amp;amp;modificationDate=1581098006442&amp;amp;api=v2&#34;&gt;source ODS&lt;/a&gt; file and reading the validation of the cell A9.&lt;/p&gt;
+&lt;h4 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h4&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Get worksheet unique id</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/worksheets/get&#43;worksheet&#43;unique&#43;id/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/worksheets/get&#43;worksheet&#43;unique&#43;id/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--get-worksheet-unique-id&#34;&gt;Aspose.Cells for Java : Get worksheet unique id&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#get-worksheet-unique-id&#34;&gt;Get worksheet unique id&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;get-worksheet-unique-id&#34;&gt;Get worksheet unique id&lt;/h2&gt;
+&lt;p&gt;Aspose.Cells provides the ability to get the unique id of a worksheet by using the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/worksheet#UniqueId&#34;&gt;Worksheet.UniqueId&lt;/a&gt; property. The following code snippet demonstrates the use of the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/worksheet#UniqueId&#34;&gt;Worksheet.UniqueId&lt;/a&gt; property to print the unique id of a worksheet. The following code snippet uses this &lt;a href=&#34;https://docs.aspose.com/download/attachments/105284024/Book1.xlsx?version=1&amp;amp;modificationDate=1585806848086&amp;amp;api=v2&#34;&gt;sample excel file&lt;/a&gt;.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

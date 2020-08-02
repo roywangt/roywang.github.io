@@ -1,0 +1,1581 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Loading Saving Converting and Managing</title>
+    <link>https://roywangt.github.io/cells/net/developerguide/ld-sv-cvt-mng/</link>
+    <description>Recent content in Loading Saving Converting and Managing on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://roywangt.github.io/cells/net/developerguide/ld-sv-cvt-mng/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Net: Different Ways to Open Files</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/ld-sv-cvt-mng/different&#43;ways&#43;to&#43;open&#43;files/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/ld-sv-cvt-mng/different&#43;ways&#43;to&#43;open&#43;files/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--different-ways-to-open-files&#34;&gt;Aspose.Cells for .NET : Different Ways to Open Files&lt;/h1&gt;
+&lt;p&gt;With Aspose.Cells it is possible to open files, for example, to retrieve data, or to use a designer template to speed up the development process.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#opening-a-file-via-a-path&#34;&gt;Opening a File via a Path&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#opening-a-file-using-a-stream&#34;&gt;Opening a File using a Stream&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#opening-a-file-with-data-only&#34;&gt;Opening a File with Data only&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;4 &lt;a href=&#34;#loading-visible-sheets-only&#34;&gt;Loading Visible Sheets only&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;opening-a-file-via-a-path&#34;&gt;Opening a File via a Path&lt;/h2&gt;
+&lt;p&gt;Developers can open a Microsoft Excel file using its file path on the local computer by specifying it in the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/workbook&#34;&gt;Workbook&lt;/a&gt; class constructor. Simply pass the path in the constructor as a &lt;em&gt;string&lt;/em&gt;. Aspose.Cells will automatically detect the file format type.&lt;/p&gt;
+&lt;h2 id=&#34;opening-a-file-using-a-stream&#34;&gt;Opening a File using a Stream&lt;/h2&gt;
+&lt;p&gt;It is also possible to open an Excel file as a stream. To do so, use an overloaded version of the constructor that takes the *Stream *object that contains the file.&lt;/p&gt;
+&lt;h2 id=&#34;opening-a-file-with-data-only&#34;&gt;Opening a File with Data only&lt;/h2&gt;
+&lt;p&gt;To open a file with data only, use the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/loadoptions&#34;&gt;LoadOptions&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/loadfilter&#34;&gt;LoadFilter&lt;/a&gt; classes to set the related attribute and options of the classes for the template file to be loaded.&lt;/p&gt;
+&lt;h2 id=&#34;loading-visible-sheets-only&#34;&gt;Loading Visible Sheets only&lt;/h2&gt;
+&lt;p&gt;While loading a &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/workbook&#34;&gt;Workbook&lt;/a&gt; sometimes you may only need data in visible worksheets in a workbook. Aspose.Cells allows you to skip data in invisible worksheets while loading a workbook. To do this, create a custom function that inherits the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/loadfilter&#34;&gt;LoadFilter&lt;/a&gt; class and pass its instance to &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/loadoptions/properties/loadfilter&#34;&gt;LoadOptions.LoadFilter&lt;/a&gt; property.&lt;/p&gt;
+&lt;p&gt;Here is the implementation of the *CustomnLoad *class referenced in the above snippet.&lt;/p&gt;
+&lt;p&gt;An exception will be thrown if you try to open non-native Excel files or other file formats (for example PPT/PPTX, DOC/DOCX, etc.) by Aspose.Cells.&lt;/p&gt;
+&lt;p&gt;There are fair chances that the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/workbook&#34;&gt;Workbook&lt;/a&gt; constructor may throw &lt;em&gt;System.OutOfMemoryException&lt;/em&gt; while loading large spreadsheets. This exception suggests that the available memory is insufficient to completely load the spreadsheet into the memory therefore the spreadsheet has to be loaded while enabling the Memory Preferences.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Opening Different Microsoft Excel Versions Files</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/ld-sv-cvt-mng/opening&#43;different&#43;microsoft&#43;excel&#43;versions&#43;files/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/ld-sv-cvt-mng/opening&#43;different&#43;microsoft&#43;excel&#43;versions&#43;files/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--opening-different-microsoft-excel-versions-files&#34;&gt;Aspose.Cells for .NET : Opening Different Microsoft Excel Versions Files&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells can open a range of different Microsoft Excel Versions Files, such as Microsoft Excel 95/97 - 2003, SpreadsheetML, Opening Microsoft Excel 2007/2010 XLSX or Encrypted Excel Files.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#opening-files-of-different-microsoft-excel-versions&#34;&gt;Opening Files of Different Microsoft Excel Versions&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#opening-microsoft-excel-95/5.0-files&#34;&gt;Opening Microsoft Excel 95/5.0 Files&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.2 &lt;a href=&#34;#opening-microsoft-excel-97---2003-files&#34;&gt;Opening Microsoft Excel 97 - 2003 Files&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.3 &lt;a href=&#34;#opening-microsoft-excel-2007/2010-xlsx-files&#34;&gt;Opening Microsoft Excel 2007/2010 XLSX Files&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.4 &lt;a href=&#34;#opening-encrypted-excel-files&#34;&gt;Opening Encrypted Excel Files&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.5 &lt;a href=&#34;#unsupported-excel-formats&#34;&gt;Unsupported Excel formats&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;opening-files-of-different-microsoft-excel-versions&#34;&gt;Opening Files of Different Microsoft Excel Versions&lt;/h2&gt;
+&lt;p&gt;An application often has to be able to open Microsoft Excel files created in different versions, for example, Microsoft Excel 95,97, or Microsoft Excel 2007/2010. You might need to load a file in any one of several formats, including XLS, XLSX, XLSM, XLSB, SpreadsheetML, TabDelimited or TSV, CSV, ODS and so on. Use the constructor, or specify the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/workbook&#34;&gt;Workbook&lt;/a&gt; class&amp;rsquo; &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/workbook/properties/fileformat&#34;&gt;FileFormat&lt;/a&gt; type attribute that specifies the format using the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/fileformattype&#34;&gt;FileFormatType&lt;/a&gt; enumeration.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/fileformattype&#34;&gt;FileFormatType&lt;/a&gt; enumeration contains many pre-defined file formats some of which are given below.&lt;/p&gt;
+
+&lt;div class=&#34;table table-striped&#34; role=&#34;alert&#34;&gt;
+    &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;File Format Types&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CSV&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents a CSV file&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Excel97To2003&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents an Excel 97 - 2003 file&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Xlsx&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents an Excel 2007/2010/2013 XLSX file&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Xlsm&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents an Excel 2007/2010/2013 XLSM file&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Xltx&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents an Excel 2007/2010/2013 template XLTX file&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Xltm&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents an Excel 2007/2010/2013 macro-enabled XLTM file&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Xlsb&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents an Excel 2007/2010/2013 binary XLSB file&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Excel2003XML&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents a SpreadsheetML file&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;TSV&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents a Tab-separated values file&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;TabDelimited&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents a Tab Delimited text file&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;ODS&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents an ODS file&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;HTML&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents an HTML file&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;MHTML&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents an MHTML file&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+
+&lt;h3 id=&#34;opening-microsoft-excel-9550-files&#34;&gt;Opening Microsoft Excel 95/5.0 Files&lt;/h3&gt;
+&lt;p&gt;To open a Microsoft Excel 95/5.0 file, use &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/loadoptions&#34;&gt;LoadOptions&lt;/a&gt; and set the related attribute for the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/loadoptions&#34;&gt;LoadOptions&lt;/a&gt; class for the template file to be loaded. A sample file for testing this feature can be downloaded from the following link:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/5013531/81920920.xls&#34;&gt;Excel95_5.0.xls&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;opening-microsoft-excel-97---2003-files&#34;&gt;Opening Microsoft Excel 97 - 2003 Files&lt;/h3&gt;
+&lt;p&gt;To open a Microsoft Excel 97 - 2003 file, use &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/loadoptions&#34;&gt;LoadOptions&lt;/a&gt; and set the related attribute for the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/loadoptions&#34;&gt;LoadOptions&lt;/a&gt; class for the template file to be loaded.&lt;/p&gt;
+&lt;h3 id=&#34;opening-microsoft-excel-20072010-xlsx-files&#34;&gt;Opening Microsoft Excel 2007/2010 XLSX Files&lt;/h3&gt;
+&lt;p&gt;To open a Microsoft Excel 2007/2010/2013 format, that is, XLSX or XLSB, specify the file path. You can also use &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/loadoptions&#34;&gt;LoadOptions&lt;/a&gt; and set the related attribute/options of the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/loadoptions&#34;&gt;LoadOptions&lt;/a&gt; class for the template file to be loaded.&lt;/p&gt;
+&lt;h3 id=&#34;opening-encrypted-excel-files&#34;&gt;Opening Encrypted Excel Files&lt;/h3&gt;
+&lt;p&gt;It&amp;rsquo;s possible to create encrypted Excel files using Microsoft Excel. To open an encrypted file, use the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/loadoptions&#34;&gt;LoadOptions&lt;/a&gt; and set its attributes and options (for example, give a password) for the template file to be loaded.&lt;/p&gt;
+&lt;p&gt;Aspose.Cells also supports opening password-protected Microsoft Excel 2013 files.&lt;/p&gt;
+&lt;h3 id=&#34;unsupported-excel-formats&#34;&gt;Unsupported Excel formats&lt;/h3&gt;
+&lt;p&gt;Aspose.Cells supports Microsoft Excel file formats 5.0/95, 97, 2000, 2002/2003, 2007, 2010, 2013, 2016&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Opening Files with Different Formats</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/ld-sv-cvt-mng/opening&#43;files&#43;with&#43;different&#43;formats/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/ld-sv-cvt-mng/opening&#43;files&#43;with&#43;different&#43;formats/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--opening-files-with-different-formats&#34;&gt;Aspose.Cells for .NET : Opening Files with Different Formats&lt;/h1&gt;
+&lt;p&gt;Using &lt;code&gt;Aspose.Cells&lt;/code&gt; you can open files with different formats. &lt;strong&gt;&lt;code&gt;Aspose.Cells&lt;/code&gt;&lt;/strong&gt; can open a range of file formats such as Microsoft Excel spreadsheets (XLS, XLSX, XLSM, XLSB), SpreadsheetML, Comma-separated values (CSV), Tab Delimited or Tab-separated values (TSV) files etc.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#opening-files-with-different-formats&#34;&gt;Opening Files with Different Formats&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#opening-spreadsheetml-files&#34;&gt;Opening SpreadsheetML Files&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.2 &lt;a href=&#34;#opening-html-files&#34;&gt;Opening HTML Files&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.3 &lt;a href=&#34;#opening-csv-files&#34;&gt;Opening CSV Files&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.3.1 &lt;a href=&#34;#opening-csv-files-and-replacing-invalid-characters&#34;&gt;Opening CSV files and replacing invalid characters&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.3.2 &lt;a href=&#34;#using-preferred-parser&#34;&gt;Using preferred parser&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;1.4 &lt;a href=&#34;#opening-text-files-with-custom-separator&#34;&gt;Opening Text Files with Custom Separator&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.5 &lt;a href=&#34;#opening-tab-delimited-files&#34;&gt;Opening Tab Delimited Files&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.6 &lt;a href=&#34;#opening-tab-separated-values-(tsv)-files&#34;&gt;Opening Tab-Separated Values (TSV) Files&lt;/a&gt;Files)&lt;/li&gt;
+&lt;li&gt;1.7 &lt;a href=&#34;#opening-sxc-files&#34;&gt;Opening SXC Files&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.8 &lt;a href=&#34;#opening-fods-files&#34;&gt;Opening FODS Files&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;opening-files-with-different-formats&#34;&gt;Opening Files with Different Formats&lt;/h2&gt;
+&lt;p&gt;Aspose.Cells allows developers to open spreadsheet files with different formats such as SpreadsheetML, Comma-separated values (CSV), Tab Delimited or Tab-separated values (TSV), ODS files. To open such files, developers can use the same methodology as they use for opening files of different Microsoft Excel versions.&lt;/p&gt;
+&lt;h3 id=&#34;opening-spreadsheetml-files&#34;&gt;Opening SpreadsheetML Files&lt;/h3&gt;
+&lt;p&gt;SpreadsheetML files are XML representations of spreadsheets including all information about it, such as formatting, formulae etc. Since Microsoft Excel XP, an XML export option is added to Microsoft Excel that exports your spreadsheets to SpreadsheetML files.&lt;/p&gt;
+&lt;h3 id=&#34;opening-html-files&#34;&gt;Opening HTML Files&lt;/h3&gt;
+&lt;p&gt;Aspose.Cells allows you to open HTML file into Workbook object. The HTML file should Microsoft Excel oriented i.e MS-Excel should be able to open it.&lt;/p&gt;
+&lt;h3 id=&#34;opening-csv-files&#34;&gt;Opening CSV Files&lt;/h3&gt;
+&lt;p&gt;Comma Separated Values (CSV) files contain records where the values are separated by commas. Data is stored as a table where each column is separated by the comma character and quoted by the double quote character. If a field value contains a double quote character it is escaped with a pair of double quote characters. You can also use Microsoft Excel to export spreadsheet data to CSV.&lt;/p&gt;
+&lt;h4 id=&#34;opening-csv-files-and-replacing-invalid-characters&#34;&gt;Opening CSV files and replacing invalid characters&lt;/h4&gt;
+&lt;p&gt;In Excel, when CSV file with special characters is opened, the characters are automatically replaced. The same is done by Aspose.Cells API which is demonstrated in the code example given below.&lt;/p&gt;
+&lt;h4 id=&#34;using-preferred-parser&#34;&gt;Using preferred parser&lt;/h4&gt;
+&lt;p&gt;This is not always necessary to use default parser settings for opening the CSV files. Sometimes importing CSV file does not create expected output like date format is not as expected or empty fields are handled differently. For this purpose &lt;strong&gt;TxtLoadOptions.PreferredParsers&lt;/strong&gt;is available to provide own preferred parser to parse different data types as per the requirement. Following sample code demonstrates the usage of preferred parser.  &lt;/p&gt;
+&lt;p&gt;Sample source file and output files can be downloaded from the following links for testing this feature.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/5013529/73990157.csv&#34;&gt;samplePreferredParser.csv&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/5013529/73990158.xlsx&#34;&gt;outputsamplePreferredParser.xlsx&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;opening-text-files-with-custom-separator&#34;&gt;Opening Text Files with Custom Separator&lt;/h3&gt;
+&lt;p&gt;Text files are used to hold spreadsheet data without formatting. The file is a kind of plain text file that can have some customized delimiters.&lt;/p&gt;
+&lt;h3 id=&#34;opening-tab-delimited-files&#34;&gt;Opening Tab Delimited Files&lt;/h3&gt;
+&lt;p&gt;Tab delimited (Text) file contains spreadsheet data but without any formatting. Data is arranged in rows and columns like in tables and spreadsheets. Basically, a tab delimited file is a special kind of plain text file with a tab between each column.&lt;/p&gt;
+&lt;h3 id=&#34;opening-tab-separated-values-tsv-files&#34;&gt;Opening Tab-Separated Values (TSV) Files&lt;/h3&gt;
+&lt;p&gt;Tab-separated values (TSV) file contains spreadsheet data but without any formatting. It is the same with Tab Delimited file where data is arranged in rows and columns like in tables and spreadsheets.&lt;/p&gt;
+&lt;h3 id=&#34;opening-sxc-files&#34;&gt;Opening SXC Files&lt;/h3&gt;
+&lt;p&gt;StarOffice Calc is similar to Microsoft Excel and supports formulas, charts, functions, and macros. The spreadsheets created with this software are saved with the SXCextension. The SXC file is also used for OpenOffice.org Calc spreadsheet files. Aspose.Cells can read SXC files as demonstrated by the following code sample.&lt;/p&gt;
+&lt;h3 id=&#34;opening-fods-files&#34;&gt;Opening FODS Files&lt;/h3&gt;
+&lt;p&gt;FODS file is spreadsheet saved in OpenDocument XML without any compression. Aspose.Cells can read FODS files as demonstrated by the following code sample.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Different Ways to Save Files</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/ld-sv-cvt-mng/different&#43;ways&#43;to&#43;save&#43;files/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/ld-sv-cvt-mng/different&#43;ways&#43;to&#43;save&#43;files/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--different-ways-to-save-files&#34;&gt;Aspose.Cells for .NET : Different Ways to Save Files&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells makes it possible to create and save files. This article explains the various ways in which files can be saved.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#different-ways-to-save-files&#34;&gt;Different Ways to Save Files&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#saving-file-to-some-location&#34;&gt;Saving File to Some Location&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#saving-workbook-to-text-or-csv-format&#34;&gt;Saving Workbook to Text or CSV Format&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;4 &lt;a href=&#34;#saving-text-files-with-custom-separator&#34;&gt;Saving Text Files with Custom Separator&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;5 &lt;a href=&#34;#saving-file-to-a-stream&#34;&gt;Saving File to a Stream&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;different-ways-to-save-files&#34;&gt;Different Ways to Save Files&lt;/h2&gt;
+&lt;p&gt;Aspose.Cells provides the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/workbook&#34;&gt;Workbook&lt;/a&gt; which represents a Microsoft Excel file and provides the properties and methods necessary to work with Excel files. The &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/workbook&#34;&gt;Workbook&lt;/a&gt; class provides the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/workbook/methods/save/index&#34;&gt;Save&lt;/a&gt; method used to save Excel files. The &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/workbook/methods/save/index&#34;&gt;Save&lt;/a&gt; method has many overloads that are used to save files in different ways.&lt;/p&gt;
+&lt;p&gt;The file format that the file is saved to is decided by the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/saveformat&#34;&gt;SaveFormat&lt;/a&gt; enumeration&lt;/p&gt;
+
+&lt;div class=&#34;table table-striped&#34; role=&#34;alert&#34;&gt;
+    &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;File Format Types&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CSV&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents a CSV file&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Excel97To2003&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents an Excel 97 - 2003 file&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Xlsx&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents an Excel 2007 XLSX file&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Xlsm&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents an Excel 2007 XLSM file&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Xltx&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents an Excel 2007 template XLTX file&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Xltm&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents an Excel 2007 macro-enabled XLTM file&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Xlsb&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents an Excel 2007 binary XLSB file&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;SpreadsheetML&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents a Spreadsheet XML file&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;TSV&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents a Tab-separated values file&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;TabDelimited&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents a Tab Delimited text file&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;ODS&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents an ODS file&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Html&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents HTML file(s)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;MHtml&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents an MHTML file(s)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Pdf&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents a PDF file&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;XPS&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents an XPS document&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;TIFF&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents Tagged Image File Format (TIFF)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+
+&lt;h2 id=&#34;saving-file-to-some-location&#34;&gt;Saving File to Some Location&lt;/h2&gt;
+&lt;p&gt;To save files to a storage location, specify the file name (complete with storage path) and the desired file format (from the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/saveformat&#34;&gt;SaveFormat&lt;/a&gt; enumeration) when calling the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/workbook&#34;&gt;Workbook&lt;/a&gt; object&amp;rsquo;s &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/workbook/methods/save/index&#34;&gt;Save&lt;/a&gt; method.&lt;/p&gt;
+&lt;h2 id=&#34;saving-workbook-to-text-or-csv-format&#34;&gt;Saving Workbook to Text or CSV Format&lt;/h2&gt;
+&lt;p&gt;Sometimes, you want to convert or save a workbook with multiple worksheets into text format. For text formats (for example TXT, TabDelim, CSV, etc.), by default both Microsoft Excel and Aspose.Cells save the contents of the active worksheet only.&lt;/p&gt;
+&lt;p&gt;The following code example explains how to save an entire workbook into text format. Load the source workbook which could be any Microsoft Excel or OpenOffice spreadsheet file (so XLS, XLSX, XLSM, XLSB, ODS and so on) with any number of worksheets.&lt;/p&gt;
+&lt;p&gt;When the code is executed, it converts the data of all sheets in the workbook to the TXT format.&lt;/p&gt;
+&lt;p&gt;You can modify the same example to save your file to CSV. By default, &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/txtsaveoptions/properties/separator&#34;&gt;TxtSaveOptions.Separator&lt;/a&gt; is comma, so do not specify a separator if saving to CSV format.&lt;/p&gt;
+&lt;h2 id=&#34;saving-text-files-with-custom-separator&#34;&gt;Saving Text Files with Custom Separator&lt;/h2&gt;
+&lt;p&gt;Text files contain spreadsheet data without formatting. The file is a kind of plain text file that can have some customized delimiters between its data.&lt;/p&gt;
+&lt;h2 id=&#34;saving-file-to-a-stream&#34;&gt;Saving File to a Stream&lt;/h2&gt;
+&lt;p&gt;To save files to a stream, create a *MemoryStream *or *FileStream *object and save the file to that stream object by calling the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/workbook&#34;&gt;Workbook&lt;/a&gt; object&amp;rsquo;s &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/workbook/methods/save/index&#34;&gt;Save&lt;/a&gt; method. Specify the desired file format using the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/saveformat&#34;&gt;SaveFormat&lt;/a&gt; enumeration when calling the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/workbook/methods/save/index&#34;&gt;Save&lt;/a&gt; method.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Saving File to Response Object</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/ld-sv-cvt-mng/saving&#43;file&#43;to&#43;response&#43;object/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/ld-sv-cvt-mng/saving&#43;file&#43;to&#43;response&#43;object/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--saving-file-to-response-object&#34;&gt;Aspose.Cells for .NET : Saving File to Response Object&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells makes it possible to manipulate files. This article explains the various ways in which files can be saved to a response object.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#saving-file-to-response-object&#34;&gt;Saving File to Response Object&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#xls-files&#34;&gt;XLS Files&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.2 &lt;a href=&#34;#xlsx-files&#34;&gt;XLSX Files&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.3 &lt;a href=&#34;#pdf-files&#34;&gt;PDF Files&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;saving-file-to-response-object&#34;&gt;Saving File to Response Object&lt;/h2&gt;
+&lt;p&gt;It is also possible to generate a file dynamically and send it directly to a client browser. In order to do so, use a special overloaded version of the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.workbook/save/methods/5&#34;&gt;Save&lt;/a&gt; method that accepts the following parameters:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ASP.NET &lt;a href=&#34;https://docs.microsoft.com/en-gb/dotnet/api/system.web.httpresponse?view=netframework-4.8&#34;&gt;HttpResponse&lt;/a&gt; object.&lt;/li&gt;
+&lt;li&gt;File name.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/contentdisposition&#34;&gt;ContentDisposition&lt;/a&gt;, the content-disposition type of the output file.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/saveoptions&#34;&gt;SaveOptions&lt;/a&gt;, the file format type&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/contentdisposition&#34;&gt;ContentDisposition&lt;/a&gt; enumeration determines whether the file being sent to the browser provides the option to open by itself directly in the browser or in an application associated with .xls/.xlsx or another extension.&lt;/p&gt;
+&lt;p&gt;The enumeration contains the following pre-defined save types:&lt;/p&gt;
+
+&lt;div class=&#34;table table-striped&#34; role=&#34;alert&#34;&gt;
+    &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Type&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Attachment&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Sends the spreadsheet to the browser and opens in an application as an attachment associated with .xls/.xlsx or other extensions&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Inline&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Sends the document to the browser and presents an option to save the spreadsheet to disk or open inside the browser&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+
+&lt;h3 id=&#34;xls-files&#34;&gt;XLS Files&lt;/h3&gt;
+&lt;h3 id=&#34;xlsx-files&#34;&gt;XLSX Files&lt;/h3&gt;
+&lt;h3 id=&#34;pdf-files&#34;&gt;PDF Files&lt;/h3&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Convert Workbook to Different Formats</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/ld-sv-cvt-mng/convert&#43;workbook&#43;to&#43;different&#43;formats/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/ld-sv-cvt-mng/convert&#43;workbook&#43;to&#43;different&#43;formats/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--convert-workbook-to-different-formats&#34;&gt;Aspose.Cells for .NET : Convert Workbook to Different Formats&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells supports conversion between many formats. Technically, conversion means to load a workbook in one file format and save it into another.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#converting-excel-workbook-to-xps&#34;&gt;Converting Excel Workbook to XPS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#converting-excel-workbook-to-mhtml-files&#34;&gt;Converting Excel Workbook to MHTML Files&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#converting-excel-workbook-to-html&#34;&gt;Converting Excel Workbook to HTML&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;4 &lt;a href=&#34;#setting-the-image-preferences-for-html&#34;&gt;Setting the Image Preferences for HTML&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;5 &lt;a href=&#34;#convert-excel-workbook-to-markdown&#34;&gt;Convert Excel Workbook to Markdown&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;converting-excel-workbook-to-xps&#34;&gt;Converting Excel Workbook to XPS&lt;/h2&gt;
+&lt;p&gt;The XPS document format consists of structured XML markup that defines the layout of a document and the visual appearance of each page, along with rendering rules for distributing, archiving, rendering, processing and printing documents.&lt;/p&gt;
+&lt;p&gt;The markup language for XPS is a subset of XAML which allows it to incorporate vector graphics elements in documents, using XAML to mark up the Windows Presentation Foundation (WPF) primitives. The elements used are described in terms of paths and other geometrical primitives.&lt;/p&gt;
+&lt;p&gt;An XPS file is, in fact, a Unicoded ZIP archive using the Open Packaging Conventions, containing the files which make up the document. These include an XML markup file for each page, text, embedded fonts, raster images, 2D vector graphics, as well as the digital rights management information. The contents of an XPS file can be examined simply by opening it in an application which supports ZIP files.&lt;/p&gt;
+&lt;p&gt;From Aspose.Cells 6.0.0, Microsoft Excel to XPS conversion is supported.&lt;/p&gt;
+&lt;h2 id=&#34;converting-excel-workbook-to-mhtml-files&#34;&gt;Converting Excel Workbook to MHTML Files&lt;/h2&gt;
+&lt;p&gt;MHTML combines normal HTML with external resources (that is, content that is usually linked in, like images, animations, audio and so on) into one file. They are used for emails with the .mht file extension.&lt;/p&gt;
+&lt;p&gt;Aspose.Cells supports reading and writing MHTML files.&lt;/p&gt;
+&lt;p&gt;The code example below shows how to save a workbook as an MHTML file.&lt;/p&gt;
+&lt;h2 id=&#34;converting-excel-workbook-to-html&#34;&gt;Converting Excel Workbook to HTML&lt;/h2&gt;
+&lt;p&gt;The Aspose.Cells API provides support for exporting spreadsheets to HTML format. For this purpose, Aspose.Cells uses the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/htmlsaveoptions&#34;&gt;HtmlSaveOptions&lt;/a&gt; class to provide the flexibility to control several aspects of the output HTML.&lt;/p&gt;
+&lt;p&gt;The code example below shows how to save a workbook as an HTML file.&lt;/p&gt;
+&lt;h2 id=&#34;setting-the-image-preferences-for-html&#34;&gt;Setting the Image Preferences for HTML&lt;/h2&gt;
+&lt;p&gt;Starting from 8.0.2, Aspose.Cells has exposed &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/htmlsaveoptions/properties/imageoptions&#34;&gt;ImageOptions&lt;/a&gt; for the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/htmlsaveoptions&#34;&gt;HtmlSaveOptions&lt;/a&gt; class, allowing developers to specify image preferences when saving spreadsheets to HTML format.&lt;/p&gt;
+&lt;p&gt;Below are details of some of the image settings that can be applied,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.drawing/imagetype&#34;&gt;ImageType&lt;/a&gt;: Specifies the image type. Please note, all shapes, including charts, render as images in the output HTML.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.rendering/imageorprintoptions/properties/smoothingmode&#34;&gt;SmoothingMode&lt;/a&gt;: Specifies the anti-aliasing for lines, curves &amp;amp; edges of filled areas.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.rendering/imageorprintoptions/properties/textrenderinghint&#34;&gt;TextRenderingHint&lt;/a&gt;: Specifies the quality of text rendering.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.rendering/imageorprintoptions/properties/quality&#34;&gt;Quality&lt;/a&gt;: Specifies the quality of the image between 0 to 100, when &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.drawing/imagetype&#34;&gt;ImageType&lt;/a&gt; is specified as Jpeg.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.rendering/imageorprintoptions/properties/verticalresolution&#34;&gt;VerticalResolution&lt;/a&gt;: Gets or sets the vertical resolution of the image in dots per inch.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.rendering/imageorprintoptions/properties/horizontalresolution&#34;&gt;HorizontalResolution&lt;/a&gt;: Gets or sets the horizontal resolution of the image in dots per inch.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.rendering/imageorprintoptions/properties/tiffcompression&#34;&gt;TiffCompression&lt;/a&gt;: Gets or sets the compression type for the images when &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.drawing/imagetype&#34;&gt;ImageType&lt;/a&gt; is specified as Tiff.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.rendering/imageorprintoptions/properties/transparent&#34;&gt;Transparent&lt;/a&gt;: Indicates if the background of an image should be transparent when &lt;code&gt;ImageFormat&lt;/code&gt; is specified as Png.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The code below demonstrates how to use &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/htmlsaveoptions/properties/imageoptions&#34;&gt;HtmlSaveOptions.ImageOptions&lt;/a&gt; to specify different preferences.&lt;/p&gt;
+&lt;h2 id=&#34;convert-excel-workbook-to-markdown&#34;&gt;Convert Excel Workbook to Markdown&lt;/h2&gt;
+&lt;p&gt;The Aspose.Cells API provides support for exporting spreadsheets to Markdown format. To export the active worksheet to Markdown, pass &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/saveformat&#34;&gt;SaveFormat.Markdown&lt;/a&gt; as the second parameter of &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.workbook/save/methods/3&#34;&gt;Workbook.Save&lt;/a&gt; method. You may also use &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/markdownsaveoptions&#34;&gt;MarkdownSaveOptions&lt;/a&gt; class to specify additional settings for exporting worksheet to Markdown.&lt;/p&gt;
+&lt;p&gt;The following code example demonstrates exporting active worksheet to Markdown by using &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/saveformat&#34;&gt;SaveFormat.Markdown&lt;/a&gt; enumeration member. Please see the &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/5013525/89620482.md&#34;&gt;output Markdown file&lt;/a&gt; generated by the code for reference.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Convert Excel Workbook to PDF</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/ld-sv-cvt-mng/convert&#43;excel&#43;workbook&#43;to&#43;pdf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/ld-sv-cvt-mng/convert&#43;excel&#43;workbook&#43;to&#43;pdf/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--convert-excel-workbook-to-pdf&#34;&gt;Aspose.Cells for .NET : Convert Excel Workbook to PDF&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells supports conversion of Excel Workbook into PDF. In this example, we will see the complete conversion of an Excel Workbook into PDF.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#converting-excel-workbook-to-pdf&#34;&gt;Converting Excel Workbook to PDF&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#direct-conversion&#34;&gt;Direct Conversion&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.2 &lt;a href=&#34;#advanced-conversion&#34;&gt;Advanced Conversion&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.2.1 &lt;a href=&#34;#saving-workbook-to-pdf/a-complied-files&#34;&gt;Saving Workbook to PDF/A Complied Files&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.2.2 &lt;a href=&#34;#set-the-pdf-creation-time&#34;&gt;Set the PDF Creation Time&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.2.3 &lt;a href=&#34;#set-contentcopyforaccessibility-option&#34;&gt;Set ContentCopyForAccessibility option&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.2.4 &lt;a href=&#34;#export-custom-properties-to-pdf&#34;&gt;Export Custom properties to PDF&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;1.3 &lt;a href=&#34;#conversion-attributes&#34;&gt;Conversion Attributes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;converting-excel-workbook-to-pdf&#34;&gt;Converting Excel Workbook to PDF&lt;/h2&gt;
+&lt;p&gt;PDF files are widely used to exchange documents between organizations, government sectors, and individuals. It is a standard document format and software developers are often asked to find a way to convert Microsoft Excel files into PDF documents.&lt;/p&gt;
+&lt;p&gt;Aspose.Cells supports converting Excel files to PDF and maintains high visual fidelity in the conversion.&lt;/p&gt;
+&lt;p&gt;Aspose.Cells for .NET directly writes the information about API and Version Number in output documents. For example, upon rendering Document to PDF, Aspose.Cells for .NET populates &lt;strong&gt;Application&lt;/strong&gt; field with value &amp;lsquo;Aspose.Cells&amp;rsquo; and &lt;strong&gt;PDF Producer&lt;/strong&gt; field with value, e.g &amp;lsquo;Aspose.Cells v17.9&amp;rsquo;.&lt;/p&gt;
+&lt;p&gt;Please note that you cannot instruct Aspose.Cells for .NET to change or remove this information from output Documents.&lt;/p&gt;
+&lt;h3 id=&#34;direct-conversion&#34;&gt;Direct Conversion&lt;/h3&gt;
+&lt;p&gt;Aspose.Cells for .NET supports conversion from spreadsheets to PDF independently of other software. Simply save an Excel file to PDF using the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/workbook&#34;&gt;Workbook&lt;/a&gt; class&amp;rsquo; &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/workbook/methods/save/index&#34;&gt;Save&lt;/a&gt; method. The &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/workbook/methods/save/index&#34;&gt;Save&lt;/a&gt; method provides the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/saveformat&#34;&gt;SaveFormat.Pdf&lt;/a&gt; enumeration member that converts the native Excel files to PDF format.&lt;/p&gt;
+&lt;p&gt;Follow the below steps to directly convert the Excel spreadsheets to PDF format:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Instantiate an object of the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/workbook&#34;&gt;Workbook&lt;/a&gt; class by calling its empty constructor.&lt;/li&gt;
+&lt;li&gt;You may open/load an existing template file or skip this step if you are creating the workbook from scratch.&lt;/li&gt;
+&lt;li&gt;Do any work (input data, apply formatting, set formulas, insert pictures or other drawing objects, and so on) on the spreadsheet using Aspose.Cells&amp;rsquo; APIs.&lt;/li&gt;
+&lt;li&gt;When the spreadsheet code is complete, call the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/workbook&#34;&gt;Workbook&lt;/a&gt; class&amp;rsquo; &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/workbook/methods/save/index&#34;&gt;Save&lt;/a&gt; method to save the spreadsheet.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The file format should be PDF so select *Pdf *(a pre-defined value) from the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/saveformat&#34;&gt;SaveFormat&lt;/a&gt; enumeration to generate the final PDF document.&lt;/p&gt;
+&lt;h3 id=&#34;advanced-conversion&#34;&gt;Advanced Conversion&lt;/h3&gt;
+&lt;p&gt;You may also opt to use the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/pdfsaveoptions&#34;&gt;PdfSaveOptions&lt;/a&gt; class to set different attributes for the conversion. Setting different properties of the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/pdfsaveoptions&#34;&gt;PdfSaveOptions&lt;/a&gt; class gives you control over the print, font, security and compression settings for the output PDF. The most important property is &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/pdfsaveoptions/properties/compliance&#34;&gt;Compliance&lt;/a&gt; which enables you to save the Excel files to PDF/A compliant PDF files.&lt;/p&gt;
+&lt;h4 id=&#34;saving-workbook-to-pdfa-complied-files&#34;&gt;Saving Workbook to PDF/A Complied Files&lt;/h4&gt;
+&lt;p&gt;The below-provided code snippet demonstrates how to use the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/pdfsaveoptions&#34;&gt;PdfSaveOptions&lt;/a&gt; class to save Excel files to PDF/A compliant PDF format.&lt;/p&gt;
+&lt;p&gt;Please note, the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/pdfsaveoptions/properties/compliance&#34;&gt;Compliance&lt;/a&gt; property was added with the release of Aspose.Cells for .NET 5.3.0.&lt;/p&gt;
+&lt;h4 id=&#34;set-the-pdf-creation-time&#34;&gt;Set the PDF Creation Time&lt;/h4&gt;
+&lt;p&gt;With the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/pdfsaveoptions&#34;&gt;PdfSaveOptions&lt;/a&gt; class, you can get or set the PDF creation time. The following code demonstrates the use of &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/pdfsaveoptions/properties/createdtime&#34;&gt;PdfSaveOptions.CreatedTime&lt;/a&gt; property to set the creation time of the PDF file.&lt;/p&gt;
+&lt;h4 id=&#34;set-contentcopyforaccessibility-option&#34;&gt;Set ContentCopyForAccessibility option&lt;/h4&gt;
+&lt;p&gt;With the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/pdfsaveoptions&#34;&gt;PdfSaveOptions&lt;/a&gt; class, you can get or set the PDF &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/properties/accessibilityextractcontent&#34;&gt;AccessibilityExtractContent&lt;/a&gt; option to control the content access in the converted PDF.&lt;/p&gt;
+&lt;h4 id=&#34;export-custom-properties-to-pdf&#34;&gt;Export Custom properties to PDF&lt;/h4&gt;
+&lt;p&gt;With the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/pdfsaveoptions&#34;&gt;PdfSaveOptions&lt;/a&gt; class, you can export the custom properties in the source workbook to the PDF. &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.rendering/pdfcustompropertiesexport&#34;&gt;PdfCustomPropertiesExport&lt;/a&gt; enumerator is provided for specifying the way by which properties are exported. These properties can be observed in Adobe Acrobat Reader by clicking on File and then properties option as shown in the following image. Template file &amp;ldquo;sourceWithCustProps.xlsx&amp;rdquo;  can be downloaded &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/5013526/72417282.xlsx&#34;&gt;here&lt;/a&gt; for testing and output PDF file &amp;ldquo;outSourceWithCustProps&amp;rdquo; is available &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/5013526/72417283.pdf&#34;&gt;here&lt;/a&gt; for analysis.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5013526/72417284.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;conversion-attributes&#34;&gt;Conversion Attributes&lt;/h3&gt;
+&lt;p&gt;We work to enhance the conversion features with each new release. Aspose.Cell&amp;rsquo;s Excel to PDF conversion still has a couple of limitations. Some spreadsheet formatting might be lost when converting to PDF format. Also, some drawing objects are not yet supported.&lt;/p&gt;
+&lt;p&gt;The table that follows lists all features that are fully or partially supported when exporting to PDF using Aspose.Cells. This table is not final and does not cover all the spreadsheet attributes but it does identify those features that are not supported or partially supported for conversion to PDF.&lt;/p&gt;
+
+&lt;div class=&#34;table table-striped&#34; role=&#34;alert&#34;&gt;
+    &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Document Element&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Attribute&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Supported&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Notes&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Alignment&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Yes&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Background settings&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Yes&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Border&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Color&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Yes&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Border&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Line style&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Yes&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Border&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Line width&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Yes&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Cell Data&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Yes&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Comments&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;No&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Conditional Formatting&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Yes&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Document Properties&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Yes&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Drawing Objects&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Partially&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Supported Objects: TextBox, Line, Rectangle, Oval, GroupBox, Button, CheckBox, RadioButton, ListBox, ComboBox, Label&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Font&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Size&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Yes&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Font&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Color&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Yes&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Font&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Style&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Yes&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Font&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Underline&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Yes&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Font&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Effects&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Partially&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Only strike through effect is supported&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Images&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Yes&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Hyperlink&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Yes&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Charts&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Partially&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Merged Cells&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Yes&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Page Break&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Yes&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Page Setup&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Header/Footer&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Yes&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Page Setup&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Margins&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Yes&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Page Setup&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Page Orientation&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Yes&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Page Setup&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Page Size&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Yes&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Page Setup&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Print Area&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Yes&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Page Setup&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Print Titles&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Yes&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Page Setup&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Scaling&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Yes&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Row Height/Column Width&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Yes&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;RTL (Right to Left) Language&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Yes&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;If your spreadsheet contains formulas, it is best to call &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/workbook/methods/calculateformula&#34;&gt;Workbook.CalculateFormula()&lt;/a&gt; just before rendering the spreadsheet to PDF format. Doing so will ensure that the formula dependent values are recalculated, and the correct values are rendered in the PDF.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Converting Worksheet to Different Image Formats</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/ld-sv-cvt-mng/converting&#43;worksheet&#43;to&#43;different&#43;image&#43;formats/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/ld-sv-cvt-mng/converting&#43;worksheet&#43;to&#43;different&#43;image&#43;formats/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--converting-worksheet-to-different-image-formats&#34;&gt;Aspose.Cells for .NET : Converting Worksheet to Different Image Formats&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells allows you to export a worksheet from the workbook and convert it into different formats. This article explains how to convert a worksheet to different formats.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#converting-worksheet-to-image&#34;&gt;Converting Worksheet to Image&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#converting-worksheet-to-svg&#34;&gt;Converting Worksheet to SVG&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;converting-worksheet-to-image&#34;&gt;Converting Worksheet to Image&lt;/h2&gt;
+&lt;p&gt;Worksheets contain data that you want to analyze. For example, a worksheet can contain parameters, totals, percentages, exceptions, and calculations.&lt;/p&gt;
+&lt;p&gt;As a developer, you might need to present worksheets as images. For example, you might need to use an image of a worksheet in an application or web page. You might want to insert an image into a Microsoft Word document, a PDF file, a PowerPoint presentation or some other document type. Simply put, you want a worksheet rendered as an image so that you can use it somewhere else.&lt;/p&gt;
+&lt;p&gt;Aspose.Cells supports converting Excel worksheets to images. To use this feature, you need to import the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.rendering/&#34;&gt;Aspose.Cells.Rendering&lt;/a&gt; namespace to your program or project. It has several valuable classes for rendering and printing, for example &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.rendering/sheetrender&#34;&gt;SheetRender&lt;/a&gt;, &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.rendering/imageorprintoptions&#34;&gt;ImageOrPrintOptions&lt;/a&gt;, &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.rendering/workbookrender&#34;&gt;WorkbookRender&lt;/a&gt; , and others.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.rendering/sheetrender&#34;&gt;SheetRender&lt;/a&gt; class represents a worksheet to render as images. It has an overloaded method, &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.rendering/sheetrender/methods/toimage/index&#34;&gt;ToImage&lt;/a&gt;, that can convert a worksheet to image file(s) with different attributes or options. It returns a System.Drawing.Bitmap object and you can save an image file to disk or stream. Several image formats are supported, for example BMP, PNG, GIF, JPG, JPEG, TIFF, EMF.&lt;/p&gt;
+&lt;p&gt;The following code snippet shows how to convert a worksheet in an Excel file to an image file.&lt;/p&gt;
+&lt;p&gt;At present, the API for converting worksheets to images does not support 3D bubble charts.&lt;/p&gt;
+&lt;h2 id=&#34;converting-worksheet-to-svg&#34;&gt;Converting Worksheet to SVG&lt;/h2&gt;
+&lt;p&gt;SVG stands for Scalable Vector Graphics. SVG is a specification based on XML standards for two-dimensional vector graphics. It is an open standard that has been under development by the World Wide Web Consortium (W3C) since 1999.&lt;/p&gt;
+&lt;p&gt;Aspose.Cells for .NET has been able to convert worksheets to SVG image since version 7.1.0. The following code snippet shows how to convert a worksheet in an Excel file to an SVG image file.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Encrypting Excel Files</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/ld-sv-cvt-mng/encrypting&#43;excel&#43;files/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/ld-sv-cvt-mng/encrypting&#43;excel&#43;files/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--encrypting-excel-files&#34;&gt;Aspose.Cells for .NET : Encrypting Excel Files&lt;/h1&gt;
+&lt;p&gt;Microsoft Excel (97 - 2007) enables you to encrypt and password protect your spreadsheets. It uses algorithms provided by a cryptographic service provider, or CSP, a set of cryptographic algorithms with different properties. The default CSP is &amp;lsquo;Office 97/2000 Compatible&amp;rsquo; or &amp;lsquo;Weak Encryption (XOR)&amp;rsquo;. It&amp;rsquo;s important to choose the proper encryption key length. Some CSPs don&amp;rsquo;t support more than 40 or 56 bits. That&amp;rsquo;s considered to be weak encryption. For strong encryption, a minimum key length of 128 bits is required. Microsoft Windows contains CSPs that offer strong encryption types as well, for example the &amp;lsquo;Microsoft Strong Cryptographic Provider&amp;rsquo;. To give you an idea, 128 bits encryption is what banks use to encrypt the connection with their Internet Banking systems.&lt;/p&gt;
+&lt;p&gt;Aspose.Cells allows you to encrypt and password protect Microsoft Excel files with your desired encryption type.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#using-microsoft-excel&#34;&gt;Using Microsoft Excel&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#encryption-with-aspose.cells&#34;&gt;Encryption with Aspose.Cells&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;2.1 &lt;a href=&#34;#specifying-password-to-modify-option&#34;&gt;Specifying Password to modify Option&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#encryption/decryption-of-ods-file-with-aspose.cells&#34;&gt;Encryption/Decryption of ODS file with Aspose.Cells&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;using-microsoft-excel&#34;&gt;Using Microsoft Excel&lt;/h2&gt;
+&lt;p&gt;To set file encryption settings in Microsoft Excel (here Microsoft Excel 2003):&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;From the &lt;strong&gt;Tools&lt;/strong&gt; menu, select &lt;strong&gt;Options&lt;/strong&gt;. A dialog will appear.&lt;/li&gt;
+&lt;li&gt;Select the &lt;strong&gt;Security&lt;/strong&gt; tab.&lt;/li&gt;
+&lt;li&gt;Input a password and click &lt;strong&gt;Advanced&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Choose the encryption type and confirm the password.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;encryption-with-asposecells&#34;&gt;Encryption with Aspose.Cells&lt;/h2&gt;
+&lt;p&gt;The following example shows how to encrypt and password protect an excel file using the Aspose.Cells API.&lt;/p&gt;
+&lt;h3 id=&#34;specifying-password-to-modify-option&#34;&gt;Specifying Password to modify Option&lt;/h3&gt;
+&lt;p&gt;The following example shows how to set the &lt;strong&gt;Password to modify&lt;/strong&gt; Microsoft Excel option for an existing file using the Aspose.Cells API.&lt;/p&gt;
+&lt;h2 id=&#34;encryptiondecryption-of-ods-file-with-asposecells&#34;&gt;Encryption/Decryption of ODS file with Aspose.Cells&lt;/h2&gt;
+&lt;p&gt;Aspose.Cells allows to encrypt and decrypt ODS file. Decrypted ODS file can be opened both in Excel and OpenOffice, however encrypted ODS file can only be opened by OpenOffice after providing the password. Excel cannot open the encrypted ODS file and may raise warning message. The Encryption options are not applicable for ODS file unlike other file types. For encrypting an ODS file, load the file and set the &lt;strong&gt;WorkbookSettings.Password&lt;/strong&gt; value to the actual password before saving it. The output encrypted ODS file can be opened in OpenOffice only.&lt;/p&gt;
+&lt;p&gt;For decrypting an ODS file, load the file by providing a password in the &lt;strong&gt;LoadOptions.Password&lt;/strong&gt;. Once the file is loaded, call function &lt;strong&gt;Workbook.Unprotect()&lt;/strong&gt; with actual password as an argument and finally set the &lt;strong&gt;WorkbookSettings.Password&lt;/strong&gt; string to null.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Trim Leading Blank Rows and Columns while exporting spreadsheets to CSV format</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/ld-sv-cvt-mng/trim&#43;leading&#43;blank&#43;rows&#43;and&#43;columns&#43;while&#43;exporting&#43;spreadsheets&#43;to&#43;csv&#43;format/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/ld-sv-cvt-mng/trim&#43;leading&#43;blank&#43;rows&#43;and&#43;columns&#43;while&#43;exporting&#43;spreadsheets&#43;to&#43;csv&#43;format/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format&#34;&gt;Aspose.Cells for .NET : Trim Leading Blank Rows and Columns while exporting spreadsheets to CSV format&lt;/h1&gt;
+
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format&#34;&gt;Trim Leading Blank Rows and Columns while exporting spreadsheets to CSV format&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;Sometimes, your Excel or CSV file has leading blank columns or rows. For example, consider this line&lt;/p&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_eb224c7259&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_eb224c7259&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,,,&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;data1&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;data2&lt;/span&gt; 
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;p&gt;Here the first three cells or columns are blank. When you open such a CSV file in Microsoft Excel, then Microsoft Excel discards these leading blank rows and columns.&lt;/p&gt;
+&lt;p&gt;By default, Aspose.Cells does not discard leading blank columns and rows on saving but if you want to remove them just like Microsoft Excel does, then Aspose.Cells provides &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/txtsaveoptions/properties/trimleadingblankrowandcolumn&#34;&gt;TxtSaveOptions.TrimLeadingBlankRowAndColumn&lt;/a&gt; property. Please set it to **true **and then all the leading blank rows and columns will be discarded on saving.&lt;/p&gt;
+&lt;p&gt;Prior to the release of Aspose.Cells for .NET 20.4, the default value of &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/txtsaveoptions/properties/trimleadingblankrowandcolumn&#34;&gt;TxtSaveOptions.TrimLeadingBlankRowAndColumn&lt;/a&gt; was &lt;strong&gt;false&lt;/strong&gt;. Since the 20.4 release, the default value of &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/txtsaveoptions/properties/trimleadingblankrowandcolumn&#34;&gt;TxtSaveOptions.TrimLeadingBlankRowAndColumn&lt;/a&gt; is &lt;strong&gt;true.&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format&#34;&gt;Trim Leading Blank Rows and Columns while exporting spreadsheets to CSV format&lt;/h2&gt;
+&lt;p&gt;The following sample code loads the &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/25002392/25395207.xlsx&#34;&gt;source excel file&lt;/a&gt; which has two leading blank columns. It first saves the excel file in CSV format without any changes and then it sets &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/txtsaveoptions/properties/trimleadingblankrowandcolumn&#34;&gt;TxtSaveOptions.TrimLeadingBlankRowAndColumn&lt;/a&gt; property to **true **and saves it again. The screenshot shows the &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/25002392/25395207.xlsx&#34;&gt;source excel file&lt;/a&gt;, &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/25002392/25395209.csv&#34;&gt;output CSV file without trimming&lt;/a&gt;, and the &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/25002392/25395208.csv&#34;&gt;output CSV file with trimming&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/25002392/25395206.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Get Warnings while Loading Excel File</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/ld-sv-cvt-mng/get&#43;warnings&#43;while&#43;loading&#43;excel&#43;file/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/ld-sv-cvt-mng/get&#43;warnings&#43;while&#43;loading&#43;excel&#43;file/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--get-warnings-while-loading-excel-file&#34;&gt;Aspose.Cells for .NET : Get Warnings while Loading Excel File&lt;/h1&gt;
+
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#get-warnings-while-loading-excel-file&#34;&gt;Get Warnings while Loading Excel File&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;4 &lt;a href=&#34;#console-output&#34;&gt;Console Output&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;Sometimes the user tries to load the workbook which is somewhat corrupt but loadable. In such case, Aspose.Cells throws warnings while loading the workbook. You can catch these warnings by implementing the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/iwarningcallback&#34;&gt;IWarningCallback&lt;/a&gt; interface and setting &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/loadoptions/properties/warningcallback&#34;&gt;LoadOptions.WarningCallback&lt;/a&gt; property.&lt;/p&gt;
+&lt;h2 id=&#34;get-warnings-while-loading-excel-file&#34;&gt;Get Warnings while Loading Excel File&lt;/h2&gt;
+&lt;p&gt;The following sample code explains how to get warnings while loading excel file. The code loads the &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/25002729/25395215.xlsx&#34;&gt;sample excel file&lt;/a&gt; which throws &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/warningtype&#34;&gt;DuplicateDefinedName&lt;/a&gt; warning on loading. This warning is then caught by &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/iwarningcallback/methods/warning&#34;&gt;IWarningCallback.Warning()&lt;/a&gt; method that prints the warning messages on the console. The code then saves the workbook as &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/25002729/25395217.xlsx&#34;&gt;output excel file&lt;/a&gt;. If you open the sample excel file in Microsoft Excel, it will also display you this warning as shown in this screenshot. Please also check the console output of the code given below for more understanding.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/25002729/25395216.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+&lt;h2 id=&#34;console-output&#34;&gt;Console Output&lt;/h2&gt;
+&lt;p&gt;Here is the console output of the above code when executed with the provided &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/25002729/25395215.xlsx&#34;&gt;sample excel file&lt;/a&gt;.&lt;/p&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_253a42ad34&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_253a42ad34&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Duplicate&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Defined&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Name&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Warning&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Name&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;PRINT_AREA&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;ReferTo&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Introduction&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;!&lt;/span&gt;&lt;span style=&#34;color:#a40000&#34;&gt;$&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;D&lt;/span&gt;&lt;span style=&#34;color:#a40000&#34;&gt;$&lt;/span&gt;&lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;16&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#a40000&#34;&gt;$&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;D&lt;/span&gt;&lt;span style=&#34;color:#a40000&#34;&gt;$&lt;/span&gt;&lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;17&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Duplicate&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Defined&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Name&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Warning&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Name&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;PRINT_AREA&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;ReferTo&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Panel&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;!&lt;/span&gt;&lt;span style=&#34;color:#a40000&#34;&gt;$&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;B&lt;/span&gt;&lt;span style=&#34;color:#a40000&#34;&gt;$&lt;/span&gt;&lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;228&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Duplicate&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Defined&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Name&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Warning&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Name&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;PRINT_AREA&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;ReferTo&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#a40000&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Queries&lt;/span&gt; &lt;span style=&#34;color:#a40000&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;!&lt;/span&gt;&lt;span style=&#34;color:#a40000&#34;&gt;$&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;D&lt;/span&gt;&lt;span style=&#34;color:#a40000&#34;&gt;$&lt;/span&gt;&lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;14&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#a40000&#34;&gt;$&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;D&lt;/span&gt;&lt;span style=&#34;color:#a40000&#34;&gt;$&lt;/span&gt;&lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;16&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: AutoFit Columns and Rows while loading HTML in Workbook</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/ld-sv-cvt-mng/autofit&#43;columns&#43;and&#43;rows&#43;while&#43;loading&#43;html&#43;in&#43;workbook/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/ld-sv-cvt-mng/autofit&#43;columns&#43;and&#43;rows&#43;while&#43;loading&#43;html&#43;in&#43;workbook/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--autofit-columns-and-rows-while-loading-html-in-workbook&#34;&gt;Aspose.Cells for .NET : AutoFit Columns and Rows while loading HTML in Workbook&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#autofit-columns-and-rows-while-loading-html-in-workbook&#34;&gt;AutoFit Columns and Rows while loading HTML in Workbook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;You can autofit columns and rows while loading your HTML file inside the Workbook object. Please set the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/htmlloadoptions/properties/autofitcolsandrows&#34;&gt;HtmlLoadOptions.AutoFitColsAndRows&lt;/a&gt; property to **true **for this purpose.&lt;/p&gt;
+&lt;h2 id=&#34;autofit-columns-and-rows-while-loading-html-in-workbook&#34;&gt;AutoFit Columns and Rows while loading HTML in Workbook&lt;/h2&gt;
+&lt;p&gt;The following sample code first loads the sample HTML into Workbook without any load options and saves it in XLSX format. It then again loads the sample HTML into Workbook but this time, it loads the HTML after setting the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/htmlloadoptions/properties/autofitcolsandrows&#34;&gt;HtmlLoadOptions.AutoFitColsAndRows&lt;/a&gt; property to **true **and saves it in XLSX format. Please download both the output excel files i.e.&lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/25002799/25395219.xlsx&#34;&gt;Output Excel File Without AutoFitColsAndRows&lt;/a&gt; and &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/25002799/25395220.xlsx&#34;&gt;Output Excel File With AutoFitColsAndRows&lt;/a&gt;. The following screenshot shows the effect of &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/htmlloadoptions/properties/autofitcolsandrows&#34;&gt;HtmlLoadOptions.AutoFitColsAndRows&lt;/a&gt; property on both output excel files.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/25002799/25395218.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Convert Excel file to PDF format compatible with PDFA-1a</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/ld-sv-cvt-mng/convert&#43;excel&#43;file&#43;to&#43;pdf&#43;format&#43;compatible&#43;with&#43;pdfa-1a/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/ld-sv-cvt-mng/convert&#43;excel&#43;file&#43;to&#43;pdf&#43;format&#43;compatible&#43;with&#43;pdfa-1a/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--convert-excel-file-to-pdf-format-compatible-with-pdfa-1a&#34;&gt;Aspose.Cells for .NET : Convert Excel file to PDF format compatible with PDFA-1a&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#convert-excel-file-to-pdf-format-compatible-with-pdfa-1a&#34;&gt;Convert Excel file to PDF format compatible with PDFA-1a&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#screenshot&#34;&gt;Screenshot&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;4 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;PDF/A is a unique flavor of PDF designed for the long-term preservation of documents. PDF/A is an ISO-standardized version of the Portable Document Format (PDF) which is an archival format of PDF that embeds all fonts used in the document within the PDF file. PDF/A differs from PDF by prohibiting features, such as font linking (as opposed to font embedding) and encryption. Aspose.Cells enables you to save the Excel files to PDF/A compliant PDF files &lt;code&gt;(both PdfA1a and PdfA1b are supported)&lt;/code&gt;. This topic describes how to save the Excel workbook to PDF/A compliant (PdfA1a) PDF file.&lt;/p&gt;
+&lt;h2 id=&#34;convert-excel-file-to-pdf-format-compatible-with-pdfa-1a&#34;&gt;Convert Excel file to PDF format compatible with PDFA-1a&lt;/h2&gt;
+&lt;p&gt;Developers may use the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/pdfsaveoptions&#34;&gt;PdfSaveOptions&lt;/a&gt; class to set different attributes for the conversion. Setting different properties of the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/pdfsaveoptions&#34;&gt;PdfSaveOptions&lt;/a&gt; class gives you control over the print, font, security and compression settings for the output PDF. The most important property is &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/pdfsaveoptions/properties/compliance&#34;&gt;PdfSaveOptions.Compliance&lt;/a&gt; that enables you to save the Excel files to PDF/A compliant PDF files.&lt;/p&gt;
+&lt;p&gt;The following sample code explains how to convert Excel file to PDF format compatible with PDFA-1a. Please see its &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/44860248/45056014.pdf&#34;&gt;output PDF&lt;/a&gt; as well as the screenshot for a reference.&lt;/p&gt;
+&lt;h2 id=&#34;screenshot&#34;&gt;Screenshot&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/44860248/45056015.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Read Numbers Spreadsheet Developed by Apple Inc. using Aspose.Cells</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/ld-sv-cvt-mng/read&#43;numbers&#43;spreadsheet&#43;developed&#43;by&#43;apple&#43;inc.&#43;using&#43;aspose.cells/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/ld-sv-cvt-mng/read&#43;numbers&#43;spreadsheet&#43;developed&#43;by&#43;apple&#43;inc.&#43;using&#43;aspose.cells/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--read-numbers-spreadsheet-developed-by-apple-inc-using-asposecells&#34;&gt;Aspose.Cells for .NET : Read Numbers Spreadsheet Developed by Apple Inc. using Aspose.Cells&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#read-numbers-spreadsheet-developed-by-apple-inc.-using-aspose.cells&#34;&gt;Read Numbers Spreadsheet Developed by Apple Inc. using Aspose.Cells&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;Numbers is a spreadsheet application developed by Apple Inc. Aspose.Cells can read Numbers spreadsheet but it does not support writing to it. It can read Numbers spreadsheet&amp;rsquo;s Data, Style and Formulas.&lt;/p&gt;
+&lt;h2 id=&#34;read-numbers-spreadsheet-developed-by-apple-inc-using-asposecells&#34;&gt;Read Numbers Spreadsheet Developed by Apple Inc. using Aspose.Cells&lt;/h2&gt;
+&lt;p&gt;The following sample code loads the &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/48136559/48496674.numbers&#34;&gt;Sample Numbers Spreadsheet&lt;/a&gt; and converts it to &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/48136559/48496675.pdf&#34;&gt;Output PDF Format&lt;/a&gt;. You will have to use &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/loadoptions&#34;&gt;LoadOptions&lt;/a&gt; class and specify &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/loadformat&#34;&gt;LoadFormat.Numbers&lt;/a&gt; as a parameter in its constructor to load it successfully. Please download both of them from the given links. You can try the code with any Numbers spreadsheet. Please also read the comments of the code for more help.&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Save Workbook to Strict Open XML Spreadsheet Format</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/ld-sv-cvt-mng/save&#43;workbook&#43;to&#43;strict&#43;open&#43;xml&#43;spreadsheet&#43;format/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/ld-sv-cvt-mng/save&#43;workbook&#43;to&#43;strict&#43;open&#43;xml&#43;spreadsheet&#43;format/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--save-workbook-to-strict-open-xml-spreadsheet-format&#34;&gt;Aspose.Cells for .NET : Save Workbook to Strict Open XML Spreadsheet Format&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#save-workbook-to-strict-open-xml-spreadsheet-format&#34;&gt;Save Workbook to Strict Open XML Spreadsheet Format&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;Aspose.Cells allows you to save the workbook in &lt;em&gt;Strict Open XML Spreadsheet&lt;/em&gt; format. For that purpose, it provides the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/workbooksettings/properties/compliance&#34;&gt;Workbook.Settings.Compliance&lt;/a&gt; property. If you set its value as &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/ooxmlcompliance&#34;&gt;OoxmlCompliance.Iso29500_2008_Strict&lt;/a&gt;, then the output Excel file will be saved in Strict Open XML Spreadsheet format.&lt;/p&gt;
+&lt;h2 id=&#34;save-workbook-to-strict-open-xml-spreadsheet-format&#34;&gt;Save Workbook to Strict Open XML Spreadsheet Format&lt;/h2&gt;
+&lt;p&gt;The following sample code creates a workbook and sets the value of the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/workbooksettings/properties/compliance&#34;&gt;Workbook.Settings.Compliance&lt;/a&gt; property as &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/ooxmlcompliance&#34;&gt;OoxmlCompliance.Iso29500_2008_Strict&lt;/a&gt; and saves it as &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/66945466/67338272.xlsx&#34;&gt;output Excel file&lt;/a&gt;. If you open the output Excel file in Microsoft Excel and open the &lt;code&gt;Save As...&lt;/code&gt; dialog box, you will see its format as &lt;em&gt;Strict Open XML Spreadsheet&lt;/em&gt; as shown in this screenshot.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/66945466/67338273.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Keep Separators for Blank Rows while exporting spreadsheets to CSV format</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/ld-sv-cvt-mng/keep&#43;separators&#43;for&#43;blank&#43;rows&#43;while&#43;exporting&#43;spreadsheets&#43;to&#43;csv&#43;format/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/ld-sv-cvt-mng/keep&#43;separators&#43;for&#43;blank&#43;rows&#43;while&#43;exporting&#43;spreadsheets&#43;to&#43;csv&#43;format/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--keep-separators-for-blank-rows-while-exporting-spreadsheets-to-csv-format&#34;&gt;Aspose.Cells for .NET : Keep Separators for Blank Rows while exporting spreadsheets to CSV format&lt;/h1&gt;
+
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#keep-separators-for-blank-rows-while-exporting-spreadsheets-to-csv-format&#34;&gt;Keep Separators for Blank Rows while exporting spreadsheets to CSV format&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;keep-separators-for-blank-rows-while-exporting-spreadsheets-to-csv-format&#34;&gt;Keep Separators for Blank Rows while exporting spreadsheets to CSV format&lt;/h2&gt;
+&lt;p&gt;Aspose.Cells provides the ability to keep line separators while converting spreadsheets to CSV format. For this, You may use the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/txtsaveoptions/properties/keepseparatorsforblankrow&#34;&gt;KeepSeparatorsForBlankRow&lt;/a&gt; property of &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/txtsaveoptions&#34;&gt;TxtSaveOptions&lt;/a&gt; class. &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/txtsaveoptions/properties/keepseparatorsforblankrow&#34;&gt;KeepSeparatorsForBlankRow&lt;/a&gt; is a boolean property. To keep the separators for blank lines while converting the Excel File to CSV, set the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/txtsaveoptions/properties/keepseparatorsforblankrow&#34;&gt;KeepSeparatorsForBlankRow&lt;/a&gt; property to &lt;strong&gt;true&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;The following sample code loads the &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/84214085/84378743.xlsx&#34;&gt;source Excel file&lt;/a&gt;. It sets &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/txtsaveoptions/properties/keepseparatorsforblankrow&#34;&gt;TxtSaveOptions.KeepSeparatorsForBlankRow&lt;/a&gt; property to **true **and saves it as &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/84214085/84378744.csv&#34;&gt;output.csv&lt;/a&gt;. The screenshot shows the comparison between the source Excel file, the default output generated while converting the spreadsheet to CSV and the output generated by setting &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/txtsaveoptions/properties/keepseparatorsforblankrow&#34;&gt;KeepSeparatorsForBlankRow&lt;/a&gt; to &lt;strong&gt;true&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/84214085/84378745.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Track Document Conversion Progress</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/ld-sv-cvt-mng/track&#43;document&#43;conversion&#43;progress/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/ld-sv-cvt-mng/track&#43;document&#43;conversion&#43;progress/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--track-document-conversion-progress&#34;&gt;Aspose.Cells for .NET : Track Document Conversion Progress&lt;/h1&gt;
+
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#track-document-conversion-progress&#34;&gt;Track Document Conversion Progress&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;4 &lt;a href=&#34;#console-output&#34;&gt;Console Output&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;Sometimes converting large excel files can take some time. During this time, you might want to show the document conversion progress instead of just a loading screen to enhance the usability of your application. Aspose.Cells supports tracking document conversion process by providing the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.rendering/ipagesavingcallback&#34;&gt;IPageSavingCallback&lt;/a&gt; interface. The &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.rendering/ipagesavingcallback&#34;&gt;IPageSavingCallback&lt;/a&gt; interface provides &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.rendering/ipagesavingcallback/methods/pagestartsaving&#34;&gt;PageStartSaving&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.rendering/ipagesavingcallback/methods/pageendsaving&#34;&gt;PageEndSaving&lt;/a&gt; methods that you can implement in your custom class. You may also control which pages are rendered as demonstrated in the T&lt;em&gt;estPageSavingCallback&lt;/em&gt; custom class.&lt;/p&gt;
+&lt;h2 id=&#34;track-document-conversion-progress&#34;&gt;Track Document Conversion Progress&lt;/h2&gt;
+&lt;p&gt;The following code sample loads the &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/94635041/94896151.xlsx&#34;&gt;source excel file&lt;/a&gt; and prints its conversion progress in the console by using the &lt;em&gt;TestPageSavingCallback&lt;/em&gt; custom class that implements the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.rendering/ipagesavingcallback&#34;&gt;IPageSavingCallback&lt;/a&gt; interface.&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+&lt;p&gt;The following is the code for the &lt;em&gt;TestPageSavingCallback&lt;/em&gt; custom class.&lt;/p&gt;
+&lt;h2 id=&#34;console-output&#34;&gt;Console Output&lt;/h2&gt;
+&lt;p&gt;Start saving page index 0 of pages 11&lt;br&gt;
+End saving page index 0 of pages 11&lt;br&gt;
+Start saving page index 1 of pages 11&lt;br&gt;
+End saving page index 1 of pages 11&lt;br&gt;
+Start saving page index 2 of pages 11&lt;br&gt;
+End saving page index 2 of pages 11&lt;br&gt;
+Start saving page index 3 of pages 11&lt;br&gt;
+End saving page index 3 of pages 11&lt;br&gt;
+Start saving page index 4 of pages 11&lt;br&gt;
+End saving page index 4 of pages 11&lt;br&gt;
+Start saving page index 5 of pages 11&lt;br&gt;
+End saving page index 5 of pages 11&lt;br&gt;
+Start saving page index 6 of pages 11&lt;br&gt;
+End saving page index 6 of pages 11&lt;br&gt;
+Start saving page index 7 of pages 11&lt;br&gt;
+End saving page index 7 of pages 11&lt;br&gt;
+Start saving page index 8 of pages 11&lt;br&gt;
+End saving page index 8 of pages 11&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Adjust workbook compression level</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/ld-sv-cvt-mng/adjust&#43;workbook&#43;compression&#43;level/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/ld-sv-cvt-mng/adjust&#43;workbook&#43;compression&#43;level/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--adjust-workbook-compression-level&#34;&gt;Aspose.Cells for .NET : Adjust workbook compression level&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#adjust-workbook-compression-level&#34;&gt;Adjust workbook compression level&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;adjust-workbook-compression-level&#34;&gt;Adjust workbook compression level&lt;/h2&gt;
+&lt;p&gt;Developers can adjust the compression level of the workbook when working with larger workbooks. Developers may prioritize smaller file sizes over processing time or vice versa. Aspose.Cells provides &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/ooxmlcompressiontype&#34;&gt;OoxmlCompressionType&lt;/a&gt; enumeration which you can use to set the compression level of the workbook. The &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/ooxmlcompressiontype&#34;&gt;OoxmlCompressionType&lt;/a&gt; enumeration provides the following members.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Level1: The fastest but least effective compression.&lt;/li&gt;
+&lt;li&gt;Level2: A little slower, but better, than level 1.&lt;/li&gt;
+&lt;li&gt;Level3: A little slower, but better, than level 2.&lt;/li&gt;
+&lt;li&gt;Level4: A little slower, but better, than level 3.&lt;/li&gt;
+&lt;li&gt;Level5: A little slower than level 4, but with better compression.&lt;/li&gt;
+&lt;li&gt;Level6: A good balance of speed and compression efficiency.&lt;/li&gt;
+&lt;li&gt;Level7: Pretty good compression!&lt;/li&gt;
+&lt;li&gt;Level8: Better compression than Level7!&lt;/li&gt;
+&lt;li&gt;Level9: The &amp;ldquo;best&amp;rdquo; compression, where best means greatest reduction in the size of the input data stream. This is also the slowest compression.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The following code snippet demonstrates the use of &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/ooxmlcompressiontype&#34;&gt;OoxmlCompressionType&lt;/a&gt; enumeration and compares the conversion time for Level1, Level6, and Level9. You may also compare the sizes of the generated files.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Track Conversion Progress of Excel to TIFF</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/ld-sv-cvt-mng/track&#43;conversion&#43;progress&#43;of&#43;excel&#43;to&#43;tiff/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/ld-sv-cvt-mng/track&#43;conversion&#43;progress&#43;of&#43;excel&#43;to&#43;tiff/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--track-conversion-progress-of-excel-to-tiff&#34;&gt;Aspose.Cells for .NET : Track Conversion Progress of Excel to TIFF&lt;/h1&gt;
+
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#track-conversion-progress-of-excel-to-tiff&#34;&gt;Track Conversion Progress of Excel to TIFF&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;4 &lt;a href=&#34;#console-output&#34;&gt;Console Output&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;Sometimes converting large excel files can take some time. During this time, you might want to show the document conversion progress instead of just a loading screen to enhance the usability of your application. Aspose.Cells supports tracking document conversion process by providing the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.rendering/ipagesavingcallback&#34;&gt;IPageSavingCallback&lt;/a&gt; interface. The &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.rendering/ipagesavingcallback&#34;&gt;IPageSavingCallback&lt;/a&gt; interface provides &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.rendering/ipagesavingcallback/methods/pagestartsaving&#34;&gt;PageStartSaving&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.rendering/ipagesavingcallback/methods/pageendsaving&#34;&gt;PageEndSaving&lt;/a&gt; methods that you can implement in your custom class. You may also control which pages are rendered as demonstrated in the T&lt;em&gt;estPageSavingCallback&lt;/em&gt; custom class.&lt;/p&gt;
+&lt;h2 id=&#34;track-conversion-progress-of-excel-to-tiff&#34;&gt;Track Conversion Progress of Excel to TIFF&lt;/h2&gt;
+&lt;p&gt;The following code sample loads the &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/95323804/95584311.xlsx&#34;&gt;source excel file&lt;/a&gt; and prints its conversion progress in the console by using the &lt;em&gt;TestPageSavingCallback&lt;/em&gt; custom class that implements the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.rendering/ipagesavingcallback&#34;&gt;IPageSavingCallback&lt;/a&gt; interface. The output file generated is attached for your reference.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/95323804/95584312.tiff&#34;&gt;Output File&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+&lt;p&gt;The following is the code for the *TestTiffPageSavingCallback *custom class.&lt;/p&gt;
+&lt;h2 id=&#34;console-output&#34;&gt;Console Output&lt;/h2&gt;
+&lt;p&gt;Start saving page index 0 of pages 10&lt;br&gt;
+End saving page index 0 of pages 10&lt;br&gt;
+Start saving page index 1 of pages 10&lt;br&gt;
+End saving page index 1 of pages 10&lt;br&gt;
+Start saving page index 2 of pages 10&lt;br&gt;
+End saving page index 2 of pages 10&lt;br&gt;
+Start saving page index 3 of pages 10&lt;br&gt;
+End saving page index 3 of pages 10&lt;br&gt;
+Start saving page index 4 of pages 10&lt;br&gt;
+End saving page index 4 of pages 10&lt;br&gt;
+Start saving page index 5 of pages 10&lt;br&gt;
+End saving page index 5 of pages 10&lt;br&gt;
+Start saving page index 6 of pages 10&lt;br&gt;
+End saving page index 6 of pages 10&lt;br&gt;
+Start saving page index 7 of pages 10&lt;br&gt;
+End saving page index 7 of pages 10&lt;br&gt;
+Start saving page index 8 of pages 10&lt;br&gt;
+End saving page index 8 of pages 10&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Convert Excel to HTML with tooltip</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/ld-sv-cvt-mng/convert&#43;excel&#43;to&#43;html&#43;with&#43;tooltip/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/ld-sv-cvt-mng/convert&#43;excel&#43;to&#43;html&#43;with&#43;tooltip/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--convert-excel-to-html-with-tooltip&#34;&gt;Aspose.Cells for .NET : Convert Excel to HTML with tooltip&lt;/h1&gt;
+
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#convert-excel-to-html-with-tooltip&#34;&gt;Convert Excel to HTML with tooltip&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;convert-excel-to-html-with-tooltip&#34;&gt;Convert Excel to HTML with tooltip&lt;/h2&gt;
+&lt;p&gt;There might be cases where the text is cut off in the generated HTML and you want to display the complete text as a tooltip on the hover event. Aspose.Cells supports this by providing &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/htmlsaveoptions/properties/addtooltiptext&#34;&gt;HtmlSaveOptions.AddTooltipText&lt;/a&gt; property. Setting the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/htmlsaveoptions/properties/addtooltiptext&#34;&gt;HtmlSaveOptions.AddTooltipText&lt;/a&gt; property to &lt;strong&gt;true&lt;/strong&gt; will add the complete text as a tooltip in the generated HTML.&lt;/p&gt;
+&lt;p&gt;The following image shows the tooltip in the generated HTML file.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/97878711/98107418.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The following code sample loads the &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/97878711/98107416.xlsx&#34;&gt;source excel file&lt;/a&gt; and generates the &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/97878711/98107417.zip&#34;&gt;output HTML file&lt;/a&gt; with the tooltip.&lt;/p&gt;
+&lt;p&gt;Sample Code&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Convert JSON to CSV</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/ld-sv-cvt-mng/convert&#43;json&#43;to&#43;csv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/ld-sv-cvt-mng/convert&#43;json&#43;to&#43;csv/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--convert-json-to-csv&#34;&gt;Aspose.Cells for .NET : Convert JSON to CSV&lt;/h1&gt;
+
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#convert-json-to-csv&#34;&gt;Convert JSON to CSV&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;convert-json-to-csv&#34;&gt;Convert JSON to CSV&lt;/h2&gt;
+&lt;p&gt;Aspose.Cells supports converting simple as well as nested JSON to CSV. For this, the API provides &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.utility/jsonlayoutoptions&#34;&gt;JsonLayoutOptions&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.utility/jsonutility&#34;&gt;JsonUtility&lt;/a&gt; classes. The &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.utility/jsonlayoutoptions&#34;&gt;JsonLayoutOptions&lt;/a&gt; class provides the options for JSON layout like &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.utility/jsonlayoutoptions/properties/ignorearraytitle&#34;&gt;IgnoreArrayTitle&lt;/a&gt;(ignores the title if the array is a property of an object) or &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.utility/jsonlayoutoptions/properties/arrayastable&#34;&gt;ArrayAsTable&lt;/a&gt;(processes the array as a table). The &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.utility/jsonutility&#34;&gt;JsonUtility&lt;/a&gt; class processes the JSON using the layout options set with the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.utility/jsonlayoutoptions&#34;&gt;JsonLayoutOptions&lt;/a&gt; class.&lt;/p&gt;
+&lt;p&gt;The following code sample demonstrates the use of &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.utility/jsonlayoutoptions&#34;&gt;JsonLayoutOptions&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.utility/jsonutility&#34;&gt;JsonUtility&lt;/a&gt; classes to load the &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/104267878/104398869.json&#34;&gt;source JSON file&lt;/a&gt; and generates the &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/104267878/104398870.csv&#34;&gt;output CSV file&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Sample Code&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Convert CSV to JSON</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/ld-sv-cvt-mng/convert&#43;csv&#43;to&#43;json/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/ld-sv-cvt-mng/convert&#43;csv&#43;to&#43;json/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--convert-csv-to-json&#34;&gt;Aspose.Cells for .NET : Convert CSV to JSON&lt;/h1&gt;
+
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#convert-csv-to-json&#34;&gt;Convert CSV to JSON&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.2 &lt;a href=&#34;#console-output&#34;&gt;Console Output&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;convert-csv-to-json&#34;&gt;Convert CSV to JSON&lt;/h2&gt;
+&lt;p&gt;Aspose.Cells supports converting CSV to JSON. For this, the API provides &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.utility/exportrangetojsonoptions&#34;&gt;ExportRangeToJsonOptions&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.utility/jsonutility&#34;&gt;JsonUtility&lt;/a&gt; classes. The &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.utility/exportrangetojsonoptions&#34;&gt;ExportRangeToJsonOptions&lt;/a&gt; class provides the options for exporting range to JSON. The &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.utility/exportrangetojsonoptions&#34;&gt;ExportRangeToJsonOptions&lt;/a&gt; class has the following properties.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.utility/exportrangetojsonoptions/properties/exportasstring&#34;&gt;ExportAsString&lt;/a&gt;: This exports the string value of the cells to JSON.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.utility/exportrangetojsonoptions/properties/hasheaderrow&#34;&gt;HasHeaderRow&lt;/a&gt;: This indicates whether the range contains a header row.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.utility/exportrangetojsonoptions/properties/indent&#34;&gt;Indent&lt;/a&gt;: Indicates the indent.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.utility/jsonutility&#34;&gt;JsonUtility&lt;/a&gt; class exports the JSON using the export options set with the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.utility/exportrangetojsonoptions&#34;&gt;ExportRangeToJsonOptions&lt;/a&gt; class.&lt;/p&gt;
+&lt;p&gt;The following code sample demonstrates the use of &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.utility/exportrangetojsonoptions&#34;&gt;ExportRangeToJsonOptions&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.utility/jsonutility&#34;&gt;JsonUtility&lt;/a&gt; classes to load the &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/104267887/104398879.csv&#34;&gt;source CSV file&lt;/a&gt; and prints the &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/104267887/104398871.csv&#34;&gt;J&lt;/a&gt;SON output in the console.&lt;/p&gt;
+&lt;h3 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h3&gt;
+&lt;h3 id=&#34;console-output&#34;&gt;Console Output&lt;/h3&gt;
+&lt;p&gt;[&lt;br&gt;
+{&lt;br&gt;
+&amp;ldquo;id&amp;rdquo;: 1,&lt;br&gt;
+&amp;ldquo;language&amp;rdquo;: &amp;ldquo;Java&amp;rdquo;,&lt;br&gt;
+&amp;ldquo;edition&amp;rdquo;: &amp;ldquo;third&amp;rdquo;,&lt;br&gt;
+&amp;ldquo;author&amp;rdquo;: &amp;ldquo;Herbert Schildt&amp;rdquo;,&lt;br&gt;
+&amp;ldquo;streetAddress&amp;rdquo;: 126,&lt;br&gt;
+&amp;ldquo;city&amp;rdquo;: &amp;ldquo;San Jone&amp;rdquo;,&lt;br&gt;
+&amp;ldquo;state&amp;rdquo;: &amp;ldquo;CA&amp;rdquo;,&lt;br&gt;
+&amp;ldquo;postalCode&amp;rdquo;: 394221&lt;br&gt;
+},&lt;br&gt;
+{&lt;br&gt;
+&amp;ldquo;id&amp;rdquo;: 2,&lt;br&gt;
+&amp;ldquo;language&amp;rdquo;: &amp;ldquo;C++&amp;rdquo;,&lt;br&gt;
+&amp;ldquo;edition&amp;rdquo;: &amp;ldquo;second&amp;rdquo;,&lt;br&gt;
+&amp;ldquo;author&amp;rdquo;: &amp;ldquo;EAAAA&amp;rdquo;,&lt;br&gt;
+&amp;ldquo;streetAddress&amp;rdquo;: 126,&lt;br&gt;
+&amp;ldquo;city&amp;rdquo;: &amp;ldquo;San Jone&amp;rdquo;,&lt;br&gt;
+&amp;ldquo;state&amp;rdquo;: &amp;ldquo;CA&amp;rdquo;,&lt;br&gt;
+&amp;ldquo;postalCode&amp;rdquo;: 394221&lt;br&gt;
+},&lt;br&gt;
+{&lt;br&gt;
+&amp;ldquo;id&amp;rdquo;: 3,&lt;br&gt;
+&amp;ldquo;language&amp;rdquo;: &amp;ldquo;.Net&amp;rdquo;,&lt;br&gt;
+&amp;ldquo;edition&amp;rdquo;: &amp;ldquo;second&amp;rdquo;,&lt;br&gt;
+&amp;ldquo;author&amp;rdquo;: &amp;ldquo;E.Balagurusamy&amp;rdquo;,&lt;br&gt;
+&amp;ldquo;streetAddress&amp;rdquo;: 126,&lt;br&gt;
+&amp;ldquo;city&amp;rdquo;: &amp;ldquo;San Jone&amp;rdquo;,&lt;br&gt;
+&amp;ldquo;state&amp;rdquo;: &amp;ldquo;CA&amp;rdquo;,&lt;br&gt;
+&amp;ldquo;postalCode&amp;rdquo;: 394221&lt;br&gt;
+}&lt;br&gt;
+]&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

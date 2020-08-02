@@ -1,0 +1,225 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Aspose.Cells Font Usage</title>
+    <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/rnd-prt/fontusage/</link>
+    <description>Recent content in Aspose.Cells Font Usage on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://roywangt.github.io/cells/java/developerguide/technicalarticles/rnd-prt/fontusage/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Java: How Aspose.Cells uses TrueType Fonts</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/rnd-prt/fontusage/how&#43;aspose.cells&#43;uses&#43;truetype&#43;fonts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/rnd-prt/fontusage/how&#43;aspose.cells&#43;uses&#43;truetype&#43;fonts/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--how-asposecells-uses-truetype-fonts&#34;&gt;Aspose.Cells for Java : How Aspose.Cells uses TrueType Fonts&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells requires TrueType fonts when rendering spreadsheets to formats such as PDF, XPS and images.&lt;/p&gt;
+&lt;p&gt;When Aspose.Cells renders a spreadsheet, it requires access to the TrueType fonts used in the spreadsheet. This is a normal practice during PDF, XPS and image generation and ensures the converted document or image appears identical for any viewer.&lt;/p&gt;
+&lt;h3 id=&#34;about-fonts&#34;&gt;About Fonts&lt;/h3&gt;
+&lt;h4 id=&#34;font-availability-and-substitution&#34;&gt;Font Availability and Substitution&lt;/h4&gt;
+&lt;p&gt;A spreadsheet may be formatted using various fonts such as Arial, Times New Roman, Verdana and others. When Aspose.Cells renders a spreadsheet it attempts to select the fonts that are used in the spreadsheet. However there are situations when the exact font may not be available so Aspose.Cells have to substitute a similar font instead.&lt;/p&gt;
+&lt;p&gt;Below is the process that Aspose.Cells follow behind the scene.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Aspose.Cells tries to find the fonts on the file system matching the exact font name used in the spreadsheet.&lt;/li&gt;
+&lt;li&gt;If Aspose.Cells cannot find fonts with the exact same name, it attempts to use the default font specified under the Workbook&amp;rsquo;s &lt;code&gt;DefaultStyle.Font&lt;/code&gt; property.&lt;/li&gt;
+&lt;li&gt;If Aspose.Cells cannot locate the font defined under the workbook&amp;rsquo;s &lt;code&gt;DefaultStyle.Font&lt;/code&gt; property, it attempts to select the most suitable fonts from all of the available fonts.&lt;/li&gt;
+&lt;li&gt;Finally, if Aspose.Cells cannot find any fonts on the file system, it renders the spreadsheet using Arial.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;where-asposecells-looks-for-fonts&#34;&gt;Where Aspose.Cells Looks for Fonts&lt;/h4&gt;
+&lt;p&gt;Aspose.Cells attempts to find TrueType fonts on the file system automatically. Most of the time you can rely on Aspose.Cell&amp;rsquo;s default behavior to find TrueType fonts, but sometimes you may need to specify folders that containing the TrueType fonts using the &lt;code&gt;FontConfigs.setFontFolder&lt;/code&gt; factory method.&lt;/p&gt;
+&lt;h4 id=&#34;typical-font-related-problems-and-solutions&#34;&gt;Typical Font-Related Problems and Solutions&lt;/h4&gt;
+&lt;p&gt;This table lists some of the problems that you might encounter when rendering spreadsheets to PDF using Aspose.Cells and their solutions.&lt;/p&gt;
+&lt;p&gt;Keep in mind when copying any fonts that most fonts are copyrighted. First locate the license of a font before hand and verify they can be freely transferred to another machine.&lt;/p&gt;
+
+&lt;div class=&#34;table table-striped&#34; role=&#34;alert&#34;&gt;
+    &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Problem&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Reason&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Solution&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;The layout and fonts in the rendered document is different from the original.&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;You are using Aspose.Cells on Linux or Mac OS where TureType fonts are not present by default so Aspose.Cells cannot locate fonts on your computer.&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Copy TrueType font files from a Windows machine or install a TrueType font package. Use the &lt;code&gt;FontConfigs.setFontFolder&lt;/code&gt; factory method to specify the location of the font files.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;Check the detailed articles on&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.aspose.com/docs/display/cellsjava/How+to+Install+TrueType+Fonts+on+Linux&#34;&gt;How to place TrueType fonts on Linux&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.aspose.com/docs/display/cellsjava/How+to+Specify+TrueType+Fonts+Location&#34;&gt;How to specify TrueType fonts location&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://aspose.com/docs/display/cellsjava/Get+Warnings+for+Font+Substitution+while+Rendering+Excel+File&#34;&gt;How to get warnings when font substitution occurs&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: How to Install TrueType Fonts on Linux</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/rnd-prt/fontusage/how&#43;to&#43;install&#43;truetype&#43;fonts&#43;on&#43;linux/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/rnd-prt/fontusage/how&#43;to&#43;install&#43;truetype&#43;fonts&#43;on&#43;linux/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--how-to-install-truetype-fonts-on-linux&#34;&gt;Aspose.Cells for Java : How to Install TrueType Fonts on Linux&lt;/h1&gt;
+&lt;p&gt;The most likely scenario is that you are using Aspose.Cells to convert spreadsheets to PDF. If you are doing this on a non-Windows based operating system such as Linux then this topic explains how to ensure that Aspose.Cells renders your spreadsheets with best fidelity.&lt;/p&gt;
+&lt;p&gt;To make sure that spreadsheets converted by Aspose.Cells appears as close to the original as possible, you might need to install &amp;ldquo;Windows fonts&amp;rdquo; or &amp;ldquo;TrueType fonts&amp;rdquo; on your Linux system because the most commonly used TrueType fonts don’t come pre-installed with Linux distributions by default.&lt;/p&gt;
+&lt;p&gt;There are two main ways to get TrueType fonts on a Linux system:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Copy font files (.TTF and .TTC) from a Windows machine to your Linux machine.&lt;/li&gt;
+&lt;li&gt;Install a TrueType fonts package, such as msttcorefonts.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;copy-fonts-from-a-windows-machine&#34;&gt;Copy Fonts from a Windows Machine&lt;/h4&gt;
+&lt;p&gt;An easy and quick way is to copy .TTF and .TTC files from the C:\Windows\Fonts directory on a Windows machine to some directory on your Linux machine. You do not need to install or register these fonts on Linux in any way, you just need to specify the location of the fonts using the &lt;code&gt;FontConfigs.setFontFolder&lt;/code&gt; method in your application.&lt;/p&gt;
+&lt;p&gt;As far as we can tell, Microsoft licenses the fonts for anyone to freely use them, but please check the font licensing for yourself.&lt;/p&gt;
+&lt;h4 id=&#34;install-a-truetype-fonts-package&#34;&gt;Install a TrueType Fonts Package&lt;/h4&gt;
+&lt;p&gt;Below provided information will guide you step by step to install the Microsoft&amp;rsquo;s most famous TrueType fonts on Linux distributions such as Fedora and Red Hat Enterprise Linux (RHEL).&lt;/p&gt;
+&lt;p&gt;You may require &amp;lsquo;root&amp;rsquo; level privileges therefore login as &amp;lsquo;root&amp;rsquo; or get sudo configured.&lt;/p&gt;
+&lt;p&gt;Here’s how to do it using the Terminal.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Make sure you have the following RPM packages installed.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;rpm-build&lt;/strong&gt;: If not installed, use the following command to install the rpm-build package&lt;/p&gt;
+&lt;p&gt;yum install rpm-build cabextract ttmkfdir&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;wget&lt;/strong&gt;: If not installed, use the following command&lt;/p&gt;
+&lt;p&gt;yum \-y install wget&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Download the latest msttcorefonts spec file from SourceForge using the command as follow,&lt;/p&gt;
+&lt;p&gt;wget &lt;a href=&#34;http://corefonts.sourceforge.net/msttcorefonts-2.5-1.spec&#34;&gt;http://corefonts.sourceforge.net/msttcorefonts-2.5-1.spec&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Build a RPM file using the previously downloaded spec file and the following command,&lt;/p&gt;
+&lt;p&gt;rpmbuild \-ba msttcorefonts-2.5-1.spec&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The RPM file will be stored in: /root/rpmbuild/RPMS/noarch/, install it as follow,&lt;/p&gt;
+&lt;p&gt;rpm \-ivh /root/rpmbuild/RPMS/noarch/msttcorefonts-2.5-1.noarch.rpm&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Restart the machine to make the changes take effect.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The instructions provided above will install the Microsoft TTFs package including the following font-families:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Andale Mono&lt;/li&gt;
+&lt;li&gt;Arial Black/Arial (Bold, Italic, Bold Italic)&lt;/li&gt;
+&lt;li&gt;Comic Sans MS (Bold)&lt;/li&gt;
+&lt;li&gt;Courier New (Bold, Italic, Bold Italic)&lt;/li&gt;
+&lt;li&gt;Georgia (Bold, Italic, Bold Italic)&lt;/li&gt;
+&lt;li&gt;Impact&lt;/li&gt;
+&lt;li&gt;Tahoma&lt;/li&gt;
+&lt;li&gt;Times New Roman (Bold, Italic, Bold Italic)&lt;/li&gt;
+&lt;li&gt;Trebuchet (Bold, Italic, Bold Italic)&lt;/li&gt;
+&lt;li&gt;Verdana (Bold, Italic, Bold Italic)&lt;/li&gt;
+&lt;li&gt;Webdings&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;On Ubuntu, go to the Synaptic Package Manager. Find and install the &lt;strong&gt;ttf-mscorefonts-installer&lt;/strong&gt; package.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: How to Specify TrueType Fonts Location</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/rnd-prt/fontusage/how&#43;to&#43;specify&#43;truetype&#43;fonts&#43;location/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/rnd-prt/fontusage/how&#43;to&#43;specify&#43;truetype&#43;fonts&#43;location/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--how-to-specify-truetype-fonts-location&#34;&gt;Aspose.Cells for Java : How to Specify TrueType Fonts Location&lt;/h1&gt;
+&lt;p&gt;This article describes:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/rnd-prt/fontusage/how+to+specify+truetype+fonts+location&#34;&gt;Where the Aspose.Cells API looks for TrueType fonts&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/rnd-prt/fontusage/how+to+specify+truetype+fonts+location&#34;&gt;How to explicitly specify a TrueType font folders for Aspose.Cells API&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/rnd-prt/fontusage/how+to+specify+truetype+fonts+location&#34;&gt;How to restrict the Aspose.Cells API to use only one TrueType fonts location&lt;/a&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;working-with-fonts&#34;&gt;Working with Fonts&lt;/h3&gt;
+&lt;h4 id=&#34;where-asposecells-looks-for-truetype-fonts-on-windows&#34;&gt;Where Aspose.Cells Looks for TrueType Fonts on Windows&lt;/h4&gt;
+&lt;p&gt;Aspose.Cells searches for fonts in the &lt;strong&gt;Windows\Fonts&lt;/strong&gt; folder. This default setting works most of the time so only specify your own fonts folders if you really need to.&lt;/p&gt;
+&lt;h4 id=&#34;where-asposecells-looks-for-truetype-fonts-on-linux&#34;&gt;Where Aspose.Cells Looks for TrueType Fonts on Linux&lt;/h4&gt;
+&lt;p&gt;By default, Aspose.Cells API looks for the fonts in all of the the following locations, although different Linux distributions store fonts in different folders.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;/usr/share/fonts&lt;/li&gt;
+&lt;li&gt;/usr/local/share/fonts&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;This default behavior will work for most Linux distributions, but is not guaranteed to work all of the time. You might need to specify the location of the TrueType fonts explicitly.&lt;/p&gt;
+&lt;h4 id=&#34;how-to-explicitly-specify-a-font-folder&#34;&gt;How to Explicitly Specify a Font Folder&lt;/h4&gt;
+&lt;p&gt;Aspose.Cells APIs have exposed many factory methods for the &lt;code&gt;FontConfigs&lt;/code&gt; class to specify the fonts or fonts folders as described below.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;The &lt;code&gt;setFontFolder&lt;/code&gt; method accepts first parameter of type &lt;code&gt;String&lt;/code&gt; with location to the fonts directory whereas the second parameter of type &lt;code&gt;Boolean&lt;/code&gt; is to direct the Aspose.Cells APis to search the folders recursively for font files.&lt;/li&gt;
+&lt;li&gt;The &lt;code&gt;setFontFolders&lt;/code&gt; method accepts an array of type &lt;code&gt;String&lt;/code&gt; so you may specify many font directories using this approach. You may also direct the Aspose.Cells APis to search the folders recursively by specifying &lt;code&gt;true&lt;/code&gt; as second parameter.&lt;/li&gt;
+&lt;li&gt;The &lt;code&gt;setFontSources&lt;/code&gt; method accepts an array of type &lt;code&gt;FontSourceBase&lt;/code&gt; for you to specify a list of individual fonts&amp;rsquo; locations.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;When specifying the fonts folder using any of the above mentioned methods, we recommend setting the font location at the start of the application otherwise you may receive poorly formatted results.&lt;/p&gt;
+&lt;p&gt;Setting the fonts folder using any of the above methods does not ensure that the Aspose.Cells API will not look for the fonts on default locations such as system&amp;rsquo;s font folder.&lt;/p&gt;
+&lt;h4 id=&#34;how-to-restrict-the-asposecells-to-use-only-one-font-folder&#34;&gt;How to Restrict the Aspose.Cells to Use Only One Font Folder&lt;/h4&gt;
+&lt;p&gt;Starting from Aspose.Cells for Java 8.1.0, setting the JVM arguments as &lt;strong&gt;-DAspose.Cells.FontDirExc=&amp;quot;YourFontDir&lt;/strong&gt; will ensure that the Aspose.Cells API will only use the fonts location as specified.&lt;/p&gt;
+&lt;p&gt;Set the specified arguments using the &lt;code&gt;System.setProperty&lt;/code&gt; method as shown below.&lt;/p&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_9e097189ab&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_9e097189ab&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;
+&lt;span style=&#34;color:#000&#34;&gt;System&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;setProperty&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Aspose.Cells.FontDirExc&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;FontDirSet&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;p&gt;Please note the following:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The above statement should be at the start of your application.&lt;/li&gt;
+&lt;li&gt;Using the above approach does not require setting the font directory using any of the &lt;code&gt;FontConfigs&lt;/code&gt; methods discussed above.&lt;/li&gt;
+&lt;li&gt;The string &amp;ldquo;FontDirSet&amp;rdquo; should be the complete path to the folder containing the required fonts.&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

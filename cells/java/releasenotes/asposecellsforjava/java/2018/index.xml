@@ -1,0 +1,1727 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Release Notes - 2018</title>
+    <link>https://roywangt.github.io/cells/java/releasenotes/asposecellsforjava/java/2018/</link>
+    <description>Recent content in Release Notes - 2018 on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://roywangt.github.io/cells/java/releasenotes/asposecellsforjava/java/2018/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Java: Aspose.Cells for Java 18.12 Release Notes</title>
+      <link>https://roywangt.github.io/cells/java/releasenotes/asposecellsforjava/java/2018/aspose.cells&#43;for&#43;java&#43;18.12&#43;release&#43;notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/releasenotes/asposecellsforjava/java/2018/aspose.cells&#43;for&#43;java&#43;18.12&#43;release&#43;notes/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--asposecells-for-java-1812-release-notes&#34;&gt;Aspose.Cells for Java : Aspose.Cells for Java 18.12 Release Notes&lt;/h1&gt;
+&lt;p&gt;This page contains release notes for Aspose.Cells for Java 18.12.&lt;/p&gt;
+
+&lt;div class=&#34;table table-striped&#34; role=&#34;alert&#34;&gt;
+    &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Key&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Summary&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Category&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42745&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Does not get connection points as its returned type is &amp;lsquo;zo[]&amp;rsquo;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42662&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Provide ability to export range as HTML&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42746&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Data bars are missing when XLSX is converted to HTML&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42747&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Value still exists when XLSX is converted to HTML file format&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42748&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;LightCells API fails to load a huge file&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Enhancement&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42727&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Text formatting is missing in HTML output of MS Excel range&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42744&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Icon Sets become misaligned when XLSX is converted to HTML&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42772&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Exporting named range data is not correctly rendered to HTML (Java)&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42753&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;An issue found in Named Range&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42764&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Validation always returns true for &amp;lsquo;getInCellDropDown()&amp;rsquo; method&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42768&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Wrong culture custom format gets returned for different locales (Germany, French, Italy and Spain)&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42758&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Excel To PDF conversion - Gauge chart rendering issue&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42761&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF rendition throws OutOfMemoryError exception&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42759&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;CellsException while converting files&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Exception&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42755&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Exception &amp;ldquo;NullPointerException&amp;rdquo; when instantiating the XLSX file(s)&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Exception&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42762&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;NumberFormatException while processing files&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Exception&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42774&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;NullPointerException when loading a CSV&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Exception&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42765&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Exception &amp;ldquo;com.aspose.cells.CellsException&amp;rdquo; when rendering an Excel file to PDF file format&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Exception&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42754&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&amp;ldquo;IllegalStateException: Invalid encoding: null&amp;rdquo; when instantiating an XLS file format&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Exception&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+
+&lt;h3 id=&#34;public-api-and-backwards-incompatible-changes&#34;&gt;Public API and Backwards Incompatible Changes&lt;/h3&gt;
+&lt;p&gt;The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Cells for Java. If you have concerns about any change listed, please raise it on the Aspose.Cells support forum.&lt;/p&gt;
+&lt;h4 id=&#34;adds-htmlsaveoptionsexportsingletab-property&#34;&gt;Adds HtmlSaveOptions.ExportSingleTab property&lt;/h4&gt;
+&lt;p&gt;Indicates whether exporting the single tab when the file only has one worksheet in it.The default value is false.&lt;/p&gt;
+&lt;h4 id=&#34;adds-htmlsaveoptionsexportprintareaonly-property&#34;&gt;Adds HtmlSaveOptions.ExportPrintAreaOnly property&lt;/h4&gt;
+&lt;p&gt;Indicates if only exporting the print area to html file. The default value is false.&lt;/p&gt;
+&lt;h4 id=&#34;deletes-obsoleted-workbookinitialize-method&#34;&gt;Deletes obsoleted Workbook.Initialize() method&lt;/h4&gt;
+&lt;p&gt;Use Workbook constructor instead.&lt;/p&gt;
+&lt;h4 id=&#34;deletes-obsoleted-workbookstyles-property&#34;&gt;Deletes obsoleted Workbook.Styles property&lt;/h4&gt;
+&lt;p&gt;Use Workbook.CreateStyle() to create and manipulate style for workbook instead of StyleCollection.Add(); Use Workbook.GetNamedStyle(string) to get named style instead of StyleCollection.&lt;/p&gt;
+&lt;h4 id=&#34;deletes-obsoleted-workbookcheckwriteprotectedpassword-method&#34;&gt;Deletes obsoleted Workbook.CheckWriteProtectedPassword() method&lt;/h4&gt;
+&lt;p&gt;Use WorkbookSettings.WriteProtection.ValidatePassword method instead.&lt;/p&gt;
+&lt;h4 id=&#34;adds-loaddatafilteroptionsvba-enum&#34;&gt;Adds LoadDataFilterOptions.VBA enum&lt;/h4&gt;
+&lt;p&gt;The option to used to ignore VBA projects while loading template file.&lt;/p&gt;
+&lt;h4 id=&#34;adds-styleinvariantcustom-property&#34;&gt;Adds Style.InvariantCustom property&lt;/h4&gt;
+&lt;p&gt;Gets the culture-independent pattern string for number format (including the pattern string for built-in number).&lt;/p&gt;
+&lt;h4 id=&#34;adds-findoptionsvaluetypesensitive-property&#34;&gt;Adds FindOptions.ValueTypeSensitive property&lt;/h4&gt;
+&lt;p&gt;Indicates whether searched cell value type should be same with the searched key.&lt;/p&gt;
+&lt;h4 id=&#34;obsoletes-findoptionssearchnext-property&#34;&gt;Obsoletes FindOptions.SearchNext property&lt;/h4&gt;
+&lt;p&gt;Use FindOptions.SearchBackward property instead, true value for this new property corresponds to false of SearchNext.&lt;/p&gt;
+&lt;h4 id=&#34;deletes-obsoleted-cellsfindstring-findstringstartswith-findstringendswith-findstringcontains-and-findnumber-methods&#34;&gt;Deletes obsoleted Cells.FindString, FindStringStartsWith, FindStringEndsWith, FindStringContains and FindNumber methods&lt;/h4&gt;
+&lt;p&gt;Use Cells.Find (object,Cell,FindOptions) method instead. To get the same results with methods FindNumber, FindString, please set FindOptions.ValueTypeSensitive as true.&lt;/p&gt;
+&lt;h4 id=&#34;deletes-obsoleted-cellsimportgridviewsystemwebuiwebcontrolsgridviewint-int--bool-bool-bool--method&#34;&gt;Deletes obsoleted Cells.ImportGridView(System.Web.UI.WebControls.GridView,int ,int , bool ,bool ,bool ) method&lt;/h4&gt;
+&lt;p&gt;Use Cells.ImportGridView (System.Web.UI.WebControls.GridView gridView,int firstRow,int firstColumn,ImportTableOptions options) method. instead.&lt;/p&gt;
+&lt;h4 id=&#34;deletes-obsoleted-cellsstart-property&#34;&gt;Deletes obsoleted Cells.Start property&lt;/h4&gt;
+&lt;p&gt;Use Cells.FirstCell property instead.&lt;/p&gt;
+&lt;h4 id=&#34;deletes-obsoleted-cellsend-property&#34;&gt;Deletes obsoleted Cells.End property&lt;/h4&gt;
+&lt;p&gt;Use Cells.LastCell property instead.&lt;/p&gt;
+&lt;h4 id=&#34;deletes-cellsintpagescreatepageactionspacekeycellsjavatitleintlinkcreationtruefrompageid77791691-property&#34;&gt;Deletes Cells[&lt;a href=&#34;https://roywangt.github.io/cells/pages/createpage.action?spaceKey=cellsjava&amp;amp;title=int&amp;amp;linkCreation=true&amp;amp;fromPageId=77791691&#34;&gt;int&lt;/a&gt;] property&lt;/h4&gt;
+&lt;p&gt;Use Cells.GetEnumerator() method to iterate all cells in this worksheet instead.&lt;/p&gt;
+&lt;h4 id=&#34;deletes-obsoleted-cellsimportdatacolumn-methods&#34;&gt;Deletes obsoleted Cells.ImportDataColumn() methods&lt;/h4&gt;
+&lt;p&gt;Use Cells.ImportData (DataTable,int,int,ImportTableOptions) method instead.&lt;/p&gt;
+&lt;h4 id=&#34;deletes-obsoleted-cellsimportdatareader-methods&#34;&gt;Deletes obsoleted Cells.ImportDataReader() methods&lt;/h4&gt;
+&lt;p&gt;Use Cells.ImportData (IDataReader, int, int,ImportTableOptions) method instead.&lt;/p&gt;
+&lt;h4 id=&#34;deletes-obsoleted-shaperotation-property&#34;&gt;Deletes obsoleted Shape.Rotation property&lt;/h4&gt;
+&lt;p&gt;Use Shape.RotationAngle property instead.&lt;/p&gt;
+&lt;h4 id=&#34;deletes-obsoleted-validationarealist-property&#34;&gt;Deletes obsoleted Validation.AreaList property&lt;/h4&gt;
+&lt;p&gt;Use Validation.Areas property instead.&lt;/p&gt;
+&lt;h4 id=&#34;deletes-obsoleted-style-constructor&#34;&gt;Deletes obsoleted Style constructor&lt;/h4&gt;
+&lt;p&gt;Use CellsFactory.CreateStyle() or Workbook.CreateStyle() method instead.&lt;/p&gt;
+&lt;h4 id=&#34;deletes-obsoleted-shapeisprinted-property&#34;&gt;Deletes obsoleted Shape.IsPrinted property&lt;/h4&gt;
+&lt;p&gt;Use Shape.IsPrintable property instead.&lt;/p&gt;
+&lt;h4 id=&#34;deletes-obsoleted-pivotitemmoveint-method&#34;&gt;Deletes obsoleted PivotItem.Move(int) method&lt;/h4&gt;
+&lt;p&gt;Using PivotItem.Move(int , bool ) method instead.&lt;/p&gt;
+&lt;h4 id=&#34;deletes-obsoleted-cellsexportdatatableint-int-int-intbool-boolcellsexportdatatableint-int-int-intobject-cellsexportdatatableint-int-int-intbool&#34;&gt;Deletes obsoleted Cells.ExportDataTable(int, int, int, int,bool, bool),Cells.ExportDataTable(int, int, int, int,object[]), Cells.ExportDataTable(int, int, int, int,bool), &lt;/h4&gt;
+&lt;p&gt;Cells.ExportDataTable(DataTable, int, int[],int, bool) and Cells.ExportDataTable(DataTable,int, int, int, bool, bool) methods&lt;/p&gt;
+&lt;p&gt;Use ExportDataTable(firstRow,firstColumn, totalRows, totalColumns,ExportTableOptions) method instead.&lt;/p&gt;
+&lt;h4 id=&#34;adds-extpagesetservlethttpservletrequest-reqhttpservletresponse-resp&#34;&gt;Adds ExtPage.setServlet(HttpServletRequest req,HttpServletResponse resp)&lt;/h4&gt;
+&lt;p&gt;Initializes servlet context for ExtPage.&lt;/p&gt;
+&lt;h4 id=&#34;adds-extpagegetbean-method&#34;&gt;Adds ExtPage.getBean() method&lt;/h4&gt;
+&lt;p&gt;Gets GridWebBean instance from ExtPage.&lt;/p&gt;
+&lt;h4 id=&#34;deletes-extpagegetbeanhttpservletrequest-req-method&#34;&gt;Deletes ExtPage.getBean(HttpServletRequest req) method&lt;/h4&gt;
+&lt;p&gt;Use ExtPage.getBean() instead.&lt;/p&gt;
+&lt;h4 id=&#34;adds-extpagemaxholders-property&#34;&gt;Adds ExtPage.Maxholders property&lt;/h4&gt;
+&lt;p&gt;Indicates maximum GridWeb instances for server to be kept (creating every new page or refreshing is considered as a new control instance), default value is 1000.&lt;/p&gt;
+&lt;h4 id=&#34;adds-extpagememoryinstanceexpires-property&#34;&gt;Adds ExtPage.Memoryinstanceexpires property&lt;/h4&gt;
+&lt;p&gt;Indicates the expiry time in seconds of control instance on server, if the time expires, it will be removed on the server, default value is 3600, about one hour.&lt;/p&gt;
+&lt;h4 id=&#34;adds-extpagememorycleanratetime-property&#34;&gt;Adds ExtPage.MemoryCleanRateTime property&lt;/h4&gt;
+&lt;p&gt;Indicates every time duration in seconds to do the check work, to check whether control instance is expired, if expired it removes it, default value is 7200, about two hours.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Aspose.Cells for Java 18.11 Release Notes</title>
+      <link>https://roywangt.github.io/cells/java/releasenotes/asposecellsforjava/java/2018/aspose.cells&#43;for&#43;java&#43;18.11&#43;release&#43;notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/releasenotes/asposecellsforjava/java/2018/aspose.cells&#43;for&#43;java&#43;18.11&#43;release&#43;notes/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--asposecells-for-java-1811-release-notes&#34;&gt;Aspose.Cells for Java : Aspose.Cells for Java 18.11 Release Notes&lt;/h1&gt;
+&lt;p&gt;This page contains release notes for Aspose.Cells for Java 18.11.&lt;/p&gt;
+
+&lt;div class=&#34;table table-striped&#34; role=&#34;alert&#34;&gt;
+    &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Key&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Summary&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Category&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42738&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Wrong count of validation values is read from XLSX&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Enhancement &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42734&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Issue while treating consecutive delimiters as distinct&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Enhancement &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42739&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Aspose.Cells.GridWeb (Java) crashes when using it concurrently in a multi user environment&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42737&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Chart line is missing in XLSX-&amp;gt;PNG conversion&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42735&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Problem with getActualChartSize method&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-40861&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;SmartArt doesn&amp;rsquo;t copy when workbook is copied&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+
+&lt;h3 id=&#34;public-api-and-backwards-incompatible-changes&#34;&gt;Public API and Backwards Incompatible Changes&lt;/h3&gt;
+&lt;p&gt;The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Cells for Java. If you have concerns about any change listed, please raise it on the Aspose.Cells support forum.&lt;/p&gt;
+&lt;h4 id=&#34;adds-pivottablerefreshedbywho-property&#34;&gt;Adds PivotTable.RefreshedByWho property&lt;/h4&gt;
+&lt;p&gt;Gets the name of the user who refreshed the PivotTable last time.&lt;/p&gt;
+&lt;h4 id=&#34;adds-pivottablerefreshdate-property&#34;&gt;Adds PivotTable.RefreshDate property&lt;/h4&gt;
+&lt;p&gt;Gets the date when the PivotTable was refreshed last time.&lt;/p&gt;
+&lt;h4 id=&#34;adds-calculationdatacellrowcellcolumn-properties&#34;&gt;Adds CalculationData.CellRow/CellColumn properties&lt;/h4&gt;
+&lt;p&gt;Provides efficient way for user to get cell&amp;rsquo;s row and column indices instead of fetching the Cell object.&lt;/p&gt;
+&lt;h4 id=&#34;adds-calculationcell-class&#34;&gt;Adds CalculationCell class&lt;/h4&gt;
+&lt;p&gt;Represents the calculation data about one cell being calculated.&lt;/p&gt;
+&lt;h4 id=&#34;adds-abstractcalculationmonitoroncircularienumerator-circularcellsdata-method&#34;&gt;Adds AbstractCalculationMonitor.OnCircular(IEnumerator circularCellsData) method&lt;/h4&gt;
+&lt;p&gt;Provides method for user to gather and process circular references.&lt;/p&gt;
+&lt;h4 id=&#34;adds-txtloadoptionstreatconsecutivedelimitersasone-property&#34;&gt;Adds TxtLoadOptions.TreatConsecutiveDelimitersAsOne property&lt;/h4&gt;
+&lt;p&gt;Allows user to choose whether consecutive delimiters should be taken as one when importing CSV file.&lt;/p&gt;
+&lt;h4 id=&#34;adds-formatconditionsetformulasstring-formula1-string-formula2-bool-isr1c1-bool-islocal-method&#34;&gt;Adds FormatCondition.SetFormulas(string formula1, string formula2, bool isR1C1, bool isLocal) method&lt;/h4&gt;
+&lt;p&gt;Provides efficient and convenient way for user to set formulas for FormatCondition.&lt;/p&gt;
+&lt;h4 id=&#34;adds-validationgetlistvalueint-row-int-column-method&#34;&gt;Adds Validation.GetListValue(int row, int column) method&lt;/h4&gt;
+&lt;p&gt;Allows user to get the value to produce the list for the Validation of specific cell.&lt;/p&gt;
+&lt;h4 id=&#34;obsoletes-validationcollectionaddvalidation-validation-method&#34;&gt;Obsoletes ValidationCollection.Add(Validation validation) method&lt;/h4&gt;
+&lt;p&gt;Use ValidationCollection.Add(CellArea) method instead.&lt;/p&gt;
+&lt;h4 id=&#34;adds-validationcopyasposecellsvalidationasposecellscopyoptions-method&#34;&gt;Adds Validation.Copy(Aspose.Cells.Validation,Aspose.Cells.CopyOptions) method&lt;/h4&gt;
+&lt;p&gt;Copies validation.&lt;/p&gt;
+&lt;h4 id=&#34;adds-createduniversaltimelastprinteduniversaltime-and-lastsaveduniversaltime-properties-of-builtindocumentpropertycollection&#34;&gt;Adds CreatedUniversalTime,LastPrintedUniversalTime and LastSavedUniversalTime properties of BuiltInDocumentPropertyCollection&lt;/h4&gt;
+&lt;p&gt;Returns UTC time about the builtin properties.&lt;/p&gt;
+&lt;h4 id=&#34;adds-ooxmlsaveoptionsupdatesmartart-property&#34;&gt;Adds OoxmlSaveOptions.UpdateSmartArt property&lt;/h4&gt;
+&lt;p&gt;Indicates whether updating the smart art.&lt;/p&gt;
+&lt;h4 id=&#34;adds-smartartshape-class&#34;&gt;Adds SmartArtShape class&lt;/h4&gt;
+&lt;p&gt;Represents the smart art shape.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Aspose.Cells for Java 18.10 Release Notes</title>
+      <link>https://roywangt.github.io/cells/java/releasenotes/asposecellsforjava/java/2018/aspose.cells&#43;for&#43;java&#43;18.10&#43;release&#43;notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/releasenotes/asposecellsforjava/java/2018/aspose.cells&#43;for&#43;java&#43;18.10&#43;release&#43;notes/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--asposecells-for-java-1810-release-notes&#34;&gt;Aspose.Cells for Java : Aspose.Cells for Java 18.10 Release Notes&lt;/h1&gt;
+&lt;p&gt;This page contains release notes for Aspose.Cells for Java 18.10.&lt;/p&gt;
+
+&lt;div class=&#34;table table-striped&#34; role=&#34;alert&#34;&gt;
+    &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Key&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Summary&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Category&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42634&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Convert left right ribbon shape to image&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Enhancement &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42713&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Aspose.Cells for Java JavaDocs - missing package-list file&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Enhancement &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42528&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Font is not a valid HTML5 and self-closing tag and web browsers misrepresent its contents&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Enhancement &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42728&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;An exception(StackOverFlow) raises when saving to PDF output&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42729&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Wrong value calculated by ROUNDUP() &lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42724&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Copy a range with PasteType.ALL (Paste options) not copying row heights properly&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42722&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Hyperlink text formatting lost when new text is set&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42688&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Invalid Russian date format output&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42721&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Issue with SheetRender fonts&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42723&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Exception &amp;ldquo;java.lang.OutOfMemoryError: Java heap space&amp;rdquo; when rendering MS Excel file to PDF&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42725&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Quotes appear in formula when retrieving the cell formula via Aspose.Cells&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42720&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Performance degradation when using conditional formatting&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+
+&lt;h3 id=&#34;public-api-and-backwards-incompatible-changes&#34;&gt;Public API and Backwards Incompatible Changes&lt;/h3&gt;
+&lt;p&gt;The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Cells for Java. If you have concerns about any change listed, please raise it on the Aspose.Cells support forum.&lt;/p&gt;
+&lt;h4 id=&#34;adds-htmlsaveoptionswidthscalable-property&#34;&gt;Adds HtmlSaveOptions.WidthScalable property&lt;/h4&gt;
+&lt;p&gt;Indicates whether using scalable unit to describe the column width when exporting file to HTML. The default value is false.&lt;/p&gt;
+&lt;h4 id=&#34;adds-workbookdesignerupdateemptystringasnull-property&#34;&gt;Adds WorkbookDesigner.UpdateEmptyStringAsNull property&lt;/h4&gt;
+&lt;p&gt;Indicates whether processing the empty string value as null.&lt;/p&gt;
+&lt;h4 id=&#34;updates-the-returned-value-of-documentpropertytodatetime-method-builtindocumentpropertycollectioncreatedtime-builtindocumentpropertycollectionlastprinted-and-builtindocumentpropertycollectionlastsavedtime-properties&#34;&gt;Updates the returned value of DocumentProperty.ToDateTime() method, BuiltInDocumentPropertyCollection.CreatedTime, BuiltInDocumentPropertyCollection.LastPrinted and BuiltInDocumentPropertyCollection.LastSavedTime properties.&lt;/h4&gt;
+&lt;p&gt;Returns the time in local timezone.&lt;/p&gt;
+&lt;h4 id=&#34;requires-stronger-constraint-for-users-input-for-formatconditionformula1formula2&#34;&gt;Requires stronger constraint for user&amp;rsquo;s input for FormatCondition.Formula1/Formula2&lt;/h4&gt;
+&lt;p&gt;The plain input string cannot be determined whether it should refer to a Name reference or it is just a constant string value. So, now we require the formula must start with &amp;lsquo;=&amp;rsquo; sign. For plain string value &amp;ldquo;sss&amp;rdquo;, please use format like &amp;ldquo;=\&amp;ldquo;sss\&amp;quot;&amp;rdquo;.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Aspose.Cells for Java 18.9 Release Notes</title>
+      <link>https://roywangt.github.io/cells/java/releasenotes/asposecellsforjava/java/2018/aspose.cells&#43;for&#43;java&#43;18.9&#43;release&#43;notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/releasenotes/asposecellsforjava/java/2018/aspose.cells&#43;for&#43;java&#43;18.9&#43;release&#43;notes/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--asposecells-for-java-189-release-notes&#34;&gt;Aspose.Cells for Java : Aspose.Cells for Java 18.9 Release Notes&lt;/h1&gt;
+&lt;p&gt;This page contains release notes for Aspose.Cells for Java 18.9.&lt;/p&gt;
+
+&lt;div class=&#34;table table-striped&#34; role=&#34;alert&#34;&gt;
+    &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Key&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Summary&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Category&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42715&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Formulas are not retrieved the same as in MS Excel file&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42711&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Chart in PDF is not generating from the Excel template&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42710&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Duplicate legend item text in the chart in Excel to PDF conversion&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42706&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF output does not show chart label&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42700&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Waterfall chart not rendered properly after changing the chart data&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42717&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Cells.deleteRow works incorrectly&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42716&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Wrong value retrieved for border style&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42709&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Wrong bottom border style returned for merged cell&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42705&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;MS Excel raises error while loading file after setting the Autofilter&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42703&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Chart not rendered while converting ODS to PDF&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42702&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Gray borders appear after reading cell style in the worksheet&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42699&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PasteType.VALUES_AND_NUMBER_FORMATS is not working fine&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42646&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Exception: &amp;ldquo;&lt;a href=&#34;https://roywangt.github.io/cells/pages/createpage.action?spaceKey=cellsjava&amp;amp;title=FormulaBuild&amp;amp;linkCreation=true&amp;amp;fromPageId=72188109&#34;&gt;FormulaBuild&lt;/a&gt;Unknown formula token&lt;a href=&#34;https://roywangt.github.io/cells/pages/createpage.action?spaceKey=cellsjava&amp;amp;title=0&amp;amp;linkCreation=true&amp;amp;fromPageId=72188109&#34;&gt;0&lt;/a&gt;&amp;rdquo; on Name.getRefersTo()&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Exception &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42707&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Chart.calculate method causes OutOfMemoryError&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Exception &lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+
+&lt;h3 id=&#34;public-api-and-backwards-incompatible-changes&#34;&gt;Public API and Backwards Incompatible Changes&lt;/h3&gt;
+&lt;p&gt;The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Cells for Java. If you have concerns about any change listed, please raise it on the Aspose.Cells support forum.&lt;/p&gt;
+&lt;h4 id=&#34;adds-cellshelpercreatesafesheetnamestring-nameproposalcreatesafesheetnamestring-nameproposal-char-replacechar-methods&#34;&gt;Adds CellsHelper.CreateSafeSheetName(string nameProposal)/CreateSafeSheetName(string nameProposal, char replaceChar) methods&lt;/h4&gt;
+&lt;p&gt;Methods for user&amp;rsquo;s convenience to create valid sheet name.&lt;/p&gt;
+&lt;h4 id=&#34;adds-rowfirstdatacell&#34;&gt;Adds Row.FirstDataCell&lt;/h4&gt;
+&lt;p&gt;Gets the first non-blank cell in the row.&lt;/p&gt;
+&lt;h4 id=&#34;adds-mapchartlabellayout-enum&#34;&gt;Adds MapChartLabelLayout enum&lt;/h4&gt;
+&lt;p&gt;Represents the label layout type of the map chart.&lt;/p&gt;
+&lt;h4 id=&#34;adds-mapchartprojectiontype-enum&#34;&gt;Adds MapChartProjectionType enum&lt;/h4&gt;
+&lt;p&gt;Represents the projection type of the map chart.&lt;/p&gt;
+&lt;h4 id=&#34;adds-mapchartregiontype-enum&#34;&gt;Adds MapChartRegionType enum&lt;/h4&gt;
+&lt;p&gt;Represents the region type of the map chart.&lt;/p&gt;
+&lt;h4 id=&#34;adds-quartilecalculationtype-enum&#34;&gt;Adds QuartileCalculationType enum&lt;/h4&gt;
+&lt;p&gt;Represents the quartile calculation type of the chart.&lt;/p&gt;
+&lt;h4 id=&#34;adds-serieslayoutproperties-property-and-class-serieslayoutproperties&#34;&gt;Adds Series.LayoutProperties property and class SeriesLayoutProperties&lt;/h4&gt;
+&lt;p&gt;Represents the layout properties of the series.&lt;/p&gt;
+&lt;h4 id=&#34;adds-ticklabelsisautomaticrotation-property&#34;&gt;Adds TickLabels.IsAutomaticRotation property&lt;/h4&gt;
+&lt;p&gt;Indicates whether the rotation of the tick labels is automatic.&lt;/p&gt;
+&lt;h4 id=&#34;adds-filteroperatortypebeginswith-contains-endswith-and-notcontains-enum&#34;&gt;Adds FilterOperatorType.BeginsWith, Contains, EndsWith and NotContains enum&lt;/h4&gt;
+&lt;p&gt;Represents the text filter operator type.&lt;/p&gt;
+&lt;h4 id=&#34;adds-cellgetdisplaystylebool-method&#34;&gt;Adds Cell.GetDisplayStyle(bool) method&lt;/h4&gt;
+&lt;p&gt;Gets the display style of the cell.&lt;/p&gt;
+&lt;h4 id=&#34;adds-globalizationsettingsgetstandardheaderfooterfontstylenamestring-localfontstylename-method&#34;&gt;Adds GlobalizationSettings.GetStandardHeaderFooterFontStyleName(string localFontStyleName) method&lt;/h4&gt;
+&lt;p&gt;Gets standard English font style name (Regular, Bold, Italic) for Header/Footer according to given locale font style name.&lt;/p&gt;
+&lt;h4 id=&#34;adds-pdfcustompropertiesexport-enum&#34;&gt;Adds PdfCustomPropertiesExport enum&lt;/h4&gt;
+&lt;p&gt;Specifies the way CustomDocumentPropertyCollection are exported to PDF file.&lt;/p&gt;
+&lt;h4 id=&#34;adds-pdfsaveoptionscustompropertiesexport-property&#34;&gt;Adds PdfSaveOptions.CustomPropertiesExport property&lt;/h4&gt;
+&lt;p&gt;Gets or sets a value determining the way CustomDocumentPropertyCollection are exported to PDF file. Default value is None.&lt;/p&gt;
+&lt;h4 id=&#34;adds-class-xmldatabinding&#34;&gt;Adds class XmlDataBinding&lt;/h4&gt;
+&lt;p&gt;Represents Xml Data Binding information.&lt;/p&gt;
+&lt;h4 id=&#34;adds-listobjectxmlmap-property&#34;&gt;Adds ListObject.XmlMap property&lt;/h4&gt;
+&lt;p&gt;Gets an XmlMap used for this list.&lt;/p&gt;
+&lt;h4 id=&#34;adds-xmldatabindingurl-property&#34;&gt;Adds XmlDataBinding.Url property&lt;/h4&gt;
+&lt;p&gt;Gets source url of this data binding.&lt;/p&gt;
+&lt;h4 id=&#34;adds-xmlmapdatabinding-property&#34;&gt;Adds XmlMap.DataBinding property&lt;/h4&gt;
+&lt;p&gt;Gets an XmlDataBinding of this map.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Aspose.Cells for Java 18.8 Release Notes</title>
+      <link>https://roywangt.github.io/cells/java/releasenotes/asposecellsforjava/java/2018/aspose.cells&#43;for&#43;java&#43;18.8&#43;release&#43;notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/releasenotes/asposecellsforjava/java/2018/aspose.cells&#43;for&#43;java&#43;18.8&#43;release&#43;notes/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--asposecells-for-java-188-release-notes&#34;&gt;Aspose.Cells for Java : Aspose.Cells for Java 18.8 Release Notes&lt;/h1&gt;
+&lt;p&gt;This page contains release notes for Aspose.Cells for Java 18.8.&lt;/p&gt;
+
+&lt;div class=&#34;table table-striped&#34; role=&#34;alert&#34;&gt;
+    &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Key&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Summary&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Category&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42680&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Disable Pivot Table Ribbon&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42568&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Protect workbook and worksheet in ODS file&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42677&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Interruption issue with saving XLSX file process&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Enhancement &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42687&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Hyperlink not working when referenced from other sheet&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Enhancement &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-41176&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Incorrect alignment while rendering spreadsheet to PDF format&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42676&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Table data shifted to wrong row and column while converting from HTML to MS Excel file format&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-41670&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Chart&amp;rsquo;s image position is wrong in Chrome &amp;amp; FireFox while converting to HTML  &lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-41245&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Slicer control is not rendered when converting Excel file to HTML file format&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42684&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Vertical line at the center of the chart is not drawn properly in the rendered image&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42682&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Gradient color for negative bubbles is not applying in the PDF output&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42681&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Chart category title not shown properly in the image&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42695&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Wrong border style returned for merged cell&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42694&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Read watermark from Excel file&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42686&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Property comment contains unnecessary text&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42685&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Property &amp;ldquo;revision number&amp;rdquo; not checked correctly&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-41485&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Macros in the ODS file are not retained in the generated ODS file format&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42691&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;NegativeArraySizeException while converting XLSX to HTML&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Exception &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42675&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;NumberFormatException raised while loading the HTML file into workbook&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Exception &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42689&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;NullPointerException exception raised while calling the CalculateFormula&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Exception &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42678&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Exception when rendering worksheet to PNG file format&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Exception &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42411&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Error in Cell: E22-Invalid formula - exception on opening MS Excel file&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Exception &lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+
+&lt;h3 id=&#34;public-api-and-backwards-incompatible-changes&#34;&gt;Public API and Backwards Incompatible Changes&lt;/h3&gt;
+&lt;p&gt;The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Cells for Java. If you have concerns about any change listed, please raise it on the Aspose.Cells support forum.&lt;/p&gt;
+&lt;h4 id=&#34;adds-pdfsecurityoptionsaccessibilityextractcontent-property&#34;&gt;Adds PdfSecurityOptions.AccessibilityExtractContent property&lt;/h4&gt;
+&lt;p&gt;Permission to copy or extract content (in support of accessibility to disabled users or for other purposes).&lt;/p&gt;
+&lt;h4 id=&#34;adds-subtotalsetting-class&#34;&gt;Adds SubtotalSetting class&lt;/h4&gt;
+&lt;p&gt;Represents the setting of subtotal.&lt;/p&gt;
+&lt;h4 id=&#34;adds-cellsretrievesubtotalsettingcellarea-method&#34;&gt;Adds Cells.RetrieveSubtotalSetting(CellArea) method&lt;/h4&gt;
+&lt;p&gt;Retrieves the setting of subtotal.&lt;/p&gt;
+&lt;h4 id=&#34;adds-overload-rangeexportdatatableasposecellsexporttableoptions-method&#34;&gt;Adds overload Range.ExportDataTable(Aspose.Cells.ExportTableOptions) method.&lt;/h4&gt;
+&lt;p&gt;Supports options of exporting range.&lt;/p&gt;
+&lt;h4 id=&#34;adds-webqueryconnectionissamesetting-property-and-deletes-webqueryconnectionisfirstrow-property&#34;&gt;Adds WebQueryConnection.IsSameSetting property and deletes WebQueryConnection.IsFirstRow property&lt;/h4&gt;
+&lt;p&gt;Use WebQueryConnection.IsSameSetting property instead.&lt;/p&gt;
+&lt;h4 id=&#34;adds-webqueryconnectionisxmlsourcedata-property-and-deletes-webqueryconnectionissourcedata-property&#34;&gt;Adds WebQueryConnection.IsXmlSourceData property and deletes WebQueryConnection.IsSourceData property&lt;/h4&gt;
+&lt;p&gt;Use WebQueryConnection.IsXmlSourceData property instead.&lt;/p&gt;
+&lt;h4 id=&#34;adds-shapeisequation-property&#34;&gt;Adds Shape.IsEquation property&lt;/h4&gt;
+&lt;p&gt;Indicates whether the shape contains equation.&lt;/p&gt;
+&lt;h4 id=&#34;adds-overload-cellscopycolumnsint32int32pasteoptions-and-celscopyrowsint32int32pasteoptions-method&#34;&gt;Adds overload Cells.CopyColumns(Int32,Int32,PasteOptions) and Cels.CopyRows(Int32,Int32,PasteOptions) method&lt;/h4&gt;
+&lt;p&gt;Supports paste options when copying rows and columns.&lt;/p&gt;
+&lt;h4 id=&#34;adds-axisisautoticklabelspacing-property&#34;&gt;Adds Axis.IsAutoTickLabelSpacing property&lt;/h4&gt;
+&lt;p&gt;Indicates whether tick label spacing is automatic.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Aspose.Cells for Java 18.7 Release Notes</title>
+      <link>https://roywangt.github.io/cells/java/releasenotes/asposecellsforjava/java/2018/aspose.cells&#43;for&#43;java&#43;18.7&#43;release&#43;notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/releasenotes/asposecellsforjava/java/2018/aspose.cells&#43;for&#43;java&#43;18.7&#43;release&#43;notes/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--asposecells-for-java-187-release-notes&#34;&gt;Aspose.Cells for Java : Aspose.Cells for Java 18.7 Release Notes&lt;/h1&gt;
+&lt;p&gt;This page contains release notes for Aspose.Cells for Java 18.7.&lt;/p&gt;
+
+&lt;div class=&#34;table table-striped&#34; role=&#34;alert&#34;&gt;
+    &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Key&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Summary&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Category&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42668&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Support multiple values when using class style (Linked to: CELLSJAVA-42635)&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Enhancement &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42627&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Unable to extract Smart Art images correctly - Shape to image conversion (CELLSJAVA-42619) &lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Enhancement &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42672&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;The output PDF document is too big &lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42671&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Hyperlinks issue when viewing the output Excel file in MS Excel Japanese version&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42667&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Getting &amp;lsquo;#NUM!&amp;rsquo; for a cell having IRR function&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42658&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Workbooks with XL4 macros (XLSM) become corrupt after save&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42656&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;AlternativeText returns value of the comment Text&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42635&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;HTML to XLS - CSS style ignored&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42673&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Exception &amp;ldquo;java.lang.NumberFormatException&amp;rdquo; when loading an Excel file&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Exception &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42669&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Exception &amp;ldquo;java.lang.NullPointerException&amp;rdquo; when calculating formulas in the workbook&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Exception &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42663&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Chart.calculate() throws IndexOutOfBoundsException&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Exception &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42655&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Exception: &amp;ldquo;Invalid encoding: null&amp;rdquo; when loading an XLS file - II&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Exception &lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+
+&lt;h3 id=&#34;public-api-and-backwards-incompatible-changes&#34;&gt;Public API and Backwards Incompatible Changes&lt;/h3&gt;
+&lt;p&gt;The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Cells for Java. If you have concerns about any change listed, please raise it on the Aspose.Cells support forum.&lt;/p&gt;
+&lt;h4 id=&#34;adds-enum-styleflagalignments&#34;&gt;Adds enum StyleFlag.Alignments&lt;/h4&gt;
+&lt;p&gt;Represents all the settings of alignment.&lt;/p&gt;
+&lt;h4 id=&#34;adds-workbooksettingsmaxrow-and-workbooksettingsmaxcolumn-properties&#34;&gt;Adds WorkbookSettings.MaxRow and WorkbookSettings.MaxColumn properties&lt;/h4&gt;
+&lt;p&gt;Gets the max row and column index of the workbook.&lt;/p&gt;
+&lt;h4 id=&#34;adds-writeprotectionauthor-property&#34;&gt;Adds WriteProtection.Author property&lt;/h4&gt;
+&lt;p&gt;Gets and sets the author of the write protection.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Aspose.Cells for Java 18.6 Release Notes</title>
+      <link>https://roywangt.github.io/cells/java/releasenotes/asposecellsforjava/java/2018/aspose.cells&#43;for&#43;java&#43;18.6&#43;release&#43;notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/releasenotes/asposecellsforjava/java/2018/aspose.cells&#43;for&#43;java&#43;18.6&#43;release&#43;notes/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--asposecells-for-java-186-release-notes&#34;&gt;Aspose.Cells for Java : Aspose.Cells for Java 18.6 Release Notes&lt;/h1&gt;
+&lt;p&gt;This page contains release notes for Aspose.Cells for Java 18.6.&lt;/p&gt;
+
+&lt;div class=&#34;table table-striped&#34; role=&#34;alert&#34;&gt;
+    &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Key&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Summary&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Category&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42339&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Implement custom data sorting in Pivot Table report via Aspose.Cells APIs&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42625&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;The implementation of the MS Excel feature &amp;lsquo;Watch Window&amp;rsquo;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42612&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Unable to extract the text from the gear type SmartArt&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42646&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Exception: &amp;ldquo;&lt;a href=&#34;https://roywangt.github.io/cells/pages/createpage.action?spaceKey=cellsjava&amp;amp;title=FormulaBuild&amp;amp;linkCreation=true&amp;amp;fromPageId=66948079&#34;&gt;FormulaBuild&lt;/a&gt;Unknown formula token&lt;a href=&#34;https://roywangt.github.io/cells/pages/createpage.action?spaceKey=cellsjava&amp;amp;title=0&amp;amp;linkCreation=true&amp;amp;fromPageId=66948079&#34;&gt;0&lt;/a&gt;&amp;rdquo; on Name.getRefersTo()&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Enhancement &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42645&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Exception: &amp;ldquo;&lt;a href=&#34;https://roywangt.github.io/cells/pages/createpage.action?spaceKey=cellsjava&amp;amp;title=FormulaBuild&amp;amp;linkCreation=true&amp;amp;fromPageId=66948079&#34;&gt;FormulaBuild&lt;/a&gt;More than one token in stack&amp;hellip;.&amp;rdquo; on Cell.getFormula()&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Enhancement &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42516&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Aspose.Cells accepts and corrects an invalid formula&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Enhancement &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42636&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Some drawing shapes are displaced or rendered wrongly in Excel to HTML rendering&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42627&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42619 - Unable to extract Smart Art images correctly&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42618&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Shape is displaced to cover data in Excel to HTML rendering&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42628&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Calculation of formulas are wrong e.g. it generates #DIV/0! errors&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42615&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Cell A3 format is not correct in the output HTML&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42621&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Poor performance when generating PDF file from an MS Excel file&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42620&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;XLSX to TIFF - exception NoClassDefFoundError&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42599&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Images are lost when Excel file is converted to PDF &lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42630&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Chart.calculate method causes OutOfMemoryError&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42623&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Memory increases in rendering Excel file to PDF file format&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42592&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Font size changed on chart title due to characters() method&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-41860&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Shadow effect is changed while re-saving XLS&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42654&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Excel to PDF conversion - the conversion never completes&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42647&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Unable to get or set alternative text for Comment shape&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42644&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Aspose.Cells hangs when converting a spreadsheet ml file (xml) to PDF with self-closing Styles tag&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42632&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Unable to set alternative text for SmartArt shape&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42631&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;getFirstVisibleRow() and getFirstVisibleColumn() returning invalid indices&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42624&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Hyperlinks with encoded symbols (such as, &amp;ldquo;%5c&amp;rdquo;) decode after re-saving&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42638&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Cell.getDisplayStringValue() throws java.lang.NullPointerException&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Exception &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42652&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;java.lang.ArrayIndexOutOfBoundsException occurred on loading an XLS file&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Exception &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42650&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Exception: &amp;ldquo;Invalid encoding: null&amp;rdquo; when loading an XLS file&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Exception &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42649&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Exception: &amp;ldquo;The count of HPageBreaks cannot be larger than 1024&amp;rdquo; when loading an XLS file&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Exception &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42648&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Exception: &amp;ldquo;Failed to read image data&amp;rdquo; on Picture.getData()&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Exception &lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+
+&lt;h3 id=&#34;public-api-and-backwards-incompatible-changes&#34;&gt;Public API and Backwards Incompatible Changes&lt;/h3&gt;
+&lt;p&gt;The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Cells for Java. If you have concerns about any change listed, please raise it on the Aspose.Cells support forum.&lt;/p&gt;
+&lt;h4 id=&#34;adds-slicer-slicercollection-slicercache-slicercacheitem-and-slicercacheitemcollection-classes&#34;&gt;Adds Slicer, SlicerCollection, SlicerCache, SlicerCacheItem and SlicerCacheItemCollection classes&lt;/h4&gt;
+&lt;p&gt;These APIs are used to create and modify the Slicer in the file.&lt;/p&gt;
+&lt;h4 id=&#34;adds-slicercacheitemsorttype-and-slicerstyletype-enums&#34;&gt;Adds SlicerCacheItemSortType and SlicerStyleType enums&lt;/h4&gt;
+&lt;p&gt;These APIs are used to create and modify the Slicer in the file.&lt;/p&gt;
+&lt;h4 id=&#34;adds-cellwatchcollection-and-cellwatch-classes-adds-worksheetcellwatches-property&#34;&gt;Adds CellWatchCollection and CellWatch classes, Adds Worksheet.CellWatches property&lt;/h4&gt;
+&lt;p&gt;Adds Cell Watch Item in the &amp;lsquo;watch window&amp;rsquo;.&lt;/p&gt;
+&lt;h4 id=&#34;adds-customxmlshape-class-and-msodrawingtypecustomxml-enum&#34;&gt;Adds CustomXmlShape class and MsoDrawingType.CustomXml enum&lt;/h4&gt;
+&lt;p&gt;Supports keeping custom xml shape.&lt;/p&gt;
+&lt;h4 id=&#34;adds-msodrawingtypesmartart-enum&#34;&gt;Adds MsoDrawingType.SmartArt enum&lt;/h4&gt;
+&lt;p&gt;Represents the smart art shape type.&lt;/p&gt;
+&lt;h4 id=&#34;adds-fontschemetype-property-and-fontschemetype-enums&#34;&gt;Adds Font.SchemeType property and FontSchemeType enums&lt;/h4&gt;
+&lt;p&gt;Gets and sets the scheme type of the font.&lt;/p&gt;
+&lt;h4 id=&#34;adds-customxmlpartid-property&#34;&gt;Adds CustomXmlPart.ID property&lt;/h4&gt;
+&lt;p&gt;Gets and sets the Id of custom xml part.&lt;/p&gt;
+&lt;h4 id=&#34;adds-customxmlpartcollectionselectbyid-method&#34;&gt;Adds CustomXmlPartCollection.SelectByID() method&lt;/h4&gt;
+&lt;p&gt;Gets Custom xml part by id.&lt;/p&gt;
+&lt;h4 id=&#34;adds-rangeaddress-rangecellcount-entirecolumn-rangeentirerow-and-rangegetoffsetsystemint32systemint32&#34;&gt;Adds Range.Address, Range.CellCount, EntireColumn, Range.EntireRow and Range.GetOffset(System.Int32,System.Int32)&lt;/h4&gt;
+&lt;p&gt;Enhancement for processing range.&lt;/p&gt;
+&lt;h4 id=&#34;adds-colordepth-enum-and-imageorprintoptionstiffcolordepth-property&#34;&gt;Adds ColorDepth enum and ImageOrPrintOptions.TiffColorDepth property&lt;/h4&gt;
+&lt;p&gt;Gets or sets bit depth to apply only when saving pages to the Tiff format.&lt;/p&gt;
+&lt;h4 id=&#34;overloads-workbookrendertoimage-method&#34;&gt;Overloads WorkbookRender.ToImage() method&lt;/h4&gt;
+&lt;p&gt;Renders the workbook to image by the page index.&lt;/p&gt;
+&lt;h4 id=&#34;adds-legendlegendentrieslabels-method&#34;&gt;Adds Legend.LegendEntriesLabels() method&lt;/h4&gt;
+&lt;p&gt;Gets the labels of the legend entries after calling Chart.Calculate() method.&lt;/p&gt;
+&lt;h4 id=&#34;adds-customfiltersetcriteriafilteroperatortype-filteroperator-object-criteria-method&#34;&gt;Adds CustomFilter.SetCriteria(FilterOperatorType filterOperator, object criteria) method&lt;/h4&gt;
+&lt;p&gt;Sets the filter criteria.&lt;/p&gt;
+&lt;h4 id=&#34;provides-new-apis-for-supporting-to-getset-formulas-in-locale-dependent-format-the-formulalocal-function-of-microsoft-interop&#34;&gt;Provides new APIs for supporting to get/set formulas in locale dependent format (the FormulaLocal function of Microsoft Interop)&lt;/h4&gt;
+&lt;p&gt;Cell.GetFormula(bool isR1C1, bool isLocal)&lt;br&gt;
+Cell.SetFormula(string formula, bool isR1C1, bool isLocal, object value)&lt;br&gt;
+Name.GetRefersTo(bool isR1C1, bool isLocal)&lt;br&gt;
+Name.SetRefersTo(string refersTo, bool isR1C1, bool isLocal)&lt;br&gt;
+FormatCondition.GetFormula1(bool isR1C1, bool isLocal)&lt;br&gt;
+FormatCondition.SetFormula1(string formula, bool isR1C1, bool isLocal)&lt;br&gt;
+FormatCondition.GetFormula2(bool isR1C1, bool isLocal)&lt;br&gt;
+FormatCondition.SetFormula2(string formula, bool isR1C1, bool isLocal)&lt;br&gt;
+FormatCondition.GetFormula1(bool isR1C1, bool isLocal, int row, int column)&lt;br&gt;
+FormatCondition.GetFormula2(bool isR1C1, bool isLocal, int row, int column)&lt;br&gt;
+GlobalizationSettings.GetTableRowTypeOfHeaders()&lt;br&gt;
+GlobalizationSettings.GetTableRowTypeOfData()&lt;br&gt;
+GlobalizationSettings.GetTableRowTypeOfAll()&lt;br&gt;
+GlobalizationSettings.GetTableRowTypeOfTotals()&lt;br&gt;
+GlobalizationSettings.GetTableRowTypeOfCurrent()&lt;br&gt;
+GlobalizationSettings.GetErrorValueString(string err)&lt;br&gt;
+GlobalizationSettings.GetBooleanValueString(bool bv)&lt;br&gt;
+GlobalizationSettings.GetLocalFunctionName(string standardName)&lt;br&gt;
+GlobalizationSettings.GetStandardFunctionName(string localName)&lt;br&gt;
+GlobalizationSettings.GetLocalBuiltInName(string standardName)&lt;br&gt;
+GlobalizationSettings.GetStandardBuiltInName(string localName)&lt;br&gt;
+GlobalizationSettings.ListSeparator&lt;br&gt;
+GlobalizationSettings.RowSeparatorOfFormulaArray&lt;br&gt;
+GlobalizationSettings.ColumnSeparatorOfFormulaArray&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Aspose.Cells for Java 18.5 Release Notes</title>
+      <link>https://roywangt.github.io/cells/java/releasenotes/asposecellsforjava/java/2018/aspose.cells&#43;for&#43;java&#43;18.5&#43;release&#43;notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/releasenotes/asposecellsforjava/java/2018/aspose.cells&#43;for&#43;java&#43;18.5&#43;release&#43;notes/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--asposecells-for-java-185-release-notes&#34;&gt;Aspose.Cells for Java : Aspose.Cells for Java 18.5 Release Notes&lt;/h1&gt;
+&lt;p&gt;This page contains release notes for Aspose.Cells for Java 18.5.&lt;/p&gt;
+
+&lt;div class=&#34;table table-striped&#34; role=&#34;alert&#34;&gt;
+    &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Key&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Summary&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Category&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42550&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;The concurrent conversion to PDF while each workbook has his own private (exclusive) set of fonts &lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42594&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Detect LoadFormat and FileFormatType of XLAM&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Enhancement &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42604&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Pivot Table&amp;rsquo;s formatting and behavior changed after open/save the template file&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-41918&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Spreadsheet (XLS) becomes corrupted after simple load &amp;amp; save&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42616&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Aspose.Cells breaks iterator interface when calling Iterator.hasnext() twice&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42607&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Properties values garbled when extracting document properties&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42601&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;The workbook is corrupted after adding a watermark&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42600&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Same code executes slower in new releases &lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42598&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Properties are not be extracted in the template file&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42589&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;NullPointerException when adding HTML to a cell&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-41414&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Lines disappeared from chart when XLSX file is re-saved&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42602&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Exception &amp;ldquo;IndexOutOfBoundsException&amp;rdquo; when merging cells in light-weight mode&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Exception &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42610&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Exception &amp;ldquo;java.lang.IllegalStateException: Invalid encoding: null&amp;rdquo; when loading an XLS file &lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Exception &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42608&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;ArrayIndexOutOfBoundsException occurs on opening an Excel file&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Exception &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42596&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&amp;ldquo;java.lang.ArrayIndexOutOfBoundsException&amp;rdquo; occurs on opening an Excel file&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Exception &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42595&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&amp;ldquo;java.io.IOException: File is corrupted&amp;rdquo; occurs on opening an Excel file&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Exception &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42591&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&amp;ldquo;com.aspose.cells.CellsException: Invalid formula&amp;rdquo; on loading an Excel file&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Exception &lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+
+&lt;h3 id=&#34;public-api-and-backwards-incompatible-changes&#34;&gt;Public API and Backwards Incompatible Changes&lt;/h3&gt;
+&lt;p&gt;The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Cells for Java. If you have concerns about any change listed, please raise it on the Aspose.Cells support forum.&lt;/p&gt;
+&lt;h4 id=&#34;adds-new-properties-cellistableformulaisarrayformula-to-replace-cellisintableisinarray&#34;&gt;Adds new properties Cell.IsTableFormula/IsArrayFormula to replace Cell.IsInTable/IsInArray&lt;/h4&gt;
+&lt;p&gt;Indicates whether one cell is part of the table formula or array formula. Old names make ambiguity, so we made them obsolete and provide new ones.&lt;/p&gt;
+&lt;h4 id=&#34;adds-individualfontconfigs-class&#34;&gt;Adds IndividualFontConfigs class&lt;/h4&gt;
+&lt;p&gt;Represents Font configs for each workbook object.&lt;/p&gt;
+&lt;h4 id=&#34;adds-loadoptionsfontconfigs-property&#34;&gt;Adds LoadOptions.FontConfigs property&lt;/h4&gt;
+&lt;p&gt;Gets and sets individual font configs.&lt;/p&gt;
+&lt;h4 id=&#34;deletes-obsoleted-fontsettingshapefont-property&#34;&gt;Deletes obsoleted FontSetting.ShapeFont property&lt;/h4&gt;
+&lt;p&gt;Use FontSetting.TextOptions property instead.&lt;/p&gt;
+&lt;h4 id=&#34;adds-ooxmlcompliance-enum-and-workbooksettingscompliance-property&#34;&gt;Adds OoxmlCompliance enum and WorkbookSettings.Compliance property&lt;/h4&gt;
+&lt;p&gt;Supports Strict Open Xml Spreadsheet.&lt;/p&gt;
+&lt;h4 id=&#34;adds-groupshapeungroup-method&#34;&gt;Adds GroupShape.Ungroup() method&lt;/h4&gt;
+&lt;p&gt;Ungroups shapes.&lt;/p&gt;
+&lt;h4 id=&#34;adds-msoformatpicturegamma-property&#34;&gt;Adds MsoFormatPicture.Gamma property&lt;/h4&gt;
+&lt;p&gt;Gets and sets the gamma of the picture.&lt;/p&gt;
+&lt;h4 id=&#34;adds-textoptionsfareastname-and-textoptionslatinname-properties&#34;&gt;Adds TextOptions.FarEastName and TextOptions.LatinName properties&lt;/h4&gt;
+&lt;p&gt;Get and sets the Far East and Latin name of the font.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Aspose.Cells for Java 18.4 Release Notes</title>
+      <link>https://roywangt.github.io/cells/java/releasenotes/asposecellsforjava/java/2018/aspose.cells&#43;for&#43;java&#43;18.4&#43;release&#43;notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/releasenotes/asposecellsforjava/java/2018/aspose.cells&#43;for&#43;java&#43;18.4&#43;release&#43;notes/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--asposecells-for-java-184-release-notes&#34;&gt;Aspose.Cells for Java : Aspose.Cells for Java 18.4 Release Notes&lt;/h1&gt;
+&lt;p&gt;This page contains release notes for Aspose.Cells for Java 18.4.&lt;/p&gt;
+
+&lt;div class=&#34;table table-striped&#34; role=&#34;alert&#34;&gt;
+    &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Key&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Summary&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Category&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42523&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Use FIPS compliant version of Bouncy Castle in Aspose.Cells APIs&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42572&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Formula should not contain more than 8192 characters&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Enhancement &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42569&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Unable to access horizontal category axis labels items of Chart in XLS&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Enhancement &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42580&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Get/set Language document property&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Enhancement &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42565&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Foreground color vs Background color vs Fill color - Use a single method that takes two arguments&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Enhancement &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42528&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&amp;ldquo;&lt;Font&gt;&amp;rdquo; is not a valid HTML5 and self-closing tag and web browsers misrepresent its contents&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Enhancement &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42413&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Insert SVG image type into worksheet cells by Aspose.Cells&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Enhancement &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42551&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Some shapes are not correct in the output PDF &lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42578&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Conditional formatting is lost while saving Excel to HTML&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42571&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Output HTML does not match with MS-Excel&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42553&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Links to named area are wrong after export to HTML &lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42530&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Pivot Tables and corresponding Charts do not have correct Date format&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42527&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Chart has many values in x-axis and values are overlapping over each other&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42581&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Aspose.Cells returns wrong value of cell A2&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42583&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;XML map does not create table properly&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42577&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Get/extract values (0 for 0 and blank for blank) using DataPoint.getYValue() method for a given chart&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42566&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Inversion of subtitles (legend entries) in MS Excel chart&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42560&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Arrows are missing in PNG output of Excel Chart&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42508&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Java method &amp;lsquo;Shape.toImage&amp;rsquo; works differently with the same method in .NET&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42573&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Aspose.Cells 18.3 rotation for a TextBox is not working for EXCEL_97_TO_2003 save format&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42570&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Blank new line appears inside the TextBox after processing and saving the Excel file&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42563&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Exception &amp;ldquo;java.lang.NullPointerException&amp;rdquo; when digital signing an XLSX file&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Exception &lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+
+&lt;h1 id=&#34;public-api-and-backwards-incompatible-changes&#34;&gt;Public API and Backwards Incompatible Changes&lt;/h1&gt;
+&lt;p&gt;The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Cells for Java. If you have concerns about any change listed, please raise it on the Aspose.Cells support forum.&lt;/p&gt;
+&lt;h4 id=&#34;adds-new-item-crosshideright-for-htmlcrosstype-enum&#34;&gt;Adds new item &amp;ldquo;CrossHideRight&amp;rdquo; for HtmlCrossType enum&lt;/h4&gt;
+&lt;p&gt;Displays HTML cross string and hides the right string when the text is overlapped.&lt;/p&gt;
+&lt;h4 id=&#34;adds-new-item-tsv-for-loadformat-saveformat-and-fileformattype-enums&#34;&gt;Adds new item &amp;ldquo;TSV&amp;rdquo; for LoadFormat, SaveFormat and FileFormatType enums&lt;/h4&gt;
+&lt;p&gt;Represents a TSV(Tab-separated values) file, same with the &amp;ldquo;TabDelimited&amp;rdquo;.&lt;/p&gt;
+&lt;h4 id=&#34;adds-enum-imagetype&#34;&gt;Adds enum ImageType&lt;/h4&gt;
+&lt;p&gt;Represents the type of the image.&lt;/p&gt;
+&lt;h4 id=&#34;adds-msotextframerotatetextwithshape-and-shapetextalignmentrotatetextwithshape-properties&#34;&gt;Adds MsoTextFrame.RotateTextWithShape and ShapeTextAlignment.RotateTextWithShape properties&lt;/h4&gt;
+&lt;p&gt;Indicates whether the text rotates with the shape.&lt;/p&gt;
+&lt;h4 id=&#34;adds-oleobjectimagetype-and-pictureimagetype-properties&#34;&gt;Adds OleObject.ImageType and Picture.ImageType properties&lt;/h4&gt;
+&lt;p&gt;Gets the image format of the picture.&lt;/p&gt;
+&lt;h4 id=&#34;obsoletes-oleobjectimageformat-and-pictureimageformat-properties&#34;&gt;Obsoletes OleObject.ImageFormat and Picture.ImageFormat properties&lt;/h4&gt;
+&lt;p&gt;Use OleObject.ImageType and Picture.ImageType properties instead.&lt;/p&gt;
+&lt;h4 id=&#34;adds-an-overload-autofilterrefresh-systemboolean-method&#34;&gt;Adds an overload AutoFilter.Refresh (System.Boolean) method&lt;/h4&gt;
+&lt;p&gt;Gets all hidden rows&amp;rsquo;s indexes and refreshes the auto-filter.&lt;/p&gt;
+&lt;h4 id=&#34;adds-overload-cellgethtmlstringsystemboolean-method&#34;&gt;Adds overload Cell.GetHtmlString(System.Boolean) method&lt;/h4&gt;
+&lt;p&gt;Gets the HTML string which contains data and some formats in this cell.&lt;/p&gt;
+&lt;h4 id=&#34;adds-builtindocumentpropertycollectionlanguage-property&#34;&gt;Adds BuiltInDocumentPropertyCollection.Language property&lt;/h4&gt;
+&lt;p&gt;Gets and sets the language of the file.&lt;/p&gt;
+&lt;h4 id=&#34;adds-stylesetpatterncolorasposecellsbackgroundtypesystemdrawingcolorsystemdrawingcolor&#34;&gt;Adds Style.SetPatternColor(Aspose.Cells.BackgroundType,System.Drawing.Color,System.Drawing.Color)&lt;/h4&gt;
+&lt;p&gt;Sets the pattern and color of the cell&lt;/p&gt;
+&lt;h4 id=&#34;adds-chartpointxvaluetype-property&#34;&gt;Adds ChartPoint.XValueType property&lt;/h4&gt;
+&lt;p&gt;Gets X value type of the chart point.&lt;/p&gt;
+&lt;h4 id=&#34;adds-chartpointyvaluetype-property&#34;&gt;Adds ChartPoint.YValueType property&lt;/h4&gt;
+&lt;p&gt;Gets Y value type of the chart point.&lt;/p&gt;
+&lt;h4 id=&#34;adds-enum-pagelayoutalignmenttype&#34;&gt;Adds enum PageLayoutAlignmentType&lt;/h4&gt;
+&lt;p&gt;Represents page layout alignment types.&lt;/p&gt;
+&lt;h4 id=&#34;adds-charttopdfsystemiostreamsystemsinglesystemsingleasposecellspagelayoutalignmenttypeasposecellspagelayoutalignmenttype-method&#34;&gt;Adds Chart.ToPdf(System.IO.Stream,System.Single,System.Single,Aspose.Cells.PageLayoutAlignmentType,Aspose.Cells.PageLayoutAlignmentType) method&lt;/h4&gt;
+&lt;p&gt;Creates the chart&amp;rsquo;s PDF with desired page size and saves it to a stream.&lt;/p&gt;
+&lt;h4 id=&#34;adds-charttopdfsystemstringsystemsinglesystemsingleasposecellspagelayoutalignmenttypeasposecellspagelayoutalignmenttype-method&#34;&gt;Adds Chart.ToPdf(System.String,System.Single,System.Single,Aspose.Cells.PageLayoutAlignmentType,Aspose.Cells.PageLayoutAlignmentType) method&lt;/h4&gt;
+&lt;p&gt;Creates the chart&amp;rsquo;s PDF with desired page size and saves it to a file.&lt;/p&gt;
+&lt;h4 id=&#34;adds-pdfsaveoptionsoutputblankpagewhennothingtoprint-property&#34;&gt;Adds PdfSaveOptions.OutputBlankPageWhenNothingToPrint property&lt;/h4&gt;
+&lt;p&gt;Indicates whether to output a blank page when there is nothing to print.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Aspose.Cells for Java 18.3 Release Notes</title>
+      <link>https://roywangt.github.io/cells/java/releasenotes/asposecellsforjava/java/2018/aspose.cells&#43;for&#43;java&#43;18.3&#43;release&#43;notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/releasenotes/asposecellsforjava/java/2018/aspose.cells&#43;for&#43;java&#43;18.3&#43;release&#43;notes/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--asposecells-for-java-183-release-notes&#34;&gt;Aspose.Cells for Java : Aspose.Cells for Java 18.3 Release Notes&lt;/h1&gt;
+&lt;p&gt;This page contains release notes for Aspose.Cells for Java 18.3.&lt;/p&gt;
+
+&lt;div class=&#34;table table-striped&#34; role=&#34;alert&#34;&gt;
+    &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Key&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Summary&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Category&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42519&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Add PdfSaveOptions.DrawObjectEventHandler similar to ImageOrPrintOptions.DrawObjectEventHandler&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42543&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Extract label name that can be set for Package objects embedded in MS Excel file&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42535&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Using stream to import Excel file via GridWebBean.importExcelFile() is invalid or non-existing&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Enhancement &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42529&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;How to identify worksheet shapes via DrawObjectEventHandler&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Enhancement &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42558&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Unable to access horizontal category axis label items&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Enhancement &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42552&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Output HTML does not match with MS Excel&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42536&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Excel files corrupted after open/save by Aspose.Cells APIs&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42513&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Extra columns are coming at the end of each row in the output HTML for a range&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42542&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Excel file is corrupted and have some cells changed after saving&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42524&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Calculation errors are present in the hidden sheet namely &amp;ldquo;KD020&amp;rdquo; &lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42514&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;ImportTableOptions.setInsertRows() is not working while importing the ResultSet to worksheet&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42505&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Comments attached to the cells (in the template file) are not shown when imported the Excel file into GridWeb&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42520&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Inconsistent cell coordinates reported by ImageOrPrintOptions.DrawObjectEventHandler&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42518&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Borders of rows are misaligned in the output PDF &lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42561&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;X-axis scale is incorrect in PNG output of Excel Chart&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42556&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Rendering of the chart is not correct in the output PDF &lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42547&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Chart is replaced with red X when converting XLSX to ODS&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42546&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Images lost when converting ODS to XLSX&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42538&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Properties are not extracted from XLS and XLSX files&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42534&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Saving XLS to XLSB removes allowEditRanges&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42532&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Control external resources using WorkbookSetting.StreamProvider - it works for .NET but does not work for Java&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42525&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Specify formula fields while importing data to worksheet - it works for .NET but does not work for Java&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42521&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Chinese characters in embedded file name (title) is not well-displayed in notepad&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42533&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Exception &amp;ldquo;NullPointerException&amp;rdquo; occurred when extracting SmartArt shape text&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Exception &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42545&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Exception &amp;ldquo;ReadElementString only could be called when the content is simple or empty&amp;rdquo; when loading an ODS file&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Exception &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42526&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Error in cell B4-Invalid formula - exception occurs on setting formula&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Exception &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42522&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;ArrayIndexOutOfBoundsException upon opening file via Aspose.Cells&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Exception &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42517&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Exception &amp;ldquo;com.aspose.cells.CellsException: Invalid formula:&amp;rdquo; when loading an ODS file&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Exception &lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+
+&lt;h1 id=&#34;public-api-and-backwards-incompatible-changes&#34;&gt;Public API and Backwards Incompatible Changes&lt;/h1&gt;
+&lt;p&gt;The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Cells for Java. If you have concerns about any change listed, please raise it on the Aspose.Cells support forum.&lt;/p&gt;
+&lt;h4 id=&#34;adds-htmlsaveoptionsexportsimilarborderstyle-property&#34;&gt;Adds HtmlSaveOptions.ExportSimilarBorderStyle property&lt;/h4&gt;
+&lt;p&gt;Indicates whether exporting the similar border style when the border style is not supported by browsers. If you want to import the HTML or MHT file to Excel, please keep the default value. The default value is false.&lt;/p&gt;
+&lt;h4 id=&#34;adds-axisaxislabels-property&#34;&gt;Adds Axis.AxisLabels property&lt;/h4&gt;
+&lt;p&gt;Gets the labels of the axis after calling Chart.Calculate() method.&lt;/p&gt;
+&lt;h4 id=&#34;adds-new-enum-type-gridvalidationtypecustomserverfunction&#34;&gt;Adds new enum type: GridValidationType.CustomServerFunction&lt;/h4&gt;
+&lt;p&gt;Represents custom server-side function validation.&lt;/p&gt;
+&lt;h4 id=&#34;adds-charttypemap-enum&#34;&gt;Adds ChartType.Map enum&lt;/h4&gt;
+&lt;p&gt;Represents the map chart.&lt;/p&gt;
+&lt;h4 id=&#34;adds-oleobjectlabel-property&#34;&gt;Adds OleObject.Label property&lt;/h4&gt;
+&lt;p&gt;Gets and sets the display label of the linked Ole Object.&lt;/p&gt;
+&lt;h4 id=&#34;adds-builtindocumentpropertycollectiondocumentversion-property&#34;&gt;Adds BuiltInDocumentPropertyCollection.DocumentVersion property&lt;/h4&gt;
+&lt;p&gt;Represents the version of the file.&lt;/p&gt;
+&lt;h4 id=&#34;adds-styleflagquoteprefix-enum&#34;&gt;Adds StyleFlag.QuotePrefix enum&lt;/h4&gt;
+&lt;p&gt;Indicates whether applying the style&amp;rsquo;s QuotePrefix property.&lt;/p&gt;
+&lt;h4 id=&#34;adds-dialogbox-class&#34;&gt;Adds DialogBox class&lt;/h4&gt;
+&lt;p&gt;Represents the dialog box sheet.&lt;/p&gt;
+&lt;h4 id=&#34;adds-pdfsaveoptionsdrawobjecteventhandler-property&#34;&gt;Adds PdfSaveOptions.DrawObjectEventHandler property&lt;/h4&gt;
+&lt;p&gt;Gets and sets DrawObjectEventHandler to get DrawObject and Bound while rendering.&lt;/p&gt;
+&lt;h4 id=&#34;adds-drawobjectshape-property&#34;&gt;Adds DrawObject.Shape property&lt;/h4&gt;
+&lt;p&gt;Gets the related Shape while rendering.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Aspose.Cells for Java 18.2 Release Notes</title>
+      <link>https://roywangt.github.io/cells/java/releasenotes/asposecellsforjava/java/2018/aspose.cells&#43;for&#43;java&#43;18.2&#43;release&#43;notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/releasenotes/asposecellsforjava/java/2018/aspose.cells&#43;for&#43;java&#43;18.2&#43;release&#43;notes/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--asposecells-for-java-182-release-notes&#34;&gt;Aspose.Cells for Java : Aspose.Cells for Java 18.2 Release Notes&lt;/h1&gt;
+&lt;p&gt;This page contains release notes for Aspose.Cells for Java 18.2.&lt;/p&gt;
+
+&lt;div class=&#34;table table-striped&#34; role=&#34;alert&#34;&gt;
+    &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Key&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Summary&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Category&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42509&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Add LoadDataFilterOptions.NAMES constant to filter defined names when loading workbook&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42510&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Observe very slow filtering in Microsoft Excel 2013 and 2016 when filter is applied&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Enhancement &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42497&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Sheet1 shapes are lost and Stars in Sheet2 are rounded&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42512&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Invalid encoding - Exception occurs on loading the Excel file&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42507&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Macro and Dialog sheets are detected as regular worksheets&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42503&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;MS Excel does not allow to save XLS file again&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42502&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Aspose.Cells is not filtering data correctly instead it hides all the rows&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+
+&lt;h3 id=&#34;public-api-and-backwards-incompatible-changes&#34;&gt;Public API and Backwards Incompatible Changes&lt;/h3&gt;
+&lt;p&gt;The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Cells for Java. If you have concerns about any change listed, please raise it on the Aspose.Cells support forum.&lt;/p&gt;
+&lt;h4 id=&#34;adds-loaddatafilteroptionsdefinednames-enum&#34;&gt;Adds LoadDataFilterOptions.DefinedNames enum&lt;/h4&gt;
+&lt;p&gt;Indicates whether loading defined Name objects when loading template file.&lt;/p&gt;
+&lt;h4 id=&#34;changes-the-behavior-of-loaddatafilteroptionsformula-enum&#34;&gt;Changes the behavior of LoadDataFilterOptions.Formula enum&lt;/h4&gt;
+&lt;p&gt;In older versions we always load defined Name objects when loading formulas. Now we provide separate enum for defined Name objects explicitly, so Formula enum will only denote that formulas should be loaded now, no matter the defined Name objects will be loaded or not. However, one thing should be noted, commonly defined Name objects are used by formulas, if user only loads formulas and does not load the defined Name objects, the cell formula which refers to those Names will become corrupted and may cause Exception. So, generally if user wants to load formulas, the defined Name objects should be loaded too. But user can load only defined Name objects without loading formulas.&lt;/p&gt;
+&lt;h4 id=&#34;add-sheettypedialog-enum&#34;&gt;Add SheetType.Dialog enum&lt;/h4&gt;
+&lt;p&gt;Represents dialog sheet.&lt;/p&gt;
+&lt;h4 id=&#34;adds-workbooksettingsmaxrowsofsharedformula-property&#34;&gt;Adds WorkbookSettings.MaxRowsOfSharedFormula property&lt;/h4&gt;
+&lt;p&gt;Gets and sets the max row number of shared formula. The shared formula will be split to several shared formula if the total rows of shared formula is greater than it.&lt;/p&gt;
+&lt;h4 id=&#34;adds-workbooksettingsstreamprovider-property&#34;&gt;Adds WorkbookSettings.StreamProvider property&lt;/h4&gt;
+&lt;p&gt;Gets and sets the stream provider for external resource.&lt;/p&gt;
+&lt;h4 id=&#34;adds-shapetextalignmentisautomargin-property&#34;&gt;Adds ShapeTextAlignment.IsAutoMargin property&lt;/h4&gt;
+&lt;p&gt;Indicates whether the margin of the text frame is atuomatic.&lt;/p&gt;
+&lt;h4 id=&#34;adds-importtableoptionsisformulas-property&#34;&gt;Adds ImportTableOptions.IsFormulas property&lt;/h4&gt;
+&lt;p&gt;Represents which column in the datatable should be imported as formulas.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Aspose.Cells for Java 18.1 Release Notes</title>
+      <link>https://roywangt.github.io/cells/java/releasenotes/asposecellsforjava/java/2018/aspose.cells&#43;for&#43;java&#43;18.1&#43;release&#43;notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/releasenotes/asposecellsforjava/java/2018/aspose.cells&#43;for&#43;java&#43;18.1&#43;release&#43;notes/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--asposecells-for-java-181-release-notes&#34;&gt;Aspose.Cells for Java : Aspose.Cells for Java 18.1 Release Notes&lt;/h1&gt;
+&lt;p&gt;This page contains release notes for Aspose.Cells for Java 18.1.&lt;/p&gt;
+
+&lt;div class=&#34;table table-striped&#34; role=&#34;alert&#34;&gt;
+    &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Key&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Summary&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Category&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42493&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Provide an option to decide whether exporting workbook properties (parent issue id: CELLSJAVA-42471) &lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42491&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Provide an option to decide whether exporting document properties (parent issue id: CELLSJAVA-42471)&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42498&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Create a PdfBookmarkEntry for a Chart sheet&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42464&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Fix needed for all ActiveX controls (parent issue id: CELLSJAVA-42442) &lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Enhancement &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42490&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Exclude unused styles when exporting Excel file to HTML (parent issue id: CELLSJAVA-42471) &lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Enhancement &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42473&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Parts of images are truncated or missing and they do not match with original source images&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42469&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Image protrudes from the Shape in the output PDF &lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42461&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Element shape is incorrect in the output HTML&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42495&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Excel to Html - Wrapping text is ignored&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42489&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;XLSB file gets corrupt after opening and saving&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42487&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;HTML output discrepancy - Issue with spaces&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42471&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Irrelevant data included when saving to HTML &lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42467&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;XLSB corrupted after re-saving&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42488&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;15 digits numbers do not match what is in MS Excel&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42499&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Margins and layout differences when comparing the output PDF (by Aspose.Cells) with the MS Excel generated PDF&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42486&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Feature does not work in Java - ResultSet&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSJAVA-42500&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;NullPointerException occurs while loading the MS Excel file&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Exception &lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+
+&lt;h3 id=&#34;public-api-and-backwards-incompatible-changes&#34;&gt;Public API and Backwards Incompatible Changes&lt;/h3&gt;
+&lt;p&gt;The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Cells for Java. If you have concerns about any change listed, please raise it on the Aspose.Cells support forum.&lt;/p&gt;
+&lt;h4 id=&#34;adds-loadoptionsparsingpivotcachedrecords-property&#34;&gt;Adds LoadOptions.ParsingPivotCachedRecords property&lt;/h4&gt;
+&lt;p&gt;Indicates whether parsing pivot cached records when loading the file.The default value is false.Only applies to Excel Xlsx, Xltx, Xltm, Xlsm and Xlsb file formats.&lt;/p&gt;
+&lt;h4 id=&#34;adds-htmlsaveoptionsexcludeunusedstyles-property&#34;&gt;Adds HtmlSaveOptions.ExcludeUnusedStyles property&lt;/h4&gt;
+&lt;p&gt;Indicates whether excluding unused styles.The default value is false. If you want to import the HTML or Mht file to Excel, please keep the default value.&lt;/p&gt;
+&lt;h4 id=&#34;adds-htmlsaveoptionsexportdocumentproperties-property&#34;&gt;Adds HtmlSaveOptions.ExportDocumentProperties property&lt;/h4&gt;
+&lt;p&gt;Indicates whether exporting document properties.The default value is true. If you want to import the HTML or Mht file to Excel, please keep the default value.&lt;/p&gt;
+&lt;h4 id=&#34;adds-htmlsaveoptionsexportworksheetproperties-property&#34;&gt;Adds HtmlSaveOptions.ExportWorksheetProperties property&lt;/h4&gt;
+&lt;p&gt;Indicates whether exporting worksheet properties.The default value is true. If you want to import the HTML or Mht file to Excel, please keep the default value.&lt;/p&gt;
+&lt;h4 id=&#34;adds-htmlsaveoptionsexportworkbookproperties-property&#34;&gt;Adds HtmlSaveOptions.ExportWorkbookProperties property&lt;/h4&gt;
+&lt;p&gt;Indicates whether exporting workbook properties.The default value is true. If you want to import the HTML or Mht file to Excel, please keep the default value.&lt;/p&gt;
+&lt;h4 id=&#34;adds-pivottablegetchildren-method&#34;&gt;Adds PivotTable.GetChildren() method&lt;/h4&gt;
+&lt;p&gt;Gets the the children Pivot Tables which use this PivotTable data as data source.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

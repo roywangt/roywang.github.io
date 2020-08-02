@@ -1,0 +1,65 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Security Features in Python</title>
+    <link>https://roywangt.github.io/cells/java/plugins/python/guide/worksheets/security/</link>
+    <description>Recent content in Security Features in Python on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://roywangt.github.io/cells/java/plugins/python/guide/worksheets/security/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Java: Protecting Worksheets in Python</title>
+      <link>https://roywangt.github.io/cells/java/plugins/python/guide/worksheets/security/protecting&#43;worksheets&#43;in&#43;python/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/plugins/python/guide/worksheets/security/protecting&#43;worksheets&#43;in&#43;python/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--protecting-worksheets-in-python&#34;&gt;Aspose.Cells for Java : Protecting Worksheets in Python&lt;/h1&gt;
+&lt;h2 id=&#34;asposecells---protecting-worksheets&#34;&gt;Aspose.Cells - Protecting Worksheets&lt;/h2&gt;
+&lt;p&gt;To protect worksheet using &lt;strong&gt;Aspose.Cells Java for Python&lt;/strong&gt;, call &lt;strong&gt;protect_worksheet&lt;/strong&gt; method of &lt;strong&gt;protection&lt;/strong&gt; module.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Python Code&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;#Instantiating a Excel object by excel file pathexcel = self.Workbook(self.dataDir + &amp;ldquo;Book1.xls&amp;rdquo;)#Accessing the first worksheet in the Excel fileworksheets = excel.getWorksheets()worksheet = worksheets.get(0)protection = worksheet.getProtection()#The following 3 methods are only for Excel 2000 and earlier formatsprotection.setAllowEditingContent(False)protection.setAllowEditingObject(False)protection.setAllowEditingScenario(False)#Protects the first worksheet with a password &amp;ldquo;1234&amp;quot;protection.setPassword(&amp;ldquo;1234&amp;rdquo;)#Saving the modified Excel file in default formatexcel.save(self.dataDir + &amp;ldquo;output.xls&amp;rdquo;)#Print Messageprint &amp;ldquo;Sheet protected successfully.&amp;rdquo;&lt;/p&gt;
+&lt;h2 id=&#34;download-running-code&#34;&gt;Download Running Code&lt;/h2&gt;
+&lt;p&gt;Download &lt;strong&gt;Protecting Worksheets (Aspose.Cells)&lt;/strong&gt; from any of the below mentioned social coding sites:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://asposecellsjavapython.codeplex.com/releases/view/620185&#34;&gt;CodePlex&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Unprotect a Worksheet in Python</title>
+      <link>https://roywangt.github.io/cells/java/plugins/python/guide/worksheets/security/unprotect&#43;a&#43;worksheet&#43;in&#43;python/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/plugins/python/guide/worksheets/security/unprotect&#43;a&#43;worksheet&#43;in&#43;python/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--unprotect-a-worksheet-in-python&#34;&gt;Aspose.Cells for Java : Unprotect a Worksheet in Python&lt;/h1&gt;
+&lt;h2 id=&#34;asposecells---unprotect-a-worksheet&#34;&gt;Aspose.Cells - Unprotect a Worksheet&lt;/h2&gt;
+&lt;p&gt;To protect worksheet using &lt;strong&gt;Aspose.Cells Java for Python&lt;/strong&gt;, call &lt;strong&gt;unprotect_worksheet&lt;/strong&gt; method of &lt;strong&gt;protection&lt;/strong&gt; module.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Python Code&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;filesFormatType = self.FileFormatType#Instantiating a Workbook objectworkbook = self.Workbook(self.dataDir + &amp;ldquo;Book1.xls&amp;rdquo;)worksheets = workbook.getWorksheets()worksheet = worksheets.get(0)protection = worksheet.getProtection()#The following 3 methods are only for Excel 2000 and earlier formatsprotection.setAllowEditingContent(False)protection.setAllowEditingObject(False)protection.setAllowEditingScenario(False)#Unprotecting the worksheetworksheet.unprotect()# Save the excel file.workbook.save(self.dataDir + &amp;ldquo;output.xls&amp;rdquo;, filesFormatType.EXCEL_97_TO_2003)#Print Messageprint &amp;ldquo;Worksheet unprotected successfully.&amp;rdquo;&lt;/p&gt;
+&lt;h2 id=&#34;download-running-code&#34;&gt;Download Running Code&lt;/h2&gt;
+&lt;p&gt;Download &lt;strong&gt;Unprotect a Worksheet (Aspose.Cells)&lt;/strong&gt; from any of the below mentioned social coding sites:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://asposecellsjavapython.codeplex.com/releases/view/620185&#34;&gt;CodePlex&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

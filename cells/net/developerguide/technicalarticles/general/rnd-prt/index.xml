@@ -1,0 +1,1390 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Rendering and Printing</title>
+    <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/rnd-prt/</link>
+    <description>Recent content in Rendering and Printing on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/rnd-prt/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Net: Print Comments while saving to PDF</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/rnd-prt/print&#43;comments&#43;while&#43;saving&#43;to&#43;pdf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/rnd-prt/print&#43;comments&#43;while&#43;saving&#43;to&#43;pdf/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--print-comments-while-saving-to-pdf&#34;&gt;Aspose.Cells for .NET : Print Comments while saving to PDF&lt;/h1&gt;
+&lt;p&gt;Microsoft Excel allows you to print comments while printing or saving to PDF format with the following options&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;None&lt;/li&gt;
+&lt;li&gt;At end of sheet&lt;/li&gt;
+&lt;li&gt;As displayed on sheet&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Aspose.Cells provide the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/printcommentstype&#34;&gt;PrintCommentsType&lt;/a&gt; enum to support the same feature. The &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/printcommentstype&#34;&gt;PrintCommentsType&lt;/a&gt; enum has the following members&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;PrintNoComments&lt;/li&gt;
+&lt;li&gt;PrintInPlace&lt;/li&gt;
+&lt;li&gt;PrintSheetEnd&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;print-comments-while-saving-to-pdf&#34;&gt;Print Comments while saving to PDF&lt;/h2&gt;
+&lt;p&gt;The following sample code illustrates how to use &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/printcommentstype&#34;&gt;PrintCommentsType&lt;/a&gt; to print comments while saving to PDF.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Convert an Excel Chart to Image</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/rnd-prt/convert&#43;an&#43;excel&#43;chart&#43;to&#43;image/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/rnd-prt/convert&#43;an&#43;excel&#43;chart&#43;to&#43;image/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--convert-an-excel-chart-to-image&#34;&gt;Aspose.Cells for .NET : Convert an Excel Chart to Image&lt;/h1&gt;
+&lt;p&gt;Charts are visually appealing and make it easy for users to see comparisons, patterns, and trends in data. For instance, rather than analyzing columns of worksheet numbers, a chart shows at a glance whether sales are falling or rising, or how actual sales compare to projected sales. People are frequently asked to present statistical and graphical information in an easy to understand and an easy to maintain manner. A picture helps.&lt;/p&gt;
+&lt;p&gt;Sometimes, charts are needed in an application or web pages. Or it might be needed needed for a Word document, a PDF file, a PowerPoint presentation or some other application. In each case, you want to render the chart as an image so that you can use it elsewhere.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#converting-charts-to-images&#34;&gt;Converting Charts to Images&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#converting-a-pie-chart-to-an-image-file&#34;&gt;Converting a Pie Chart to an Image File&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.2 &lt;a href=&#34;#converting-a-column-chart-to-an-image-file&#34;&gt;Converting a Column Chart to an Image File&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;converting-charts-to-images&#34;&gt;Converting Charts to Images&lt;/h2&gt;
+&lt;p&gt;In the examples here, a pie chart and a column char are converted to images.&lt;/p&gt;
+&lt;h3 id=&#34;converting-a-pie-chart-to-an-image-file&#34;&gt;Converting a Pie Chart to an Image File&lt;/h3&gt;
+&lt;p&gt;First, create a pie chart in Microsoft Excel and then convert it to an image file with Aspose.Cells. The code in this example creates an EMF image based on the pie chart in the template Microsoft Excel file.&lt;/p&gt;
+
+&lt;div class=&#34;table table-striped&#34; role=&#34;alert&#34;&gt;
+    &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Output: pie chart image&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5017568/5112514.png&#34; alt=&#34;&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Create a pie chart in Microsoft Excel :
+&lt;ol&gt;
+&lt;li&gt;Opened a new workbook in Microsoft Excel.&lt;/li&gt;
+&lt;li&gt;Input some data into a worksheet.&lt;/li&gt;
+&lt;li&gt;Created a pie chart based on the data.&lt;/li&gt;
+&lt;li&gt;Save the file.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&#34;table table-striped&#34; role=&#34;alert&#34;&gt;
+    &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;The input file.&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5017568/5112512.png&#34; alt=&#34;&#34;&gt;        2.  Download and install Aspose.Cells:    1.  &lt;a href=&#34;http://www.aspose.com/community/files/51/.net-components/aspose.cells-for-.net/default.aspx&#34;&gt;Download Aspose.Cells for .NET&lt;/a&gt;.    2.  Install it on your development computer.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;All &lt;a href=&#34;http://www.aspose.com/&#34;&gt;Aspose&lt;/a&gt; components work in evaluation mode when first installed. The evaluation mode has no time limit and it only injects watermarks into output documents.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Create a project:
+&lt;ol&gt;
+&lt;li&gt;Start Visual Studio.Net.&lt;/li&gt;
+&lt;li&gt;Create a new console application. This example uses a C# console application, but you can use VB.NET too.&lt;/li&gt;
+&lt;li&gt;Add a reference. This project uses Aspose.Cells so add a reference to Aspose.Cells, for example &amp;hellip;\Program Files\Aspose\Aspose.Cells\Bin\Net1.0\Aspose.Cells.dll&lt;/li&gt;
+&lt;li&gt;Write the code that finds and converts the chart. Below is the code used by the component to accomplish the task. Very few lines of code are used.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;converting-a-column-chart-to-an-image-file&#34;&gt;Converting a Column Chart to an Image File&lt;/h3&gt;
+&lt;p&gt;First create a column chart in Microsoft Excel and convert it to an image file, as above. After executing the sample code, a JPEG file is created based on the column chart in the template Excel file.&lt;/p&gt;
+
+&lt;div class=&#34;table table-striped&#34; role=&#34;alert&#34;&gt;
+    &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Output file: a column chart image.&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5017568/5112516.png&#34; alt=&#34;&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Create a column chart in Microsoft Excel:
+&lt;ol&gt;
+&lt;li&gt;Open a new workbook in Microsoft Excel.&lt;/li&gt;
+&lt;li&gt;Input some data into a worksheet.&lt;/li&gt;
+&lt;li&gt;Create a column chart based on the data.&lt;/li&gt;
+&lt;li&gt;Save the file.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&#34;table table-striped&#34; role=&#34;alert&#34;&gt;
+    &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Input file.&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5017568/5112517.png&#34; alt=&#34;&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Set up a project, with references, as described above.&lt;/li&gt;
+&lt;li&gt;Convert the chart to an image dynamically. Following is the code used by the component to accomplish the task. The code is similar to the previous one:&lt;/li&gt;
+&lt;/ol&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Convert an XLS File to PDF Format</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/rnd-prt/convert&#43;an&#43;xls&#43;file&#43;to&#43;pdf&#43;format/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/rnd-prt/convert&#43;an&#43;xls&#43;file&#43;to&#43;pdf&#43;format/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--convert-an-xls-file-to-pdf-format&#34;&gt;Aspose.Cells for .NET : Convert an XLS File to PDF Format&lt;/h1&gt;
+&lt;p&gt;PDF (Portable Document Format) represents documents independently of the software, hardware, and operating system used to create those documents. A PDF file can be documents with any combination of text, graphics, and images in a device-independent and resolution-independent manner. PDF files are often compressed, so they take up less space than the original file.&lt;/p&gt;
+&lt;p&gt;At times, you need to convert a Microsoft Excel file to PDF. For this, you require a fast, secure, accurate and reliable solution that lets you distribute PDF documents around the world. There are numerous conversion tools that can perform this task. But you have to make sure that the layout of the original Excel document is retained in the output PDF file. Images, data formatting, fonts, attributes, colors, page setup settings, text orientation, borders, charts etc. should be rendered accurately and precisely. &lt;a href=&#34;http://www.aspose.com/categories/.net-components/aspose.cells-for-.net/default.aspx&#34;&gt;Aspose.Cells&lt;/a&gt; ensures high-fidelity conversion.&lt;/p&gt;
+&lt;p&gt;This document is designed to provide comprehensive understanding of how a Microsoft Excel document (containing images, charts, formatting etc.) can be converted to PDF. To that end, is shows how to create a simple console application in Visual Studio.Net that converts an Excel file to PDF using Aspose.Cells API. The conversion is performed with high degree of precision and accuracy.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#converting-excel-to-pdf&#34;&gt;Converting Excel to PDF&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#the-template-excel-file&#34;&gt;The Template Excel File&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.2 &lt;a href=&#34;#conversion-process&#34;&gt;Conversion Process&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.3 &lt;a href=&#34;#result&#34;&gt;Result&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;converting-excel-to-pdf&#34;&gt;Converting Excel to PDF&lt;/h2&gt;
+&lt;p&gt;This example uses an Excel file (SampleInput.xlsx) as a template. The workbook contains worksheets with charts and image. Each worksheet contians different types of formats using fonts, attributes, colors, shading effects and borders. There&amp;rsquo;s a column chart on the first worksheet and an image on the last.&lt;/p&gt;
+&lt;h3 id=&#34;the-template-excel-file&#34;&gt;The Template Excel File&lt;/h3&gt;
+&lt;p&gt;The template file has three worksheets, including charts and image as Media. The first worksheet has charts and last worksheet has an image as shown below in the screenshots.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;download/thumbnails/5017570/1256716648&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;download/thumbnails/5017570/1349245484&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The first worksheet &lt;strong&gt;(Sales Forecast)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The second worksheet &lt;strong&gt;(Sales Report)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;download/thumbnails/5017570/17404915&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;download/thumbnails/5017570/722590035&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The third worksheet &lt;strong&gt;(Data Entry)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The last worksheet &lt;strong&gt;(Image)&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;conversion-process&#34;&gt;Conversion Process&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Download and install Aspose.Cells:
+&lt;ol&gt;
+&lt;li&gt;Download Aspose.Cells for .NET.&lt;/li&gt;
+&lt;li&gt;Install it on your development computer.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Create a project and add references:
+&lt;ol&gt;
+&lt;li&gt;Start Visual Studio.Net.&lt;/li&gt;
+&lt;li&gt;Create a new console application.&lt;/li&gt;
+&lt;li&gt;Add a reference to …\Program Files\Aspose\Aspose.Cells\Bin\Net1.0\Aspose.Cells.dll&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Add the conversion code to the project:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;If the spreadsheet contains formulas, it is best to call &lt;code&gt;Workbook.CalculateFormula()&lt;/code&gt; just before rendering the spreadsheet to PDF. Doing so ensures that formula dependent values are recalculated, and the correct values are rendered in the PDF.&lt;/p&gt;
+&lt;h3 id=&#34;result&#34;&gt;Result&lt;/h3&gt;
+&lt;p&gt;when the above code has been run, a PDF file is created in the Files folder in your application directory.&lt;br&gt;
+The following screenshots show the PDF pages. Note that headers and footers are also retained in the output PDF file.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;download/thumbnails/5017570/1564930819&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;download/thumbnails/5017570/1725461310&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The first worksheet &lt;strong&gt;(Sales Forecast)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The second worksheet &lt;strong&gt;(Sales Report)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;download/thumbnails/5017570/791518362&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;download/thumbnails/5017570/170861991&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The third worksheet &lt;strong&gt;(Data Entry)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The last worksheet &lt;strong&gt;(Image)&lt;/strong&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Worksheet to Image - Remove Whitespace around Data</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/rnd-prt/worksheet&#43;to&#43;image&#43;-&#43;remove&#43;whitespace&#43;around&#43;data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/rnd-prt/worksheet&#43;to&#43;image&#43;-&#43;remove&#43;whitespace&#43;around&#43;data/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--worksheet-to-image---remove-whitespace-around-data&#34;&gt;Aspose.Cells for .NET : Worksheet to Image - Remove Whitespace around Data&lt;/h1&gt;
+&lt;p&gt;Sometimes, you need to present worksheet images in applications or web pages. For example, you might need to insert images into a Word document, a PDF file, a PowerPoint presentation or some other document. Basically, you want to render a worksheet as an image so that it can be pasted into other applications. Aspose.Cells allows you to convert Microsoft Excel worksheets to images.&lt;/p&gt;
+&lt;h2 id=&#34;remove-whitespace-around-data&#34;&gt;Remove Whitespace around Data&lt;/h2&gt;
+&lt;p&gt;The &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.rendering/sheetrender&#34;&gt;Aspose.Cells.Rendering.SheetRender&lt;/a&gt; API converts a worksheet to an image file with any specified attributes, for example, image format, paginated sheets, etc. Several image formats are supported, including BMP, GIF, JPG, TIFF, and EMF.&lt;/p&gt;
+&lt;p&gt;When you use the sheet-to-image feature, the output image has whitespace, that is, a border, around it by default. You can remove this by setting the top, left, bottom and right page setup margins for the source worksheet to 0 and specify &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.rendering/imageorprintoptions&#34;&gt;Aspose.Cells.Rendering.ImageOrPrintOptions&lt;/a&gt; attributes accordingly.&lt;/p&gt;
+&lt;p&gt;Below example code removes the whitespace around the data in the output image.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Convert XLS File with Images or Charts to PDF</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/rnd-prt/convert&#43;xls&#43;file&#43;with&#43;images&#43;or&#43;charts&#43;to&#43;pdf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/rnd-prt/convert&#43;xls&#43;file&#43;with&#43;images&#43;or&#43;charts&#43;to&#43;pdf/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--convert-xls-file-with-images-or-charts-to-pdf&#34;&gt;Aspose.Cells for .NET : Convert XLS File with Images or Charts to PDF&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells supports converting XLS files that contain images and charts to PDF documents. Aspose.Cells for .NET can work independently to convert a spreadsheet to PDF: Aspose.PDF for .NET is not required for the conversion. The process can be done in memory as the process does not depend on temporary or intermediary XML files. This means that large Excel files, for example, ones containing images, charts, and other drawing objects, can be converted quickly and efficiently.&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+&lt;p&gt;If the spreadsheet contains formulas, it is best to call the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/workbook/methods/calculateformula&#34;&gt;Workbook.CalculateFormula&lt;/a&gt; method just before rendering to PDF. Doing so ensures that formula dependent values are recalculated, and the correct values are rendered in the PDF.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Page Setup and Printing Options</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/rnd-prt/page&#43;setup&#43;and&#43;printing&#43;options/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/rnd-prt/page&#43;setup&#43;and&#43;printing&#43;options/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--page-setup-and-printing-options&#34;&gt;Aspose.Cells for .NET : Page Setup and Printing Options&lt;/h1&gt;
+&lt;p&gt;Sometimes, developers need to configure page setup and print settings to control the printing process. Page setup and print settings offer various options and are fully supported in Aspose.Cells.&lt;/p&gt;
+&lt;p&gt;This article shows how to create a console application in Visual Studio.Net, and apply page setup and printing options to a worksheet with a few simple lines of code using the Aspose.Cells API.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#working-with-page-and-print-settings&#34;&gt;Working with Page and Print Settings&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#using-aspose.cells-to-set-page-setup-options&#34;&gt;Using Aspose.Cells to set Page Setup Options&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.2 &lt;a href=&#34;#setting-print-options&#34;&gt;Setting Print options&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;working-with-page-and-print-settings&#34;&gt;Working with Page and Print Settings&lt;/h2&gt;
+&lt;p&gt;For this example, we created a workbook in Microsoft Excel and use Aspose.Cells to set page setup and print options.&lt;/p&gt;
+&lt;h3 id=&#34;using-asposecells-to-set-page-setup-options&#34;&gt;Using Aspose.Cells to set Page Setup Options&lt;/h3&gt;
+&lt;p&gt;First create a simple worksheet in Microsoft Excel. Then apply page setup options to it. Executing the code changes the Page Setup options as in the screenshot below.&lt;/p&gt;
+
+&lt;div class=&#34;table table-striped&#34; role=&#34;alert&#34;&gt;
+    &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Output file.&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5017533/5112538.png&#34; alt=&#34;&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Create a worksheet with some data in Microsoft Excel:
+&lt;ol&gt;
+&lt;li&gt;Open a new workbook in Microsoft Excel.&lt;/li&gt;
+&lt;li&gt;Add some data.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Set page setup options:&lt;br&gt;
+Apply page setup options to the file. Below is a screenshot of the default options, before the new options are applied.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&#34;table table-striped&#34; role=&#34;alert&#34;&gt;
+    &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Default page setup options.&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5017533/5112540.png&#34; alt=&#34;&#34;&gt;    3.  Download and install Aspose.Cells:    1.  &lt;a href=&#34;http://www.aspose.com/community/files/51/.net-components/aspose.cells-for-.net/default.aspx&#34;&gt;Download&lt;/a&gt; Aspose.Cells for .Net.    2.  Install it on your development computer.          All Aspose components, when installed, work in evaluation mode. The evaluation mode has no time limit and it only injects watermarks into produced documents.4.  Create a project:    1.  Start Visual Studio. Net.    2.  Create a new console application.          This example will show a C# console application, but you can use VB.NET too.5.  Add references:    1.  This example uses Aspose.Cells so add a reference to that component to the project. For example:          &lt;code&gt;…\Program Files\Aspose\Aspose.Cells\Bin\Net1.0\Aspose.Cells.dll&lt;/code&gt;6.  Write the application that invokes the API:&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+
+&lt;h3 id=&#34;setting-print-options&#34;&gt;Setting Print options&lt;/h3&gt;
+&lt;p&gt;Page setup settings also provide several print options (also called sheet options) that allow users to control how worksheet pages are printed. They allow users to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Select a specific print area of a worksheet.&lt;/li&gt;
+&lt;li&gt;Print titles.&lt;/li&gt;
+&lt;li&gt;Print gridlines.&lt;/li&gt;
+&lt;li&gt;Print row/column headings.&lt;/li&gt;
+&lt;li&gt;Achieve draft quality.&lt;/li&gt;
+&lt;li&gt;Print comments.&lt;/li&gt;
+&lt;li&gt;Print cell errors.&lt;/li&gt;
+&lt;li&gt;Define page ordering.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The example that follows applies print options to the file created in the example above (PageSetup.xls). The screenshot below shows the default print options before new options are applied.&lt;/p&gt;
+
+&lt;div class=&#34;table table-striped&#34; role=&#34;alert&#34;&gt;
+    &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Input document&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5017533/5112539.png&#34; alt=&#34;&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;Executing the code changes the print options.&lt;/p&gt;
+
+&lt;div class=&#34;table table-striped&#34; role=&#34;alert&#34;&gt;
+    &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Output file&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5017533/5112537.png&#34; alt=&#34;&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Printing Workbooks</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/rnd-prt/printing&#43;workbooks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/rnd-prt/printing&#43;workbooks/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--printing-workbooks&#34;&gt;Aspose.Cells for .NET : Printing Workbooks&lt;/h1&gt;
+&lt;p&gt;After creating a worksheet, you often want to print a hard copy of it. This article explains how to print spreadsheets with Aspose.Cells.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#introduction&#34;&gt;Introduction&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#print-using-%60sheetrender%60&#34;&gt;Print Using &lt;code&gt;SheetRender&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.2 &lt;a href=&#34;#print-using-%60workbookrender%60&#34;&gt;Print Using &lt;code&gt;WorkbookRender&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;
+&lt;p&gt;Microsoft Excel assumes that you want to print the entire worksheet area unless you specify a selection. To print using Aspose.Cells, first import the Aspose.Cells.Rendering namespace to the program. It has several useful classes, for example, &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.rendering/sheetrender&#34;&gt;SheetRender&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.rendering/workbookrender&#34;&gt;WorkbookRender&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;print-using-sheetrender&#34;&gt;Print Using &lt;code&gt;SheetRender&lt;/code&gt;&lt;/h2&gt;
+&lt;p&gt;The &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.rendering/sheetrender&#34;&gt;Aspose.Cells.Rendering.SheetRender&lt;/a&gt; class represents a worksheet and has the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.rendering/sheetrender/methods/toprinter/index&#34;&gt;ToPrinter&lt;/a&gt; method which can print a worksheet. The following sample code shows how to print a worksheet.&lt;/p&gt;
+&lt;h2 id=&#34;print-using-workbookrender&#34;&gt;Print Using &lt;code&gt;WorkbookRender&lt;/code&gt;&lt;/h2&gt;
+&lt;p&gt;To print a whole workbook, iterate through the sheets and print them, or use the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.rendering/workbookrender&#34;&gt;WorkbookRender&lt;/a&gt; class.&lt;/p&gt;
+&lt;p&gt;Aspose.Cells also provides overloads for the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.rendering.workbookrender/toprinter/methods/3&#34;&gt;WorkbookRender.ToPrinter()&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.rendering.sheetrender/toprinter/methods/2&#34;&gt;SheetRender.ToPrinter()&lt;/a&gt; methods, so it&amp;rsquo;s possible to set the print job name while printing Excel spreadsheets. By default, all print jobs are created with the name &amp;ldquo;Document&amp;rdquo;.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Converting Worksheet to Image and Worksheet to Image by Page</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/rnd-prt/converting&#43;worksheet&#43;to&#43;image&#43;and&#43;worksheet&#43;to&#43;image&#43;by&#43;page/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/rnd-prt/converting&#43;worksheet&#43;to&#43;image&#43;and&#43;worksheet&#43;to&#43;image&#43;by&#43;page/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--converting-worksheet-to-image-and-worksheet-to-image-by-page&#34;&gt;Aspose.Cells for .NET : Converting Worksheet to Image and Worksheet to Image by Page&lt;/h1&gt;
+&lt;p&gt;This document is designed to provide the developers with a detailed understanding on how to convert a worksheet to an image file &amp;amp; worksheet with multiple pages to an image file per page.&lt;/p&gt;
+&lt;p&gt;Sometimes, you might need to present worksheets as images, for example to use them in applications or web pages. You might need to insert the images into a Word document, a PDF file, a PowerPoint presentation or use them in some other scenario. Simply, you want to render the worksheet as an image. Aspose.Cells supports converting worksheets in Microsoft Excel files to images. Also, Aspose.Cells supports converting a workbook to multiple image files, one per page.&lt;/p&gt;
+&lt;p&gt;You might use Office Automation to achieve this, but Office automation has its own drawbacks. There are several reasons and issues involved: for example security, stability, scalability/Speed, price, and features. In short, there are many reasons, but the main one is that Microsoft themselves strongly recommends against Office automation.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#using-aspose.cells-to-convert-worksheet-to-image-file&#34;&gt;Using Aspose.Cells to Convert Worksheet to Image File&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#setup-project&#34;&gt;Setup Project&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.2 &lt;a href=&#34;#convert-worksheet-to-image-file&#34;&gt;Convert Worksheet to Image File&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#using-aspose.cells-to-convert-worksheet-to-image-file-by-page&#34;&gt;Using Aspose.Cells to Convert Worksheet to Image File by Page&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;2.1 &lt;a href=&#34;#convert-worksheet-to-image-by-page&#34;&gt;Convert Worksheet to Image by page&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h1 id=&#34;using-asposecells-to-convert-worksheet-to-image-file&#34;&gt;Using Aspose.Cells to Convert Worksheet to Image File&lt;/h1&gt;
+&lt;p&gt;This article shows how to create a console application in Visual Studio.Net, convert a worksheet to an image, and a worksheet into one image for each worksheet with a few and simplest lines of code using the Aspose.Cells API.&lt;/p&gt;
+&lt;p&gt;You need to import the &lt;code&gt;Aspose.Cells.Rendering&lt;/code&gt; namespace to your program/project. It has several valuable classes, such as &lt;code&gt;SheetRender&lt;/code&gt;, &lt;code&gt;ImageOrPrintOptions&lt;/code&gt;, &lt;code&gt;WorkbookRender&lt;/code&gt; and so on. The &lt;code&gt;Aspose.Cells.Rendering.SheetRender&lt;/code&gt; class represents a worksheet to render images for the worksheet and has an overloaded &lt;code&gt;ToImage&lt;/code&gt; method that can convert a worksheet to image files directly with any attributes or options set. It can return a &lt;code&gt;System.Drawing.Bitmap&lt;/code&gt; object and you can save an image file to the disk/stream. Several image formats are supported, for example BMP, PNG, GIF, JPG, JPEG, TIFF, EMF and others.&lt;/p&gt;
+&lt;p&gt;This article explains how to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Convert a worksheet to an image&lt;/li&gt;
+&lt;li&gt;Convert every page in a worksheet to an image&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This task shows how to use Aspose.Cells to convert a worksheet from a template workbook to an image file.&lt;/p&gt;
+&lt;h2 id=&#34;setup-project&#34;&gt;Setup Project&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;First, &lt;a href=&#34;http://www.aspose.com/community/files/51/.net-components/aspose.cells-for-.net/default.aspx&#34;&gt;download Aspose.Cells for .NET&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Install it on your development computer. All &lt;a href=&#34;http://www.aspose.com/&#34;&gt;Aspose&lt;/a&gt; components, when installed, work in evaluation mode. The evaluation mode has no time limit and it only injects watermarks into produced documents. Now start Visual Studio.Net and create a new console application. This example uses a C# console application, but you can use VB.NET too. &lt;a href=&#34;http://www.aspose.com/docs/display/cellsnet/Referencing+Aspose.Cells+from+a+.NET+Project&#34;&gt;Add reference&lt;/a&gt; to &lt;code&gt;Aspose.Cells&lt;/code&gt; into created project.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;convert-worksheet-to-image-file&#34;&gt;Convert Worksheet to Image File&lt;/h2&gt;
+&lt;p&gt;I created a new workbook in Microsoft Excel and added some data in the first worksheet: &lt;strong&gt;Testbook.xlsx&lt;/strong&gt; (1 worksheet). Next, convert the template file’s worksheet Sheet1 to an image file called SheetImage.jpg.&lt;/p&gt;
+&lt;p&gt;Following is the code (written in C# and then in VB) used by the component to accomplish the task. It converts Sheet1 in &lt;strong&gt;Testbook.xlsx&lt;/strong&gt; to an image file to explain how easy this conversion is.&lt;/p&gt;
+&lt;h1 id=&#34;using-asposecells-to-convert-worksheet-to-image-file-by-page&#34;&gt;Using Aspose.Cells to Convert Worksheet to Image File by Page&lt;/h1&gt;
+&lt;p&gt;This example shows how to use Aspose.Cells to convert a worksheet from a template workbook that has several pages to one image file per page.&lt;/p&gt;
+&lt;h2 id=&#34;convert-worksheet-to-image-by-page&#34;&gt;Convert Worksheet to Image by page&lt;/h2&gt;
+&lt;p&gt;I created a new workbook in Microsoft Excel and added some data in the first worksheet: &lt;strong&gt;Testbook2.xlsx&lt;/strong&gt; (1 worksheet).&lt;/p&gt;
+&lt;p&gt;Now, convert the template file&amp;rsquo;s worksheet Sheet1 to image files (one file per page). As I already created the console application to perform the copy task, I will skip those console application creation steps and directly move to the worksheet conversion steps.&lt;/p&gt;
+&lt;p&gt;Following is the code (written first in C# and then in VB) used by the component to accomplish the task. It converts Sheet1 in Testbook2.xls to image files by page.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Converting Worksheet to Image using ImageOrPrint Options</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/rnd-prt/converting&#43;worksheet&#43;to&#43;image&#43;using&#43;imageorprint&#43;options/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/rnd-prt/converting&#43;worksheet&#43;to&#43;image&#43;using&#43;imageorprint&#43;options/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--converting-worksheet-to-image-using-imageorprint-options&#34;&gt;Aspose.Cells for .NET : Converting Worksheet to Image using ImageOrPrint Options&lt;/h1&gt;
+&lt;p&gt;This document is designed to provide a detailed understanding of how to convert a worksheet to an image file and apply different image and print options for the image, options like resolution, TIFF compression, image format and page quality.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#saving-worksheets-to-images---different-approaches&#34;&gt;Saving Worksheets to Images - Different Approaches&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#using-aspose.cells-to-convert-worksheet-to-image-using-imageorprint-options.&#34;&gt;Using Aspose.Cells to Convert Worksheet to Image using ImageOrPrint options.&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;2.1 &lt;a href=&#34;#creating-a-template-workbook-in-microsoft-excel&#34;&gt;Creating a template workbook in Microsoft Excel&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2.2 &lt;a href=&#34;#download-and-install-aspose.cells&#34;&gt;Download and Install Aspose.Cells&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2.3 &lt;a href=&#34;#create-a-project&#34;&gt;Create a Project&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2.4 &lt;a href=&#34;#add-references&#34;&gt;Add References&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2.5 &lt;a href=&#34;#convert-worksheet-to-image-file&#34;&gt;Convert Worksheet to Image file&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#conversion-options&#34;&gt;Conversion Options&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;4 &lt;a href=&#34;#image-conversion-using-%60workbookrender%60&#34;&gt;Image conversion using &lt;code&gt;WorkbookRender&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;saving-worksheets-to-images---different-approaches&#34;&gt;Saving Worksheets to Images - Different Approaches&lt;/h2&gt;
+&lt;p&gt;Sometimes, you might require presenting your worksheets as a pictorial representation. You do need to present the worksheet images into your applications or web pages. You might need to insert the images into a Word document, a PDF file, a PowerPoint presentation or use them in some other scenario. Simply you want a worksheet rendered as an image, so that you can use it elsewhere. Aspose.Cells supports converting worksheets in Excel files to images. Also, Aspose.Cells supports setting different options like image format, resolution (both vertical and horizontal), image quality and other image and print options.&lt;/p&gt;
+&lt;p&gt;You might try &lt;code&gt;Office Automation&lt;/code&gt; but Office automation has its own drawbacks. There are several reasons and issues involved: for example, security, stability, scalability and speed, price, and features. In Short, there are many reasons, with the top one being that Microsoft themselves strongly recommends against Office automation from software solutions.&lt;/p&gt;
+&lt;p&gt;This article shows how to create a console application in Visual Studio .NET, perform the conversion of worksheet to image using different image and print options with a few and simplest lines of code using Aspose.Cells API.&lt;/p&gt;
+&lt;p&gt;You need to import &lt;code&gt;Aspose.Cells.Rendering&lt;/code&gt; namespace to your program/project. It has several valuable classes, for example &lt;code&gt;SheetRender&lt;/code&gt;, &lt;code&gt;ImageOrPrintOptions&lt;/code&gt;, &lt;code&gt;WorkbookRender&lt;/code&gt; etc.&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;Aspose.Cells.Rendering.SheetRender&lt;/code&gt; class represents a worksheet to render images for the worksheet, it has an overloaded &lt;code&gt;ToImage&lt;/code&gt; method that can directly convert a worksheet to image file(s) specified with your desired attributes or options. It can return &lt;code&gt;System.Drawing.Bitmap&lt;/code&gt; object and you can &lt;code&gt;Save&lt;/code&gt; an image file to the disk/stream. There are several image formats supported, e.g BMP, PNG, GIFF, JPEG, TIFF, EMF and so on.&lt;/p&gt;
+&lt;h2 id=&#34;using-asposecells-to-convert-worksheet-to-image-using-imageorprint-options&#34;&gt;Using Aspose.Cells to Convert Worksheet to Image using ImageOrPrint options.&lt;/h2&gt;
+&lt;h3 id=&#34;creating-a-template-workbook-in-microsoft-excel&#34;&gt;Creating a template workbook in Microsoft Excel&lt;/h3&gt;
+&lt;p&gt;I created a new workbook in MS Excel and added some data in the first worksheet. Now, I will convert the template file’s worksheet “Sheet1” to an image file “SheetImage.tiff” and will apply different image options like horizontal and vertical resolutions, TiffCompression etc.&lt;/p&gt;
+&lt;h3 id=&#34;download-and-install-asposecells&#34;&gt;Download and Install Aspose.Cells&lt;/h3&gt;
+&lt;p&gt;First, you need to &lt;a href=&#34;http://www.aspose.com/community/files/51/.net-components/aspose.cells-for-.net/default.aspx&#34;&gt;download&lt;/a&gt; Aspose.Cells for .Net. Install it on your development computer. All &lt;a href=&#34;http://www.aspose.com/&#34;&gt;Aspose&lt;/a&gt; components, when installed, work in evaluation mode. The evaluation mode has no time limit and it only injects watermarks into produced documents.&lt;/p&gt;
+&lt;h3 id=&#34;create-a-project&#34;&gt;Create a Project&lt;/h3&gt;
+&lt;p&gt;Start Visual Studio. Net and create a new console application. This example will show a C# console application, but you can use VB.NET too.&lt;/p&gt;
+&lt;h3 id=&#34;add-references&#34;&gt;Add References&lt;/h3&gt;
+&lt;p&gt;This project will use Aspose.Cells . So, you have to add reference to Aspose.Cells component in your project. For example, add a reference to ….\Program Files\Aspose\Aspose.Cells for .NET\Bin\Net1.0\Aspose.Cells.dll&lt;/p&gt;
+&lt;h3 id=&#34;convert-worksheet-to-image-file&#34;&gt;Convert Worksheet to Image file&lt;/h3&gt;
+&lt;h2 id=&#34;conversion-options&#34;&gt;Conversion Options&lt;/h2&gt;
+&lt;p&gt;It is possible to save specific pages to image. The following code converts the first and second worksheets in a workbook to JPG images.&lt;/p&gt;
+&lt;h2 id=&#34;image-conversion-using-workbookrender&#34;&gt;Image conversion using &lt;code&gt;WorkbookRender&lt;/code&gt;&lt;/h2&gt;
+&lt;p&gt;You can cycle through the workbook and render each worksheet in it to a separate image:&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Render One Pdf Page Per Excel Worksheet - Excel to Pdf Conversion</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/rnd-prt/render&#43;one&#43;pdf&#43;page&#43;per&#43;excel&#43;worksheet&#43;-&#43;excel&#43;to&#43;pdf&#43;conversion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/rnd-prt/render&#43;one&#43;pdf&#43;page&#43;per&#43;excel&#43;worksheet&#43;-&#43;excel&#43;to&#43;pdf&#43;conversion/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--render-one-pdf-page-per-excel-worksheet---excel-to-pdf-conversion&#34;&gt;Aspose.Cells for .NET : Render One Pdf Page Per Excel Worksheet - Excel to Pdf Conversion&lt;/h1&gt;
+&lt;p&gt;When working with large Microsoft Excel files (for example a workbook that has many sheets, each with 50 columns and 300 or more rows of data), you might want the PDF output to show one page per worksheet, regardless of the size of the worksheet. This would mean that each page is likely to have a radically different page size. This can be achieved by using Aspose.Cells for .NET.&lt;/p&gt;
+&lt;p&gt;Please see the following sample code that converts an Excel file with multiple worksheets to PDF.&lt;/p&gt;
+&lt;p&gt;If hte &lt;code&gt;OnePagePerSheet&lt;/code&gt; option is set to true, all the sheet content will be rendered to one PDF page. The paper size of &lt;code&gt;PageSetup&lt;/code&gt; would be invalid, and the other settings of &lt;code&gt;PageSetup&lt;/code&gt; will still take effect.&lt;/p&gt;
+&lt;p&gt;If your spreadsheet contains formulas, it is best to call &lt;code&gt;Workbook.CalculateFormula()&lt;/code&gt; just before rendering the spreadsheet to PDF. This ensures that the formula dependent values are recalculated, and the correct values are rendered in the PDF.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Generate Thumbnail of the Worksheet</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/rnd-prt/generate&#43;thumbnail&#43;of&#43;the&#43;worksheet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/rnd-prt/generate&#43;thumbnail&#43;of&#43;the&#43;worksheet/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--generate-thumbnail-of-the-worksheet&#34;&gt;Aspose.Cells for .NET : Generate Thumbnail of the Worksheet&lt;/h1&gt;
+&lt;p&gt;It can be useful to generate thumbnails from worksheets. A thumbnail is a small image that can be pasted into a Word document or a PowerPoint presentation to give a preview of what&amp;rsquo;s on the worksheet. It can be added to a webpage with a link to download the original document and has a host of other uses.&lt;/p&gt;
+&lt;p&gt;Aspose.Cells for .NET allows you to output worksheets to image files so making a thumbnail is easy. The sample code below shows you, how to output worksheets to image files.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Secure PDF Documents</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/rnd-prt/secure&#43;pdf&#43;documents/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/rnd-prt/secure&#43;pdf&#43;documents/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--secure-pdf-documents&#34;&gt;Aspose.Cells for .NET : Secure PDF Documents&lt;/h1&gt;
+&lt;p&gt;Sometimes, developers need to work with encrypted PDF files. For example, they need to secure documents with user and owner passwords so not just anyone can open them, or want to restrict whether the document content can be printed or extracted.&lt;/p&gt;
+&lt;p&gt;This article explains how to pass in PDF security options when saving spreadsheets to PDF.&lt;/p&gt;
+&lt;p&gt;Aspose.Cells provides the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.rendering.pdfsecurity/&#34;&gt;Aspose.Cells.Rendering.PdfSecurity&lt;/a&gt; namespace for working with security. The sample code below describes how to secure PDFs with Aspose.Cells.&lt;/p&gt;
+&lt;p&gt;If the spreadsheet contains formulas, it is best to call &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/workbook/methods/calculateformula&#34;&gt;Workbook.CalculateFormula()&lt;/a&gt; just before rendering it to PDF. This ensures that formula dependent values are recalculated and the correct values are rendered in the PDF.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Save Each Worksheet to a Different PDF File</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/rnd-prt/save&#43;each&#43;worksheet&#43;to&#43;a&#43;different&#43;pdf&#43;file/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/rnd-prt/save&#43;each&#43;worksheet&#43;to&#43;a&#43;different&#43;pdf&#43;file/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--save-each-worksheet-to-a-different-pdf-file&#34;&gt;Aspose.Cells for .NET : Save Each Worksheet to a Different PDF File&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells supports converting XLS files (that contain images, charts, etc.) to PDF documents. Aspose.Cells for .NET can work independently to convert a spreadsheet to PDF and you do not need to use Aspose.PDF for .NET for the conversion. The conversion does not require the software to create or use any temporary files as the whole process can be done in memory.&lt;/p&gt;
+&lt;h2 id=&#34;save-each-worksheet-to-a-different-pdf-file&#34;&gt;Save Each Worksheet to a Different PDF File&lt;/h2&gt;
+&lt;p&gt;If you need to save each worksheet in your template Excel file to generate different PDF files, you can achieve this easily. You may try to hide sheets in the file and make one sheet visible at a time to render to PDF.&lt;/p&gt;
+&lt;p&gt;If your spreadsheet contains formulas, it is best to call &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/workbook/methods/calculateformula&#34;&gt;Workbook.CalculateFormula()&lt;/a&gt; just before rendering the spreadsheet to PDF format. Doing so will ensure that the formula dependent values are recalculated, and the correct values are rendered in the PDF.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Extract Images from Worksheets using ImageOrPrintOptions</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/rnd-prt/extract&#43;images&#43;from&#43;worksheets&#43;using&#43;imageorprintoptions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/rnd-prt/extract&#43;images&#43;from&#43;worksheets&#43;using&#43;imageorprintoptions/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--extract-images-from-worksheets-using-imageorprintoptions&#34;&gt;Aspose.Cells for .NET : Extract Images from Worksheets using ImageOrPrintOptions&lt;/h1&gt;
+&lt;p&gt;Microsoft Excel users can add images to spreadsheets. With Aspose.Cells, it&amp;rsquo;s possible to read images from Microsoft Excel files and save them to a local drive. This article shows how.&lt;/p&gt;
+&lt;p&gt;The sample code below shows how to extract images from an Excel file and save them.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Resampling Added Images - Excel to PDF Conversion</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/rnd-prt/resampling&#43;added&#43;images&#43;-&#43;excel&#43;to&#43;pdf&#43;conversion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/rnd-prt/resampling&#43;added&#43;images&#43;-&#43;excel&#43;to&#43;pdf&#43;conversion/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--resampling-added-images---excel-to-pdf-conversion&#34;&gt;Aspose.Cells for .NET : Resampling Added Images - Excel to PDF Conversion&lt;/h1&gt;
+&lt;p&gt;While working with big Microsoft Excel files with lots of images, you might need to compress images that have been added to reduce the output PDF file size and improve the overall conversion performance. Aspose.Cells supports resampling added images to reduce the output PDF file size and improve the performance somewhat.&lt;/p&gt;
+&lt;h2 id=&#34;example&#34;&gt;Example&lt;/h2&gt;
+&lt;p&gt;Please see the following sample code that describes how to perform the task using the Aspose.Cells API. The example converts a Microsoft Excel file to a PDF file while compressing the images in the file.&lt;/p&gt;
+&lt;p&gt;Using the the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/pdfsaveoptions/methods/setimageresample&#34;&gt;SetImageResample&lt;/a&gt; option minimizes the size of the output PDF but it may affect the image quality a bit.&lt;/p&gt;
+&lt;p&gt;If your spreadsheet contains formulas, it is best to call &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/workbook/methods/calculateformula&#34;&gt;Workbook.CalculateFormula()&lt;/a&gt; just before rendering the spreadsheet to PDF format. Doing so will ensure that the formula dependent values are recalculated, and the correct values are rendered in the PDF.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Fit All Worksheet Columns on Single PDF Page</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/rnd-prt/fit&#43;all&#43;worksheet&#43;columns&#43;on&#43;single&#43;pdf&#43;page/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/rnd-prt/fit&#43;all&#43;worksheet&#43;columns&#43;on&#43;single&#43;pdf&#43;page/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--fit-all-worksheet-columns-on-single-pdf-page&#34;&gt;Aspose.Cells for .NET : Fit All Worksheet Columns on Single PDF Page&lt;/h1&gt;
+&lt;p&gt;Sometimes you want to generate a PDF file that fits all a worksheet&amp;rsquo;s columns onto one page. The &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/pdfsaveoptions/properties/allcolumnsinonepagepersheet&#34;&gt;PdfSaveOptions.AllColumnsInOnePagePerSheet&lt;/a&gt; property provides this feature in a very easy-to-use manner. Complex calculations such as the height and width of the output PDF are handled internally and are based on the data in the worksheet.&lt;/p&gt;
+&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
+&lt;p&gt;Below are the input spreadsheet used in the example and output PDF generated for reference.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.aspose.com/docs/download/attachments/78610473/Sample-AllColumnsInOnePagePerSheet.xlsx&#34;&gt;Excel File (Input)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.aspose.com/docs/download/attachments/78610473/Output-AllColumnsInOnePagePerSheet.pdf&#34;&gt;PDF File (Output)&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;fit-worksheet-columns-on-single-pdf-page&#34;&gt;Fit Worksheet Columns on Single PDF Page&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/pdfsaveoptions/properties/allcolumnsinonepagepersheet&#34;&gt;PdfSaveOptions.AllColumnsInOnePagePerSheet&lt;/a&gt; ensures that all columns in a worksheet are rendered to a single PDF page, although rows may expand to several pages depending on the data in worksheet.&lt;/p&gt;
+&lt;p&gt;The sample code below shows how to use &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/pdfsaveoptions/properties/allcolumnsinonepagepersheet&#34;&gt;PdfSaveOptions.AllColumnsInOnePagePerSheet&lt;/a&gt; property to render a large worksheet of 100 columns.&lt;/p&gt;
+&lt;p&gt;When a given worksheet has many columns, the rendered PDF file may show the content in a very small size. It is still readable when scaled up in a viewing application such as Acrobat Reader.&lt;/p&gt;
+&lt;p&gt;If your spreadsheet contains formulas, it is best to call &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/workbook/methods/calculateformula&#34;&gt;Workbook.CalculateFormula()&lt;/a&gt; just before rendering the spreadsheet to PDF format. Doing so will ensure that the formula dependent values are recalculated, and the correct values are rendered in the PDF.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Create Transparent Image of Excel Worksheet</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/rnd-prt/create&#43;transparent&#43;image&#43;of&#43;excel&#43;worksheet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/rnd-prt/create&#43;transparent&#43;image&#43;of&#43;excel&#43;worksheet/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--create-transparent-image-of-excel-worksheet&#34;&gt;Aspose.Cells for .NET : Create Transparent Image of Excel Worksheet&lt;/h1&gt;
+&lt;p&gt;Sometimes, you need to generate the image of your worksheet as transparent image. You want to apply transparency to all cells which have no fill colors. Aspose.Cells provides the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.rendering/imageorprintoptions/properties/transparent&#34;&gt;ImageOrPrintOptions.Transparent&lt;/a&gt; property to apply transparency to worksheet image. When this property is &lt;strong&gt;false&lt;/strong&gt;, then cells with no fill colors are drawn with white color and when it is &lt;strong&gt;true&lt;/strong&gt;, cells with no fill colors are drawn transparent.&lt;/p&gt;
+&lt;p&gt;In the following worksheet image, transparency has not been applied. The cells with no fill colors are drawn white.&lt;/p&gt;
+
+&lt;div class=&#34;table table-striped&#34; role=&#34;alert&#34;&gt;
+    &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Output without transparency: the cell background is white&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5017541/5112562.png&#34; alt=&#34;&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;While, in the following worksheet image, transparency has been applied. The cells with no fill colors are transparent.&lt;/p&gt;
+
+&lt;div class=&#34;table table-striped&#34; role=&#34;alert&#34;&gt;
+    &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Output with transparency enabled&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5017541/5112565.png&#34; alt=&#34;&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;The following sample code generates a transparent image from an Excel worksheet.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Limit the Number of Pages Generated - Excel to PDF Conversion</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/rnd-prt/limit&#43;the&#43;number&#43;of&#43;pages&#43;generated&#43;-&#43;excel&#43;to&#43;pdf&#43;conversion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/rnd-prt/limit&#43;the&#43;number&#43;of&#43;pages&#43;generated&#43;-&#43;excel&#43;to&#43;pdf&#43;conversion/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--limit-the-number-of-pages-generated---excel-to-pdf-conversion&#34;&gt;Aspose.Cells for .NET : Limit the Number of Pages Generated - Excel to PDF Conversion&lt;/h1&gt;
+&lt;p&gt;Sometimes, you want to print a range of pages to an output PDF file. Aspose.Cells has the ability to set a limit on how many pages are generated when converting an Excel spreadsheet to the PDF file format.&lt;/p&gt;
+&lt;h2 id=&#34;limiting-the-number-of-pages-generated&#34;&gt;Limiting the Number of Pages Generated&lt;/h2&gt;
+&lt;p&gt;The following example shows how to render a range of pages (3 and 4) in a Microsoft Excel file to PDF.&lt;/p&gt;
+&lt;p&gt;If the spreadsheet contains formulas, it is best to call &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/workbook/methods/calculateformula&#34;&gt;Workbook.CalculateFormula()&lt;/a&gt; just before rendering it to PDF. Doing ensures that formula dependent values are recalculated, and the correct values are rendered in the output file.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Find Cells with Specific Style</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/rnd-prt/find&#43;cells&#43;with&#43;specific&#43;style/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/rnd-prt/find&#43;cells&#43;with&#43;specific&#43;style/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--find-cells-with-specific-style&#34;&gt;Aspose.Cells for .NET : Find Cells with Specific Style&lt;/h1&gt;
+&lt;p&gt;Sometimes, you need to find cells with a particular style applied. You can use Aspose.Cells to find all cells with a common style. Aspose.Cells provides the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/findoptions/properties/style&#34;&gt;FindOptions.Style&lt;/a&gt; property which you can use to specify the style to search cells for.&lt;/p&gt;
+&lt;p&gt;The code in this example finds all cells that have the same style as that of cell A1. After the code has been executed, all the cells that have the same style as A1 contain the text &amp;ldquo;Found&amp;rdquo;.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Worksheet to Image - Set Pixel Format for the Rendered Image</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/rnd-prt/worksheet&#43;to&#43;image&#43;-&#43;set&#43;pixel&#43;format&#43;for&#43;the&#43;rendered&#43;image/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/rnd-prt/worksheet&#43;to&#43;image&#43;-&#43;set&#43;pixel&#43;format&#43;for&#43;the&#43;rendered&#43;image/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--worksheet-to-image---set-pixel-format-for-the-rendered-image&#34;&gt;Aspose.Cells for .NET : Worksheet to Image - Set Pixel Format for the Rendered Image&lt;/h1&gt;
+&lt;p&gt;Sometimes you want to specify the pixel format when rendering a worksheet to image format. By default, Aspose.Cells uses 32 bits per pixel. Aspose.Cells allows you to customize the pixel format (bit depth) using options for the rendered image.&lt;/p&gt;
+&lt;p&gt;Please see the sample code below that demonstrates how to set the desired pixel format while rendering images of the sheets.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Prevent Exporting Hidden Worksheet Contents on Saving to HTML</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/rnd-prt/prevent&#43;exporting&#43;hidden&#43;worksheet&#43;contents&#43;on&#43;saving&#43;to&#43;html/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/rnd-prt/prevent&#43;exporting&#43;hidden&#43;worksheet&#43;contents&#43;on&#43;saving&#43;to&#43;html/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--prevent-exporting-hidden-worksheet-contents-on-saving-to-html&#34;&gt;Aspose.Cells for .NET : Prevent Exporting Hidden Worksheet Contents on Saving to HTML&lt;/h1&gt;
+&lt;p&gt;You can save Excel workbooks to HTML. However, if the workbook contains hidden worksheets, Aspose.Cells by default exports the hidden worksheet contents to the HTML output (_files) directory which contains files such as worksheets, images, tabstrip.htm, stylesheet.css etc. Sometimes, exporting the hidden worksheets content this way isn&amp;rsquo;t appropriate. For example, if the hidden worksheet contains images that should not be exported to the _files directory.&lt;/p&gt;
+&lt;p&gt;Aspose.Cells provides the &lt;code&gt;HtmlSaveOptions.ExportHiddenWorksheet&lt;/code&gt; property. By default, it is set to true and hidden worksheets are exported to HTML. If you set it false, Aspose.Cells will not export hidden worksheet contents.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Excel to HTML - Use PresentationPreference Option for Better Layout</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/rnd-prt/excel&#43;to&#43;html&#43;-&#43;use&#43;presentationpreference&#43;option&#43;for&#43;better&#43;layout/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/rnd-prt/excel&#43;to&#43;html&#43;-&#43;use&#43;presentationpreference&#43;option&#43;for&#43;better&#43;layout/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--excel-to-html---use-presentationpreference-option-for-better-layout&#34;&gt;Aspose.Cells for .NET : Excel to HTML - Use PresentationPreference Option for Better Layout&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells provides a useful &lt;code&gt;HtmlSaveOptions.PresentationPreference&lt;/code&gt; property for developers who need to render better layout when saving a Microsoft Excel file to HTML or MHT format. The default value of the property is false. We recommend setting this property to true to get a more attractive presentation of Excel reports.&lt;/p&gt;
+&lt;p&gt;Please see the sample code below that demonstrates how to render an HTML file from Excel report with presentation preference on.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Get Warnings for Font Substitution while Rendering Excel File</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/rnd-prt/get&#43;warnings&#43;for&#43;font&#43;substitution&#43;while&#43;rendering&#43;excel&#43;file/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/rnd-prt/get&#43;warnings&#43;for&#43;font&#43;substitution&#43;while&#43;rendering&#43;excel&#43;file/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--get-warnings-for-font-substitution-while-rendering-excel-file&#34;&gt;Aspose.Cells for .NET : Get Warnings for Font Substitution while Rendering Excel File&lt;/h1&gt;
+&lt;p&gt;Sometimes, when rendering a Microsoft Excel file to PDF, Aspose.Cells substitutes fonts. Aspose.Cells provides a feature that lets developers know what particular font has been substituted by firing a warning. This is a useful feature that can help you identify why an Aspose.Cells rendered PDF looks different from the original Microsoft Excel file so you can take appropriate actions. For example, installing the missing fonts so that rendering results look the same.&lt;/p&gt;
+&lt;p&gt;To get warnings for font substitution when rendering Excel files to PDF, implement the &lt;code&gt;IWarningCallback&lt;/code&gt; interface and set the &lt;code&gt;PdfSaveOptions.WarningCallback&lt;/code&gt; property with your implemented interface.&lt;/p&gt;
+&lt;p&gt;The screenshot below shows a source Excel file that we will use in the following code. It has some text in the cells A6 and A7 in fonts that are not rendered fine by Microsoft Excel.&lt;/p&gt;
+
+&lt;div class=&#34;table table-striped&#34; role=&#34;alert&#34;&gt;
+    &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Not all fonts are rendered correctly&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5017493/5112613.png&#34; alt=&#34;&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;Aspose.Cells will substitute the fonts in the cells A6 and A7 with suitable fonts as shown below.&lt;/p&gt;
+
+&lt;div class=&#34;table table-striped&#34; role=&#34;alert&#34;&gt;
+    &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Substituted fonts&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5017493/5112610.png&#34; alt=&#34;&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+
+&lt;h2 id=&#34;download-source-file-and-output-pdf&#34;&gt;Download Source File and Output PDF&lt;/h2&gt;
+&lt;p&gt;You can download the source Excel file and the output PDF from the following links&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/5017493/5112611.xlsx&#34;&gt;source.xlsx&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/5017493/5112616.pdf&#34;&gt;output.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;code&#34;&gt;Code&lt;/h2&gt;
+&lt;p&gt;The following code implements the &lt;code&gt;IWarningCallback&lt;/code&gt; and set the &lt;code&gt;PdfSaveOptions.WarningCallback&lt;/code&gt; property with the implemented interface. Now, whenever any font will be substituted in any cell, Aspose.Cells will fire a warning inside the &lt;code&gt;WarningCallback.Warning()&lt;/code&gt; method.&lt;/p&gt;
+&lt;h2 id=&#34;output&#34;&gt;Output&lt;/h2&gt;
+&lt;p&gt;After converting the source Excel file to PDF, the warnings are output to the debug console like this:&lt;/p&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_1054d88d41&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_1054d88d41&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;
+&lt;span style=&#34;color:#000&#34;&gt;WARNING&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;INFO&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Font&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;substitution&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Font&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;[&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Athene&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Logos&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Regular&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;]&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;has&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;been&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;substituted&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;in&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Cell&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;[&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;A6&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;]&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;in&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Sheet&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;[&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Sheet1&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;].&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;WARNING&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;INFO&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Font&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;substitution&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Font&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;[&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;B&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Traffic&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Regular&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;]&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;has&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;been&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;substituted&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;in&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Cell&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;[&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;A7&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;]&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;in&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Sheet&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;[&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Sheet1&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;].&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;p&gt;If your spreadsheet contains formulas, it is best to call &lt;code&gt;Workbook.CalculateFormula&lt;/code&gt; method just before rendering the spreadsheet to PDF format. Doing so will ensure that the formula dependent values are recalculated, and the correct values are rendered in the PDF.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Converting Chart to Image in SVG Format</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/rnd-prt/converting&#43;chart&#43;to&#43;image&#43;in&#43;svg&#43;format/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/rnd-prt/converting&#43;chart&#43;to&#43;image&#43;in&#43;svg&#43;format/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--converting-chart-to-image-in-svg-format&#34;&gt;Aspose.Cells for .NET : Converting Chart to Image in SVG Format&lt;/h1&gt;
+&lt;p&gt;Scalable Vector Graphics (SVG) is an XML-based vector image format for two-dimensional graphics that also supports interactivity and animation. The SVG specification is an open standard developed by the World Wide Web Consortium (W3C) since 1999.&lt;/p&gt;
+&lt;p&gt;SVG images and their behaviors are defined in XML text files. This means that they can be searched, indexed, scripted, and compressed. As XML files, SVG images can be created and edited with any text editor, but are more often created with drawing software.&lt;/p&gt;
+&lt;p&gt;Aspose.Cells can save chart into images in various formats like BMP, JPEG, PNG, GIF, SVG etc. This article explains how to save a chart to SVG format.&lt;/p&gt;
+&lt;p&gt;The following sample code explains how to use Aspose.Cells to convert a chart into an SVG format image. The code loads the source Microsoft Excel file and then saves the first chart found on the first worksheet to SVG.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Printing Range of Pages using SheetRender and WorkbookRender</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/rnd-prt/printing&#43;range&#43;of&#43;pages&#43;using&#43;sheetrender&#43;and&#43;workbookrender/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/rnd-prt/printing&#43;range&#43;of&#43;pages&#43;using&#43;sheetrender&#43;and&#43;workbookrender/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--printing-range-of-pages-using-sheetrender-and-workbookrender&#34;&gt;Aspose.Cells for .NET : Printing Range of Pages using SheetRender and WorkbookRender&lt;/h1&gt;
+&lt;p&gt;Microsoft Excel allows you to print range of pages of workbook or worksheet. The following screenshot shows the Microsoft Excel interface to specify the range of pages.&lt;/p&gt;
+&lt;p&gt;Aspose.Cells provides the &lt;code&gt;WorkbookRender.ToPrinter(string PrinterName, int PrintPageIndex, int PrintPageCount)&lt;/code&gt; and &lt;code&gt;SheetRender.ToPrinter(string PrinterName, int PrintPageIndex, int PrintPageCount)&lt;/code&gt; methods for this purpose.&lt;/p&gt;
+&lt;h2 id=&#34;microsoft-excel-interface-to-specify-the-range-of-pages-to-print&#34;&gt;Microsoft Excel Interface to specify the Range of Pages to Print&lt;/h2&gt;
+&lt;p&gt;The following sample code illustrates the use of &lt;code&gt;WorkbookRender.ToPrinter(string PrinterName, int PrintPageIndex, int PrintPageCount)&lt;/code&gt; and &lt;code&gt;SheetRender.ToPrinter(string PrinterName, int PrintPageIndex, int PrintPageCount)&lt;/code&gt; methods. It prints the pages 2-5 of the workbook and worksheet.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Change the Font on just the specific Unicode characters while saving to PDF</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/rnd-prt/change&#43;the&#43;font&#43;on&#43;just&#43;the&#43;specific&#43;unicode&#43;characters&#43;while&#43;saving&#43;to&#43;pdf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/rnd-prt/change&#43;the&#43;font&#43;on&#43;just&#43;the&#43;specific&#43;unicode&#43;characters&#43;while&#43;saving&#43;to&#43;pdf/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--change-the-font-on-just-the-specific-unicode-characters-while-saving-to-pdf&#34;&gt;Aspose.Cells for .NET : Change the Font on just the specific Unicode characters while saving to PDF&lt;/h1&gt;
+&lt;p&gt;Some Unicode characters are not displayable by the user specified font. One such Unicode character is &lt;strong&gt;Non-breaking Hyphen&lt;/strong&gt; (U+2011) and its Unicode number is 8209. This character cannot be displayed with &lt;strong&gt;Times New Roman&lt;/strong&gt;, but it can be displayed with other fonts like &lt;strong&gt;Arial Unicode MS&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;When such a character occurs inside some word or sentence which is in some specific font like Times New Roman, then Aspose.Cells changes the font of entire word or sentence to font which could display this character like Arial Unicode to MS.&lt;/p&gt;
+&lt;p&gt;However, this is undesirable behavior for some users and they want only that specific character&amp;rsquo;s font must be changed instead of changing the font of entire word or sentence.&lt;/p&gt;
+&lt;p&gt;To deal with this problem, Aspose.Cells provides &lt;code&gt;PdfSaveOptions.IsFontSubstitutionCharGranularity&lt;/code&gt; property which should be set true so that only the font of specific character which is not displayable to be changed to displayable font and rest of the word or sentence should remain in original font.&lt;/p&gt;
+&lt;h2 id=&#34;example&#34;&gt;Example&lt;/h2&gt;
+&lt;p&gt;The following screenshot compares the two output PDFs generated by the sample code below.&lt;/p&gt;
+&lt;p&gt;One is generated without setting &lt;code&gt;PdfSaveOptions.IsFontSubstitutionCharGranularity&lt;/code&gt; property and the other was generated after setting the &lt;code&gt;PdfSaveOptions.IsFontSubstitutionCharGranularity&lt;/code&gt; property to true.&lt;/p&gt;
+&lt;p&gt;As you can see in the first Pdf, the font of entire sentence has changed from Times New Roman to Arial Unicode MS because of Non-Breaking Hyphen. While in the second Pdf, only the font of Non-Breaking Hyphen has changed.&lt;/p&gt;
+
+&lt;div class=&#34;table table-striped&#34; role=&#34;alert&#34;&gt;
+    &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;First Pdf File&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5017491/5112607.png&#34; alt=&#34;&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+
+
+&lt;div class=&#34;table table-striped&#34; role=&#34;alert&#34;&gt;
+    &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Second Pdf File&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5017491/5115112.png&#34; alt=&#34;&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+
+&lt;h3 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h3&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Specify Job or Document Name while printing with Aspose.Cells</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/rnd-prt/specify&#43;job&#43;or&#43;document&#43;name&#43;while&#43;printing&#43;with&#43;aspose.cells/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/rnd-prt/specify&#43;job&#43;or&#43;document&#43;name&#43;while&#43;printing&#43;with&#43;aspose.cells/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--specify-job-or-document-name-while-printing-with-asposecells&#34;&gt;Aspose.Cells for .NET : Specify Job or Document Name while printing with Aspose.Cells&lt;/h1&gt;
+&lt;p&gt;You can specify Job or Document Name while printing your workbook or worksheet using the &lt;code&gt;WorkbookRender&lt;/code&gt; or &lt;code&gt;SheetRender&lt;/code&gt; objects. Aspose.Cells provides the &lt;code&gt;WorkbookRender.ToPrinter(printerName, jobName)&lt;/code&gt; and &lt;code&gt;SheetRender.ToPrinter(printerName, jobName)&lt;/code&gt; methods which you can use to specify Job Name while printing your workbook or worksheet&lt;/p&gt;
+&lt;h1 id=&#34;specify-job-or-document-name-while-printing-with-asposecells&#34;&gt;Specify Job or Document Name while printing with Aspose.Cells&lt;/h1&gt;
+&lt;p&gt;The sample code loads the source Excel file and then sends it to printer by specifying the job or document name using the &lt;code&gt;WorkbookRender.ToPrinter(printerName, jobName)&lt;/code&gt; and &lt;code&gt;SheetRender.ToPrinter(printerName, jobName)&lt;/code&gt; methods.&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Export Chart to SVG with viewBox attribute</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/rnd-prt/export&#43;chart&#43;to&#43;svg&#43;with&#43;viewbox&#43;attribute/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/rnd-prt/export&#43;chart&#43;to&#43;svg&#43;with&#43;viewbox&#43;attribute/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--export-chart-to-svg-with-viewbox-attribute&#34;&gt;Aspose.Cells for .NET : Export Chart to SVG with viewBox attribute&lt;/h1&gt;
+&lt;p&gt;By default, when chart is export to svg format, &lt;strong&gt;viewBox&lt;/strong&gt; attribute is not included in its xml. However, Aspose.Cells provides &lt;code&gt;ImageOrPrintOptions.SVGFitToViewPort&lt;/code&gt; property which when set to true exports the chart to svg with viewBox attribute.&lt;/p&gt;
+&lt;h1 id=&#34;export-chart-to-svg-with-viewbox-attribute&#34;&gt;Export Chart to SVG with viewBox attribute&lt;/h1&gt;
+&lt;p&gt;The following sample code exports the chart to svg format with viewBox attribute.&lt;/p&gt;
+&lt;p&gt;If you open the chart&amp;rsquo;s svg in notepad, you will find the &lt;strong&gt;viewBox&lt;/strong&gt; attribute similar to this.&lt;/p&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_b0dbaefb31&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_b0dbaefb31&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;svg&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;xmlns&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;http://www.w3.org/2000/svg&amp;#34;&lt;/span&gt;
+     &lt;span style=&#34;color:#000&#34;&gt;xmlns&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;xlink&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;http://www.w3.org/1999/xlink&amp;#34;&lt;/span&gt;
+     &lt;span style=&#34;color:#000&#34;&gt;width&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;100%&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;height&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;100%&amp;#34;&lt;/span&gt;
+     &lt;span style=&#34;color:#000&#34;&gt;viewBox&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;0 0 480 288&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Export Worksheet or Chart into Image with Desired Width and Height</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/rnd-prt/export&#43;worksheet&#43;or&#43;chart&#43;into&#43;image&#43;with&#43;desired&#43;width&#43;and&#43;height/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/rnd-prt/export&#43;worksheet&#43;or&#43;chart&#43;into&#43;image&#43;with&#43;desired&#43;width&#43;and&#43;height/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--export-worksheet-or-chart-into-image-with-desired-width-and-height&#34;&gt;Aspose.Cells for .NET : Export Worksheet or Chart into Image with Desired Width and Height&lt;/h1&gt;
+&lt;p&gt;You can use Aspose.Cells to export your worksheet or chart into image with desired width and height. It provides &lt;code&gt;ImageOrPrintOptions.SetDesiredSize()&lt;/code&gt; method to set the desired width and height of the exported image. The width and height are specified in unit of pixels.&lt;/p&gt;
+&lt;h1 id=&#34;export-worksheet-into-image-with-desired-width-and-height&#34;&gt;Export Worksheet into Image with Desired Width and Height&lt;/h1&gt;
+&lt;p&gt;The following code exports the worksheet into image with 400x400 size.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Render Worksheet to Graphic Context</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/rnd-prt/render&#43;worksheet&#43;to&#43;graphic&#43;context/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/rnd-prt/render&#43;worksheet&#43;to&#43;graphic&#43;context/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--render-worksheet-to-graphic-context&#34;&gt;Aspose.Cells for .NET : Render Worksheet to Graphic Context&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells can now render worksheet to graphic context. Graphic context can be anything like image file, screen or printer etc. Please use one of the following two methods to render worksheet to graphic context.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;SheetRender.ToImage(int pageIndex, Graphics g, float x, float y)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;SheetRender.ToImage(int pageIndex, Graphics g, float x, float y, float width, float height)&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;render-worksheet-to-graphic-context&#34;&gt;Render Worksheet to Graphic Context&lt;/h1&gt;
+&lt;p&gt;The following code illustrates how to use Aspose.Cells to render worksheet to graphic context. Once you will execute a code, it will print the entire worksheet and fill the leftover empty space with blue color in graphics context and save the image as &lt;strong&gt;OutputImage_out_.png&lt;/strong&gt; file. You can use any source excel file to try this code. Please also read the comments inside the code for better understanding.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Disable Exporting Frame Scripts and Document Properties</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/rnd-prt/disable&#43;exporting&#43;frame&#43;scripts&#43;and&#43;document&#43;properties/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/rnd-prt/disable&#43;exporting&#43;frame&#43;scripts&#43;and&#43;document&#43;properties/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--disable-exporting-frame-scripts-and-document-properties&#34;&gt;Aspose.Cells for .NET : Disable Exporting Frame Scripts and Document Properties&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells exports frame scripts and document properties while converting a workbook into HTML. The 8.6.0 version of Aspose.Cells for .NET introduces an option which allows you optionally disable exporting frame scripts and doctment properties. Please use the &lt;code&gt;HtmlSaveOptions.ExportFrameScriptsAndProperties&lt;/code&gt; property to disable the export.&lt;/p&gt;
+&lt;h2 id=&#34;disable-exporting-frame-scripts-and-document-properties&#34;&gt;Disable exporting frame scripts and document properties&lt;/h2&gt;
+&lt;p&gt;The following sample code allows you to disable exporting frame scripts and document properties. Once you convert a workbook into HTML, the output file will not contain any frame scripts and document properties.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Change the HTML Link Target Type</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/rnd-prt/change&#43;the&#43;html&#43;link&#43;target&#43;type/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/rnd-prt/change&#43;the&#43;html&#43;link&#43;target&#43;type/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--change-the-html-link-target-type&#34;&gt;Aspose.Cells for .NET : Change the HTML Link Target Type&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells allows you to change the HTML link target type. HTML link looks like this&lt;/p&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_db2337cdf3&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_db2337cdf3&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;a&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;href&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;http://www.aspose.com/&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;target&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;_self&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;p&gt;As you can see the target attribute in above html link is &lt;strong&gt;_self&lt;/strong&gt;. You can control this target attribute using the &lt;code&gt;HtmlSaveOptions.LinkTargetType&lt;/code&gt; property. This property takes the &lt;code&gt;HtmlLinkTargetType&lt;/code&gt; enum which has the following values.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;HtmlLinkTargetType.Blank&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;HtmlLinkTargetType.Parent&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;HtmlLinkTargetType.Self&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;HtmlLinkTargetType.Top&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;change-the-html-link-target-type&#34;&gt;Change the HTML Link Target Type&lt;/h1&gt;
+&lt;p&gt;The following code illustrates the usage of &lt;code&gt;HtmlSaveOptions.LinkTargetType&lt;/code&gt; property. It changes the link target type to &lt;strong&gt;blank&lt;/strong&gt;. By default, it is &lt;strong&gt;parent&lt;/strong&gt;. You can get the &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/5017278/5112364.xlsx&#34;&gt;source excel file&lt;/a&gt; from this link however you can use any excel file which contains a html hyperlink inside it to run this code.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Ignore Hidden Columns while Exporting Worksheet Data to Data Table</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/rnd-prt/ignore&#43;hidden&#43;columns&#43;while&#43;exporting&#43;worksheet&#43;data&#43;to&#43;data&#43;table/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/rnd-prt/ignore&#43;hidden&#43;columns&#43;while&#43;exporting&#43;worksheet&#43;data&#43;to&#43;data&#43;table/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--ignore-hidden-columns-while-exporting-worksheet-data-to-data-table&#34;&gt;Aspose.Cells for .NET : Ignore Hidden Columns while Exporting Worksheet Data to Data Table&lt;/h1&gt;
+&lt;p&gt;Sometimes, you want to ignore hidden columns while exporting worksheet data to data table. You can achieve it using Aspose.Cells by setting the &lt;code&gt;ExportTableOptions.PlotVisibleColumns&lt;/code&gt; &lt;strong&gt;true&lt;/strong&gt;. By default, its value is &lt;strong&gt;false&lt;/strong&gt;, so you need to set it true to ignore the hidden columns.&lt;/p&gt;
+&lt;h1 id=&#34;ignore-hidden-columns-while-exporting-worksheet-data-to-data-table&#34;&gt;Ignore Hidden Columns while Exporting Worksheet Data to Data Table&lt;/h1&gt;
+&lt;p&gt;The following sample code explains the usage of &lt;code&gt;ExportTableOptions.PlotVisibleColumns&lt;/code&gt; property in ignoring the hidden columns while exporting the worksheet entire data to data table.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Save Excel into PDF with Standard or Minimum Size</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/rnd-prt/save&#43;excel&#43;into&#43;pdf&#43;with&#43;standard&#43;or&#43;minimum&#43;size/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/rnd-prt/save&#43;excel&#43;into&#43;pdf&#43;with&#43;standard&#43;or&#43;minimum&#43;size/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--save-excel-into-pdf-with-standard-or-minimum-size&#34;&gt;Aspose.Cells for .NET : Save Excel into PDF with Standard or Minimum Size&lt;/h1&gt;
+&lt;p&gt;By default, Aspose.Cells saves Excel into PDF with Standard size. However you can also save it with Minimum size using the &lt;code&gt;PdfSaveOptions.OptimizationType&lt;/code&gt; property. It accepts the following values&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;PdfOptimizationType.Standard&lt;/li&gt;
+&lt;li&gt;PdfOptimizationType.MinimumSize&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;save-excel-into-pdf-with-standard-or-minimum-size-using-asposecells&#34;&gt;Save Excel into PDF with Standard or Minimum Size using Aspose.Cells&lt;/h2&gt;
+&lt;p&gt;The following sample code shows how you can save Excel into PDF with Standard or Minimum size using &lt;code&gt;PdfSaveOptions.OptimizationType&lt;/code&gt; property.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Render Unicode Supplementary characters in output Pdf by Aspose.Cells</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/rnd-prt/render&#43;unicode&#43;supplementary&#43;characters&#43;in&#43;output&#43;pdf&#43;by&#43;aspose.cells/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/rnd-prt/render&#43;unicode&#43;supplementary&#43;characters&#43;in&#43;output&#43;pdf&#43;by&#43;aspose.cells/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--render-unicode-supplementary-characters-in-output-pdf-by-asposecells&#34;&gt;Aspose.Cells for .NET : Render Unicode Supplementary characters in output Pdf by Aspose.Cells&lt;/h1&gt;
+&lt;p&gt;Normal Unicode characters are 2-bytes long while Unicode Supplementary characters are 4-bytes long. Aspose.Cells now supports rendering of these 4-bytes Unicode characters.&lt;/p&gt;
+&lt;p&gt;In the Unicode Character Standard, Supplementary Characters are the characters assigned code points from U+10000 to U+10FFFF. In other words, these are the Unicode characters greater than U+FFFF.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;In UTF-8 these characters are each 4 bytes long.&lt;/li&gt;
+&lt;li&gt;In UTF-16 these characters require 2 surrogates (16-bit units).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#render-unicode-supplementary-characters-in-output-pdf-by-aspose.cells&#34;&gt;Render Unicode Supplementary characters in output Pdf by Aspose.Cells&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#programming-sample&#34;&gt;Programming Sample&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;render-unicode-supplementary-characters-in-output-pdf-by-asposecells&#34;&gt;Render Unicode Supplementary characters in output Pdf by Aspose.Cells&lt;/h2&gt;
+&lt;p&gt;The following screenshot shows how Aspose.Cells rendered the &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/5013576/5115563.xlsx&#34;&gt;source excel file&lt;/a&gt; into the &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/5013576/5115564.pdf&#34;&gt;output pdf&lt;/a&gt;. As you can see all three Unicode Supplementary characters have been rendered exactly same as done by Microsoft Excel.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://i.imgsafe.org/20ee6a3f85.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;programming-sample&#34;&gt;Programming Sample&lt;/h3&gt;
+&lt;p&gt;You can use this sample code to convert &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/5013576/5115563.xlsx&#34;&gt;source excel file&lt;/a&gt; into &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/5013576/5115564.pdf&#34;&gt;output pdf&lt;/a&gt;.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Set Default Font while rendering spreadsheet to images</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/rnd-prt/set&#43;default&#43;font&#43;while&#43;rendering&#43;spreadsheet&#43;to&#43;images/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/rnd-prt/set&#43;default&#43;font&#43;while&#43;rendering&#43;spreadsheet&#43;to&#43;images/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--set-default-font-while-rendering-spreadsheet-to-images&#34;&gt;Aspose.Cells for .NET : Set Default Font while rendering spreadsheet to images&lt;/h1&gt;
+&lt;p&gt;Please use the &lt;code&gt;ImageOrPrintOptions.DefaultFont&lt;/code&gt; property to set the default font while rendering spreadsheet to images. This property will only be effective when the default font of workbook could not render your characters. The default font specified with &lt;code&gt;ImageOrPrintOptions.DefaultFont&lt;/code&gt; property is used for all those cells which have invalid or non-existent fonts.&lt;/p&gt;
+&lt;h2 id=&#34;set-default-font-while-rendering-spreadsheet-to-images&#34;&gt;Set Default Font while rendering spreadsheet to images&lt;/h2&gt;
+&lt;p&gt;The following sample code creates a workbook, adds some text in cell A4 of first worksheet and sets its font to invalid or non-existent font. Then, it takes two images of the worksheet. The first image is taken by setting the &lt;code&gt;ImageOrPrintOptions.DefaultFont&lt;/code&gt; property to &lt;code&gt;Courier New&lt;/code&gt; and the second image is taken by setting the &lt;code&gt;ImageOrPrintOptions.DefaultFont&lt;/code&gt; property to &lt;code&gt;Times New Roman&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;This is the output image after setting the &lt;code&gt;ImageOrPrintOptions.DefaultFont&lt;/code&gt; property to &lt;code&gt;Courier New&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5024959/5115519.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;This is the output image after setting the &lt;code&gt;ImageOrPrintOptions.DefaultFont&lt;/code&gt; property to &lt;code&gt;Times New Roman&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5024959/5115515.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Set Default Font while rendering spreadsheet to HTML</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/rnd-prt/set&#43;default&#43;font&#43;while&#43;rendering&#43;spreadsheet&#43;to&#43;html/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/rnd-prt/set&#43;default&#43;font&#43;while&#43;rendering&#43;spreadsheet&#43;to&#43;html/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--set-default-font-while-rendering-spreadsheet-to-html&#34;&gt;Aspose.Cells for .NET : Set Default Font while rendering spreadsheet to HTML&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells allows you to set default font while rendering spreadsheet to HTML. Please use the &lt;code&gt;HtmlSaveOptions.DefaultFontName&lt;/code&gt; for this purpose. This property is useful when there are some cells in spreadsheet that has invalid or non-existing fonts. Then those cells will be rendered in a font specified with &lt;code&gt;HtmlSaveOptions.DefaultFontName&lt;/code&gt; property.&lt;/p&gt;
+&lt;h2 id=&#34;set-default-font-while-rendering-spreadsheet-to-html&#34;&gt;Set Default Font while rendering spreadsheet to HTML&lt;/h2&gt;
+&lt;p&gt;The following sample code creates a workbook and adds some text in cell B4 of first worksheet and sets its font to some unknown/non-existing font. Then it saves the workbook in HTML by setting different default font names like Courier New, Arial, Times New Roman etc.&lt;/p&gt;
+&lt;p&gt;The screenshot shows the effect of setting different default font names via &lt;code&gt;HtmlSaveOptions.DefaultFontName&lt;/code&gt; property.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5024958/5115507.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The code generates the &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/5024958/5115516.htm&#34;&gt;output HTML file with Courier New&lt;/a&gt;, the &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/5024958/5115518.htm&#34;&gt;output HTML with Arial&lt;/a&gt; and the &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/5024958/5115517.htm&#34;&gt;output HTML file with Times New Roman&lt;/a&gt;.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

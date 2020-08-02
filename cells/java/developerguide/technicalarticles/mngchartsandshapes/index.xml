@@ -1,0 +1,903 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Managing Charts and Shapes</title>
+    <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngchartsandshapes/</link>
+    <description>Recent content in Managing Charts and Shapes on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngchartsandshapes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Java: Copy Shapes between Worksheets</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngchartsandshapes/copy&#43;shapes&#43;between&#43;worksheets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngchartsandshapes/copy&#43;shapes&#43;between&#43;worksheets/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--copy-shapes-between-worksheets&#34;&gt;Aspose.Cells for Java : Copy Shapes between Worksheets&lt;/h1&gt;
+&lt;p&gt;Sometimes, you do need to copy different pictures, charts and other drawing objects to different worksheets as per your requirement. Aspose.Cells supports copying shapes between worksheets. The charts, images and other objects are copied with the highest degree of precision.&lt;/p&gt;
+&lt;p&gt;You might try Office Automation but that has its own drawbacks. There are several reasons and issues involved: for example security, stability, scalability, speed, price, and features. In Short, there are many reasons, with the top one being that Microsoft themselves strongly recommends against Office automation from software solutions.&lt;/p&gt;
+&lt;p&gt;In this article, we create a console application, perform the copying of pictures, charts and other drawing objects between worksheets of a workbook with a few and simplest lines of code using Aspose.Cells.&lt;/p&gt;
+&lt;p&gt;This document is designed to provide the developers with a detailed understanding on how to copy shapes (pictures, charts, controls and other drawing objects) between worksheets.&lt;/p&gt;
+&lt;h3 id=&#34;copying-shapes&#34;&gt;Copying Shapes&lt;/h3&gt;
+&lt;p&gt;This article explains how to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/mngchartsandshapes/copy+shapes+between+worksheets&#34;&gt;Copy a picture from one worksheet to another&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/mngchartsandshapes/copy+shapes+between+worksheets&#34;&gt;Copy a chart from one worksheet to another&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/mngchartsandshapes/copy+shapes+between+worksheets&#34;&gt;Copy controls and other drawing objects from one worksheet to another&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;copying-a-picture-from-one-worksheet-to-another&#34;&gt;Copying a Picture from one Worksheet to Another&lt;/h4&gt;
+&lt;h5 id=&#34;step-1-creating-a-workbook-with-picture-and-chart-in-microsoft-excel&#34;&gt;Step 1: Creating a workbook with picture and chart in Microsoft Excel&lt;/h5&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Created a new workbook in Microsoft Excel.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Add a picture on first worksheet and a chart on second worksheet.&lt;/p&gt;
+&lt;p&gt;The following screenshots show the two template worksheets created in Microsoft Excel.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Worksheet “Chart” with chart&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276692/5472854.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Worksheet “Picture” with picture&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276692/5472857.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Now, copy the picture in worksheet named “Picture” to the last worksheet “Result”.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h5 id=&#34;step-2-download-asposecellszip&#34;&gt;Step 2: Download Aspose.Cells.Zip&lt;/h5&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.aspose.com/community/files/72/java-components/aspose.cells-for-java/default.aspx&#34;&gt;Download Aspose.Cells for Java&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Upzip it on your development computer.&lt;/p&gt;
+&lt;p&gt;All &lt;a href=&#34;http://www.aspose.com/&#34;&gt;Aspose&lt;/a&gt; components, when installed, work in evaluation mode. The evaluation mode has no time limit and it only injects watermarks into produced documents.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h5 id=&#34;step-3-create-a-project&#34;&gt;Step 3: Create a Project&lt;/h5&gt;
+&lt;p&gt;You can either create a project using some Java editor, for example, Eclipse or create a simple program using a NotePad.&lt;/p&gt;
+&lt;h5 id=&#34;step-4-add-class-path&#34;&gt;Step 4: Add Class Path&lt;/h5&gt;
+&lt;p&gt;To set a Class Path using Eclipse, please perform the following steps:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Extract the Aspose.Cells.jar and dom4j_1.6.1.jar from Aspose.Cells.zip.&lt;/li&gt;
+&lt;li&gt;Set the classpath of project in Eclipse:&lt;/li&gt;
+&lt;li&gt;Select your project in Eclipse and then click menus Project-Properties.&lt;/li&gt;
+&lt;li&gt;Select &amp;ldquo;Java Build Path&amp;rdquo; in the left side of the popup window, then select the &amp;ldquo;Libraries&amp;rdquo; tab, click &amp;ldquo;Add JARs&amp;rdquo; or &amp;ldquo;Add External JARs&amp;rdquo; to select Aspose.Cells.jar and dom4j_1.6.1.jar and add them into build paths.&lt;/li&gt;
+&lt;li&gt;Write application to invoke APIs of Aspose&amp;rsquo;s components.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Or you may set it at runtime at DOS prompt in Windows. For example:&lt;/p&gt;
+&lt;p&gt;javac -classpath %classpath%;e:\Aspose.Cells.jar; ClassName .javajava -classpath %classpath%;e:\Aspose.Cells.jar; ClassName&lt;/p&gt;
+&lt;h5 id=&#34;step-5-copying-a-picture-from-one-worksheet-to-another&#34;&gt;Step 5: Copying a picture from one worksheet to another&lt;/h5&gt;
+&lt;p&gt;Following is the code to accomplish the task. It copies a picture from the worksheet named “Picture” to the worksheet “Result”.&lt;/p&gt;
+&lt;h5 id=&#34;result-task-1&#34;&gt;Result Task 1:&lt;/h5&gt;
+&lt;p&gt;After executing the above code, the picture from worksheet “Picture” is now copied to the last worksheet “Result”&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Worksheet “Result” with copied picture&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276692/5472856.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;task-2-copying-a-chart-from-one-worksheet-to-another&#34;&gt;Task 2: Copying a Chart from One Worksheet to Another&lt;/h4&gt;
+&lt;h5 id=&#34;step-1-copy-a-chart-from-one-worksheet-to-another&#34;&gt;Step 1: Copy a chart from one worksheet to another&lt;/h5&gt;
+&lt;p&gt;Following is the actual code used by the component to accomplish the task.&lt;/p&gt;
+&lt;h5 id=&#34;result-task-2&#34;&gt;Result Task 2&lt;/h5&gt;
+&lt;p&gt;After executing the above code, the chart from worksheet “Chart” is copied to the worksheet “Result”. Please see the following snap shot of resultant worksheet.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Worksheet “Result” with copied picture and chart&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276692/5472859.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;task-3-copying-controls-and-other-drawing-objects-from-one-worksheet-to-another&#34;&gt;Task 3: Copying Controls and Other Drawing Objects from One Worksheet to Another&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;Worksheet “Control” with textbox and oval&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276692/5472858.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Please see the following simple steps which you need to perform to get your desired results.&lt;/p&gt;
+&lt;h5 id=&#34;step-1-copying-a-worksheet-between-workbooks&#34;&gt;Step 1: Copying a worksheet between workbooks&lt;/h5&gt;
+&lt;p&gt;The following is the code used by the component to accomplish the task.&lt;/p&gt;
+&lt;h5 id=&#34;result-task-3&#34;&gt;Result Task 3&lt;/h5&gt;
+&lt;p&gt;After executing the above code, the controls from the worksheet “Control” are now copied to worksheet “Result”. Please see the following snap shot of “Result”.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Worksheet “Result” with copied textbox and oval&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276692/5472861.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h3&gt;
+&lt;p&gt;This article has shown how to copy different shapes like pictures, charts and other drawing objects between using Aspose.Cells. Hopefully, it will give you some insight, and you will be able to utilize these options according to your different scenarios.&lt;/p&gt;
+&lt;p&gt;Aspose.Cells can offer more flexibility than others for solutions and provides outstanding speed, efficiency and reliability to meet specific business application requirements. The results do show that Aspose.Cells has benefited from years of research, design and careful tuning.&lt;/p&gt;
+&lt;p&gt;We heartily welcome your queries, comments and suggestions in the &lt;a href=&#34;http://www.aspose.com/community/forums/aspose.cells-product-family/19/showforum.aspx&#34;&gt;Aspose.Cells Forum&lt;/a&gt;.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Add WordArt Watermark to Worksheet</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngchartsandshapes/add&#43;wordart&#43;watermark&#43;to&#43;worksheet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngchartsandshapes/add&#43;wordart&#43;watermark&#43;to&#43;worksheet/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--add-wordart-watermark-to-worksheet&#34;&gt;Aspose.Cells for Java : Add WordArt Watermark to Worksheet&lt;/h1&gt;
+&lt;p&gt;Use WordArt to add special text effects to spreadsheets. For example, stretch a title across the top of the file, decorate text, and make the text fit a preset shape, or apply the text to an Excel sheet as A background watermark. The WordArt becomes an object that you can move or position in spreadsheets to add decoration.&lt;/p&gt;
+&lt;h4 id=&#34;adding-wordart-watermark-to-worksheet&#34;&gt;Adding WordArt Watermark to Worksheet&lt;/h4&gt;
+&lt;p&gt;The following example shows how to add a WordArt shape to set a background watermark for a worksheet.&lt;/p&gt;
+&lt;p&gt;After running the code the output file contains a pale red WordArt watermark.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The output file&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276685/5472850.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Custom Slice or Sector Colors in Pie Chart</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngchartsandshapes/custom&#43;slice&#43;or&#43;sector&#43;colors&#43;in&#43;pie&#43;chart/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngchartsandshapes/custom&#43;slice&#43;or&#43;sector&#43;colors&#43;in&#43;pie&#43;chart/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--custom-slice-or-sector-colors-in-pie-chart&#34;&gt;Aspose.Cells for Java : Custom Slice or Sector Colors in Pie Chart&lt;/h1&gt;
+&lt;p&gt;This article explains how to add custom colors to pie chart slices/sectors. By default, pie charts use the Microsoft Excel default template. To use other colors, it is possible to redefine the colors in the chart.&lt;/p&gt;
+&lt;p&gt;To set the custom color for a pie chart&amp;rsquo;s individual slices or sectors:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Access the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/Series&#34;&gt;Series&lt;/a&gt; object&amp;rsquo;s &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/ChartPoint&#34;&gt;ChartPoint&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Assign a color of your choice using the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/area#ForegroundColor&#34;&gt;ChartPoint.getArea().setForegroundColor()&lt;/a&gt; method.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;This article also explains how to set:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A chart&amp;rsquo;s category data.&lt;/li&gt;
+&lt;li&gt;A chart title linked to a cell.&lt;/li&gt;
+&lt;li&gt;The chart title font settings.&lt;/li&gt;
+&lt;li&gt;The position of the legend.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/area#ForegroundColor&#34;&gt;ChartPoint.getArea().setForegroundColor()&lt;/a&gt; is not specific to pie charts but can be used for all types of charts.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Custom slice colors in the pie chart&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276686/5472852.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Add WordArt Watermark to Chart</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngchartsandshapes/add&#43;wordart&#43;watermark&#43;to&#43;chart/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngchartsandshapes/add&#43;wordart&#43;watermark&#43;to&#43;chart/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--add-wordart-watermark-to-chart&#34;&gt;Aspose.Cells for Java : Add WordArt Watermark to Chart&lt;/h1&gt;
+&lt;p&gt;You can use WordArt to add special text effects to spreadsheets. For example, stretch a title, decorate text, make the text fit a preset shape, or apply the affected text to a chart’s plot area as a watermark. The WordArt becomes an object that you can move or position in your spreadsheets to add decoration.&lt;/p&gt;
+&lt;p&gt;The following example shows how to add a WordArt shape as a watermark for the chart plot area.&lt;/p&gt;
+&lt;h3 id=&#34;adding-wordart-watermark-to-chart&#34;&gt;Adding WordArt Watermark to Chart&lt;/h3&gt;
+&lt;p&gt;The following example shows how to add a WordArt shape as a watermark for an existing chart’s plot area. The example uses a template Excel file that already contains the chart.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The input file&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276687/5472871.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The ouptput file&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276687/5472872.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Set Picture as Background Fill in the Chart</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngchartsandshapes/set&#43;picture&#43;as&#43;background&#43;fill&#43;in&#43;the&#43;chart/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngchartsandshapes/set&#43;picture&#43;as&#43;background&#43;fill&#43;in&#43;the&#43;chart/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--set-picture-as-background-fill-in-the-chart&#34;&gt;Aspose.Cells for Java : Set Picture as Background Fill in the Chart&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells allows you to set a gradient, texture, pattern or picture as fill effects for different objects, such as the plot area, chart area, or legend box of a chart. This document shows how to add an image to a chart&amp;rsquo;s background.&lt;/p&gt;
+&lt;p&gt;The following chart is created with the sample code.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Output chart&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276688/5472875.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Disable Text Wrapping for Data Labels of the Chart</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngchartsandshapes/disable&#43;text&#43;wrapping&#43;for&#43;data&#43;labels&#43;of&#43;the&#43;chart/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngchartsandshapes/disable&#43;text&#43;wrapping&#43;for&#43;data&#43;labels&#43;of&#43;the&#43;chart/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--disable-text-wrapping-for-data-labels-of-the-chart&#34;&gt;Aspose.Cells for Java : Disable Text Wrapping for Data Labels of the Chart&lt;/h1&gt;
+&lt;p&gt;Microsoft Excel 2013 allows users to wrap or unwrap text inside a chart&amp;rsquo;s data labels. By default, the data label text is wrapped.&lt;/p&gt;
+&lt;p&gt;Aspose.Cells provides the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/datalabels#IsTextWrapped&#34;&gt;DataLabels.setTextWrapped()&lt;/a&gt; method. Set to &lt;strong&gt;True&lt;/strong&gt; or &lt;strong&gt;False&lt;/strong&gt; to enable or disable text wrapping on data labels respectively.&lt;/p&gt;
+&lt;p&gt;Similarly, use the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/datalabels#IsTextWrapped&#34;&gt;DataLabels.isTextWrapped()&lt;/a&gt; method to find out if a data label is already wrapped.&lt;/p&gt;
+&lt;p&gt;This screenshot shows a sample Microsoft Excel file containing a chart in which the text of the data labels are wrapped. As you can see, you can check or clear the &lt;strong&gt;Wrap text in shape&lt;/strong&gt; option in the ALIGNMENT section of the Format Datalabels panel in Microsoft Excel 2013.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Wrapping data labels&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276457/5472863.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The sample code that follows loads the sample Microsoft Excel file using Aspose.Cells and disables data label text wrapping using the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/datalabels#IsTextWrapped&#34;&gt;DataLabels.setTextWrapped()&lt;/a&gt; method. When the code is executed, the chart looks like this. The previously wrapped text is now unwrapped.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Showing data labels on one line only&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276457/5472864.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Finding Absolute Position of Shape inside the Worksheet</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngchartsandshapes/finding&#43;absolute&#43;position&#43;of&#43;shape&#43;inside&#43;the&#43;worksheet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngchartsandshapes/finding&#43;absolute&#43;position&#43;of&#43;shape&#43;inside&#43;the&#43;worksheet/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--finding-absolute-position-of-shape-inside-the-worksheet&#34;&gt;Aspose.Cells for Java : Finding Absolute Position of Shape inside the Worksheet&lt;/h1&gt;
+&lt;p&gt;Sometimes, you need to know the absolute position of a shape on a worksheet. Aspose.Cells provides the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/shape#LeftToCorner&#34;&gt;Shape.getLeftToCorner()&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/shape#TopToCorner&#34;&gt;Shape.getTopToCorner()&lt;/a&gt; properties for this purpose. These properties return the absolute position of a shape in a worksheet in pixels.&lt;/p&gt;
+&lt;h4 id=&#34;explanation-of-the-shapegetlefttocorner-and-shapegettoptocorner-properties&#34;&gt;Explanation of the Shape.getLeftToCorner() and Shape.getTopToCorner() properties&lt;/h4&gt;
+&lt;p&gt;This screenshot explains what distances the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/shape#LeftToCorner&#34;&gt;Shape.getLeftToCorner()&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/shape#TopToCorner&#34;&gt;Shape.getTopToCorner()&lt;/a&gt; properties measure.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Measuring absolute position&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276458/5472867.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The following sample code displays the absolute position of the first shape in a worksheet in pixels. The code displays the following output in the console:&lt;/p&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_00bdbcb2c8&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_00bdbcb2c8&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Absolute&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Position&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;of&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;this&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Shape&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;is&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;320&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;180&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Get Worksheet of the Chart</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngchartsandshapes/get&#43;worksheet&#43;of&#43;the&#43;chart/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngchartsandshapes/get&#43;worksheet&#43;of&#43;the&#43;chart/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--get-worksheet-of-the-chart&#34;&gt;Aspose.Cells for Java : Get Worksheet of the Chart&lt;/h1&gt;
+&lt;p&gt;Sometimes, you want to access a worksheet from a chart&amp;rsquo;s reference. Aspose.Cells provides the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/chart#Worksheet&#34;&gt;Chart.getWorksheet()&lt;/a&gt; property which returns the reference of the worksheet that contains the chart.&lt;/p&gt;
+&lt;h4 id=&#34;example&#34;&gt;Example&lt;/h4&gt;
+&lt;p&gt;The following example shows how to use the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/chart#Worksheet&#34;&gt;Chart.getWorksheet()&lt;/a&gt; property. The code first prints the name of the worksheet, then accesses the first chart on the worksheet. It then prints the worksheet name again, using the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/chart#Worksheet&#34;&gt;Chart.getWorksheet()&lt;/a&gt; property.&lt;/p&gt;
+&lt;p&gt;Below is the console output the sample code results in. As you can see, it prints the same worksheet name both times.&lt;/p&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_3cddea7a1c&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_3cddea7a1c&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Sheet&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Name&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Portfolio&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Chart&lt;/span&gt;&lt;span style=&#34;color:#a40000&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;s&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Sheet&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Name&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Portfolio&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Get Equation Text of Chart Trendline</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngchartsandshapes/get&#43;equation&#43;text&#43;of&#43;chart&#43;trendline/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngchartsandshapes/get&#43;equation&#43;text&#43;of&#43;chart&#43;trendline/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--get-equation-text-of-chart-trendline&#34;&gt;Aspose.Cells for Java : Get Equation Text of Chart Trendline&lt;/h1&gt;
+&lt;p&gt;You can retrieve the Equation Text of Chart Trendline using Aspose.Cells. Aspose.Cells provides &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/datalabels#Text&#34;&gt;Trendline.getDataLabels().getText()&lt;/a&gt; property which returns the Equation Text of chart trendline. To make use of this property, you will first have to call &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/chart#calculate()&#34;&gt;Chart.calculate()&lt;/a&gt; method.&lt;/p&gt;
+&lt;h4 id=&#34;example&#34;&gt;Example&lt;/h4&gt;
+&lt;p&gt;The following screenshot shows the Chart with a Trendline and its Equation Text is shown in Red color. We will retrieve this text using the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/datalabels#Text&#34;&gt;Trendline.getDataLabels().getText()&lt;/a&gt;property in the following sample code.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276460/5472869.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h4&gt;
+&lt;h4 id=&#34;output&#34;&gt;Output&lt;/h4&gt;
+&lt;p&gt;This is the console output of the above sample code.&lt;/p&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_4f4925dc32&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_4f4925dc32&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Equation&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Text&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;y&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;8.1333&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;x&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;5&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Refresh Values of Linked Shapes</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngchartsandshapes/refresh&#43;values&#43;of&#43;linked&#43;shapes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngchartsandshapes/refresh&#43;values&#43;of&#43;linked&#43;shapes/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--refresh-values-of-linked-shapes&#34;&gt;Aspose.Cells for Java : Refresh Values of Linked Shapes&lt;/h1&gt;
+&lt;p&gt;Sometimes, you have a linked shape in your Excel file which is linked to some cell. In Microsoft Excel, changing the value of the linked cell also changes the value of linked shape. This also works fine with Aspose.Cells if you want to save your workbook in XLS or XLSX format. However, if you want to save your workbook in PDF or HTML format, then you will have to call &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/shapecollection#updateSelectedValue()&#34;&gt;Worksheet.getShapes().updateSelectedValue()&lt;/a&gt; method to refresh the value of the linked shape.&lt;/p&gt;
+&lt;h4 id=&#34;example&#34;&gt;Example&lt;/h4&gt;
+&lt;p&gt;The following screenshot shows the source Excel file used in the sample code below. It has a linked &lt;strong&gt;Picture 1&lt;/strong&gt; linked to cell A1. We will change the value of cell A1 with Aspose.Cells and then call &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/shapecollection#updateSelectedValue()&#34;&gt;Worksheet.getShapes().updateSelectedValue()&lt;/a&gt; method to refresh the value of &lt;strong&gt;Picture 1&lt;/strong&gt; and save it in PDF format.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276461/5472954.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;You can download the &lt;a href=&#34;https://docs2.aspose.com/cells/java/attachments/5276461/5472956.xlsx&#34;&gt;source Excel file&lt;/a&gt; and the &lt;a href=&#34;https://docs2.aspose.com/cells/java/attachments/5276461/5472955.pdf&#34;&gt;output PDF&lt;/a&gt; from the given links.&lt;/p&gt;
+&lt;h4 id=&#34;code&#34;&gt;Code&lt;/h4&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Showing Cell Range as the Data Labels</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngchartsandshapes/showing&#43;cell&#43;range&#43;as&#43;the&#43;data&#43;labels/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngchartsandshapes/showing&#43;cell&#43;range&#43;as&#43;the&#43;data&#43;labels/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--showing-cell-range-as-the-data-labels&#34;&gt;Aspose.Cells for Java : Showing Cell Range as the Data Labels&lt;/h1&gt;
+&lt;p&gt;In Microsoft Excel 2013, you can display Cell Range for Data Labels. You can select this option by following these steps&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Select Data Labels of the Series and right click to open the pop up menu.&lt;/li&gt;
+&lt;li&gt;Click the &lt;strong&gt;Format Data Labels&amp;hellip;&lt;/strong&gt; and it will show &lt;strong&gt;Label Options&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Check or uncheck the check box &lt;strong&gt;Label Contains - Value From Cells&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Aspose.Cells provides the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/datalabels#ShowCellRange&#34;&gt;DataLabels.setShowCellRange()&lt;/a&gt; method to check or uncheck the checkbox &lt;strong&gt;Label Contains - Value From Cells&lt;/strong&gt; as shown in the screenshot below.&lt;/p&gt;
+&lt;h4 id=&#34;check-box-to-show-cell-range-as-data-labels&#34;&gt;Check-box to show Cell Range as Data Labels&lt;/h4&gt;
+&lt;p&gt;The following screenshot highlights this option for your reference.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276462/5472950.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h4&gt;
+&lt;p&gt;The sample code below accesses the Data Labels of the Chart Series and then set &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/datalabels#ShowCellRange&#34;&gt;DataLabels.setShowCellRange()&lt;/a&gt; method to true to check &lt;strong&gt;Label Contains - Value From Cells&lt;/strong&gt; option.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Copy Sparkline by Specifying Data Range and Location of Sparkline Group</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngchartsandshapes/copy&#43;sparkline&#43;by&#43;specifying&#43;data&#43;range&#43;and&#43;location&#43;of&#43;sparkline&#43;group/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngchartsandshapes/copy&#43;sparkline&#43;by&#43;specifying&#43;data&#43;range&#43;and&#43;location&#43;of&#43;sparkline&#43;group/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--copy-sparkline-by-specifying-data-range-and-location-of-sparkline-group&#34;&gt;Aspose.Cells for Java : Copy Sparkline by Specifying Data Range and Location of Sparkline Group&lt;/h1&gt;
+&lt;p&gt;Microsoft Excel allows you to copy a Sparkline by specifying the Data Range and Location of Sparkline Group. Follow these steps to copy your Sparkline to other cells.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Select the cell containing your Sparkline.&lt;/li&gt;
+&lt;li&gt;Select &lt;strong&gt;Edit Data&lt;/strong&gt; from the &lt;strong&gt;Sparkline&lt;/strong&gt; section inside the &lt;strong&gt;Design&lt;/strong&gt; tab&lt;/li&gt;
+&lt;li&gt;Choose &lt;strong&gt;Edit Group Location &amp;amp; Data&amp;hellip;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Specify Data Range and Location and click OK.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Aspose.Cells provides the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/SparklineCollection&#34;&gt;SparklineCollection.add(dataRange, row, column)&lt;/a&gt; method to specify the Data Range and Location of Sparkline Group.&lt;/p&gt;
+&lt;h4 id=&#34;example&#34;&gt;Example&lt;/h4&gt;
+&lt;p&gt;The following screenshot shows the source Excel file used inside the code. The red highlighted area shows &amp;ldquo;&lt;strong&gt;Edit Group Location &amp;amp; Data&amp;hellip;&lt;/strong&gt;&amp;rdquo; option to specify the data range and location of the sparkline group. The cell P4 shows the sparkline which will be copied to the other four cells filled with yellow color using Aspose.Cells.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276463/5472948.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The following screenshot shows the output Excel file generated by the sample code. As you can see, the sparkline in cell P4 has been copied to the next four cells in column P each with different data range.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276463/5472947.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h4&gt;
+&lt;p&gt;The following sample code loads the source Excel file as shown in the screenshot above, then accesses the first sparkline group and adds data ranges and locations inside the sparkline group. Finally, it writes the output Excel file on disk which is also shown in the screenshot above.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Determine which Axis exists in the Chart</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngchartsandshapes/determine&#43;which&#43;axis&#43;exists&#43;in&#43;the&#43;chart/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngchartsandshapes/determine&#43;which&#43;axis&#43;exists&#43;in&#43;the&#43;chart/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--determine-which-axis-exists-in-the-chart&#34;&gt;Aspose.Cells for Java : Determine which Axis exists in the Chart&lt;/h1&gt;
+&lt;p&gt;Sometimes, the user needs to know if a particular axis exists in the Chart. For example, he wants to know if a Secondary Value Axis exists inside the chart or not. Some charts like Pie, PieExploded, PiePie, PieBar, Pie3D, Pie3DExploded, Doughnut, DoughnutExploded etc do not have an axis.&lt;/p&gt;
+&lt;p&gt;Aspose.Cells provides &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/chart#hasAxis(int,%20boolean)&#34;&gt;Chart.hasAxis(int axisType, boolean isPrimary)&lt;/a&gt; method to determine if the chart has a particular axis or not.&lt;/p&gt;
+&lt;h4 id=&#34;determine-which-axis-exists-in-the-chart&#34;&gt;Determine which Axis exists in the Chart&lt;/h4&gt;
+&lt;p&gt;The following screenshot shows a chart that has only the Primary Category and Value Axis. It does not have any Secondary Category and Value Axis.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276464/5472944.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The following sample code demonstrates the use of &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/chart#hasAxis(int,%20boolean)&#34;&gt;Chart.hasAxis(int axisType, boolean isPrimary)&lt;/a&gt;to determine if the sample chart has Primary and Secondary Category and Value Axis. The console output of the code has been shown below which displays true for Primary Category and Value Axis and false for Secondary Category and Value Axis.&lt;/p&gt;
+&lt;h4 id=&#34;console-output&#34;&gt;Console Output&lt;/h4&gt;
+&lt;p&gt;Here is the Console Output of the above Sample Code.&lt;/p&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_157c789e25&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_157c789e25&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Has&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Primary&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Category&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Axis&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;true&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Has&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Secondary&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Category&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Axis&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;false&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Has&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Primary&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Value&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Axis&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;true&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Has&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Seconary&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Value&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Axis&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;false&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Creating Waterfall Chart</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngchartsandshapes/creating&#43;waterfall&#43;chart/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngchartsandshapes/creating&#43;waterfall&#43;chart/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--creating-waterfall-chart&#34;&gt;Aspose.Cells for Java : Creating Waterfall Chart&lt;/h1&gt;
+&lt;p&gt;A waterfall chart is a special type of chart that is normally used to demonstrate how the starting position either increases or decreases. Microsoft Excel has many predefined chart types, including column, line, pie, bar, radar, etc. but the waterfall chart is beyond the basic graphs and can be created using the existing chart types with little or more customization.&lt;/p&gt;
+&lt;h4 id=&#34;creating-a-waterfall-chart&#34;&gt;Creating a Waterfall Chart&lt;/h4&gt;
+&lt;p&gt;Aspose.Cells APIs allows creating a waterfall chart with the help of line chart. The API also allows to customize the chart appearance to give it the shape of the waterfall by setting the most important properties to shape the chart, that is; &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/series#UpBars&#34;&gt;Series.UpBars&lt;/a&gt; &amp;amp; &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/series#DownBars&#34;&gt;Series.DownBars&lt;/a&gt; properties.&lt;/p&gt;
+&lt;p&gt;Below provided code snippet demonstrates the usage of Aspose.Cells for Java API to create a waterfall chart from scratch.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Rich Text Custom Data Label of Chart Point</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngchartsandshapes/rich&#43;text&#43;custom&#43;data&#43;label&#43;of&#43;chart&#43;point/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngchartsandshapes/rich&#43;text&#43;custom&#43;data&#43;label&#43;of&#43;chart&#43;point/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--rich-text-custom-data-label-of-chart-point&#34;&gt;Aspose.Cells for Java : Rich Text Custom Data Label of Chart Point&lt;/h1&gt;
+&lt;p&gt;You can use Aspose.Cells to create rich text custom data label of the chart point. Aspose.Cells provides the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/datalabels#characters(int,%20int)&#34;&gt;DataLabels.characters()&lt;/a&gt; method to return the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/FontSetting&#34;&gt;FontSetting&lt;/a&gt; object which can be used to set the font properties of the text like its color, boldness, etc.&lt;/p&gt;
+&lt;h4 id=&#34;rich-text-custom-data-label-of-chart-point&#34;&gt;Rich Text Custom Data Label of Chart Point&lt;/h4&gt;
+&lt;p&gt;The following code accesses the first chart point of the first series, sets its text and then sets the font of the first 10 characters by settings it&amp;rsquo;s color to red and boldness to true.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Locking WordArt Watermark</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngchartsandshapes/locking&#43;wordart&#43;watermark/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngchartsandshapes/locking&#43;wordart&#43;watermark/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--locking-wordart-watermark&#34;&gt;Aspose.Cells for Java : Locking WordArt Watermark&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells APIs allow adding WordArt watermarks on the worksheet in a way that the WordArt becomes an object that can be moved and positioned on the worksheet. It is also possible to lock the WordArt object for any interaction such as editing, movement &amp;amp; selection. This article explains the usage of &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/shape#setLockedProperty(int,%20boolean)&#34;&gt;Shape.setLockedProperty&lt;/a&gt; method to lock a few aspects of the watermark.&lt;/p&gt;
+&lt;h2 id=&#34;locking-wordart-watermark&#34;&gt;Locking WordArt Watermark&lt;/h2&gt;
+&lt;p&gt;Aspose.Cells APIs allow locking certain aspects of the watermark so that the user interaction could be limited or completely blocked. The following code snippet demonstrates the usage of Aspose.Cells for Java API to create a watermark for each worksheet in the loaded spreadsheet and lock selection, movement, editing, and re-sizing of the watermark.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Creating Pie Chart with Leader Lines</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngchartsandshapes/creating&#43;pie&#43;chart&#43;with&#43;leader&#43;lines/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngchartsandshapes/creating&#43;pie&#43;chart&#43;with&#43;leader&#43;lines/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--creating-pie-chart-with-leader-lines&#34;&gt;Aspose.Cells for Java : Creating Pie Chart with Leader Lines&lt;/h1&gt;
+&lt;p&gt;This article explains how to create a pie chart with leader lines from scratch while using Aspose.Cells for Java API. In Excel, the &amp;lsquo;Show leader lines&amp;rsquo; option is set by default so when you create a pie chart in Excel the leader lines are shown. However, while creating a similar chart with Aspose.Cells APIs, you have to explicitly set the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/series#HasLeaderLines&#34;&gt;Series.HasLeaderLines&lt;/a&gt; property.&lt;/p&gt;
+&lt;h3 id=&#34;creating-pie-chart-with-leader-lines&#34;&gt;Creating Pie Chart with Leader Lines&lt;/h3&gt;
+&lt;p&gt;In order to demonstrate the usage of Aspose.Cells for Java API to create a pie chart with leader lines, we will first create a new &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/Workbook&#34;&gt;Workbook&lt;/a&gt; and input some data that will serve as series data source. Once the data is in place, we will add a &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/Chart&#34;&gt;Chart&lt;/a&gt; of type &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/charttype#PIE&#34;&gt;Pie&lt;/a&gt; to the collection of charts and set it&amp;rsquo;s different aspects to get the desired chart view.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Resultant Pie Chart&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276452/5472942.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Generate Chart by Processing Smart Markers</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngchartsandshapes/generate&#43;chart&#43;by&#43;processing&#43;smart&#43;markers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngchartsandshapes/generate&#43;chart&#43;by&#43;processing&#43;smart&#43;markers/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--generate-chart-by-processing-smart-markers&#34;&gt;Aspose.Cells for Java : Generate Chart by Processing Smart Markers&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells APIs provide the &lt;code&gt;WorkbookDesigner&lt;/code&gt; class to work with Smart Markers where the formatting &amp;amp; formulas are placed in the designer spreadsheets and then processed against specified data source(s) to fill up the data according to the Smart Markers. It is also possible to create Excel charts by processing Smart Markers, that will require the following steps.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Creation of designer spreadsheet&lt;/li&gt;
+&lt;li&gt;Processing designer spreadsheet against specified data source&lt;/li&gt;
+&lt;li&gt;Creation of chart based on populated data&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;creation-of-designer-spreadsheet&#34;&gt;Creation of Designer Spreadsheet&lt;/h4&gt;
+&lt;p&gt;A designer spreadsheet is a simple Excel file created with Microsoft Excel application or Aspose.Cells APIs containing the visual formatting, formulas and smart markers, where the contents are to be populated at runtime.&lt;/p&gt;
+&lt;p&gt;Detailed information on Smart Markers is available &lt;a href=&#34;http://www.aspose.com/docs/display/cellsjava/Smart+Markers&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;For the sake of simplicity, we will create the designer spreadsheet using the Aspose.Cells for Java API, and later process it against a dynamically created data source for demonstration purposes.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Java&lt;/strong&gt;&lt;/p&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_6cac2ceb25&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_6cac2ceb25&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//Create an instance of Workbook
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Workbook&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;book&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Workbook&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;();&lt;/span&gt;
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//Access the first (default) Worksheet from the collection
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Worksheet&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;dataSheet&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;book&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;getWorksheets&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;().&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;get&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;0&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//Name the first Worksheet for referencing
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;dataSheet&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;setName&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;ChartData&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//Access the CellsCollection of ChartData Worksheet
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Cells&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;cells&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;dataSheet&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;getCells&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;();&lt;/span&gt;
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//Place the markers in the Worksheet according to desired layout
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;cells&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;get&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;A1&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;).&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;putValue&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&amp;amp;=$Headers(horizontal)&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;);&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;cells&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;get&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;A2&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;).&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;putValue&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&amp;amp;=$Year2000(horizontal)&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;);&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;cells&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;get&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;A3&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;).&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;putValue&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&amp;amp;=$Year2005(horizontal)&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;);&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;cells&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;get&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;A4&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;).&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;putValue&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&amp;amp;=$Year2010(horizontal)&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;);&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;cells&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;get&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;A5&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;).&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;putValue&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&amp;amp;=$Year2015(horizontal)&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;p&gt;If you save the resultant spreadsheet at this stage, the data in the worksheet will look as follow.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5275665/5472514.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;processing-designer-spreadsheet&#34;&gt;Processing Designer Spreadsheet&lt;/h4&gt;
+&lt;p&gt;In order to process the designer spreadsheet, we must have a data source that corresponds to the Smart Markers used in the designer spreadsheet. For instance, we have created a Smart Marker entry as &lt;strong&gt;&amp;amp;=$Headers(horizontal)&lt;/strong&gt;, that represents the variable by name Headers whereas the key &lt;strong&gt;(horizontal)&lt;/strong&gt; suggests that the data should be populated horizontally.&lt;/p&gt;
+&lt;p&gt;In order to demonstrate this use case, we will create the data source from scratch and process it against the designer spreadsheet created in previous step. However, in real time scenario, data could already be available for further processing so you can skip the creation of data source if data is already available.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Java&lt;/strong&gt;&lt;/p&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_5017797d75&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_5017797d75&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//Create string arrays which will serve as data sources to the smart markers
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;String&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;[]&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;headers&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;String&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;[]{&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Item 1&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Item 2&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Item 3&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Item 4&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Item 5&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Item 6&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Item 7&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Item 8&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Item 9&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Item 10&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Item 11&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Item 12&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;};&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;String&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;[]&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;year2000&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;String&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;[]{&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;2000&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;310&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;0&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;110&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;15&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;20&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;25&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;30&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;1222&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;200&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;421&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;210&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;133&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;};&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;String&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;[]&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;year2005&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;String&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;[]{&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;2005&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;508&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;0&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;170&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;280&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;190&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;400&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;105&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;132&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;303&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;199&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;120&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;100&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;};&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;String&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;[]&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;year2010&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;String&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;[]{&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;2010&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;0&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;210&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;230&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;1420&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;1530&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;160&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;170&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;110&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;199&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;129&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;120&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;230&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;};&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;String&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;[]&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;year2015&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;String&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;[]{&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;2015&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;2818&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;320&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;340&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;260&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;210&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;310&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;220&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;0&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;0&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;0&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;0&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;122&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;};&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;p&gt;Processing of Smart Markers is quite simple as follow.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Java&lt;/strong&gt;&lt;/p&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_d404afedb1&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_d404afedb1&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//Create an instance of WorkbookDesigner
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;WorkbookDesigner&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;designer&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;WorkbookDesigner&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;();&lt;/span&gt;
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//Set the Workbook property for the instance of WorkbookDesigner
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;designer&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;setWorkbook&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;book&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//Set data sources for smart markers
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;designer&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;setDataSource&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Headers&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;headers&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;);&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;designer&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;setDataSource&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Year2000&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;year2000&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;);&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;designer&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;setDataSource&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Year2005&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;year2005&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;);&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;designer&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;setDataSource&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Year2010&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;year2010&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;);&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;designer&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;setDataSource&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Year2015&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;year2015&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//Process the designer spreadsheet against the provided data sources
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;designer&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;process&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;();&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;p&gt;If you save the spreadsheet at this stage, the data will look as follow.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5275665/5472515.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Above code snippet uses the existing instance of the &lt;code&gt;Workbook&lt;/code&gt; class created in the first step. If you already have the designer spreadsheet file on disk or memory, you can create an instance of &lt;code&gt;Workbook&lt;/code&gt; class by loading the existing designer spreadsheet.&lt;/p&gt;
+&lt;h4 id=&#34;creation-of-chart&#34;&gt;Creation of Chart&lt;/h4&gt;
+&lt;p&gt;Once the data is in place, all we need to do is to create a chart based on the data source. In order to keep the example simple, we will use the &lt;code&gt;Chart.setChartDataRange&lt;/code&gt; method so that we do not have to configure the chart further.&lt;/p&gt;
+&lt;p&gt;The final chart looks as follow.&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5275665/5472513.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Resize Charts Data Label Shape To Fit Text</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngchartsandshapes/resize&#43;charts&#43;data&#43;label&#43;shape&#43;to&#43;fit&#43;text/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngchartsandshapes/resize&#43;charts&#43;data&#43;label&#43;shape&#43;to&#43;fit&#43;text/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--resize-charts-data-label-shape-to-fit-text&#34;&gt;Aspose.Cells for Java : Resize Chart&amp;rsquo;s Data Label Shape To Fit Text&lt;/h1&gt;
+&lt;p&gt;Excel application provides the &lt;strong&gt;Resize shape to fit text&lt;/strong&gt; option for Chart&amp;rsquo;s DataLabels in order to increase the size of the shape so that the text fits inside of it. This option can be accessed on Excel interface by selecting any of the data labels on the chart. Right click and select &lt;strong&gt;Format DataLabels&lt;/strong&gt; menu. On &lt;strong&gt;Size &amp;amp; Properties&lt;/strong&gt; tab, expand &lt;strong&gt;Alignment&lt;/strong&gt; to reveal the related properties including the &lt;strong&gt;Resize shape to fix text&lt;/strong&gt; option.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276044/5472510.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;resize-charts-data-label-shape-to-fit-text&#34;&gt;Resize Chart&amp;rsquo;s Data Label Shape To Fit Text&lt;/h3&gt;
+&lt;p&gt;In order to mimic Excel&amp;rsquo;s feature of resizing data label shapes to fit the text, the Aspose.Cells APIs have exposed the boolean type &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/datalabels#IsResizeShapeToFitText&#34;&gt;DataLabels.ResizeShapeToFitText&lt;/a&gt; property. The following piece of code shows the simple usage scenario of &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/datalabels#IsResizeShapeToFitText&#34;&gt;DataLabels.ResizeShapeToFitText&lt;/a&gt; property.&lt;/p&gt;
+&lt;p&gt;The chart looks as follows before executing the code.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276044/5472509.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The chart looks as follows after executing the code.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276044/5472507.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Create Dynamic Charts</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngchartsandshapes/create&#43;dynamic&#43;charts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngchartsandshapes/create&#43;dynamic&#43;charts/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--create-dynamic-charts&#34;&gt;Aspose.Cells for Java : Create Dynamic Charts&lt;/h1&gt;
+&lt;p&gt;Dynamic (or interactive) charts have the ability to change when you change the scope of data. In other words, the dynamic charts can automatically reflect changes when the data source is changed. In order to trigger the change in data source, one can use the filtering option of Excel Tables or use a control such as ComboBox or Dropdown list.&lt;/p&gt;
+&lt;p&gt;This article demonstrates the usage of Aspose.Cells for Java APIs to create dynamic charts using both of the aforementioned approaches.&lt;/p&gt;
+&lt;h4 id=&#34;using-excel-tables&#34;&gt;Using Excel Tables&lt;/h4&gt;
+&lt;p&gt;Excel tables are referred to as ListObjects in Aspose.Cells&amp;rsquo; perspective therefore we will use the term &amp;ldquo;ListObject&amp;rdquo; instead of &amp;ldquo;Table&amp;rdquo; for clarity. Please read in detail on how to &lt;a href=&#34;http://www.aspose.com/docs/display/cellsjava/Creating+a+List+Object&#34;&gt;create ListObjects&lt;/a&gt; with Aspose.Cells for .NET API.&lt;/p&gt;
+&lt;p&gt;ListObjects provides the in-built functionality to sort &amp;amp; filter the data upon user interaction. Both sorting &amp;amp; filtering options are provided through the drop-down lists which are automatically added to the header row of the &lt;code&gt;ListObject&lt;/code&gt;. Due to these features (sorting &amp;amp; filtering) , the &lt;code&gt;ListObject&lt;/code&gt; seems to be the perfect candidate to serve as the data source to a dynamic chart because when sorting or filtering is changed, the representation of data in the chart will be changed to reflect the current state of the &lt;code&gt;ListObject&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;In order to keep the demonstration simple to understand, we will create the &lt;code&gt;Workbook&lt;/code&gt; from scratch and move forward step by step as outlined below.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Create an empty &lt;code&gt;Workbook&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Access the &lt;code&gt;Cells&lt;/code&gt; of first &lt;code&gt;Worksheet&lt;/code&gt; in the &lt;code&gt;Workbook&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Insert some data to the cells.&lt;/li&gt;
+&lt;li&gt;Create &lt;code&gt;ListObject&lt;/code&gt; based on the inserted data.&lt;/li&gt;
+&lt;li&gt;Create &lt;code&gt;Chart&lt;/code&gt; based on the data range of &lt;code&gt;ListObject&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Save result on disc.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;using-dynamic-formulas&#34;&gt;Using Dynamic Formulas&lt;/h4&gt;
+&lt;p&gt;In case you do not wish to use the ListObjects as data source to the dynamic chart, the other option is to use Excel functions (or formulas) to create a dynamic range of data, and a control (such as ComboBox) to trigger the change in data. In this scenario, we will use the VLOOKUP function to fetch the appropriate values based on the selection of ComboBox. When selection is changed, the VLOOKUP function will refresh the cell value. If a range of cells is using the the VLOOKUP function, whole range can be refreshed upon user interaction, therefore can be used as source to the dynamic chart.&lt;/p&gt;
+&lt;p&gt;In order to keep the demonstration simple to understand, we will create the &lt;code&gt;Workbook&lt;/code&gt; from scratch and move forward step by step as outlined below.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Create an empty &lt;code&gt;Workbook&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Access the &lt;code&gt;Cells&lt;/code&gt; of first &lt;code&gt;Worksheet&lt;/code&gt; in the &lt;code&gt;Workbook&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Insert some data to the cells by creating a Named Range. This data will serve as series to the dynamic chart.&lt;/li&gt;
+&lt;li&gt;Create &lt;code&gt;ComboBox&lt;/code&gt; based on the Named Range created in previous step.&lt;/li&gt;
+&lt;li&gt;Insert some more data to the cells that will serve as source to the VLOOKUP function.&lt;/li&gt;
+&lt;li&gt;Insert VLOOKUP function (with appropriate parameters) to a range of cells. This will range will serve as source to the dynamic chart.&lt;/li&gt;
+&lt;li&gt;Create &lt;code&gt;Chart&lt;/code&gt; based on the range created in previous step.&lt;/li&gt;
+&lt;li&gt;Save result on disc.&lt;/li&gt;
+&lt;/ol&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Read Color of the Shapes Glow Effect</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngchartsandshapes/read&#43;color&#43;of&#43;the&#43;shapes&#43;glow&#43;effect/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngchartsandshapes/read&#43;color&#43;of&#43;the&#43;shapes&#43;glow&#43;effect/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--read-color-of-the-shapes-glow-effect&#34;&gt;Aspose.Cells for Java : Read Color of the Shape&amp;rsquo;s Glow Effect&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#read-color-of-the-glow-effect-of-shape&#34;&gt;Read Color of the Glow Effect of Shape&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;4 &lt;a href=&#34;#console-output&#34;&gt;Console Output&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;If you want to read the color of the glow effect of any shape, please use the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/gloweffect#Color&#34;&gt;Shape.Glow.Color&lt;/a&gt; property. It will help you find the various properties relating to the color of the glow effect applied in a shape.&lt;/p&gt;
+&lt;h2 id=&#34;read-color-of-the-glow-effect-of-shape&#34;&gt;Read Color of the Glow Effect of Shape&lt;/h2&gt;
+&lt;p&gt;Please see the following sample code and its &lt;a href=&#34;https://docs2.aspose.com/cells/java/attachments/22970440/23166984.xlsx&#34;&gt;source excel file&lt;/a&gt; and the console output for your reference. The following screenshot shows the glow effect of the shape inside the source excel file when viewed in Microsoft Excel.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/22970440/23166983.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+&lt;h2 id=&#34;console-output&#34;&gt;Console Output&lt;/h2&gt;
+&lt;p&gt;Here is the console output of the above sample code when executed with the provided &lt;a href=&#34;https://docs2.aspose.com/cells/java/attachments/22970440/23166984.xlsx&#34;&gt;source excel file&lt;/a&gt;.&lt;/p&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_b554270955&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_b554270955&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Color&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;com&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;aspose&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;cells&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Color@deff0000&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;ColorIndex&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;16711672&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;IsShapeColor&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;true&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Transparency&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;0.13&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Type&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;2&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Applying text alignment to partial text inside the TextBox</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngchartsandshapes/applying&#43;text&#43;alignment&#43;to&#43;partial&#43;text&#43;inside&#43;the&#43;textbox/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngchartsandshapes/applying&#43;text&#43;alignment&#43;to&#43;partial&#43;text&#43;inside&#43;the&#43;textbox/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--applying-text-alignment-to-partial-text-inside-the-textbox&#34;&gt;Aspose.Cells for Java : Applying text alignment to partial text inside the TextBox&lt;/h1&gt;
+&lt;p&gt;You can change the text alignment of partial text inside the TextBox shape using the appropriate HTML text.&lt;/p&gt;
+&lt;p&gt;The following sample code applies the text alignment to partial text inside the TextBox.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Get Connection points from shape</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngchartsandshapes/get&#43;connection&#43;points&#43;from&#43;shape/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngchartsandshapes/get&#43;connection&#43;points&#43;from&#43;shape/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--get-connection-points-from-shape&#34;&gt;Aspose.Cells for Java : Get Connection points from shape&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells provide rich features to manage shapes in the spreadsheet. Sometimes there is a need to get the connection points of a shape for aligning or placing the shapes at the appropriate place. For this purpose, all the connection points are required. The following code can be used to get the list of connection points of a shape where &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/shape#ConnectionPoints&#34;&gt;Shape.GetConnectionPoints()&lt;/a&gt; function is used.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

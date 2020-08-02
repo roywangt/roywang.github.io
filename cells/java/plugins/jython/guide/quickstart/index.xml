@@ -1,0 +1,41 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Quick Start in Jython</title>
+    <link>https://roywangt.github.io/cells/java/plugins/jython/guide/quickstart/</link>
+    <description>Recent content in Quick Start in Jython on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://roywangt.github.io/cells/java/plugins/jython/guide/quickstart/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Java: Hello World in Jython</title>
+      <link>https://roywangt.github.io/cells/java/plugins/jython/guide/quickstart/hello&#43;world&#43;in&#43;jython/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/plugins/jython/guide/quickstart/hello&#43;world&#43;in&#43;jython/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--hello-world-in-jython&#34;&gt;Aspose.Cells for Java : Hello World in Jython&lt;/h1&gt;
+&lt;h2 id=&#34;asposecells---hello-world&#34;&gt;Aspose.Cells - Hello World&lt;/h2&gt;
+&lt;p&gt;To append documents using &lt;strong&gt;Aspose.Cells Java for Jython&lt;/strong&gt;. Here you can see example code.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Jython Code&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;from asposewords import Settingsfrom com.aspose.Cells import Documentfrom com.aspose.Cells import ImportFormatModeclass HelloWorld:    def __init__(self):        dataDir = Settings.dataDir + &amp;lsquo;quickstart/&amp;rsquo;                workbook = Workbook()                sheet = workbook.getWorksheets().get(0)                cell = sheet.getCells().get(&amp;ldquo;A1&amp;rdquo;)                cell.setValue(&amp;ldquo;Hello World!&amp;quot;)                file_format_type = FileFormatType                workbook.save(dataDir + &amp;ldquo;HelloWorld.xls&amp;rdquo; , file_format_type.EXCEL_97_TO_2003 )                print &amp;ldquo;Document has been saved, please check the output file.&amp;quot;;if __name__ == &amp;lsquo;__main__&#39;:            HelloWorld()&lt;/p&gt;
+&lt;h2 id=&#34;download-running-code&#34;&gt;Download Running Code&lt;/h2&gt;
+&lt;p&gt;Download &lt;strong&gt;Append Documents (Aspose.Cells)&lt;/strong&gt; from any of the below mentioned social coding sites:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://asposecellsjavajython.codeplex.com/SourceControl/latest#asposecells/quickstart/HelloWorld.py&#34;&gt;CodePlex&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/quickstart/HelloWorld.py&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

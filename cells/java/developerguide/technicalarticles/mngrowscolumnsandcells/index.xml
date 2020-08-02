@@ -1,0 +1,330 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Managing Rows Columns and Cells</title>
+    <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngrowscolumnsandcells/</link>
+    <description>Recent content in Managing Rows Columns and Cells on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngrowscolumnsandcells/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Java: Populate Data First by Row then by Column</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngrowscolumnsandcells/populate&#43;data&#43;first&#43;by&#43;row&#43;then&#43;by&#43;column/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngrowscolumnsandcells/populate&#43;data&#43;first&#43;by&#43;row&#43;then&#43;by&#43;column/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--populate-data-first-by-row-then-by-column&#34;&gt;Aspose.Cells for Java : Populate Data First by Row then by Column&lt;/h1&gt;
+&lt;p&gt;Populating a spreadsheet with data first by row and then by column improves the overall performance.&lt;/p&gt;
+&lt;h3 id=&#34;example&#34;&gt;Example&lt;/h3&gt;
+&lt;p&gt;Putting data in the sequence A1, B1, A2, B2 is faster than A1, A2, B1, B2. If there are many cells in a worksheet and you follow the second sequence, that is, you&amp;rsquo;re filling the data row by row, this tip can make the program much faster.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Insert or Delete Rows in an Excel Worksheet</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngrowscolumnsandcells/insert&#43;or&#43;delete&#43;rows&#43;in&#43;an&#43;excel&#43;worksheet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngrowscolumnsandcells/insert&#43;or&#43;delete&#43;rows&#43;in&#43;an&#43;excel&#43;worksheet/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--insert-or-delete-rows-in-an-excel-worksheet&#34;&gt;Aspose.Cells for Java : Insert or Delete Rows in an Excel Worksheet&lt;/h1&gt;
+&lt;p&gt;When creating a new worksheet, or working with an existing worksheet, you might need to add extra rows or columns to accommodate data. At other times, you might need to delete rows or columns from specified positions in the worksheet.&lt;/p&gt;
+&lt;p&gt;Aspose.Cells offers two methods for inserting and deleting rows: &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/cells#insertRow(int)&#34;&gt;Cells.insertRows&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/cells#deleteRows(int,%20int)&#34;&gt;Cells.deleteRows&lt;/a&gt;. These methods are optimized for performance and do the job very quickly.&lt;/p&gt;
+&lt;p&gt;To insert or remove a number of rows, we recommend that you always use the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/cells#insertRow(int)&#34;&gt;Cells.insertRows&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/cells#deleteRows(int,%20int)&#34;&gt;Cells.deleteRows&lt;/a&gt; methods instead of using the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/cells#insertRow(int)&#34;&gt;Cells.insertRow&lt;/a&gt; or &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/cells#deleteRow(int)&#34;&gt;Cells.deleteRow&lt;/a&gt; methods in a loop.&lt;/p&gt;
+&lt;p&gt;Aspose.Cells works in the same way as Microsoft Excel does. When rows or columns are added, the worksheet content is shifted down and to the right. When rows or columns are removed, the worksheet content is shifted up or to the left. Any references in other worksheets and cells are updated when rows are added or removed.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Detect Merged Cells in a Worksheet</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngrowscolumnsandcells/detect&#43;merged&#43;cells&#43;in&#43;a&#43;worksheet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngrowscolumnsandcells/detect&#43;merged&#43;cells&#43;in&#43;a&#43;worksheet/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--detect-merged-cells-in-a-worksheet&#34;&gt;Aspose.Cells for Java : Detect Merged Cells in a Worksheet&lt;/h1&gt;
+&lt;p&gt;In Microsoft Excel, several cells can be merged into one. This is often used to create complex tables or to create a cell that holds a heading that spans several columns.&lt;/p&gt;
+&lt;p&gt;Aspose.Cells allows you to identify merged cell areas in a worksheet. You can unmerge them too. This article provides the simplest lines of code for performing the task using Aspose.Cells.&lt;/p&gt;
+&lt;p&gt;This article provides compact instructions on how to find and then unmerge merged cells in a worksheet.&lt;/p&gt;
+&lt;h3 id=&#34;demonstration&#34;&gt;Demonstration&lt;/h3&gt;
+&lt;p&gt;This example uses a template Microsoft Excel file called &lt;strong&gt;MergeTrial&lt;/strong&gt;. It has some merged cell areas in a sheet also called Merge Trial.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The template file&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276681/5472889.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Aspose.Cells provides the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/cells#MergedCells&#34;&gt;Cells.getMergedCells&lt;/a&gt; method which is used to get an ArrayList of merged cell areas.&lt;/p&gt;
+&lt;p&gt;When the code below is executed, it clears the contents of the sheet and unmerges all the cell areas before saving the file again.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The Output File&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276681/5472888.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;code-example&#34;&gt;Code Example&lt;/h3&gt;
+&lt;p&gt;Please see the following sample code to find how to identify merged cell areas in a worksheet and unmerge them.&lt;/p&gt;
+&lt;h4 id=&#34;related-articles&#34;&gt;Related Articles&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/data/merging+and+unmerging+cells&#34;&gt;Merging and splitting cells&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Copy Rows and Columns</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngrowscolumnsandcells/copy&#43;rows&#43;and&#43;columns/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngrowscolumnsandcells/copy&#43;rows&#43;and&#43;columns/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--copy-rows-and-columns&#34;&gt;Aspose.Cells for Java : Copy Rows and Columns&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells APIs provide the facility to copy rows and columns within or between the workbooks. While copying row or column, all the data is copied along with the styling, formulas (with updated references) and resulting values, comments, cell styles, hidden cells, images, and drawing objects.&lt;/p&gt;
+&lt;h3 id=&#34;copying-rows&#34;&gt;Copying Rows&lt;/h3&gt;
+&lt;h4 id=&#34;copying-single-row&#34;&gt;Copying Single Row&lt;/h4&gt;
+&lt;p&gt;The following example shows how to copy a single row in a worksheet. The example uses a Microsoft Excel spreadsheet as input and copies the first row to the next 10 rows in the same worksheet.&lt;/p&gt;
+&lt;p&gt;Below is a snapshot of the input spreadsheet.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276682/5472893.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;After executing the above code snippet, the resultant spreadsheet looks as follow.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276682/5472892.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;copying-multiple-rows&#34;&gt;Copying Multiple Rows&lt;/h4&gt;
+&lt;p&gt;You can also copy multiple rows onto a new destination while using the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/cells#copyRow(com.aspose.cells.Cells,%20int,%20int)&#34;&gt;Cells.copyRows&lt;/a&gt; method which takes an additional parameter of type integer to specify the number of source rows to be copied.&lt;/p&gt;
+&lt;p&gt;Below is a snapshot of the input spreadsheet containing 3 rows of data whereas the code snippet provided below copies all 3 rows to a new location starting from 7th row.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276682/5473452.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Here is the resultant spreadsheet view after executing the above code snippet.&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276682/5473455.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;copying-columns&#34;&gt;Copying Columns&lt;/h3&gt;
+&lt;h4 id=&#34;copying-single-column&#34;&gt;Copying Single Column&lt;/h4&gt;
+&lt;p&gt;The following example shows how to copy a column in a worksheet. This example uses an existing spreadsheet as input to the process and copies the first column to next 10 columns using two different approaches.&lt;/p&gt;
+&lt;p&gt;Here is how the input spreadsheet looks.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276682/5472891.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Here is the view of resultant spreadsheet after executing the above code snippet.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276682/5472890.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;copying-multiple-columns&#34;&gt;Copying Multiple Columns&lt;/h4&gt;
+&lt;p&gt;Similar to &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/cells#copyRow(com.aspose.cells.Cells,%20int,%20int)&#34;&gt;Cells.copyRows&lt;/a&gt; method, the Aspose.Cells APIs also provide the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/cells#copyColumns(com.aspose.cells.Cells,%20int,%20int,%20int)&#34;&gt;Cells.copyColumns&lt;/a&gt; method in order to copy multiple source columns to a new location.&lt;/p&gt;
+&lt;p&gt;Here is how source and resultant spreadsheets look in Excel.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276682/5473459.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276682/5473458.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: AutoFit Rows for Merged Cells</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngrowscolumnsandcells/autofit&#43;rows&#43;for&#43;merged&#43;cells/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngrowscolumnsandcells/autofit&#43;rows&#43;for&#43;merged&#43;cells/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--autofit-rows-for-merged-cells&#34;&gt;Aspose.Cells for Java : AutoFit Rows for Merged Cells&lt;/h1&gt;
+&lt;p&gt;Microsoft Excel provides a feature that allows you to auto-size the height of a cell according to its content. The feature is called auto-fit rows. Microsoft Excel doesn&amp;rsquo;t set auto-fit operation on merged cells natively. Sometimes the feature becomes vital for a user who really needs to implement auto-fit rows on merged cells too.&lt;/p&gt;
+&lt;p&gt;Aspose.Cells supports this feature through the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/AutoFitterOptions&#34;&gt;AutoFitterOptions&lt;/a&gt; API. Using this API, it is possible to auto-fit rows in a worksheet including merged cells.&lt;/p&gt;
+&lt;p&gt;After executing the code, Aspose.Cells auto-fits rows for merged cells.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Output Excel file&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276683/5472885.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Search and Replace Data in a Range</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngrowscolumnsandcells/search&#43;and&#43;replace&#43;data&#43;in&#43;a&#43;range/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngrowscolumnsandcells/search&#43;and&#43;replace&#43;data&#43;in&#43;a&#43;range/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--search-and-replace-data-in-a-range&#34;&gt;Aspose.Cells for Java : Search and Replace Data in a Range&lt;/h1&gt;
+&lt;p&gt;Sometimes, you need to search for and replace specific data in a range, ignoring any cell values outside the desired range. Aspose.Cells allows you to limit a search to a specific range. This article explains how.&lt;/p&gt;
+&lt;p&gt;Aspose.Cells provides the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/findoptions#setRange(com.aspose.cells.CellArea)&#34;&gt;FindOptions.setRange()&lt;/a&gt; method for specifying a range when searching for data.&lt;/p&gt;
+&lt;p&gt;Suppose you want to search for the string &lt;strong&gt;&amp;ldquo;search&amp;rdquo;&lt;/strong&gt; and replace it with &lt;strong&gt;&amp;ldquo;replace&amp;rdquo;&lt;/strong&gt; in the range &lt;strong&gt;E3:H6&lt;/strong&gt;. In the screenshot below, the string &amp;ldquo;search&amp;rdquo; can be seen in several cells but we want to replace it only in a given range, here highlighted in yellow.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Input file&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276684/5472883.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;After the execution of the code, the output file looks like the below. All &amp;ldquo;search&amp;rdquo; strings within the range have been replaced with &amp;ldquo;replace&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Output file&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276684/5472882.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Merge or Unmerge Range of Cells</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngrowscolumnsandcells/merge&#43;or&#43;unmerge&#43;range&#43;of&#43;cells/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngrowscolumnsandcells/merge&#43;or&#43;unmerge&#43;range&#43;of&#43;cells/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--merge-or-unmerge-range-of-cells&#34;&gt;Aspose.Cells for Java : Merge or Unmerge Range of Cells&lt;/h1&gt;
+&lt;p&gt;You can use Aspose.Cells to merge or split a range of cells. Aspose.Cells provides the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/range#merge()&#34;&gt;Range.merge()&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/range#unMerge()&#34;&gt;Range.unMerge()&lt;/a&gt; methods for this purpose. This article explains how to merge a range of cells into a single cell.&lt;/p&gt;
+&lt;p&gt;The following sample code first creates a range - A1:D4 - and then merges the cells in the range into a single cell using the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/range#merge()&#34;&gt;Range.merge()&lt;/a&gt; method.&lt;br&gt;
+Similarly, it is possible to split cells by creating a range and calling the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/range#unMerge()&#34;&gt;Range.unMerge()&lt;/a&gt; method.&lt;/p&gt;
+&lt;p&gt;The following image shows the output Excel file generated with the sample code. As you can see, the range A1:D4 has been merged into a single cell.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276677/5472902.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;related-articles&#34;&gt;Related Articles&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/data/merging+and+unmerging+cells&#34;&gt;Merging and splitting cells&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Get Validation Applied on a Cell</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngrowscolumnsandcells/get&#43;validation&#43;applied&#43;on&#43;a&#43;cell/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngrowscolumnsandcells/get&#43;validation&#43;applied&#43;on&#43;a&#43;cell/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--get-validation-applied-on-a-cell&#34;&gt;Aspose.Cells for Java : Get Validation Applied on a Cell&lt;/h1&gt;
+&lt;p&gt;You can use Aspose.Cells API to get the validation applied to any cell. Aspose.Cells provides the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/cell#getValidation()&#34;&gt;Cell.getValidation&lt;/a&gt; method for this purpose. If there is no validation on the cell, it returns null. Similarly, you can use the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/validationcollection#getValidationInCell(int,%20int)&#34;&gt;Worksheet.getValidations().getValidationInCell(int row, int column)&lt;/a&gt; method to acquire the validation applied to a cell by providing its row and column indices.&lt;/p&gt;
+&lt;p&gt;The following snapshot shows the sample Microsoft Excel file used in the sample code below. Cell &lt;strong&gt;C1&lt;/strong&gt; has &lt;strong&gt;decimal validation&lt;/strong&gt; applied and can only take values &lt;strong&gt;between 10 and 20&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;A cell with validation&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276678/5472908.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The sample code below gets the validation applied to C1 and reads its various properties.&lt;/p&gt;
+&lt;p&gt;Here is the console output from the sample code executed with the sample file shown in the snapshot above.&lt;/p&gt;
+&lt;p&gt;Reading Properties of Validation&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash;Type: 2Operator: 0Formula1: =10Formula2: =20Ignore blank: true&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Verify that Cell Value Satisfies Data Validation Rules</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngrowscolumnsandcells/verify&#43;that&#43;cell&#43;value&#43;satisfies&#43;data&#43;validation&#43;rules/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngrowscolumnsandcells/verify&#43;that&#43;cell&#43;value&#43;satisfies&#43;data&#43;validation&#43;rules/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--verify-that-cell-value-satisfies-data-validation-rules&#34;&gt;Aspose.Cells for Java : Verify that Cell Value Satisfies Data Validation Rules&lt;/h1&gt;
+&lt;p&gt;Microsoft Excel allows users to add data validation rules to worksheet cells. For instance, a decimal validation can be applied to restrict the numbers between 10 and 20. If any other number out of this specified range is entered, the Microsoft Excel shows an error message and prompts the user to reenter a number from the correct range. If user copy pastes a number, say 3, into the cell, Excel does not run the validation check or show an error message.&lt;/p&gt;
+&lt;p&gt;Sometimes, it is necessary to dynamically verify if a given value satisfies the data validation rules applied to the cell. For this purpose, the Aspose.Cells APIs provide the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/cell#getValidationValue()&#34;&gt;cell.getValidationValue&lt;/a&gt; method. If the value in a cell does not satisfy the data validation rule applied to that cell, it returns &lt;strong&gt;False&lt;/strong&gt;, else &lt;strong&gt;True&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;The following sample Microsoft Excel file is used with the sample code below to test the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/cell#getValidationValue()&#34;&gt;cell.getValidationValue&lt;/a&gt; method. As you can see in the snapshot that the cells &lt;strong&gt;C1&lt;/strong&gt; has &lt;strong&gt;decimal data validation&lt;/strong&gt; applied and will only accept values &lt;strong&gt;between 10 and 20&lt;/strong&gt;. Whenever the value of the cell is between 10 and 20, &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/cell#getValidationValue()&#34;&gt;cell.getValidationValue&lt;/a&gt; method will return &lt;strong&gt;True&lt;/strong&gt;, otherwise, it will return &lt;strong&gt;False&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276679/5472906.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The following sample code illustrates how the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/cell#getValidationValue()&#34;&gt;cell.getValidationValue&lt;/a&gt; method works. First, it enters the value 3 into C1. Because this does not satisfy the data validation rule, the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/cell#getValidationValue()&#34;&gt;cell.getValidationValue&lt;/a&gt; method returns &lt;strong&gt;False&lt;/strong&gt;. Then, it enters the value 15 into C1. Because this value satisfies the data validation rule, the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/cell#getValidationValue()&#34;&gt;cell.getValidationValue&lt;/a&gt; method returns &lt;strong&gt;True&lt;/strong&gt;. Similarly, it returns &lt;strong&gt;False&lt;/strong&gt; for value 30. Here is the console output generated when the sample code is executed with the sample Excel file shown above.&lt;/p&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_666610f1e2&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_666610f1e2&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Is&lt;/span&gt; &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;3&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;a&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Valid&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Value&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;for&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;this&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Cell&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;False&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Is&lt;/span&gt; &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;15&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;a&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Valid&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Value&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;for&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;this&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Cell&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;True&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Is&lt;/span&gt; &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;30&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;a&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Valid&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Value&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;for&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;this&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Cell&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;False&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Applying Subtotal and Changing Direction of Outline Summary Rows below Detail</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngrowscolumnsandcells/applying&#43;subtotal&#43;and&#43;changing&#43;direction&#43;of&#43;outline&#43;summary&#43;rows&#43;below&#43;detail/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngrowscolumnsandcells/applying&#43;subtotal&#43;and&#43;changing&#43;direction&#43;of&#43;outline&#43;summary&#43;rows&#43;below&#43;detail/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--applying-subtotal-and-changing-direction-of-outline-summary-rows-below-detail&#34;&gt;Aspose.Cells for Java : Applying Subtotal and Changing Direction of Outline Summary Rows below Detail&lt;/h1&gt;
+&lt;p&gt;This article will explain how to apply Subtotal to data and changing the direction of Outline Summary Rows below Detail.&lt;/p&gt;
+&lt;p&gt;You can apply Subtotal to data using Worksheet.Cells.subtotal() method. It takes the following parameters.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;CellArea&lt;/strong&gt; - The range to apply subtotal on&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GroupBy&lt;/strong&gt; - The field to group by, as a zero-based integer offset&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Function&lt;/strong&gt; - The subtotal function.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;TotalList&lt;/strong&gt; - An array of zero-based field offsets, indicating the fields to which the subtotals are added.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Replace&lt;/strong&gt; - Indicates whether replace the current subtotals&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;PageBreaks&lt;/strong&gt; - Indicates whether add a page break between groups&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;SummaryBelowData&lt;/strong&gt; - Indicates whether add summary below data.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Also, you can control the direction of Outline &lt;strong&gt;Summary rows below detail&lt;/strong&gt; as shown in the following screenshot using &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/outline#SummaryRowBelow&#34;&gt;Worksheet.getOutline().SummaryRowBelow&lt;/a&gt; property. You can open this setting in Microsoft Excel using &lt;strong&gt;Data &amp;gt; Outline &amp;gt; Settings&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276680/5472907.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;example&#34;&gt;Example&lt;/h4&gt;
+&lt;p&gt;The following screenshot shows the source Excel file used in the sample code below which contains some data in columns A and B.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276680/5472896.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The following screenshot shows the output Excel file generated by the sample code. As you can see, subtotal has been applied to range &lt;strong&gt;A2:B11&lt;/strong&gt; and the direction of the outline is summary rows below detail.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276680/5472897.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Here is the sample code to achieve the output as shown above.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Accessing Table from Cell and Adding Values inside it using Row and Column Offsets</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngrowscolumnsandcells/accessing&#43;table&#43;from&#43;cell&#43;and&#43;adding&#43;values&#43;inside&#43;it&#43;using&#43;row&#43;and&#43;column&#43;offsets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngrowscolumnsandcells/accessing&#43;table&#43;from&#43;cell&#43;and&#43;adding&#43;values&#43;inside&#43;it&#43;using&#43;row&#43;and&#43;column&#43;offsets/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--accessing-table-from-cell-and-adding-values-inside-it-using-row-and-column-offsets&#34;&gt;Aspose.Cells for Java : Accessing Table from Cell and Adding Values inside it using Row and Column Offsets&lt;/h1&gt;
+&lt;p&gt;Normally, you add values inside the Table or List Object using &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/cell#putValue(boolean)&#34;&gt;Cell.putValue()&lt;/a&gt; method. But sometimes, you might need to add values inside the Table or List Object using the row and column offsets.&lt;/p&gt;
+&lt;p&gt;In order to access Table or List Object from a cell, use the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/cell#getTable()&#34;&gt;Cell.getTable()&lt;/a&gt; method. And to add values inside it using the row and column offsets, use the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/listobject#putCellValue(int,%20int,%20java.lang.Object)&#34;&gt;ListObject.putCellValue(rowOffset,columnOffset,value)&lt;/a&gt; method.&lt;/p&gt;
+&lt;h4 id=&#34;example&#34;&gt;Example&lt;/h4&gt;
+&lt;p&gt;The following screenshot shows the source Excel file used inside the code. It contains the empty table and highlights the cell D5 which lies inside the table. We will access this table from cell D5 using &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/cell#getTable()&#34;&gt;Cell.getTable()&lt;/a&gt; method and then add the values inside it using both &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/cell#putValue(boolean)&#34;&gt;Cell.putValue()&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/listobject#putCellValue(int,%20int,%20java.lang.Object)&#34;&gt;ListObject.putCellValue(rowOffset,columnOffset,value)&lt;/a&gt; methods.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276689/5472901.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The following screenshot shows the output Excel file generated by the code. As you can see cell D5 has a value and cell F6 which is at the offset 2,2 of the table has a value.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276689/5472898.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h4&gt;
+&lt;p&gt;The following sample code loads the source Excel file as shown in the above screenshot and adds values inside the table and generates the output Excel file as shown above.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Implementing Non-Sequential Ranges</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngrowscolumnsandcells/implementing&#43;non-sequential&#43;ranges/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngrowscolumnsandcells/implementing&#43;non-sequential&#43;ranges/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--implementing-non-sequential-ranges&#34;&gt;Aspose.Cells for Java : Implementing Non-Sequential Ranges&lt;/h1&gt;
+&lt;p&gt;Normally, &lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/data/named+ranges&#34;&gt;named ranges&lt;/a&gt; are rectangular with cells continuous and adjacent to each other. But sometimes, you may need to use a non-sequential cell range in which cells are not adjacent. Aspose.Cells supports creating a named range with non-adjacent cells.&lt;/p&gt;
+&lt;p&gt;The code sample below shows how to create a named non-sequential range with Aspose.Cells for Java.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

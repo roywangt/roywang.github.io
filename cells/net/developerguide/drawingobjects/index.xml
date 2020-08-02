@@ -1,0 +1,1225 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Drawing Objects</title>
+    <link>https://roywangt.github.io/cells/net/developerguide/drawingobjects/</link>
+    <description>Recent content in Drawing Objects on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://roywangt.github.io/cells/net/developerguide/drawingobjects/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Net: Access and Modify the Display Label of the Linked Ole Object</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/drawingobjects/access&#43;and&#43;modify&#43;the&#43;display&#43;label&#43;of&#43;the&#43;linked&#43;ole&#43;object/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/drawingobjects/access&#43;and&#43;modify&#43;the&#43;display&#43;label&#43;of&#43;the&#43;linked&#43;ole&#43;object/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--access-and-modify-the-display-label-of-the-linked-ole-object&#34;&gt;Aspose.Cells for .NET : Access and Modify the Display Label of the Linked Ole Object&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#access-and-modify-the-display-label-of-the-linked-ole-object&#34;&gt;Access and Modify the Display Label of the Linked Ole Object&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;4 &lt;a href=&#34;#console-output&#34;&gt;Console Output&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;Microsoft Excel allows you to change the display label of the Ole Object as shown in the following screenshot. You can also access or modify the display label of the Ole object using Aspose.Cells APIs with the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.drawing/oleobject/properties/label&#34;&gt;OleObject.Label&lt;/a&gt; property. &lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/64454834/64716823.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;access-and-modify-the-display-label-of-the-linked-ole-object&#34;&gt;Access and Modify the Display Label of the Linked Ole Object&lt;/h2&gt;
+&lt;p&gt;Please see the following sample code, it loads the &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/64454834/64716810.xlsx&#34;&gt;sample Excel file&lt;/a&gt; that contains the Ole Object. The code accesses the Ole Object and changes its Label from &lt;code&gt;Sample APIs&lt;/code&gt; to &lt;code&gt;Aspose APIs&lt;/code&gt;. Please see the console output given below that shows the effect of the sample code on the sample Excel file for a reference.&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+&lt;h2 id=&#34;console-output&#34;&gt;Console Output&lt;/h2&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_e37c042c97&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_e37c042c97&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Ole&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Object&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Label&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Before&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Sample&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;APIs&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Ole&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Object&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Label&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;After&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Aspose&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;APIs&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Convert the Smart Art to Group Shape</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/drawingobjects/convert&#43;the&#43;smart&#43;art&#43;to&#43;group&#43;shape/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/drawingobjects/convert&#43;the&#43;smart&#43;art&#43;to&#43;group&#43;shape/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--convert-the-smart-art-to-group-shape&#34;&gt;Aspose.Cells for .NET : Convert the Smart Art to Group Shape&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#convert-the-smart-art-to-group-shape&#34;&gt;Convert the Smart Art to Group Shape&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;4 &lt;a href=&#34;#console-output&#34;&gt;Console Output&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;You can convert Smart Art Shape into Group Shape using the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.drawing/shape/methods/getresultofsmartart&#34;&gt;Shape.GetResultOfSmartArt()&lt;/a&gt; method. It will enable you to handle smart art shape like a group shape. Consequently, you will have access to the individual parts or shapes of the group shape.&lt;/p&gt;
+&lt;h2 id=&#34;convert-the-smart-art-to-group-shape&#34;&gt;Convert the Smart Art to Group Shape&lt;/h2&gt;
+&lt;p&gt;The following sample code loads the &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/54690186/55541793.xlsx&#34;&gt;sample Excel file&lt;/a&gt; containing a smart art shape as shown in this screenshot. It then converts the smart art shape into group shape and prints the Shape.IsGroup property. Please see the console output of the sample code given below.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/54690186/55541797.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+&lt;h2 id=&#34;console-output&#34;&gt;Console Output&lt;/h2&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_a952be4556&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_a952be4556&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Is&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Smart&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Art&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Shape&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;True&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Is&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Group&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Shape&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;False&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Is&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Group&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Shape&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;True&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Data in Non-Primitive Shape</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/drawingobjects/data&#43;in&#43;non-primitive&#43;shape/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/drawingobjects/data&#43;in&#43;non-primitive&#43;shape/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--data-in-non-primitive-shape&#34;&gt;Aspose.Cells for .NET : Data in Non-Primitive Shape&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#accessing-data-of-non-primitive-shape&#34;&gt;Accessing Data of Non-Primitive Shape&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#a-non-primitive-shape&#34;&gt;A Non-Primitive Shape&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;accessing-data-of-non-primitive-shape&#34;&gt;Accessing Data of Non-Primitive Shape&lt;/h2&gt;
+&lt;p&gt;Sometimes, you need to access data from a shape that is not built-in. Built-in shapes are called primitive shapes; ones that aren&amp;rsquo;t are called non-primitive. For example, you can define your own shapes using different curve connected lines.&lt;/p&gt;
+&lt;h2 id=&#34;a-non-primitive-shape&#34;&gt;A Non-Primitive Shape&lt;/h2&gt;
+&lt;p&gt;In Aspose.Cells, non-primitive shapes are assigned the type &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.drawing/autoshapetype&#34;&gt;AutoShapeType.NotPrimitive&lt;/a&gt;. You can check their type using the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.drawing/shape/properties/autoshapetype&#34;&gt;Shape.AutoShapeType&lt;/a&gt; property.&lt;/p&gt;
+&lt;p&gt;Access the shape data using the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.drawing/shape/properties/paths&#34;&gt;Shape.Paths&lt;/a&gt; property. It returns all the connected paths that comprise the non-primitive shape. These paths are of the type &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.drawing/shapepath&#34;&gt;ShapePath&lt;/a&gt; that holds a list of all the segments which in turn contain the points in each segment.&lt;/p&gt;
+
+&lt;div class=&#34;table table-striped&#34; role=&#34;alert&#34;&gt;
+    &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Shows an example of a non-primitive shape&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5017130/92340232.jpg&#34; alt=&#34;&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Determine if Shape is Smart Art Shape</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/drawingobjects/determine&#43;if&#43;shape&#43;is&#43;smart&#43;art&#43;shape/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/drawingobjects/determine&#43;if&#43;shape&#43;is&#43;smart&#43;art&#43;shape/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--determine-if-shape-is-smart-art-shape&#34;&gt;Aspose.Cells for .NET : Determine if Shape is Smart Art Shape&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#determine-if-shape-is-smart-art-shape&#34;&gt;Determine if Shape is Smart Art Shape&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;4 &lt;a href=&#34;#console-output&#34;&gt;Console Output&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;Smart Art Shapes are special shapes in Microsoft Excel that allow you to create complex diagrams automatically. You can find if the shape is a smart art shape or normal shape using &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.drawing/shape/properties/issmartart&#34;&gt;Shape.IsSmartArt&lt;/a&gt; property.&lt;/p&gt;
+&lt;h2 id=&#34;determine-if-shape-is-smart-art-shape&#34;&gt;Determine if Shape is Smart Art Shape&lt;/h2&gt;
+&lt;p&gt;The following sample code loads the &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/54690177/55541792.xlsx&#34;&gt;sample Excel file&lt;/a&gt; containing a smart art shape as shown in this screenshot. It then prints the value of &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.drawing/shape/properties/issmartart&#34;&gt;Shape.IsSmartArt&lt;/a&gt; property of the first shape. Please see the console output of the sample code given below.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/54690177/55541796.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+&lt;h2 id=&#34;console-output&#34;&gt;Console Output&lt;/h2&gt;
+&lt;p&gt;Is Smart Art Shape: True&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Extract Text from the Gear Type SmartArt Shape</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/drawingobjects/extract&#43;text&#43;from&#43;the&#43;gear&#43;type&#43;smartart&#43;shape/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/drawingobjects/extract&#43;text&#43;from&#43;the&#43;gear&#43;type&#43;smartart&#43;shape/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--extract-text-from-the-gear-type-smartart-shape&#34;&gt;Aspose.Cells for .NET : Extract Text from the Gear Type SmartArt Shape&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#extract-text-from-the-gear-type-smartart-shape&#34;&gt;Extract Text from the Gear Type SmartArt Shape&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;4 &lt;a href=&#34;#console-output&#34;&gt;Console Output&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;Aspose.Cells can extract text from the &lt;code&gt;Gear Type Smart Art Shape&lt;/code&gt;. In order to do so, you should first convert &lt;code&gt;Smart Art Shape&lt;/code&gt; to &lt;code&gt;Group Shape&lt;/code&gt; using the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.drawing/shape/methods/getresultofsmartart&#34;&gt;Shape.GetResultOfSmartArt()&lt;/a&gt; method. Then you should get the array of all the &lt;code&gt;Individual Shapes&lt;/code&gt; forming the Group Shape using the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.drawing/groupshape/methods/getgroupedshapes&#34;&gt;GroupShape.GetGroupedShapes()&lt;/a&gt; method. Finally, you can iterate all of the Individual Shapes one by one in a loop and extract their text using the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.drawing/shape/properties/text&#34;&gt;Shape.Text&lt;/a&gt; property.&lt;/p&gt;
+&lt;h2 id=&#34;extract-text-from-the-gear-type-smartart-shape&#34;&gt;Extract Text from the Gear Type SmartArt Shape&lt;/h2&gt;
+&lt;p&gt;The following sample code loads the &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/66948394/67338483.xlsx&#34;&gt;sample Excel file&lt;/a&gt; that contains &lt;code&gt;Gear Type Smart Art Shape&lt;/code&gt;. It then extracts the text from its individual shapes as discussed above. Please see the console output of the code given below for a reference.&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+&lt;h2 id=&#34;console-output&#34;&gt;Console Output&lt;/h2&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_08812fc1a3&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_08812fc1a3&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Gear&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Type&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Shape&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Text&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Nice&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Gear&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Type&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Shape&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Text&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Good&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Gear&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Type&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Shape&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Text&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Excellent&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Managing Comments</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/drawingobjects/managing&#43;comments/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/drawingobjects/managing&#43;comments/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--managing-comments&#34;&gt;Aspose.Cells for .NET : Managing Comments&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#introduction&#34;&gt;Introduction&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#adding-a-comment&#34;&gt;Adding a Comment&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#comment-formatting&#34;&gt;Comment Formatting&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;4 &lt;a href=&#34;#add-an-image-to-comment&#34;&gt;Add an Image to Comment&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Comments are used to add additional information to cells. Aspose.Cells provides two methods for adding comments to cells. The first is to create comments in a designer file manually. These comments are then imported using Aspose.Cells. The second is to add comments using the Aspose.Cells API at runtime. This topic discusses adding comments to cells using the Aspose.Cells API. Formatting comments will also be explained.&lt;/p&gt;
+&lt;h2 id=&#34;adding-a-comment&#34;&gt;Adding a Comment&lt;/h2&gt;
+&lt;p&gt;Add a comment to a cell by calling the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/commentcollection&#34;&gt;Comments&lt;/a&gt; collection&amp;rsquo;s &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/commentcollection/methods/add/index&#34;&gt;Add&lt;/a&gt; method (encapsulated in the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/worksheet&#34;&gt;Worksheet&lt;/a&gt; object). The new &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/comment&#34;&gt;Comment&lt;/a&gt; object can be accessed from the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/commentcollection&#34;&gt;Comments&lt;/a&gt; collection by passing the comment index. After accessing the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/comment&#34;&gt;Comment&lt;/a&gt; object, customize the comment note by using the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/comment&#34;&gt;Comment&lt;/a&gt; object&amp;rsquo;s &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/comment/properties/note&#34;&gt;Note&lt;/a&gt; property.&lt;/p&gt;
+&lt;h2 id=&#34;comment-formatting&#34;&gt;Comment Formatting&lt;/h2&gt;
+&lt;p&gt;It is also possible to format comments&amp;rsquo; appearance by configuring their height, width and font settings.&lt;/p&gt;
+&lt;h2 id=&#34;add-an-image-to-comment&#34;&gt;Add an Image to Comment&lt;/h2&gt;
+&lt;p&gt;With Microsoft Excel 2007, it is also possible to have an image as the background to a cell comment. In Excel 2007 this is accomplished by doing the following steps. (They suppose that you have already added a cell comment.)&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Right-click the cell that contains the comment.&lt;/li&gt;
+&lt;li&gt;Select &lt;strong&gt;Show/Hide Comments&lt;/strong&gt;, and clear any text from the comment.&lt;/li&gt;
+&lt;li&gt;Click on the border of the comment to select it.&lt;/li&gt;
+&lt;li&gt;Select &lt;strong&gt;Format&lt;/strong&gt;, then &lt;strong&gt;Comment&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;On the &lt;strong&gt;Colors and Lines&lt;/strong&gt; tab, expand the &lt;strong&gt;Color&lt;/strong&gt; list.&lt;/li&gt;
+&lt;li&gt;Click &lt;strong&gt;Fill Effects&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;On the &lt;strong&gt;Picture&lt;/strong&gt; tab, click &lt;strong&gt;Select Picture&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Locate and select the picture.&lt;/li&gt;
+&lt;li&gt;Click &lt;strong&gt;OK&lt;/strong&gt; until all dialogs have closed.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Aspose.Cells also provides this feature. Below is a code sample that creates an XLSX file from scratch, adding a comment to cell &amp;ldquo;A1&amp;rdquo; with a picture set as its background.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Managing Controls</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/drawingobjects/managing&#43;controls/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/drawingobjects/managing&#43;controls/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--managing-controls&#34;&gt;Aspose.Cells for .NET : Managing Controls&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#introduction&#34;&gt;Introduction&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#adding-text-box-control-to-a-worksheet&#34;&gt;Adding Text Box Control to a Worksheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#manipulating-text-box-controls-in-designer-spreadsheets&#34;&gt;Manipulating Text Box Controls in Designer Spreadsheets&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;4 &lt;a href=&#34;#adding-check-box-control-to-a-worksheet&#34;&gt;Adding Check Box Control to a Worksheet&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;4.1 &lt;a href=&#34;#using-microsoft-excel&#34;&gt;Using Microsoft Excel&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;4.2 &lt;a href=&#34;#using-aspose.cells&#34;&gt;Using Aspose.Cells&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;5 &lt;a href=&#34;#adding-radio-button-control-to-the-worksheet&#34;&gt;Adding Radio Button Control to the Worksheet&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;5.1 &lt;a href=&#34;#using-microsoft-excel&#34;&gt;Using Microsoft Excel&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;5.2 &lt;a href=&#34;#using-aspose.cells&#34;&gt;Using Aspose.Cells&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;6 &lt;a href=&#34;#adding-combo-box-control-to-a-worksheet&#34;&gt;Adding Combo Box Control to a Worksheet&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;6.1 &lt;a href=&#34;#using-microsoft-excel&#34;&gt;Using Microsoft Excel&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;6.2 &lt;a href=&#34;#using-aspose.cells&#34;&gt;Using Aspose.Cells&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;7 &lt;a href=&#34;#adding-label-control-to-a-worksheet&#34;&gt;Adding Label Control to a Worksheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;8 &lt;a href=&#34;#adding-list-box-control-to-a-worksheet&#34;&gt;Adding List Box Control to a Worksheet&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;8.1 &lt;a href=&#34;#using-microsoft-excel&#34;&gt;Using Microsoft Excel&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;8.2 &lt;a href=&#34;#using-aspose.cells&#34;&gt;Using Aspose.Cells&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;9 &lt;a href=&#34;#adding-button-control-to-a-worksheet&#34;&gt;Adding Button Control to a Worksheet&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;9.1 &lt;a href=&#34;#using-microsoft-excel&#34;&gt;Using Microsoft Excel&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;9.2 &lt;a href=&#34;#using-aspose.cells&#34;&gt;Using Aspose.Cells&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;10 &lt;a href=&#34;#adding-line-control-to-the-worksheet&#34;&gt;Adding Line Control to the Worksheet&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;10.1 &lt;a href=&#34;#using-microsoft-excel&#34;&gt;Using Microsoft Excel&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;10.2 &lt;a href=&#34;#using-aspose.cells&#34;&gt;Using Aspose.Cells&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;10.3 &lt;a href=&#34;#adding-an-arrow-head-to-a-line&#34;&gt;Adding an Arrow Head to a Line&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;11 &lt;a href=&#34;#adding-rectangle-control-to-a-worksheet&#34;&gt;Adding Rectangle Control to a Worksheet&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;11.1 &lt;a href=&#34;#using-microsoft-excel&#34;&gt;Using Microsoft Excel&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;11.2 &lt;a href=&#34;#using-aspose.cells&#34;&gt;Using Aspose.Cells&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;12 &lt;a href=&#34;#adding-arc-control-to-the-worksheet&#34;&gt;Adding Arc Control to the Worksheet&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;12.1 &lt;a href=&#34;#using-microsoft-excel&#34;&gt;Using Microsoft Excel&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;12.2 &lt;a href=&#34;#using-aspose.cells&#34;&gt;Using Aspose.Cells&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;13 &lt;a href=&#34;#adding-oval-control-to-a-worksheet&#34;&gt;Adding Oval Control to a Worksheet&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;13.1 &lt;a href=&#34;#using-microsoft-excel&#34;&gt;Using Microsoft Excel&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;13.2 &lt;a href=&#34;#using-aspose.cells&#34;&gt;Using Aspose.Cells&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;14 &lt;a href=&#34;#adding-spinner-control-to-the-worksheet&#34;&gt;Adding Spinner Control to the Worksheet&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;14.1 &lt;a href=&#34;#using-microsoft-excel&#34;&gt;Using Microsoft Excel&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;14.2 &lt;a href=&#34;#using-aspose.cells&#34;&gt;Using Aspose.Cells&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;15 &lt;a href=&#34;#adding-scroll-bar-control-to-a-worksheet&#34;&gt;Adding Scroll Bar Control to a Worksheet&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;15.1 &lt;a href=&#34;#using-microsoft-excel&#34;&gt;Using Microsoft Excel&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;15.2 &lt;a href=&#34;#using-aspose.cells&#34;&gt;Using Aspose.Cells&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;16 &lt;a href=&#34;#adding-groupbox-control-to-group-controls-in-a-worksheet&#34;&gt;Adding GroupBox Control to Group Controls in a Worksheet&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;16.1 &lt;a href=&#34;#using-microsoft-excel&#34;&gt;Using Microsoft Excel&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;16.2 &lt;a href=&#34;#using-aspose.cells&#34;&gt;Using Aspose.Cells&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Developers can add different drawing objects such as text boxes, check boxes, radio buttons, combo boxes, labels, buttons, lines, rectangles, arcs, ovals, spinners, scroll bars, group boxes etc. Aspose.Cells provides the &lt;code&gt;Aspose.Cells.Drawing&lt;/code&gt; namespace which contains all the drawing objects. However, there are a few drawing objects or shapes that are not supported yet. Create these drawing objects in a designer spreadsheet using Microsoft Excel and then import the designer spreadsheet to Aspose.Cells. Aspose.Cells allows you to load these drawing objects from a designer spreadsheet and write them to a generated file.&lt;/p&gt;
+&lt;h2 id=&#34;adding-text-box-control-to-a-worksheet&#34;&gt;Adding Text Box Control to a Worksheet&lt;/h2&gt;
+&lt;p&gt;One way to stress important information in a report is to use a text box. For example, add text to highlight the company name or to indicate the geographic region with the highest sales etc. Aspose.Cells provides the &lt;code&gt;TextBoxCollection&lt;/code&gt; class, used to add a new text box to the collection. There is another class, &lt;code&gt;TextBox&lt;/code&gt;, which represents a text box used to define all types of settings. It has some important members:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The &lt;code&gt;TextFrame&lt;/code&gt; property returns a &lt;code&gt;MsoTextFrame&lt;/code&gt; object used to adjust the contents of the text box.&lt;/li&gt;
+&lt;li&gt;The &lt;code&gt;Placement&lt;/code&gt; property specifies the placement type.&lt;/li&gt;
+&lt;li&gt;The &lt;code&gt;Font&lt;/code&gt; property specifies the font attributes.&lt;/li&gt;
+&lt;li&gt;The &lt;code&gt;AddHyperlink&lt;/code&gt; method adds a hyperlink for the text box.&lt;/li&gt;
+&lt;li&gt;The &lt;code&gt;FillFormat&lt;/code&gt; property returns an &lt;code&gt;MsoFillFormat&lt;/code&gt; object used to set the fill format for the text box.&lt;/li&gt;
+&lt;li&gt;The &lt;code&gt;LineFormat&lt;/code&gt; property returns the &lt;code&gt;MsoLineFormat&lt;/code&gt; object usually used to style and weight of the text box line.&lt;/li&gt;
+&lt;li&gt;The &lt;code&gt;Text&lt;/code&gt; property specifies the input text for the text box.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The following example creates two textboxes in the first worksheet of the workbook. The first text box is well-furnished with differnt format settings. The second is a simple one.&lt;/p&gt;
+&lt;h2 id=&#34;manipulating-text-box-controls-in-designer-spreadsheets&#34;&gt;Manipulating Text Box Controls in Designer Spreadsheets&lt;/h2&gt;
+&lt;p&gt;Aspose.Cells also lets you access textboxes in the desinger worksheets and manipulate them. Use the &lt;code&gt;Worksheet.TextBoxes&lt;/code&gt; property to get the textboxes collection in the sheet.&lt;/p&gt;
+&lt;p&gt;The following example uses the Microsoft Excel file that we created in the above example. It gets the text strings of the two textboxes and changes the text of the second textbox to save the file.&lt;/p&gt;
+&lt;h2 id=&#34;adding-check-box-control-to-a-worksheet&#34;&gt;Adding Check Box Control to a Worksheet&lt;/h2&gt;
+&lt;p&gt;Check boxes are handy if you want to provide a way for a user to choose between two options, such as true or false; yes or no. Aspose.Cells allows you to use check boxes in worksheets. For instance, you may have developed a financial projection worksheet in which you can either account for a particular acquisition or not. In this case, you might want to place a check box at the top of the worksheet. You can then link the status of this check box to another cell, so that if the check box is selected, the value of the cell is True; if it is not selected, the value of the cell is False.&lt;/p&gt;
+&lt;h3 id=&#34;using-microsoft-excel&#34;&gt;Using Microsoft Excel&lt;/h3&gt;
+&lt;p&gt;To place a check box control in your worksheet, follow these steps:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Make sure the Forms toolbar is displayed.&lt;/li&gt;
+&lt;li&gt;Click the &lt;strong&gt;Check Box&lt;/strong&gt; tool on the Forms toolbar.&lt;/li&gt;
+&lt;li&gt;In your worksheet area, click and drag to define the rectangle that will hold the check box and the label beside the check box.&lt;/li&gt;
+&lt;li&gt;Once the check box is placed, move the mouse cursor into the label area and change the label.&lt;/li&gt;
+&lt;li&gt;In the &lt;strong&gt;Cell Link&lt;/strong&gt; field, specify the address of the cell to which this check box should be linked.&lt;/li&gt;
+&lt;li&gt;Click on &lt;strong&gt;OK&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;using-asposecells&#34;&gt;Using Aspose.Cells&lt;/h3&gt;
+&lt;p&gt;Aspose.Cells provides the &lt;code&gt;CheckBoxCollection&lt;/code&gt; class, which is used to add a new check box to the collection. There is another class, &lt;code&gt;Aspose.Cells.Drawing.CheckBox&lt;/code&gt;, which represents a check box. It has some important members:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The &lt;code&gt;LinkedCell&lt;/code&gt; property specifies a cell which is linked to the check box.&lt;/li&gt;
+&lt;li&gt;The &lt;code&gt;Text&lt;/code&gt; property specifies the text string associated with the check box. It is the label of the check box.&lt;/li&gt;
+&lt;li&gt;The &lt;code&gt;Value&lt;/code&gt; property specifies if the check box is checked or not.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The following example shows how to add a checkbox to the worksheet.&lt;/p&gt;
+&lt;h2 id=&#34;adding-radio-button-control-to-the-worksheet&#34;&gt;Adding Radio Button Control to the Worksheet&lt;/h2&gt;
+&lt;p&gt;A radio button, or an option button, is a control made of a round box. The user makes his or her decision by selecting the round box. A radio button is usually, if not always, accompanied by others. Such radio buttons appear and behave as a group. The user decides which button is valid by selecting only one of them. When the user clicks one button, it is filled. When one button in the group is selected, buttons of the same group are empty.&lt;/p&gt;
+&lt;h3 id=&#34;using-microsoft-excel-1&#34;&gt;Using Microsoft Excel&lt;/h3&gt;
+&lt;p&gt;To place a Radio Button control in your worksheet, follow these steps:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Make sure the &lt;strong&gt;Forms&lt;/strong&gt; toolbar is displayed.&lt;/li&gt;
+&lt;li&gt;Click the &lt;strong&gt;Option Button&lt;/strong&gt; tool.&lt;/li&gt;
+&lt;li&gt;In the worksheet, click and drag to define the rectangle that will hold the option button and the label beside the option button.&lt;/li&gt;
+&lt;li&gt;Once the radio button is placed in the worksheet, move the mouse cursor into the label area and change the label.&lt;/li&gt;
+&lt;li&gt;In the &lt;strong&gt;Cell Link&lt;/strong&gt; field, specify the address of the cell to which this radio button should be linked.&lt;/li&gt;
+&lt;li&gt;Click &lt;strong&gt;OK&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;using-asposecells-1&#34;&gt;Using Aspose.Cells&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;Aspose.Cells.Drawing.ShapeCollection&lt;/code&gt; class provides a method named &lt;code&gt;AddRadioButton&lt;/code&gt;, which is used to add a radio button control to a worksheet. The method returns an &lt;code&gt;Aspose.Cells.Drawing.RadioButton&lt;/code&gt; object. The class &lt;code&gt;Aspose.Cells.Drawing.RadioButton&lt;/code&gt; represents an option button. It has some important members:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The &lt;code&gt;LinkedCell&lt;/code&gt; property specifies a cell which is linked to the radio button.&lt;/li&gt;
+&lt;li&gt;The &lt;code&gt;Text&lt;/code&gt; property specifies the text string associated with the radio button. It is the label of the radio button.&lt;/li&gt;
+&lt;li&gt;The &lt;code&gt;IsChecked&lt;/code&gt; property specifies if the radio button is checked or not.&lt;/li&gt;
+&lt;li&gt;The &lt;code&gt;FillFormat&lt;/code&gt; property specifies the fill format of the radio button.&lt;/li&gt;
+&lt;li&gt;The &lt;code&gt;LineFormat&lt;/code&gt; property specifies the line format styles of the option button.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The following example shows how to add radio buttons to a worksheet. The example adds three radio buttons representing age groups.&lt;/p&gt;
+&lt;h2 id=&#34;adding-combo-box-control-to-a-worksheet&#34;&gt;Adding Combo Box Control to a Worksheet&lt;/h2&gt;
+&lt;p&gt;To make data entry easier, or to limit entries to certain items that you define, you can create a combo box, or drop-down list of valid entries that is compiled from cells elsewhere on the worksheet. When you create a drop-down list for a cell, it displays an arrow next to that cell. To enter information in that cell, click the arrow, and then click the entry that you want.&lt;/p&gt;
+&lt;h3 id=&#34;using-microsoft-excel-2&#34;&gt;Using Microsoft Excel&lt;/h3&gt;
+&lt;p&gt;To place a combo box control in your worksheet, follow these steps:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Make sure the &lt;strong&gt;Forms&lt;/strong&gt; toolbar is displayed.&lt;/li&gt;
+&lt;li&gt;Click on the &lt;strong&gt;Combo Box&lt;/strong&gt; tool.&lt;/li&gt;
+&lt;li&gt;In your worksheet area, click and drag to define the rectangle that will hold the combo box.&lt;/li&gt;
+&lt;li&gt;Once the combo box is placed in the worksheet, right-click the control to click &lt;strong&gt;Format Control&lt;/strong&gt; and specify the input range.&lt;/li&gt;
+&lt;li&gt;In the &lt;strong&gt;Cell Link&lt;/strong&gt; field, specify the address of the cell to which this combo box should be linked.&lt;/li&gt;
+&lt;li&gt;Click on &lt;strong&gt;OK&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;using-asposecells-2&#34;&gt;Using Aspose.Cells&lt;/h3&gt;
+&lt;p&gt;The &lt;code&gt;Aspose.Cells.Drawing.ShapeCollection&lt;/code&gt; class provides a method named &lt;code&gt;AddComboBox&lt;/code&gt;, which is used to add a combo box control to a worksheet. The method returns an &lt;code&gt;Aspose.Cells.Drawing.ComboBox&lt;/code&gt; object. The class &lt;code&gt;Aspose.Cells.Drawing.ComboBox&lt;/code&gt; represents a combo box. It has some important members:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The &lt;code&gt;LinkedCell&lt;/code&gt; property specifies a cell which is linked to the combo box.&lt;/li&gt;
+&lt;li&gt;The &lt;code&gt;InputRange&lt;/code&gt; property specifies the worksheet range of cells used to fill the combo box.&lt;/li&gt;
+&lt;li&gt;The &lt;code&gt;DropDownLines&lt;/code&gt; property specifies the number of list lines displayed in the drop-down portion of a combo box.&lt;/li&gt;
+&lt;li&gt;The &lt;code&gt;Shadow&lt;/code&gt; property indicates whether the combo box has 3D shading.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The following example shows how to add a combo box to the worksheet.&lt;/p&gt;
+&lt;h2 id=&#34;adding-label-control-to-a-worksheet&#34;&gt;Adding Label Control to a Worksheet&lt;/h2&gt;
+&lt;p&gt;Labels ar a means of give users information about a speadsheet&amp;rsquo;s contents. Aspose.Cells makes it possible to add and manipulate labels in a worksheet. The &lt;code&gt;ShapeCollection&lt;/code&gt; class provides a method named &lt;code&gt;addShape&lt;/code&gt;, used to add a label control to the worksheet. The method returns a &lt;code&gt;Label&lt;/code&gt; object. The class &lt;code&gt;Label&lt;/code&gt; represents a label in the worksheet. It has some important members:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The &lt;code&gt;Text&lt;/code&gt; method specifies a label&amp;rsquo;s caption string.&lt;/li&gt;
+&lt;li&gt;The &lt;code&gt;Placement&lt;/code&gt; method specifies the &lt;code&gt;PlacementType&lt;/code&gt;, the way the label is attached to the cells in the worksheet.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The following example shows how to add a label to the worksheet.&lt;/p&gt;
+&lt;h2 id=&#34;adding-list-box-control-to-a-worksheet&#34;&gt;Adding List Box Control to a Worksheet&lt;/h2&gt;
+&lt;p&gt;A list box control creates a list control that allows single or multiple item selection.&lt;/p&gt;
+&lt;h3 id=&#34;using-microsoft-excel-3&#34;&gt;Using Microsoft Excel&lt;/h3&gt;
+&lt;p&gt;To place a list box control in a worksheet:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Make sure the &lt;strong&gt;Forms&lt;/strong&gt; toolbar is displayed.&lt;/li&gt;
+&lt;li&gt;Click on the &lt;strong&gt;List Box&lt;/strong&gt; tool.&lt;/li&gt;
+&lt;li&gt;In your worksheet area, click and drag to define the rectangle that will hold the list box.&lt;/li&gt;
+&lt;li&gt;Once the list box is placed in the worksheet, right-click on the control to click &lt;strong&gt;Format Control&lt;/strong&gt; and specify the input range.&lt;/li&gt;
+&lt;li&gt;In the &lt;strong&gt;Cell Link&lt;/strong&gt; field, specify the address of the cell to which this list box should be linked and set the selection type (Single, Multi, Extend) attribute&lt;/li&gt;
+&lt;li&gt;Click &lt;strong&gt;OK&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;using-asposecells-3&#34;&gt;Using Aspose.Cells&lt;/h3&gt;
+&lt;p&gt;The &lt;code&gt;ShapeCollection&lt;/code&gt; class provides a method named &lt;code&gt;AddListBox&lt;/code&gt;, which is used to add a list box control to a worksheet. The method returns a &lt;code&gt;Aspose.Cells.Drawing.ListBox&lt;/code&gt; object. The class &lt;code&gt;ListBox&lt;/code&gt; represents a list box. It has some important members:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The &lt;code&gt;LinkedCell&lt;/code&gt; method specifies a cell which is linked to the list box.&lt;/li&gt;
+&lt;li&gt;The &lt;code&gt;InputRange&lt;/code&gt; method specifies the worksheet range of cells used to fill the list box.&lt;/li&gt;
+&lt;li&gt;The &lt;code&gt;SelectionType&lt;/code&gt; method specifies the selection mode of the the list box.&lt;/li&gt;
+&lt;li&gt;The &lt;code&gt;Shadow&lt;/code&gt; method indicates whether the list box has 3D shading.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The following example shows how to add a list box to the worksheet.&lt;/p&gt;
+&lt;h2 id=&#34;adding-button-control-to-a-worksheet&#34;&gt;Adding Button Control to a Worksheet&lt;/h2&gt;
+&lt;p&gt;Buttons are useful to perform some actions. Sometimes, it is useful to assign a VBA Macro to the button or assign a hyperlink to open a web page.&lt;/p&gt;
+&lt;h3 id=&#34;using-microsoft-excel-4&#34;&gt;Using Microsoft Excel&lt;/h3&gt;
+&lt;p&gt;To place a button control in your worksheet:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Make sure the &lt;strong&gt;Forms&lt;/strong&gt; toolbar is displayed.&lt;/li&gt;
+&lt;li&gt;Click on the &lt;strong&gt;Button&lt;/strong&gt; tool.&lt;/li&gt;
+&lt;li&gt;In your worksheet area, click and drag to define the rectangle that will hold the button.&lt;/li&gt;
+&lt;li&gt;Once the list box is placed in the worksheet, right-click on the control and select &lt;strong&gt;Format Control&lt;/strong&gt;, then specify a VBA Macro and attributes related font, alignment, size, margin etc.&lt;/li&gt;
+&lt;li&gt;Click on &lt;strong&gt;OK&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;using-asposecells-4&#34;&gt;Using Aspose.Cells&lt;/h3&gt;
+&lt;p&gt;The &lt;code&gt;Aspose.Cells.Drawing.ShapeCollection&lt;/code&gt; class provides a method named &lt;code&gt;AddButton&lt;/code&gt;, used to add a button control to the worksheet. The method returns an &lt;code&gt;Aspose.Cells.Drawing.Button&lt;/code&gt; object. The class &lt;code&gt;Aspose.Cells.Drawing.Button&lt;/code&gt; represents a button. It has some important members:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The &lt;code&gt;Text&lt;/code&gt; property specifies the caption of button.&lt;/li&gt;
+&lt;li&gt;The &lt;code&gt;Font&lt;/code&gt; property specifies the font attributes for the label of the button control.&lt;/li&gt;
+&lt;li&gt;The &lt;code&gt;Placement&lt;/code&gt; property specifies the &lt;code&gt;PlacementType&lt;/code&gt;, the way the button is attached to the cells in the worksheet.&lt;/li&gt;
+&lt;li&gt;The &lt;code&gt;AddHyperlink&lt;/code&gt; property adds a hyperlink for the button control. Clicking on the button will navigate to related URL.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The following example shows how to add a button to the worksheet.&lt;/p&gt;
+&lt;h2 id=&#34;adding-line-control-to-the-worksheet&#34;&gt;Adding Line Control to the Worksheet&lt;/h2&gt;
+&lt;h3 id=&#34;using-microsoft-excel-5&#34;&gt;Using Microsoft Excel&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;On the &lt;strong&gt;Drawing&lt;/strong&gt; toolbar, click &lt;strong&gt;AutoShapes&lt;/strong&gt;, point to &lt;strong&gt;Lines&lt;/strong&gt;, and select the line style you want.&lt;/li&gt;
+&lt;li&gt;Drag to draw the line.&lt;/li&gt;
+&lt;li&gt;Do one or both of the following:
+&lt;ul&gt;
+&lt;li&gt;To constrain the line to draw at 15-degree angles from its starting point, hold down SHIFT as you drag.&lt;/li&gt;
+&lt;li&gt;To lengthen the line in opposite directions from the first end point, hold down CTRL as you drag.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;using-asposecells-5&#34;&gt;Using Aspose.Cells&lt;/h3&gt;
+&lt;p&gt;The &lt;code&gt;Aspose.Cells.Drawing.ShapeCollection&lt;/code&gt; class provides a method named &lt;code&gt;AddLine&lt;/code&gt;, which is used to add a line shape to the worksheet. The method return a &lt;code&gt;LineShape&lt;/code&gt; object. The class &lt;code&gt;LineShape&lt;/code&gt; represents a line. It has some important members:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The &lt;code&gt;LineFormat&lt;/code&gt; method specifies the format of a line.&lt;/li&gt;
+&lt;li&gt;The &lt;code&gt;Placement&lt;/code&gt; method specifies the &lt;code&gt;PlacementType&lt;/code&gt;, the way the line is attached to the cells in the worksheet.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The following example shows how to add lines to the worksheet. It creates three lines with different styles.&lt;/p&gt;
+&lt;h3 id=&#34;adding-an-arrow-head-to-a-line&#34;&gt;Adding an Arrow Head to a Line&lt;/h3&gt;
+&lt;p&gt;Aspose.Cells also allows you to draw arrow lines. It is possible to add an arrowhead to a line, and to format the line. For example, you can change the color of the line, or specify the weight and style of the line.&lt;/p&gt;
+&lt;p&gt;The following example shows how to add an arrowhead to a line.&lt;/p&gt;
+&lt;h2 id=&#34;adding-rectangle-control-to-a-worksheet&#34;&gt;Adding Rectangle Control to a Worksheet&lt;/h2&gt;
+&lt;p&gt;Aspose.Cells allows you to draw rectangle shapes in your worksheets. You may create a rectangle, square etc. You are also allowed to format the filling color and border line color of the control. For example, you can change the color of the rectangle, set the shading color, specify the weight and style of the rectangle for your need.&lt;/p&gt;
+&lt;h3 id=&#34;using-microsoft-excel-6&#34;&gt;Using Microsoft Excel&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;On the &lt;strong&gt;Drawing&lt;/strong&gt; toolbar, click &lt;strong&gt;Rectangle&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Drag to draw the rectangle.&lt;/li&gt;
+&lt;li&gt;Do one or both of the following:
+&lt;ul&gt;
+&lt;li&gt;To constrain the rectangle to draw a square from its starting point, hold down SHIFT as you drag.&lt;/li&gt;
+&lt;li&gt;To draw a rectangle from a center point, hold down CTRL as you drag.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;using-asposecells-6&#34;&gt;Using Aspose.Cells&lt;/h3&gt;
+&lt;p&gt;The &lt;code&gt;Aspose.Cells.Drawing.ShapeCollection&lt;/code&gt; class provides a method named &lt;code&gt;AddRectangle&lt;/code&gt;, which is used to add a rectangle shape to a worksheet. The method returns &lt;code&gt;Aspose.Cells.Drawing.RectangleShape*&lt;/code&gt; object. The class &lt;code&gt;Aspose.Cells.Drawing.RectangleShape&lt;/code&gt; represents a rectangle. It has some important members:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The &lt;code&gt;LineFormat&lt;/code&gt; property specifies the line format attributes of a rectangle.&lt;/li&gt;
+&lt;li&gt;The &lt;code&gt;Placement&lt;/code&gt; property specifies the &lt;code&gt;PlacementType&lt;/code&gt;, the way the rectangle is attached to the cells in the worksheet.&lt;/li&gt;
+&lt;li&gt;The &lt;code&gt;FillFormat&lt;/code&gt; property specifies the fill format styles of a rectangle.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The following example shows how to add a rectangle to the worksheet.&lt;/p&gt;
+&lt;h2 id=&#34;adding-arc-control-to-the-worksheet&#34;&gt;Adding Arc Control to the Worksheet&lt;/h2&gt;
+&lt;p&gt;Aspose.Cells allows you to draw arc shapes in your worksheets. You may create simple and filled arcs. You are allowed to format the filling color and border line color of the control. For example, you can specify / change the color of the arc, set the shading color, specify the weight and style of the shape for your need.&lt;/p&gt;
+&lt;h3 id=&#34;using-microsoft-excel-7&#34;&gt;Using Microsoft Excel&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;On the &lt;strong&gt;Drawing&lt;/strong&gt; toolbar, click &lt;strong&gt;Arc&lt;/strong&gt; in the &lt;strong&gt;AutoShapes&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Drag to draw the arc.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;using-asposecells-7&#34;&gt;Using Aspose.Cells&lt;/h3&gt;
+&lt;p&gt;The &lt;code&gt;Aspose.Cells.Drawing.ShapeCollection&lt;/code&gt; class provides a method named &lt;code&gt;AddArc&lt;/code&gt;, which is used to add an arc shape to a worksheet. The method returns an &lt;code&gt;Aspose.Cells.Drawing.ArcShape&lt;/code&gt; object. The class &lt;code&gt;Aspose.Cells.Drawing.ArcShape&lt;/code&gt; represents an arc. It has some important members:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The &lt;code&gt;LineFormat&lt;/code&gt; property specifies the line format attributes of an arc shape.&lt;/li&gt;
+&lt;li&gt;The &lt;code&gt;Placement&lt;/code&gt; property specifies the &lt;code&gt;PlacementType&lt;/code&gt;, the way the arc is attached to the cells in the worksheet.&lt;/li&gt;
+&lt;li&gt;The &lt;code&gt;FillFormat&lt;/code&gt; property specifies the fill format styles of the shape.&lt;/li&gt;
+&lt;li&gt;The &lt;code&gt;LowerRightRow&lt;/code&gt; property specifies the lower right corner row index.&lt;/li&gt;
+&lt;li&gt;The &lt;code&gt;LowerRightColumn&lt;/code&gt; property specifies the lower right corner column index.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The following example shows how to add arc shapes to the worksheet. The example creates two arc shapes: one is filled and other is simple.&lt;/p&gt;
+&lt;h2 id=&#34;adding-oval-control-to-a-worksheet&#34;&gt;Adding Oval Control to a Worksheet&lt;/h2&gt;
+&lt;p&gt;Aspose.Cells allows you to draw oval shapes in worksheets. Create simple and filled oval shapes and format the filling color and border line color of the control. For example, you can specify / change the color of the oval, set the shading color, specify the weight and style of the shape.&lt;/p&gt;
+&lt;h3 id=&#34;using-microsoft-excel-8&#34;&gt;Using Microsoft Excel&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;On the *Drawing* toolbar, click *Oval*.&lt;/li&gt;
+&lt;li&gt;Drag to draw the oval.&lt;/li&gt;
+&lt;li&gt;Do one or both of the following:&lt;/li&gt;
+&lt;li&gt;To constrain the oval to draw a circle from its starting point, hold down SHIFT as you drag.&lt;/li&gt;
+&lt;li&gt;To draw an oval from a center point, hold down CTRL as you drag.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;using-asposecells-8&#34;&gt;Using Aspose.Cells&lt;/h3&gt;
+&lt;p&gt;The Aspose.Cells.Drawing.ShapeCollection class provides a method named AddOval, which is used to add an oval shape to a worksheet. The method returns an Aspose.Cells.Drawing.Oval object. The class Aspose.Cells.Drawing.Oval represents an oval shape. It has some important members:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The {{LineFormat}} property specifies the line format attributes of an oval shape.&lt;/li&gt;
+&lt;li&gt;The {{Placement}} property specifies the {{PlacementType}}, the way the oval is attached to the cells in the worksheet.&lt;/li&gt;
+&lt;li&gt;The {{FillFormat}} property specifies the fill format styles of the shape.&lt;/li&gt;
+&lt;li&gt;The {{LowerRightRow}} property specifies the lower right corner row index.&lt;/li&gt;
+&lt;li&gt;The {{LowerRightColumn}} property specifies the lower right corner column index.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The following example shows how to add oval shapes to the worksheet. The example creates two oval shapes: one is filled oval other is a simple circle.&lt;/p&gt;
+&lt;h2 id=&#34;adding-spinner-control-to-the-worksheet&#34;&gt;Adding Spinner Control to the Worksheet&lt;/h2&gt;
+&lt;p&gt;A spin box is a text box attached to a button (called a spin button) consisting of an up arrow and down arrow that you click to incrementally change the value in the text box. By using spin boxes, you can see how input changes to your financial model will alter the model outputs. You can attach a spin button to a specific input cell. While you click the up arrow or down arrow on the spin button, the integer value in the targeted input cell increases or decreases. *Aspose.Cells* allows you to create spinners in your worksheets.&lt;/p&gt;
+&lt;h3 id=&#34;using-microsoft-excel-9&#34;&gt;Using Microsoft Excel&lt;/h3&gt;
+&lt;p&gt;To place a spin box control in your worksheet:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Make sure the *Forms* toolbar is displayed.&lt;/li&gt;
+&lt;li&gt;Click the *Spinner* tool.&lt;/li&gt;
+&lt;li&gt;In your worksheet area, click and drag to define the rectangle that will hold the spinner.&lt;/li&gt;
+&lt;li&gt;Once the spinner is placed in the worksheet, right-click the control and click *Format Control* and specify the maximum, minimum and incremental values.&lt;/li&gt;
+&lt;li&gt;In the *Cell Link* field, specify the address of the cell to which this spin box should be linked.&lt;/li&gt;
+&lt;li&gt;Click on *OK*.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;using-asposecells-9&#34;&gt;Using Aspose.Cells&lt;/h3&gt;
+&lt;p&gt;The {{Aspose.Cells.Drawing.ShapeCollection}} class provides a method named {{AddSpinner}}, which is used to add a spin box control to a worksheet. The method returns an {{Aspose.Cells.Drawing.Spinner}} object. The class {{Aspose.Cells.Drawing.Spinner}} represents a spin box. It has some important members:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The {{LinkedCell}} property specifies a cell which is linked to the spin box.&lt;/li&gt;
+&lt;li&gt;The {{Max}} property specifies the maximum value for the spin box range.&lt;/li&gt;
+&lt;li&gt;The {{Min}} property specifies the minimum value for the spin box range.&lt;/li&gt;
+&lt;li&gt;The {{IncrementalChange}} property specifies the value amount for which a spinner is incremented a line scroll.&lt;/li&gt;
+&lt;li&gt;The {{Shadow}} property indicates whether the spin box has 3D shading.&lt;/li&gt;
+&lt;li&gt;The {{CurrentValue}} property specifies the current value of the spin box.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The following example shows how to add a spin box to the worksheet.&lt;/p&gt;
+&lt;h2 id=&#34;adding-scroll-bar-control-to-a-worksheet&#34;&gt;Adding Scroll Bar Control to a Worksheet&lt;/h2&gt;
+&lt;p&gt;A scroll bar control is used to help select data on a worksheet in a similar way to a spin box control. By adding the control to a worksheet and linking it to a cell, it is possible to return a numeric value for the current position of the control.&lt;/p&gt;
+&lt;h3 id=&#34;using-microsoft-excel-10&#34;&gt;Using Microsoft Excel&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;To add a scroll bar in Excel 2003 and in earlier versions, click the *Scroll Bar* button on the *Forms* toolbar, and then create a scroll bar that covers cells B2:B6 in height and is about one-fourth of the width of the column.&lt;/li&gt;
+&lt;li&gt;To add a scroll bar in Excel 2007, click the *Developer* tab, click *Insert*, and then click *Scroll Bar* in the Form Controls section.&lt;/li&gt;
+&lt;li&gt;Right-click the scroll bar, and then click *Format Control*.&lt;/li&gt;
+&lt;li&gt;Type the following information, and click *OK*:
+&lt;ul&gt;
+&lt;li&gt;In the *Current value* box, type 1.&lt;/li&gt;
+&lt;li&gt;In the *Minimum value* box, type 1. This value restricts the top of the scroll bar to the first item in the list.&lt;/li&gt;
+&lt;li&gt;In the *Maximum value* box, type 20. This number specifies the maximum number of entries in the list.&lt;/li&gt;
+&lt;li&gt;In the *Incremental change* box, type 1. This value controls how many numbers the scroll bar control increments the current value.&lt;/li&gt;
+&lt;li&gt;In the *Page change* box, type 5. This entry controls how much the current value will be incremented if you click inside the scroll bar on either side of the scroll box.&lt;/li&gt;
+&lt;li&gt;To put a number value in cell G1 (depending on which item is selected in the list), type G1 in the *Cell link* box.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Click any cell so that the scroll bar is not selected.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;When you click the up or down control on the scroll bar, cell G1 is updated to a number that indicates the current value of the scroll bar plus or minus the incremental change of the scroll bar.&lt;/p&gt;
+&lt;h3 id=&#34;using-asposecells-10&#34;&gt;Using Aspose.Cells&lt;/h3&gt;
+&lt;p&gt;The {{Aspose.Cells.Drawing.ShapeCollection}} class provides a method named {{AddScrollBar}}, which is used to add a scroll bar control to the worksheet. The method returns an {{Aspose.Cells.Drawing.ScrollBar}} object. The class {{Aspose.Cells.Drawing.ScrollBar}} represents a scroll bar. It has some important members:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The {{LinkedCell}} property specifies a cell which is linked to the scroll bar.&lt;/li&gt;
+&lt;li&gt;The {{Max}} property specifies the maximum value for the scroll bar range.&lt;/li&gt;
+&lt;li&gt;The {{Min}} property specifies the minimum value for the scroll bar range.&lt;/li&gt;
+&lt;li&gt;The {{IncrementalChange}} property specifies the value amount for which a scroll bar is incremented a line scroll.&lt;/li&gt;
+&lt;li&gt;The {{Shadow}} property indicates whether the scroll bar has 3D shading.&lt;/li&gt;
+&lt;li&gt;The {{CurrentValue}} property specifies the current value of the scroll bar.&lt;/li&gt;
+&lt;li&gt;The {{PageChange}} property specifies how much the current value will be incremented if you click inside the scroll bar on either side of the scroll box.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The following example shows how to add a scroll bar to the worksheet.&lt;/p&gt;
+&lt;h2 id=&#34;adding-groupbox-control-to-group-controls-in-a-worksheet&#34;&gt;Adding GroupBox Control to Group Controls in a Worksheet&lt;/h2&gt;
+&lt;p&gt;Sometimes you do need to implement radio buttons or other controls which belong to a certain group, you can implement by including either a group box or rectangle control. Any of these two objects would serve as the delimiter of the group. After adding one of these shapes, you can then add two or more radio buttons or other group objects.&lt;/p&gt;
+&lt;h3 id=&#34;using-microsoft-excel-11&#34;&gt;Using Microsoft Excel&lt;/h3&gt;
+&lt;p&gt;To place a group box control in your worksheet and place controls in it:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;To start a form, on the main menu, click *View*, followed by *Toolbars* and *Forms*.&lt;/li&gt;
+&lt;li&gt;On the *Forms* toolbar, click the *Group Box* and draw a rectangle on the worksheet.&lt;/li&gt;
+&lt;li&gt;Type a caption string for the box.&lt;/li&gt;
+&lt;li&gt;On the *Forms* toolbar, click *Option Button* and click inside the *Group Box* just under the caption string.&lt;/li&gt;
+&lt;li&gt;From the *Forms* toolbar again, click *Option Button* and click inside the *Group Box* under the first radio button.&lt;/li&gt;
+&lt;li&gt;Once again on the *Forms* toolbar, click *Option Button* and click inside the *Group Box* under the previous radio button.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;using-asposecells-11&#34;&gt;Using Aspose.Cells&lt;/h3&gt;
+&lt;p&gt;The {{Aspose.Cells.Drawing.ShapeCollection}} class provides a method named {{AddGroupBox}}, which is used to add a group box control to the worksheet. The method returns an {{Aspose.Cells.Drawing.GroupBox}} object. Moreover, the {{Group}} method of the {{Aspose.Cells.Drawing.ShapeCollection}} class groups the shapes, it takes a {{Shape}} array as parameter and returns a {{GroupShape}} object. The class {{Aspose.Cells.Drawing.GroupBox}} represents a group box. It has some important members:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The {{Text}} property specifies the group box&amp;rsquo;s caption string.&lt;/li&gt;
+&lt;li&gt;The {{Shadow}} property indicates whether the group box has 3D shading.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The following example shows how to add a group box and group the controls in the worksheet.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Managing OLE Objects</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/drawingobjects/managing&#43;ole&#43;objects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/drawingobjects/managing&#43;ole&#43;objects/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--managing-ole-objects&#34;&gt;Aspose.Cells for .NET : Managing OLE Objects&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#introduction&#34;&gt;Introduction&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#inserting-ole-objects-into-the-worksheet&#34;&gt;Inserting OLE Objects into the Worksheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.2 &lt;a href=&#34;#extracting-ole-objects-in-the-workbook&#34;&gt;Extracting OLE Objects in the Workbook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.3 &lt;a href=&#34;#extracting-embedded-mol-file&#34;&gt;Extracting Embedded MOL File&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;OLE (Object Linking and Embedding) is Microsoft&amp;rsquo;s framework for a compound document technology. Briefly, a compound document is something like a display desktop that can contain visual and information objects of all kinds: text, calendars, animations, sound, motion video, 3D, continually updated news, controls, and so forth. Each desktop object is an independent program entity that can interact with a user and also communicate with other objects on the desktop.&lt;/p&gt;
+&lt;p&gt;OLE (Object Linking and Embedding) is supported by many different programs and is used to make content created in one program available in another. For example, you can insert a Microsoft Word document into Microsoft Excel. To see what types of content you can insert, click &lt;strong&gt;Object&lt;/strong&gt; on the &lt;strong&gt;Insert&lt;/strong&gt; menu. Only programs that are installed on the computer and that support OLE objects appear in the &lt;strong&gt;Object type&lt;/strong&gt; box.&lt;/p&gt;
+&lt;h4 id=&#34;inserting-ole-objects-into-the-worksheet&#34;&gt;Inserting OLE Objects into the Worksheet&lt;/h4&gt;
+&lt;p&gt;Aspose.Cells supports adding, extracting and manipulating OLE objects in worksheets. For this reason, Aspose.Cells has the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.drawing/oleobjectcollection&#34;&gt;OleObjectCollection&lt;/a&gt; class, used to add a new OLE Object to the collection list. Another class, &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.drawing/oleobject&#34;&gt;OleObject&lt;/a&gt;, represents an OLE Object. It has some important members:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.drawing/oleobject/properties/imagedata&#34;&gt;ImageData&lt;/a&gt; property specifies the image (icon) data of byte array type. The image will be displayed to show the OLE Object in the worksheet.&lt;/li&gt;
+&lt;li&gt;The &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.drawing/oleobject/properties/objectdata&#34;&gt;ObjectData&lt;/a&gt; property specifies the object data in the form of a byte array. This data will be shown in its related program when you double-click on the OLE Object icon.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The following example shows how to add an OLE Object(s) into a worksheet.&lt;/p&gt;
+&lt;h4 id=&#34;extracting-ole-objects-in-the-workbook&#34;&gt;Extracting OLE Objects in the Workbook&lt;/h4&gt;
+&lt;p&gt;The following example shows how to extract OLE Objects in a Workbook. The example gets different OLE objects from an existing XLS file and saves different files (DOC, XLS, PPT, PDF, etc.) based on the OLE object’s file format type.&lt;/p&gt;
+&lt;p&gt;After running the code, we can save different files based on their respective OLE Objects format types.&lt;/p&gt;
+&lt;h4 id=&#34;extracting-embedded-mol-file&#34;&gt;Extracting Embedded MOL File&lt;/h4&gt;
+&lt;p&gt;Aspose.Cells supports extracting objects of uncommon types like MOL(Molecular data file containing information about atoms and bonds). The following code snippet demonstrates extracting embedded MOL file and saving it to disk by using this &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/5017133/94896196.xlsx&#34;&gt;sample excel file&lt;/a&gt;.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Managing Pictures</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/drawingobjects/managing&#43;pictures/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/drawingobjects/managing&#43;pictures/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--managing-pictures&#34;&gt;Aspose.Cells for .NET : Managing Pictures&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#adding-pictures&#34;&gt;Adding Pictures&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#positioning-pictures&#34;&gt;Positioning Pictures&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1.1 &lt;a href=&#34;#proportional-positioning&#34;&gt;Proportional Positioning&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.1.2 &lt;a href=&#34;#absolute-positioning&#34;&gt;Absolute Positioning&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;1.2 &lt;a href=&#34;#inserting-a-picture-based-on-cell-reference&#34;&gt;Inserting a Picture Based on Cell Reference&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt;Aspose.Cells allows developers to add pictures to spreadsheets at runtime. Moreover, the positioning of these pictures can be controlled at runtime, which is discussed in more detail in the coming sections.&lt;/p&gt;
+&lt;p&gt;This article explains how to add pictures, and how to insert an image that shows the content of certain cells.&lt;/p&gt;
+&lt;h3 id=&#34;adding-pictures&#34;&gt;Adding Pictures&lt;/h3&gt;
+&lt;p&gt;Adding pictures to a spreadsheet is very easy. It only takes a few lines of code:&lt;br&gt;
+Simply call the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.drawing/picturecollection/methods/add/index&#34;&gt;Add&lt;/a&gt; method of the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.drawing/picturecollection&#34;&gt;Pictures&lt;/a&gt; collection (encapsulated in the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/worksheet&#34;&gt;Worksheet&lt;/a&gt; object). The &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.drawing/picturecollection/methods/add/index&#34;&gt;Add&lt;/a&gt; method takes the following parameters:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Upper left row index&lt;/strong&gt;, the index of the upper left row.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Upper left column index&lt;/strong&gt;, the index of the upper left column.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Image file name&lt;/strong&gt;, the name of the image file, complete with path.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;positioning-pictures&#34;&gt;Positioning Pictures&lt;/h4&gt;
+&lt;p&gt;There are two possible ways to control the positioning of pictures using Aspose.Cells:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Proportional positioning: define a position proportional to the row height and width.&lt;/li&gt;
+&lt;li&gt;Absolute positioning: define the exact position on the page where the image will be inserted, for example, 40 pixels to the left and 20picels below the edge of the cell.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&#34;proportional-positioning&#34;&gt;Proportional Positioning&lt;/h5&gt;
+&lt;p&gt;Developers can position the pictures proportional to row height and column width using the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.drawing/shape/properties/upperdeltax&#34;&gt;UpperDeltaX&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.drawing/shape/properties/upperdeltay&#34;&gt;UpperDeltaY&lt;/a&gt; properties of the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.drawing/picture&#34;&gt;Aspose.Cells.Drawing.Picture&lt;/a&gt; object. A &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.drawing/picture&#34;&gt;Picture&lt;/a&gt; object can be obtained from the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.drawing/picturecollection&#34;&gt;Pictures&lt;/a&gt; collection by passing its picture index. This example places an image in the F6 cell.&lt;/p&gt;
+&lt;h5 id=&#34;absolute-positioning&#34;&gt;Absolute Positioning&lt;/h5&gt;
+&lt;p&gt;Developers can also position the pictures absolutely by using the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.drawing/shape/properties/left&#34;&gt;Left&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.drawing/shape/properties/top&#34;&gt;Top&lt;/a&gt; properties of the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.drawing/picture&#34;&gt;Picture&lt;/a&gt; object. This example places an image in cell F6, 60 pixels from the left and 10 pixels from the top of the cell.&lt;/p&gt;
+&lt;h4 id=&#34;inserting-a-picture-based-on-cell-reference&#34;&gt;Inserting a Picture Based on Cell Reference&lt;/h4&gt;
+&lt;p&gt;Aspose.Cells lets you display the contents of a worksheet cell in an image shape. You can link the picture to the cell that contains the data that you want to display. Since the cell, or cell range, is linked to the graphic object, changes that you make to the data in that cell or cell range automatically appear in the graphic object.&lt;/p&gt;
+&lt;p&gt;Add a picture to the worksheet by calling the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.drawing/shapecollection/methods/addpicture/index&#34;&gt;AddPicture&lt;/a&gt; method of the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.drawing/shapecollection&#34;&gt;ShapeCollection&lt;/a&gt; collection (encapsulated in the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/worksheet&#34;&gt;Worksheet&lt;/a&gt; object). Specify the cell range by using the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.drawing/picture/properties/formula&#34;&gt;Formula&lt;/a&gt; attribute of the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.drawing/picture&#34;&gt;Picture&lt;/a&gt; object.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Remove ActiveX Control</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/drawingobjects/remove&#43;activex&#43;control/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/drawingobjects/remove&#43;activex&#43;control/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--remove-activex-control&#34;&gt;Aspose.Cells for .NET : Remove ActiveX Control&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#remove-activex-control&#34;&gt;Remove ActiveX Control&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#sample-code%C2%A0&#34;&gt;Sample Code &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;remove-activex-control&#34;&gt;Remove ActiveX Control&lt;/h2&gt;
+&lt;p&gt;Aspose.Cells provides the ability to remove ActiveX Control from workbooks. For this, the API provides the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.drawing/shape/methods/removeactivexcontrol&#34;&gt;Shape.RemoveActiveXControl&lt;/a&gt; method. The following code snippet demonstrates the use of the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.drawing/shape/methods/removeactivexcontrol&#34;&gt;Shape.RemoveActiveXControl&lt;/a&gt; method to remove ActiveX Control.&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code &lt;/h2&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Replace tag with text in a textbox inside the Worksheet</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/drawingobjects/replace&#43;tag&#43;with&#43;text&#43;in&#43;a&#43;textbox&#43;inside&#43;the&#43;worksheet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/drawingobjects/replace&#43;tag&#43;with&#43;text&#43;in&#43;a&#43;textbox&#43;inside&#43;the&#43;worksheet/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--replace-tag-with-text-in-a-textbox-inside-the-worksheet&#34;&gt;Aspose.Cells for .NET : Replace tag with text in a textbox inside the Worksheet&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;Text boxes can have tags which can be replaced with some text at run time to configure them according to the requirement. Tags can be some labels enclosed in angle brackets &amp;lsquo;&amp;lt;&amp;rsquo; and &amp;lsquo;&amp;gt;&amp;rsquo;. There can be multiple tags within a single textbox.&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+&lt;p&gt;Following sample code replaces tags TAG_1 and TAG_2 with some text say &amp;lsquo;ys&amp;rsquo; and &amp;lsquo;1&amp;rsquo;. Sample file for testing below code can be downloaded from the following link:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/79331350/79527942.xlsx&#34;&gt;sampleReplaceTagWithText.xlsx&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Replace text in smart art</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/drawingobjects/replace&#43;text&#43;in&#43;smart&#43;art/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/drawingobjects/replace&#43;text&#43;in&#43;smart&#43;art/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--replace-text-in-smart-art&#34;&gt;Aspose.Cells for .NET : Replace text in smart art&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#sample-code%C2%A0&#34;&gt;Sample Code &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;Smart art is one of the major objects in a workbook. Many times there is a need to update the text in smart art. Aspose.Cells provide this feature by setting &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.drawing/shape/properties/text&#34;&gt;Shape.Text&lt;/a&gt; property.&lt;/p&gt;
+&lt;p&gt;The sample source file can be downloaded from the following link:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/77365366/77496338.xlsx&#34;&gt;SmartArt.xlsx&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code &lt;/h2&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Rotate Text with Shape inside the Worksheet</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/drawingobjects/rotate&#43;text&#43;with&#43;shape&#43;inside&#43;the&#43;worksheet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/drawingobjects/rotate&#43;text&#43;with&#43;shape&#43;inside&#43;the&#43;worksheet/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--rotate-text-with-shape-inside-the-worksheet&#34;&gt;Aspose.Cells for .NET : Rotate Text with Shape inside the Worksheet&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#rotate-text-with-shape-inside-the-worksheet&#34;&gt;Rotate Text with Shape inside the Worksheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;You can add text inside any shape using Microsoft Excel. If you add shape using the very old Microsoft Excel 2003, then the text will not rotate with shape. But if you add shape using newer versions of Microsoft Excel e.g. 2007, 2010, 2013 or 2016, etc. then the text will rotate with shape. You can control if the text should rotate with the shape or not using the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.drawing.texts/shapetextalignment/properties/rotatetextwithshape&#34;&gt;ShapeTextAlignment.RotateTextWithShape&lt;/a&gt; property. The default value of it is &lt;strong&gt;true&lt;/strong&gt; which means text will rotate with shape but if you set it as &lt;strong&gt;false&lt;/strong&gt;, then the text will not rotate with shape.&lt;/p&gt;
+&lt;h2 id=&#34;rotate-text-with-shape-inside-the-worksheet&#34;&gt;Rotate Text with Shape inside the Worksheet&lt;/h2&gt;
+&lt;p&gt;The following sample code loads the &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/64456195/64716896.xlsx&#34;&gt;sample Excel file&lt;/a&gt; that has a triangle shape and its text rotates with shape. If you open the sample Excel file in Microsoft Excel and rotate the triangle shape, the text will also rotate with it. The code then sets the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.drawing.texts/shapetextalignment/properties/rotatetextwithshape&#34;&gt;ShapeTextAlignment.RotateTextWithShape&lt;/a&gt; property as **false **and saves it as &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/64456195/64716897.xlsx&#34;&gt;output Excel file&lt;/a&gt;. If you now open the output Excel file in Microsoft Excel and rotate the triangle shape, the text will not rotate with it. Please see the following screenshot showing the effect of the code on sample Excel file for a reference.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/64456195/64716895.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Send Shape Front or Back inside the Worksheet</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/drawingobjects/send&#43;shape&#43;front&#43;or&#43;back&#43;inside&#43;the&#43;worksheet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/drawingobjects/send&#43;shape&#43;front&#43;or&#43;back&#43;inside&#43;the&#43;worksheet/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--send-shape-front-or-back-inside-the-worksheet&#34;&gt;Aspose.Cells for .NET : Send Shape Front or Back inside the Worksheet&lt;/h1&gt;
+
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#send-shape-front-or-back-inside-the-worksheet&#34;&gt;Send Shape Front or Back inside the Worksheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;When there are multiple shapes present in the same location then how will they be visible is decided by their z-order positions. Aspose.Cells provides &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.drawing/shape/methods/tofrontorback&#34;&gt;Shape.ToFrontOrBack()&lt;/a&gt; method which changes the z-order position of the shape. If you want to send shape to back you will use a negative number like -1, -2, -3, etc. and if you want to send shape to the front, you will use a positive number like 1, 2, 3, etc.&lt;/p&gt;
+&lt;h2 id=&#34;send-shape-front-or-back-inside-the-worksheet&#34;&gt;Send Shape Front or Back inside the Worksheet&lt;/h2&gt;
+&lt;p&gt;The following sample code explains the usage of &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.drawing/shape/methods/tofrontorback&#34;&gt;Shape.ToFrontOrBack()&lt;/a&gt; method. Please see the &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/50270201/50528330.xlsx&#34;&gt;sample Excel file&lt;/a&gt; used inside the code and the &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/50270201/50528331.xlsx&#34;&gt;output Excel file&lt;/a&gt; generated by it. The screenshot shows the effect of the code on the sample Excel file on execution.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/50270201/50528332.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Set Margins of Comment or Shape inside the Worksheet</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/drawingobjects/set&#43;margins&#43;of&#43;comment&#43;or&#43;shape&#43;inside&#43;the&#43;worksheet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/drawingobjects/set&#43;margins&#43;of&#43;comment&#43;or&#43;shape&#43;inside&#43;the&#43;worksheet/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--set-margins-of-comment-or-shape-inside-the-worksheet&#34;&gt;Aspose.Cells for .NET : Set Margins of Comment or Shape inside the Worksheet&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#set-margins-of-comment-or-shape-inside-the-worksheet&#34;&gt;Set Margins of Comment or Shape inside the Worksheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;Aspose.Cells allows you to set the margins of any shape or comment using the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.drawing.texts/fontsettingcollection/properties/textalignment&#34;&gt;Shape.TextBody.TextAlignmen&lt;/a&gt;t property. This property returns the object of &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.drawing.texts/shapetextalignment&#34;&gt;Aspose.Cells.Drawing.Texts.ShapeTextAlignment&lt;/a&gt; class which has different properties e.g. &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.drawing.texts/shapetextalignment/properties/topmarginpt&#34;&gt;TopMarginPt&lt;/a&gt;, &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.drawing.texts/shapetextalignment/properties/leftmarginpt&#34;&gt;LeftMarginPt&lt;/a&gt;, &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.drawing.texts/shapetextalignment/properties/bottommarginpt&#34;&gt;BottomMarginPt&lt;/a&gt;, &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.drawing.texts/shapetextalignment/properties/rightmarginpt&#34;&gt;RightMarginPt&lt;/a&gt;, etc. that can be used to set the top, left, bottom and right margins.&lt;/p&gt;
+&lt;h2 id=&#34;set-margins-of-comment-or-shape-inside-the-worksheet&#34;&gt;Set Margins of Comment or Shape inside the Worksheet&lt;/h2&gt;
+&lt;p&gt;Please see the following sample code. It loads the &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/61542248/61767851.xlsx&#34;&gt;sample Excel file&lt;/a&gt; that contains two shapes. The code accesses the shapes one by one and sets their top, left, bottom and right margins. Please see the &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/61542248/61767852.xlsx&#34;&gt;output Excel file&lt;/a&gt; generated by the code and screenshot showing the effect of the code on the output Excel file.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/61542248/61767853.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Specify the Far East and Latin Name of the Font in Text Options of Shape</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/drawingobjects/specify&#43;the&#43;far&#43;east&#43;and&#43;latin&#43;name&#43;of&#43;the&#43;font&#43;in&#43;text&#43;options&#43;of&#43;shape/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/drawingobjects/specify&#43;the&#43;far&#43;east&#43;and&#43;latin&#43;name&#43;of&#43;the&#43;font&#43;in&#43;text&#43;options&#43;of&#43;shape/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--specify-the-far-east-and-latin-name-of-the-font-in-text-options-of-shape&#34;&gt;Aspose.Cells for .NET : Specify the Far East and Latin Name of the Font in Text Options of Shape&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#specify-the-far-east-and-latin-name-of-the-font-in-text-options-of-shape&#34;&gt;Specify the Far East and Latin Name of the Font in Text Options of Shape&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;Sometimes you want to display text in Far East language font e.g. Japanese, Chinese, Thai, etc. Aspose.Cells provides &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.drawing.texts/textoptions/properties/fareastname&#34;&gt;TextOptions.FarEastName&lt;/a&gt; property that can be used to specify the font name of Far East language. Besides, you can also specify the Latin font name using &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.drawing.texts/textoptions/properties/latinname&#34;&gt;TextOptions.LatinName&lt;/a&gt; property. &lt;/p&gt;
+&lt;h2 id=&#34;specify-the-far-east-and-latin-name-of-the-font-in-text-options-of-shape&#34;&gt;Specify the Far East and Latin Name of the Font in Text Options of Shape&lt;/h2&gt;
+&lt;p&gt;The following sample code creates a text box and adds some Japanese text inside it. It then specifies the Latin and Far East font names of the text and saves the workbook as &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/66945471/67338274.xlsx&#34;&gt;output Excel file&lt;/a&gt;. The following screenshot shows the Latin and Far East font names of the output text box in Microsoft Excel.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/66945471/67338275.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Tile Picture as a Texture inside the Shape</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/drawingobjects/tile&#43;picture&#43;as&#43;a&#43;texture&#43;inside&#43;the&#43;shape/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/drawingobjects/tile&#43;picture&#43;as&#43;a&#43;texture&#43;inside&#43;the&#43;shape/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--tile-picture-as-a-texture-inside-the-shape&#34;&gt;Aspose.Cells for .NET : Tile Picture as a Texture inside the Shape&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#tile-picture-as-a-texture-inside-the-shape&#34;&gt;Tile Picture as a Texture inside the Shape&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#screenshot&#34;&gt;Screenshot&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;4 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;When the picture is small and does not cover the entire surface of the shape without losing its quality, then you have the option to tile it. Tiling fills the shape surface with a small image by repeating them as if they are tiles.&lt;/p&gt;
+&lt;h2 id=&#34;tile-picture-as-a-texture-inside-the-shape&#34;&gt;Tile Picture as a Texture inside the Shape&lt;/h2&gt;
+&lt;p&gt;You can fill the shape surface with some image and tile it using the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.drawing/texturefill/properties/istiling&#34;&gt;Shape.Fill.TextureFill.IsTiling&lt;/a&gt; property and setting it &lt;strong&gt;true&lt;/strong&gt;. Please see the following sample code, its &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/45909120/46465050.xlsx&#34;&gt;sample Excel file&lt;/a&gt;, its &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/45909120/46465051.xlsx&#34;&gt;output Excel file&lt;/a&gt; as well as the screenshot for a reference.&lt;/p&gt;
+&lt;h2 id=&#34;screenshot&#34;&gt;Screenshot&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/45909120/46465049.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

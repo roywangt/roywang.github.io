@@ -1,0 +1,306 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Page Setup Features</title>
+    <link>https://roywangt.github.io/cells/java/developerguide/worksheets/pagesetupfeatures/</link>
+    <description>Recent content in Page Setup Features on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://roywangt.github.io/cells/java/developerguide/worksheets/pagesetupfeatures/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Java: Copy Page Setup Settings from Source Worksheet into Destination Worksheet</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/worksheets/pagesetupfeatures/copy&#43;page&#43;setup&#43;settings&#43;from&#43;source&#43;worksheet&#43;into&#43;destination&#43;worksheet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/worksheets/pagesetupfeatures/copy&#43;page&#43;setup&#43;settings&#43;from&#43;source&#43;worksheet&#43;into&#43;destination&#43;worksheet/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--copy-page-setup-settings-from-source-worksheet-into-destination-worksheet&#34;&gt;Aspose.Cells for Java : Copy Page Setup Settings from Source Worksheet into Destination Worksheet&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#copy-page-setup-settings-from-source-worksheet-into-destination-worksheet&#34;&gt;Copy Page Setup Settings from Source Worksheet into Destination Worksheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;4 &lt;a href=&#34;#console-output&#34;&gt;Console Output&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;When you add a new sheet to a workbook, it contains the default Page Setup settings. There may be times when you need to transfer the settings (&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/PageSetup&#34;&gt;PageSetup&lt;/a&gt;) from one worksheet to another worksheet. This document explains how to copy Page Setup settings from one worksheet to another using Aspose.Cells APIs.&lt;/p&gt;
+&lt;h2 id=&#34;copy-page-setup-settings-from-source-worksheet-into-destination-worksheet&#34;&gt;Copy Page Setup Settings from Source Worksheet into Destination Worksheet&lt;/h2&gt;
+&lt;p&gt;The following sample code illustrates how to copy Page Setup settings from one worksheet to another using &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/pagesetup#copy(com.aspose.cells.PageSetup,%20com.aspose.cells.CopyOptions)&#34;&gt;PageSetup.Copy()&lt;/a&gt; method. Please see the following sample code and its console output for a reference.&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+&lt;h2 id=&#34;console-output&#34;&gt;Console Output&lt;/h2&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_cb3f4a6287&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_cb3f4a6287&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Before&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Paper&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Size&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;PAPER_A_3_EXTRA_TRANSVERSE&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Before&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Paper&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Size&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;PAPER_LETTER&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;After&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Paper&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Size&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;PAPER_A_3_EXTRA_TRANSVERSE&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;After&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Paper&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Size&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;PAPER_A_3_EXTRA_TRANSVERSE&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Determine if Paper Size of Worksheet is Automatic</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/worksheets/pagesetupfeatures/determine&#43;if&#43;paper&#43;size&#43;of&#43;worksheet&#43;is&#43;automatic/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/worksheets/pagesetupfeatures/determine&#43;if&#43;paper&#43;size&#43;of&#43;worksheet&#43;is&#43;automatic/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--determine-if-paper-size-of-worksheet-is-automatic&#34;&gt;Aspose.Cells for Java : Determine if Paper Size of Worksheet is Automatic&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#determine-if-paper-size-of-worksheet-is-automatic&#34;&gt;Determine if Paper Size of Worksheet is Automatic&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;4 &lt;a href=&#34;#console-output&#34;&gt;Console Output&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;Most of the time, the paper size of the worksheet is automatic. When it is automatic, it is often set as &lt;em&gt;Letter&lt;/em&gt;. Sometimes the user sets the paper size of the worksheet as per their requirements. In this case, the paper size is not automatic. You can find if the worksheet paper size is automatic or not using the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/pagesetup#IsAutomaticPaperSize&#34;&gt;Worksheet.getPageSetup().isAutomaticPaperSize()&lt;/a&gt; method.&lt;/p&gt;
+&lt;h2 id=&#34;determine-if-paper-size-of-worksheet-is-automatic&#34;&gt;Determine if Paper Size of Worksheet is Automatic&lt;/h2&gt;
+&lt;p&gt;The sample code given below loads the following two Excel files&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/attachments/48136904/48496700.xlsx&#34;&gt;samplePageSetupIsAutomaticPaperSize-False.xlsx&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/attachments/48136904/48496701.xlsx&#34;&gt;samplePageSetupIsAutomaticPaperSize-True.xlsx&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;and find if the paper size of their first worksheet is automatic or not. In Microsoft Excel, you can check if the paper size is automatic or not via the Page Setup window as shown in this screenshot.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/48136904/48496699.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+&lt;h2 id=&#34;console-output&#34;&gt;Console Output&lt;/h2&gt;
+&lt;p&gt;Here is the console output of the above sample code when executed with the given sample Excel files.&lt;/p&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_5d6cd3713c&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_5d6cd3713c&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;
+&lt;span style=&#34;color:#000&#34;&gt;First&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Worksheet&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;of&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;First&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Workbook&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;IsAutomaticPaperSize&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;false&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;First&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Worksheet&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;of&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Second&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Workbook&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;IsAutomaticPaperSize&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;true&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Implement Custom Paper Size of Worksheet for Rendering</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/worksheets/pagesetupfeatures/implement&#43;custom&#43;paper&#43;size&#43;of&#43;worksheet&#43;for&#43;rendering/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/worksheets/pagesetupfeatures/implement&#43;custom&#43;paper&#43;size&#43;of&#43;worksheet&#43;for&#43;rendering/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--implement-custom-paper-size-of-worksheet-for-rendering&#34;&gt;Aspose.Cells for Java : Implement Custom Paper Size of Worksheet for Rendering&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#implement-custom-paper-size-of-worksheet-for-rendering&#34;&gt;Implement Custom Paper Size of Worksheet for Rendering&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#screenshot&#34;&gt;Screenshot&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;4 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;There is no direct option available to create custom paper sizes in MS Excel, however, you can set custom paper size of your desired worksheets when rendering Excel file to the PDF file format. This document explains how to set a custom paper size of a worksheet using Aspose.Cells APIs.&lt;/p&gt;
+&lt;h2 id=&#34;implement-custom-paper-size-of-worksheet-for-rendering&#34;&gt;Implement Custom Paper Size of Worksheet for Rendering&lt;/h2&gt;
+&lt;p&gt;Aspose.Cells allows you to implement your desired paper size of the worksheet by using the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/pagesetup#customPaperSize(double,%20double)&#34;&gt;customPaperSize&lt;/a&gt; method of the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/PageSetup&#34;&gt;PageSetup&lt;/a&gt;. The following sample code illustrates how to specify a custom paper size for the first worksheet in the workbook. Please also see the &lt;a href=&#34;https://docs2.aspose.com/cells/java/attachments/44860297/45056030.pdf&#34;&gt;output PDF&lt;/a&gt; generated with the following code for a reference.&lt;/p&gt;
+&lt;h2 id=&#34;screenshot&#34;&gt;Screenshot&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/44860297/45056029.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Remove Existing PrinterSettings of Worksheets in Excel file</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/worksheets/pagesetupfeatures/remove&#43;existing&#43;printersettings&#43;of&#43;worksheets&#43;in&#43;excel&#43;file/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/worksheets/pagesetupfeatures/remove&#43;existing&#43;printersettings&#43;of&#43;worksheets&#43;in&#43;excel&#43;file/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--remove-existing-printersettings-of-worksheets-in-excel-file&#34;&gt;Aspose.Cells for Java : Remove Existing PrinterSettings of Worksheets in Excel file&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#remove-existing-printersettings-of-worksheets-in-excel-file&#34;&gt;Remove Existing PrinterSettings of Worksheets in Excel file&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#screenshot&#34;&gt;Screenshot&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;4 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;5 &lt;a href=&#34;#console-output&#34;&gt;Console Output&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;Sometimes developers want to prevent Excel from including &lt;em&gt;.bin&lt;/em&gt; files of printer settings in the saved XLSX files. Printer settings files are located under &lt;em&gt;“[file &amp;ldquo;root&amp;rdquo;]\xl\printerSettings”&lt;/em&gt;. This document explains how to remove existing printer settings using Aspose.Cells APIs.&lt;/p&gt;
+&lt;h2 id=&#34;remove-existing-printersettings-of-worksheets-in-excel-file&#34;&gt;Remove Existing PrinterSettings of Worksheets in Excel file&lt;/h2&gt;
+&lt;p&gt;Aspose.Cells allows you to remove existing printer settings specified for different sheets in the Excel file. The following sample code illustrates how to remove existing printer settings for all the worksheets in the workbook. Please see its&lt;a href=&#34;https://docs2.aspose.com/cells/java/attachments/44860273/45056023.xlsx&#34;&gt;sample Excel file&lt;/a&gt;, &lt;a href=&#34;https://docs2.aspose.com/cells/java/attachments/44860273/45056024.xlsx&#34;&gt;output Excel file&lt;/a&gt;, console output as well as a screenshot for a reference.&lt;/p&gt;
+&lt;h2 id=&#34;screenshot&#34;&gt;Screenshot&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/44860273/45056022.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+&lt;h2 id=&#34;console-output&#34;&gt;Console Output&lt;/h2&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_13f023d5df&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_13f023d5df&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;
+&lt;span style=&#34;color:#000&#34;&gt;PrinterSettings&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;of&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;this&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;worksheet&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;exist&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Sheet&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Name&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Sheet1&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Paper&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Size&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;5&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Printer&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;settings&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;of&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;this&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;worksheet&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;are&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;now&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;removed&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;by&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;setting&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;it&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;null&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;PrinterSettings&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;of&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;this&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;worksheet&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;exist&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Sheet&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Name&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Sheet2&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Paper&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Size&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;34&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Printer&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;settings&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;of&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;this&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;worksheet&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;are&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;now&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;removed&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;by&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;setting&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;it&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;null&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;PrinterSettings&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;of&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;this&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;worksheet&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;exist&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Sheet&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Name&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Sheet3&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Paper&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Size&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;70&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Printer&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;settings&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;of&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;this&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;worksheet&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;are&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;now&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;removed&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;by&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;setting&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;it&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;null&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;PrinterSettings&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;of&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;this&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;worksheet&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;exist&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Sheet&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Name&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Sheet4&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Paper&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Size&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;8&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Printer&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;settings&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;of&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;this&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;worksheet&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;are&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;now&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;removed&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;by&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;setting&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;it&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;null&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

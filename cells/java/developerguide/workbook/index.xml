@@ -1,0 +1,675 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Workbook</title>
+    <link>https://roywangt.github.io/cells/java/developerguide/workbook/</link>
+    <description>Recent content in Workbook on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://roywangt.github.io/cells/java/developerguide/workbook/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Java: Add Custom XML Parts and Select them by ID</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/workbook/add&#43;custom&#43;xml&#43;parts&#43;and&#43;select&#43;them&#43;by&#43;id/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/workbook/add&#43;custom&#43;xml&#43;parts&#43;and&#43;select&#43;them&#43;by&#43;id/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--add-custom-xml-parts-and-select-them-by-id&#34;&gt;Aspose.Cells for Java : Add Custom XML Parts and Select them by ID&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#add-custom-xml-parts-and-select-them-by-id&#34;&gt;Add Custom XML Parts and Select them by ID&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;4 &lt;a href=&#34;#console-output&#34;&gt;Console Output&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;Custom XML Parts are the XML data that is stored inside the Microsoft Excel documents and are used by the applications that deal with them. There is no direct way of adding them using Microsoft Excel UI at the moment. However, you can add them programmatically in various ways e.g. using &lt;em&gt;VSTO&lt;/em&gt;, using &lt;em&gt;Aspose.Cells&lt;/em&gt; etc. Please use &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/customxmlpartcollection#add(java.lang.Object)&#34;&gt;Workbook.getCustomXmlParts().add()&lt;/a&gt; method if you want to add Custom XML Part using Aspose.Cells API. You can also set its ID, using the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/customxmlpart#ID&#34;&gt;CustomXmlPart.ID&lt;/a&gt; property. Similarly, if you want to select Custom XML Part by ID, you can use &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/customxmlpartcollection#selectByID(java.lang.String)&#34;&gt;Workbook.getCustomXmlParts().selectByID()&lt;/a&gt; method.&lt;/p&gt;
+&lt;h2 id=&#34;add-custom-xml-parts-and-select-them-by-id&#34;&gt;Add Custom XML Parts and Select them by ID&lt;/h2&gt;
+&lt;p&gt;The following sample code first adds four Custom XML Parts using &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/customxmlpartcollection#add(java.lang.Object)&#34;&gt;Workbook.getCustomXmlParts().add()&lt;/a&gt; method. It then set their IDs using &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/customxmlpart#ID&#34;&gt;CustomXmlPart.ID&lt;/a&gt; property. Finally, it finds or selects one of the added Custom XML Part using &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/customxmlpartcollection#selectByID(java.lang.String)&#34;&gt;Workbook.getCustomXmlParts().selectByID()&lt;/a&gt; method. Please also see the console output of the code given below for a reference.&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+&lt;h2 id=&#34;console-output&#34;&gt;Console Output&lt;/h2&gt;
+&lt;p&gt;Found: CustomXmlPart ID Sport&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Add Digital Signature to an already signed Excel file</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/workbook/add&#43;digital&#43;signature&#43;to&#43;an&#43;already&#43;signed&#43;excel&#43;file/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/workbook/add&#43;digital&#43;signature&#43;to&#43;an&#43;already&#43;signed&#43;excel&#43;file/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--add-digital-signature-to-an-already-signed-excel-file&#34;&gt;Aspose.Cells for Java : Add Digital Signature to an already signed Excel file&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#add-digital-signature-to-an-already-signed-excel-file&#34;&gt;Add Digital Signature to an already signed Excel file&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;Aspose.Cells provides the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/workbook#addDigitalSignature(com.aspose.cells.DigitalSignatureCollection)&#34;&gt;Workbook.addDigitalSignature(DigitalSignatureCollection digitalSignatureCollection)&lt;/a&gt; method that you can use to add digital signature to an already signed Excel file. &lt;/p&gt;
+&lt;p&gt;Please note while adding a digital signature to an already signed Excel document, if the original document is Aspose.Cells generated document, it works well. But if the original document is generated by other engines (e.g. Microsoft Excel etc.), Aspose.Cells cannot keep the file same after loading and re-saving it, this will make the original signature to be invalid.&lt;/p&gt;
+&lt;h2 id=&#34;add-digital-signature-to-an-already-signed-excel-file&#34;&gt;Add Digital Signature to an already signed Excel file&lt;/h2&gt;
+&lt;p&gt;The following sample code explains how to make use of &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/workbook#addDigitalSignature(com.aspose.cells.DigitalSignatureCollection)&#34;&gt;Workbook.addDigitalSignature(DigitalSignatureCollection digitalSignatureCollection)&lt;/a&gt; method to add a digital signature to already signed Excel file. Please check the &lt;a href=&#34;https://docs2.aspose.com/cells/java/attachments/50266413/50528287.xlsx&#34;&gt;sample Excel file&lt;/a&gt; used in this code. This file is already digitally signed. Please check the &lt;a href=&#34;https://docs2.aspose.com/cells/java/attachments/50266413/50528288.xlsx&#34;&gt;output Excel file&lt;/a&gt; generated by the code. We have used the demo certificate named &lt;a href=&#34;https://docs2.aspose.com/cells/java/attachments/50266413/50528289.pfx&#34;&gt;AsposeTest.pfx&lt;/a&gt; in this code which has a password &lt;em&gt;aspose&lt;/em&gt;. The screenshot shows the effect of the sample code on the sample Excel file after execution.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/50266413/50528284.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Assign and Validate Digital Signatures</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/workbook/assign&#43;and&#43;validate&#43;digital&#43;signatures/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/workbook/assign&#43;and&#43;validate&#43;digital&#43;signatures/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--assign-and-validate-digital-signatures&#34;&gt;Aspose.Cells for Java : Assign and Validate Digital Signatures&lt;/h1&gt;
+&lt;p&gt;A digital signature provides assurance that a workbook file is valid and no one has altered it. You can create a personal digital signature by using the &lt;strong&gt;SELFCERT&lt;/strong&gt; tool shipped with Microsoft Office suite or any other tool. You can even purchase a digital signature. After you create or acquire a digital signature, you must attach it to your workbook. Attaching a digital signature is similar to sealing an envelope. If an envelope arrives sealed, you have some level of assurance that no one has tampered with its contents.&lt;/p&gt;
+&lt;p&gt;Aspose.Cells for Java API provide the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/DigitalSignatureCollection&#34;&gt;com.aspose.cells.DigitalSignatureCollection&lt;/a&gt; &amp;amp; &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/DigitalSignature&#34;&gt;com.aspose.cells.DigitalSignature&lt;/a&gt; classes to sign the spreadsheets as well as validate them.&lt;/p&gt;
+&lt;h4 id=&#34;signing-the-spreadsheets&#34;&gt;Signing the Spreadsheets&lt;/h4&gt;
+&lt;p&gt;Signing process requires a certificate as discussed above. Along with the certificate, one should also have its password to successfully sign the spreadsheets using the Aspose.Cells API.&lt;/p&gt;
+&lt;p&gt;The following code snippet demonstrates the usage of Aspose.Cells for Java API to sign a spreadsheet.&lt;/p&gt;
+&lt;p&gt;In case the specified password does not match with the password of certificate then an exception of type &lt;em&gt;javax.crypto.BadPaddingException&lt;/em&gt; will be thrown.&lt;/p&gt;
+&lt;h4 id=&#34;validating-the-spreadsheets&#34;&gt;Validating the Spreadsheets&lt;/h4&gt;
+&lt;p&gt;The following code snippet demonstrates the usage of Aspose.Cells for Java API to validate the spreadsheet.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Create Shared Workbook with Aspose.Cells</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/workbook/create&#43;shared&#43;workbook&#43;with&#43;aspose.cells/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/workbook/create&#43;shared&#43;workbook&#43;with&#43;aspose.cells/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--create-shared-workbook-with-asposecells&#34;&gt;Aspose.Cells for Java : Create Shared Workbook with Aspose.Cells&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#create-shared-workbook-with-aspose.cells&#34;&gt;Create Shared Workbook with Aspose.Cells&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;Microsoft Excel allows you to share the workbook as shown in the following screenshot. When you share the workbook, then more than one user can edit the workbook on the network. Aspose.Cells enables you to create a shared workbook with &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/workbooksettings#Shared&#34;&gt;Workbook.Settings.Shared&lt;/a&gt; property.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/54690165/55541803.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;create-shared-workbook-with-asposecells&#34;&gt;Create Shared Workbook with Aspose.Cells&lt;/h2&gt;
+&lt;p&gt;The following sample code creates a shared workbook by setting &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/workbooksettings#Shared&#34;&gt;Workbook.Settings.Shared&lt;/a&gt; property as &lt;strong&gt;true&lt;/strong&gt;. When you will open the &lt;a href=&#34;https://docs2.aspose.com/cells/java/attachments/54690165/55541801.xlsx&#34;&gt;output Excel file&lt;/a&gt; in Microsoft Excel, you will see &lt;em&gt;Shared&lt;/em&gt; with the output workbook name as shown in this screenshot.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/54690165/55541802.png&#34; alt=&#34;&#34;&gt; &lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Filter Defined Names while loading Workbook</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/workbook/filter&#43;defined&#43;names&#43;while&#43;loading&#43;workbook/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/workbook/filter&#43;defined&#43;names&#43;while&#43;loading&#43;workbook/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--filter-defined-names-while-loading-workbook&#34;&gt;Aspose.Cells for Java : Filter Defined Names while loading Workbook&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#filter-defined-names-while-loading-workbook&#34;&gt;Filter Defined Names while loading Workbook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;Aspose.Cells allows you to filter or remove defined names present inside the workbook. Please use &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/loaddatafilteroptions#DEFINED_NAMES&#34;&gt;LoadDataFilterOptions.DEFINED_NAMES&lt;/a&gt; to load defined names and use ~&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/loaddatafilteroptions#DEFINED_NAMES&#34;&gt;LoadDataFilterOptions.DEFINED_NAMES&lt;/a&gt; to remove them while loading the workbook. Please note, if you will remove defined names, then formulas inside the workbook may break up. &lt;/p&gt;
+&lt;h2 id=&#34;filter-defined-names-while-loading-workbook&#34;&gt;Filter Defined Names while loading Workbook&lt;/h2&gt;
+&lt;p&gt;The following sample code loads the &lt;a href=&#34;https://docs2.aspose.com/cells/java/attachments/61542593/61767873.xlsx&#34;&gt;sample Excel file&lt;/a&gt; which has a formula in cell C1 containing the defined names i.e. &lt;em&gt;=SUM(MyName1, MyName2)&lt;/em&gt;. Since, we are using ~&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/loaddatafilteroptions#DEFINED_NAMES&#34;&gt;LoadDataFilterOptions.DEFINED_NAMES&lt;/a&gt; to remove the defined names while loading the workbook, the formula in cell C1 in &lt;a href=&#34;https://docs2.aspose.com/cells/java/attachments/61542593/61767872.xlsx&#34;&gt;output Excel file&lt;/a&gt; breaks up and you see &lt;em&gt;#NAME?&lt;/em&gt; instead. Please see the following screenshot that shows the effect of the code on the sample Excel file.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/61542593/61767871.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: How to get OData Connection Information</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/workbook/how&#43;to&#43;get&#43;odata&#43;connection&#43;information/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/workbook/how&#43;to&#43;get&#43;odata&#43;connection&#43;information/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--how-to-get-odata-connection-information&#34;&gt;Aspose.Cells for Java : How to get OData Connection Information&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#get-odata-connection-information&#34;&gt;Get OData Connection Information&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.2 &lt;a href=&#34;#console-output&#34;&gt;Console Output&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h1 id=&#34;get-odata-connection-information&#34;&gt;Get OData Connection Information&lt;/h1&gt;
+&lt;p&gt;There might be cases where developers need to extract OData information from the excel file. Aspose.Cells provides the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/workbook#DataMashup&#34;&gt;Workbook.DataMashup&lt;/a&gt; property which returns the DataMashup information present in the Excel file. This information is represented by the DataMashup class. The DataMashup class provides the PowerQueryFormulas property that returns the PowerQueryFormulaCollction collection. From the PowerQueryFormulaCollction, you can get access to PowerQueryFormula and PowerQueryFormulaItem.&lt;/p&gt;
+&lt;p&gt;The following code snippet demonstrates the use of these classes to retrieve the OData information.&lt;/p&gt;
+&lt;p&gt;The Source file used in the following code snippet is attached for your reference.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs.aspose.com/download/attachments/96764782/ODataSample.xlsx?version=1&amp;amp;modificationDate=1575566431680&amp;amp;api=v2&#34;&gt;Source File&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h3&gt;
+&lt;h3 id=&#34;console-output&#34;&gt;Console Output&lt;/h3&gt;
+&lt;p&gt;Connection Name: Orders&lt;/p&gt;
+&lt;p&gt;Name: Source&lt;/p&gt;
+&lt;p&gt;Value: OData.Feed(&amp;ldquo;&lt;a href=&#34;https://services.odata.org/V3/Northwind/Northwind.svc/%22,&#34;&gt;https://services.odata.org/V3/Northwind/Northwind.svc/&amp;quot;,&lt;/a&gt; null, [Implementation=&amp;quot;2.0&amp;rdquo;])&lt;/p&gt;
+&lt;p&gt;Name: Orders_table&lt;/p&gt;
+&lt;p&gt;Value: Source{[Name=&amp;quot;Orders&amp;rdquo;,Signature=&amp;quot;table&amp;rdquo;]}[Data]&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Password Protect or Unprotect the Shared Workbook</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/workbook/password&#43;protect&#43;or&#43;unprotect&#43;the&#43;shared&#43;workbook/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/workbook/password&#43;protect&#43;or&#43;unprotect&#43;the&#43;shared&#43;workbook/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--password-protect-or-unprotect-the-shared-workbook&#34;&gt;Aspose.Cells for Java : Password Protect or Unprotect the Shared Workbook&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#password-protect-or-unprotect-the-shared-workbook&#34;&gt;Password Protect or Unprotect the Shared Workbook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;You can protect or unprotect the shared workbook with Microsoft Excel as shown in the following screenshot. Aspose.Cells also supports this feature with the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/workbook#protectSharedWorkbook(java.lang.String)&#34;&gt;Workbook.protectSharedWorkbook()&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/workbook#unprotectSharedWorkbook(java.lang.String)&#34;&gt;Workbook.unprotectSharedWorkbook()&lt;/a&gt; methods.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/54690155/55541798.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;password-protect-or-unprotect-the-shared-workbook&#34;&gt;Password Protect or Unprotect the Shared Workbook&lt;/h2&gt;
+&lt;p&gt;The following sample code creates a workbook and protects it while enabling sharing and saves it as &lt;a href=&#34;https://docs2.aspose.com/cells/java/attachments/54690155/55541800.xlsx&#34;&gt;output Excel file&lt;/a&gt;. The screenshot shows that when you try to unprotect it, Microsoft Excel prompts you to enter the password to unprotect it.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/54690155/55541799.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Read and Write External Connection of XLSB or XLS file</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/workbook/read&#43;and&#43;write&#43;external&#43;connection&#43;of&#43;xlsb&#43;or&#43;xls&#43;file/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/workbook/read&#43;and&#43;write&#43;external&#43;connection&#43;of&#43;xlsb&#43;or&#43;xls&#43;file/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--read-and-write-external-connection-of-xlsb-or-xls-file&#34;&gt;Aspose.Cells for Java : Read and Write External Connection of XLSB or XLS file&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#read-and-write-external-connection-of-xlsb/xls-file&#34;&gt;Read and Write External Connection of XLSB/XLS file&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;4 &lt;a href=&#34;#console-output&#34;&gt;Console Output&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;Aspose.Cells already supports read and write external connection of XLSX file but now, it also supports this feature for XLSB and XLS file. However, the code is same for both types of format.&lt;/p&gt;
+&lt;h2 id=&#34;read-and-write-external-connection-of-xlsbxls-file&#34;&gt;Read and Write External Connection of XLSB/XLS file&lt;/h2&gt;
+&lt;p&gt;The following sample code loads the sample XLSB(XLS can also be loaded) file and reads its first External Connection which is actually a Microsoft Access DB Connection. It then modifies the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/dbconnection#Name&#34;&gt;DBConnection.Name&lt;/a&gt; property and saves it as output XLSB file. The screenshot shows the effect of code on &lt;a href=&#34;https://docs2.aspose.com/cells/java/attachments/51480070/51740743.xlsb&#34;&gt;sample XLSB file&lt;/a&gt; and &lt;a href=&#34;https://docs2.aspose.com/cells/java/attachments/51480070/51740742.xlsb&#34;&gt;output XLSB file&lt;/a&gt; after its execution. Please also see the console output of the sample code given below for a reference.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/51480070/51740741.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+&lt;p&gt;Following code shall work for both XLSB and XLS by loading and saving files with appropriate extension.&lt;/p&gt;
+&lt;h2 id=&#34;console-output&#34;&gt;Console Output&lt;/h2&gt;
+&lt;p&gt;Connection Name: CustCommand: CustomerConnection Info: Provider=Microsoft.ACE.OLEDB.12.0;Password=&amp;rdquo;&amp;quot;;User ID=Admin;Data Source=C:\TempSha\Cust.accdb;Mode=Share Deny Write;Extended Properties=&amp;rdquo;&amp;quot;;Jet OLEDB:System database=&amp;rdquo;&amp;quot;;Jet OLEDB:Registry Path=&amp;rdquo;&amp;quot;;Jet OLEDB:Database Password=&amp;rdquo;&amp;quot;;Jet OLEDB:Engine Type=6;Jet OLEDB:Database Locking Mode=0;Jet OLEDB:Global Partial Bulk Ops=2;Jet OLEDB:Global Bulk Transactions=1;Jet OLEDB:New Database Password=&amp;rdquo;&amp;quot;;Jet OLEDB:Create System Database=False;Jet OLEDB:Encrypt Database=False;Jet OLEDB:Don&amp;rsquo;t Copy Locale on Compact=False;Jet OLEDB:Compact Without Replica Repair=False;Jet OLEDB:SFP=False;Jet OLEDB:Support Complex Data=False;Jet OLEDB:Bypass UserInfo Validation=False;Jet OLEDB:Limited DB Caching=False;Jet OLEDB:Bypass ChoiceField Validation=False&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Replace text in a workbook using Regular Expression</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/workbook/replace&#43;text&#43;in&#43;a&#43;workbook&#43;using&#43;regular&#43;expression/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/workbook/replace&#43;text&#43;in&#43;a&#43;workbook&#43;using&#43;regular&#43;expression/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--replace-text-in-a-workbook-using-regular-expression&#34;&gt;Aspose.Cells for Java : Replace text in a workbook using Regular Expression&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#replace-text-in-a-workbook-using-regular-expression&#34;&gt;Replace text in a workbook using Regular Expression&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h1 id=&#34;replace-text-in-a-workbook-using-regular-expression&#34;&gt;Replace text in a workbook using Regular Expression&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells provides the feature to replace text in a workbook using a regular expression. For this, the API provides &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/replaceoptions#RegexKey&#34;&gt;RegexKey&lt;/a&gt; property of the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/ReplaceOptions&#34;&gt;ReplaceOptions&lt;/a&gt; class. Setting the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/replaceoptions#RegexKey&#34;&gt;RegexKey&lt;/a&gt; to &lt;strong&gt;true&lt;/strong&gt; indicates that the searched key will be a regular expression.&lt;/p&gt;
+&lt;p&gt;The following code snippet demonstrates the use of the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/replaceoptions#RegexKey&#34;&gt;RegexKey&lt;/a&gt; property by using the &lt;a href=&#34;https://docs.aspose.com/download/attachments/101122950/SampleRegexReplace.xlsx?version=1&amp;amp;modificationDate=1581092296217&amp;amp;api=v2&#34;&gt;sample excel file&lt;/a&gt;. The &lt;a href=&#34;https://docs.aspose.com/download/attachments/101122950/RegexReplace_out.xlsx?version=1&amp;amp;modificationDate=1581092296213&amp;amp;api=v2&#34;&gt;output file&lt;/a&gt; generated by the following code snippet is attached for reference.&lt;/p&gt;
+&lt;h3 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h3&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Stop conversion or loading using InterruptMonitor when it is taking too long</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/workbook/stop&#43;conversion&#43;or&#43;loading&#43;using&#43;interruptmonitor&#43;when&#43;it&#43;is&#43;taking&#43;too&#43;long/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/workbook/stop&#43;conversion&#43;or&#43;loading&#43;using&#43;interruptmonitor&#43;when&#43;it&#43;is&#43;taking&#43;too&#43;long/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--stop-conversion-or-loading-using-interruptmonitor-when-it-is-taking-too-long&#34;&gt;Aspose.Cells for Java : Stop conversion or loading using InterruptMonitor when it is taking too long&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#stop-conversion-or-loading-using-interruptmonitor-when-it-is-taking-too-long&#34;&gt;Stop conversion or loading using InterruptMonitor when it is taking too long&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;Aspose.Cells allows you to stop conversion of Workbook to various formats like PDF, HTML, etc. using the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/InterruptMonitor&#34;&gt;InterruptMonitor&lt;/a&gt; object when it is taking too long. The conversion process is often both CPU and Memory intensive and it is often useful to halt it when resources are limited. You can use &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/InterruptMonitor&#34;&gt;InterruptMonitor&lt;/a&gt; both for stopping conversion as well as to stop loading huge workbook. Please use &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/workbook#InterruptMonitor&#34;&gt;Workbook.InterruptMonitor&lt;/a&gt; property for stopping conversion and &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/loadoptions#InterruptMonitor&#34;&gt;LoadOptions.InterruptMonitor&lt;/a&gt; property for loading huge workbook. &lt;/p&gt;
+&lt;h2 id=&#34;stop-conversion-or-loading-using-interruptmonitor-when-it-is-taking-too-long&#34;&gt;Stop conversion or loading using InterruptMonitor when it is taking too long&lt;/h2&gt;
+&lt;p&gt;The following sample code explains the usage of &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/InterruptMonitor&#34;&gt;InterruptMonitor&lt;/a&gt; object. The code converts quite a large Excel file to PDF. It will take several seconds (i.e. &lt;em&gt;more than 30 seconds&lt;/em&gt;) to get it converted because of these lines of code.&lt;/p&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_cc76460987&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_cc76460987&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//Access cell AB1000000 and add some text inside it.
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Cell&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;cell&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;ws&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Cells&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;AB1000000&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;];&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;cell&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;PutValue&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;This is text.&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;p&gt;As you see &lt;strong&gt;AB1000000&lt;/strong&gt; is quite a farther cell in XLSX file. However, the &lt;em&gt;WaitForWhileAndThenInterrupt()&lt;/em&gt; method interrupts the conversion after 10 seconds and program ends/terminates. Please use the following code to execute the sample code.&lt;/p&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_5415cad25a&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_5415cad25a&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;StopConversionOrLoadingUsingInterruptMonitor&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;().&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;TestRun&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;();&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Support for XAdES Signature</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/workbook/support&#43;for&#43;xades&#43;signature/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/workbook/support&#43;for&#43;xades&#43;signature/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--support-for-xades-signature&#34;&gt;Aspose.Cells for Java : Support for XAdES Signature&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#support-for-xades-signature&#34;&gt;Support for XAdES Signature&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h1 id=&#34;support-for-xades-signature&#34;&gt;Support for XAdES Signature&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells provides supports signing workbooks with XAdES Signature. For this, the API provides &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/DigitalSignature&#34;&gt;DigitalSignature&lt;/a&gt; class and &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/XAdESType&#34;&gt;XAdESType&lt;/a&gt; enumeration.&lt;/p&gt;
+&lt;p&gt;The following code snippet demonstrates the use of the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/DigitalSignature&#34;&gt;DigitalSignature&lt;/a&gt; class to sign the &lt;a href=&#34;https://docs.aspose.com/download/attachments/101122954/sourceFile.xlsx?version=1&amp;amp;modificationDate=1581093717175&amp;amp;api=v2&#34;&gt;source&lt;/a&gt; workbook.&lt;/p&gt;
+&lt;h3 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h3&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Web Extensions - Office Add-ins</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/workbook/web&#43;extensions&#43;-&#43;office&#43;add-ins/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/workbook/web&#43;extensions&#43;-&#43;office&#43;add-ins/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--web-extensions---office-add-ins&#34;&gt;Aspose.Cells for Java : Web Extensions - Office Add-ins&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#web-extensions---office-add-ins&#34;&gt;Web Extensions - Office Add-ins&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#add-web-extension&#34;&gt;Add Web Extension&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;2.1 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#access-web-extension-information&#34;&gt;Access Web Extension Information&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;3.1 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3.2 &lt;a href=&#34;#console-output&#34;&gt;Console Output&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h1 id=&#34;web-extensions---office-add-ins&#34;&gt;Web Extensions - Office Add-ins&lt;/h1&gt;
+&lt;p&gt;Web Extensions extend Office applications and interact with the content in Office documents. Web Extensions add additional functionality to Office client to improve the user experience and productivity.&lt;/p&gt;
+&lt;p&gt;Aspose.Cells also provides the ability to work with Web Extensions.&lt;/p&gt;
+&lt;h1 id=&#34;add-web-extension&#34;&gt;Add Web Extension&lt;/h1&gt;
+&lt;p&gt;You may add Web Extensions(Office Add-ins) in Excel by clicking the &lt;strong&gt;Insert&lt;/strong&gt; tab and then clicking the &lt;strong&gt;Store&lt;/strong&gt;/&lt;strong&gt;Get Add-ins&lt;/strong&gt; link. In the Add-ins box, browse for the add-in you want and add it.&lt;/p&gt;
+&lt;p&gt;Aspose.Cells also provides the feature to add Web Extensions by using the WebExtension and WebExtensionTaskPane classes. The following code sample demonstrates the use of WebExtension and WebExtensionTaskPane classes to add a web extension to Excel file. Please see the &lt;a href=&#34;https://docs.aspose.com/download/attachments/89686048/AddWebExtension_Out.xlsx?version=1&amp;amp;modificationDate=1557981443604&amp;amp;api=v2&#34;&gt;output Excel file&lt;/a&gt; generated by the code for reference.&lt;/p&gt;
+&lt;h3 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h3&gt;
+&lt;h1 id=&#34;access-web-extension-information&#34;&gt;Access Web Extension Information&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells provides the ability to access the information of Web Extensions in Excel file. The following code sample demonstrates how to access web extension information by loading the &lt;a href=&#34;https://docs.aspose.com/download/attachments/89686048/WebExtensionsSample.xlsx?version=1&amp;amp;modificationDate=1557981443608&amp;amp;api=v2&#34;&gt;sample Excel file&lt;/a&gt;. Please see the console output generated by the code for reference.&lt;/p&gt;
+&lt;h3 id=&#34;sample-code-1&#34;&gt;Sample Code&lt;/h3&gt;
+&lt;h3 id=&#34;console-output&#34;&gt;Console Output&lt;/h3&gt;
+&lt;p&gt;Width: 350IsVisible: TrueIsLocked: FalseDockState: rightStoreName: en-USStoreType: OMEXWebExtension.Id: 95D7ECE8-1355-492B-B6BF-27D25D0B0EEF&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Workbook and Worksheet Print Preview</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/workbook/workbook&#43;and&#43;worksheet&#43;print&#43;preview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/workbook/workbook&#43;and&#43;worksheet&#43;print&#43;preview/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--workbook-and-worksheet-print-preview&#34;&gt;Aspose.Cells for Java : Workbook and Worksheet Print Preview&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#usage-scenario&#34;&gt;Usage Scenario&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#workbook-and-worksheet-print-preview&#34;&gt;Workbook and Worksheet Print Preview&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;2.1 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2.2 &lt;a href=&#34;#console-output&#34;&gt;Console Output&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h1 id=&#34;usage-scenario&#34;&gt;Usage Scenario&lt;/h1&gt;
+&lt;p&gt;There may be cases where Excel files with millions of pages need to be converted to PDF or images. Processing such files will consume a lot of time and resources. In such cases, the Workbook and Worksheet Print Preview feature might prove to be useful. Before converting such files, the user can check the total number of pages and then decide whether the file is to be converted or not. This article focuses on using the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/WorkbookPrintingPreview&#34;&gt;WorkbookPrintingPreview&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/SheetPrintingPreview&#34;&gt;SheetPrintingPreview&lt;/a&gt; classes to find out the total number of pages.&lt;/p&gt;
+&lt;h1 id=&#34;workbook-and-worksheet-print-preview&#34;&gt;Workbook and Worksheet Print Preview&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells provides the print preview feature. For this, the API provides &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/WorkbookPrintingPreview&#34;&gt;WorkbookPrintingPreview&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/SheetPrintingPreview&#34;&gt;SheetPrintingPreview&lt;/a&gt; classes. To create the print preview of the whole workbook, create an instance of the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/WorkbookPrintingPreview&#34;&gt;WorkbookPrintingPreview&lt;/a&gt; class by passing &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/Workbook&#34;&gt;Workbook&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/ImageOrPrintOptions&#34;&gt;ImageOrPrintOptions&lt;/a&gt; objects to the constructor. The &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/WorkbookPrintingPreview&#34;&gt;WorkbookPrintingPreview&lt;/a&gt; class provides an &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/workbookprintingpreview#EvaluatedPageCount&#34;&gt;EvaluatedPageCount&lt;/a&gt; method which returns the number of pages in the generated preview. Similar to &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/WorkbookPrintingPreview&#34;&gt;WorkbookPrintingPreview&lt;/a&gt; class, the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/SheetPrintingPreview&#34;&gt;SheetPrintingPreview&lt;/a&gt; class is used to generate a print preview for a specific worksheet. To create the print preview of a worksheet, create an instance of the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/SheetPrintingPreview&#34;&gt;SheetPrintingPreview&lt;/a&gt; class by passing &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/Worksheet&#34;&gt;Worksheet&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/ImageOrPrintOptions&#34;&gt;ImageOrPrintOptions&lt;/a&gt; objects to the constructor. The &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/SheetPrintingPreview&#34;&gt;SheetPrintingPreview&lt;/a&gt; class also provides an &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/sheetprintingpreview#EvaluatedPageCount&#34;&gt;EvaluatedPageCount&lt;/a&gt; method which returns the number of pages in the generated preview.&lt;/p&gt;
+&lt;p&gt;The following code snippet demonstrates the use of both &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/WorkbookPrintingPreview&#34;&gt;WorkbookPrintingPreview&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/SheetPrintingPreview&#34;&gt;SheetPrintingPreview&lt;/a&gt; classes by using the &lt;a href=&#34;https://docs.aspose.com/download/attachments/94635905/Book1.xlsx?version=1&amp;amp;modificationDate=1567615546030&amp;amp;api=v2&#34;&gt;sample excel file&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h3&gt;
+&lt;p&gt;The following is the output generated by executing the above code.&lt;/p&gt;
+&lt;h3 id=&#34;console-output&#34;&gt;Console Output&lt;/h3&gt;
+&lt;p&gt;Workbook page count: 1&lt;br&gt;
+Worksheet page count: 1&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Working with ContentTypeProperties</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/workbook/working&#43;with&#43;contenttypeproperties/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/workbook/working&#43;with&#43;contenttypeproperties/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--working-with-contenttypeproperties&#34;&gt;Aspose.Cells for Java : Working with ContentTypeProperties&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#working-with-contenttypeproperties&#34;&gt;Working with ContentTypeProperties&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h1 id=&#34;working-with-contenttypeproperties&#34;&gt;Working with ContentTypeProperties&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells provides &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/contenttypepropertycollection#add(java.lang.Object)&#34;&gt;Workbook.ContentTypeProperties.Add&lt;/a&gt; method to add custom ContentTypeProperties to an excel file. You may also make the property optional by setting the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/contenttypeproperty#IsNillable&#34;&gt;ContentTypeProperty.IsNillable&lt;/a&gt; property to &lt;strong&gt;true&lt;/strong&gt;. The following code snippet demonstrates adding optional custom ContentTypeProperties to an excel file. The following image shows both properties that were added by the sample code.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/95323808/95584315.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The output file generated by the sample code is attached for reference.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs.aspose.com/download/attachments/95323808/WorkingWithContentTypeProperties_out.xlsx?version=1&amp;amp;modificationDate=1573641925176&amp;amp;api=v2&#34;&gt;Output File&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h3&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

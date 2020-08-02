@@ -1,0 +1,515 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – New Features</title>
+    <link>https://roywangt.github.io/cells/reportingservices/newfeatures/</link>
+    <description>Recent content in New Features on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://roywangt.github.io/cells/reportingservices/newfeatures/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Reportingservices: Composite Markers</title>
+      <link>https://roywangt.github.io/cells/reportingservices/newfeatures/composite&#43;markers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/reportingservices/newfeatures/composite&#43;markers/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-reporting-services--composite-markers&#34;&gt;Aspose.Cells for Reporting Services : Composite Markers&lt;/h1&gt;
+&lt;p&gt;We have introduced the Composite Markers feature. Now, the user can join markers together as a composite marker by making use of concatenating char i.e., “&amp;amp;”. For example, &lt;em&gt;&amp;amp;= Parameters!ReportYear.Value &amp;amp; &amp;ldquo;-&amp;rdquo; &amp;amp;Parameters!ReportMonth.Value  &amp;amp;&amp;rdquo; Sales Report&amp;rdquo;&lt;/em&gt;. The marker consists of two Parameter markers and two static text markers.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Reportingservices: Sub-reports</title>
+      <link>https://roywangt.github.io/cells/reportingservices/newfeatures/sub-reports/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/reportingservices/newfeatures/sub-reports/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-reporting-services--sub-reports&#34;&gt;Aspose.Cells for Reporting Services : Sub-reports&lt;/h1&gt;
+&lt;p&gt;We incorporated support for Embedding a Sub-Report in a Table group row. The format is:&lt;/p&gt;
+&lt;p&gt;&amp;amp;=subreport{ReportName=your report name; parameter1 name = parameter1 value; parameter2 name = parameter2 value;&amp;hellip;&amp;hellip;}&lt;/p&gt;
+&lt;h3 id=&#34;example&#34;&gt;Example&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;A sub-report in a table&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/reportingservices/attachments/6094922/6193432.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;In the example, the name of sub-report is “Sales Order Detail”. It has one parameter, &lt;em&gt;SalesOrderNumber&lt;/em&gt;. The value of the parameter is &lt;em&gt;EmpSalesDetail.SalesOrderNumber.&lt;/em&gt;&lt;/p&gt;
+&lt;h4 id=&#34;restrictions-on-using-sub-reports&#34;&gt;Restrictions on using Sub-Reports&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;The sub-report should be designed with the Aspose.Cells.Reporting Services Designer tool.&lt;/li&gt;
+&lt;li&gt;The Sub-Report can only be embedded in the table group row and the group row cannot contain other elements except the Sub-Report. Embedding a Sub-Report in the table detail rows or footer rows is not allowed.&lt;/li&gt;
+&lt;li&gt;Currently, nesting more than one level is not supported. The Sub-Report cannot contain embedded report.&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Reportingservices: Integrate with Microsoft Report Viewer in Local Mode</title>
+      <link>https://roywangt.github.io/cells/reportingservices/newfeatures/integrate&#43;with&#43;microsoft&#43;report&#43;viewer&#43;in&#43;local&#43;mode/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/reportingservices/newfeatures/integrate&#43;with&#43;microsoft&#43;report&#43;viewer&#43;in&#43;local&#43;mode/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-reporting-services--integrate-with-microsoft-report-viewer-in-local-mode&#34;&gt;Aspose.Cells for Reporting Services : Integrate with Microsoft Report Viewer in Local Mode&lt;/h1&gt;
+&lt;p&gt;Microsoft Report Viewer is a powerful .NET control that allows RDL and RDLC reports to be used in WinForms and ASP.NET applications. It enables users to view and export reports to different formats. The control is included with Microsoft Visual Studio 2005 and 2008, and is also available as a free download from Microsoft.&lt;/p&gt;
+&lt;p&gt;Report Viewer can generate reports independently using a built-in engine (known as &amp;lsquo;local mode&amp;rsquo;), or it can display reports that are generated on a Microsoft SQL Server Reporting Services Report Server (&amp;lsquo;remote mode&amp;rsquo;):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;In remote mode, Report Viewer can export reports to all formats installed on the Report Server to which it is connected. Therefore, to export reports to more Microsoft Excel formats you only need to install Aspose.Cells for Reporting Services on the server.&lt;/li&gt;
+&lt;li&gt;In local mode however, Report Viewer does not connect to a Report Server and the list of export formats is limited to only a few built-in formats.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;By installing Aspose.Cells for Reporting Services on a development machine and following the steps below, you can export to more Microsoft Excel formats from Report Viewer working in local mode.&lt;/p&gt;
+&lt;h3 id=&#34;working-with-asposecells-in-local-mode&#34;&gt;Working with Aspose.Cells in Local Mode&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Reference &lt;strong&gt;Aspose.Cells.ReportingServices.dll&lt;/strong&gt; in the project:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Open the project in Visual Studio.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Right-click the &lt;strong&gt;References&lt;/strong&gt; folder and select &lt;strong&gt;Add Reference&lt;/strong&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Select the &lt;strong&gt;Browse&lt;/strong&gt; tab and browse to the following assembly:&lt;br&gt;
+&lt;code&gt;&amp;lt;InstallDir&amp;gt;/ ReportView/Aspose.Cells.ReportingServices.dll&lt;/code&gt;&lt;br&gt;
+(where &lt;code&gt;&amp;lt;InstallDir&amp;gt;&lt;/code&gt; is the directory where you installed or unpacked Aspose.Cells for Reporting Services.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Adding a reference to Aspose.Cells.ReportingServices.dll to a project&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/reportingservices/attachments/6094921/6193418.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Copy and paste the following &lt;code&gt;AddExtension&lt;/code&gt; method into the project.&lt;br&gt;
+This method adds the specified rendering extension to the list of supported extensions in Microsoft Report Viewer using private reflection.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;C#&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_ea5bf05905&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_ea5bf05905&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-c#&#34; data-lang=&#34;c#&#34;&gt;
+ 
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;using&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;System.Collections&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;using&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;System.Reflection&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;using&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Microsoft.ReportingServices.ReportRendering&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// Use one of the two namespaces below depending on whether you are developing
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// a WinForms or WebForms application.
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;using&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Microsoft.Reporting.WinForms&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// -- or --
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// using Microsoft.Reporting.WebForms;
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt; 
+ 
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;/// &amp;lt;summary&amp;gt;
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;/// Adds the specified rendering extension to the specified ReportViewer instance.
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;/// &amp;lt;/summary&amp;gt;
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;/// &amp;lt;param name=&amp;#34;viewer&amp;#34;&amp;gt;A ReportViewer control instance.&amp;lt;/param&amp;gt;
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;/// &amp;lt;param name=&amp;#34;formatName&amp;#34;&amp;gt;The name of the export format to appear on the dropdown list.&amp;lt;/param&amp;gt;
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;/// &amp;lt;param name=&amp;#34;extensionType&amp;#34;&amp;gt;The class of the rendering extension to add.&amp;lt;/param&amp;gt;
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;private&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;AddExtension&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;ReportViewer&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;viewer&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;string&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;formatName&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Type&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;extensionType&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt;
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;const&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;BindingFlags&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;flags&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;BindingFlags&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;NonPublic&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;|&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;BindingFlags&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Public&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;|&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;BindingFlags&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Instance&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// CommonService.ListRenderingExtension is an internal method that returns a list of supported
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// rendering extensions. This list is also stored in a class field so we can simply get this list
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// and add Aspose.Cells for Reporting Services rendering extensions to make Microsoft Excel
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// export formats appear on the dropdown.
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// Get the service type.
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;FieldInfo&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;previewService&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;viewer&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;LocalReport&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;GetType&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;().&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;GetField&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;m_previewService&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;flags&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// Get the ListRenderingExtensions method info.
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;MethodInfo&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;listRenderingExtensions&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;previewService&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;FieldType&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;GetMethod&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;ListRenderingExtensions&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;flags&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// Obtan a list of existing rendering extensions.
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;IList&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;extensions&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;listRenderingExtensions&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Invoke&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;previewService&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;GetValue&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;viewer&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;LocalReport&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;),&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;null&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;as&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;IList&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// LocalRenderingExtensionInfo is a class that holds information about a rendering extension.
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// We should create an instance of this class to add the info about the specified extension.
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// Since the IRenderingExtension interface is defined in the Microsoft.ReportViewer.Common
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// assembly, use this trick to obtain the corresponding Assembly instance. This will work for
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// both Report Viewer 2005 (8.0) and 2008 (9.0).
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Assembly&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;commonAssembly&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;typeof&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;IRenderingExtension&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;).&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Assembly&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// Now, get the LocalRenderingExtensionInfo type as it is defined in the same assembly.
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Type&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;localRenderingExtensionInfoType&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;commonAssembly&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;GetType&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Microsoft.Reporting.LocalRenderingExtensionInfo&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// Get the LocalRenderingExtensionInfo constructor info.
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;ConstructorInfo&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;ctor&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;localRenderingExtensionInfoType&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;GetConstructor&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;flags&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt;
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;null&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt;
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Type&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;[]&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;typeof&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;string&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;),&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;typeof&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;string&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;),&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;typeof&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;bool&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;),&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;typeof&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Type&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;),&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;typeof&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;bool&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;},&lt;/span&gt;
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;null&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// Create an instance of LocalRenderingExtensionInfo.
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;object&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;instance&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;ctor&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Invoke&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;object&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;[]&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;formatName&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;formatName&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;true&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;extensionType&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;true&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;});&lt;/span&gt;
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// Finally, add the info about our rendering extension to the list.
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;extensions&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Add&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;instance&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;}&lt;/span&gt;
+ 
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;pre&gt;&lt;code&gt;**VB .NET**
+
+ Imports System.CollectionsImports System.ReflectionImports Microsoft.ReportingServices.ReportRendering// Use one of the two namespaces below depending on whether you are developing// a WinForms or WebForms application.Imports Microsoft.Reporting.WinForms// -- or --// Imports Microsoft.Reporting.WebForms  &#39;&#39; Adds the specified rendering extension to the specified ReportViewer instance.Private Shared Sub AddExtension(ByVal viewer As ReportViewer, ByVal formatName As String, ByVal extensionType As Type)    Const flags As BindingFlags = BindingFlags.NonPublic Or BindingFlags.Public Or BindingFlags.Instance     &#39; CommonService.ListRenderingExtension is an internal method that returns a list of supported    &#39; rendering extensions. This list is also stored in a class field so we can simply get this list    &#39; and add Aspose.Cells for Reporting Services rendering extensions to make Microsoft Excel    &#39; export formats appear on the dropdown.     &#39; Get the service type.    Dim previewService As FieldInfo = viewer.LocalReport.GetType().GetField(&amp;quot;m\_previewService&amp;quot;, flags)     &#39; Get the ListRenderingExtensions method info.    Dim listRenderingExtensions As MethodInfo = previewService.FieldType.GetMethod(&amp;quot;ListRenderingExtensions&amp;quot;, flags)     &#39; Obtan a list of existing rendering extensions.    Dim extensions As IList = TryCast(listRenderingExtensions.Invoke(previewService.GetValue(viewer.LocalReport), Nothing), IList)     &#39; LocalRenderingExtensionInfo is a class that holds information about a rendering extension.    &#39; We should create an instance of this class to add the info about the specified extension.     &#39; Since the IRenderingExtension interface is defined in the Microsoft.ReportViewer.Common assembly, use this trick    &#39; to obtain the corresponding Assembly instance. This will work for both Report Viewer 2005 (8.0) and 2008 (9.0).    Dim commonAssembly As System.Reflection.Assembly = GetType(IRenderingExtension).Assembly     &#39; Now, get the LocalRenderingExtensionInfo type as it is defined in the same assembly.    Dim localRenderingExtensionInfoType As Type = commonAssembly.GetType(&amp;quot;Microsoft.Reporting.LocalRenderingExtensionInfo&amp;quot;)     &#39; Get the LocalRenderingExtensionInfo constructor info.    Dim ctor As ConstructorInfo = localRenderingExtensionInfoType.GetConstructor(flags, Nothing, New Type() { GetType(String), GetType(String), GetType(Boolean), GetType(Type), GetType(Boolean) }, Nothing)     &#39; Create an instance of LocalRenderingExtensionInfo.     Dim instance As Object = ctor.Invoke(New Object() { formatName, formatName, True, extensionType, True })     &#39; Finally, add the info about our rendering extension to the list.    extensions.Add(instance)End Sub 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;Invoke the &lt;code&gt;AddExtension&lt;/code&gt; method from the code.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;You can call &lt;code&gt;AddExtension&lt;/code&gt; (shown in the previous step) whenever you need to add Aspose.Cells for Reporting Services export formats to a Report Viewer control instance. Consider calling from the &lt;code&gt;Form_Load&lt;/code&gt; or &lt;code&gt;Page_Load&lt;/code&gt; event handler of a WinForms or ASP .NET application.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;You can add all or only some export Aspose.Cells for Reporting Services export formats. You can specify any display name for the formats to appear in Report Viewer.&lt;br&gt;
+To add Aspose.Cells for Reporting Services export formats to Microsoft Report Viewer in local mode, use the following code:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;C#&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;         AddExtension(reportViewer1, &amp;quot;Xls - Xls via Aspose.Cells&amp;quot;,    typeof(Aspose.Cells.ReportingServices.XlsRenderer));            AddExtension(reportViewer1, &amp;quot;Xlsx - Xlsx via Aspose.Cells&amp;quot;, typeof(Aspose.Cells.ReportingServices.Excel2007XlsxRenderer));			AddExtension(reportViewer1, &amp;quot;CSV - CSV via Aspose.Cells&amp;quot;,    typeof(Aspose.Cells.ReportingServices.CSVRenderer));            AddExtension(reportViewer1, &amp;quot;SpreadsheetML - SpreadsheetML via Aspose.Cells&amp;quot;, typeof(Aspose.Cells.ReportingServices.SpreadsheetMLRenderer));            AddExtension(reportViewer1, &amp;quot;Txt - TabDelimited text via Aspose.Cells&amp;quot;, typeof(Aspose.Cells.ReportingServices.TabDelimitedRenderer));  
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;VB .NET&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;         AddExtension(reportViewer1, &amp;quot;Xls - Xls via Aspose.Cells&amp;quot;,    GetType (Aspose.Cells.ReportingServices.XlsRenderer));            AddExtension(reportViewer1, &amp;quot;Xlsx - Xlsx via Aspose.Cells&amp;quot;, GetType (Aspose.Cells.ReportingServices.Excel2007XlsxRenderer));			AddExtension(reportViewer1, &amp;quot;CSV - CSV via Aspose.Cells&amp;quot;,    GetType (Aspose.Cells.ReportingServices.CSVRenderer));            AddExtension(reportViewer1, &amp;quot;SpreadsheetML - SpreadsheetML via Aspose.Cells&amp;quot;, GetType (Aspose.Cells.ReportingServices.SpreadsheetMLRenderer));            AddExtension(reportViewer1, &amp;quot;Txt - TabDelimited text via Aspose.Cells&amp;quot;, GetType (Aspose.Cells.ReportingServices.TabDelimitedRenderer)); 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Test the new export formats.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Run your application.&lt;br&gt;
+You should notice a number of new export formats available in the &lt;strong&gt;Export&lt;/strong&gt; menu in Report Viewer.&lt;/li&gt;
+&lt;li&gt;Select one of the formats and run export.&lt;/li&gt;
+&lt;li&gt;Verify that the document is created the way you expected.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;New export formats appear in Report Viewer running in local mode&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/reportingservices/attachments/6094921/6193419.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Reportingservices: Extended Rendering Extensions Support</title>
+      <link>https://roywangt.github.io/cells/reportingservices/newfeatures/extended&#43;rendering&#43;extensions&#43;support/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/reportingservices/newfeatures/extended&#43;rendering&#43;extensions&#43;support/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-reporting-services--extended-rendering-extensions-support&#34;&gt;Aspose.Cells for Reporting Services : Extended Rendering Extensions Support&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells for Reporting Services supports export to XLSM and HTML formats, as well as Microsoft Excel spreadsheet formats (XLS, XLSX, XLSB), and other formats such as ODS, SpreadsheetML, CSV and TXT.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Reportingservices: Support for Microsoft Excel 2007 or 2010 Custom UI</title>
+      <link>https://roywangt.github.io/cells/reportingservices/newfeatures/support&#43;for&#43;microsoft&#43;excel&#43;2007&#43;or&#43;2010&#43;custom&#43;ui/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/reportingservices/newfeatures/support&#43;for&#43;microsoft&#43;excel&#43;2007&#43;or&#43;2010&#43;custom&#43;ui/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-reporting-services--support-for-microsoft-excel-2007-or-2010-custom-ui&#34;&gt;Aspose.Cells for Reporting Services : Support for Microsoft Excel 2007 or 2010 Custom UI&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells for Reporting Services Designer supports Microsoft Excel 2007 and 2010 custom user interface and you can easily use this interface to get a new look and feel.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Aspose.Cells supports the latest version of Microsoft Excel&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/reportingservices/attachments/6094919/6193422.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Reportingservices: Support for Editable Charts</title>
+      <link>https://roywangt.github.io/cells/reportingservices/newfeatures/supportforeditablecharts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/reportingservices/newfeatures/supportforeditablecharts/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-reporting-services--support-for-editable-charts&#34;&gt;Aspose.Cells for Reporting Services : Support for Editable Charts&lt;/h1&gt;
+&lt;h6 id=&#34;this-section-includes-the-following-topics&#34;&gt;This section includes the following topics:&lt;/h6&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/reportingservices/newfeatures/supportforeditablecharts/render+all+report+chart+items+to+excel+charts&#34;&gt;Render All Report Chart Items to Excel Charts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/reportingservices/newfeatures/supportforeditablecharts/render+chart+items+of+selected+report+to+excel+charts&#34;&gt;Render Chart Items of Selected Report to Excel Charts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/reportingservices/newfeatures/supportforeditablecharts/render+selected+chart+items+to+excel+charts&#34;&gt;Render Selected Chart Items to Excel Charts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/reportingservices/newfeatures/supportforeditablecharts/mismatch+chart+types&#34;&gt;Mismatch Chart Types&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Reportingservices: Support for Digital Signatures</title>
+      <link>https://roywangt.github.io/cells/reportingservices/newfeatures/support&#43;for&#43;digital&#43;signatures/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/reportingservices/newfeatures/support&#43;for&#43;digital&#43;signatures/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-reporting-services--support-for-digital-signatures&#34;&gt;Aspose.Cells for Reporting Services : Support for Digital Signatures&lt;/h1&gt;
+&lt;p&gt;A digital signature provides assurance that a workbook is valid and no one has altered it. Attaching a digital signature is similar to sealing an envelope. If an envelope arrives sealed, you have some level of assurance that no one has tampered with its contents.&lt;/p&gt;
+&lt;p&gt;You can create a personal digital signature by using the Microsoft Selfcert.exe or any other tool, or you can purchase a digital signature. To sign a spreadsheet, attach a signature to your workbooks once you have created a digital signature.&lt;/p&gt;
+&lt;p&gt;Aspose.Cells for Reporting Services supports digital signatures.&lt;/p&gt;
+&lt;h3 id=&#34;working-with-digital-signatures&#34;&gt;Working with Digital Signatures&lt;/h3&gt;
+&lt;h4 id=&#34;supported-excel-formats-for-digital-signatures&#34;&gt;Supported Excel Formats for Digital Signatures&lt;/h4&gt;
+&lt;p&gt;Aspose.Cells for Reporting Services supports digital signatures when exporting to Excel 2007 and ODS file formats.&lt;/p&gt;
+&lt;h4 id=&#34;configuring-digital-signatures&#34;&gt;Configuring Digital Signatures&lt;/h4&gt;
+&lt;p&gt;The &lt;strong&gt;Aspose.Cells.ReportingServices.xml&lt;/strong&gt; file holds the configuration information and text of a digital signature in the &lt;code&gt;&amp;lt;DigitalSignature&amp;gt;&lt;/code&gt; tag:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;When &lt;code&gt;DigitalSignature&lt;/code&gt; is set to &lt;code&gt;off&lt;/code&gt;, Aspose.Cells for Reporting Services turns off the digital signature functionality.&lt;br&gt;
+For example:&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_705ee95e65&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_705ee95e65&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;DigitalSignature&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;value&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;off&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;report&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;name&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;pfxFilename&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;pfxPwd&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;purpose&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;DigitalSignature&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;ul&gt;
+&lt;li&gt;When the value of &lt;code&gt;DigitalSignature&lt;/code&gt; is &lt;code&gt;on&lt;/code&gt;, Aspose.Cells.ReportingServices turns on the functionality of digital signature.&lt;br&gt;
+For example:&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_b045cf9bf7&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_b045cf9bf7&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;DigitalSignature&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;value&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;on&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;pre&gt;&lt;code&gt;There are four parameters in `DigitalSignature` section. These are :
+*   `name` – Points to a report that needs a digital signature. The report uses a PFX file for digital signature when the parameter is blank.
+*   `pfxFilename` – Points to the PFX file. The filename must be a complete filename. It cannot be set to a blank value.
+*   `pfxPwd` – Sets the password. It cannot be left blank.
+*   `purpose` – Explains the signature&#39;s purpose. It can be blank.  
+    For example:
+&lt;/code&gt;&lt;/pre&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_5de791bea1&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_5de791bea1&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;DigitalSignature&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;value&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;on&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;report&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;name&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;TestReport&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;pfxFilename&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;c:\MyKey.pfx&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;pfxPwd&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;tryto&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;purpose&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;test digital signature&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;report&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;name&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;pfxFilename&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;c:\MyKey.pfx&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;pfxPwd&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;tryto&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;purpose&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;test digital signature&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;DigitalSignature&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Reportingservices: Add Matrix in Aspose.Cells for Reporting Services Client</title>
+      <link>https://roywangt.github.io/cells/reportingservices/newfeatures/add&#43;matrix&#43;in&#43;aspose.cells&#43;for&#43;reporting&#43;services&#43;client/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/reportingservices/newfeatures/add&#43;matrix&#43;in&#43;aspose.cells&#43;for&#43;reporting&#43;services&#43;client/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-reporting-services--add-matrix-in-asposecells-for-reporting-services-client&#34;&gt;Aspose.Cells for Reporting Services : Add Matrix in Aspose.Cells for Reporting Services Client&lt;/h1&gt;
+&lt;p&gt;We incorporated support to create a matrix report item in a report. The matrix context includes corner, column groupings, row groupings and matrix rows. Set matrix report attributes which include name, range and so on through &lt;strong&gt;Set Attribute&lt;/strong&gt; button in Aspose.Cells’ command bar in Excel.&lt;/p&gt;
+&lt;p&gt;For example, in the screenshot below, the matrix range is E9:G11.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;A matrix report item&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/reportingservices/attachments/6094928/6193417.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Reportingservices: Add Hide Function in Aspose.Cells for Reporting Services Client</title>
+      <link>https://roywangt.github.io/cells/reportingservices/newfeatures/addhidefunction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/reportingservices/newfeatures/addhidefunction/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-reporting-services--add-hide-function-in-asposecells-for-reporting-services-client&#34;&gt;Aspose.Cells for Reporting Services : Add Hide Function in Aspose.Cells for Reporting Services Client&lt;/h1&gt;
+&lt;p&gt;The Hide function hides specified rows and columns. There are two methods in the Aspose.Cells for Reporting Services:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/reportingservices/newfeatures/addhidefunction/set+hide+option+for+excel+row+column+and+sheet+using+dyn-hide+form&#34;&gt;Set hide attributes for worksheet, rows and columns&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://roywangt.github.io/cells/pages/createpage.action?spaceKey=cellsreportingservices&amp;amp;title=Set+a+Table%E2%80%99s+Hide+Attributes+from+the+Modify+Attribute+Form&amp;amp;linkCreation=true&amp;amp;fromPageId=6094927&#34;&gt;Set a table&amp;rsquo;s hide attributes using &lt;strong&gt;Modify Attribute&lt;/strong&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Reportingservices: Aspose.Cells for Reporting Services Report Designer</title>
+      <link>https://roywangt.github.io/cells/reportingservices/newfeatures/reportdesigner/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/reportingservices/newfeatures/reportdesigner/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-reporting-services--asposecells-for-reporting-services-report-designer&#34;&gt;Aspose.Cells for Reporting Services : Aspose.Cells for Reporting Services Report Designer&lt;/h1&gt;
+&lt;h6 id=&#34;this-section-includes-the-following-topics&#34;&gt;This section includes the following topics:&lt;/h6&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/reportingservices/newfeatures/reportdesigner/support+shared+datasets&#34;&gt;Support Shared datasets&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/reportingservices/newfeatures/reportdesigner/import+report+definition+file+for+ssrs2008+or+ssrs2008r2&#34;&gt;Import Report Definition File for SSRS2008 or SSRS2008R2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/reportingservices/newfeatures/reportdesigner/configuring+report+servers+to+store+or+cache+the+report+server+data&#34;&gt;Configuring Report Servers to store or cache the report server data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/reportingservices/newfeatures/reportdesigner/support+tablix+group+page+break&#34;&gt;Support tablix group page break&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Reportingservices: Add settings for Page Setup in Aspose.Cells for Reporting Services renderer</title>
+      <link>https://roywangt.github.io/cells/reportingservices/newfeatures/add&#43;settings&#43;for&#43;page&#43;setup&#43;in&#43;aspose.cells&#43;for&#43;reporting&#43;services&#43;renderer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/reportingservices/newfeatures/add&#43;settings&#43;for&#43;page&#43;setup&#43;in&#43;aspose.cells&#43;for&#43;reporting&#43;services&#43;renderer/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-reporting-services--add-settings-for-page-setup-in-asposecells-for-reporting-services-renderer&#34;&gt;Aspose.Cells for Reporting Services : Add settings for Page Setup in Aspose.Cells for Reporting Services renderer&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells for Reporting Services renderer sets worksheet page setup of the exported Excel file through page setup settings in Aspose.Cells Reporting Services configuration file.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Reportingservices: Add Group function in Aspose.Cells for Reporting Services Client</title>
+      <link>https://roywangt.github.io/cells/reportingservices/newfeatures/add&#43;group&#43;function&#43;in&#43;aspose.cells&#43;for&#43;reporting&#43;services&#43;client/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/reportingservices/newfeatures/add&#43;group&#43;function&#43;in&#43;aspose.cells&#43;for&#43;reporting&#43;services&#43;client/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-reporting-services--add-group-function-in-asposecells-for-reporting-services-client&#34;&gt;Aspose.Cells for Reporting Services : Add Group function in Aspose.Cells for Reporting Services Client&lt;/h1&gt;
+&lt;p&gt;It sets the Group attributes of table report item through Modify Attributes. The parameters include Type, Name, Level and Hide.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Type represents Group Type. It includes Row Group and Column Group.&lt;/li&gt;
+&lt;li&gt;Name represents Group name.&lt;/li&gt;
+&lt;li&gt;Level represents Group level.&lt;/li&gt;
+&lt;li&gt;Hide represents Group hide.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Modifying Report involves the following steps:&lt;br&gt;
+Open “Modify Report” dialog box and choose Outline tab.&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/reportingservices/attachments/6094888/6193569.jpg&#34; alt=&#34;&#34;&gt;&lt;br&gt;
+Click &lt;strong&gt;Modify&lt;/strong&gt; button and update Hide configuration.&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/reportingservices/attachments/6094888/6193568.jpg&#34; alt=&#34;&#34;&gt;&lt;br&gt;
+Click &lt;strong&gt;Commit&lt;/strong&gt; button and save hide configs.&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/reportingservices/attachments/6094888/6193570.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Reportingservices: Add Sorting feature for rendering Table item</title>
+      <link>https://roywangt.github.io/cells/reportingservices/newfeatures/add&#43;sorting&#43;feature&#43;for&#43;rendering&#43;table&#43;item/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/reportingservices/newfeatures/add&#43;sorting&#43;feature&#43;for&#43;rendering&#43;table&#43;item/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-reporting-services--add-sorting-feature-for-rendering-table-item&#34;&gt;Aspose.Cells for Reporting Services : Add Sorting feature for rendering Table item&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells for Reporting Services sorts table item data for exported Excel file through add table sorting configuration in Aspose.Cells Reporting Services configuration file.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,134 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Aspose.Cells Java for PHP</title>
+    <link>https://roywangt.github.io/cells/java/plugins/php/</link>
+    <description>Recent content in Aspose.Cells Java for PHP on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://roywangt.github.io/cells/java/plugins/php/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Java: Download and Configure Aspose.Cells in PHP</title>
+      <link>https://roywangt.github.io/cells/java/plugins/php/download&#43;and&#43;configure&#43;aspose.cells&#43;in&#43;php/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/plugins/php/download&#43;and&#43;configure&#43;aspose.cells&#43;in&#43;php/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--download-and-configure-asposecells-in-php&#34;&gt;Aspose.Cells for Java : Download and Configure Aspose.Cells in PHP&lt;/h1&gt;
+&lt;h2 id=&#34;download-required-libraries&#34;&gt;Download Required Libraries&lt;/h2&gt;
+&lt;p&gt;Download required libraries mentioned below. These are the required for executing Aspose.Cells Java for PHP examples.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Aspose:&lt;/strong&gt; &lt;a href=&#34;http://www.aspose.com/community/files/72/java-components/aspose.cells-for-java/default.aspx&#34;&gt;Aspose.Cells for Java Component&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://citylan.dl.sourceforge.net/project/php-java-bridge/Binary%20package/php-java-bridge_6.2.1/php-java-bridge_6.2.1_documentation.zip&#34;&gt;PHP/Java Bridge&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;download-examples-from-social-coding-sites&#34;&gt;Download Examples from Social Coding Sites&lt;/h2&gt;
+&lt;p&gt;Following releases of running examples are available to download on below mentioned social coding sites:&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;github&#34;&gt;GitHub&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Aspose.Cells Java for PHP Examples&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_PHP&#34;&gt;Aspose.Cells Java for PHP&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;how-to-configure-the-source-code-on-linux-platform&#34;&gt;How to configure the source code on Linux Platform&lt;/h2&gt;
+&lt;p&gt;Please follow these simple steps in order to open and extend the source code while using:&lt;/p&gt;
+&lt;h2 id=&#34;1-install-tomcat-server&#34;&gt;1. Install Tomcat Server&lt;/h2&gt;
+&lt;p&gt;To install tomcat server, issue following command on the linux console. This will successfully install tomcat server.&lt;/p&gt;
+&lt;p&gt;sudo apt-get install tomcat8&lt;/p&gt;
+&lt;h2 id=&#34;2-download-and-configure-phpjavabridge&#34;&gt;2. Download and Configure PHP/JavaBridge&lt;/h2&gt;
+&lt;p&gt;In order to download the PHP/JavaBridge binaries, issue following command on the linux console.&lt;/p&gt;
+&lt;p&gt;wget &lt;a href=&#34;http://citylan.dl.sourceforge.net/project/php-java-bridge/Binary%20package/php-java-bridge&#34;&gt;http://citylan.dl.sourceforge.net/project/php-java-bridge/Binary%20package/php-java-bridge&lt;/a&gt;_6.2.1/php-java-bridge_6.2.1_documentation.zip&lt;/p&gt;
+&lt;p&gt;Unzip the PHP/JavaBridge binaries by issuing the following command on linux console.&lt;/p&gt;
+&lt;p&gt;unzip -d php-java-bridge_6.2.1_documentation.zip&lt;/p&gt;
+&lt;p&gt;This will extract &lt;strong&gt;JavaBridge.war&lt;/strong&gt; file. Copy it to tomcat88 &lt;strong&gt;webapps&lt;/strong&gt; folder by issuing the following command on Linux console.&lt;/p&gt;
+&lt;p&gt;sudo cp JavaBridge.war /var/lib/tomcat8/webapps/JavaBridge.war&lt;/p&gt;
+&lt;p&gt;By copying, tomcat8 will automatically create a new folder &amp;ldquo;&lt;strong&gt;JavaBridge&lt;/strong&gt;&amp;rdquo; in &lt;strong&gt;webapps&lt;/strong&gt;. Once the folder is created, make sure your tomcat8 is running and then check &lt;a href=&#34;http://localhost:8080/JavaBridge&#34;&gt;http://localhost:8080/JavaBridge&lt;/a&gt; in browser, it should open a default page of JavaBridge.&lt;/p&gt;
+&lt;p&gt;If any error message appears then install  &lt;strong&gt;FastCGI&lt;/strong&gt; by issuing the following command on Linux console.&lt;/p&gt;
+&lt;p&gt;sudo apt-get install php55-cgi&lt;/p&gt;
+&lt;p&gt;After installing php5.5 cgi, restart tomcat8 server and check &lt;a href=&#34;http://localhost:8080/JavaBridge&#34;&gt;http://localhost:8080/JavaBridge&lt;/a&gt; again in the browser.&lt;/p&gt;
+&lt;p&gt;If &lt;strong&gt;JAVA_HOME&lt;/strong&gt; error is displayed, then open /etc/default/tomcat8 file and uncomment the line that sets the JAVA_HOME. Check &lt;a href=&#34;http://localhost:8080/JavaBridge&#34;&gt;http://localhost:8080/JavaBridge&lt;/a&gt; in browser again, it should come with PHP/JavaBridge Examples page. &lt;/p&gt;
+&lt;h2 id=&#34;3-configure-asposecells-java-for-php-examples&#34;&gt;3. Configure Aspose.Cells Java for PHP Examples&lt;/h2&gt;
+&lt;p&gt;Clone, PHP examples by issuing the following commands inside webapps/JavaBridge folder. &lt;/p&gt;
+&lt;p&gt;$ git init $ git clone [https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose.Cells-for-Java_for_PHP]&lt;/p&gt;
+&lt;h2 id=&#34;how-to-configure-the-source-code-on-windows-platform&#34;&gt;How to configure the source code on Windows Platform&lt;/h2&gt;
+&lt;p&gt;Please follow below simple steps to configure PHP/Java Bridge on Windows Platform&lt;/p&gt;
+&lt;p&gt;1. Install PHP5 and configure as you normally do&lt;br&gt;
+2. Install JRE 6 (Java Runtime Environment) if you don’t already have it. You can check this in C:\Program Files etc. You can download it here . I am using JRE 6 as It is compatible with PHP Java Bridge (PJB).&lt;/p&gt;
+&lt;p&gt;3. Install Apache Tomcat 8.0. You can download it here&lt;/p&gt;
+&lt;p&gt;4.Download &lt;a href=&#34;http://sourceforge.net/projects/php-java-bridge/files/Binary%20package/php-java-bridge_6.2.1/JavaBridgeTemplate621.war/download&#34;&gt;JavaBridge.war&lt;/a&gt;. Copy this file to tomcat webapps directory.&lt;br&gt;
+(ex: C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps )&lt;/p&gt;
+&lt;p&gt;5. Restart tomcat apache service.&lt;/p&gt;
+&lt;p&gt;6.Go to &lt;a href=&#34;http://localhost:8080/JavaBridge/test.php&#34;&gt;http://localhost:8080/JavaBridge/test.php&lt;/a&gt; to check if php works. You can find other examples in there&lt;/p&gt;
+&lt;p&gt;7.Copy your &lt;a href=&#34;http://www.aspose.com/community/files/72/java-components/aspose.cells-for-java/default.aspx&#34;&gt;Aspose.Cells Java&lt;/a&gt; jar file to C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps\JavaBridge\WEB-INF\lib&lt;/p&gt;
+&lt;p&gt;8. Clone &lt;a href=&#34;https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose.Cells-for-Java_for_PHP&#34;&gt;Aspose.Cells Java for PHP&lt;/a&gt; examples inside C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps\ folder.&lt;/p&gt;
+&lt;p&gt;8. Copy folder C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps\JavaBridge\java to your Aspose.Cells Java for PHP examples folder.&lt;/p&gt;
+&lt;p&gt;10. Restart apache tomcat service and start using examples.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: PHP Programmers Guide</title>
+      <link>https://roywangt.github.io/cells/java/plugins/php/guide/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/plugins/php/guide/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--php-programmers-guide&#34;&gt;Aspose.Cells for Java : PHP Programmers Guide&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;This section includes the following topics:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/plugins/php/guide/introduction/&#34;&gt;Introduction in PHP&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/plugins/php/guide/files/&#34;&gt;Working With Files in PHP&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/plugins/php/guide/rowsandcolumns/&#34;&gt;Working With Rows And Columns in PHP&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/plugins/php/guide/worksheets/&#34;&gt;Working With Worksheets in PHP&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Support Extend and Contribute to Aspose.Cells in PHP</title>
+      <link>https://roywangt.github.io/cells/java/plugins/php/support&#43;extend&#43;and&#43;contribute&#43;to&#43;aspose.cells&#43;in&#43;php/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/plugins/php/support&#43;extend&#43;and&#43;contribute&#43;to&#43;aspose.cells&#43;in&#43;php/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--support-extend-and-contribute-to-asposecells-in-php&#34;&gt;Aspose.Cells for Java : Support, Extend and Contribute to Aspose.Cells in PHP&lt;/h1&gt;
+&lt;h2 id=&#34;support&#34;&gt;Support&lt;/h2&gt;
+&lt;p&gt;From the very first days of Aspose, we knew that just giving our customers good products would not be enough. We also needed to deliver good service. We are developers ourselves and understand how frustrating it is when a technical issue or a quirk in the software stops you from doing what you need to do. We&amp;rsquo;re here to solve problems, not create them.&lt;/p&gt;
+&lt;p&gt;This is why we offer free support. Anyone who uses our product, whether they have bought them or are using an evaluation, deserves our full attention and respect.&lt;/p&gt;
+&lt;p&gt;You can log any issues or suggestions related to Aspose.Cells Java for PHP using any of the following platforms:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/aspose-cells/Aspose.Cells-for-Java/issues&#34;&gt;Github&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;extend-and-contribute&#34;&gt;Extend and Contribute&lt;/h2&gt;
+&lt;p&gt;Aspose.Cells Java for PHP is open source and its source code is available on the major social coding websites listed below. Developers are encouraged to download the source code and contribute by suggesting or adding new feature or improving the existing ones, so that others could also benefit from it.&lt;/p&gt;
+&lt;h2 id=&#34;source-code&#34;&gt;Source Code&lt;/h2&gt;
+&lt;p&gt;You can get the latest source code from one of the following locations&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_PHP&#34;&gt;Github&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

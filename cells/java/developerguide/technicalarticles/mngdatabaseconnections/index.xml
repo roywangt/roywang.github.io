@@ -1,0 +1,86 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Managing Database Connections</title>
+    <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngdatabaseconnections/</link>
+    <description>Recent content in Managing Database Connections on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngdatabaseconnections/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Java: Retrieving External Data Sources Details</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngdatabaseconnections/retrieving&#43;external&#43;data&#43;sources&#43;details/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngdatabaseconnections/retrieving&#43;external&#43;data&#43;sources&#43;details/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--retrieving-external-data-sources-details&#34;&gt;Aspose.Cells for Java : Retrieving External Data Sources Details&lt;/h1&gt;
+&lt;p&gt;Sometimes, you might want to retrieve information about external data sources. For example, you might want to see the SQL connection data. This information can include any types of data required to connect to an SQL server, for example the server URL, user name, underlying table name, SQL query, query type, the location of the table, etc.&lt;/p&gt;
+&lt;p&gt;Aspose.Cells provide some useful calls for retrieving such details from corporate databases linked to template Excel files.&lt;/p&gt;
+&lt;h4 id=&#34;retrieving-external-data-sources-details&#34;&gt;Retrieving External Data Sources Details&lt;/h4&gt;
+&lt;p&gt;The following example shows how to get database connection and other details. The example utilizes a simple Excel file that contains links to external data source (SQL Server).&lt;/p&gt;
+&lt;p&gt;When the code runs, the connection details are printed to the console.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;SQL connection information&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276454/5472973.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Retrieving SQL Connection Data</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngdatabaseconnections/retrieving&#43;sql&#43;connection&#43;data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngdatabaseconnections/retrieving&#43;sql&#43;connection&#43;data/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--retrieving-sql-connection-data&#34;&gt;Aspose.Cells for Java : Retrieving SQL Connection Data&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells can help you retrieve SQL connection data. This includes any and all data required to make a connection to the SQL server, for example, &lt;strong&gt;server URL&lt;/strong&gt;, &lt;strong&gt;username&lt;/strong&gt;, &lt;strong&gt;table name&lt;/strong&gt;, &lt;strong&gt;full SQL query&lt;/strong&gt;, &lt;strong&gt;query type&lt;/strong&gt;, &lt;strong&gt;location of the table&lt;/strong&gt;, and &lt;strong&gt;name of the named range&lt;/strong&gt; associated with it.&lt;/p&gt;
+&lt;p&gt;In Microsoft Excel, connect to a database by:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Clicking the &lt;strong&gt;Data&lt;/strong&gt; menu and selecting &lt;strong&gt;From Other Sources&lt;/strong&gt; followed by &lt;strong&gt;From SQL Server&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Then select &lt;strong&gt;Data&lt;/strong&gt; followed by &lt;strong&gt;Connections&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Use the Connections wizard to connect to the database and create a database query.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Showing the SQL connection option in Microsoft Excel&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276455/5472971.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Aspose.Cells provides the &lt;code&gt;Workbook.getDataConnections()&lt;/code&gt; method for retrieving external connections. It returns a collection of &lt;code&gt;ExternalConnection&lt;/code&gt; objects in the workbook.&lt;/p&gt;
+&lt;p&gt;If the &lt;code&gt;ExternalConnection&lt;/code&gt; object contains SQL connection data, it can be type-caste into a &lt;code&gt;DBConnection&lt;/code&gt; object its properties used to retrieve database command, command type, connection description, connection info, credentials, and so on.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Modify existing SQL Data Connection using Aspose.Cells</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngdatabaseconnections/modify&#43;existing&#43;sql&#43;data&#43;connection&#43;using&#43;aspose.cells/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mngdatabaseconnections/modify&#43;existing&#43;sql&#43;data&#43;connection&#43;using&#43;aspose.cells/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--modify-existing-sql-data-connection-using-asposecells&#34;&gt;Aspose.Cells for Java : Modify existing SQL Data Connection using Aspose.Cells&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells supports modifying existing SQL Data Connection. The article will explain how to use Aspose.Cells to modify different properties of SQL Data Connection.&lt;/p&gt;
+&lt;p&gt;You can add or see Data Connections inside Microsoft Excel by following &lt;strong&gt;Data &amp;gt; Connections&lt;/strong&gt; menu command.&lt;/p&gt;
+&lt;p&gt;Similarly, Aspose.Cells provides the means to access and modify the Data Connections using &lt;code&gt;Workbook.getDataConnections()&lt;/code&gt; collection.&lt;/p&gt;
+&lt;h4 id=&#34;modify-existing-sql-data-connection-using-asposecells&#34;&gt;Modify existing SQL Data Connection using Aspose.Cells&lt;/h4&gt;
+&lt;p&gt;The following sample illustrates the use of Aspose.Cells to modify SQL Data Connection of the workbook. You can download the source Excel file used in this code and the output Excel file generated by the code from the following links.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/attachments/5276456/5472969.xlsx&#34;&gt;Source Excel File&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/attachments/5276456/5472966.xlsx&#34;&gt;Output Excel File&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

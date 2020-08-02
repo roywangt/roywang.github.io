@@ -1,0 +1,285 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Aspose.Cells.GridDesktop</title>
+    <link>https://roywangt.github.io/cells/net/developerguide/griddesktop/</link>
+    <description>Recent content in Aspose.Cells.GridDesktop on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://roywangt.github.io/cells/net/developerguide/griddesktop/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Net: How to Use Aspose.Cells.GridDesktop</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/griddesktop/how&#43;to&#43;use&#43;aspose.cells.griddesktop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/griddesktop/how&#43;to&#43;use&#43;aspose.cells.griddesktop/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--how-to-use-asposecellsgriddesktop&#34;&gt;Aspose.Cells for .NET : How to Use Aspose.Cells.GridDesktop&lt;/h1&gt;
+&lt;p&gt;To make it easier for developers to upgrade, we maintain a document describing information critical to existing users, especially ones who have been using the older Aspose.Grid.Desktop and now need to upgrade to the new, or merged, Aspose.Cells.GridDesktop.&lt;/p&gt;
+&lt;p&gt;This topic provides a basic step by step guide for beginners to help them in upgrading &lt;code&gt;Aspose.Grid.Desktop&lt;/code&gt; to &lt;code&gt;Aspose.Cells.GridDesktop&lt;/code&gt; Control and creating and using Aspose.Cells.GridDesktop control in windows applications.&lt;/p&gt;
+
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#upgrade-from-aspose.grid.desktop-to-aspose.cells.griddesktop-control&#34;&gt;Upgrade from Aspose.Grid.Desktop to Aspose.Cells.GridDesktop Control&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#creating-&amp;amp;-using-aspose.cells.griddesktop-control&#34;&gt;Creating &amp;amp; Using Aspose.Cells.GridDesktop Control&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;2.1 &lt;a href=&#34;#creating-a-windows-application-project&#34;&gt;Creating a Windows Application Project&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2.2 &lt;a href=&#34;#adding-%60griddesktop%60-control-to-the-form&#34;&gt;Adding &lt;code&gt;GridDesktop&lt;/code&gt; Control to the Form&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2.3 &lt;a href=&#34;#run-the-application&#34;&gt;Run the Application&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;upgrade-from-asposegriddesktop-to-asposecellsgriddesktop-control&#34;&gt;Upgrade from Aspose.Grid.Desktop to Aspose.Cells.GridDesktop Control&lt;/h2&gt;
+&lt;p&gt;Developers who worked with Aspose.Grid.Desktop might come across issues when using the new Aspose.Cells.GridDesktop when they upgrade to it. Following is the namespace that is renamed:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Aspose.Grid.Desktop namespace has been renamed to Aspose.Cells.GridDesktop namespace.&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;creating--using-asposecellsgriddesktop-control&#34;&gt;Creating &amp;amp; Using Aspose.Cells.GridDesktop Control&lt;/h2&gt;
+&lt;h3 id=&#34;creating-a-windows-application-project&#34;&gt;Creating a Windows Application Project&lt;/h3&gt;
+&lt;p&gt;First of all, create a windows application project in which to use the Aspose.Cells.GridDesktop control. Follow the following steps;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Open the Visual Studio.NET IDE.&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;From the File menu, select New, the Project.&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Select Windows Application from the New Project dialog.&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;After performing above steps a window application will be created with empty form.&lt;/p&gt;
+&lt;h3 id=&#34;adding-griddesktop-control-to-the-form&#34;&gt;Adding &lt;code&gt;GridDesktop&lt;/code&gt; Control to the Form&lt;/h3&gt;
+&lt;p&gt;Drag and drop the Aspose.Cells.GridDesktop control from the Toolbox to the form. After this a control will be appeared on the form where you can perform several actions on it like &lt;strong&gt;resize&lt;/strong&gt;, &lt;strong&gt;change its properties&lt;/strong&gt;, &lt;strong&gt;etc&lt;/strong&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;run-the-application&#34;&gt;Run the Application&lt;/h3&gt;
+&lt;p&gt;Finally, run the application by pressing &lt;strong&gt;Ctrl+F5&lt;/strong&gt; or clicking the &lt;strong&gt;Start&lt;/strong&gt; button. When the application runs, we see a form containing an empty Aspose.Cells.GridDesktop control. Now you can add values to cells by clicking them. Following screenshot shows how you application will finally look.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5020949/5115240.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;It is not only possible to add values to the control, but also to perform other tasks like changing the height of a row or the width of a column, copying (Ctrl+C) or cutting (Ctrl+X) cell data to clipboard and pasting (Ctrl+V) data to cell etc. To perform more operations, right-click the control to see its context menu.&lt;/p&gt;
+&lt;p&gt;Aspose.Grid.Desktop has been renamed and become part of Aspose.Cells so it is no longer possible to use older version of Aspose.Grid.Desktop anymore. Just to emphasize, there is not much work involved in upgrading to the latest version of the Aspose.Cells.GridDesktop component. There is no change in the API as the classes with the members, structs, enumerations etc. remain the same. The only change that has been made is regarding the control’s namespace.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Working with GridDesktop</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/griddesktop/griddesktop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/griddesktop/griddesktop/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--working-with-griddesktop&#34;&gt;Aspose.Cells for .NET : Working with GridDesktop&lt;/h1&gt;
+&lt;h3 id=&#34;articles-in-this-section&#34;&gt;Articles in this section&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/griddesktop/griddesktop/default+font+and+font+color+of+the+griddesktop/&#34;&gt;Default Font and Font Color of the GridDesktop&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/griddesktop/griddesktop/find+griddesktop+version+at+runtime/&#34;&gt;Find GridDesktop Version at Runtime&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/griddesktop/griddesktop/handling+events+after+deleting+columns+and+rows+in+griddesktop/&#34;&gt;Handling Events after Deleting Columns and Rows in GridDesktop&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/griddesktop/griddesktop/managing+griddesktops+context+menu/&#34;&gt;Managing GridDesktops Context Menu&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/griddesktop/griddesktop/opening+an+excel+file/&#34;&gt;Opening an Excel File&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/griddesktop/griddesktop/saving+an+excel+file/&#34;&gt;Saving an Excel File&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/griddesktop/griddesktop/using+aspose.cells.griddesktop+in+wpf+application/&#34;&gt;Using Aspose.Cells.GridDesktop in WPF Application&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/griddesktop/griddesktop/working+with+aspose.cells.griddesktop+events/&#34;&gt;Working with Aspose.Cells.GridDesktop Events&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; &lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Working with Worksheet</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/griddesktop/worksheet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/griddesktop/worksheet/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--working-with-worksheet&#34;&gt;Aspose.Cells for .NET : Working with Worksheet&lt;/h1&gt;
+&lt;h3 id=&#34;articles-in-this-section&#34;&gt;Articles in this section&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/griddesktop/worksheet/accessing+worksheet/&#34;&gt;Accessing Worksheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/griddesktop/worksheet/add+or+insert+a+worksheet/&#34;&gt;Add or Insert a Worksheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/griddesktop/worksheet/adding+cell+controls+in+worksheets/&#34;&gt;Adding Cell Controls in Worksheets&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/griddesktop/worksheet/display+and+hide+scroll+bars/&#34;&gt;Display and Hide Scroll Bars&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/griddesktop/worksheet/exporting+data+from+grid/&#34;&gt;Exporting Data from Grid&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/griddesktop/worksheet/importing+data+from+a+datatable+to+grid/&#34;&gt;Importing Data from a DataTable to Grid&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/griddesktop/worksheet/managing+cell+controls+in+worksheets/&#34;&gt;Managing Cell Controls in Worksheets&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/griddesktop/worksheet/managing+comments+in+a+worksheet/&#34;&gt;Managing Comments in a Worksheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/griddesktop/worksheet/managing+hyperlinks+in+a+worksheet/&#34;&gt;Managing Hyperlinks in a Worksheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/griddesktop/worksheet/managing+pictures+in+a+worksheet/&#34;&gt;Managing Pictures in a Worksheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/griddesktop/worksheet/moving+worksheets/&#34;&gt;Moving Worksheets&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/griddesktop/worksheet/reading+data+validations+in+excel+file+using+aspose.cells.griddesktop/&#34;&gt;Reading Data Validations in Excel file using Aspose.Cells.GridDesktop&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/griddesktop/worksheet/remove+a+worksheet/&#34;&gt;Remove a Worksheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/griddesktop/worksheet/rename+a+worksheet/&#34;&gt;Rename a Worksheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/griddesktop/worksheet/sorting+worksheet+data/&#34;&gt;Sorting Worksheet Data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/griddesktop/worksheet/split+panes+in+griddesktop+worksheet/&#34;&gt;Split Panes in GridDesktop Worksheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/griddesktop/worksheet/working+with+validations+in+worksheets/&#34;&gt;Working with Validations in Worksheets&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/griddesktop/worksheet/zooming+in+or+out+on+the+worksheet+in+griddesktop/&#34;&gt;Zooming In or Out On the Worksheet in GridDesktop&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Working with Rows and Columns</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/griddesktop/rowsandcolumns/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/griddesktop/rowsandcolumns/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--working-with-rows-and-columns&#34;&gt;Aspose.Cells for .NET : Working with Rows and Columns&lt;/h1&gt;
+&lt;h3 id=&#34;articles-in-this-section&#34;&gt;Articles in this section&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/griddesktop/rowsandcolumns/adding+cell+controls+in+columns/&#34;&gt;Adding Cell Controls in Columns&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/griddesktop/rowsandcolumns/adding+or+inserting+a+column+into+worksheet/&#34;&gt;Adding or Inserting a Column into Worksheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/griddesktop/rowsandcolumns/adding+or+inserting+a+row+into+worksheet/&#34;&gt;Adding or Inserting a Row into Worksheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/griddesktop/rowsandcolumns/applying+style+on+a+row+or+column/&#34;&gt;Applying Style on a Row or Column&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/griddesktop/rowsandcolumns/changing+the+font+and+color+of+a+row+or+column/&#34;&gt;Changing the Font and Color of a Row or Column&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/griddesktop/rowsandcolumns/custom+row+and+custom+column+caption+of+griddesktop+worksheet/&#34;&gt;Custom Row and Custom Column Caption of GridDesktop Worksheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/griddesktop/rowsandcolumns/freeze+unfreeze+rows++and++columns/&#34;&gt;Freeze Unfreeze Rows and Columns&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/griddesktop/rowsandcolumns/managing+cell+controls+in+columns/&#34;&gt;Managing Cell Controls in Columns&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/griddesktop/rowsandcolumns/removing+a+column+from+worksheet/&#34;&gt;Removing a Column from Worksheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/griddesktop/rowsandcolumns/removing+a+row+from+worksheet/&#34;&gt;Removing a Row from Worksheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/griddesktop/rowsandcolumns/setting+column+width+or+row+height/&#34;&gt;Setting Column Width or Row Height&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/griddesktop/rowsandcolumns/working+with+validations+in+columns/&#34;&gt;Working with Validations in Columns&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Working with Cells</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/griddesktop/cells/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/griddesktop/cells/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--working-with-cells&#34;&gt;Aspose.Cells for .NET : Working with Cells&lt;/h1&gt;
+&lt;h3 id=&#34;articles-in-this-section&#34;&gt;Articles in this section&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/griddesktop/cells/accessing++and++modifying+the+value+of+a+cell/&#34;&gt;Accessing and Modifying the Value of a Cell&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/griddesktop/cells/accessing+cells+in+a+worksheet/&#34;&gt;Accessing Cells in a Worksheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/griddesktop/cells/adding+cell+protection+in+worksheet/&#34;&gt;Adding Cell Protection in Worksheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/griddesktop/cells/adding+formulas+to+cells/&#34;&gt;Adding Formulas to Cells&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/griddesktop/cells/applying+styles+on+cells/&#34;&gt;Applying Styles on Cells&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/griddesktop/cells/changing+the+font+and+color+of+a+cell/&#34;&gt;Changing the Font and Color of a Cell&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/griddesktop/cells/filtering+data/&#34;&gt;Filtering Data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/griddesktop/cells/formatting+a+range+of+cells/&#34;&gt;Formatting a Range of Cells&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/griddesktop/cells/merging++and++unmerging+cells/&#34;&gt;Merging and Unmerging Cells&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/griddesktop/cells/text+overflows+from+griddesktop+cell+if+it+is+too+long/&#34;&gt;Text overflows from GridDesktop cell if it is too long&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/griddesktop/cells/using+format+painter/&#34;&gt;Using Format Painter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/griddesktop/cells/using+named+ranges/&#34;&gt;Using Named Ranges&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/griddesktop/cells/using+style+dialog/&#34;&gt;Using Style Dialog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/griddesktop/cells/using+undo+and+redo+feature/&#34;&gt;Using Undo and Redo Feature&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Pivot Tables in GridDesktop</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/griddesktop/pivottables/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/griddesktop/pivottables/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--pivot-tables-in-griddesktop&#34;&gt;Aspose.Cells for .NET : Pivot Tables in GridDesktop&lt;/h1&gt;
+&lt;h3 id=&#34;articles-in-this-section&#34;&gt;Articles in this section&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/griddesktop/pivottables/render+pivottable+in+griddesktop/&#34;&gt;Render PivotTable in GridDesktop&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; &lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Copy Paste Behavior Of EnableClipboardCopyPaste and PasteType GridDesktop Properties</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/griddesktop/copy&#43;paste&#43;behavior&#43;of&#43;enableclipboardcopypaste&#43;and&#43;pastetype&#43;griddesktop&#43;properties/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/griddesktop/copy&#43;paste&#43;behavior&#43;of&#43;enableclipboardcopypaste&#43;and&#43;pastetype&#43;griddesktop&#43;properties/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--copy-paste-behavior-of-enableclipboardcopypaste-and-pastetype-griddesktop-properties&#34;&gt;Aspose.Cells for .NET : Copy Paste Behavior Of EnableClipboardCopyPaste and PasteType GridDesktop Properties&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#set-enableclipboardcopypaste-property-true-to-enable%C2%A0pastetype-property&#34;&gt;Set EnableClipboardCopyPaste Property True To Enable PasteType Property&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#behavior-of-enableclipboardcopypaste-and-pastetype-properties&#34;&gt;Behavior Of EnableClipboardCopyPaste and PasteType Properties&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;GridDesktop provides different types of copy paste type options with &lt;code&gt;Aspose.Cells.GridDesktop.GridDesktop.PasteType&lt;/code&gt; property. These options are specified with &lt;code&gt;Aspose.Cells.GridDesktop.Data.GridPasteType&lt;/code&gt; enumeration. Some of these are as follows&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;GridPasteType.All&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It copies and paste everything from source cells to target cells.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;GridPasteType.Formulas&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It copies and paste formulas from source cells to target cells.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;GridPasteType.Comments&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It copies and paste comments from source cells to target cells.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;GridPasteType.RowHeights&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It copies and paste rows heights from source cells to target cells.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;GridPasteType.ColumnWidths&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It copies and paste columns widths from source cells to target cells.&lt;/p&gt;
+&lt;p&gt;etc.&lt;/p&gt;
+&lt;h2 id=&#34;set-enableclipboardcopypaste-property-true-to-enablepastetype-property&#34;&gt;Set EnableClipboardCopyPaste Property True To Enable PasteType Property&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;Aspose.Cells.GridDesktop.GridDesktop.PasteType&lt;/code&gt; property works only if you set &lt;code&gt;Aspose.Cells.GridDesktop.GridDesktop.EnableClipboardCopyPaste&lt;/code&gt; property &lt;code&gt;true&lt;/code&gt; as shown in this screenshot.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/54690466/55541835.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;behavior-of-enableclipboardcopypaste-and-pastetype-properties&#34;&gt;Behavior Of EnableClipboardCopyPaste and PasteType Properties&lt;/h2&gt;
+&lt;p&gt;Given that &lt;code&gt;EnableClipboardCopyPaste&lt;/code&gt; is &lt;code&gt;false&lt;/code&gt; and &lt;code&gt;PasteType&lt;/code&gt; is &lt;code&gt;All&lt;/code&gt;, the following screenshot shows that when cell B3 is copied and pasted to cell C5, cell formatting is not copied and only content of cell B3 is copied.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/54690466/55541834.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Given that &lt;code&gt;EnableClipboardCopyPaste&lt;/code&gt; is &lt;code&gt;true&lt;/code&gt; and &lt;code&gt;PasteType&lt;/code&gt; is &lt;code&gt;All&lt;/code&gt;, the following screenshot shows that when cell B3 is copied and pasted to cell C5, it also copies the formatting of the cell B3 to cell C5.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/54690466/55541833.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

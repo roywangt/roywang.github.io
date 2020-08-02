@@ -1,0 +1,1079 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Worksheets</title>
+    <link>https://roywangt.github.io/cells/net/developerguide/worksheets/</link>
+    <description>Recent content in Worksheets on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://roywangt.github.io/cells/net/developerguide/worksheets/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Net: Copying and Moving Worksheets</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/worksheets/copying&#43;and&#43;moving&#43;worksheets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/worksheets/copying&#43;and&#43;moving&#43;worksheets/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--copying-and-moving-worksheets&#34;&gt;Aspose.Cells for .NET : Copying and Moving Worksheets&lt;/h1&gt;
+&lt;p&gt;Sometimes, you do need a number of worksheets with common formatting and data. For example, if you work with quarterly budgets, you might want to create a workbook with sheets that contain the same column headings, row headings, and formulas. There is a way to do this: by creating one sheet and then copying it.&lt;/p&gt;
+&lt;p&gt;Aspose.Cells supports copying and moving worksheets within or between workbooks. Worksheet, complete with data, formatting, tables, matrices, charts, images and other objects, are copied with the highest degree of precision.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#moving-or-copying-sheets-using-microsoft-excel&#34;&gt;Moving or Copying Sheets using Microsoft Excel&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#copy-worksheets-within-a-workbook-with-aspose.cells&#34;&gt;Copy Worksheets within a Workbook with Aspose.Cells&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.2 &lt;a href=&#34;#copy-worksheets-between-workbooks&#34;&gt;Copy Worksheets between Workbooks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.3 &lt;a href=&#34;#move-worksheets-within-workbook&#34;&gt;Move Worksheets within Workbook&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;moving-or-copying-sheets-using-microsoft-excel&#34;&gt;Moving or Copying Sheets using Microsoft Excel&lt;/h2&gt;
+&lt;p&gt;Following are the steps involved for copying and moving worksheets within or between workbooks in Microsoft Excel.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;To move or copy sheets to another workbook, open the workbook that will receive the sheets.&lt;/li&gt;
+&lt;li&gt;Switch to the workbook that contains the sheets you want to move or copy, and then select the sheets.&lt;/li&gt;
+&lt;li&gt;On the &lt;strong&gt;Edit&lt;/strong&gt; menu, click &lt;strong&gt;Move or Copy Sheet&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;In the &lt;strong&gt;To book&lt;/strong&gt; dialog, click the workbook to receive the sheets.&lt;/li&gt;
+&lt;li&gt;To move or copy the selected sheets to a new workbook, click &lt;strong&gt;New Book&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;In the &lt;strong&gt;Before sheet&lt;/strong&gt; box, click the sheet before which you want to insert the moved or copied sheets.&lt;/li&gt;
+&lt;li&gt;To copy the sheets instead of moving them, select the &lt;strong&gt;Create a copy&lt;/strong&gt; checkbox.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;copy-worksheets-within-a-workbook-with-asposecells&#34;&gt;Copy Worksheets within a Workbook with Aspose.Cells&lt;/h3&gt;
+&lt;p&gt;Aspose.Cells provides an overloaded method, &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/worksheetcollection/methods/addcopy/index&#34;&gt;Aspose.Cells.WorksheetCollection.AddCopy()&lt;/a&gt;, that is used to add a worksheet to the collection and copy data from an existing worksheet. One version of the method takes the index of the source worksheet as a parameter. The other version takes the name of the source worksheet.&lt;/p&gt;
+&lt;p&gt;The following example shows how to copy an existing worksheet within a workbook.&lt;/p&gt;
+&lt;h3 id=&#34;copy-worksheets-between-workbooks&#34;&gt;Copy Worksheets between Workbooks&lt;/h3&gt;
+&lt;p&gt;Aspose.Cells provides a method, &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/worksheet/methods/copy/index&#34;&gt;Aspose.Cells.Worksheet.Copy()&lt;/a&gt; used to copy data and formatting from a source worksheet to another worksheet within or between workbooks. The method takes the source worksheet object as a parameter.&lt;/p&gt;
+&lt;p&gt;The following example shows how to copy a worksheet from one workbook to another workbook.&lt;/p&gt;
+&lt;p&gt;The following example shows how to copy a worksheet from one workbook to another.&lt;/p&gt;
+&lt;h3 id=&#34;move-worksheets-within-workbook&#34;&gt;Move Worksheets within Workbook&lt;/h3&gt;
+&lt;p&gt;Aspose.Cells provides a method &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/worksheet/methods/moveto&#34;&gt;Aspose.Cells.Worksheet.MoveTo()&lt;/a&gt; which is used to move a worksheet to another location in the same spreadsheet. The method takes the target worksheet index as a parameter.&lt;/p&gt;
+&lt;p&gt;The following example shows how to move a worksheet to another location within the workbook.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Manage Worksheets</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/worksheets/manage&#43;worksheets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/worksheets/manage&#43;worksheets/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--manage-worksheets&#34;&gt;Aspose.Cells for .NET : Manage Worksheets&lt;/h1&gt;
+&lt;p&gt;Developers can easily create and manage worksheets in Microsoft Excel files programmatically using Aspose.Cells&amp;rsquo; flexible API. This topic describes approaches for adding and removing worksheets in Microsoft Excel files.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#adding-worksheets-to-a-new-excel-file&#34;&gt;Adding Worksheets to a New Excel File&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#adding-worksheets-to-a-designer-spreadsheet&#34;&gt;Adding Worksheets to a Designer Spreadsheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#accessing-worksheets-using-sheet-name&#34;&gt;Accessing Worksheets using Sheet Name&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;4 &lt;a href=&#34;#removing-worksheets-using-sheet-name&#34;&gt;Removing Worksheets using Sheet Name&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;5 &lt;a href=&#34;#removing-worksheets-using-sheet-index&#34;&gt;Removing Worksheets using Sheet Index&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt;Aspose.Cells provides a class, &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/workbook&#34;&gt;Workbook&lt;/a&gt; that represents an Excel file. The &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/workbook&#34;&gt;Workbook&lt;/a&gt; class contains a &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/workbook/properties/worksheets&#34;&gt;Worksheets&lt;/a&gt; collection that allows access to each worksheet in the Excel file.&lt;/p&gt;
+&lt;p&gt;A worksheet is represented by the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/worksheet&#34;&gt;Worksheet&lt;/a&gt; class. The &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/worksheet&#34;&gt;Worksheet&lt;/a&gt; class provides a wide range of properties and methods for managing worksheets.&lt;/p&gt;
+&lt;h2 id=&#34;adding-worksheets-to-a-new-excel-file&#34;&gt;Adding Worksheets to a New Excel File&lt;/h2&gt;
+&lt;p&gt;To create a new Excel file programmatically:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Create an object of the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/workbook&#34;&gt;Workbook&lt;/a&gt; class.&lt;/li&gt;
+&lt;li&gt;Call the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/worksheetcollection/methods/add&#34;&gt;Add&lt;/a&gt; method of the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/worksheetcollection&#34;&gt;WorksheetCollection&lt;/a&gt; class. An empty worksheet is added to the Excel file automatically. It can be referenced by passing the sheet index of the new worksheet to the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/workbook/properties/worksheets&#34;&gt;Worksheets&lt;/a&gt; collection.&lt;/li&gt;
+&lt;li&gt;Obtain a worksheet reference.&lt;/li&gt;
+&lt;li&gt;Perform work on the worksheets.&lt;/li&gt;
+&lt;li&gt;Save the new Excel file with new worksheets by calling the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/workbook&#34;&gt;Workbook&lt;/a&gt; class&amp;rsquo; &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/workbook/methods/save/index&#34;&gt;Save&lt;/a&gt; method.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;adding-worksheets-to-a-designer-spreadsheet&#34;&gt;Adding Worksheets to a Designer Spreadsheet&lt;/h2&gt;
+&lt;p&gt;The process of adding worksheets to a designer spreadsheet is the same as that of adding a new worksheet, except that the Excel file already exists so should be opened before worksheets are added. A designer spreadsheet can be opened by the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/workbook&#34;&gt;Workbook&lt;/a&gt; class.&lt;/p&gt;
+&lt;h2 id=&#34;accessing-worksheets-using-sheet-name&#34;&gt;Accessing Worksheets using Sheet Name&lt;/h2&gt;
+&lt;p&gt;Access any worksheet by specifying its name or index.&lt;/p&gt;
+&lt;h2 id=&#34;removing-worksheets-using-sheet-name&#34;&gt;Removing Worksheets using Sheet Name&lt;/h2&gt;
+&lt;p&gt;To remove worksheets from a file, call the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/worksheetcollection/methods/removeat/index&#34;&gt;RemoveAt&lt;/a&gt; method of &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/worksheetcollection&#34;&gt;WorksheetCollection&lt;/a&gt; class. Pass the sheet name to the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.worksheetcollection/removeat/methods/1&#34;&gt;RemoveAt&lt;/a&gt; method to remove a specific worksheet.&lt;/p&gt;
+&lt;h2 id=&#34;removing-worksheets-using-sheet-index&#34;&gt;Removing Worksheets using Sheet Index&lt;/h2&gt;
+&lt;p&gt;Removing worksheets by name works well when the name of the worksheet is known. If you don&amp;rsquo;t know the worksheet&amp;rsquo;s name, use an overloaded version of the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/worksheetcollection/methods/removeat&#34;&gt;RemoveAt&lt;/a&gt; method that takes the sheet index of the worksheet instead of its sheet name.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Managing Page Breaks</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/worksheets/managing&#43;page&#43;breaks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/worksheets/managing&#43;page&#43;breaks/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--managing-page-breaks&#34;&gt;Aspose.Cells for .NET : Managing Page Breaks&lt;/h1&gt;
+&lt;p&gt;According to the definition, a page break is a place in a flow of text where one page ends and the next begins. Microsoft Excel lets users add page breaks into any selected cell of a worksheet.&lt;/p&gt;
+&lt;p&gt;The location of the cell where the page break is added, the page is ended and the rest of the data after the page break is printed on the next page while printing. In simple words, page breaks divide your worksheet into multiple pages according to your specifications. You can also add page breaks to your worksheets at runtime using Aspose.Cells. Aspose.Cells allows developers to add two kinds of page breaks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Horizontal page break&lt;/li&gt;
+&lt;li&gt;Vertical page break&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In the rest of the discussion, we will describe how can you add horizontal or vertical page breaks into your worksheets using Aspose.Cells.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#page-breaks&#34;&gt;Page Breaks&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#adding-page-breaks&#34;&gt;Adding Page Breaks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.2 &lt;a href=&#34;#clearing-all-page-breaks&#34;&gt;Clearing All Page Breaks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.3 &lt;a href=&#34;#removing-specific-page-break&#34;&gt;Removing Specific Page Break&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#important-to-know&#34;&gt;Important to know&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;page-breaks&#34;&gt;Page Breaks&lt;/h2&gt;
+&lt;p&gt;Aspose.Cells provides a &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/workbook&#34;&gt;Workbook&lt;/a&gt; class that represents an Excel file. The &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/workbook&#34;&gt;Workbook&lt;/a&gt; class contains a &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/workbook/properties/worksheets&#34;&gt;Worksheets&lt;/a&gt; collection that allows access to each worksheet in the Excel file.&lt;/p&gt;
+&lt;p&gt;A worksheet is represented by the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/worksheet&#34;&gt;Worksheet&lt;/a&gt; class. The &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/worksheet&#34;&gt;Worksheet&lt;/a&gt; class provides a wide range of properties and methods used to manage a worksheet.&lt;/p&gt;
+&lt;p&gt;To add the page breaks, use the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/worksheet&#34;&gt;Worksheet&lt;/a&gt; class&amp;rsquo; &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/worksheet/properties/horizontalpagebreaks&#34;&gt;HorizontalPageBreaks&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/worksheet/properties/verticalpagebreaks&#34;&gt;VerticalPageBreaks&lt;/a&gt; properties.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/worksheet/properties/horizontalpagebreaks&#34;&gt;HorizontalPageBreaks&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/worksheet/properties/verticalpagebreaks&#34;&gt;VerticalPageBreaks&lt;/a&gt; properties are collections that may contain several page breaks. Each collection contains several methods for managing horizontal and vertical page breaks.&lt;/p&gt;
+&lt;h3 id=&#34;adding-page-breaks&#34;&gt;Adding Page Breaks&lt;/h3&gt;
+&lt;p&gt;To add a page break in a worksheet, insert vertical and horizontal page breaks at the specified cell by calling the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/horizontalpagebreakcollection/methods/add/index&#34;&gt;HorizontalPageBreakCollection.Add()&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/verticalpagebreakcollection/methods/add/index&#34;&gt;VerticalPageBreakCollection.Add()&lt;/a&gt; methods. Each &lt;strong&gt;&lt;code&gt;Add&lt;/code&gt;&lt;/strong&gt; method takes the name of the cell where the break should be added.&lt;/p&gt;
+&lt;p&gt;In page break preview or print preview modes, you can see how these page breaks work.&lt;/p&gt;
+&lt;h3 id=&#34;clearing-all-page-breaks&#34;&gt;Clearing All Page Breaks&lt;/h3&gt;
+&lt;p&gt;To clear all page breaks in a worksheet, call the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/horizontalpagebreakcollection&#34;&gt;HorizontalPageBreakCollection&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/verticalpagebreakcollection&#34;&gt;VerticalPageBreakCollection&lt;/a&gt; collections&amp;rsquo; &lt;a href=&#34;https://docs.microsoft.com/en-us/dotnet/api/system.collections.collectionbase.clear?redirectedfrom=MSDN&amp;amp;view=netframework-4.7.2#System_Collections_CollectionBase_Clear&#34;&gt;Clear()&lt;/a&gt; methods.&lt;/p&gt;
+&lt;h3 id=&#34;removing-specific-page-break&#34;&gt;Removing Specific Page Break&lt;/h3&gt;
+&lt;p&gt;To remove a specific page break, call the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/horizontalpagebreakcollection/methods/removeat&#34;&gt;HorizontalPageBreakCollection.RemoveAt()&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/verticalpagebreakcollection/methods/removeat&#34;&gt;VerticalPageBreakCollection.RemoveAt()&lt;/a&gt; methods. Each **RemoveAt **method takes the index of the page break about to be removed.&lt;/p&gt;
+&lt;h2 id=&#34;important-to-know&#34;&gt;Important to know&lt;/h2&gt;
+&lt;p&gt;When you set **FitToPages **properties (that is &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/pagesetup/properties/fittopagestall&#34;&gt;FitToPagesTall&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/pagesetup/properties/fittopageswide&#34;&gt;FitToPagesWide&lt;/a&gt;) in page setup settings, the page break settings are affected, so, if you print the worksheet, the page break settings are not considered although they are still set.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Worksheet Views</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/worksheets/worksheet&#43;views/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/worksheets/worksheet&#43;views/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--worksheet-views&#34;&gt;Aspose.Cells for .NET : Worksheet Views&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#page-break-preview&#34;&gt;Page Break Preview&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#controlling-view-modes&#34;&gt;Controlling View Modes&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1.1 &lt;a href=&#34;#enabling-normal-view&#34;&gt;Enabling Normal View&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.1.2 &lt;a href=&#34;#enabling-page-break-preview&#34;&gt;Enabling Page Break Preview&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#zoom-factor&#34;&gt;Zoom Factor&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;2.1 &lt;a href=&#34;#using-microsoft-excel&#34;&gt;Using Microsoft Excel&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2.2 &lt;a href=&#34;#aspose.cells-&amp;amp;-zoom-factor&#34;&gt;Aspose.Cells &amp;amp; Zoom Factor&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#freeze-panes&#34;&gt;Freeze Panes&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;3.1 &lt;a href=&#34;#using-microsoft-excel&#34;&gt;Using Microsoft Excel&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3.2 &lt;a href=&#34;#aspose.cells-&amp;amp;-freeze-panes&#34;&gt;Aspose.Cells &amp;amp; Freeze Panes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;4 &lt;a href=&#34;#split-panes&#34;&gt;Split Panes&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;4.1 &lt;a href=&#34;#applying-and-removing-split-panes&#34;&gt;Applying and Removing Split Panes&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;4.1.1 &lt;a href=&#34;#splitting-panes&#34;&gt;Splitting Panes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;4.1.2 &lt;a href=&#34;#removing-panes&#34;&gt;Removing Panes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;page-break-preview&#34;&gt;Page Break Preview&lt;/h2&gt;
+&lt;p&gt;All worksheets can be viewed in two modes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Normal view.&lt;/li&gt;
+&lt;li&gt;Page break preview.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Normal view is a worksheet&amp;rsquo;s default view. Page break preview is an editing view that displays a worksheet as it will print. Page break preview shows what data will go on each page so you can adjust the print area and page breaks. Using Aspose.Cells developers can enable normal view or page break preview modes.&lt;/p&gt;
+&lt;h3 id=&#34;controlling-view-modes&#34;&gt;Controlling View Modes&lt;/h3&gt;
+&lt;p&gt;Aspose.Cells provides a &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/workbook&#34;&gt;Workbook&lt;/a&gt; class that represents a Microsoft Excel file. The &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/workbook&#34;&gt;Workbook&lt;/a&gt; class contains a &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/workbook/properties/worksheets&#34;&gt;Worksheets&lt;/a&gt; collection that allows access to each worksheet in an Excel file.&lt;/p&gt;
+&lt;p&gt;A worksheet is represented by the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/worksheet&#34;&gt;Worksheet&lt;/a&gt; class. The &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/worksheet&#34;&gt;Worksheet&lt;/a&gt; class provides a wide range of properties and methods for managing worksheets. To enable normal or page break preview modes, use the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/worksheet&#34;&gt;Worksheet&lt;/a&gt; class &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/worksheet/properties/ispagebreakpreview&#34;&gt;IsPageBreakPreview&lt;/a&gt; property. &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/worksheet/properties/ispagebreakpreview&#34;&gt;IsPageBreakPreview&lt;/a&gt; is a Boolean property, which means that it can only store a &lt;strong&gt;true&lt;/strong&gt; or a &lt;strong&gt;false&lt;/strong&gt; value.&lt;/p&gt;
+&lt;h4 id=&#34;enabling-normal-view&#34;&gt;Enabling Normal View&lt;/h4&gt;
+&lt;p&gt;Set a worksheet to normal view by setting the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/worksheet&#34;&gt;Worksheet&lt;/a&gt; class &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/worksheet/properties/ispagebreakpreview&#34;&gt;IsPageBreakPreview&lt;/a&gt; property to &lt;strong&gt;false&lt;/strong&gt;.&lt;/p&gt;
+&lt;h4 id=&#34;enabling-page-break-preview&#34;&gt;Enabling Page Break Preview&lt;/h4&gt;
+&lt;p&gt;Set any worksheet to page break preview by setting the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/worksheet&#34;&gt;Worksheet&lt;/a&gt; class &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/worksheet/properties/ispagebreakpreview&#34;&gt;IsPageBreakPreview&lt;/a&gt; property to &lt;strong&gt;true&lt;/strong&gt;. Doing so switches the worksheet from normal view to page break preview.&lt;/p&gt;
+&lt;p&gt;A complete example is given below that demonstrates how to use the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/worksheet/properties/ispagebreakpreview&#34;&gt;IsPageBreakPreview&lt;/a&gt; property to enable page break preview mode for the first worksheet of an Excel file.&lt;/p&gt;
+&lt;p&gt;The book1.xls file is opened by creating an instance of the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/workbook&#34;&gt;Workbook&lt;/a&gt; class. The view is switched to page break preview for the first worksheet by setting the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/worksheet/properties/ispagebreakpreview&#34;&gt;IsPageBreakPreview&lt;/a&gt; property to &lt;strong&gt;true&lt;/strong&gt;. The modified file is saved as output.xls.&lt;/p&gt;
+&lt;h2 id=&#34;zoom-factor&#34;&gt;Zoom Factor&lt;/h2&gt;
+&lt;h3 id=&#34;using-microsoft-excel&#34;&gt;Using Microsoft Excel&lt;/h3&gt;
+&lt;p&gt;Microsoft Excel provides a feature that lets users set a worksheet&amp;rsquo;s zoom or scaling factor. This feature helps users to see the worksheet contents in smaller or larger views. Users can set the zoom factor to any value.&lt;/p&gt;
+&lt;h3 id=&#34;asposecells--zoom-factor&#34;&gt;Aspose.Cells &amp;amp; Zoom Factor&lt;/h3&gt;
+&lt;p&gt;Aspose.Cells allows developers to set the worksheet zoom factor.&lt;br&gt;
+Aspose.Cells provides a &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/workbook&#34;&gt;Workbook&lt;/a&gt; class that represents a Microsoft Excel file. The &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/workbook&#34;&gt;Workbook&lt;/a&gt; class contains a &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/workbook/properties/worksheets&#34;&gt;Worksheets&lt;/a&gt; collection that allows access to each worksheet in an Excel file.&lt;/p&gt;
+&lt;p&gt;A worksheet is represented by the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/worksheet&#34;&gt;Worksheet&lt;/a&gt; class. The &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/worksheet&#34;&gt;Worksheet&lt;/a&gt; class provides a wide range of properties and methods for managing worksheets. To set a worksheet&amp;rsquo;s zoom factor, use the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/worksheet&#34;&gt;Worksheet&lt;/a&gt; class&amp;rsquo; &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/worksheet/properties/zoom&#34;&gt;Zoom&lt;/a&gt; property. The zoom factor is set by assigning a numeric (integer) value to the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/worksheet/properties/zoom&#34;&gt;Zoom&lt;/a&gt; property.&lt;/p&gt;
+&lt;p&gt;A complete example is given below that demonstrates how to use the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/worksheet/properties/zoom&#34;&gt;Zoom&lt;/a&gt; property to set the zoom factor of the first worksheet of the Excel file.&lt;/p&gt;
+&lt;p&gt;The book1.xls file is opened by creating an instance of the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/workbook&#34;&gt;Workbook&lt;/a&gt; class. The zoom factor of the first worksheet is set to 75 and the modified file is saved as output.xls.&lt;/p&gt;
+&lt;h2 id=&#34;freeze-panes&#34;&gt;Freeze Panes&lt;/h2&gt;
+&lt;h3 id=&#34;using-microsoft-excel-1&#34;&gt;Using Microsoft Excel&lt;/h3&gt;
+&lt;p&gt;Freeze panes is a feature provided by Microsoft Excel. Freezing panes allows you to select data to remain visible when scrolling in a worksheet.&lt;/p&gt;
+&lt;h3 id=&#34;asposecells--freeze-panes&#34;&gt;Aspose.Cells &amp;amp; Freeze Panes&lt;/h3&gt;
+&lt;p&gt;Aspose.Cells allows developers to apply freeze panes to worksheets at runtime.&lt;/p&gt;
+&lt;p&gt;Aspose.Cells provides &lt;code&gt;a [Workbook](https://apireference.aspose.com/net/cells/aspose.cells/workbook) class that represents a Microsoft Excel file. &lt;/code&gt;The &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/workbook&#34;&gt;Workbook&lt;/a&gt; class contains a &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/workbook/properties/worksheets&#34;&gt;Worksheets&lt;/a&gt; collection that allows access to each worksheet in an Excel file.&lt;/p&gt;
+&lt;p&gt;A worksheet is represented by the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/worksheet&#34;&gt;Worksheet&lt;/a&gt; class. The &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/worksheet&#34;&gt;Worksheet&lt;/a&gt; class provides a wide range of properties and methods for managing worksheets. To configure freeze panes, call the &lt;code&gt;Worksheet&lt;/code&gt; class&amp;rsquo; &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/worksheet/methods/freezepanes/index&#34;&gt;FreezePanes&lt;/a&gt;method. The &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/worksheet/methods/freezepanes/index&#34;&gt;FreezePanes&lt;/a&gt;method takes the following parameters:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Row&lt;/strong&gt;, the row index of the cell that the freeze will start from.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Column&lt;/strong&gt;, the column index of the cell that the freeze will start from.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Frozen rows&lt;/strong&gt;, the number of visible rows in the top pane.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Frozen columns&lt;/strong&gt;, the number of visible columns in the left pane&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The book1.xls file is opened by calling the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/workbook&#34;&gt;Workbook&lt;/a&gt;class&amp;rsquo; constructor while instantiating it and a few rows and columns are frozen in the first worksheet. The modified file is saved as output.xls.&lt;/p&gt;
+&lt;p&gt;A complete example is given below that shows how to use the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/worksheet/methods/freezepanes/index&#34;&gt;FreezePanes&lt;/a&gt;method to freeze rows and columns (starting from C4, represented by the 4th row and 3rd column, where the rows and columns start from the 0 index) of the first worksheet of the Excel file.&lt;/p&gt;
+&lt;h2 id=&#34;split-panes&#34;&gt;Split Panes&lt;/h2&gt;
+&lt;p&gt;If you need to split the screen to get two different views in the same worksheet, split panes. Microsoft Excel offers a very handy feature that allows you to view more than one copy of your worksheet, and for you to be able to scroll through each pane of your worksheet independently: split panes.&lt;/p&gt;
+&lt;p&gt;The panes work simultaneously. If you make a change in one, the change simultaneously appears in the other. Aspose.Cells provides the split panes feature for the users.&lt;/p&gt;
+&lt;h3 id=&#34;applying-and-removing-split-panes&#34;&gt;Applying and Removing Split Panes&lt;/h3&gt;
+&lt;h4 id=&#34;splitting-panes&#34;&gt;Splitting Panes&lt;/h4&gt;
+&lt;p&gt;Aspose.Cells provides a class, &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/workbook&#34;&gt;Workbook&lt;/a&gt;that represents a Microsoft Excel file. The &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/workbook&#34;&gt;Workbook&lt;/a&gt;class provides a wide range of properties and methods for managing an Excel file. To implement split views, use the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/worksheet&#34;&gt;Worksheet&lt;/a&gt; class&amp;rsquo; &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/worksheet/methods/split&#34;&gt;Split&lt;/a&gt;. To remove the split panes, use the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/worksheet/methods/removesplit&#34;&gt;RemoveSplit&lt;/a&gt; method.&lt;/p&gt;
+&lt;p&gt;In the example, we use a simple template file that is loaded, then the set split panes feature is applied on a cell in the first worksheet. The updated file is saved.&lt;/p&gt;
+&lt;p&gt;After running the above code, the generated file will have a split view.&lt;/p&gt;
+&lt;h4 id=&#34;removing-panes&#34;&gt;Removing Panes&lt;/h4&gt;
+&lt;p&gt;Remove split panes using the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/worksheet/methods/removesplit&#34;&gt;RemoveSplit&lt;/a&gt; method.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Display Features</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/worksheets/displayfeatures/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/worksheets/displayfeatures/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--display-features&#34;&gt;Aspose.Cells for .NET : Display Features&lt;/h1&gt;
+&lt;h3 id=&#34;articles-in-this-section&#34;&gt;Articles in this section&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/worksheets/displayfeatures/show+and+hide+gridlines+and+row+column+headers/&#34;&gt;Show and Hide Gridlines and Row Column Headers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/worksheets/displayfeatures/show+and+hide+rows+columns+and+scroll+bars/&#34;&gt;Show and Hide Rows Columns and Scroll Bars&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/worksheets/displayfeatures/show+and+hide+worksheets+and+tabs/&#34;&gt;Show and Hide Worksheets and Tabs&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Page Setup Features</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/worksheets/pagesetupfeatures/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/worksheets/pagesetupfeatures/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--page-setup-features&#34;&gt;Aspose.Cells for .NET : Page Setup Features&lt;/h1&gt;
+&lt;h3 id=&#34;articles-in-this-section&#34;&gt;Articles in this section&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/worksheets/pagesetupfeatures/copy+page+setup+settings+from+source+worksheet+into+destination+worksheet/&#34;&gt;Copy Page Setup Settings from Source Worksheet into Destination Worksheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/worksheets/pagesetupfeatures/determine+if+paper+size+of+worksheet+is+automatic/&#34;&gt;Determine if Paper Size of Worksheet is Automatic&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/worksheets/pagesetupfeatures/get+paper+width+and+height+of+page+setup+of+worksheet/&#34;&gt;Get Paper Width and Height of Page Setup of Worksheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/worksheets/pagesetupfeatures/implement+custom+paper+size+of+worksheet+for+rendering/&#34;&gt;Implement Custom Paper Size of Worksheet for Rendering&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/worksheets/pagesetupfeatures/remove+existing+printersettings+of+worksheets+in+excel+file/&#34;&gt;Remove Existing PrinterSettings of Worksheets in Excel file&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/worksheets/pagesetupfeatures/setting+headers+and+footers/&#34;&gt;Setting Headers and Footers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/worksheets/pagesetupfeatures/setting+margins/&#34;&gt;Setting Margins&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/worksheets/pagesetupfeatures/setting+page+options/&#34;&gt;Setting Page Options&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/worksheets/pagesetupfeatures/setting+print+options/&#34;&gt;Setting Print Options&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Security Features</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/worksheets/securityfeatures/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/worksheets/securityfeatures/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--security-features&#34;&gt;Aspose.Cells for .NET : Security Features&lt;/h1&gt;
+&lt;h3 id=&#34;articles-in-this-section&#34;&gt;Articles in this section&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/worksheets/securityfeatures/advanced+protection+settings+since+excel+xp/&#34;&gt;Advanced Protection Settings since Excel XP&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/worksheets/securityfeatures/protecting+worksheets/&#34;&gt;Protecting Worksheets&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/worksheets/securityfeatures/specify+author+while+write+protecting+workbook/&#34;&gt;Specify Author while Write Protecting Workbook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/worksheets/securityfeatures/unprotect+a+worksheet/&#34;&gt;Unprotect a Worksheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Update Days Preserving History of Revision Logs in Shared Workbook</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/worksheets/update&#43;days&#43;preserving&#43;history&#43;of&#43;revision&#43;logs&#43;in&#43;shared&#43;workbook/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/worksheets/update&#43;days&#43;preserving&#43;history&#43;of&#43;revision&#43;logs&#43;in&#43;shared&#43;workbook/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--update-days-preserving-history-of-revision-logs-in-shared-workbook&#34;&gt;Aspose.Cells for .NET : Update Days Preserving History of Revision Logs in Shared Workbook&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#update-days-preserving-history-of-revision-logs-in-shared-workbook&#34;&gt;Update Days Preserving History of Revision Logs in Shared Workbook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;When you share a workbook, you get an option saying &lt;em&gt;&lt;strong&gt;Keep change history for N days&lt;/strong&gt;&lt;/em&gt; as shown in the following screenshot. You can update the number of days for preserving history using Aspose.Cells with &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.revisions/revisionlogcollection/properties/dayspreservinghistory&#34;&gt;WorksheetCollection.RevisionLogs.DaysPreservingHistory&lt;/a&gt; property.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/60229070/60489772.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;update-days-preserving-history-of-revision-logs-in-shared-workbook&#34;&gt;Update Days Preserving History of Revision Logs in Shared Workbook&lt;/h2&gt;
+&lt;p&gt;The following sample code creates an empty workbook, then shares it and updates the revision logs days preserving history to 7 days which is normally 30 days. Please see the &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/60229070/60489773.xlsx&#34;&gt;output Excel file&lt;/a&gt; generated by the code for a reference.&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Find if the Worksheet is Dialog Sheet</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/worksheets/find&#43;if&#43;the&#43;worksheet&#43;is&#43;dialog&#43;sheet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/worksheets/find&#43;if&#43;the&#43;worksheet&#43;is&#43;dialog&#43;sheet/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--find-if-the-worksheet-is-dialog-sheet&#34;&gt;Aspose.Cells for .NET : Find if the Worksheet is Dialog Sheet&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#find-if-the-worksheet-is-dialog-sheet&#34;&gt;Find if the Worksheet is Dialog Sheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;4 &lt;a href=&#34;#console-output&#34;&gt;Console Output&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;Dialog Sheet is an old format of sheet that contains a dialog box. Such sheet could be inserted by an older version of Microsoft Excel e.g. 2003 as shown in this screenshot. It can also be inserted with VBA in newer versions e.g. Microsoft Excel 2016.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/64454872/64716826.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;You can find if the sheet is a dialog sheet or some other type of sheet with &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/worksheet/properties/type&#34;&gt;Worksheet.Type&lt;/a&gt; property provided by Aspose.Cells. If it returns enumeration value &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/sheettype&#34;&gt;SheetType.Dialog&lt;/a&gt;, then it means, you are dealing with dialog sheet.&lt;/p&gt;
+&lt;h2 id=&#34;find-if-the-worksheet-is-dialog-sheet&#34;&gt;Find if the Worksheet is Dialog Sheet&lt;/h2&gt;
+&lt;p&gt;The following sample code loads the &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/64454872/64716820.xlsx&#34;&gt;sample Excel file&lt;/a&gt; that contains a dialog sheet. It checks the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/worksheet/properties/type&#34;&gt;Worksheet.Type&lt;/a&gt; property compares it with &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/sheettype&#34;&gt;SheetType.Dialog &lt;/a&gt;and then prints the message. Please see the console output of the sample code given below for more help.&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+&lt;h2 id=&#34;console-output&#34;&gt;Console Output&lt;/h2&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_38d1361d16&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_38d1361d16&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Worksheet&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;is&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;a&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Dialog&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Sheet&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Get Hyperlinks in Range</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/worksheets/get&#43;hyperlinks&#43;in&#43;range/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/worksheets/get&#43;hyperlinks&#43;in&#43;range/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--get-hyperlinks-in-range&#34;&gt;Aspose.Cells for .NET : Get Hyperlinks in Range&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#get-hyperlinks-in-range&#34;&gt;Get Hyperlinks in Range&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;get-hyperlinks-in-range&#34;&gt;Get Hyperlinks in Range&lt;/h2&gt;
+&lt;p&gt;The &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/range&#34;&gt;Range&lt;/a&gt; class provides a &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/range/properties/hyperlinks&#34;&gt;Hyperlinks&lt;/a&gt; property which returns all the hyperlinks in the selected range. You may also delete the Hyperlink by calling the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/hyperlink/methods/delete&#34;&gt;Hyperlink.Delete&lt;/a&gt; method.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Count number of cells in the Worksheet</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/worksheets/count&#43;number&#43;of&#43;cells&#43;in&#43;the&#43;worksheet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/worksheets/count&#43;number&#43;of&#43;cells&#43;in&#43;the&#43;worksheet/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--count-number-of-cells-in-the-worksheet&#34;&gt;Aspose.Cells for .NET : Count number of cells in the Worksheet&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#count-number-of-cells-in-the-worksheet&#34;&gt;Count number of cells in the Worksheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;count-number-of-cells-in-the-worksheet&#34;&gt;Count number of cells in the Worksheet&lt;/h2&gt;
+&lt;p&gt;You may count the number of cells in the worksheet by using the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/cells/properties/count&#34;&gt;Cells.Count&lt;/a&gt; or &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/cells/properties/countlarge&#34;&gt;Cells.CountLarge&lt;/a&gt; properties as shown in the code example given below.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Get Range with External Links</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/worksheets/get&#43;range&#43;with&#43;external&#43;links/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/worksheets/get&#43;range&#43;with&#43;external&#43;links/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--get-range-with-external-links&#34;&gt;Aspose.Cells for .NET : Get Range with External Links&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#get-range-with-external-links&#34;&gt;Get Range with External Links&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;get-range-with-external-links&#34;&gt;Get Range with External Links&lt;/h2&gt;
+&lt;p&gt;A lot of times Excel files access data from other Excel files using external links. Aspose.Cells provides the option to retrieve these external links by using the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/name/methods/getreferredareas&#34;&gt;Name.GetReferredAreas&lt;/a&gt; method. The &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/name/methods/getreferredareas&#34;&gt;Name.GetReferredAreas&lt;/a&gt; method returns an array of type &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/referredarea&#34;&gt;ReferredArea&lt;/a&gt;. The &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/referredarea&#34;&gt;ReferredArea&lt;/a&gt; class provides an &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/referredarea/properties/externalfilename&#34;&gt;ExternalFileName&lt;/a&gt; property which returns the name of the external file. The &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/referredarea&#34;&gt;ReferredArea&lt;/a&gt;class exposes the following members.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/referredarea/properties/endcolumn&#34;&gt;EndColumn&lt;/a&gt;: The end column of the area&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/referredarea/properties/endrow&#34;&gt;EndRow&lt;/a&gt;: The end row of the area&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/referredarea/properties/externalfilename&#34;&gt;ExternalFileName&lt;/a&gt;: Get the external file name if this is an external reference&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/referredarea/properties/isarea&#34;&gt;IsArea&lt;/a&gt;: Indicates whether this is an area&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/referredarea/properties/isexternallink&#34;&gt;IsExternalLink&lt;/a&gt;: Indicates whether this is an external link&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/referredarea/properties/sheetname&#34;&gt;SheetName&lt;/a&gt;: Indicates which sheet this reference is in&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/referredarea/properties/startcolumn&#34;&gt;StartColumn&lt;/a&gt;: The start column of the area&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/referredarea/properties/startrow&#34;&gt;StartRow&lt;/a&gt;: The start row of the area&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The sample code given below demonstrates the use of &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/name/methods/getreferredareas&#34;&gt;Name.GetReferredAreas&lt;/a&gt; method to get Ranges with external links.&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Cut and Paste Cells</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/worksheets/cut&#43;and&#43;paste&#43;cells/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/worksheets/cut&#43;and&#43;paste&#43;cells/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--cut-and-paste-cells&#34;&gt;Aspose.Cells for .NET : Cut and Paste Cells&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#cut-and-paste-cells&#34;&gt;Cut and Paste Cells&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h1 id=&#34;cut-and-paste-cells&#34;&gt;Cut and Paste Cells&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells provides you with the ability to cut and paste cells within a worksheet by using the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/cells/methods/insertcutcells&#34;&gt;InsertCutCells&lt;/a&gt; method of the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/cells&#34;&gt;Cells&lt;/a&gt; collection. The &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/cells/methods/insertcutcells&#34;&gt;InsertCutCells&lt;/a&gt; accepts the following parameters.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/range&#34;&gt;Range&lt;/a&gt;: The range of cells to be cut.&lt;/li&gt;
+&lt;li&gt;Row Index: The index of the row to insert cells.&lt;/li&gt;
+&lt;li&gt;Column Index: The index of the column to insert cells.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/shifttype&#34;&gt;ShiftType&lt;/a&gt;: The shift direction of the columns.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The following example shows how to cut and paste cells within a worksheet. &lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Threaded Comments</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/worksheets/threaded&#43;comments/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/worksheets/threaded&#43;comments/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--threaded-comments&#34;&gt;Aspose.Cells for .NET : Threaded Comments&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#threaded-comments&#34;&gt;Threaded Comments&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#add-threaded-comments&#34;&gt;Add Threaded Comments&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1.1 &lt;a href=&#34;#add-threaded-comment-with-excel&#34;&gt;Add Threaded comment with Excel&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.1.2 &lt;a href=&#34;#add-threaded-comment-using-aspose.cells&#34;&gt;Add Threaded Comment using Aspose.Cells&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1.2.1 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;1.2 &lt;a href=&#34;#read-threaded-comments&#34;&gt;Read Threaded Comments&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.2.1 &lt;a href=&#34;#read-threaded-comments-with-excel&#34;&gt;Read Threaded comments with Excel&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.2.2 &lt;a href=&#34;#read-threaded-comments-using-aspose.cells&#34;&gt;Read Threaded comments using Aspose.Cells&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.2.2.1 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.2.2.2 &lt;a href=&#34;#console-output&#34;&gt;Console Output&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;1.2.3 &lt;a href=&#34;#read-created-time-of-threaded-comments&#34;&gt;Read Created Time of threaded comments&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.2.3.1 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.2.3.2 &lt;a href=&#34;#console-output&#34;&gt;Console Output&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;1.3 &lt;a href=&#34;#edit-threaded-comments&#34;&gt;Edit Threaded Comments&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.3.1 &lt;a href=&#34;#edit-threaded-comment-with-excel&#34;&gt;Edit Threaded comment with Excel&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.3.2 &lt;a href=&#34;#edit-threaded-comment-using-aspose.cells&#34;&gt;Edit Threaded comment using Aspose.Cells&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.3.2.1 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;1.4 &lt;a href=&#34;#remove-threaded-comments&#34;&gt;Remove Threaded Comments&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.4.1 &lt;a href=&#34;#remove-threaded-comments-with-excel&#34;&gt;Remove Threaded comments with Excel&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.4.2 &lt;a href=&#34;#remove-threaded-comments-using-aspose.cells&#34;&gt;Remove Threaded comments using Aspose.Cells&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.4.2.1 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h1 id=&#34;threaded-comments&#34;&gt;Threaded Comments&lt;/h1&gt;
+&lt;p&gt;MS Excel 365 provides a feature to add threaded comments. These comments work as conversations and can be used for discussions. The comments now come with a Reply box that allows for threaded conversations. The old comments are called Notes in Excel 365. The screenshot below shows how threaded comments are displayed when opened in Excel.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/89686042/89849857.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Threaded comments are shown like this in older versions of Excel. The following images have been taken by opening the sample file in Excel 2016.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/89686042/89849865.jpg&#34; alt=&#34;&#34;&gt;         &lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/89686042/89849866.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Aspose.Cells also provides the feature to manage threaded comments. &lt;/p&gt;
+&lt;h2 id=&#34;add-threaded-comments&#34;&gt;Add Threaded Comments&lt;/h2&gt;
+&lt;h3 id=&#34;add-threaded-comment-with-excel&#34;&gt;Add Threaded comment with Excel&lt;/h3&gt;
+&lt;p&gt;To add threaded comments in Excel 365, follow the following steps.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Method 1
+&lt;ul&gt;
+&lt;li&gt;Click the &lt;strong&gt;Review&lt;/strong&gt; Tab&lt;/li&gt;
+&lt;li&gt;Click the &lt;strong&gt;New Comment&lt;/strong&gt; button&lt;/li&gt;
+&lt;li&gt;This will open a dialogue to enter comments in the active cell.&lt;/li&gt;
+&lt;li&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/89686042/89849867.jpg&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Method 2
+&lt;ul&gt;
+&lt;li&gt;Right click on the cell where you want to insert the comment.&lt;/li&gt;
+&lt;li&gt;Click the &lt;strong&gt;New Comment&lt;/strong&gt; option.&lt;/li&gt;
+&lt;li&gt;This will open a dialogue to enter comments in the active cell.&lt;/li&gt;
+&lt;li&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/thumbnails/89686042/89849868&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;add-threaded-comment-using-asposecells&#34;&gt;Add Threaded Comment using Aspose.Cells&lt;/h3&gt;
+&lt;p&gt;Aspose.Cells provides &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.commentcollection/addthreadedcomment/methods/1&#34;&gt;Comments.AddThreadedComment&lt;/a&gt; method to add threaded comments.The &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.commentcollection/addthreadedcomment/methods/1&#34;&gt;Comments.AddThreadedComment&lt;/a&gt; method accepts the following three parameters.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Cell Name: The name of the cell where the comment will be inserted.&lt;/li&gt;
+&lt;li&gt;Comment Text: The text of the comment.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/threadedcommentauthor&#34;&gt;ThreadedCommentAuthor&lt;/a&gt;: The author of the comment&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The following code sample demonstrates the use of &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.commentcollection/addthreadedcomment/methods/1&#34;&gt;Comments.AddThreadedComment&lt;/a&gt; method to add threaded Comment to cell A1. Please see the &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/89686042/89849859.xlsx&#34;&gt;output Excel file &lt;/a&gt;generated by the code for reference.&lt;/p&gt;
+&lt;h4 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h4&gt;
+&lt;h2 id=&#34;read-threaded-comments&#34;&gt;Read Threaded Comments&lt;/h2&gt;
+&lt;h3 id=&#34;read-threaded-comments-with-excel&#34;&gt;Read Threaded comments with Excel&lt;/h3&gt;
+&lt;p&gt;To read threaded comments in Excel, simply hover your mouse over the cell containing comments to view the comments. The comments view will look like the view in the following image.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/89686042/89849857.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;read-threaded-comments-using-asposecells&#34;&gt;Read Threaded comments using Aspose.Cells&lt;/h3&gt;
+&lt;p&gt;Aspose.Cells provides &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.commentcollection/getthreadedcomments/methods/1&#34;&gt;Comments.GetThreadedComments&lt;/a&gt; method to retrieve threaded comments for the specified column. &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.commentcollection/getthreadedcomments/methods/1&#34;&gt;Comments.GetThreadedComments&lt;/a&gt; method accepts the column name as a parameter and returns the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/threadedcommentcollection&#34;&gt;ThreadedCommentCollection&lt;/a&gt;. You can iterate over the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/threadedcommentcollection&#34;&gt;ThreadedCommentCollection&lt;/a&gt; to view the comments.&lt;/p&gt;
+&lt;p&gt;The following example demonstrates reading comments from column A1 by loading the &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/89686042/89849861.xlsx&#34;&gt;sample Excel File&lt;/a&gt;. Please see the console output generated by the code for reference.&lt;/p&gt;
+&lt;h4 id=&#34;sample-code-1&#34;&gt;Sample Code&lt;/h4&gt;
+&lt;h4 id=&#34;console-output&#34;&gt;Console Output&lt;/h4&gt;
+&lt;p&gt;Comment: Test Threaded CommentAuthor: Aspose Test&lt;/p&gt;
+&lt;h3 id=&#34;read-created-time-of-threaded-comments&#34;&gt;Read Created Time of threaded comments&lt;/h3&gt;
+&lt;p&gt;Aspose.Cells provides &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.commentcollection/getthreadedcomments/methods/1&#34;&gt;Comments.GetThreadedComments&lt;/a&gt; method to retrieve threaded comments for the specified column. &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.commentcollection/getthreadedcomments/methods/1&#34;&gt;Comments.GetThreadedComments&lt;/a&gt; method accepts the column name as a parameter and returns the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/threadedcommentcollection&#34;&gt;ThreadedCommentCollection&lt;/a&gt;. You can iterate over the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/threadedcommentcollection&#34;&gt;ThreadedCommentCollection&lt;/a&gt; and use the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/threadedcomment/properties/createdtime&#34;&gt;ThreadedComment.CreatedTime&lt;/a&gt; property. &lt;/p&gt;
+&lt;p&gt;The following example demonstrates reading the created time of threaded comments by loading the &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/89686042/89849861.xlsx&#34;&gt;sample Excel File&lt;/a&gt;. Please see the console output generated by the code for reference.&lt;/p&gt;
+&lt;h4 id=&#34;sample-code-2&#34;&gt;Sample Code&lt;/h4&gt;
+&lt;h4 id=&#34;console-output-1&#34;&gt;Console Output&lt;/h4&gt;
+&lt;p&gt;Comment: Test Threaded CommentAuthor: Aspose TestCreated Time: 5/15/2019 12:46:23 PM&lt;/p&gt;
+&lt;h2 id=&#34;edit-threaded-comments&#34;&gt;Edit Threaded Comments&lt;/h2&gt;
+&lt;h3 id=&#34;edit-threaded-comment-with-excel&#34;&gt;Edit Threaded comment with Excel&lt;/h3&gt;
+&lt;p&gt;To edit a threaded comment in Excel, click the &lt;strong&gt;Edit&lt;/strong&gt; link on the comment as shown in the following image.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/89686042/89849860.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;edit-threaded-comment-using-asposecells&#34;&gt;Edit Threaded comment using Aspose.Cells&lt;/h3&gt;
+&lt;p&gt;Aspose.Cells provides &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.commentcollection/getthreadedcomments/methods/1&#34;&gt;Comments.GetThreadedComments&lt;/a&gt; method to retrieve threaded comments for the specified column. &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.commentcollection/getthreadedcomments/methods/1&#34;&gt;Comments.GetThreadedComments&lt;/a&gt; method accepts the column name as a parameter and returns the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/threadedcommentcollection&#34;&gt;ThreadedCommentCollection&lt;/a&gt;. You can update the required comment in the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/threadedcommentcollection&#34;&gt;ThreadedCommentCollection&lt;/a&gt; and save the workbook.&lt;/p&gt;
+&lt;p&gt;The following example demonstrates editing the first threaded comment in column A1 by loading the &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/89686042/89849861.xlsx&#34;&gt;sample Excel File&lt;/a&gt;. Please see the &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/89686042/89849862.xlsx&#34;&gt;output Excel file&lt;/a&gt; generated by the code showing the updated comment for reference.&lt;/p&gt;
+&lt;h4 id=&#34;sample-code-3&#34;&gt;Sample Code&lt;/h4&gt;
+&lt;h2 id=&#34;remove-threaded-comments&#34;&gt;Remove Threaded Comments&lt;/h2&gt;
+&lt;h3 id=&#34;remove-threaded-comments-with-excel&#34;&gt;Remove Threaded comments with Excel&lt;/h3&gt;
+&lt;p&gt;To remove threaded comments in Excel, right click on the cell containing the comments and click the &lt;strong&gt;Delete Comment&lt;/strong&gt; option as shown in the following image.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/89686042/89849863.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;remove-threaded-comments-using-asposecells&#34;&gt;Remove Threaded comments using Aspose.Cells&lt;/h3&gt;
+&lt;p&gt;Aspose.Cells provides &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/commentcollection/methods/removeat/index&#34;&gt;Comments.RemoveAt&lt;/a&gt; method to remove comments for the specified column. &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/commentcollection/methods/removeat/index&#34;&gt;Comments.RemoveAt&lt;/a&gt; method accepts the column name as a parameter removes the comments in that column. &lt;/p&gt;
+&lt;p&gt;The following example demonstrates removing comments in column A1 by loading the &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/89686042/89849861.xlsx&#34;&gt;sample Excel File&lt;/a&gt;. Please see the &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/89686042/89849864.xlsx&#34;&gt;output Excel file&lt;/a&gt; generated by the code for reference.&lt;/p&gt;
+&lt;h4 id=&#34;sample-code-4&#34;&gt;Sample Code&lt;/h4&gt;
+&lt;p&gt;Please note that by removing comment with Aspose.Cells, the author is not removed automatically. If you need to remove the author as well, please use the RemoveAt method of &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/threadedcommentauthorcollection&#34;&gt;ThreadedCommentAuthorCollection&lt;/a&gt; class as shown in the example above.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Working with Background in ODS Files</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/worksheets/working&#43;with&#43;background&#43;in&#43;ods&#43;files/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/worksheets/working&#43;with&#43;background&#43;in&#43;ods&#43;files/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--working-with-background-in-ods-files&#34;&gt;Aspose.Cells for .NET : Working with Background in ODS Files&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#background-in-ods-files&#34;&gt;Background in ODS Files&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#read-background-information-from-osd-file&#34;&gt;Read Background Information from OSD file&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1.1 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.1.2 &lt;a href=&#34;#console-output&#34;&gt;Console Output&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;1.2 &lt;a href=&#34;#add-colored-background-to-ods-file&#34;&gt;Add Colored Background to ODS file&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.2.1 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;1.3 &lt;a href=&#34;#add-graphic-background-to-ods-file&#34;&gt;Add Graphic Background to ODS file&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.3.1 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h1 id=&#34;background-in-ods-files&#34;&gt;Background in ODS Files&lt;/h1&gt;
+&lt;p&gt;Background can be added to sheets in ODS files. The background can either be a colored background or graphic background. The background is not visible when the file is open but if the file is printed as PDF, the background is visible in the generated PDF. The background is also visible in the print preview dialogue.&lt;/p&gt;
+&lt;p&gt;Aspose.Cells provides the ability to read the background information and add the background in ODS files.&lt;/p&gt;
+&lt;h2 id=&#34;read-background-information-from-osd-file&#34;&gt;Read Background Information from OSD file&lt;/h2&gt;
+&lt;p&gt;Aspose.Cells provides the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.ods/odspagebackground&#34;&gt;OdsPageBackground&lt;/a&gt; class to manage background in ODS Files. The following code sample demonstrates the use of &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.ods/odspagebackground&#34;&gt;OdsPageBackground&lt;/a&gt; class by loading the &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/89981351/90112030.ods&#34;&gt;source ODS&lt;/a&gt; file and reading the background information. Please see the Console Output generated by the code for reference.&lt;/p&gt;
+&lt;h4 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h4&gt;
+&lt;h4 id=&#34;console-output&#34;&gt;Console Output&lt;/h4&gt;
+&lt;p&gt;Background Type: GraphicBackgorund Position: CenterCenter&lt;/p&gt;
+&lt;h2 id=&#34;add-colored-background-to-ods-file&#34;&gt;Add Colored Background to ODS file&lt;/h2&gt;
+&lt;p&gt;Aspose.Cells provides the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.ods/odspagebackground&#34;&gt;OdsPageBackground&lt;/a&gt; class to manage background in ODS Files. The following code sample demonstrates the use of &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.ods/odspagebackground/properties/color&#34;&gt;OdsPageBackground.Color&lt;/a&gt; property to add a color background to the ODS file. Please see the &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/89981351/90112031.ods&#34;&gt;output ODS&lt;/a&gt; file generated by the code for reference.&lt;/p&gt;
+&lt;h4 id=&#34;sample-code-1&#34;&gt;Sample Code&lt;/h4&gt;
+&lt;h2 id=&#34;add-graphic-background-to-ods-file&#34;&gt;Add Graphic Background to ODS file&lt;/h2&gt;
+&lt;p&gt;Aspose.Cells provides the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.ods/odspagebackground&#34;&gt;OdsPageBackground&lt;/a&gt; class to manage background in ODS Files. The following code sample demonstrates the use of &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.ods/odspagebackground/properties/graphicdata&#34;&gt;OdsPageBackground.GraphicData&lt;/a&gt; property to add graphic background to the ODS file. Please see the &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/89981351/90112030.ods&#34;&gt;output ODS&lt;/a&gt; file generated by the code for reference.&lt;/p&gt;
+&lt;h4 id=&#34;sample-code-2&#34;&gt;Sample Code&lt;/h4&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Detect Hyperlink Type</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/worksheets/detect&#43;hyperlink&#43;type/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/worksheets/detect&#43;hyperlink&#43;type/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--detect-hyperlink-type&#34;&gt;Aspose.Cells for .NET : Detect Hyperlink Type&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#detect%C2%A0hyperlink-type&#34;&gt;Detect Hyperlink Type&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;detecthyperlink-type&#34;&gt;Detect Hyperlink Type&lt;/h2&gt;
+&lt;p&gt;An Excel file can have different types of hyperlinks like external, cell reference, file path, etc. Aspose.Cells supports the feature to detect the type of hyperlink. The types of hyperlinks are represented by the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/targetmodetype&#34;&gt;TargetModeType&lt;/a&gt; Enumeration. The &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/targetmodetype&#34;&gt;TargetModeType&lt;/a&gt; Enumeration has the following members.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;External: External link&lt;/li&gt;
+&lt;li&gt;FilePath: Local and full path to files\folders.&lt;/li&gt;
+&lt;li&gt;Email: Email&lt;/li&gt;
+&lt;li&gt;CellReference: Link to cell or named range.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;To check the type of hyperlink, the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/hyperlink&#34;&gt;Hyperlink&lt;/a&gt; class provides a &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/hyperlink/properties/linktype&#34;&gt;LinkType&lt;/a&gt; property with a return type of &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/targetmodetype&#34;&gt;TargetModeType&lt;/a&gt;. The following code snippet demonstrates the use of the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/hyperlink/properties/linktype&#34;&gt;LinkType&lt;/a&gt; property by using this &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/94635648/94896195.xlsx&#34;&gt;source excel file&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The following is the output generated by the code snippet given above.&lt;/p&gt;
+&lt;p&gt;LinkTypes.xlsx: FilePath&lt;br&gt;
+C:\Windows\System32\cmd.exe: FilePath&lt;br&gt;
+C:\Program Files\Common Files: FilePath&lt;br&gt;
+&amp;lsquo;Test Sheet&amp;rsquo;!B2: CellReference&lt;br&gt;
+FullPathExample: CellReference&lt;br&gt;
+&lt;a href=&#34;https://products.aspose.com/cells:&#34;&gt;https://products.aspose.com/cells:&lt;/a&gt; External&lt;br&gt;
+mailto:test@test.com?subject=TestLink: Email&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Print multiple copies of a worksheet</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/worksheets/print&#43;multiple&#43;copies&#43;of&#43;a&#43;worksheet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/worksheets/print&#43;multiple&#43;copies&#43;of&#43;a&#43;worksheet/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--print-multiple-copies-of-a-worksheet&#34;&gt;Aspose.Cells for .NET : Print multiple copies of a worksheet&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#print-multiple-copies-of-a-worksheet&#34;&gt;Print multiple copies of a worksheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;print-multiple-copies-of-a-worksheet&#34;&gt;Print multiple copies of a worksheet&lt;/h2&gt;
+&lt;p&gt;Aspose.Cells provides the ability to print multiple copies of a worksheet by using the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.rendering/sheetrender/methods/toprinter&#34;&gt;SheetRender.ToPrinter(PrintSettings &lt;em&gt;PrinterSettings)&lt;/em&gt;&lt;/a&gt; method. The following code snippet demonstrates the use of  &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.rendering/sheetrender/methods/toprinter&#34;&gt;SheetRender.ToPrinter(PrintSettings PrinterSettings)&lt;/a&gt; method to print multiple copies of a worksheet. The following code snippet uses this &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/95322356/95584275.xlsx&#34;&gt;sample excel file&lt;/a&gt;.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Get Cell Validation in ODS Files</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/worksheets/get&#43;cell&#43;validation&#43;in&#43;ods&#43;files/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/worksheets/get&#43;cell&#43;validation&#43;in&#43;ods&#43;files/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--get-cell-validation-in-ods-files&#34;&gt;Aspose.Cells for .NET : Get Cell Validation in ODS Files&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#get-cell-validation-in-ods-files&#34;&gt;Get Cell Validation in ODS Files&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;get-cell-validation-in-ods-files&#34;&gt;Get Cell Validation in ODS Files&lt;/h2&gt;
+&lt;p&gt;With Aspose.Cells, you can get the validation applied to a cell in ODS files. For this, the API provides the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/cell/methods/getvalidation&#34;&gt;GetValidation&lt;/a&gt; method of the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/cell&#34;&gt;Cell&lt;/a&gt; class.&lt;/p&gt;
+&lt;p&gt;The following code sample demonstrates the use of the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/cell/methods/getvalidation&#34;&gt;GetValidation&lt;/a&gt; method by loading the &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/101122972/101089354.ods&#34;&gt;source ODS&lt;/a&gt; file and reading the validation of the cell A9.&lt;/p&gt;
+&lt;h4 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h4&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Get worksheet unique id</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/worksheets/get&#43;worksheet&#43;unique&#43;id/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/worksheets/get&#43;worksheet&#43;unique&#43;id/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--get-worksheet-unique-id&#34;&gt;Aspose.Cells for .NET : Get worksheet unique id&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#get-worksheet-unique-id&#34;&gt;Get worksheet unique id&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;get-worksheet-unique-id&#34;&gt;Get worksheet unique id&lt;/h2&gt;
+&lt;p&gt;Aspose.Cells provides the ability to get the unique id of a worksheet by using the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/worksheet/properties/uniqueid&#34;&gt;Worksheet.UniqueId&lt;/a&gt; property. The following code snippet demonstrates the use of the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/worksheet/properties/uniqueid&#34;&gt;Worksheet.UniqueId&lt;/a&gt; property to print the unique id of a worksheet. The following code snippet uses this &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/105284024/105480213.xlsx&#34;&gt;sample excel file&lt;/a&gt;.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Utilize Sheet.SheetId property of OpenXml using Aspose.Cells</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/worksheets/utilize&#43;sheet.sheetid&#43;property&#43;of&#43;openxml&#43;using&#43;aspose.cells/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/worksheets/utilize&#43;sheet.sheetid&#43;property&#43;of&#43;openxml&#43;using&#43;aspose.cells/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--utilize-sheetsheetid-property-of-openxml-using-asposecells&#34;&gt;Aspose.Cells for .NET : Utilize Sheet.SheetId property of OpenXml using Aspose.Cells&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#utilize-sheet.sheetid-property-of-openxml-using-aspose.cells&#34;&gt;Utilize Sheet.SheetId property of OpenXml using Aspose.Cells&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;4 &lt;a href=&#34;#console-output&#34;&gt;Console Output&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Sheet.SheetId&lt;/em&gt; property is found inside the &lt;em&gt;DocumentFormat.OpenXml.Spreadsheet&lt;/em&gt; namespace and is part of OpenXml. You can see this property and its value inside &lt;em&gt;workbook.xml&lt;/em&gt; as shown in the following screenshot. Aspose.Cells provides the equivalent property as &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/worksheet/properties/tabid&#34;&gt;Worksheet.TabId&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/51479837/51740715.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;utilize-sheetsheetid-property-of-openxml-using-asposecells&#34;&gt;Utilize Sheet.SheetId property of OpenXml using Aspose.Cells&lt;/h2&gt;
+&lt;p&gt;The following sample code loads the &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/51479837/51740716.xlsx&#34;&gt;sample Excel file&lt;/a&gt;, reads its Sheet or Tab Id, then assigns it new Tab Id and saves it as &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/51479837/51740717.xlsx&#34;&gt;output Excel file&lt;/a&gt;. Please also see the console output of the code given below for a reference.&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+&lt;h2 id=&#34;console-output&#34;&gt;Console Output&lt;/h2&gt;
+&lt;p&gt;Sheet or Tab Id: 1297&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

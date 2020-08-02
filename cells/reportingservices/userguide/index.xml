@@ -1,0 +1,682 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – User Guide</title>
+    <link>https://roywangt.github.io/cells/reportingservices/userguide/</link>
+    <description>Recent content in User Guide on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://roywangt.github.io/cells/reportingservices/userguide/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Reportingservices: Creating Matrix Report</title>
+      <link>https://roywangt.github.io/cells/reportingservices/userguide/creating&#43;matrix&#43;report/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/reportingservices/userguide/creating&#43;matrix&#43;report/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-reporting-services--creating-matrix-report&#34;&gt;Aspose.Cells for Reporting Services : Creating Matrix Report&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells for Reporting Services lets you design a matrix in Microsoft Excel.&lt;/p&gt;
+&lt;h3 id=&#34;matrix-template&#34;&gt;Matrix Template&lt;/h3&gt;
+&lt;p&gt;In an Aspose.Cells report template, a matrix consists of corner, rows groups, column groups and data portions. A sample matrix is shown below.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;A sample matrix&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/reportingservices/attachments/6094934/6193465.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Matrix corner&lt;/strong&gt;: located in the upper-left corner, or upper-right corner for right-to-left (RTL) layouts. This area is automatically created when you add both row groups and column groups to a matrix data region. In this area, you can merge cells embedded textbox report item.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Matrix column groups area&lt;/strong&gt;: located in the upper-right corner (upper-left corner for RTL layout). This area is automatically created when you add a column group. The cells in this area represent members of the column groups hierarchy, and display the column group instance values. In the figure, the cells that display OrderYear is a nested column group, and the cell that displays OrderQtr is an adjacent column group.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Matrix row groups area&lt;/strong&gt;: located on the lower-left corner (lower right for RTL layout). This area is automatically created when you add a row group. The cells in this area represent members of the row groups hierarchy, and display row group instance values. In the figure, these cells are nested row groups.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Matrix data area&lt;/strong&gt;: located in the lower right corner (lower left for RTL layout). The matrix data displays detail and grouped data. In this example, only aggregated data is used. By default, the cells in a group row or column that contain simple expressions that do not include an aggregate function, evaluate to the first value in the group. In the figure, the cells display the aggregate totals for the line totals for all sales orders.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;creating-a-matrix-template&#34;&gt;Creating a Matrix Template&lt;/h4&gt;
+&lt;p&gt;Before creating a matrix report, create the data sources, datasets and report parameters (optional). (Follow the instructions in &lt;a href=&#34;https://docs2.aspose.com/cells/reportingservices/userguide/datasourcesandqueries/&#34;&gt;Data Sources and Queries&lt;/a&gt; if you need assistance.) In the sample, we use the AdventureWorks sample database that ships with SQL Server Reporting Services 2008.&lt;/p&gt;
+&lt;p&gt;To create a new matrix:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Open Microsoft Excel.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Click &lt;strong&gt;Open Report&lt;/strong&gt; to open an RDL Report file that contains the data sources, datasets and report parameters created in advance.&lt;br&gt;
+Once the file has been opened successfully all its information is available for use, for example, its datasets are listed in the &lt;strong&gt;DataSet&lt;/strong&gt; list.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Open a Microsoft Excel worksheet and select a data set.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/reportingservices/attachments/6094934/6193462.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Set row groups and column groups through &lt;strong&gt;Set Group&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/reportingservices/attachments/6094934/6193463.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Merge cells to set matrix corner.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/reportingservices/attachments/6094934/6193452.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Set matrix corner through inserting a formula.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/reportingservices/attachments/6094934/6193453.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/reportingservices/attachments/6094934/6193458.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Click &lt;strong&gt;Set Attribute&lt;/strong&gt; to set matrix attribute.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/reportingservices/attachments/6094934/6193450.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;It consists of name, range, group and order.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Clicking modify attribute checks and modifies all matrix attributes of the current worksheet.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/reportingservices/attachments/6094934/6193464.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Save, publish and review report.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Reportingservices: Preface</title>
+      <link>https://roywangt.github.io/cells/reportingservices/userguide/preface/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/reportingservices/userguide/preface/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-reporting-services--preface&#34;&gt;Aspose.Cells for Reporting Services : Preface&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells for Reporting Services mainly contains two components : Aspose.Cells.Report.Designer and Aspose.Cells.Renderer for Reporting Services. The former is used to design reports directly in Microsoft Excel and the latter is responsible for rendering a RDL report to Microsoft Excel.&lt;/p&gt;
+&lt;h3 id=&#34;designing-a-report-with-the-report-designer&#34;&gt;Designing a Report with the Report Designer&lt;/h3&gt;
+&lt;p&gt;The main steps to design a report using Aspose.Cells.Report.Designer are:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Create data sources and queries&lt;/strong&gt;.&lt;br&gt;
+Microsoft Query is integrated with Aspose.Cells.Report.Designer and used as a graphic tool to create data sources and queries. Users can also make use of an existing RDL file in which data sources and queries are available for operations.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Map parameters&lt;/strong&gt;.&lt;br&gt;
+If the SQL statements of a query include parameters, users have to create report parameters and map SQL parameters to report parameters. You can designate valid values for a report parameter in Aspose.Cells.Report.Designer.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Design Microsoft Excel report template contents, styles and formats&lt;/strong&gt;.&lt;br&gt;
+An Aspose.Cells report template may contain any number of the following types of report items:
+&lt;ul&gt;
+&lt;li&gt;Table&lt;/li&gt;
+&lt;li&gt;Pivot table&lt;/li&gt;
+&lt;li&gt;Chart&lt;/li&gt;
+&lt;li&gt;Textbox&lt;/li&gt;
+&lt;li&gt;Matrix&lt;br&gt;
+Normally a query (that is, DataSet) is used as a data source for report item. You can also use Reporting Services parameters, formulas and global variables as a data source for some types of report items. The styles and formats of report items are specified simply by setting the styles and formats of the cells that compose the report items.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Publish report&lt;/strong&gt;.&lt;br&gt;
+After the above steps, the report is ready to publish. Users can designate which folder the report is published to. If needed, you can assign a shared data source on the Report Server as the data source for the report.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Preview report&lt;/strong&gt;.&lt;br&gt;
+When selecting a report for preview on the Report Server, you are prompted to specify which file format to export it to (for example Microsoft Excel 97-2003 binary XLS format, SpreadsheetML or Microsoft Excel 2007 XLSX format), and any input report parameters created during the report design. After this, the report is populated with data supplied by Reporting Services.&lt;/li&gt;
+&lt;/ol&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Reportingservices: Aspose.Cells Template and Smart Markers</title>
+      <link>https://roywangt.github.io/cells/reportingservices/userguide/aspose.cells&#43;template&#43;and&#43;smart&#43;markers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/reportingservices/userguide/aspose.cells&#43;template&#43;and&#43;smart&#43;markers/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-reporting-services--asposecells-template-and-smart-markers&#34;&gt;Aspose.Cells for Reporting Services : Aspose.Cells Template and Smart Markers&lt;/h1&gt;
+&lt;p&gt;An Aspose.Cells template is a Microsoft Excel workbook that contains Smart Markers. Smart Markers acts as data placeholder for report items and are replaced with the corresponding data at rendering time. There are five types of smart markers, listed as below. All the markers can be inserted into a template by Aspose.Cells.Report.Designer. The can also be edited manually.&lt;/p&gt;
+&lt;h3 id=&#34;smart-markers&#34;&gt;Smart Markers&lt;/h3&gt;
+&lt;h4 id=&#34;data-markers&#34;&gt;Data Markers&lt;/h4&gt;
+&lt;p&gt;The format of &lt;strong&gt;data markers&lt;/strong&gt; is &lt;code&gt;&amp;amp;=DataSetName.FieldName&lt;/code&gt;. For example: &lt;code&gt;&amp;amp;=SalesDetail.sales&lt;/code&gt; where &lt;code&gt;SalesDetail&lt;/code&gt; is the name of a data set or query and &lt;code&gt;sales&lt;/code&gt; is the name of one of its fields. At rendering time, data markers are replaced with the values of dataset provided by Reporting Services.&lt;/p&gt;
+&lt;h4 id=&#34;reporting-services-formulas-markers&#34;&gt;Reporting Services Formulas Markers&lt;/h4&gt;
+&lt;p&gt;The format of Reporting Services&amp;rsquo; &lt;strong&gt;formulas markers&lt;/strong&gt; is &lt;code&gt;&amp;amp;=expression&lt;/code&gt;. For example: &lt;code&gt;&amp;amp;=sum(SalesDetail.sales)/100&lt;/code&gt;. The expression consists of function, dataset fields, operator and so on. At rendering time. Reporting Services formulas markers are replaced with computed values.&lt;/p&gt;
+&lt;h4 id=&#34;reporting-services-global-variable-markers&#34;&gt;Reporting Services Global Variable Markers&lt;/h4&gt;
+&lt;p&gt;The format of Reporting Services&amp;rsquo; &lt;strong&gt;global variable markers&lt;/strong&gt; is &lt;code&gt;&amp;amp;=Globals! Variable Name&lt;/code&gt;. For example: &lt;code&gt;&amp;amp;=Globals!ExecutionTime&lt;/code&gt; where &lt;code&gt;ExecutionTime&lt;/code&gt; is the name of a global variable. Global variable markers are replaced with global variable values at rendering time.&lt;/p&gt;
+&lt;h4 id=&#34;reporting-services-parameters-markers&#34;&gt;Reporting Services Parameters Markers&lt;/h4&gt;
+&lt;p&gt;A report parameter has two attributes: value and label. Consequently, &lt;strong&gt;parameters markers&lt;/strong&gt; have two formats: &lt;code&gt;&amp;amp;= Parameters! ParamName.Value&lt;/code&gt; and &lt;code&gt;&amp;amp;=Parameters! ParamName.Label&lt;/code&gt;. They indicate the name and the label of the parameter respectively. At rendering time, parameters markers are replaced with the parameter values entered by the user.&lt;/p&gt;
+&lt;h4 id=&#34;dynamic-formulas&#34;&gt;Dynamic Formulas&lt;/h4&gt;
+&lt;p&gt;In order to make calculations on inserterd rows, use dynamic formulas. &lt;strong&gt;Dynamic formulas&lt;/strong&gt; allow you to insert Microsoft Excel&amp;rsquo;s formulas into cells even when a formula references rows that will be inserted during the export process. They can be repeated for each inserted row or used only with cells where data markers are placed for them.&lt;/p&gt;
+&lt;p&gt;The format of dynamic formulas is &lt;code&gt;&amp;amp;=&amp;amp;=RepeatDynamicFormula&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Dynamic Formulas allow the following additional options:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;{r} – Current row number.&lt;/li&gt;
+&lt;li&gt;{2}, {-1} – Offset to current row number.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;A repeating dynamic formula and the resulting Excel worksheet&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/reportingservices/attachments/6094949/6193436.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Reportingservices: Aspose.Cells Template and RDL Files</title>
+      <link>https://roywangt.github.io/cells/reportingservices/userguide/aspose.cells&#43;template&#43;and&#43;rdl&#43;files/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/reportingservices/userguide/aspose.cells&#43;template&#43;and&#43;rdl&#43;files/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-reporting-services--asposecells-template-and-rdl-files&#34;&gt;Aspose.Cells for Reporting Services : Aspose.Cells Template and RDL Files&lt;/h1&gt;
+&lt;p&gt;A report definition contains data retrieval and layout information for a report. Report Definition Language (RDL) is an XML representation for report definition. RDL is an open schema: developers can extend RDL with additional attributes and elements. The standard file extension for report definition files is .rdl. Its MIME type is text/xml.&lt;/p&gt;
+&lt;p&gt;An Aspose.Cells template is a Microsoft Excel workbook that contains report layout information and is saved into RDL Files (Format) when the template design work is completed. When an RDL file that does not contain an Aspose.Cells template is opened, only its data sources and queries are available for use in Aspose.Cells.Report.Designer. When an RDL file that contains a Aspose.Cells template is opened, the template is retrieved and opened as a workbook in Microsoft Excel.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Reportingservices: Data Sources and Queries</title>
+      <link>https://roywangt.github.io/cells/reportingservices/userguide/datasourcesandqueries/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/reportingservices/userguide/datasourcesandqueries/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-reporting-services--data-sources-and-queries&#34;&gt;Aspose.Cells for Reporting Services : Data Sources and Queries&lt;/h1&gt;
+&lt;p&gt;The first step in the procedure for designing a report in Aspose.Cells.Report.Designer is to create data sources and queries. There are two ways to do this. In the first approach, we may use an existing RDL report definition file that is created by other tools, for example utilizing Visual Studio and the file contains data sources and queries necessary for report design and data retrieval. The second way is to create new sources and queries in Aspose.Cells.Report.Designer.&lt;/p&gt;
+&lt;h6 id=&#34;this-section-includes-the-following-topics&#34;&gt;This section includes the following topics:&lt;/h6&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/reportingservices/userguide/datasourcesandqueries/using+data+sources+and+queries+created+in+visual+studio&#34;&gt;Using Data Sources and Queries Created in Visual Studio&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/reportingservices/userguide/datasourcesandqueries/creating+new+data+sources+and+queries&#34;&gt;Creating New Data sources and Queries&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/reportingservices/userguide/datasourcesandqueries/creating+new+query+using+existing+data+source&#34;&gt;Creating New Query Using Existing Data Source&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/reportingservices/userguide/datasourcesandqueries/editing+query&#34;&gt;Editing Query&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Reportingservices: Parameterized Report</title>
+      <link>https://roywangt.github.io/cells/reportingservices/userguide/parameterizedreport/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/reportingservices/userguide/parameterizedreport/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-reporting-services--parameterized-report&#34;&gt;Aspose.Cells for Reporting Services : Parameterized Report&lt;/h1&gt;
+&lt;p&gt;A &lt;em&gt;parameterized report&lt;/em&gt; is a report that accepts input values that are used when the report is processed.&lt;/p&gt;
+&lt;p&gt;With a parameterized report, you can vary the output of a report based on the values that are set at run-time. Reporting Services supports two kinds of parameters: query parameters and report parameters.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Query parameters&lt;/strong&gt; are used to select or filter data during data processing. If a query parameter is specified, a value must be provided either by the user or by default properties to complete the SELECT statement or stored procedure that retrieves data for a report.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Report parameters&lt;/strong&gt; are used during report processing to show a different aspect of the data. A report parameter is usually used to filter a large set of records, but it can have other uses depending on the queries and expressions in the report.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Report parameters differ from query parameters in that they are defined in a report and processed by the report server, while query parameters are defined as a part of the dataset query and processed on the database server. In Aspose.Cells.Report.Designer, query parameters are specified at query creating time in Microsoft Query.&lt;/p&gt;
+&lt;p&gt;You can create report parameters and map query parameters to the corresponding report parameter in Aspose.Cells.Report.Designer. This way, it is possible to select values for report parameters and have them passed in the query to limit the data retrieved from the data source.&lt;/p&gt;
+&lt;h6 id=&#34;this-section-includes-the-following-topics&#34;&gt;This section includes the following topics:&lt;/h6&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/reportingservices/userguide/parameterizedreport/creating+report+parameters&#34;&gt;Creating Report Parameters&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/reportingservices/userguide/parameterizedreport/modifying+report+parameters&#34;&gt;Modifying Report Parameters&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/reportingservices/userguide/parameterizedreport/mapping+query+parameters+to+report+parameters&#34;&gt;Mapping Query Parameters to Report Parameters&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Reportingservices: Creating Tabular Report</title>
+      <link>https://roywangt.github.io/cells/reportingservices/userguide/creatingtabularreport/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/reportingservices/userguide/creatingtabularreport/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-reporting-services--creating-tabular-report&#34;&gt;Aspose.Cells for Reporting Services : Creating Tabular Report&lt;/h1&gt;
+&lt;p&gt;A table in an Aspose.Cells Report template consists of a header, table data rows, row groups and footers. A sample table is shown below.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;An example table&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/reportingservices/attachments/6094957/6193293.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;table-header&#34;&gt;Table Header&lt;/h4&gt;
+&lt;p&gt;Table header normally contains the title for each table column and other text items such as static text, report parameters, global report variables and so on. The table header is optional. If using a header, the header tag should be placed to the left of the first column of table data to indicate that the row is a header.&lt;/p&gt;
+&lt;h4 id=&#34;table-data-row&#34;&gt;Table Data Row&lt;/h4&gt;
+&lt;p&gt;A table data row is a row of cells that contain smart markers. A table can only contain a single data row.&lt;/p&gt;
+&lt;h4 id=&#34;row-group&#34;&gt;Row Group&lt;/h4&gt;
+&lt;p&gt;The row group follows closely after the table data row and comprises two parts: group tag and group data row.&lt;/p&gt;
+&lt;p&gt;The group tag should be placed to the left of the first table data column to indicate that the row is the row group&amp;rsquo;s data row. The format of the group tag is &lt;code&gt;##group{GroupColumn&lt;/code&gt;}, for example &lt;code&gt;##group{SalesOrderNumber&lt;/code&gt;} where &lt;code&gt;SalesOrderNumber&lt;/code&gt; is one of the data set&amp;rsquo; column names. A table can only contain one row group, but a row group can contain more than one group data row. The group tag may be placed only in the first data row, as shown in the sample above.&lt;/p&gt;
+&lt;p&gt;The group tag is removed from the output Microsoft Excel file at rendering time. Row groups are optional.&lt;/p&gt;
+&lt;h4 id=&#34;footers&#34;&gt;Footers&lt;/h4&gt;
+&lt;p&gt;Footers come after the row group and includes three parts: footer tag, footer data row and footer text area.&lt;/p&gt;
+&lt;p&gt;The footer tag should be placed on the left of the first column of the table data column that indicates the row is the table footer. A table can contain more than one footer data rows and each footer row has to be marked by a footer tag.&lt;/p&gt;
+&lt;p&gt;The footer text area can contain static text, report parameters and global report variables, as shown in the sample above.&lt;/p&gt;
+&lt;p&gt;The footer tag is removed from output Microsoft Excel file at rendering time. Footers are optional.&lt;/p&gt;
+&lt;p&gt;The output of the sample template is shown below.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Sample template&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/reportingservices/attachments/6094957/6193290.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h6 id=&#34;this-section-includes-the-following-topics&#34;&gt;This section includes the following topics:&lt;/h6&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/reportingservices/userguide/creatingtabularreport/preparing+for+creating+table+report&#34;&gt;Preparing for Creating Table Report&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/reportingservices/userguide/creatingtabularreport/adding+base+information+for+table&#34;&gt;Adding base information for Table&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/reportingservices/userguide/creatingtabularreport/adding+reporting+services+formulas&#34;&gt;Adding Reporting Services Formulas&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/reportingservices/userguide/creatingtabularreport/adding+table+group&#34;&gt;Adding Table Group&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/reportingservices/userguide/creatingtabularreport/adding+table+footers&#34;&gt;Adding Table Footers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/reportingservices/userguide/creatingtabularreport/adding+report+parameters+to+report&#34;&gt;Adding Report Parameters to Report&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/reportingservices/userguide/creatingtabularreport/adding+reporting+services+global+variables+to+report&#34;&gt;Adding Reporting Services Global Variables to Report&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/reportingservices/userguide/creatingtabularreport/setting+report+attributes&#34;&gt;Setting Report Attributes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/reportingservices/userguide/creatingtabularreport/modifying+report+attributes&#34;&gt;Modifying Report Attributes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Reportingservices: Saving Reports</title>
+      <link>https://roywangt.github.io/cells/reportingservices/userguide/saving&#43;reports/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/reportingservices/userguide/saving&#43;reports/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-reporting-services--saving-reports&#34;&gt;Aspose.Cells for Reporting Services : Saving Reports&lt;/h1&gt;
+&lt;p&gt;To save a report, click &lt;strong&gt;Save Report&lt;/strong&gt; on the Aspose.Cells.Report.Designer toolbar (&lt;img src=&#34;https://docs2.aspose.com/cells/reportingservices/attachments/6094959/6193380.png&#34; alt=&#34;&#34;&gt;).&lt;br&gt;
+The report (Microsoft Excel template) is saved as an RDL file.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Reportingservices: Sub Report</title>
+      <link>https://roywangt.github.io/cells/reportingservices/userguide/subreport/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/reportingservices/userguide/subreport/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-reporting-services--sub-report&#34;&gt;Aspose.Cells for Reporting Services : Sub Report&lt;/h1&gt;
+&lt;p&gt;A sub-report can be embedded in a table item. The format is: &lt;code&gt;&amp;amp;=subreport{ReportName=your report name; parameter1 name = parameter1 value; parameter2 name = parameter2 value; ...&lt;/code&gt;}&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;A sub-report in a report definition&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/reportingservices/attachments/6094962/6193391.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;In the example, the name of sub-report is “Sales Order Detail”. It has one parameter, SalesOrderNumber. The value of the parameter is &lt;code&gt;EmpSalesDetail.SalesOrderNumber&lt;/code&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;restrictions-on-sub-reports&#34;&gt;Restrictions on Sub-Reports&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;The sub-report should be designed with Aspose.Cells.ReportingServices Designer.&lt;/li&gt;
+&lt;li&gt;The sub-report can only be embedded in the table group row, and the group row cannot contain any elements except the sub-report. Embedding a sub-report in the table detail rows or footer rows is not allowed.&lt;/li&gt;
+&lt;li&gt;Currently, nesting more than one level is not supported. The sub-report can not contain an embedded report.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h6 id=&#34;this-section-includes-the-following-topics&#34;&gt;This section includes the following topics:&lt;/h6&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/reportingservices/userguide/subreport/creating+table+item&#34;&gt;Creating Table Item&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/reportingservices/userguide/subreport/add+sub+report+item&#34;&gt;Add Sub Report Item&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Reportingservices: Working with PivotTable</title>
+      <link>https://roywangt.github.io/cells/reportingservices/userguide/working&#43;with&#43;pivottable/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/reportingservices/userguide/working&#43;with&#43;pivottable/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-reporting-services--working-with-pivottable&#34;&gt;Aspose.Cells for Reporting Services : Working with PivotTable&lt;/h1&gt;
+&lt;p&gt;A &lt;em&gt;pivot table&lt;/em&gt; is an interactive table that summarizes data and presents it in a meaningful way. SQL Server Reporting Services cannot export a report to Microsft Excel format while maintaining a pivot table. Report users have to manually create pivot tables every time they export a pivot table report from Reporting Services to Microsoft Excel. With Aspose.Cells for Reporting Services, you can design a pivot table once at report design time. Each time the report runs, Aspose.Cells for Reporting Services exports the report to Microsoft Excel and refresh the data into the pivot table.&lt;/p&gt;
+&lt;p&gt;To create a pivot table report:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Create a dataset as the data source for the pivot table.&lt;br&gt;
+Below, we use the AdventureWorks sample database that ships with SQL Server Reporting Services 2005 and create a dataset named “sales&amp;rdquo;.&lt;br&gt;
+The SQL for the dataset is as follows:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;SQL&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;SELECT  PC.Name AS ProdCat,	    PS.Name AS SubCat,	    DATEPART(yy, SOH.OrderDate) AS OrderYear,	    &amp;lsquo;Q&amp;rsquo; + DATENAME(qq, SOH.OrderDate) AS OrderQtr,         SUM(SOD.UnitPrice * SOD.OrderQty) AS SalesFROM    Production.ProductSubcategory PS INNER JOIN         Sales.SalesOrderHeader SOH INNER JOIN         Sales.SalesOrderDetail SOD ON SOH.SalesOrderID = SOD.SalesOrderID INNER JOIN         Production.Product P ON SOD.ProductID = P.ProductID ON PS.ProductSubcategoryID = P.ProductSubcategoryID INNER JOIN         Production.ProductCategory PC ON PS.ProductCategoryID = PC.ProductCategoryIDWHERE   (SOH.OrderDate BETWEEN &amp;lsquo;1/1/2002&amp;rsquo; AND &amp;lsquo;12/31/2003&amp;rsquo;)GROUP BY  DATEPART(yy, SOH.OrderDate), PC.Name, PS.Name, &amp;lsquo;Q&amp;rsquo; + DATENAME(qq, SOH.OrderDate), PS.ProductSubcategoryID&lt;/p&gt;
+&lt;p&gt;Please refer to &lt;a href=&#34;https://docs2.aspose.com/cells/reportingservices/userguide/datasourcesandqueries/&#34;&gt;Data Sources and Queries&lt;/a&gt; to learn more about how to create a data source and dataset with Aspose.Cells.Report.Designer.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Create a table report according to the instruction in &lt;a href=&#34;https://docs2.aspose.com/cells/reportingservices/userguide/creatingtabularreport/&#34;&gt;Creating Tabular Report&lt;/a&gt;, as shown below.&lt;br&gt;
+The table will be the data source for the pivot table.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/reportingservices/attachments/6094973/6193162.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;In Microsoft Excel, from the &lt;strong&gt;Insert&lt;/strong&gt; menu, select &lt;strong&gt;Name&lt;/strong&gt; and then &lt;strong&gt;Define&lt;/strong&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Define a name as “sales”.&lt;br&gt;
+The range of the name starts with the first cell of the header title and ends at the last cell of table data row as shown below.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/reportingservices/attachments/6094973/6193167.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Click &lt;strong&gt;OK&lt;/strong&gt; to finish.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Create a new sheet for the pivot table.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;From the &lt;strong&gt;Data&lt;/strong&gt; menu, select &lt;strong&gt;PivotTable and PivotChart Report&lt;/strong&gt; to add a pivot table.&lt;br&gt;
+A dialog is displayed.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Select &lt;strong&gt;Microsoft Office Excel list or database&lt;/strong&gt; as a data source and &lt;strong&gt;pivot table&lt;/strong&gt; as report type.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Click &lt;strong&gt;Next&lt;/strong&gt; to continue.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/reportingservices/attachments/6094973/6193168.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;In the dialog box, enter “sales”, the name you defined above.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Click &lt;strong&gt;Next&lt;/strong&gt; to continue.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code&gt;![](https://docs2.aspose.com/cells/reportingservices/attachments/6094973/6193165.png)  
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ol start=&#34;12&#34;&gt;
+&lt;li&gt;Click &lt;strong&gt;Finish&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code&gt;![](https://docs2.aspose.com/cells/reportingservices/attachments/6094973/6193166.png)  
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ol start=&#34;13&#34;&gt;
+&lt;li&gt;Design the pivot table in Excel.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code&gt;![](https://docs2.aspose.com/cells/reportingservices/attachments/6094973/6193155.png)  
+  
+The designed pivot table is shown below.  
+  
+![](https://docs2.aspose.com/cells/reportingservices/attachments/6094973/6193156.png)  
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ol start=&#34;14&#34;&gt;
+&lt;li&gt;Right-click the pivot table and select &lt;strong&gt;Table Options&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Make sure that &lt;strong&gt;Refresh on open&lt;/strong&gt; is selected.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code&gt;![](https://docs2.aspose.com/cells/reportingservices/attachments/6094973/6193153.png)  
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ol start=&#34;16&#34;&gt;
+&lt;li&gt;Save the report and publish it to Report Server.&lt;/li&gt;
+&lt;li&gt;Export the report from Report Server.&lt;br&gt;
+The result is shown below.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code&gt;![](https://docs2.aspose.com/cells/reportingservices/attachments/6094973/6193154.png)
+&lt;/code&gt;&lt;/pre&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Reportingservices: Working with Charts</title>
+      <link>https://roywangt.github.io/cells/reportingservices/userguide/working&#43;with&#43;charts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/reportingservices/userguide/working&#43;with&#43;charts/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-reporting-services--working-with-charts&#34;&gt;Aspose.Cells for Reporting Services : Working with Charts&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells Report template supports Microsoft Excel charts. Each time you execute a report, the chart is populated with the most recent data.&lt;/p&gt;
+&lt;p&gt;To add a chart to report template:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;First, create the dataset that will be the data source for the chart.&lt;br&gt;
+Below, we use the AdventureWorks sample database that ships with SQL Server Reporting Services 2005 and create a dataset named Sales.&lt;br&gt;
+This SQL defines the dataset:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;SQL&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;SELECT DATEPART(yy,SOH.OrderDate) &amp;lsquo;Year&amp;rsquo;,&amp;lsquo;Q&#39;+DATENAME(qq,SOH.OrderDate) &amp;lsquo;Quarter&amp;rsquo;,SUM(SOD.UnitPrice*SOD.OrderQty) &amp;lsquo;Sales&amp;rsquo;FROMAdventureWorks.Sales.SalesOrderDetail SOD,AdventureWorks.Sales.SalesOrderHeader SOHWHERE SOH.SalesOrderID = SOD.SalesOrderIDAND ((DATEPART(yy,SOH.OrderDate)=2002))GROUP BY DATEPART(yy,SOH.OrderDate), &amp;lsquo;Q&#39;+DATENAME(qq,SOH.OrderDate)&lt;/p&gt;
+&lt;p&gt;Please refer to &lt;a href=&#34;https://docs2.aspose.com/cells/reportingservices/userguide/datasourcesandqueries/&#34;&gt;Data Sources and Queries&lt;/a&gt; to learn more about how to create a data source and dataset in Aspose.Cells.Report.Designer.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Create a tabular report according to the instructions in &lt;a href=&#34;https://docs2.aspose.com/cells/reportingservices/userguide/creatingtabularreport/&#34;&gt;Creating Tabular Report&lt;/a&gt;. The report we&amp;rsquo;ve created for this example is below. The table is the chart&amp;rsquo;s data source.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/reportingservices/attachments/6094974/6193183.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;In Microsoft Excel, click the &lt;strong&gt;Insert&lt;/strong&gt; menu and select &lt;strong&gt;Chart&lt;/strong&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Click &lt;strong&gt;Next&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/reportingservices/attachments/6094974/6193182.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Click the &lt;strong&gt;Series&lt;/strong&gt; tab.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/reportingservices/attachments/6094974/6193181.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Click &lt;strong&gt;Add&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/reportingservices/attachments/6094974/6193172.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;In the dialog box, set the value of Series1 (Quarter series) to the table&amp;rsquo;s first data field.&lt;br&gt;
+In the sample, that is “CompanySales!$C$3:$C$3”. The first $C$3 is the first row index of “Quarter” and the second $C$3 is a placeholder for last row index of “Quarter” and will be replaced with the table data&amp;rsquo;s real row index at rendering time. Set the category(X) axis labels to “=CompanySales!$C$3:$C$3”.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/reportingservices/attachments/6094974/6193171.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Click &lt;strong&gt;Add&lt;/strong&gt; to add another series.&lt;br&gt;
+In the sample, we&amp;rsquo;ve added the sales series.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Set the value of Series2 (Sales series) to the table&amp;rsquo;s second data field.&lt;br&gt;
+In the sample it is “CompanySales!$D$3:$D$3”. The first $D$3 is the first row index of “Sales” and the second $D$3 is a placeholder for last row index of “Sales” and will be replaced with the table data&amp;rsquo;s real row index at rendering time.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Click &lt;strong&gt;Next&lt;/strong&gt; to continue.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code&gt;![](https://docs2.aspose.com/cells/reportingservices/attachments/6094974/6193170.png)  
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ol start=&#34;11&#34;&gt;
+&lt;li&gt;In the dialog box, set the chart title and category(X) axis.&lt;/li&gt;
+&lt;li&gt;Click &lt;strong&gt;Finish&lt;/strong&gt; to complete the work.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code&gt;![](https://docs2.aspose.com/cells/reportingservices/attachments/6094974/6193169.png)  
+  
+The template looks like the below.  
+  
+![](https://docs2.aspose.com/cells/reportingservices/attachments/6094974/6193176.png)  
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ol start=&#34;13&#34;&gt;
+&lt;li&gt;Save the report and publish it to Report Server.&lt;/li&gt;
+&lt;li&gt;Export the report from Report Server.&lt;br&gt;
+The result is as below.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code&gt;![](https://docs2.aspose.com/cells/reportingservices/attachments/6094974/6193175.png)
+&lt;/code&gt;&lt;/pre&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Reportingservices: Publishing Report</title>
+      <link>https://roywangt.github.io/cells/reportingservices/userguide/publishing&#43;report/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/reportingservices/userguide/publishing&#43;report/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-reporting-services--publishing-report&#34;&gt;Aspose.Cells for Reporting Services : Publishing Report&lt;/h1&gt;
+&lt;p&gt;When you have designed a report with all the elements you want it to have, the next step is to publish it to the Reporting Server so that you, and your colleagues, can run it.&lt;/p&gt;
+&lt;p&gt;To publish a report to Report Server, follow the steps below:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Click &lt;strong&gt;Publish&lt;/strong&gt; &lt;img src=&#34;https://docs2.aspose.com/cells/reportingservices/attachments/6094975/6193200.png&#34; alt=&#34;&#34;&gt; on the Aspose.Cells.Report.Designer toolbar and click the &lt;strong&gt;Yes&lt;/strong&gt; button to save the report.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/reportingservices/attachments/6094975/6193185.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;In the dialog box, enter the URL of the Report Server and click the &lt;strong&gt;Refresh&lt;/strong&gt; button.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/reportingservices/attachments/6094975/6193186.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Select a target folder and enter the report name. Click the &lt;strong&gt;DataSource Setup&lt;/strong&gt; button to setup data sources.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/reportingservices/attachments/6094975/6193187.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The DataSource Setup dialog is displayed.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;In the dialog box, enter the data source information. Click &lt;strong&gt;Select&lt;/strong&gt; to select the shared data sources. (If you require them, the shared data sources should be the report&amp;rsquo;s prime data source). Click the &lt;strong&gt;OK&lt;/strong&gt; button to complete the work.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/reportingservices/attachments/6094975/6193188.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Click &lt;strong&gt;Publish&lt;/strong&gt; to publish the report to Report Server.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/reportingservices/attachments/6094975/6193189.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;button to complete the work.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Reportingservices: Previewing Report</title>
+      <link>https://roywangt.github.io/cells/reportingservices/userguide/previewing&#43;report/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/reportingservices/userguide/previewing&#43;report/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-reporting-services--previewing-report&#34;&gt;Aspose.Cells for Reporting Services : Previewing Report&lt;/h1&gt;
+&lt;p&gt;Previewing a report helps you be sure that it is the report you want.&lt;/p&gt;
+&lt;p&gt;To preview a report:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Click &lt;strong&gt;View&lt;/strong&gt; &lt;img src=&#34;https://docs2.aspose.com/cells/reportingservices/attachments/6094968/6193211.png&#34; alt=&#34;&#34;&gt;  on the Aspose.Cells.Report.Designer toolbar.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Enter the URL of Report Server and click the &lt;strong&gt;Refresh&lt;/strong&gt; button.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/reportingservices/attachments/6094968/6193214.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Select a report and click the &lt;strong&gt;Preview&lt;/strong&gt; button.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/reportingservices/attachments/6094968/6193213.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;In the dialog box, enter the report parameters and select the export file format. Click the &lt;strong&gt;OK&lt;/strong&gt; button to export the report.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/reportingservices/attachments/6094968/6193216.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Reportingservices: Configuration</title>
+      <link>https://roywangt.github.io/cells/reportingservices/userguide/configuration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/reportingservices/userguide/configuration/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-reporting-services--configuration&#34;&gt;Aspose.Cells for Reporting Services : Configuration&lt;/h1&gt;
+&lt;h6 id=&#34;this-section-contains-the-following-topics&#34;&gt;This section contains the following topics:&lt;/h6&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/reportingservices/userguide/configuration/gridlines&#34;&gt;Gridlines&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/reportingservices/userguide/configuration/delimiters&#34;&gt;Delimiters&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/reportingservices/userguide/configuration/performance&#34;&gt;Performance&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/reportingservices/userguide/configuration/encryption&#34;&gt;Encryption&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/reportingservices/userguide/configuration/digital+signatures&#34;&gt;Digital Signatures&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/reportingservices/userguide/configuration/set+deviceinfo+in+rsreportserver.config&#34;&gt;Set DeviceInfo in rsreportserver.config&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/reportingservices/userguide/configuration/deviceinfo+in+rsreportserver.config+file&#34;&gt;DeviceInfo in rsreportserver.config file&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/reportingservices/userguide/configuration/page+setup&#34;&gt;Page Setup&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/reportingservices/userguide/configuration/table+sorting+configuration&#34;&gt;Table Sorting Configuration&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Reportingservices: Working with Dyn-Hide Form</title>
+      <link>https://roywangt.github.io/cells/reportingservices/userguide/working&#43;with&#43;dyn-hide&#43;form/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/reportingservices/userguide/working&#43;with&#43;dyn-hide&#43;form/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-reporting-services--working-with-dyn-hide-form&#34;&gt;Aspose.Cells for Reporting Services : Working with Dyn-Hide Form&lt;/h1&gt;
+&lt;p&gt;The &amp;ldquo;Dyn-Hide&amp;rdquo; dialog lets you dynamically hide information from a report. It allows you to define a cell range on a worksheet that you want to hide.&lt;/p&gt;
+&lt;p&gt;To hide information:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;In Microsoft Excel, click &lt;strong&gt;Dyn-Hide&lt;/strong&gt; on the Aspose.Cells command bar.&lt;br&gt;
+The Dyn-Hide dialog is displayed.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/reportingservices/attachments/6094977/6193203.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Edit the hide information.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Click &lt;strong&gt;Add&lt;/strong&gt; to add hide information.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/reportingservices/attachments/6094977/6193206.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The defined area is hidden from the report.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;To remove hide information:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Select a sheet from the list of hidden areas in the Dyn-Hide dialog.&lt;/li&gt;
+&lt;li&gt;Click &lt;strong&gt;Delete&lt;/strong&gt;.&lt;br&gt;
+The selected area is deleted and is displayed in the report.&lt;/li&gt;
+&lt;/ol&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Reportingservices: Working with Table Hide Attributes</title>
+      <link>https://roywangt.github.io/cells/reportingservices/userguide/working&#43;with&#43;table&#43;hide&#43;attributes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/reportingservices/userguide/working&#43;with&#43;table&#43;hide&#43;attributes/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-reporting-services--working-with-table-hide-attributes&#34;&gt;Aspose.Cells for Reporting Services : Working with Table Hide Attributes&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;In Microsoft Excel, click &lt;strong&gt;Modify Attribute&lt;/strong&gt; on the Aspose.Cells command bar.&lt;br&gt;
+The Modify Report dialog appears.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Select a table report item.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Click the &lt;strong&gt;Hide&lt;/strong&gt; tab.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/reportingservices/attachments/6094978/6193207.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Click &lt;strong&gt;Modify&lt;/strong&gt; to make the tab editable.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/reportingservices/attachments/6094978/6193231.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Edit the hide information.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Click &lt;strong&gt;Fx&lt;/strong&gt;.&lt;br&gt;
+The &lt;strong&gt;Edit Formula&lt;/strong&gt; dialog is displayed.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/reportingservices/attachments/6094978/6193232.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Edit the expression value.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Click &lt;strong&gt;OK&lt;/strong&gt; to save the formula into the Modify Report dialog.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/reportingservices/attachments/6094978/6193229.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Edit any other hide information.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Click &lt;strong&gt;Add&lt;/strong&gt; to add the hide information.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code&gt;![](https://docs2.aspose.com/cells/reportingservices/attachments/6094978/6193230.png)  
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ol start=&#34;11&#34;&gt;
+&lt;li&gt;Click &lt;strong&gt;Commit&lt;/strong&gt; to add the hide information into the report cache.&lt;/li&gt;
+&lt;li&gt;Click &lt;strong&gt;Close&lt;/strong&gt; to close the dialog.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code&gt;![](https://docs2.aspose.com/cells/reportingservices/attachments/6094978/6193227.png)  
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ol start=&#34;13&#34;&gt;
+&lt;li&gt;Save and publish the report.&lt;/li&gt;
+&lt;/ol&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

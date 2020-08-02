@@ -1,0 +1,216 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Known Issues</title>
+    <link>https://roywangt.github.io/cells/java/developerguide/knowledgebase/knownissues/</link>
+    <description>Recent content in Known Issues on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://roywangt.github.io/cells/java/developerguide/knowledgebase/knownissues/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Java: java.security.InvalidKeyException</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/knowledgebase/knownissues/java.security.invalidkeyexception/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/knowledgebase/knownissues/java.security.invalidkeyexception/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--javasecurityinvalidkeyexception&#34;&gt;Aspose.Cells for Java : java.security.InvalidKeyException&lt;/h1&gt;
+&lt;h3 id=&#34;summary&#34;&gt;Summary&lt;/h3&gt;
+&lt;p&gt;By default, the AES supports a 128 bit key, if you plan to use 192 bit or 256 bit key, java compiler will throw Illegal key size exception. This is not due to some bug of Aspose.Cells API rather due to the limited feature for JDK/JRE itself. The default policy files of JDK/JRE is crippled due to import restrictions in some countries. Users have to get the &amp;ldquo;Unlimited Strength&amp;rdquo; policy files and install them in their JRE to use advanced cryptography functionality for encryption/decryption.&lt;/p&gt;
+&lt;h3 id=&#34;symptoms&#34;&gt;Symptoms&lt;/h3&gt;
+&lt;p&gt;You may get the &lt;code&gt;java.security.InvalidKeyException: Illegal key size or default parameters&lt;/code&gt; or &lt;code&gt;java.security.InvalidKeyException: Illegal key size&lt;/code&gt; while loading a protected spreadsheet.&lt;/p&gt;
+&lt;h3 id=&#34;solution&#34;&gt;Solution&lt;/h3&gt;
+&lt;p&gt;The solution is actually very simple as detailed below.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Download the Java Cryptography Extension (JCE) Unlimited Strength Jurisdiction Policy Files.&lt;/li&gt;
+&lt;li&gt;Extract the JAR files from the downloaded archive and place them in &lt;code&gt;${java.home}/jre/lib/security/&lt;/code&gt; directory.&lt;/li&gt;
+&lt;li&gt;Rerun the program.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;download-links&#34;&gt;Download Links&lt;/h4&gt;
+&lt;p&gt;Please use the download link that corresponds to your JDK/JRE version.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.oracle.com/technetwork/java/javase/downloads/jce-6-download-429243.html&#34;&gt;Java Cryptography Extension (JCE) Unlimited Strength Jurisdiction Policy Files 6&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.oracle.com/technetwork/java/javase/downloads/jce-7-download-432124.html&#34;&gt;Java Cryptography Extension (JCE) Unlimited Strength Jurisdiction Policy Files 7&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.oracle.com/technetwork/java/javase/downloads/jce8-download-2133166.html&#34;&gt;Java Cryptography Extension (JCE) Unlimited Strength Jurisdiction Policy Files 8&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: How to Fix the java.lang.OutOfMemoryError while Loading Large Spreadsheets</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/knowledgebase/knownissues/how&#43;to&#43;fix&#43;the&#43;java.lang.outofmemoryerror&#43;while&#43;loading&#43;large&#43;spreadsheets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/knowledgebase/knownissues/how&#43;to&#43;fix&#43;the&#43;java.lang.outofmemoryerror&#43;while&#43;loading&#43;large&#43;spreadsheets/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--how-to-fix-the-javalangoutofmemoryerror-while-loading-large-spreadsheets&#34;&gt;Aspose.Cells for Java : How to Fix the java.lang.OutOfMemoryError while Loading Large Spreadsheets&lt;/h1&gt;
+&lt;p&gt;There are fair chances that the &lt;code&gt;Workbook&lt;/code&gt; constructor may throw &lt;code&gt;java.lang.OutOfMemoryError&lt;/code&gt; while loading large spreadsheets. This exception suggests that the available memory is insufficient to completely load the spreadsheet into the memory therefore the spreadsheet has to be loaded while enabling the &lt;a href=&#34;http://www.aspose.com/docs/display/cellsjava/Optimizing+Memory+Usage+while+Working+with+Big+Files+having+Large+Datasets&#34;&gt;Memory Preferences&lt;/a&gt;.&lt;/p&gt;
+&lt;h4 id=&#34;how-to-fix-the-javalangoutofmemoryerror-while-loading-large-spreadsheet&#34;&gt;How to fix the java.lang.OutOfMemoryError while loading large spreadsheet&lt;/h4&gt;
+&lt;p&gt;Aspose.Cells APIs provide Memory Preferences to optimize the memory consumption while loading &amp;amp; processing spreadsheets. These options are also helpful in efficiently loading the large spreadsheets containing huge data sets in &lt;code&gt;Workbook&lt;/code&gt; object as demonstrated below.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Java&lt;/strong&gt;&lt;/p&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_02a1f6adb0&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_02a1f6adb0&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//Specify the LoadOptions
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;LoadOptions&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;options&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;LoadOptions&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;();&lt;/span&gt;
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//Set the memory preferences
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;options&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;setMemorySetting&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;MemorySetting&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;MEMORY_PREFERENCE&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//Instantiate the Workbook
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//Load the Big Excel file having large Data set in it
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Workbook&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;book&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Workbook&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;sample.xlsx&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;options&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: java.lang.ClassNotFoundException org.bouncycastle.jce.provider.BouncyCastleProvider</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/knowledgebase/knownissues/java.lang.classnotfoundexception&#43;org.bouncycastle.jce.provider.bouncycastleprovider/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/knowledgebase/knownissues/java.lang.classnotfoundexception&#43;org.bouncycastle.jce.provider.bouncycastleprovider/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--javalangclassnotfoundexception-orgbouncycastlejceproviderbouncycastleprovider&#34;&gt;Aspose.Cells for Java : java.lang.ClassNotFoundException org.bouncycastle.jce.provider.BouncyCastleProvider&lt;/h1&gt;
+&lt;h3 id=&#34;summary&#34;&gt;Summary&lt;/h3&gt;
+&lt;p&gt;Aspose.Cells for Java API depends on Bouncy Castle for encryption and decryption features, that is; if the program is required to load or save encrypted spreadsheets, it is required to add reference of &lt;code&gt;bcprov-jdk16-146.jar&lt;/code&gt; in the project&amp;rsquo;s class path.&lt;/p&gt;
+&lt;h3 id=&#34;symptoms&#34;&gt;Symptoms&lt;/h3&gt;
+&lt;p&gt;You may get the &lt;code&gt;java.lang.ClassNotFoundException: org.bouncycastle.jce.provider.BouncyCastleProvider&lt;/code&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;solution&#34;&gt;Solution&lt;/h3&gt;
+&lt;p&gt;The solution is actually very simple as detailed below.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Download any major release of &lt;a href=&#34;http://www.aspose.com/downloads/cells/java&#34;&gt;Aspose.Cells for Java&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Extract the downloaded archive and browse to \JDK 1.6\aspose-cells-x.x.0-java\lib directory.&lt;/li&gt;
+&lt;li&gt;Reference the &lt;code&gt;bcprov-jdk16-146.jar&lt;/code&gt; in the class path of the project.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Alternatively, you can add the dependency in the pom.xml and let the project resolve the dependency via maven.&lt;/p&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_692d44da2b&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_692d44da2b&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;dependencies&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+	&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;dependency&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+		&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;groupId&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;org&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;bouncycastle&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;groupId&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+		&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;artifactId&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;bcprov&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;jdk16&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;artifactId&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+		&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;version&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;1.46&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;version&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+		&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;type&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;jar&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;type&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+	&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;dependency&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;dependencies&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: How to fix exception - Could not initialize class sun.font.FontScaler</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/knowledgebase/knownissues/how&#43;to&#43;fix&#43;exception&#43;-&#43;could&#43;not&#43;initialize&#43;class&#43;sun.font.fontscaler/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/knowledgebase/knownissues/how&#43;to&#43;fix&#43;exception&#43;-&#43;could&#43;not&#43;initialize&#43;class&#43;sun.font.fontscaler/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--how-to-fix-exception---could-not-initialize-class-sunfontfontscaler&#34;&gt;Aspose.Cells for Java : How to fix exception - Could not initialize class sun.font.FontScaler&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#system-environment&#34;&gt;System Environment&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#possible-solution&#34;&gt;Possible Solution&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;4 &lt;a href=&#34;#download-link-of-the-ae-awt.jar&#34;&gt;Download Link of the ae-awt.jar&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;This article will explain how to fix exception - Could not initialize class sun.font.FontScaler. The exception looks something similar to this&lt;/p&gt;
+&lt;p&gt;2017-06-12 18:10:16,075 ERROR org.apache.catalina.core.ContainerBase.[jboss.web].[default-host].[/DmMethods].[DoMethod] Servlet.service() for servlet DoMethod threw exception: java.lang.NoClassDefFoundError: Could not initialize class sun.font.FontScalerat sun.font.TrueTypeFont.getScaler(TrueTypeFont.java:1248) [rt.jar:1.7.0_17]at sun.font.FileFontStrike.(FileFontStrike.java:177) [rt.jar:1.7.0_17]at sun.font.FileFont.createStrike(FileFont.java:95) [rt.jar:1.7.0_17]at sun.font.Font2D.getStrike(Font2D.java:344) [rt.jar:1.7.0_17]at sun.font.Font2D.getStrike(Font2D.java:289) [rt.jar:1.7.0_17]at sun.font.FontDesignMetrics.initMatrixAndMetrics(FontDesignMetrics.java:358) [rt.jar:1.7.0_17]at sun.font.FontDesignMetrics.(FontDesignMetrics.java:350) [rt.jar:1.7.0_17]at sun.font.FontDesignMetrics.getMetrics(FontDesignMetrics.java:302) [rt.jar:1.7.0_17]&lt;/p&gt;
+&lt;h2 id=&#34;system-environment&#34;&gt;System Environment&lt;/h2&gt;
+&lt;p&gt;The system environment could be something like this&lt;/p&gt;
+&lt;p&gt;Red Hat Linux 6.3Java™ SE Runtime Environment (build 1.7.0_17-b02)Java HotSpot™ 64-Bit Server VM (build 23.7-b01, mixed mode)&lt;/p&gt;
+&lt;h2 id=&#34;possible-solution&#34;&gt;Possible Solution&lt;/h2&gt;
+&lt;p&gt;You are likely to resolve the problem by integrating the following JAR into your classpath:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ae-awt.jar&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;download-link-of-the-ae-awtjar&#34;&gt;Download Link of the ae-awt.jar&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.java2s.com/Code/JarDownload/ae/ae-awt.jar.zip&#34;&gt;http://www.java2s.com/Code/JarDownload/ae/ae-awt.jar.zip&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

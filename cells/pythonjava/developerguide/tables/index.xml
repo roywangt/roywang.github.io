@@ -1,0 +1,233 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Tables</title>
+    <link>https://roywangt.github.io/cells/pythonjava/developerguide/tables/</link>
+    <description>Recent content in Tables on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://roywangt.github.io/cells/pythonjava/developerguide/tables/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Pythonjava: Creating a List Object</title>
+      <link>https://roywangt.github.io/cells/pythonjava/developerguide/tables/creating&#43;a&#43;list&#43;object/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/pythonjava/developerguide/tables/creating&#43;a&#43;list&#43;object/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-python-via-java--creating-a-list-object&#34;&gt;Aspose.Cells for Python via Java : Creating a List Object&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#advantages-of-a-list-object&#34;&gt;Advantages of a List Object&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#creating-a-list-object-using-microsoft-excel&#34;&gt;Creating a List Object using Microsoft Excel&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#creating-a-list-object-using-aspose.cells-api&#34;&gt;Creating a List Object using Aspose.Cells API&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;The use of worksheets make is easy to work with different types of lists, for example. phone lists, task lists. etc. Aspose.Cells supports creating and managing lists.&lt;/p&gt;
+&lt;h3 id=&#34;advantages-of-a-list-object&#34;&gt;Advantages of a List Object&lt;/h3&gt;
+&lt;p&gt;There are quite a few advantages when you convert a list of data to an actual List Object:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;New rows and columns are automatically included.&lt;/li&gt;
+&lt;li&gt;A total row at the bottom of your list can be easily added to display SUM, AVERAGE, COUNT, etc.&lt;/li&gt;
+&lt;li&gt;Columns added to the right are automatically incorporated into the List object.&lt;/li&gt;
+&lt;li&gt;Charts based on rows and columns will be expanded automatically.&lt;/li&gt;
+&lt;li&gt;Named ranges assigned to rows and columns will be expanded automatically.&lt;/li&gt;
+&lt;li&gt;The list is protected from accidental row and column deletion.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;creating-a-list-object-using-microsoft-excel&#34;&gt;Creating a List Object using Microsoft Excel&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Selecting data range for creating a list object&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;download/attachments/5276801/2007166704&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;This displays the Create List dialog.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Create List dialog&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;download/attachments/5276801/355131023&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Implementing the List object and specifying Total Row (Select &lt;strong&gt;Data&lt;/strong&gt;, then &lt;strong&gt;List&lt;/strong&gt;, followed by &lt;strong&gt;Total Row&lt;/strong&gt;).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Creating a List object&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;download/attachments/5276801/121132945&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;creating-a-list-object-using-asposecells-api&#34;&gt;Creating a List Object using Aspose.Cells API&lt;/h3&gt;
+&lt;p&gt;Aspose.Cells provides a class, &lt;a href=&#34;https://apireference.aspose.com/cells/python/asposecells.api/Workbook&#34;&gt;Workbook&lt;/a&gt;, that represents a Microsoft Excel file. The &lt;a href=&#34;https://apireference.aspose.com/cells/python/asposecells.api/Workbook&#34;&gt;Workbook&lt;/a&gt; class contains a &lt;a href=&#34;https://apireference.aspose.com/cells/python/asposecells.api/worksheetcollection&#34;&gt;Worksheets&lt;/a&gt; collection that allows access to each worksheet in an Excel file.&lt;/p&gt;
+&lt;p&gt;A worksheet is represented by the &lt;a href=&#34;https://apireference.aspose.com/cells/python/asposecells.api/Worksheet&#34;&gt;Worksheet&lt;/a&gt; class. The &lt;a href=&#34;https://apireference.aspose.com/cells/python/asposecells.api/Worksheet&#34;&gt;Worksheet&lt;/a&gt; class provides a wide range of properties and methods for managing a worksheet. To create a &lt;a href=&#34;https://apireference.aspose.com/cells/python/asposecells.api/ListObject&#34;&gt;ListObject&lt;/a&gt; in a worksheet, use &lt;a href=&#34;https://apireference.aspose.com/cells/python/asposecells.api/worksheet#ListObjects&#34;&gt;ListObjects&lt;/a&gt; collection property of the &lt;a href=&#34;https://apireference.aspose.com/cells/python/asposecells.api/Worksheet&#34;&gt;Worksheet&lt;/a&gt; class. Each &lt;a href=&#34;https://apireference.aspose.com/cells/python/asposecells.api/ListObject&#34;&gt;ListObject&lt;/a&gt; is, in fact, an object of the &lt;a href=&#34;https://apireference.aspose.com/cells/python/asposecells.api/ListObjectCollection&#34;&gt;ListObjectCollection&lt;/a&gt; class, which further provides the &lt;a href=&#34;https://apireference.aspose.com/cells/python/asposecells.api/listobjectcollection#add(int,%20int,%20int,%20int,%20boolean)&#34;&gt;add&lt;/a&gt; method for adding a List object and specifying a range of cells for the list.&lt;/p&gt;
+&lt;p&gt;According to the specified range of cells, the List object is created in the worksheet by Aspose.Cells. Use attributes (for example, ShowTotals, ListColumns, etc.) of the &lt;a href=&#34;https://apireference.aspose.com/cells/python/asposecells.api/ListObject&#34;&gt;ListObject&lt;/a&gt; class to control the list.&lt;/p&gt;
+&lt;p&gt;In the example given below, we have created the same &lt;a href=&#34;https://apireference.aspose.com/cells/python/asposecells.api/ListObject&#34;&gt;ListObject&lt;/a&gt; using Aspose.Cells for Python via Java API as we created using Microsoft Excel in the above section.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Pythonjava: Formatting List Object</title>
+      <link>https://roywangt.github.io/cells/pythonjava/developerguide/tables/formatting&#43;list&#43;object/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/pythonjava/developerguide/tables/formatting&#43;list&#43;object/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-python-via-java--formatting-list-object&#34;&gt;Aspose.Cells for Python via Java : Formatting List Object&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#formatting-list-object&#34;&gt;Formatting List Object&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;formatting-list-object&#34;&gt;Formatting List Object&lt;/h2&gt;
+&lt;p&gt;A table is a series of rows and columns that contain related data managed independently from the data in other rows and columns. By default, every column in the table has filtering enabled in the header row so that you can filter or sort your list object data quickly. You can add a total row (a special row in a list that provides a selection of aggregate functions useful for working with numerical data) to the list object that provides a drop-down list of aggregate functions for each total row cell.&lt;/p&gt;
+&lt;p&gt;Aspose.Cells supports formatting List objects. For this, thee API provides the &lt;a href=&#34;https://apireference.aspose.com/cells/python/asposecells.api/ListObject&#34;&gt;ListObject&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/cells/python/asposecells.api/TableStyleType&#34;&gt;TableStyleType&lt;/a&gt; classes. The &lt;a href=&#34;https://apireference.aspose.com/cells/python/asposecells.api/TableStyleType&#34;&gt;TableStyleType&lt;/a&gt; class contains constants that represent the built-in table styles. The following code snippet creates a new List Object and sets it table style type to &lt;a href=&#34;https://apireference.aspose.com/cells/python/asposecells.api/tablestyletype#TABLE_STYLE_MEDIUM_10&#34;&gt;TABLE_STYLE_MEDIUM_10&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Pythonjava: Hide Overlaid Content while converting Excel to HTML</title>
+      <link>https://roywangt.github.io/cells/pythonjava/developerguide/tables/hide&#43;overlaid&#43;content&#43;while&#43;converting&#43;excel&#43;to&#43;html/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/pythonjava/developerguide/tables/hide&#43;overlaid&#43;content&#43;while&#43;converting&#43;excel&#43;to&#43;html/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-python-via-java--hide-overlaid-content-while-converting-excel-to-html&#34;&gt;Aspose.Cells for Python via Java : Hide Overlaid Content while converting Excel to HTML&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#hide-overlaid-content-while-converting-excel-to-html&#34;&gt;Hide Overlaid Content while converting Excel to HTML&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;hide-overlaid-content-while-converting-excel-to-html&#34;&gt;Hide Overlaid Content while converting Excel to HTML&lt;/h2&gt;
+&lt;p&gt;When you save your Excel file to HTML, you can specify different cross types for cell strings. By default, Aspose.Cells generates HTML as per Microsoft Excel but when you change the &lt;a href=&#34;https://apireference.aspose.com/cells/python/asposecells.api/htmlsaveoptions#HtmlCrossStringType&#34;&gt;HtmlSaveOptions.HtmlCrossStringType&lt;/a&gt; to &lt;a href=&#34;https://apireference.aspose.com/cells/python/asposecells.api/htmlcrosstype#CROSS_HIDE_RIGHT&#34;&gt;CROSS_HIDE_RIGHT&lt;/a&gt; then it hides all the strings at the right side of the cell which are overlaid or overlapping with cell string.&lt;/p&gt;
+&lt;p&gt;The following sample code loads the &lt;a href=&#34;https://docs.aspose.com/download/attachments/64456354/sampleHidingOverlaidContentWithCrossHideRight.xlsx?version=1&amp;amp;modificationDate=1525009682893&amp;amp;api=v2&#34;&gt;sample Excel file&lt;/a&gt; and saves it to &lt;a href=&#34;https://docs.aspose.com/download/attachments/64456354/HTML-outputHidingOverlaidContentWithCrossHideRight.zip?version=1&amp;amp;modificationDate=1525009682893&amp;amp;api=v2&#34;&gt;output HTML&lt;/a&gt; after setting the &lt;a href=&#34;https://apireference.aspose.com/cells/python/asposecells.api/htmlsaveoptions#HtmlCrossStringType&#34;&gt;HtmlSaveOptions.HtmlCrossStringType&lt;/a&gt; as &lt;a href=&#34;https://apireference.aspose.com/cells/python/asposecells.api/htmlcrosstype#CROSS_HIDE_RIGHT&#34;&gt;CROSS_HIDE_RIGHT&lt;/a&gt;. The screenshot explains how &lt;a href=&#34;https://apireference.aspose.com/cells/python/asposecells.api/htmlcrosstype#CROSS_HIDE_RIGHT&#34;&gt;CROSS_HIDE_RIGHT&lt;/a&gt; affects the output HTML from the default output.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs.aspose.com/download/attachments/64456354/Hiding-Overlaid-Content-With-CrossHideRight.png?version=1&amp;amp;modificationDate=1525009682893&amp;amp;api=v2&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Pythonjava: Read and Write Table with Query Table Data Source</title>
+      <link>https://roywangt.github.io/cells/pythonjava/developerguide/tables/read&#43;and&#43;write&#43;table&#43;with&#43;query&#43;table&#43;data&#43;source/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/pythonjava/developerguide/tables/read&#43;and&#43;write&#43;table&#43;with&#43;query&#43;table&#43;data&#43;source/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-python-via-java--read-and-write-table-with-query-table-data-source&#34;&gt;Aspose.Cells for Python via Java : Read and Write Table with Query Table Data Source&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#read-and-write-table-with-query-table-data-source&#34;&gt;Read and Write Table with Query Table Data Source&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;read-and-write-table-with-query-table-data-source&#34;&gt;Read and Write Table with Query Table Data Source&lt;/h2&gt;
+&lt;p&gt;With Aspose.Cells for Python via Java, you can read and write a table which has a QueryTable as Datasource. The support for this feature also exists for XLS files. The following code snippet demonstrates reading and writing such a table by first reading the table and then modifying it to add the totals row.&lt;/p&gt;
+&lt;p&gt;The source and output excel files are attached for reference.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs.aspose.com/download/attachments/96764758/SampleTableWithQueryTable.xls?version=1&amp;amp;modificationDate=1575556545937&amp;amp;api=v2&#34;&gt;Source File&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs.aspose.com/download/attachments/96764758/SampleTableWithQueryTable_out.xls?version=1&amp;amp;modificationDate=1575556545941&amp;amp;api=v2&#34;&gt;Output File&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Pythonjava: Set the Comment of Table or List Object</title>
+      <link>https://roywangt.github.io/cells/pythonjava/developerguide/tables/set&#43;the&#43;comment&#43;of&#43;table&#43;or&#43;list&#43;object/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/pythonjava/developerguide/tables/set&#43;the&#43;comment&#43;of&#43;table&#43;or&#43;list&#43;object/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-python-via-java--set-the-comment-of-table-or-list-object&#34;&gt;Aspose.Cells for Python via Java : Set the Comment of Table or List Object&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#set-the-comment-of-table-or-list-object-inside-the-worksheet&#34;&gt;Set the Comment of Table or List Object inside the Worksheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;set-the-comment-of-table-or-list-object-inside-the-worksheet&#34;&gt;Set the Comment of Table or List Object inside the Worksheet&lt;/h2&gt;
+&lt;p&gt;Aspose.Cells for Python via Java supports adding the comment of List Object. For this, the API provides the &lt;a href=&#34;https://apireference.aspose.com/cells/python/asposecells.api/listobject#Comment&#34;&gt;ListObject.Comment&lt;/a&gt; property. The comment added by the &lt;a href=&#34;https://apireference.aspose.com/cells/python/asposecells.api/listobject#Comment&#34;&gt;ListObject.Comment&lt;/a&gt; property will be visible inside the &lt;em&gt;xl/tables/tableName.xml&lt;/em&gt; file.&lt;/p&gt;
+&lt;p&gt;The following screenshot shows the comment created by the sample code in the red rectangle.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs.aspose.com/download/attachments/5276080/setting-list-object-comment.png?version=1&amp;amp;modificationDate=1467533626620&amp;amp;api=v2&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The following sample code loads the &lt;a href=&#34;https://docs.aspose.com/download/attachments/5276080/source.xlsx?version=1&amp;amp;modificationDate=1469506992817&amp;amp;api=v2&#34;&gt;source excel file&lt;/a&gt;, sets the comment of the first table or list object inside the worksheet &lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,129 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Release Notes - 2008</title>
+    <link>https://roywangt.github.io/cells/java/releasenotes/asposecellsforjava/java/2008/</link>
+    <description>Recent content in Release Notes - 2008 on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://roywangt.github.io/cells/java/releasenotes/asposecellsforjava/java/2008/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Java: Aspose.Cells for Java v1.9.5 Hotfix Release Notes</title>
+      <link>https://roywangt.github.io/cells/java/releasenotes/asposecellsforjava/java/2008/aspose.cells&#43;for&#43;java&#43;v1.9.5&#43;hotfix&#43;release&#43;notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/releasenotes/asposecellsforjava/java/2008/aspose.cells&#43;for&#43;java&#43;v1.9.5&#43;hotfix&#43;release&#43;notes/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--asposecells-for-java-v195-hotfix-release-notes&#34;&gt;Aspose.Cells for Java : Aspose.Cells for Java v1.9.5 Hotfix Release Notes&lt;/h1&gt;
+&lt;p&gt;This page contains release notes for &lt;a href=&#34;http://www.aspose.com/downloads/cells/java/new-releases/aspose.cells-for-java-v1.9.5-hotfix/&#34;&gt;Aspose.Cells for Java v1.9.5 Hotfix&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Dear Customers,&lt;/p&gt;
+&lt;p&gt;We have released Aspose.Cells for Java V1.9.5!&lt;/p&gt;
+&lt;p&gt;*What&amp;rsquo;s New?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Supports to recognize Excel file format automatically for Workbook.open(String) and Workbook.open(InputStream)* Supports to process cells in spreadsheet file in Event-Driven mode by introducing new API(LightCells)* Supports to remove shape related Object, including Comment, Picture, and so on* Supports to copy shapes when copy workbook or worksheet* Supports to check whether a cell or style is Percent or Date&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;*What&amp;rsquo;s Improved?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Conversion of Excel to Pdf has been enhanced* When save workbook as Excel2003 file format, Aspose.Cells will cut out those cells automatically whose column or row exceeds 65536 rows and 256 columns limit.* When without encoding specified, reading CSV file will try to get and use the system default encoding&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;*What&amp;rsquo;s Fixed?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Fixed some bugs of calculating formula* Fixed some bugs of reading template file* Fixed a bug of getting picture&amp;rsquo;s scale* Fixed a bug of saving NamedStyle* Fixed a bug of setting Comment&amp;rsquo;s border line visible* Fixed a bug of setting cell&amp;rsquo;s Border* Fixed a bug of HYPERLINK formula* Fixed a bug of saving Names* Fixed a bug of saving Workbook with protected structure* Fixed a bug of set Name object&amp;rsquo;s text* Fixed a bug of getting string value of merged cells* Fixed a bug of processing SmartMarker for WorkbookDesigner&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Aspose.Cells for Java V1.9.4 Hot Fix Release Notes</title>
+      <link>https://roywangt.github.io/cells/java/releasenotes/asposecellsforjava/java/2008/aspose.cells&#43;for&#43;java&#43;v1.9.4&#43;hot&#43;fix&#43;release&#43;notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/releasenotes/asposecellsforjava/java/2008/aspose.cells&#43;for&#43;java&#43;v1.9.4&#43;hot&#43;fix&#43;release&#43;notes/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--asposecells-for-java-v194-hot-fix-release-notes&#34;&gt;Aspose.Cells for Java : Aspose.Cells for Java V1.9.4 Hot Fix Release Notes&lt;/h1&gt;
+&lt;p&gt;This page contains release notes for &lt;a href=&#34;http://www.aspose.com/downloads/cells/java/new-releases/aspose.cells-for-java-v1.9.4-hot-fix/&#34;&gt;Aspose.Cells for Java V1.9.4 Hot Fix&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;What&amp;rsquo;s New?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Supports to add rich text for shapes such as Arc, Oval, Rectangle, Comment, TextBox&lt;br&gt;
+Supports all type of placement for shape&lt;br&gt;
+Supports to read all shapes from template&lt;br&gt;
+Supports to set array in SmartMarker&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;What&amp;rsquo;s Improved?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Add new methods to manipulate shape&amp;rsquo;s position and size, and deprecated some old methods&lt;br&gt;
+Add some demo codes and templates for new API&lt;br&gt;
+Replace deprecated API invocation with new API in demos&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;What&amp;rsquo;s Fixed?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Fixed some bugs of calculating formula&lt;br&gt;
+Fixed a bug of exporting Excel2007 XLSX format&lt;br&gt;
+Fixed a bug of copying style&lt;br&gt;
+Fixed a bug of copying formula&lt;br&gt;
+Fixed a bug of saving image size&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Comments&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;For charts imported from template files, manipulating their data is not supported, currently only support to operate on shape properties, such as position, placement and size&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Aspose.Cells for Java 1.9.3 Hot Fix Release Notes</title>
+      <link>https://roywangt.github.io/cells/java/releasenotes/asposecellsforjava/java/2008/aspose.cells&#43;for&#43;java&#43;1.9.3&#43;hot&#43;fix&#43;release&#43;notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/releasenotes/asposecellsforjava/java/2008/aspose.cells&#43;for&#43;java&#43;1.9.3&#43;hot&#43;fix&#43;release&#43;notes/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--asposecells-for-java-193-hot-fix-release-notes&#34;&gt;Aspose.Cells for Java : Aspose.Cells for Java 1.9.3 Hot Fix Release Notes&lt;/h1&gt;
+&lt;p&gt;This page contains release notes for &lt;a href=&#34;http://www.aspose.com/downloads/cells/java/new-releases/aspose.cells-for-java-1.9.3-hot-fix/&#34;&gt;Aspose.Cells for Java 1.9.3 Hot Fix&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Dear Customers, We have released Aspose.Cells for Java V1.9.3!&lt;/p&gt;
+&lt;p&gt;What&amp;rsquo;s New?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Supports to add Arc, Oval, Rectangle&lt;br&gt;
+Supports to add Word and Excel file as OLE object&lt;br&gt;
+Supports to only load data and formatting in the template file&lt;br&gt;
+Supports to copy style when insert rows and columns&lt;br&gt;
+Supports to get number format type of cell&lt;br&gt;
+Supports to filter non-blank/blank cells in AutoFilter&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;What&amp;rsquo;s Improved?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Provides methods for Shapes object to add any shape&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;What&amp;rsquo;s Fixed?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Fixed a bug of calculating formulas&lt;br&gt;
+Fixed a bug of getting minimum column of row&lt;br&gt;
+Fixed a bug of importing a collection into cells&lt;br&gt;
+Fixed a bug of reading file&lt;br&gt;
+Fixed a bug of copying formulas&lt;br&gt;
+Fixed a bug of copying cell range&lt;br&gt;
+Fixed a bug of formatting number with E-exponent&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Comments&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;For adding textBox, in new version, add(&amp;hellip;) methods is only valid in the worksheet.addInChart() method is only valid in the Chart Sheet.&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

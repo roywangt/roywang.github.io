@@ -1,0 +1,1299 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Working with GridWeb</title>
+    <link>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridweb/</link>
+    <description>Recent content in Working with GridWeb on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridweb/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Net: Add GridWeb to Web Form</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridweb/add&#43;gridweb&#43;to&#43;web&#43;form/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridweb/add&#43;gridweb&#43;to&#43;web&#43;form/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--add-gridweb-to-web-form&#34;&gt;Aspose.Cells for .NET : Add GridWeb to Web Form&lt;/h1&gt;
+&lt;p&gt;This topic provides a basic step by step guide for beginners to help them create and use the Aspose.Cells.GridWeb control in web applications.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#creating-&amp;amp;-using-aspose.cells.gridweb-control&#34;&gt;Creating &amp;amp; Using Aspose.Cells.GridWeb Control&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#step-1:-creating-a-web-application-project&#34;&gt;Step 1: Creating a Web Application Project&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.2 &lt;a href=&#34;#step-2:-embedding-control-to-the-web-form&#34;&gt;Step 2: Embedding Control to the Web Form&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.3 &lt;a href=&#34;#step-3:-resizing-control&#34;&gt;Step 3: Resizing Control&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.4 &lt;a href=&#34;#step-4:-setting-control-properties&#34;&gt;Step 4: Setting Control Properties&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.4.1 &lt;a href=&#34;#custom-command-buttons&#34;&gt;Custom Command Buttons&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;1.5 &lt;a href=&#34;#important&#34;&gt;Important&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.6 &lt;a href=&#34;#step-5:-running-web-application&#34;&gt;Step 5: Running Web Application&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;creating--using-asposecellsgridweb-control&#34;&gt;Creating &amp;amp; Using Aspose.Cells.GridWeb Control&lt;/h2&gt;
+&lt;h3 id=&#34;step-1-creating-a-web-application-project&#34;&gt;Step 1: Creating a Web Application Project&lt;/h3&gt;
+&lt;p&gt;First, create a web application project in which to use the Aspose.Cells.GridWeb control:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Open Visual Studio.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;From the &lt;strong&gt;File&lt;/strong&gt; menu, select &lt;strong&gt;New&lt;/strong&gt; followed by &lt;strong&gt;Project&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5013739/5115093.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;A New Project Dialog appears.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Select &lt;strong&gt;ASP.NET Web Application&lt;/strong&gt; for desired language.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5013739/5115094.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Select &lt;strong&gt;Web Forms&lt;/strong&gt; template.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5013739/5115095.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Add a new web form to the project.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;step-2-embedding-control-to-the-web-form&#34;&gt;Step 2: Embedding Control to the Web Form&lt;/h3&gt;
+&lt;p&gt;Drag and drop the Aspose.Cells.GridWeb control from the Visual Studio toolbox to the web form.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5013739/5115096.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;To learn how to add Aspose.Cells Grid controls to the Visual Studio Toolbox, please read &lt;a href=&#34;https://docs2.aspose.com/cells/net/gettingstarted/gridsuiteandvsnet/integrate+aspose.cells+grid+controls+with+visual+studio.net&#34;&gt;Integrate Aspose.Cells.Grid Controls with Visual Studio.NET&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;When the control has been added to the form, it is rendered like this:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5013739/5115097.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;step-3-resizing-control&#34;&gt;Step 3: Resizing Control&lt;/h3&gt;
+&lt;p&gt;The form is rendered at a default size. Adjust the size by dragging the borders or corners.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5013739/5115098.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;step-4-setting-control-properties&#34;&gt;Step 4: Setting Control Properties&lt;/h3&gt;
+&lt;p&gt;Aspose.Cells.GridWeb control can also be configured using various properties.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5013739/5115099.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;It is possible to adjust many properties of the control with the Properties dialog. Basic properties include height, width, color and visual styles. Advanced properties include the edit mode, session mode and double-click mode. Moreover, it is possible to set customized event handlers in the Properties dialog.&lt;/p&gt;
+&lt;p&gt;There are also some extra configuration tools for Aspose.Cells.GridWeb that can be seen at the bottom of the Properties dialog as hyperlinks, or right_click on the GridWeb control to find them. These configuration tools include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Custom Command Buttons&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;custom-command-buttons&#34;&gt;Custom Command Buttons&lt;/h4&gt;
+&lt;p&gt;To open the custom command buttons editor:&lt;br&gt;
+Right-click the GridWeb control and select &lt;strong&gt;Custom Command Buttons&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5013739/5115102.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The CustomCommandButton Collection Editor dialog os displayed.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5013739/5115103.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The dialog lets developers add and remove custom command buttons in the GridWeb control.&lt;/p&gt;
+&lt;h3 id=&#34;important&#34;&gt;Important&lt;/h3&gt;
+&lt;p&gt;Aspose.Cells.GridWeb also provides its resource files with the control. The &amp;ldquo;acw_client&amp;rdquo; is a folder (@ your installation directory) that contains files and Aspose.Cells.GridWeb uses this folder to manage its internal configuration and other functionality, it has scripts files, image files and other files to specify GridWeb&amp;rsquo;s behavior and set other operations. The config file is used to manage the embedded client resources (images, scripts, etc.). Moreover, when you need to deploy the web application having GridWeb control, you would also copy the &amp;ldquo;acw_client&amp;rdquo; directory into your project folder least your web application (deployed over the server) could not find it. You can always specify the resource folder by adding the following lines of code into the configuration section (e.g in the web.config file in your VS.NET Project):&lt;/p&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_9885c2328f&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_9885c2328f&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;appSettings&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;add&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;key&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;aspose.cells.gridweb.acw_client_path&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;value&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;/grid/acw_client/&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;/&amp;gt;&lt;/span&gt; 
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;appSettings&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;p&gt;The path is always related to the project&amp;rsquo;s directory. You should not use any directory which is outside of the project&amp;rsquo;s directory. So it is necessary to copy the &amp;ldquo;acw_client&amp;rdquo; directory (@ your GridWeb installation folder) into the project&amp;rsquo;s directory/sub-directory.&lt;/p&gt;
+&lt;h3 id=&#34;step-5-running-web-application&#34;&gt;Step 5: Running Web Application&lt;/h3&gt;
+&lt;p&gt;Run the application by pressing Ctrl+F5 or clicking the &lt;strong&gt;Start&lt;/strong&gt; button.&lt;/p&gt;
+&lt;p&gt;When the application runs in a browser, the WebForm1.aspx page is displayed, now containing an empty Aspose.Cells.GridWeb control. Add values to cells by clicking them. It is also possible to perform other tasks like changing the height of a row or the width of a column, copying (Ctrl+C) or cutting (Ctrl+X) cell data to the clipboard and pasting (Ctrl+V) data to cell. To performing more operations, right-click the control to see full list of options.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Context menu of GridWeb control&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5013739/5115122.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Apply Styles to GridWeb</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridweb/apply&#43;styles&#43;to&#43;gridweb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridweb/apply&#43;styles&#43;to&#43;gridweb/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--apply-styles-to-gridweb&#34;&gt;Aspose.Cells for .NET : Apply Styles to GridWeb&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells.GridWeb has its own default look &amp;amp; feel but it is possible to change its appearance. Aspose.Cells.GridWeb provides several properties to let developers fully control its appearance. This topic discusses some of those properties.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#applying-preset-or-custom-styles-to-aspose.cells.gridweb&#34;&gt;Applying Preset or Custom Styles to Aspose.Cells.GridWeb&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#preset-styles&#34;&gt;Preset Styles&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.2 &lt;a href=&#34;#header-bar-style&#34;&gt;Header Bar Style&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.3 &lt;a href=&#34;#tab-bar-style&#34;&gt;Tab Bar Style&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.4 &lt;a href=&#34;#reusable-customized-style-file&#34;&gt;Reusable Customized Style File&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.5 &lt;a href=&#34;#saving-style-file&#34;&gt;Saving Style File&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.6 &lt;a href=&#34;#loading-style-file&#34;&gt;Loading Style File&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.7 &lt;a href=&#34;#standard-format-of-xml-style-template&#34;&gt;Standard Format of XML Style Template&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;applying-preset-or-custom-styles-to-asposecellsgridweb&#34;&gt;Applying Preset or Custom Styles to Aspose.Cells.GridWeb&lt;/h2&gt;
+&lt;h3 id=&#34;preset-styles&#34;&gt;Preset Styles&lt;/h3&gt;
+&lt;p&gt;To save the efforts of developers, Aspose.Cells.GridWeb offers some preset styles. Simply select a style from the list to apply the style.&lt;/p&gt;
+
+&lt;div class=&#34;table table-striped&#34; role=&#34;alert&#34;&gt;
+    &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Styles&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Color Scheme&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Standard&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Silver&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Colorful1&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Rose&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Colorful2&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Blue&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Professional1&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Cyan&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Professional2&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Cyan again&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Traditional1&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Dark&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Traditional2&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Gray&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Custom&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Customized&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;When a particular style is selected, it changes the whole appearance of the GridWeb control. Developers can select a Preset Style to be applied on Grid during design time but this task can also be accomplished at runtime using the flexible API of Aspose.Cells.GridWeb.&lt;/p&gt;
+&lt;p&gt;Aspose.Cells.GridWeb control is represented by GridWeb class.&lt;/p&gt;
+&lt;p&gt;To select a preset style:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Add Aspose.Cells.GridWeb control to a web form.&lt;/li&gt;
+&lt;li&gt;Select a preset style to be applied on the control.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The GridWeb control provides the &lt;code&gt;PresetStyle&lt;/code&gt; property to which developers can assign any desired preset style.&lt;/p&gt;
+&lt;p&gt;The output of the below code snippet is shown below.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;GridWeb control with Colorful1 style applied on it&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5013742/5115457.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;header-bar-style&#34;&gt;Header Bar Style&lt;/h3&gt;
+&lt;p&gt;If you take a look at the GridWeb control, you&amp;rsquo;ll notice two header bars. One for columns (that is A, B, C, D etc.) and other for rows (that is 1, 2, 3, 4 etc.). Aspose.Cells.GridWeb allows developers to control the appearance of these header bars. Developers may set the style of header bars either at design time or runtime.&lt;/p&gt;
+&lt;p&gt;The GridWeb control provides the &lt;code&gt;HeaderBarStyle&lt;/code&gt; property that applies a style on both header bars of the control.&lt;/p&gt;
+&lt;p&gt;The output the example code below is shown here.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Modified style of Header Bar&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5013742/5115456.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;tab-bar-style&#34;&gt;Tab Bar Style&lt;/h3&gt;
+&lt;p&gt;It&amp;rsquo;s possible to set the style of the tab bar.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Modified styles of active &amp;amp; non-active tab bars&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5013742/5115428.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;In the above figure, Sheet4 is the active tab so its appearance is different from the other tabs, as defined by the example code below.&lt;/p&gt;
+&lt;h3 id=&#34;reusable-customized-style-file&#34;&gt;Reusable Customized Style File&lt;/h3&gt;
+&lt;p&gt;Aspose.Cells.GridWeb also supports to persist its appearance or style settings to a file. When you have set all the appearance properties of the GridWeb control, you may save these properties or settings to a disk file. This approach is very useful for developers to save their time and efforts by re-using their old style configurations from a style file instead of setting all style (or appearance) properties of the control one by one.&lt;/p&gt;
+&lt;h3 id=&#34;saving-style-file&#34;&gt;Saving Style File&lt;/h3&gt;
+&lt;p&gt;Once you have finished setting style properties, you can save your style configuration settings in the form of an XML file (it is because that Style file is stored as an XML file) by calling SaveCustomStyleFile method of the GridWeb control.&lt;/p&gt;
+&lt;p&gt;The saved style file is in XML format so, developers may also edit this file with any text editor, if desired.&lt;/p&gt;
+&lt;h3 id=&#34;loading-style-file&#34;&gt;Loading Style File&lt;/h3&gt;
+&lt;p&gt;To apply style settings from an existing style file to GridWeb control, developers can set the path of style file to CustomStyleFileName property of the control. But, before doing that it is must to set the PresetStyle property of control to Custom. It is because that style file contains custom style information that is already defined by a developer.&lt;/p&gt;
+&lt;p&gt;It is also possible to load or save style file using Aspose.Cells.GridWeb Designer .&lt;/p&gt;
+&lt;p&gt;IMPORTANT: Loading style file into GridWeb control doesn&amp;rsquo;t affect the formatting settings of the cells of the control.&lt;/p&gt;
+&lt;h3 id=&#34;standard-format-of-xml-style-template&#34;&gt;Standard Format of XML Style Template&lt;/h3&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_7ca2307089&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_7ca2307089&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;ViewerStyleTemplate&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;SelectCellColor&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Black&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;FrameTableStyle&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;BorderStyle&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Solid&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;FrameTableStyle&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;LayoutFixed&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Fixed&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;FrameTableStyle&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;BorderWidth&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;1px&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;FrameTableStyle&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;BorderColor&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Gray&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;FrameTableStyle&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;BorderCollapse&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Collapse&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;FrameTableStyle&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;BackColor&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;White&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;SelectCellBgColor&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;#EEEEFF&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;HeaderBarWidth&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;30pt&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;ScrollBarBaseColor&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;HeaderBarStyle&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;LeftBorderStyle&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;BorderStyle&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Solid&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;HeaderBarStyle&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;LeftBorderStyle&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;BorderWidth&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;1px&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;HeaderBarStyle&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;LeftBorderStyle&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;BorderColor&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;White&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;HeaderBarStyle&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;VerticalAlign&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Middle&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;HeaderBarStyle&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;RightBorderStyle&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;BorderStyle&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Solid&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;HeaderBarStyle&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;RightBorderStyle&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;BorderWidth&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;1px&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;HeaderBarStyle&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;RightBorderStyle&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;BorderColor&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Gray&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;HeaderBarStyle&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;BorderWidth&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;1px&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;HeaderBarStyle&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Font&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Size&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;10pt&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;HeaderBarStyle&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Font&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Names&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Arial&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;HeaderBarStyle&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;BorderColor&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Gray&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;HeaderBarStyle&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;BorderStyle&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Solid&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;HeaderBarStyle&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;HorizontalAlign&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Center&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;HeaderBarStyle&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;ForeColor&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Black&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;HeaderBarStyle&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;TopBorderStyle&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;BorderStyle&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Solid&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;HeaderBarStyle&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;TopBorderStyle&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;BorderWidth&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;1px&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;HeaderBarStyle&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;TopBorderStyle&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;BorderColor&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;White&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;HeaderBarStyle&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;BackColor&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;#E0E0E0&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;HeaderBarStyle&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;BottomBorderStyle&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;BorderStyle&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Solid&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;HeaderBarStyle&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;BottomBorderStyle&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;BorderWidth&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;1px&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;HeaderBarStyle&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;BottomBorderStyle&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;BorderColor&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Gray&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;HeaderBarStyle&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Wrap&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;False&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;ActiveHeaderColor&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Black&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;HeaderBarTableStyle&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;LayoutFixed&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Fixed&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;HeaderBarTableStyle&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;BorderWidth&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;0px&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;HeaderBarTableStyle&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;BorderCollapse&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Separate&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;HeaderBarHeight&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;15pt&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;ActiveTabStyle&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Height&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;15pt&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;ActiveTabStyle&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;BorderWidth&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;1px&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;ActiveTabStyle&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Font&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Size&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;10pt&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;ActiveTabStyle&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Font&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Names&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Arial&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;ActiveTabStyle&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;BorderColor&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Gray&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;ActiveTabStyle&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;BorderStyle&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Solid&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;ActiveTabStyle&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;ForeColor&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Black&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;ActiveTabStyle&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;BackColor&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;White&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;ActiveTabStyle&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Wrap&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;False&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;ActiveCellColor&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Black&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;DefaultGridLineColor&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Silver&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;ViewTableStyle&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;LayoutFixed&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Fixed&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;ViewTableStyle&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;BorderWidth&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;0px&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;ViewTableStyle&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;BorderCollapse&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Collapse&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;ActiveCellBgColor&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;#DDDDFF&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;TabStyle&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Height&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;15pt&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;TabStyle&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;BorderWidth&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;1px&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;TabStyle&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Font&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Size&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;10pt&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;TabStyle&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Font&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Names&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Arial&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;TabStyle&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;BorderColor&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Gray&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;TabStyle&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;BorderStyle&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Solid&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;TabStyle&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;ForeColor&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Black&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;TabStyle&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;BackColor&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;#E0E0E0&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;TabStyle&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Wrap&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;False&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;ActiveHeaderBgColor&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;#F2F2F2&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;ScrollBarArrowColor&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;BottomTableStyle&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;LayoutFixed&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Fixed&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;BottomTableStyle&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Height&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;20pt&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;BottomTableStyle&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;BorderWidth&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;0px&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;BottomTableStyle&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;BorderCollapse&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Collapse&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;BottomTableStyle&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;TopBorderStyle&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;BorderStyle&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Solid&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;BottomTableStyle&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;TopBorderStyle&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;BorderWidth&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;1px&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;BottomTableStyle&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;TopBorderStyle&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;BorderColor&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Gray&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;BottomTableStyle&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;BackColor&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;#F0F0F0&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;/&amp;gt;&lt;/span&gt;
+
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Resize GridWeb and its Header Bar</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridweb/resize&#43;gridweb&#43;and&#43;its&#43;header&#43;bar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridweb/resize&#43;gridweb&#43;and&#43;its&#43;header&#43;bar/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--resize-gridweb-and-its-header-bar&#34;&gt;Aspose.Cells for .NET : Resize GridWeb and its Header Bar&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/gridweb/workingwithgridweb/add+gridweb+to+web+form&#34;&gt;Add GridWeb to Web Form&lt;/a&gt;, discussed resizing the Aspose.Cells.GridWeb control using WYSIWYG. This article explains how to do the same thing but at runtime using the Aspose.Cells.GridWeb API. It also explains how to resize the header bars of the Aspose.Cells.GridWeb control to make their data easier to read.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#changing-width-&amp;amp;-height-of-aspose.cells.gridweb&#34;&gt;Changing Width &amp;amp; Height of Aspose.Cells.GridWeb&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#changing-width-&amp;amp;-height-of-header-bar&#34;&gt;Changing Width &amp;amp; Height of Header Bar&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;changing-width--height-of-asposecellsgridweb&#34;&gt;Changing Width &amp;amp; Height of Aspose.Cells.GridWeb&lt;/h2&gt;
+&lt;p&gt;Changing the width and height of Aspose.Cells.GridWeb control is a simple but important feature. The Aspose.Cells.GridWeb control is represented by the &lt;code&gt;GridWeb&lt;/code&gt; class in the API. To resize the width and height of the GridWeb control, simply use its width and height properties.&lt;/p&gt;
+&lt;p&gt;The width and height of the control can be defined in pixels or points.&lt;/p&gt;
+&lt;p&gt;The output of the code snippet that follows is shown below.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Changed width and height of the GridWeb control&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5013741/5115429.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;changing-width--height-of-header-bar&#34;&gt;Changing Width &amp;amp; Height of Header Bar&lt;/h3&gt;
+&lt;p&gt;Aspose.Cells.GridWeb control contains two header bars as follows:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Top header bar, this header bar represents columns as A , B , C , D etc.&lt;/li&gt;
+&lt;li&gt;Left header bar, this header bar represents rows as 1 , 2 , 3 , 4 etc.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Both of these header bars are shown below.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Header bars&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5013741/5115430.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Change the height of the top header bar and the width of the left header bar using the &lt;code&gt;GridWeb&lt;/code&gt; control&amp;rsquo;s &lt;code&gt;HeaderBarHeight&lt;/code&gt; and &lt;code&gt;HeaderBarWidth&lt;/code&gt; properties respectively. The figure below shows the output of the code example that follows.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Changed header bar width and height&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5013741/5115431.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Import Microsoft Excel File</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridweb/import&#43;microsoft&#43;excel&#43;file/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridweb/import&#43;microsoft&#43;excel&#43;file/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--import-microsoft-excel-file&#34;&gt;Aspose.Cells for .NET : Import Microsoft Excel File&lt;/h1&gt;
+&lt;p&gt;Like Aspose.Cells.GridDesktop, Aspose.Cells.GridWeb control can open and load Microsoft Excel files - complete with data, formatting, charts, images etc. - but in web applications. This topic explains how.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#import-excel-files&#34;&gt;Import Excel Files&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#import-from-file&#34;&gt;Import from File&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.2 &lt;a href=&#34;#import-from-stream&#34;&gt;Import from Stream&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;import-excel-files&#34;&gt;Import Excel Files&lt;/h2&gt;
+&lt;h3 id=&#34;import-from-file&#34;&gt;Import from File&lt;/h3&gt;
+&lt;p&gt;To open an Excel file using Aspose.Cells.GridWeb control:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Add the Aspose.Cells.GridWeb control to a web form.&lt;/li&gt;
+&lt;li&gt;Import the Excel file by specifying the file path.&lt;/li&gt;
+&lt;li&gt;Run the application.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;If you don&amp;rsquo;t know how to add the control to a web form, refer to &lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/gridweb/workingwithgridweb/add+gridweb+to+web+form&#34;&gt;Add GridWeb to Web Form&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;When Aspose.Cells.GridWeb control is added to a web form, the control is automatically instantiated and added to the form with a default size. You don&amp;rsquo;t have to create an Aspose.Cells.GridWeb control object, all you have to do is drag and drop the control and start using it.&lt;/p&gt;
+&lt;p&gt;However, to load the content from an Excel file to Aspose.Cells.GridWeb control, you have to call the &lt;code&gt;ImportExcelFile&lt;/code&gt; method to specify the path of the Excel file. After that, Aspose.Cells.GridWeb control will automatically find the file from the specified path and display its contents. A code snippet that loads the contents of an Excel file is provided below.&lt;/p&gt;
+&lt;p&gt;The above code snippet can be used any way you want. For example, to load an Excel file automatically when a web form loads, add this code to the form&amp;rsquo;s &lt;code&gt;Page_Load&lt;/code&gt; event. If you want to open a file when a button is clicked, add a button to the web form and write the above code under the button&amp;rsquo;s &lt;code&gt;Click&lt;/code&gt; event.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;An Excel file is loaded when a button is clicked&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5013740/5115432.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;If your file system is NTFS, you should grant read access permission to the ASPNET or Everyone user accounts or you will get an access denied exception at runtime.&lt;/p&gt;
+&lt;h3 id=&#34;import-from-stream&#34;&gt;Import from Stream&lt;/h3&gt;
+&lt;p&gt;As well as opening Excel files from file, the Aspose.Cells.GridWeb control can load Excel files from a stream. Using file as a stream is a better approach to prohibit any kind of file access or sharing violation problems because this approach ensures closing all connections to the files by closing the stream.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Export Microsoft Excel File</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridweb/export&#43;microsoft&#43;excel&#43;file/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridweb/export&#43;microsoft&#43;excel&#43;file/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--export-microsoft-excel-file&#34;&gt;Aspose.Cells for .NET : Export Microsoft Excel File&lt;/h1&gt;
+&lt;p&gt;It is possible to create new, or manipulate existing Microsoft Excel files, on websites in GUI mode using Aspose.Cells.GridWeb control. The files can then be saved to Excel files. Aspose.Cells.GridWeb effectively serves as an online spreadsheet editor. This topic describes how to save grid content to Excel files.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#export-excel-files&#34;&gt;Export Excel Files&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#export-as-a-file&#34;&gt;Export as a File&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.2 &lt;a href=&#34;#export-as-a-stream&#34;&gt;Export as a Stream&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;export-excel-files&#34;&gt;Export Excel Files&lt;/h2&gt;
+&lt;h3 id=&#34;export-as-a-file&#34;&gt;Export as a File&lt;/h3&gt;
+&lt;p&gt;To save the content of Aspose.Cells.GridWeb control as an Excel file:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Add the Aspose.Cells.GridWeb control to your web form.&lt;/li&gt;
+&lt;li&gt;Save your work as an Excel file at a specified path.&lt;/li&gt;
+&lt;li&gt;Run the application.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;If you don&amp;rsquo;t know about how to add Aspose.Cells.GridWeb control to your web form then you should refer to &lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/gridweb/workingwithgridweb/add+gridweb+to+web+form&#34;&gt;Add GridWeb to Web Form&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;When Aspose.Cells.GridWeb control is added to a windows form, the control is automatically instantiated and added to the form with a default size. You don&amp;rsquo;t have to create an Aspose.Cells.GridWeb control object, all you have to do is drag and drop the control and start using it.&lt;/p&gt;
+&lt;p&gt;The code example below illustrates how to save grid content to an Excel file.&lt;/p&gt;
+&lt;p&gt;If your file system is NTFS, grant read/write access to the ASPNET or Everyone user accounts or you will get an access denied exception at runtime.&lt;/p&gt;
+&lt;p&gt;The above code snippet can be used in several ways. A common way is to add a button that saves the grid content to an Excel file when clicked. Aspose.Cells.GridWeb offers an easier approach for task. Aspose.Cells.GridWeb has an event called &lt;code&gt;SaveCommand&lt;/code&gt;. The above code snippet can be added to the &lt;code&gt;SaveCommand&lt;/code&gt; event&amp;rsquo;s event handler which allow users to save their work by clicking the Aspose.Cells.GridWeb&amp;rsquo;s in-built &lt;strong&gt;Save&lt;/strong&gt; button.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The GridWeb&amp;rsquo;s SaveCommand event&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5013751/5115435.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Saving grid content to Excel by clicking GridWeb&amp;rsquo;s in-built Save button&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5013751/5115436.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;If you are working in Visual Studio you can easily create the &lt;code&gt;SaveCommand&lt;/code&gt; event&amp;rsquo;s event handler by double-clicking the event in the &lt;strong&gt;Properties&lt;/strong&gt; pane. To learn more about this, please refer to &lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/gridweb/workingwithgridweb/working+with+gridweb+events&#34;&gt;Working with GridWeb Events&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;export-as-a-stream&#34;&gt;Export as a Stream&lt;/h3&gt;
+&lt;p&gt;It is also possible to save grid content to a stream (for example &lt;code&gt;MemoryStream&lt;/code&gt;).&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Enable Different GridWeb Modes</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridweb/enable&#43;different&#43;gridweb&#43;modes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridweb/enable&#43;different&#43;gridweb&#43;modes/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--enable-different-gridweb-modes&#34;&gt;Aspose.Cells for .NET : Enable Different GridWeb Modes&lt;/h1&gt;
+&lt;p&gt;This article describes &lt;code&gt;Aspose.Cells.GridWeb&lt;/code&gt;&#39;s different modes. These modes are differentiated logically due to their different features and behaviors. We have identified several types of mode:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Edit Mode&lt;/li&gt;
+&lt;li&gt;View Mode&lt;/li&gt;
+&lt;li&gt;Session Mode&lt;/li&gt;
+&lt;li&gt;Sessionless Mode&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;All of these modes have their own characteristics. Developers can work with &lt;code&gt;Aspose.Cells.GridWeb&lt;/code&gt; in any mode according to their requirements. We&amp;rsquo;ll look at each mode below.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#edit-mode&#34;&gt;Edit Mode&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#view-mode&#34;&gt;View Mode&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#session-mode&#34;&gt;Session Mode&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;4 &lt;a href=&#34;#sessionless-mode&#34;&gt;Sessionless Mode&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;edit-mode&#34;&gt;Edit Mode&lt;/h2&gt;
+&lt;p&gt;By default, the &lt;code&gt;Aspose.Cells.GridWeb&lt;/code&gt; control is in Edit mode. In Edit mode, you can fully edit or modify the grid content using all the features offered by the &lt;code&gt;Aspose.Cells.GridWeb&lt;/code&gt; control. These features include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Saving the grid content to Microsoft Excel files.&lt;/li&gt;
+&lt;li&gt;Submitting data to a server.&lt;/li&gt;
+&lt;li&gt;Calculating formulas.&lt;/li&gt;
+&lt;li&gt;Undoing or discarding previous actions.&lt;/li&gt;
+&lt;li&gt;Managing rows and columns.&lt;/li&gt;
+&lt;li&gt;Cutting, copying or pasting data.&lt;/li&gt;
+&lt;li&gt;Formatting cells etc.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;GridWeb control in Edit Mode&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5013748/5115438.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Developers can also switch to Edit mode programmatically by setting the &lt;code&gt;EditMode&lt;/code&gt; property of the GridWeb control to &lt;code&gt;true&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;The below example shows how to enable edit mode programmatically.&lt;/p&gt;
+&lt;p&gt;Whenever a user clicks the &lt;strong&gt;Undo&lt;/strong&gt; button, it brings the GridWeb to its previous state (the state before the last postback to the server). It does not cancel previous actions one by one.&lt;/p&gt;
+&lt;h2 id=&#34;view-mode&#34;&gt;View Mode&lt;/h2&gt;
+&lt;p&gt;When the GridWeb control is in View mode, users cannot edit or modify grid content, which means that users can only view grid content. That&amp;rsquo;s why this mode is called View mode. In View mode, a few buttons (&lt;strong&gt;Submit&lt;/strong&gt;, &lt;strong&gt;Save&lt;/strong&gt; and &lt;strong&gt;Undo&lt;/strong&gt;) are hidden and the menu that appears when right-clicking only contians the &lt;strong&gt;Copy&lt;/strong&gt; option.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;GridWeb control in View Mode&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5013748/5115438.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;If developers would like their users to only view data then they can switch to View mode programmatically by setting the GridWeb control&amp;rsquo;s &lt;code&gt;EditMode&lt;/code&gt; property to &lt;code&gt;false&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;The below example shows how to enable view mode programmatically&lt;/p&gt;
+&lt;p&gt;Even in View mode, users can change the height and width of rows and columns.&lt;/p&gt;
+&lt;h2 id=&#34;session-mode&#34;&gt;Session Mode&lt;/h2&gt;
+&lt;p&gt;The &lt;code&gt;Aspose.Cells.GridWeb&lt;/code&gt; control holds sheet data in the User Session of the web server between each requests of a web user. It means that GridWeb control always works in Session mode by default. However, if you&amp;rsquo;re not working in Session mode, switch it on by setting GridWEb control#s &lt;code&gt;SessionMode&lt;/code&gt; property to &lt;code&gt;SessionMode.Session&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;The below example shows how to enable session mode programmatically&lt;/p&gt;
+&lt;h2 id=&#34;sessionless-mode&#34;&gt;Sessionless Mode&lt;/h2&gt;
+&lt;p&gt;We have already discussed that Session mode approach provides the best performance by using a user session to load and store sheet data. It does, however, consume server memory. So, if there are large number of concurrent users then memory problems may arise. To save server memory and support large number of concurrent users, consider the Sessionless mode.&lt;/p&gt;
+&lt;p&gt;Sessionless mode can be turned on by setting the GridWeb control&amp;rsquo;s &lt;code&gt;SessionMode&lt;/code&gt; property to &lt;code&gt;SessionMode.ViewState&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;The below example shows how to enable sessionless mode programmatically&lt;/p&gt;
+&lt;p&gt;IMPORTANT: When the GridWeb&amp;rsquo;s &lt;code&gt;SessionMode&lt;/code&gt; property is set to &lt;code&gt;SessionMode.ViewState&lt;/code&gt;, the grid stores data in the page&amp;rsquo;s &lt;code&gt;ViewState&lt;/code&gt;. That means the rendered page is larger, and consumes more network traffic.&lt;/p&gt;
+&lt;p&gt;If you want to use SQL Server or StateServer to hold sessions, use Session mode. The GridWeb control supports serializing its data to SQL Server or StateServer.&lt;/p&gt;
+&lt;p&gt;Please check the following article for more help.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/gridweb/workingwithgridweb/working+of+gridweb+when+asp.net+session+state+mode+is+sql+server&#34;&gt;Working of GridWeb when ASP.NET Session state mode is SQL Server&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Working with GridWeb Events</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridweb/working&#43;with&#43;gridweb&#43;events/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridweb/working&#43;with&#43;gridweb&#43;events/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--working-with-gridweb-events&#34;&gt;Aspose.Cells for .NET : Working with GridWeb Events&lt;/h1&gt;
+&lt;p&gt;All programmers must be familiar with events and their purpose. Events are used to send notifications of changes that may occur in a control or class. Aspose.Cells.GridWeb has several events that can be used to perform specific tasks when certain changes occur in the control.&lt;/p&gt;
+&lt;p&gt;This topic provides an introduction to all events supported by the Aspose.Cells.GridWeb control along with some details on how to handle these events.&lt;/p&gt;
+
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#working-with-grid-events&#34;&gt;Working with Grid Events&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#introduction-to-grid-events&#34;&gt;Introduction to Grid Events&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#handling-grid-events&#34;&gt;Handling Grid Events&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;2.1 &lt;a href=&#34;#step-1:-selecting-an-event-of-aspose.cells.gridweb-control&#34;&gt;Step 1: Selecting an Event of Aspose.Cells.GridWeb Control&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2.2 &lt;a href=&#34;#step-2:-creating-an-event-handler&#34;&gt;Step 2: Creating an Event Handler&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2.3 &lt;a href=&#34;#step-3:-running-your-application&#34;&gt;Step 3: Running Your Application&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;working-with-grid-events&#34;&gt;Working with Grid Events&lt;/h2&gt;
+&lt;h3 id=&#34;introduction-to-grid-events&#34;&gt;Introduction to Grid Events&lt;/h3&gt;
+&lt;p&gt;Aspose.Cells.GridWeb control supports several events that provide more control for performing operations when specific events are triggered in the control. A complete list of events supported by Aspose.Cells.GridWeb control can be found below.&lt;/p&gt;
+&lt;p&gt;This list doesn&amp;rsquo;t include events inherited by &lt;code&gt;Aspose.Cells.GridWeb&lt;/code&gt; from the &lt;code&gt;Control&lt;/code&gt; class.&lt;/p&gt;
+
+&lt;div class=&#34;table table-striped&#34; role=&#34;alert&#34;&gt;
+    &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Events&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CellCommand&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Occurs when the command hyperlink of a cell is clicked. When this event is fired, its parameter &lt;code&gt;e.Argument&lt;/code&gt; provides the command&amp;rsquo;s name.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CellDoubleClick&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Occurs when the cell is double clicked.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CellError&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Occurs when a cell&amp;rsquo;s input value has some error.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;ColumnDeleted&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Occurs when a user deletes a column from a worksheet using client side menu.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;ColumnDeleting&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Occurs when a user is trying to delete a column from a worksheet using client side menu.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;ColumnDoubleClick&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Occurs when the column header is double clicked.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;ColumnInserted&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Occurs when a user inserts a column into worksheet using client side menu.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CustomCommand&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Occurs when a user clicks a custom command button.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;LoadCustomData&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Occurs when the control&amp;rsquo;s &lt;code&gt;EnableSession&lt;/code&gt; property is set to false and needs to load worksheet data. You may handle this event in sessionless mode to load worksheet data from a file or database.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PageIndexChanged&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Occurs when the control&amp;rsquo;s sheet page index is changed.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;RowDeleted&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Occurs when a user deletes a row from a worksheet using client side menu.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;RowDeleting&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Occurs when a user is trying to delete a row from a worksheet using client side menu.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;RowDoubleClick&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Occurs when the row header is double clicked.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;RowInserted&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Occurs when a user inserts a row into worksheet using client side menu.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;SaveCommand&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Occurs when the &lt;strong&gt;Save&lt;/strong&gt; button is clicked.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;SheetDataUpdated&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Occurs when the control has loaded the posted data and updated the worksheet data.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;SheetTabClick&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Occurs when a sheet tab is clicked.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;SubmitCommand&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Occurs when the &lt;strong&gt;Submit&lt;/strong&gt; button is clicked.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;UndoCommand&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Occurs when the &lt;strong&gt;Undo&lt;/strong&gt; button is clicked.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;AjaxCallFinished&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Fires when the AJAX update of the control finished. (the EnableAJAX shall be set to true).&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CellModifiedOnAjax&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Fires when the cell is modified in AJAX call.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;OnAfterColumnFilter&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Fires after the filter has applied on a column.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;OnBeforeColumnFilter&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Fires before the filter is applied on a column.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+
+&lt;h2 id=&#34;handling-grid-events&#34;&gt;Handling Grid Events&lt;/h2&gt;
+&lt;p&gt;To perform a specific operation on triggering a specific event, we have to create an event handler. An event handler performs the desired task when a certain event is triggered. The steps illustrated below shows how to handle a simple grid event using Visual Studio.&lt;/p&gt;
+&lt;h3 id=&#34;step-1-selecting-an-event-of-asposecellsgridweb-control&#34;&gt;Step 1: Selecting an Event of Aspose.Cells.GridWeb Control&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Select the Aspose.Cells.GridWeb control and open its Properties dialog on the right side.&lt;/li&gt;
+&lt;li&gt;Click the &lt;strong&gt;Events Tab&lt;/strong&gt; button.&lt;/li&gt;
+&lt;li&gt;Select an event.&lt;br&gt;
+For this example, the &lt;code&gt;SaveCommand&lt;/code&gt; event is selected.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;step-2-creating-an-event-handler&#34;&gt;Step 2: Creating an Event Handler&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Double-click an event in the Properties dialog.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Double clicking on a selected event&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5013749/5115439.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;When the event is double-clicked, an event handler is automatically created by Visual Studio.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;An event handler created by Visual Studio&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5013749/5115440.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Add code to perform some action inside the event handler.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Here, a single line of code that saves the grid content to an Excel file when the &lt;strong&gt;Save&lt;/strong&gt; button is clicked has been added.&lt;/p&gt;
+&lt;p&gt;To get more information, move the cursor above to see some code then you will find out that Visual Studio is intelligent enough to add an event handler to the GridWeb&amp;rsquo;s &lt;code&gt;SaveCommand&lt;/code&gt; event.&lt;/p&gt;
+&lt;h3 id=&#34;step-3-running-your-application&#34;&gt;Step 3: Running Your Application&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Build and run the application.&lt;/li&gt;
+&lt;li&gt;Click &lt;strong&gt;Save&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The grid content is saved to an Excel file.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Application in running mode&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5013749/5115441.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Working with GridWeb Double Click Events</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridweb/working&#43;with&#43;gridweb&#43;double&#43;click&#43;events/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridweb/working&#43;with&#43;gridweb&#43;double&#43;click&#43;events/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--working-with-gridweb-double-click-events&#34;&gt;Aspose.Cells for .NET : Working with GridWeb Double Click Events&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells.GridWeb contains three types of double-click events:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;CellDoubleClick, fired when a cell is double-clicked.&lt;/li&gt;
+&lt;li&gt;ColumnDoubleClick, fired when a column header is double-clicked.&lt;/li&gt;
+&lt;li&gt;RowDoubleClick, fired when a row header is double-clicked.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This topic discusses how to enable double-click events in Aspose.Cells.GridWeb. It also discusses creating event handlers for these events.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#enabling-double-click-events&#34;&gt;Enabling Double Click Events&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#handling-double-click-events&#34;&gt;Handling Double Click Events&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;2.1 &lt;a href=&#34;#double-click-cell&#34;&gt;Double Click Cell&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2.2 &lt;a href=&#34;#double-click-column-header&#34;&gt;Double Click Column Header&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2.3 &lt;a href=&#34;#double-click-row-header&#34;&gt;Double Click Row Header&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;enabling-double-click-events&#34;&gt;Enabling Double Click Events&lt;/h2&gt;
+&lt;p&gt;All types of double click events can be enabled client-side by setting the GridWeb control&amp;rsquo;s &lt;code&gt;EnableDoubleClickEvent&lt;/code&gt; property to true.&lt;/p&gt;
+&lt;p&gt;By default, the &lt;code&gt;EnableDoubleClickEvent&lt;/code&gt; property is set to false. This means that double click events are not enabled by default. To implement such events, first enable the feature.&lt;/p&gt;
+&lt;p&gt;Once double-click events are enabled, it is possible to create event handlers for any double-click events. These event handlers perform specific tasks when a given double-click event is fired.&lt;/p&gt;
+&lt;h2 id=&#34;handling-double-click-events&#34;&gt;Handling Double Click Events&lt;/h2&gt;
+&lt;p&gt;To create an event handler in Visual Studio:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Double-click an event in the &lt;strong&gt;Events&lt;/strong&gt; list in the Properties pane.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;For this example, we implemented event handlers for various double-click events.&lt;/p&gt;
+&lt;h3 id=&#34;double-click-cell&#34;&gt;Double Click Cell&lt;/h3&gt;
+&lt;p&gt;The event handler for the &lt;code&gt;CellDoubleClick&lt;/code&gt; event provides an argument of the &lt;code&gt;CellEventArgs&lt;/code&gt; type, which provides the complete information of the cell that is double-clicked.&lt;/p&gt;
+&lt;h3 id=&#34;double-click-column-header&#34;&gt;Double Click Column Header&lt;/h3&gt;
+&lt;p&gt;The event handler for the &lt;code&gt;ColumnDoubleClick&lt;/code&gt; event provides an argument of the &lt;code&gt;RowColumnEventArgs&lt;/code&gt; type that provides the index number of the column for the header that was double-clicked and other information.&lt;/p&gt;
+&lt;h3 id=&#34;double-click-row-header&#34;&gt;Double Click Row Header&lt;/h3&gt;
+&lt;p&gt;The event handler for the &lt;code&gt;RowDoubleClick&lt;/code&gt; event provides an argument of the &lt;code&gt;RowColumnEventArgs&lt;/code&gt; type that provides the index number of the row for the header that was double-clicked and other related information.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Print GridWeb</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridweb/print&#43;gridweb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridweb/print&#43;gridweb/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--print-gridweb&#34;&gt;Aspose.Cells for .NET : Print GridWeb&lt;/h1&gt;
+&lt;p&gt;There are times when developers need to print the GridWeb contents from a web page without saving the result as Microsoft Excel spreadsheet file. The Aspose.Cells.GridWeb control supports this feature via client side function.&lt;/p&gt;
+&lt;h2 id=&#34;printing-gridweb&#34;&gt;Printing GridWeb&lt;/h2&gt;
+&lt;p&gt;In order to print the contents, the Aspose.Cells.GridWeb for .NET has exposed the &lt;code&gt;GridWeb.Print&lt;/code&gt; client-side function which can be used in a JavaScript call as demonstrated below.&lt;/p&gt;
+&lt;p&gt;Once the JavaScript function is in place, it can be triggered on any event of choice. Please check the following ASP.NET snippet which uses the above defined JavaScript function on a button click event.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Create Custom Command Buttons</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridweb/create&#43;custom&#43;command&#43;buttons/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridweb/create&#43;custom&#43;command&#43;buttons/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--create-custom-command-buttons&#34;&gt;Aspose.Cells for .NET : Create Custom Command Buttons&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells.GridWeb contains special buttons like &lt;strong&gt;Submit&lt;/strong&gt;, &lt;strong&gt;Save&lt;/strong&gt; and &lt;strong&gt;Undo&lt;/strong&gt;. All these buttons perform specific tasks for Aspose.Cells.GridWeb.&lt;br&gt;
+It is also possible to add custom buttons that performs custom tasks. This topic explains how to use this feature.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#creating-custom-command-buttons&#34;&gt;Creating Custom Command Buttons&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#event-handling-of-custom-command-button&#34;&gt;Event Handling of Custom Command Button&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;creating-custom-command-buttons&#34;&gt;Creating Custom Command Buttons&lt;/h2&gt;
+&lt;p&gt;To create a custom command button in Aspose.Cells.GridWeb:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Add Aspose.Cells.GridWeb control to the web form.&lt;/li&gt;
+&lt;li&gt;Access a worksheet.&lt;/li&gt;
+&lt;li&gt;Create an instance of the &lt;code&gt;CustomCommandButton&lt;/code&gt; class.&lt;/li&gt;
+&lt;li&gt;Set button&amp;rsquo;s &lt;code&gt;Command&lt;/code&gt; to some value. This value is used in the button&amp;rsquo;s event handler.&lt;/li&gt;
+&lt;li&gt;Set the button&amp;rsquo;s text.&lt;/li&gt;
+&lt;li&gt;Set the button&amp;rsquo;s image URL.&lt;/li&gt;
+&lt;li&gt;Finally, add the &lt;code&gt;CustomCommandButton&lt;/code&gt; object to the &lt;code&gt;CustomCommandButtons&lt;/code&gt; collection of the GridWeb control.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Custom command buttons can also be added in WYSIWYG mode using Visual Studio&amp;rsquo;s Properties dialog.&lt;/p&gt;
+&lt;p&gt;The output of code snippet is shown below:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;A custom command button added to GridWeb control&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5013753/5115333.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;event-handling-of-custom-command-button&#34;&gt;Event Handling of Custom Command Button&lt;/h3&gt;
+&lt;p&gt;The most important aspect of custom command buttons is the action they perform when clicked. To set the action, create an event handler for the GridWeb control&amp;rsquo;s &lt;code&gt;CustomCommand&lt;/code&gt; event.&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;CustomCommand&lt;/code&gt; event is always triggered when a custom command button is clicked. So the event handler has to identify the specific custom command button that it applies to by the &lt;code&gt;Command&lt;/code&gt; set when adding the button to the GridWib control. Finally, add custom code that is executed when the button is clicked.&lt;/p&gt;
+&lt;p&gt;In the code example below, a text message is added to the cell A1 when the button is clicked.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Text added to A1 cell when custom command button is clicked&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5013753/5115334.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Enable GridWeb EditBox</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridweb/enable&#43;gridweb&#43;editbox/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridweb/enable&#43;gridweb&#43;editbox/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--enable-gridweb-editbox&#34;&gt;Aspose.Cells for .NET : Enable GridWeb EditBox&lt;/h1&gt;
+&lt;p&gt;The GridWeb&amp;rsquo;s Edit Box is a toolbar that is rendered at the top of control that you can use to see/enter or copy data/formula into cells. It also shows the cell&amp;rsquo;s name which you are editing. After clicking the frame or when you start writing data or type an equal (=) symbol, the Edit Box will be activated.&lt;/p&gt;
+&lt;h2 id=&#34;setting-the-edit-box-of-asposecellsgridweb&#34;&gt;Setting the Edit Box of Aspose.Cells.GridWeb&lt;/h2&gt;
+&lt;p&gt;The GridWeb control provides the &lt;code&gt;ShowCellEditBox&lt;/code&gt; property to which developers can assign it to &amp;ldquo;True&amp;rdquo; to make the toolbar on. The default value of the attribute is False. When you set its value to &amp;ldquo;True&amp;rdquo;, the Edit Box will appear on the top of the GridWeb control.&lt;/p&gt;
+&lt;p&gt;To enable this feature, you need to import &amp;ldquo;jquery.js&amp;rdquo; file to your project and refer it in your .aspx page(s) to make it work. You may download the jQuery archive from &lt;a href=&#34;https://jqueryui.com/download/all/&#34;&gt;https://jqueryui.com/download/all/&lt;/a&gt; and put the library file(s) into some folder in the project and add reference to the library file via &lt;script&gt; tag in your .aspx web form as following. All the latest jQuery versions are OK.&lt;/p&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_1a826b005e&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_1a826b005e&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;head&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;id&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Head1&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;runat&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;server&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;title&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Untitled&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Page&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;title&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;script&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;type&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;text/javascript&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;src&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;/jquery/jquery.js&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;script&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;head&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+ 
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;p&gt;&lt;strong&gt;GridWeb control with Edit Box&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5013754/5115331.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;example&#34;&gt;Example&lt;/h3&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Get GridWeb Release or Version</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridweb/get&#43;gridweb&#43;release&#43;or&#43;version/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridweb/get&#43;gridweb&#43;release&#43;or&#43;version/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--get-gridweb-release-or-version&#34;&gt;Aspose.Cells for .NET : Get GridWeb Release or Version&lt;/h1&gt;
+&lt;p&gt;Please use the &lt;code&gt;Aspose.Cells.GridWeb.GridWeb.GetVersion()&lt;/code&gt; method to get the release or running version of Aspose.Cells.GridWeb. This version will help you to find the GridWeb version on run time through code.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#get-the-release-or-running-version-of-aspose.cells.gridweb&#34;&gt;Get the Release or Running Version of Aspose.Cells.GridWeb&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#find-the-version-number-of-client-side-script-file-of-gridweb&#34;&gt;Find the version number of client side script file of GridWeb&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;get-the-release-or-running-version-of-asposecellsgridweb&#34;&gt;Get the Release or Running Version of Aspose.Cells.GridWeb&lt;/h2&gt;
+&lt;p&gt;The following sample code finds the running version of Aspose.Cells.GridWeb and prints it on &lt;code&gt;ASP.NET Label Control&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;find-the-version-number-of-client-side-script-file-of-gridweb&#34;&gt;Find the version number of client side script file of GridWeb&lt;/h2&gt;
+&lt;p&gt;You can also find the version number of &lt;code&gt;acwmain.js&lt;/code&gt; which is the client side script file of GridWeb. It contains a variable &lt;code&gt;acw_version&lt;/code&gt; which holds the version number of &lt;code&gt;acwmain.js&lt;/code&gt; file. You can print the version number of &lt;code&gt;acwmain.js&lt;/code&gt; file on console like this&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Add or Remove Context Menu Items in GridWeb</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridweb/add&#43;or&#43;remove&#43;context&#43;menu&#43;items&#43;in&#43;gridweb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridweb/add&#43;or&#43;remove&#43;context&#43;menu&#43;items&#43;in&#43;gridweb/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--add-or-remove-context-menu-items-in-gridweb&#34;&gt;Aspose.Cells for .NET : Add or Remove Context Menu Items in GridWeb&lt;/h1&gt;
+&lt;p&gt;You can add context menu items using ASP.NET markup or using the .NET code. You can also remove context menu items using the .NET code. Please use &lt;code&gt;GridWeb.CustomCommandButtons.Add()&lt;/code&gt; and &lt;code&gt;GridWeb.CustomCommandButtons.Remove() or RemoveAt()&lt;/code&gt; methods for these purpose.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#add-context-menu-item-using-asp.net-markup&#34;&gt;Add Context Menu Item using ASP.NET Markup&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#add-context-menu-items-in-aspose.cells.gridweb-using-code&#34;&gt;Add Context Menu Items in Aspose.Cells.GridWeb using Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#remove-context-menu-items-in-aspose.cells.gridweb-using-code&#34;&gt;Remove Context Menu Items in Aspose.Cells.GridWeb using Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;add-context-menu-item-using-aspnet-markup&#34;&gt;Add Context Menu Item using ASP.NET Markup&lt;/h2&gt;
+&lt;p&gt;The following ASP.NET markup adds context menu item in GridWeb.&lt;/p&gt;
+&lt;p&gt;Here is the full ASP.NET markup that creates a GridWeb with above context menu item. Please note the &lt;code&gt;OnCustomCommand=&amp;quot;GridWeb1_CustomCommand&amp;quot;&lt;/code&gt; attribute. It is the event handler name that will be called when your context menu item will be clicked.&lt;/p&gt;
+&lt;p&gt;The is how the context menu item looks like after being added using the above ASP.NET markup.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5013783/5115332.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;This is the event handler code which is executed when the context menu item is clicked. The code first checks the command name, if it matches our command, it adds a text in cell A1 of active GridWeb worksheet and sets the first column width to 40 units to make text visible.&lt;/p&gt;
+&lt;p&gt;This is how the GridWeb looks when you click on the context menu item.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5013783/5115349.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;add-context-menu-items-in-asposecellsgridweb-using-code&#34;&gt;Add Context Menu Items in Aspose.Cells.GridWeb using Code&lt;/h2&gt;
+&lt;p&gt;This code shows how to add context menu item inside a GridWeb using code.&lt;/p&gt;
+&lt;h2 id=&#34;remove-context-menu-items-in-asposecellsgridweb-using-code&#34;&gt;Remove Context Menu Items in Aspose.Cells.GridWeb using Code&lt;/h2&gt;
+&lt;p&gt;This code shows how to remove context menu item using &lt;code&gt;CustomCommandButtons.Remove()&lt;/code&gt; and &lt;code&gt;CustomCommandButtons.RemoveAt()&lt;/code&gt; methods.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Execute client side function on GridWeb page change</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridweb/execute&#43;client&#43;side&#43;function&#43;on&#43;gridweb&#43;page&#43;change/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridweb/execute&#43;client&#43;side&#43;function&#43;on&#43;gridweb&#43;page&#43;change/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--execute-client-side-function-on-gridweb-page-change&#34;&gt;Aspose.Cells for .NET : Execute client side function on GridWeb page change&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#execute-client-side-function-on-gridweb-page-change&#34;&gt;Execute client side function on GridWeb page change&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;Sometimes you need to execute your client side function when GridWeb page changes. Aspose.Cells.GridWeb provides the &lt;code&gt;OnPageChangeClientFunction&lt;/code&gt; property for this purpose. Please set this property with client side function which you want to execute.&lt;/p&gt;
+&lt;h2 id=&#34;execute-client-side-function-on-gridweb-page-change&#34;&gt;Execute client side function on GridWeb page change&lt;/h2&gt;
+&lt;p&gt;The following aspx markup explains how to make use of the &lt;code&gt;OnPageChangeClientFunction&lt;/code&gt; property. It sets the property with the client side function named &lt;code&gt;MyOnPageChange&lt;/code&gt;. Please note, this property is valid only if you have enabled paging i.e. &lt;code&gt;EnablePaging=&amp;quot;true&amp;quot;&lt;/code&gt;. Now, whenever you will change the GridWeb page, it will call the client side function &lt;code&gt;MyOnPageChange&lt;/code&gt; which prints the &lt;strong&gt;current page index&lt;/strong&gt; on the &lt;strong&gt;console&lt;/strong&gt; as shown in this screenshot.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/40142260/40468496.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+&lt;p&gt;This is the code of the client side function &lt;code&gt;MyOnPageChange&lt;/code&gt; that will be executed because of setting &lt;code&gt;OnPageChangeClientFunction =&amp;quot;MyOnPageChange&amp;quot;&lt;/code&gt; property in GridWeb. This is the complete aspx page markup.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Set Column Header Tip</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridweb/set&#43;column&#43;header&#43;tip/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridweb/set&#43;column&#43;header&#43;tip/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--set-column-header-tip&#34;&gt;Aspose.Cells for .NET : Set Column Header Tip&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#setting-column-header-tip&#34;&gt;Setting Column Header Tip&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;You might need to set tooltip for your custom column while creating the table in the worksheet. Aspose.Cells.GridWeb allows you to rename a column&amp;rsquo;s caption and you may set tooltip to the column, so the users could easily understand what is the column for.&lt;/p&gt;
+&lt;h2 id=&#34;setting-column-header-tip&#34;&gt;Setting Column Header Tip&lt;/h2&gt;
+&lt;p&gt;A complete example is given below to demonstrate how to change columns&amp;rsquo; captions and apply tooltip text. After executing the above example code, tooltip text would be popped out when you place the mouse cursor over the specified column&amp;rsquo;s header as shown below.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/42730054/43352083.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+&lt;p&gt;Here is the sample script of the &lt;strong&gt;ASPX Page&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Here is the sample code of the &lt;strong&gt;ASPX Code Behind CS File&lt;/strong&gt;.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Working of GridWeb when ASP.NET Session state mode is SQL Server</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridweb/working&#43;of&#43;gridweb&#43;when&#43;asp.net&#43;session&#43;state&#43;mode&#43;is&#43;sql&#43;server/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridweb/working&#43;of&#43;gridweb&#43;when&#43;asp.net&#43;session&#43;state&#43;mode&#43;is&#43;sql&#43;server/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--working-of-gridweb-when-aspnet-session-state-mode-is-sql-server&#34;&gt;Aspose.Cells for .NET : Working of GridWeb when ASP.NET Session state mode is SQL Server&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#working-of-gridweb-when-asp.net-session-state-mode-is-sql-server&#34;&gt;Working of GridWeb when ASP.NET Session state mode is SQL Server&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-web.config-session-state-settings&#34;&gt;Sample Web.Config Session State Settings&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;4 &lt;a href=&#34;#reference-article&#34;&gt;Reference Article&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;This article explains working of GridWeb when ASP.NET Session state mode is SQL Server.&lt;/p&gt;
+&lt;h2 id=&#34;working-of-gridweb-when-aspnet-session-state-mode-is-sql-server&#34;&gt;Working of GridWeb when ASP.NET Session state mode is SQL Server&lt;/h2&gt;
+&lt;p&gt;If you want to use &lt;code&gt;SQL Server&lt;/code&gt; or &lt;code&gt;StateServer&lt;/code&gt; to hold sessions, use &lt;code&gt;GridWeb Session Mode&lt;/code&gt;. The GridWeb control now supports serializing its data to SQL Server or StateServer.&lt;/p&gt;
+&lt;p&gt;You will set the &lt;code&gt;GridWeb.SessionMode&lt;/code&gt; to &lt;code&gt;SessionMode.Session&lt;/code&gt; and use the following sample &lt;code&gt;Web.Config&lt;/code&gt; settings. Please change the &lt;code&gt;sessionState&lt;/code&gt; attributes as per your needs.&lt;/p&gt;
+&lt;h2 id=&#34;sample-webconfig-session-state-settings&#34;&gt;Sample Web.Config Session State Settings&lt;/h2&gt;
+&lt;p&gt;&lt;sessionState mode=&#34;SQLServer&#34; sqlConnectionString=&#34;Password=11111111;Persist Security Info=True;User ID=testuser;Data Source=WINSHA-PC\\NASIRSQL&#34; timeout=&#34;20&#34;&gt;&lt;/sessionState&gt;&lt;/p&gt;
+&lt;h2 id=&#34;reference-article&#34;&gt;Reference Article&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/gridweb/workingwithgridweb/enable+different+gridweb+modes&#34;&gt;Enable Different GridWeb Modes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Render Interactive Scrollbar in GridWeb</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridweb/render&#43;interactive&#43;scrollbar&#43;in&#43;gridweb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridweb/render&#43;interactive&#43;scrollbar&#43;in&#43;gridweb/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--render-interactive-scrollbar-in-gridweb&#34;&gt;Aspose.Cells for .NET : Render Interactive Scrollbar in GridWeb&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#render-interactive-scrollbar-in-gridweb&#34;&gt;Render Interactive Scrollbar in GridWeb&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;Aspose.Cells for GridWeb can render interactive scroll bar control inside the GridWeb worksheet. User can interact with the scroll bar like they do in Microsoft Excel. In order to create interactive scroll bar, you must add the links for &lt;strong&gt;jQuery&lt;/strong&gt; and &lt;strong&gt;jQuery UI&lt;/strong&gt; libraries as shown below.&lt;/p&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_63977b2483&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_63977b2483&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;head&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;runat&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;server&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+	&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;link&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;rel&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;stylesheet&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;href&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;/Scripts/jquery-ui.css&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+	&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;script&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;src&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;/Scripts/jquery-2.1.1.js&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;script&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+	&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;script&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;src&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;/Scripts/jquery-ui.js&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;script&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;head&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;h2 id=&#34;render-interactive-scrollbar-in-gridweb&#34;&gt;Render Interactive Scrollbar in GridWeb&lt;/h2&gt;
+&lt;p&gt;The following sample code loads the &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/61540702/61767764.xlsx&#34;&gt;sample Excel file&lt;/a&gt; containing the scroll bar as shown in the following screenshot. The other screenshots show how the GridWeb renders interactive scroll bar and displays the value of scroll bar in cell B3. Whenever you scroll the scroll bar, the value of cell B3 shows the resulting value.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/61540702/61767763.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/61540702/61767760.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/61540702/61767761.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/61540702/61767762.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_b9c507bbc7&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_b9c507bbc7&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;%&lt;/span&gt;&lt;span style=&#34;color:#a40000&#34;&gt;@&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Page&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Language&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;C#&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;AutoEventWireup&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;true&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;CodeFile&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;TestGridWeb.aspx.cs&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Inherits&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;TestGridWeb&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;%&amp;gt;&lt;/span&gt;
+
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;%&lt;/span&gt;&lt;span style=&#34;color:#a40000&#34;&gt;@&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Register&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;TagPrefix&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;acw&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Namespace&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Aspose.Cells.GridWeb&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Assembly&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Aspose.Cells.GridWeb&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;%&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;!&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;DOCTYPE&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;html&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;PUBLIC&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;-//W3C//DTD XHTML 1.0 Transitional//EN&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;html&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;xmlns&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;http://www.w3.org/1999/xhtml&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;head&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;runat&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;server&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+   
+	&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;link&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;rel&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;stylesheet&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;href&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;/Scripts/jquery-ui.css&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+	&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;script&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;src&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;/Scripts/jquery-2.1.1.js&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;script&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+	&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;script&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;src&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;/Scripts/jquery-ui.js&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;script&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+   
+    &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;title&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Test&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;GridWeb&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;title&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;head&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;body&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;form&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;id&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;form1&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;runat&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;server&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+        &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;div&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+            &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;div&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+                &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;b&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;GridWeb&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Version&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&amp;amp;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;nbsp&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;b&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+                &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;asp&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Label&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;ID&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;lblVersion&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;runat&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;server&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Text&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Label&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;asp&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Label&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+                &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;br&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;/&amp;gt;&lt;/span&gt;
+            &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;div&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+            &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;acw&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;GridWeb&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;ID&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;GridWeb1&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;runat&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;server&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;XhtmlMode&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;True&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Height&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;504px&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Width&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;1119px&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+            &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;acw&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;GridWeb&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+        &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;div&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;form&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;body&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;html&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;--------------------------------------------&lt;/span&gt;
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;--------------------------------------------&lt;/span&gt;
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;--------------------------------------------&lt;/span&gt;
+
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

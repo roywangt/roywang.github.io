@@ -1,0 +1,101 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Aspose.Cells Java for Jython</title>
+    <link>https://roywangt.github.io/cells/java/plugins/jython/</link>
+    <description>Recent content in Aspose.Cells Java for Jython on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://roywangt.github.io/cells/java/plugins/jython/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Java: Download and Configure Aspose.Cells in Jython</title>
+      <link>https://roywangt.github.io/cells/java/plugins/jython/download&#43;and&#43;configure&#43;aspose.cells&#43;in&#43;jython/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/plugins/jython/download&#43;and&#43;configure&#43;aspose.cells&#43;in&#43;jython/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--download-and-configure-asposecells-in-jython&#34;&gt;Aspose.Cells for Java : Download and Configure Aspose.Cells in Jython&lt;/h1&gt;
+&lt;h3 id=&#34;downloading&#34;&gt;Downloading&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Download Examples from social coding websites&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Following releases of running examples are available to download on all of the below mentioned social coding sites:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://asposecellsjavajython.codeplex.com/&#34;&gt;CodePlex&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose-Cells-Java-for-Jython&#34;&gt;Github&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Download Aspose.Cells for Java component&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.aspose.com/community/files/72/java-components/aspose.cells-for-java/default.aspx&#34;&gt;Aspose.Cells for Java&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;installing&#34;&gt;Installing&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Place downloaded Aspose.Cells for Java jar file into &amp;ldquo;lib&amp;rdquo; directory.&lt;/li&gt;
+&lt;li&gt;Replace &amp;ldquo;your-lib&amp;rdquo; with the downloaded jar filename in _&lt;em&gt;init&lt;/em&gt;_.py file.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;using&#34;&gt;Using&lt;/h3&gt;
+&lt;p&gt;You can create HelloWorld document using following example code:&lt;/p&gt;
+&lt;p&gt;from aspose-cells  import Settingsfrom com.aspose.Cells import Documentfrom com.aspose.Cells import DocumentBuilderclass HelloWorld:    def __init__(self):        dataDir = Settings.dataDir + &amp;lsquo;quickstart/&amp;rsquo;                workbook = Workbook()                sheet = workbook.getWorksheets().get(0)                cell = sheet.getCells().get(&amp;ldquo;A1&amp;rdquo;)                cell.setValue(&amp;ldquo;Hello World!&amp;quot;)                file_format_type = FileFormatType                workbook.save(dataDir + &amp;ldquo;HelloWorld.xls&amp;rdquo; , file_format_type.EXCEL_97_TO_2003 )                print &amp;ldquo;Document has been saved, please check the output file.&amp;quot;;if __name__ == &amp;lsquo;__main__&#39;:    HelloWorld()&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Jython Programmers Guide</title>
+      <link>https://roywangt.github.io/cells/java/plugins/jython/guide/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/plugins/jython/guide/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--jython-programmers-guide&#34;&gt;Aspose.Cells for Java : Jython Programmers Guide&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;This section includes the following topics:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/plugins/jython/guide/quickstart/&#34;&gt;Quick Start in Jython&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/plugins/jython/guide/files/&#34;&gt;Working With Files in Jython&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/plugins/jython/guide/rowsandcolumns/&#34;&gt;Working With Rows And Columns in Jython&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/plugins/jython/guide/worksheets/&#34;&gt;Working With Worksheets in Jython&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Support Extend and Contribute to Aspose.Cells in Jython</title>
+      <link>https://roywangt.github.io/cells/java/plugins/jython/support&#43;extend&#43;and&#43;contribute&#43;to&#43;aspose.cells&#43;in&#43;jython/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/plugins/jython/support&#43;extend&#43;and&#43;contribute&#43;to&#43;aspose.cells&#43;in&#43;jython/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--support-extend-and-contribute-to-asposecells-in-jython&#34;&gt;Aspose.Cells for Java : Support, Extend and Contribute to Aspose.Cells in Jython&lt;/h1&gt;
+&lt;h3 id=&#34;support&#34;&gt;Support&lt;/h3&gt;
+&lt;p&gt;From the very first days of Aspose, we knew that just giving our customers good products would not be enough. We also needed to deliver good service. We are developers ourselves and understand how frustrating it is when a technical issue or a quirk in the software stops you from doing what you need to do. We&amp;rsquo;re here to solve problems, not create them.&lt;/p&gt;
+&lt;p&gt;This is why we offer free support. Anyone who uses our product, whether they have bought them or are using an evaluation, deserves our full attention and respect.&lt;/p&gt;
+&lt;p&gt;You can log any issues or suggestions related to Aspose.Cells Java for Jython using any of the following platforms:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://asposecellsjavajython.codeplex.com/workitem/list/basic&#34;&gt;CodePlex&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/aspose-cells/Aspose.Cells-for-Java/issues&#34;&gt;Github&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;extend-and-contribute&#34;&gt;Extend and Contribute&lt;/h3&gt;
+&lt;p&gt;Aspose.Cells Java for Jython is open source and its source code is available on the major social coding websites listed below. Developers are encouraged to download the source code and contribute by suggesting or adding new feature or improving the existing ones, so that others could also benefit from it.&lt;/p&gt;
+&lt;h3 id=&#34;source-code&#34;&gt;Source Code&lt;/h3&gt;
+&lt;p&gt;You can get the latest source code from one of the following locations&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://asposecellsjavajython.codeplex.com/releases/view/619599&#34;&gt;CodePlex&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose-Cells-Java-for-Jython&#34;&gt;Github&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

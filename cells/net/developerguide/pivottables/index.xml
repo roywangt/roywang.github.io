@@ -1,0 +1,660 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Pivot Tables</title>
+    <link>https://roywangt.github.io/cells/net/developerguide/pivottables/</link>
+    <description>Recent content in Pivot Tables on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://roywangt.github.io/cells/net/developerguide/pivottables/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Net: Formatting Pivot Table</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/pivottables/formatting&#43;pivot&#43;table/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/pivottables/formatting&#43;pivot&#43;table/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--formatting-pivot-table&#34;&gt;Aspose.Cells for .NET : Formatting Pivot Table&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#pivot-table-appearance&#34;&gt;Pivot Table Appearance&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#setting-pivot-table-format-options&#34;&gt;Setting Pivot Table Format Options&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1.1 &lt;a href=&#34;#setting-the-autoformat-type&#34;&gt;Setting the AutoFormat Type&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.1.2 &lt;a href=&#34;#setting-format-options&#34;&gt;Setting Format Options&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.1.3 &lt;a href=&#34;#formatting-look-and-feel-manually&#34;&gt;Formatting Look and Feel Manually&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;1.2 &lt;a href=&#34;#setting-pivot-field-format-options&#34;&gt;Setting Pivot Field Format Options&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.2.1 &lt;a href=&#34;#setting-row/column/page-fields-format&#34;&gt;Setting Row/Column/Page Fields Format&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;1.3 &lt;a href=&#34;#setting-data-fields-format&#34;&gt;Setting Data fields format&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.4 &lt;a href=&#34;#clearing-pivot-fields&#34;&gt;Clearing Pivot Fields&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;pivot-table-appearance&#34;&gt;Pivot Table Appearance&lt;/h2&gt;
+&lt;p&gt;How to Create a Pivot Table explains how to create a simple pivot table. This article describes how to customize a pivot table&amp;rsquo;s appearance by setting various properties:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Pivot table format options&lt;/li&gt;
+&lt;li&gt;Pivot fields format options&lt;/li&gt;
+&lt;li&gt;Data field format options&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;setting-pivot-table-format-options&#34;&gt;Setting Pivot Table Format Options&lt;/h3&gt;
+&lt;p&gt;The &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.pivot/pivottable&#34;&gt;PivotTable&lt;/a&gt; class controls the overall pivot table and can be formatted in a number of ways.&lt;/p&gt;
+&lt;h4 id=&#34;setting-the-autoformat-type&#34;&gt;Setting the AutoFormat Type&lt;/h4&gt;
+&lt;p&gt;Microsoft Excel offers a number of different pre-set report formats. Aspose.Cells support these formatting options too. To access them:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Set &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.pivot/pivottable/properties/isautoformat&#34;&gt;PivotTable.IsAutoFormat&lt;/a&gt; to &lt;strong&gt;true&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Assign a formatting option from the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.pivot/pivottableautoformattype&#34;&gt;PivotTableAutoFormatType&lt;/a&gt; enumeration.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;setting-format-options&#34;&gt;Setting Format Options&lt;/h4&gt;
+&lt;p&gt;The code sample below shows how to format the pivot table to show grand totals for rows and columns, and how to set the report&amp;rsquo;s field order. It also shows how to set a customer string for null values.&lt;/p&gt;
+&lt;h4 id=&#34;formatting-look-and-feel-manually&#34;&gt;Formatting Look and Feel Manually&lt;/h4&gt;
+&lt;p&gt;To formatting how the pivot table report looks manually, instead of using pre-set report formats, use the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.pivot/pivottable/methods/format&#34;&gt;PivotTable.Format()&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.pivot/pivottable/methods/formatall&#34;&gt;PivotTable.FormatAll()&lt;/a&gt; methods. Create a style object for your desired formatting, for example:&lt;/p&gt;
+&lt;h3 id=&#34;setting-pivot-field-format-options&#34;&gt;Setting Pivot Field Format Options&lt;/h3&gt;
+&lt;p&gt;The &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.pivot/pivotfield&#34;&gt;PivotField&lt;/a&gt; class represents a field in a pivot table and can be formatted in a number of ways. The code sample below shows how to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Access row fields.&lt;/li&gt;
+&lt;li&gt;Setting subtotals.&lt;/li&gt;
+&lt;li&gt;Setting autorsort.&lt;/li&gt;
+&lt;li&gt;Setting autorshow.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;setting-rowcolumnpage-fields-format&#34;&gt;Setting Row/Column/Page Fields Format&lt;/h4&gt;
+&lt;h3 id=&#34;setting-data-fields-format&#34;&gt;Setting Data fields format&lt;/h3&gt;
+&lt;p&gt;The code sample below shows how to set display formats and number format for data fields.&lt;/p&gt;
+&lt;h3 id=&#34;clearing-pivot-fields&#34;&gt;Clearing Pivot Fields&lt;/h3&gt;
+&lt;p&gt;The &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.pivot/pivotfieldcollection&#34;&gt;PivotFieldCollection&lt;/a&gt; has a method named &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.pivot/pivotfieldcollection/methods/clear&#34;&gt;Clear()&lt;/a&gt; that allows you to clear pivot fields. Use it when you want to clear all the pivot fields in the areas, for example, page, column, row or data.&lt;br&gt;
+The code sample below shows how to clear all the pivot fields in a data area.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Consolidation Function</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/pivottables/consolidation&#43;function/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/pivottables/consolidation&#43;function/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--consolidation-function&#34;&gt;Aspose.Cells for .NET : Consolidation Function&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#consolidation-function&#34;&gt;Consolidation function&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#applying-consolidationfunction-to-data-fields-of-pivot-table&#34;&gt;Applying ConsolidationFunction to Data Fields of Pivot Table&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;consolidation-function&#34;&gt;Consolidation function&lt;/h2&gt;
+&lt;p&gt;Aspose.Cells can be used to apply ConsolidationFunction to data fields (or value fields) of the pivot table. In Microsoft Excel, you can right-click the value field and then select &lt;strong&gt;Value Field Settings&amp;hellip;&lt;/strong&gt; option and then select the tab &lt;strong&gt;Summarize Values By&lt;/strong&gt;. From there, you can select any ConsolidationFunction of your choice like Sum, Count, Average, Max, Min, Product, Distinct Count, etc.&lt;/p&gt;
+&lt;p&gt;Aspose.Cells provides &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/consolidationfunction&#34;&gt;ConsolidationFunction&lt;/a&gt; enumeration to support the following consolidation functions.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;ConsolidationFunction.Average&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ConsolidationFunction.Count&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ConsolidationFunction.CountNums&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ConsolidationFunction.DistinctCount&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ConsolidationFunction.Max&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ConsolidationFunction.Min&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ConsolidationFunction.Product&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ConsolidationFunction.StdDev&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ConsolidationFunction.StdDevp&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ConsolidationFunction.Sum&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ConsolidationFunction.Var&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ConsolidationFunction.Varp&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;applying-consolidationfunction-to-data-fields-of-pivot-table&#34;&gt;Applying ConsolidationFunction to Data Fields of Pivot Table&lt;/h3&gt;
+&lt;p&gt;The following code applies &lt;strong&gt;Average&lt;/strong&gt; consolidation function to the first data field (or value field) and &lt;strong&gt;DistinctCount&lt;/strong&gt; consolidation function to the second data field (or value field).&lt;/p&gt;
+&lt;p&gt;DistinctCount consolidation function is supported by Microsoft Excel 2013 only.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Pivot Table and Source Data</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/pivottables/pivot&#43;table&#43;and&#43;source&#43;data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/pivottables/pivot&#43;table&#43;and&#43;source&#43;data/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--pivot-table-and-source-data&#34;&gt;Aspose.Cells for .NET : Pivot Table and Source Data&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#create-pivot-table&#34;&gt;Create Pivot Table&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#create-pivot-table-using-microsoft-excel&#34;&gt;Create Pivot Table Using Microsoft Excel&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.2 &lt;a href=&#34;#create-pivot-table-using-aspose.cells&#34;&gt;Create Pivot Table Using Aspose.Cells&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#pivot-table&#39;s-source-data&#34;&gt;Pivot Table&amp;rsquo;s Source Data&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;2.1 &lt;a href=&#34;#changing-a-pivot-table&#39;s-source-data&#34;&gt;Changing a Pivot Table&amp;rsquo;s Source Data&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;create-pivot-table&#34;&gt;Create Pivot Table&lt;/h2&gt;
+&lt;p&gt;It is possible to use Aspose.Cells to add pivot tables to spreadsheets programmatically.&lt;/p&gt;
+&lt;h3 id=&#34;create-pivot-table-using-microsoft-excel&#34;&gt;Create Pivot Table Using Microsoft Excel&lt;/h3&gt;
+&lt;p&gt;Aspose.Cells provides a special set of classes in the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.pivot/&#34;&gt;Aspose.Cells.Pivot&lt;/a&gt; namespace that are used to create and control pivot tables. These classes are used to create and set &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.pivot/pivottable&#34;&gt;PivotTable&lt;/a&gt; objects, the building blocks of a pivot table. The objects are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.pivot/pivotfield&#34;&gt;PivotField&lt;/a&gt; represents a field in a &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.pivot/pivottable&#34;&gt;PivotTable&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.pivot/pivotfieldcollection&#34;&gt;PivotFieldCollection&lt;/a&gt; represents a collection of all the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.pivot/pivotfield&#34;&gt;PivotField&lt;/a&gt; objects in the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.pivot/pivottable&#34;&gt;PivotTable&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.pivot/pivottable&#34;&gt;PivotTable&lt;/a&gt; represents a PivotTable on a worksheet.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.pivot/pivottablecollection&#34;&gt;PivotTableCollection&lt;/a&gt; represents a collection of all the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.pivot/pivottable&#34;&gt;PivotTable&lt;/a&gt; objects on a worksheet.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;create-pivot-table-using-asposecells&#34;&gt;Create Pivot Table Using Aspose.Cells&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Add data to a worksheet using the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/cell&#34;&gt;Cell&lt;/a&gt; object&amp;rsquo;s &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/cell/methods/putvalue/index&#34;&gt;PutValue&lt;/a&gt; method.&lt;br&gt;
+This data will be used as the pivot table&amp;rsquo;s data source.&lt;/li&gt;
+&lt;li&gt;Add a pivot table to the worksheet by calling the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.pivot/pivottablecollection&#34;&gt;PivotTables&lt;/a&gt; collection&amp;rsquo;s &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.pivot/pivottablecollection/methods/add/index&#34;&gt;add&lt;/a&gt; method, which is encapsulated in the Worksheet object.&lt;/li&gt;
+&lt;li&gt;Access the new &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.pivot/pivottable&#34;&gt;PivotTable&lt;/a&gt; object from the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.pivot/pivottablecollection&#34;&gt;PivotTables&lt;/a&gt; collection by passing the PivotTable index.&lt;/li&gt;
+&lt;li&gt;Use any of the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.pivot/pivottable&#34;&gt;PivotTable&lt;/a&gt; objects (explained above) to manage the pivot table.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;After executing the example code, a pivot table is added to the worksheet.&lt;/p&gt;
+&lt;p&gt;When assigning a range of cells as the data source, the range must go from top left to bottom right. For example, &amp;ldquo;A1:C3&amp;rdquo; is valid but &amp;ldquo;C3:A1&amp;rdquo; is not.&lt;/p&gt;
+&lt;h2 id=&#34;pivot-tables-source-data&#34;&gt;Pivot Table&amp;rsquo;s Source Data&lt;/h2&gt;
+&lt;p&gt;There are times when you want to create Microsoft Excel reports with pivot tables that take data from different data sources (such as a database) that are not known at design time. This article provides an approach to dynamically change a pivot table&amp;rsquo;s data source.&lt;/p&gt;
+&lt;h3 id=&#34;changing-a-pivot-tables-source-data&#34;&gt;Changing a Pivot Table&amp;rsquo;s Source Data&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Creating a new designer template.
+&lt;ol&gt;
+&lt;li&gt;Create a new designer template file as in the screenshot below.&lt;/li&gt;
+&lt;li&gt;Then define a named range, &lt;strong&gt;DataSource&lt;/strong&gt;, which refers to this range of cells.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Creating a Pivot Table Based on this named range.
+&lt;ol&gt;
+&lt;li&gt;In Microsoft Excel, choose &lt;strong&gt;Data&lt;/strong&gt;, then &lt;strong&gt;PivotTable&lt;/strong&gt; and &lt;strong&gt;PivotChart Report&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Create a pivot table based on the named range created in the first step.&lt;/li&gt;
+&lt;li&gt;Drag the corresponding field to pivot table row and column, then create the resulting pivot table as in the screenshot below.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Right-click the pivot table and select &lt;strong&gt;Table Options&lt;/strong&gt;.
+&lt;ol&gt;
+&lt;li&gt;Check &lt;strong&gt;Refresh on open&lt;/strong&gt; in &lt;strong&gt;Data options&lt;/strong&gt; settings.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Now, you can save this file as your designer template file.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Populating new data and changing source data of a pivot table.
+&lt;ol&gt;
+&lt;li&gt;Once the designer template is created, use the following code to change the source data of the pivot table.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Executing the example code below changes the source data of the pivot table.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Refresh and Calculate Pivot Table having Calculated Items</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/pivottables/refresh&#43;and&#43;calculate&#43;pivot&#43;table&#43;having&#43;calculated&#43;items/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/pivottables/refresh&#43;and&#43;calculate&#43;pivot&#43;table&#43;having&#43;calculated&#43;items/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--refresh-and-calculate-pivot-table-having-calculated-items&#34;&gt;Aspose.Cells for .NET : Refresh and Calculate Pivot Table having Calculated Items&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells now supports refreshing and calculating pivot table having calculated items. Please use the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.pivot/pivottable/methods/refreshdata&#34;&gt;PivotTable.RefreshData()&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.pivot/pivottable/methods/calculatedata&#34;&gt;PivotTable.CaclulateData()&lt;/a&gt; as usual to perform this function.&lt;/p&gt;
+&lt;h2 id=&#34;refresh-and-calculate-pivot-table-having-calculated-items&#34;&gt;Refresh and Calculate Pivot Table having Calculated Items&lt;/h2&gt;
+&lt;p&gt;The following sample code loads the &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/5013807/5115238.xlsx&#34;&gt;source excel file&lt;/a&gt; which contains a pivot table having three calculated items such as &amp;ldquo;add&amp;rdquo;, &amp;ldquo;div&amp;rdquo;, &amp;ldquo;div2&amp;rdquo;. We first change the value of cell D2 to 20 and then refresh and calculate pivot table using Aspose.Cells APIs and save the workbook in PDF format. The results in the &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/5013807/5115229.pdf&#34;&gt;output PDF&lt;/a&gt; shows that Aspose.Cells refreshed and calculated the pivot table having calculated items successfully. You can verify it using Microsoft Excel by manually putting the value 20 in cell D2 and then refreshing the pivot table via &lt;code&gt;Alt+F5&lt;/code&gt; shortcut key or clicking the pivot table &lt;code&gt;Refresh&lt;/code&gt; button.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Customize Globalization Settings for Pivot Table</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/pivottables/customize&#43;globalization&#43;settings&#43;for&#43;pivot&#43;table/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/pivottables/customize&#43;globalization&#43;settings&#43;for&#43;pivot&#43;table/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--customize-globalization-settings-for-pivot-table&#34;&gt;Aspose.Cells for .NET : Customize Globalization Settings for Pivot Table&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#customize-globalization-settings-for-pivot-table&#34;&gt;Customize Globalization Settings for Pivot Table&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;Sometimes you want to customize the &lt;em&gt;Pivot Total, Sub Total, Grand Total, All Items, Multiple Items, Column Labels, Row Labels, Blank Values&lt;/em&gt; text as per your requirements. Aspose.Cells allows you to customize the globalization settings of the pivot table to deal with such scenarios. You can also use this feature to change the labels to other languages like Arabic, Hindi, Polish, etc.&lt;/p&gt;
+&lt;h2 id=&#34;customize-globalization-settings-for-pivot-table&#34;&gt;Customize Globalization Settings for Pivot Table&lt;/h2&gt;
+&lt;p&gt;The following sample code explains how to customize globalization settings for the pivot table. It creates a class &lt;em&gt;CustomPivotTableGlobalizationSettings&lt;/em&gt; derived from a base class &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/globalizationsettings&#34;&gt;GlobalizationSettings&lt;/a&gt; and overrides all of its necessary methods. These methods return the customized text for the &lt;em&gt;Pivot Total, Sub Total, Grand Total, All Items, Multiple Items, Column Labels, Row Labels, Blank Values&lt;/em&gt;. Then it assigns the object of this class to &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/workbooksettings/properties/globalizationsettings&#34;&gt;WorkbookSettings.GlobalizationSettings&lt;/a&gt; property. The code loads the &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/40142238/40468488.xlsx&#34;&gt;source excel file&lt;/a&gt; that contains the pivot table, refreshes and calculate its data and saves it as &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/40142238/40468487.pdf&#34;&gt;output PDF&lt;/a&gt; file. The following screenshot shows the effect of the sample code on the output PDF. As you can see in the screenshot, different parts of the pivot table have now a customized text returned by the overridden methods of &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/globalizationsettings&#34;&gt;GlobalizationSettings&lt;/a&gt; class.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/40142238/40468489.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Find and Refresh the Nested or Children Pivot Tables of Parent Pivot Table</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/pivottables/find&#43;and&#43;refresh&#43;the&#43;nested&#43;or&#43;children&#43;pivot&#43;tables&#43;of&#43;parent&#43;pivot&#43;table/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/pivottables/find&#43;and&#43;refresh&#43;the&#43;nested&#43;or&#43;children&#43;pivot&#43;tables&#43;of&#43;parent&#43;pivot&#43;table/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--find-and-refresh-the-nested-or-children-pivot-tables-of-parent-pivot-table&#34;&gt;Aspose.Cells for .NET : Find and Refresh the Nested or Children Pivot Tables of Parent Pivot Table&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#find-and-refresh-the-nested-or-children-pivot-tables-of-parent-pivot-table&#34;&gt;Find and Refresh the Nested or Children Pivot Tables of Parent Pivot Table&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;Sometimes, one pivot table uses another pivot table as a data source, so it is called a child pivot table or nested pivot table. You can find the children pivot tables of a parent pivot table using the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.pivot/pivottable/methods/getchildren&#34;&gt;PivotTable.GetChildren()&lt;/a&gt; method.&lt;/p&gt;
+&lt;h2 id=&#34;find-and-refresh-the-nested-or-children-pivot-tables-of-parent-pivot-table&#34;&gt;Find and Refresh the Nested or Children Pivot Tables of Parent Pivot Table&lt;/h2&gt;
+&lt;p&gt;The following sample code loads the &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/61540682/61767747.xlsx&#34;&gt;sample Excel file&lt;/a&gt; that contains three pivot tables. The bottom two pivot tables are the children of the above pivot table as shown in this screenshot. The code finds the children pivot table using the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.pivot/pivottable/methods/getchildren&#34;&gt;PivotTable.GetChildren()&lt;/a&gt; method and then refreshes them one by one.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/61540682/61767748.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Parsing Pivot Cached Records while loading Excel file</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/pivottables/parsing&#43;pivot&#43;cached&#43;records&#43;while&#43;loading&#43;excel&#43;file/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/pivottables/parsing&#43;pivot&#43;cached&#43;records&#43;while&#43;loading&#43;excel&#43;file/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--parsing-pivot-cached-records-while-loading-excel-file&#34;&gt;Aspose.Cells for .NET : Parsing Pivot Cached Records while loading Excel file&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#parsing-pivot-cached-records-while-loading-excel-file&#34;&gt;Parsing Pivot Cached Records while loading Excel file&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;When you create a Pivot Table, Microsoft Excel takes a copy of the source data and stores it in the Pivot Cache. The Pivot Cache is held inside the memory of Microsoft Excel. You cannot see it but that is the data the Pivot Table references when you build your Pivot Table or change a Slicer selection or move rows/columns around. This enables Microsoft Excel to be very responsive to changes in the Pivot Table but it can also double the size of your file. After all, the Pivot Cache is just a duplicate of your source data so it makes sense that your file size will be potentially double.&lt;/p&gt;
+&lt;p&gt;When you load your Excel file inside the Workbook object, you can decide whether you also want to load the records of Pivot Cache or not, using the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/loadoptions/properties/parsingpivotcachedrecords&#34;&gt;LoadOptions.ParsingPivotCachedRecords&lt;/a&gt; property. The default value of this property is &lt;strong&gt;false&lt;/strong&gt;. If Pivot Cache is quite big, it can increase the performance. But if you also want to load the records of Pivot Cache, you should set this property as &lt;strong&gt;true&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;parsing-pivot-cached-records-while-loading-excel-file&#34;&gt;Parsing Pivot Cached Records while loading Excel file&lt;/h2&gt;
+&lt;p&gt;The following sample code explains the usage of &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/loadoptions/properties/parsingpivotcachedrecords&#34;&gt;LoadOptions.ParsingPivotCachedRecords&lt;/a&gt; property. It loads the &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/61540923/61767773.xlsx&#34;&gt;sample Excel file&lt;/a&gt; while parsing the pivot cached records. Then it refreshes the pivot table and saves it as the &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/61540923/61767774.xlsx&#34;&gt;output Excel file&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Group Pivot Fields in the Pivot Table</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/pivottables/group&#43;pivot&#43;fields&#43;in&#43;the&#43;pivot&#43;table/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/pivottables/group&#43;pivot&#43;fields&#43;in&#43;the&#43;pivot&#43;table/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--group-pivot-fields-in-the-pivot-table&#34;&gt;Aspose.Cells for .NET : Group Pivot Fields in the Pivot Table&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#group-pivot-fields-in-the-pivot-table&#34;&gt;Group Pivot Fields in the Pivot Table&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;Microsoft Excel allows you to group pivot fields of the pivot table. When there is a large amount of data related to a pivot field, it is often useful to group them into sections. Aspose.Cells also provides this feature using the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.pivot/pivottable/methods/setmanualgroupfield/index&#34;&gt;PivotTable.SetManualGroupField()&lt;/a&gt; method. &lt;/p&gt;
+&lt;h2 id=&#34;group-pivot-fields-in-the-pivot-table&#34;&gt;Group Pivot Fields in the Pivot Table&lt;/h2&gt;
+&lt;p&gt;The following sample code loads the &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/64454856/64716818.xlsx&#34;&gt;sample Excel file&lt;/a&gt; and performs grouping on the first pivot field using the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.pivot/pivottable/methods/setmanualgroupfield/index&#34;&gt;PivotTable.SetManualGroupField()&lt;/a&gt; method. It then refreshes and calculates data of the pivot table and saves the workbook as &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/64454856/64716817.xlsx&#34;&gt;output Excel file&lt;/a&gt;. The screenshot shows the effect of the sample code on the sample Excel file. As you can see in the screenshot, the first pivot field is now grouped by months and quarters.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/64454856/64716816.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Disable Pivot Table Ribbons</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/pivottables/disable&#43;pivot&#43;table&#43;ribbons/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/pivottables/disable&#43;pivot&#43;table&#43;ribbons/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--disable-pivot-table-ribbons&#34;&gt;Aspose.Cells for .NET : Disable Pivot Table Ribbons&lt;/h1&gt;
+&lt;p&gt;Pivot table based reports are useful but prone to error if target users do not have detailed knowledge of Excel to configure these reports. In these circumstances, organizations will want to restrict users from being able to change a pivot table based report. Common pivot table features like adding additional filters, slicers, fields, or changing the order of certain things in the report are mostly not recommended for every user. On the other hand, these users shall also be able to refresh the report and use existing filters or slicers. Aspose.Cells has provided this ability to developers for restricting users from changing these reports while creating these reports. For this purpose, Excel provides a feature to disable the pivot table ribbon and the same is provided by Aspose.Cells i.e. developer can disable the ribbon which contains controls to modify these reports.&lt;/p&gt;
+&lt;h4 id=&#34;disable-pivot-table-ribbon-using-pivottableenablewizard&#34;&gt;Disable Pivot Table Ribbon using PivotTable.EnableWizard&lt;/h4&gt;
+&lt;p&gt;Following code demonstrates this feature by accessing a pivot table from a sheet and then setting &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.pivot/pivottable/properties/enablewizard&#34;&gt;EnableWizard&lt;/a&gt; to &lt;strong&gt;false&lt;/strong&gt;. Sample pivot table file can be downloaded from this &lt;a href=&#34;https://docs-qa.aspose.com/download/attachments/71303575/pivot_table_test.xlsx?version=1&amp;amp;modificationDate=1536042135788&amp;amp;api=v2&#34;&gt;link&lt;/a&gt;.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Get Pivot Table refresh date and refresh by who information</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/pivottables/get&#43;pivot&#43;table&#43;refresh&#43;date&#43;and&#43;refresh&#43;by&#43;who&#43;information/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/pivottables/get&#43;pivot&#43;table&#43;refresh&#43;date&#43;and&#43;refresh&#43;by&#43;who&#43;information/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--get-pivot-table-refresh-date-and-refresh-by-who-information&#34;&gt;Aspose.Cells for .NET : Get Pivot Table refresh date and refresh by who information&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells now supports fetching the refresh date and refresh by who information from a workbook.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.pivot/pivottable/properties/refreshdate&#34;&gt;PivotTable.RefreshDate&lt;/a&gt; returns the date on which the PivotTable report was last refreshed. Similarly &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.pivot/pivottable/properties/refreshedbywho&#34;&gt;PivotTable.RefreshByWho&lt;/a&gt; property returns the name of the user who refreshed the report last time. Following example demonstrates this feature and sample file can be downloaded from the following link.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/77365364/77496335.xlsx&#34;&gt;SourcePivotTable.xlsx&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Sample Code&lt;/strong&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Show report filter pages option</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/pivottables/show&#43;report&#43;filter&#43;pages&#43;option/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/pivottables/show&#43;report&#43;filter&#43;pages&#43;option/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--show-report-filter-pages-option&#34;&gt;Aspose.Cells for .NET : Show report filter pages option&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#show-report-filter-pages-option&#34;&gt;Show report filter pages option&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;show-report-filter-pages-option&#34;&gt;Show report filter pages option&lt;/h2&gt;
+&lt;p&gt;Excel supports creating pivot tables, adding report filters and enable the &amp;ldquo;Show Report Filter Pages&amp;rdquo; option. Aspose.Cells also supports this feature to enable the &amp;ldquo;Show Report Filter Pages&amp;rdquo; option on the created pivot table. Following is the screen showing the &amp;ldquo;Show Report Filter Pages&amp;rdquo; option in Excel.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/81690914/81920769.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Sample source file and output files can be downloaded from here for testing the sample code:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/81690914/81920786.xlsx&#34;&gt;Source Excel File&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/81690914/81920787.xlsx&#34;&gt;Output Excel File&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Pivot Table Hide and Sort data</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/pivottables/pivot&#43;table&#43;hide&#43;and&#43;sort&#43;data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/pivottables/pivot&#43;table&#43;hide&#43;and&#43;sort&#43;data/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--pivot-table-hide-and-sort-data&#34;&gt;Aspose.Cells for .NET : Pivot Table Hide and Sort data&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#pivot-table-hide-and-sort-data&#34;&gt;Pivot Table Hide and Sort data&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;pivot-table-hide-and-sort-data&#34;&gt;Pivot Table Hide and Sort data&lt;/h2&gt;
+&lt;p&gt;Aspose.Cells supports hiding and sorting data in the pivot table. The following code snippet demonstrates this feature by sorting the Score column in descending order and then hiding the rows with a score less than 60.&lt;/p&gt;
+&lt;p&gt;The source and output excel files used in the code snippet are attached for reference.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/96764769/96928093.xlsx&#34;&gt;Source File&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/96764769/96928094.xlsx&#34;&gt;Output File&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Custom sorting in Pivot Table</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/pivottables/custom&#43;sorting&#43;in&#43;pivot&#43;table/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/pivottables/custom&#43;sorting&#43;in&#43;pivot&#43;table/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--custom-sorting-in-pivot-table&#34;&gt;Aspose.Cells for .NET : Custom sorting in Pivot Table&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#custom-sorting-in-pivot-table&#34;&gt;Custom sorting in Pivot Table&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;custom-sorting-in-pivot-table&#34;&gt;Custom sorting in Pivot Table&lt;/h2&gt;
+&lt;p&gt;By using the Aspose.Cells API, you can sort Pivot Tables on field values. The following code snippet loads the sample excel file and adds three pivot tables. The first pivot table is without custom sorting, the second pivot table is sorted on &amp;ldquo;SeaFood&amp;rdquo; row field values and the third pivot table is sorted on &amp;ldquo;28/07/2000&amp;rdquo; column field values.&lt;/p&gt;
+&lt;p&gt;Sample source file and output files can be downloaded from here for testing the sample code:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/97878786/98107428.xlsx&#34;&gt;Source Excel File&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/97878786/98107429.xlsx&#34;&gt;Output Excel File&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/97878786/98107430.pdf&#34;&gt;Output PDF File&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Working with data display formats of DataField in Pivot Table</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/pivottables/working&#43;with&#43;data&#43;display&#43;formats&#43;of&#43;datafield&#43;in&#43;pivot&#43;table/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/pivottables/working&#43;with&#43;data&#43;display&#43;formats&#43;of&#43;datafield&#43;in&#43;pivot&#43;table/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--working-with-data-display-formats-of-datafield-in-pivot-table&#34;&gt;Aspose.Cells for .NET : Working with data display formats of DataField in Pivot Table&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#%22rank-smallest-to-largest%22-and-%22rank-largest-to-smallest%22-display-format-option&#34;&gt;&amp;ldquo;Rank Smallest to Largest&amp;rdquo; and &amp;ldquo;Rank Largest to Smallest&amp;rdquo; display format option&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt;Aspose.Cells supports all the data display formats of DataField.&lt;/p&gt;
+&lt;h2 id=&#34;rank-smallest-to-largest-and-rank-largest-to-smallest-display-format-option&#34;&gt;&amp;ldquo;Rank Smallest to Largest&amp;rdquo; and &amp;ldquo;Rank Largest to Smallest&amp;rdquo; display format option&lt;/h2&gt;
+&lt;p&gt;Aspsoe.Cells provides the ability to set the display format option for pivot fields. For this, the API provides the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.pivot/pivotfield/properties/datadisplayformat&#34;&gt;PivotField.DataDisplayFormat&lt;/a&gt; property. To rank largest to smallest, you may set the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.pivot/pivotfield/properties/datadisplayformat&#34;&gt;PivotField.DataDisplayFormat&lt;/a&gt; property to &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.pivot/pivotfielddatadisplayformat&#34;&gt;PivotFieldDataDisplayFormat.RankLargestToSmallest&lt;/a&gt;. The following code snippet demonstrates setting the display format options.&lt;/p&gt;
+&lt;p&gt;Sample source and output files can be downloaded from here for testing the sample code:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/101122967/101089332.xlsx&#34;&gt;Source Excel File&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/101122967/101089333.xlsx&#34;&gt;Output Excel File&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Get External Connection Data Source of Pivot Table</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/pivottables/get&#43;external&#43;connection&#43;data&#43;source&#43;of&#43;pivot&#43;table/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/pivottables/get&#43;external&#43;connection&#43;data&#43;source&#43;of&#43;pivot&#43;table/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--get-external-connection-data-source-of-pivot-table&#34;&gt;Aspose.Cells for .NET : Get External Connection Data Source of Pivot Table&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#get-external-connection-data-source-of-pivot-table&#34;&gt;Get External Connection Data Source of Pivot Table&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;get-external-connection-data-source-of-pivot-table&#34;&gt;Get External Connection Data Source of Pivot Table&lt;/h2&gt;
+&lt;p&gt;Aspose.Cells provides the ability to get the external connection data source of the pivot table. For this, the API provides the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.pivot/pivottable/properties/externalconnectiondatasource&#34;&gt;ExternalConnectionDataSource&lt;/a&gt; property of the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.pivot/pivottable&#34;&gt;PivotTable&lt;/a&gt; class. The &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.pivot/pivottable/properties/externalconnectiondatasource&#34;&gt;ExternalConnectionDataSource&lt;/a&gt; property returns the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.externalconnections/externalconnection&#34;&gt;ExternalConnection&lt;/a&gt; object. The following code snippet demonstrates the use of the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.pivot/pivottable/properties/externalconnectiondatasource&#34;&gt;PivotTable.ExternalConnectionDataSource&lt;/a&gt; property to get the external connection data source of the pivot table.&lt;/p&gt;
+&lt;p&gt;The source file used in the code snippet is attached for reference.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/104267858/104398862.xlsx&#34;&gt;Source File&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

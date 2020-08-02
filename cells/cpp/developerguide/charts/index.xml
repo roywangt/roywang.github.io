@@ -1,0 +1,687 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Charts</title>
+    <link>https://roywangt.github.io/cells/cpp/developerguide/charts/</link>
+    <description>Recent content in Charts on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://roywangt.github.io/cells/cpp/developerguide/charts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Cpp: Creating and Customizing Charts</title>
+      <link>https://roywangt.github.io/cells/cpp/developerguide/charts/creating&#43;and&#43;customizing&#43;charts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/cpp/developerguide/charts/creating&#43;and&#43;customizing&#43;charts/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-c--creating-and-customizing-charts&#34;&gt;Aspose.Cells for C++ : Creating and Customizing Charts&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#pyramid-chart&#34;&gt;Pyramid Chart&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#line-chart&#34;&gt;Line Chart&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;4 &lt;a href=&#34;#bubble-chart&#34;&gt;Bubble Chart&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;5 &lt;a href=&#34;#creating-custom-charts&#34;&gt;Creating Custom Charts&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;A chart is a visual display of information. Aspose.Cells allows developers to visualize information in charts just as Microsoft Excel does. Presenting information in charts is always helpful to decision-makers for making quick and timely decisions. It&amp;rsquo;s easier to quickly see comparisons, patterns, and trends in data with charts rather than raw numbers. Creating charts at runtime, based on the data in a spreadsheet, is one of Aspose.Cells&amp;rsquo; useful feature. Aspose.Cells supports creating both Standard and Customized charts. Below, we will show a few examples with sample files on how to create some common MS-Excel chart types using Aspose.Cells API.&lt;/p&gt;
+&lt;h2 id=&#34;pyramid-chart&#34;&gt;Pyramid Chart&lt;/h2&gt;
+&lt;p&gt;When the example code is executed, a pyramid chart is added to the worksheet. Please see the &lt;a href=&#34;https://docs2.aspose.com/cells/cpp/attachments/66257135/66519068.xlsx&#34;&gt;output Excel file&lt;/a&gt; of the following sample code.&lt;/p&gt;
+&lt;h2 id=&#34;line-chart&#34;&gt;Line Chart&lt;/h2&gt;
+&lt;p&gt;In the above example, simply changing the &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/namespace/aspose.cells.charts/#a2f17e69bcefc754569019185d0621b70&#34;&gt;ChartType&lt;/a&gt; to &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/namespace/aspose.cells.charts/#a2f17e69bcefc754569019185d0621b70ad12ff1561ab1424a0c3095b6dc07ac25&#34;&gt;ChartType_Line&lt;/a&gt; creates a line chart. The complete source is provided below. when the code is executed, a line chart is added to the worksheet. Please see the &lt;a href=&#34;https://docs2.aspose.com/cells/cpp/attachments/66257135/66519069.xlsx&#34;&gt;output Excel file&lt;/a&gt; of the following sample code.&lt;/p&gt;
+&lt;h2 id=&#34;bubble-chart&#34;&gt;Bubble Chart&lt;/h2&gt;
+&lt;p&gt;In order to create a bubble chart, the &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/namespace/aspose.cells.charts/#a2f17e69bcefc754569019185d0621b70&#34;&gt;ChartType&lt;/a&gt; has to be set to &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/namespace/aspose.cells.charts/#a2f17e69bcefc754569019185d0621b70a5efa533b454f9415e4497dbb2ab28b3d&#34;&gt;ChartType_Bubble&lt;/a&gt; and few extra properties such as &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.charts.i_series/#a00cf890ba7ab419d31a522ab52b02e9d&#34;&gt;SetBubbleSizes&lt;/a&gt; &amp;amp; &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.charts.i_series/#a788ff4aa51dbf9bed5327298af93a6db&#34;&gt;SetXValues&lt;/a&gt; need to be set accordingly. Upon executing the following code, a bubble chart is added to the worksheet. Please see the &lt;a href=&#34;https://docs2.aspose.com/cells/cpp/attachments/66257135/66519070.xlsx&#34;&gt;output Excel file&lt;/a&gt; of the following sample code.&lt;/p&gt;
+&lt;h2 id=&#34;creating-custom-charts&#34;&gt;Creating Custom Charts&lt;/h2&gt;
+&lt;p&gt;So far, when we&amp;rsquo;ve discussed charts, we&amp;rsquo;ve looked at standard charts that have their own standard formatting settings. We only define the data source, set a few properties and the chart is created with its default format settings. But Aspose.Cells APIs also supports creating custom charts that allow developers to create charts with their own format settings. Developers can create custom charts at run-time using Aspose.Cells. &lt;/p&gt;
+&lt;p&gt;A chart is composed of a data series. When creating a custom chart, developers have the freedom to use different types of charts for different data series.&lt;/p&gt;
+&lt;p&gt;The example code below demonstrates how to create custom charts. In this example, we are going to use a column chart for the first data series and a line chart for the second series. The result is that we add a column chart, combined with a line chart, to the worksheet. Please see the &lt;a href=&#34;https://docs2.aspose.com/cells/cpp/attachments/66257135/66519071.xlsx&#34;&gt;output Excel file&lt;/a&gt; of the following sample code.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Cpp: Read and Manipulate Excel 2016 Charts</title>
+      <link>https://roywangt.github.io/cells/cpp/developerguide/charts/read&#43;and&#43;manipulate&#43;excel&#43;2016&#43;charts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/cpp/developerguide/charts/read&#43;and&#43;manipulate&#43;excel&#43;2016&#43;charts/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-c--read-and-manipulate-excel-2016-charts&#34;&gt;Aspose.Cells for C++ : Read and Manipulate Excel 2016 Charts&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#read-and-manipulate-excel-2016-charts&#34;&gt;Read and Manipulate Excel 2016 Charts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;4 &lt;a href=&#34;#console-output&#34;&gt;Console Output&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;Aspose.Cells supports the reading and manipulation of Microsoft Excel 2016 charts which are not present in Microsoft Excel 2013 or earlier versions.&lt;/p&gt;
+&lt;h2 id=&#34;read-and-manipulate-excel-2016-charts&#34;&gt;Read and Manipulate Excel 2016 Charts&lt;/h2&gt;
+&lt;p&gt;The following sample code loads the &lt;a href=&#34;https://docs2.aspose.com/cells/cpp/attachments/66257152/66519072.xlsx&#34;&gt;sample Excel file&lt;/a&gt; which contains Excel 2016 charts in the first worksheet. It reads all charts one by one and changes its title as per its chart type. The following screenshot shows the sample Excel file before the execution of the code. As you can see, the chart title is the same for all charts.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/cpp/attachments/66257152/66519082.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The following screenshot shows the &lt;a href=&#34;https://docs2.aspose.com/cells/cpp/attachments/66257152/66519073.xlsx&#34;&gt;output Excel file&lt;/a&gt; after the execution of code. As you can see, the chart title is changed as per its chart type.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/cpp/attachments/66257152/66519083.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+&lt;h2 id=&#34;console-output&#34;&gt;Console Output&lt;/h2&gt;
+&lt;p&gt;Here is the console output of the above sample code when executed with the provided sample Excel file.&lt;/p&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_a7991d3caf&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_a7991d3caf&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Waterfall&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Treemap&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Sunburst&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Histogram&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;BoxWhisker&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Cpp: Chart Rendering</title>
+      <link>https://roywangt.github.io/cells/cpp/developerguide/charts/chart&#43;rendering/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/cpp/developerguide/charts/chart&#43;rendering/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-c--chart-rendering&#34;&gt;Aspose.Cells for C++ : Chart Rendering&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#creating-charts&#34;&gt;Creating Charts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#rendering-charts&#34;&gt;Rendering Charts&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;2.1 &lt;a href=&#34;#rendering-charts-to-images&#34;&gt;Rendering Charts to Images&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2.2 &lt;a href=&#34;#rendering-chart-to-pdf&#34;&gt;Rendering Chart to PDF&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#supported-chart-types-for-rendering&#34;&gt;Supported Chart Types for Rendering&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;creating-charts&#34;&gt;Creating Charts&lt;/h2&gt;
+&lt;p&gt;Aspose.Cells APIs support to create a verity of Excel charts as detailed under the topic &lt;a href=&#34;http://www.aspose.com/docs/display/cellscpp/Creating+and+Customizing+Charts&#34;&gt;Creating &amp;amp; Customizing Excel Charts&lt;/a&gt;. In order to demonstrate the usage of Aspose.Cells APIs to render the charts in image &amp;amp; PDF format, we will create a chart of type Column as per following snippet.&lt;/p&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_6b8a1868db&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_6b8a1868db&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;
+    &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// Create a new workbook
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;	&lt;span style=&#34;color:#000&#34;&gt;intrusive_ptr&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;IWorkbook&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;workbook&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Factory&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;::&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;CreateIWorkbook&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;();&lt;/span&gt;
+	&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// Get first worksheet which is created by default
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;	&lt;span style=&#34;color:#000&#34;&gt;intrusive_ptr&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;IWorksheet&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;worksheet&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;workbook&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;GetIWorksheets&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;()-&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;GetObjectByIndex&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;0&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+	&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// Adding sample values to cells
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;	&lt;span style=&#34;color:#000&#34;&gt;worksheet&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;GetICells&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;()-&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;GetObjectByIndex&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;String&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;A1&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;))-&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;PutValue&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;50&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+	&lt;span style=&#34;color:#000&#34;&gt;worksheet&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;GetICells&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;()-&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;GetObjectByIndex&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;String&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;A2&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;))-&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;PutValue&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;100&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+	&lt;span style=&#34;color:#000&#34;&gt;worksheet&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;GetICells&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;()-&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;GetObjectByIndex&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;String&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;A3&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;))-&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;PutValue&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;150&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+	&lt;span style=&#34;color:#000&#34;&gt;worksheet&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;GetICells&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;()-&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;GetObjectByIndex&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;String&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;B1&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;))-&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;PutValue&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;4&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+	&lt;span style=&#34;color:#000&#34;&gt;worksheet&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;GetICells&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;()-&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;GetObjectByIndex&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;String&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;B2&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;))-&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;PutValue&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;20&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+	&lt;span style=&#34;color:#000&#34;&gt;worksheet&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;GetICells&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;()-&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;GetObjectByIndex&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;String&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;B3&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;))-&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;PutValue&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;50&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+	&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// Adding a chart to the worksheet
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;	&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;int&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;chartIndex&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;worksheet&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;GetICharts&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;()-&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Add&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Aspose&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;::&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Cells&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;::&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Charts&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;::&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;ChartType&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;::&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;ChartType_Column&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;5&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;0&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;20&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;8&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+	&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// Accessing the instance of the newly added chart
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;	&lt;span style=&#34;color:#000&#34;&gt;intrusive_ptr&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Aspose&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;::&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Cells&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;::&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Charts&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;::&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;IChart&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;chart&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;worksheet&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;GetICharts&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;()-&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;GetObjectByIndex&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;chartIndex&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+	&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// Adding SeriesCollection (chart data source) to the chart ranging from &amp;#34;A1&amp;#34; cell to &amp;#34;B3&amp;#34;
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;	&lt;span style=&#34;color:#000&#34;&gt;chart&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;GetNISeries&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;()-&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Add&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;String&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;A1:B3&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;),&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;true&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;h2 id=&#34;rendering-charts&#34;&gt;Rendering Charts&lt;/h2&gt;
+&lt;p&gt;Aspose.Cells APIs support to convert the Excel Charts to images and PDF formats without requiring any additional tools or applications. In order to provide the rendering support, the &lt;code&gt;Chart&lt;/code&gt; class has exposed T&lt;code&gt;oImage&lt;/code&gt; &amp;amp; T&lt;code&gt;oPdf&lt;/code&gt; methods with a verity of overloads to best suit the application requirements.&lt;/p&gt;
+&lt;h4 id=&#34;rendering-charts-to-images&#34;&gt;Rendering Charts to Images&lt;/h4&gt;
+&lt;p&gt;The &lt;code&gt;Chart.toImage&lt;/code&gt; method has a verity of overloads to support simple as well as advanced rendering. If the application requirement is to render the chart in its default dimensions, we suggest you to use the &lt;code&gt;Chart.toImage&lt;/code&gt; method as follow.&lt;/p&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_49f8a7d4b9&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_49f8a7d4b9&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// Output directory path
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;StringPtr&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;outDir&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;String&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;..\\Data\\02_OutputDirectory\\&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// Path of output image file
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;StringPtr&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;outputChartImage&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;outDir&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;StringAppend&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;String&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;out1image.png&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;));&lt;/span&gt;
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// Saving the chart to image file
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;chart&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;ToImage&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;outputChartImage&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Aspose&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;::&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Cells&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;::&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;System&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;::&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Drawing&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;::&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Imaging&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;::&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;ImageFormat&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;::&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;GetPng&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;());&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;h4 id=&#34;rendering-chart-to-pdf&#34;&gt;Rendering Chart to PDF&lt;/h4&gt;
+&lt;p&gt;In order to render the chart to PDF format, the Aspose.Cells APIs have exposed the Chart.ToPdf method with ability to store the resultant PDF on disc path or Stream.&lt;/p&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_c89a2c9bf2&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_c89a2c9bf2&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// Path of output pdf file
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;StringPtr&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;outputPdfFile&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;outDir&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;StringAppend&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;String&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;out1pdf.pdf&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;));&lt;/span&gt;
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// Saving chart to PDF
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;chart&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;ToPdf&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;outputPdfFile&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;h2 id=&#34;supported-chart-types-for-rendering&#34;&gt;Supported Chart Types for Rendering&lt;/h2&gt;
+&lt;p&gt;There are a few chart types that are currently not supported for rendering. Such chart types contain &lt;strong&gt;N&lt;/strong&gt; in the &lt;strong&gt;Supported&lt;/strong&gt; column of below table.&lt;/p&gt;
+
+&lt;div class=&#34;table table-striped&#34; role=&#34;alert&#34;&gt;
+    &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Chart type&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Chart sub-type&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Supported&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Column&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Column&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;ColumnStacked&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Column100PercentStacked&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Column3DClustered&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Column3DStacked&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Column3D100PercentStacked&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Column3D&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Bar&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bar&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;BarStacked&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bar100PercentStacked&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bar3DClustered&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bar3DStacked&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bar3D100PercentStacked&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Line&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Line&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;LineStacked&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Line100PercentStacked&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;LineWithDataMarkers&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;LineStackedWithDataMarkers&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Line100PercentStackedWithDataMarkers&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Line3D&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Pie&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Pie&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Pie3D&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PiePie&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PieExploded&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Pie3DExploded&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PieBar&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Scatter&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Scatter&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;ScatterConnectedByCurvesWithDataMarker&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;ScatterConnectedByCurvesWithoutDataMarker&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;ScatterConnectedByLinesWithDataMarker&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;ScatterConnectedByLinesWithoutDataMarker&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Area&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Area&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;AreaStacked&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Area100PercentStacked&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Area3D&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Area3DStacked&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Area3D100PercentStacked&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Doughnut&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Doughnut&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;DoughnutExploded&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Radar&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Radar&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;RadarWithDataMarkers&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;RadarFilled&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Surface&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Surface3D&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;N&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;SurfaceWireframe3D&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;N&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;SurfaceContour&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;N&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;SurfaceContourWireframe&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;N&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Bubble&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bubble&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bubble3D&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;N&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Stock&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;StockHighLowClose&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;StockOpenHighLowClose&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;StockVolumeHighLowClose&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;StockVolumeOpenHighLowClose&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Cylinder&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Cylinder&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;CylinderStacked&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Cylinder100PercentStacked&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;CylindricalBar&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;CylindricalBarStacked&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;CylindricalBar100PercentStacked&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;CylindricalColumn3D&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Cone&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Cone&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;ConeStacked&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Cone100PercentStacked&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;ConicalBar&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;ConicalBarStacked&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;ConicalBar100PercentStacked&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;ConicalColumn3D&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Pyramid&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Pyramid&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PyramidStacked&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Pyramid100PercentStacked&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PyramidBar&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PyramidBarStacked&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PyramidBar100PercentStacked&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PyramidColumn3D&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Y&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

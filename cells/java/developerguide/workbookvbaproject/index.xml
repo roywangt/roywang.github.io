@@ -1,0 +1,512 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Workbook VBA Project</title>
+    <link>https://roywangt.github.io/cells/java/developerguide/workbookvbaproject/</link>
+    <description>Recent content in Workbook VBA Project on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://roywangt.github.io/cells/java/developerguide/workbookvbaproject/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Java: Add a library reference to VBA project in workbook</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/workbookvbaproject/add&#43;a&#43;library&#43;reference&#43;to&#43;vba&#43;project&#43;in&#43;workbook/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/workbookvbaproject/add&#43;a&#43;library&#43;reference&#43;to&#43;vba&#43;project&#43;in&#43;workbook/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--add-a-library-reference-to-vba-project-in-workbook&#34;&gt;Aspose.Cells for Java : Add a library reference to VBA project in workbook&lt;/h1&gt;
+&lt;p&gt;In Microsoft Excel, you can add a library reference to the VBA project by clicking the &lt;strong&gt;Tools &amp;gt; References&amp;hellip;&lt;/strong&gt; manually. It will open the following dialog box which will help you to select from existing references or browse your library yourself.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276484/5472935.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;But sometimes, you need to add or register the library reference to the VBA project through code. You can do it using Aspose.Cells &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/vbaprojectreferencecollection#addRegisteredReference(java.lang.String,%20java.lang.String)&#34;&gt;VbaProject.getReferences().addRegisteredReference()&lt;/a&gt; method.&lt;/p&gt;
+&lt;h4 id=&#34;add-a-library-reference-to-vba-project-in-workbook&#34;&gt;Add a library reference to VBA project in workbook&lt;/h4&gt;
+&lt;p&gt;The following sample code adds or registers two library references to the VBA project of the workbook using &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/vbaprojectreferencecollection#addRegisteredReference(java.lang.String,%20java.lang.String)&#34;&gt;VbaProject.getReferences().addRegisteredReference()&lt;/a&gt; method.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Adding VBA Module and Code using Aspose.Cells</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/workbookvbaproject/adding&#43;vba&#43;module&#43;and&#43;code&#43;using&#43;aspose.cells/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/workbookvbaproject/adding&#43;vba&#43;module&#43;and&#43;code&#43;using&#43;aspose.cells/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--adding-vba-module-and-code-using-asposecells&#34;&gt;Aspose.Cells for Java : Adding VBA Module and Code using Aspose.Cells&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells allows you to add a new VBA Module and Macro Code using Aspose.Cells. Please use the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/vbamodulecollection#add(com.aspose.cells.Worksheet)&#34;&gt;Workbook.getVbaProject().getModules().add()&lt;/a&gt; method to add the new VBA Module inside the workbook&lt;/p&gt;
+&lt;h4 id=&#34;adding-vba-module-and-code-using-asposecells&#34;&gt;Adding VBA Module and Code using Aspose.Cells&lt;/h4&gt;
+&lt;p&gt;The following sample code creates a new workbook and adds a new VBA Module and Macro Code and saves the output in the XLSM format. Once, you will open the output XLSM file in Microsoft Excel and click the &lt;strong&gt;Developer &amp;gt; Visual Basic&lt;/strong&gt; menu commands, you will see a module named &amp;ldquo;TestModule&amp;rdquo; and inside it, you will see the following macro code.&lt;/p&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_92277c1dc7&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_92277c1dc7&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Sub&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;ShowMessage&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;()&lt;/span&gt;
+    &lt;span style=&#34;color:#000&#34;&gt;MsgBox&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Welcome to Aspose!&amp;#34;&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;End&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Sub&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;p&gt;Here is a sample code to generate the output XLSM file with VBA Module and Macro Code.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Check if VBA Code is Signed</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/workbookvbaproject/check&#43;if&#43;vba&#43;code&#43;is&#43;signed/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/workbookvbaproject/check&#43;if&#43;vba&#43;code&#43;is&#43;signed/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--check-if-vba-code-is-signed&#34;&gt;Aspose.Cells for Java : Check if VBA Code is Signed&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells allows the user to check if the VBA code project is signed or not. Please use the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/vbaproject#IsSigned&#34;&gt;Workbook.getVbaProject().isSigned()&lt;/a&gt; method to check if the VBA code project is signed or not.&lt;/p&gt;
+&lt;h4 id=&#34;check-if-vba-code-is-signed&#34;&gt;Check if VBA Code is Signed&lt;/h4&gt;
+&lt;p&gt;The following code explains how to check if the VBA code is signed or not using the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/vbaproject#IsSigned&#34;&gt;Workbook.getVbaProject().isSigned()&lt;/a&gt; method. You can use any of your excel files to test this code. For testing purpose you can use &lt;a href=&#34;https://docs2.aspose.com/cells/java/attachments/5276094/5472500.xlsm&#34;&gt;this excel file used in the code&lt;/a&gt;.&lt;/p&gt;
+&lt;h4 id=&#34;console-output&#34;&gt;Console Output&lt;/h4&gt;
+&lt;p&gt;Below is the console output of the above code using the &lt;a href=&#34;https://docs2.aspose.com/cells/java/attachments/5276094/5472500.xlsm&#34;&gt;sample excel file&lt;/a&gt; provided by the link.&lt;/p&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_38a83525d4&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_38a83525d4&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Is&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;VBA&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Code&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Project&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Signed&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;true&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Check if VBA project in a Workbook is Signed</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/workbookvbaproject/check&#43;if&#43;vba&#43;project&#43;in&#43;a&#43;workbook&#43;is&#43;signed/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/workbookvbaproject/check&#43;if&#43;vba&#43;project&#43;in&#43;a&#43;workbook&#43;is&#43;signed/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--check-if-vba-project-in-a-workbook-is-signed&#34;&gt;Aspose.Cells for Java : Check if VBA project in a Workbook is Signed&lt;/h1&gt;
+&lt;p&gt;You can check if your VBA project is signed or not using Microsoft Excel via &lt;strong&gt;Tools &amp;gt; Digital Signatures&amp;hellip;&lt;/strong&gt; menu command. Similarly, you can check it programmatically using Aspose.Cells &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/vbaproject#IsSigned&#34;&gt;Workbook.getVbaProject().isSigned()&lt;/a&gt; method.&lt;/p&gt;
+&lt;h4 id=&#34;check-if-vba-project-in-a-workbook-is-signed&#34;&gt;Check if VBA project in a Workbook is Signed&lt;/h4&gt;
+&lt;p&gt;The following code loads the workbook and checks if its VBA project is signed using &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/vbaproject#IsSigned&#34;&gt;Workbook.getVbaProject().isSigned()&lt;/a&gt; property. The property will return &lt;strong&gt;true&lt;/strong&gt; if the project is signed otherwise it will return &lt;strong&gt;false&lt;/strong&gt;.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Check if VBA Project is Protected and Locked for Viewing</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/workbookvbaproject/check&#43;if&#43;vba&#43;project&#43;is&#43;protected&#43;and&#43;locked&#43;for&#43;viewing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/workbookvbaproject/check&#43;if&#43;vba&#43;project&#43;is&#43;protected&#43;and&#43;locked&#43;for&#43;viewing/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--check-if-vba-project-is-protected-and-locked-for-viewing&#34;&gt;Aspose.Cells for Java : Check if VBA Project is Protected and Locked for Viewing&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#console-output&#34;&gt;Console Output&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;Aspose.Cells allows you to check if VBA (Visual Basic for Applications) Project of Excel file is protected and locked for viewing.&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+&lt;p&gt;The following sample code loads the &lt;a href=&#34;https://docs2.aspose.com/cells/java/attachments/42729761/43352066.xlsm&#34;&gt;sample Excel file&lt;/a&gt; and checks if VBA (Visual Basic for Applications) Project of Excel file is protected and locked for viewing. Please also see its Console Output for a reference.&lt;/p&gt;
+&lt;h2 id=&#34;console-output&#34;&gt;Console Output&lt;/h2&gt;
+&lt;p&gt;This is the console output of the above sample code when executed with the provided &lt;a href=&#34;https://docs2.aspose.com/cells/java/attachments/42729761/43352066.xlsm&#34;&gt;sample Excel file&lt;/a&gt;.&lt;/p&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_caf632c769&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_caf632c769&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Is&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;VBA&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Project&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Locked&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;for&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Viewing&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;true&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Copy VBA Macro UserForm DesignerStorage from Template to Target Workbook</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/workbookvbaproject/copy&#43;vba&#43;macro&#43;userform&#43;designerstorage&#43;from&#43;template&#43;to&#43;target&#43;workbook/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/workbookvbaproject/copy&#43;vba&#43;macro&#43;userform&#43;designerstorage&#43;from&#43;template&#43;to&#43;target&#43;workbook/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--copy-vba-macro-userform-designerstorage-from-template-to-target-workbook&#34;&gt;Aspose.Cells for Java : Copy VBA Macro UserForm DesignerStorage from Template to Target Workbook&lt;/h1&gt;
+
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#copy-vba-macro-userform-designerstorage-from-template-to-target-workbook&#34;&gt;Copy VBA Macro UserForm DesignerStorage from Template to Target Workbook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;Aspose.Cells allows you to copy the VBA project from one Excel file into another Excel file. VBA project consists of various types of modules i.e. Document, Procedural, Designer etc. All modules can be copied with simple code but for Designer module, there is some extra data called Designer Storage that needs to be accessed or copied. The following two methods deal with Designer Storage.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/vbamodulecollection#getDesignerStorage(java.lang.String)&#34;&gt;VbaModuleCollection.GetDesignerStorage()&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;VbaModuleCollection.AddDesignerStorage()&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;copy-vba-macro-userform-designerstorage-from-template-to-target-workbook&#34;&gt;Copy VBA Macro UserForm DesignerStorage from Template to Target Workbook&lt;/h2&gt;
+&lt;p&gt;Please see the following sample code. It copies the VBA project from the &lt;a href=&#34;https://docs2.aspose.com/cells/java/attachments/50270505/50528367.xlsm&#34;&gt;template Excel file&lt;/a&gt; into an empty workbook and saves it as the &lt;a href=&#34;https://docs2.aspose.com/cells/java/attachments/50270505/50528366.xlsm&#34;&gt;output Excel file&lt;/a&gt;. If you open the VBA project inside the template Excel file, you will see a User Form as shown below. The User Form consists of Designer Storage, so it will be copied using &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/vbamodulecollection#getDesignerStorage(java.lang.String)&#34;&gt;VbaModuleCollection.GetDesignerStorage()&lt;/a&gt; and VbaModuleCollection.AddDesignerStorage() methods.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/50270505/50528365.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The following screenshot shows the output Excel file and its contents which were copied from the template Excel file. When you click on the &lt;code&gt;Button 1&lt;/code&gt;, it opens up the &lt;code&gt;VBA User Form&lt;/code&gt; which itself has a command button that shows a message box on clicking.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/50270505/50528364.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Filter VBA Project while loading a workbook</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/workbookvbaproject/filter&#43;vba&#43;project&#43;while&#43;loading&#43;a&#43;workbook/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/workbookvbaproject/filter&#43;vba&#43;project&#43;while&#43;loading&#43;a&#43;workbook/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--filter-vba-project-while-loading-a-workbook&#34;&gt;Aspose.Cells for Java : Filter VBA Project while loading a workbook&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;Some .xlsm/.xslb files have extremely large amount of macros (or very, very long macros). Aspose.Cells will unconditionally load this (meta) data when opening such workbooks. You may require to control this though LoadDataFilterOptions, when you really only need to extract sheet names for a large number of workbooks thus skipping over such unneeded content. This filter is provided by introducing new option LoadDataFilterOptions.VBA.&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+&lt;p&gt;The following sample code loads a workbook such that only VBA is filtered. Sample file for testing this feature can be downloaded from the following link:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/attachments/79331431/79527951.xlsm&#34;&gt;sampleMacroEnabledWorkbook.xlsm&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;// Set the load options, we do not want to load VBA&lt;br&gt;
+LoadOptions loadOptions = new LoadOptions(LoadFormat.AUTO);&lt;br&gt;
+loadOptions.setLoadFilter(new LoadFilter(LoadDataFilterOptions.ALL &amp;amp; ~LoadDataFilterOptions.VBA));&lt;/p&gt;
+&lt;p&gt;// Create workbook object from sample excel file using load options&lt;br&gt;
+Workbook book = new Workbook(srcDir + &amp;ldquo;sampleMacroEnabledWorkbook.xlsm&amp;rdquo;, loadOptions);&lt;/p&gt;
+&lt;p&gt;// Save the output in pdf format&lt;br&gt;
+book.save(outDir + &amp;ldquo;OutputSampleMacroEnabledWorkbook.xlsm&amp;rdquo;, SaveFormat.XLSM);&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Find out if VBA Project is Protected</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/workbookvbaproject/find&#43;out&#43;if&#43;vba&#43;project&#43;is&#43;protected/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/workbookvbaproject/find&#43;out&#43;if&#43;vba&#43;project&#43;is&#43;protected/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--find-out-if-vba-project-is-protected&#34;&gt;Aspose.Cells for Java : Find out if VBA Project is Protected&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#console-output&#34;&gt;Console Output&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;You can find if the VBA (Visual Basic Applications) Project of your Excel file is protected or not with Aspose.Cells using &lt;a href=&#34;https://apireference.aspose.com/cells/java/com.aspose.cells/vbaproject#IsProtected&#34;&gt;VbaProject.isProtected()&lt;/a&gt; method&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+&lt;p&gt;The following sample code creates a workbook and then checks if its VBA project is protected or not. Then it protects the VBA project and again checks if its VBA project is protected or not. Please see its console output for a reference. Before protection, &lt;a href=&#34;https://apireference.aspose.com/cells/java/com.aspose.cells/vbaproject#IsProtected&#34;&gt;VbaProject.isProtected()&lt;/a&gt; returns **false **but after protection, it returns &lt;strong&gt;true&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;console-output&#34;&gt;Console Output&lt;/h2&gt;
+&lt;p&gt;This is the console output of the above sample code for a reference.&lt;/p&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_df1a8d753f&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_df1a8d753f&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;
+&lt;span style=&#34;color:#000&#34;&gt;IsProtected&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Before&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Protecting&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;VBA&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Project&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;false&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;IsProtected&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;After&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Protecting&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;VBA&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Project&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;true&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Modifying VBA or Macro Code using Aspose.Cells</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/workbookvbaproject/modifying&#43;vba&#43;or&#43;macro&#43;code&#43;using&#43;aspose.cells/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/workbookvbaproject/modifying&#43;vba&#43;or&#43;macro&#43;code&#43;using&#43;aspose.cells/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--modifying-vba-or-macro-code-using-asposecells&#34;&gt;Aspose.Cells for Java : Modifying VBA or Macro Code using Aspose.Cells&lt;/h1&gt;
+&lt;p&gt;You can modify VBA or Macro Code using Aspose.Cells. Aspose.Cells has added the following classes to read and modify the VBA project in the Excel file.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;VbaProject&lt;/li&gt;
+&lt;li&gt;VbaModuleCollection&lt;/li&gt;
+&lt;li&gt;VbaModule&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This article will show you how to change the VBA or Macro Code inside the source Excel file using Aspose.Cells.&lt;/p&gt;
+&lt;h4 id=&#34;example&#34;&gt;Example&lt;/h4&gt;
+&lt;p&gt;The following sample code loads the source Excel file which has a following VBA or Macro code inside it&lt;/p&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_21632820b4&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_21632820b4&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Sub&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Button1_Click&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;()&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;MsgBox&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;This is test message.&amp;#34;&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;End&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Sub&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;p&gt;After the execution of Aspose.Cells sample code, the VBA or Macro code will be modified like this&lt;/p&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_e7b5f651b2&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_e7b5f651b2&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Sub&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Button1_Click&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;()&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;MsgBox&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;This is Aspose.Cells message.&amp;#34;&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;End&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Sub&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;p&gt;You can download the &lt;a href=&#34;https://docs2.aspose.com/cells/java/attachments/5276586/5472596.xlsm&#34;&gt;source Excel file&lt;/a&gt; and the &lt;a href=&#34;https://docs2.aspose.com/cells/java/attachments/5276586/5472597.xlsm&#34;&gt;output Excel file&lt;/a&gt; from the given links.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Password Protect the VBA Project of Excel Workbook</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/workbookvbaproject/password&#43;protect&#43;the&#43;vba&#43;project&#43;of&#43;excel&#43;workbook/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/workbookvbaproject/password&#43;protect&#43;the&#43;vba&#43;project&#43;of&#43;excel&#43;workbook/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--password-protect-the-vba-project-of-excel-workbook&#34;&gt;Aspose.Cells for Java : Password Protect the VBA Project of Excel Workbook&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;You can password protect the VBA (Visual Basic for Applications) Project of workbook with Aspose.Cells using &lt;a href=&#34;https://apireference.aspose.com/cells/java/com.aspose.cells/vbaproject#protect(boolean,%20java.lang.String)&#34;&gt;VbaProject.protect()&lt;/a&gt; method.&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+&lt;p&gt;The following sample code loads the &lt;a href=&#34;https://docs2.aspose.com/cells/java/attachments/42729780/43352069.xlsm&#34;&gt;sample Excel file&lt;/a&gt;, accesses its VBA Project, and protects it with a password. Finally, it saves it as an &lt;a href=&#34;https://docs2.aspose.com/cells/java/attachments/42729780/43352070.xlsm&#34;&gt;output Excel file&lt;/a&gt;.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,398 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Creating Tabular Report</title>
+    <link>https://roywangt.github.io/cells/reportingservices/userguide/creatingtabularreport/</link>
+    <description>Recent content in Creating Tabular Report on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://roywangt.github.io/cells/reportingservices/userguide/creatingtabularreport/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Reportingservices: Preparing for Creating Table Report</title>
+      <link>https://roywangt.github.io/cells/reportingservices/userguide/creatingtabularreport/preparing&#43;for&#43;creating&#43;table&#43;report/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/reportingservices/userguide/creatingtabularreport/preparing&#43;for&#43;creating&#43;table&#43;report/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-reporting-services--preparing-for-creating-table-report&#34;&gt;Aspose.Cells for Reporting Services : Preparing for Creating Table Report&lt;/h1&gt;
+&lt;p&gt;Before creating a tabular report user must first create data sources, datasets and report parameters (optional) as described in &lt;a href=&#34;https://roywangt.github.io/cells/pages/createpage.action?spaceKey=cellsreportingservices&amp;amp;title=DataSources+and+Queries&amp;amp;linkCreation=true&amp;amp;fromPageId=6094952&#34;&gt;DataSources and Queries&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Below, we use the AdventureWorks sample database that ships with SQL Server Reporting Services 2005.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Create a dataset named EmpSalesDetail. We&amp;rsquo;ll use this as the table&amp;rsquo;s data source. The dataset has three parameters: ReportYear, ReportMonth and EmpID.&lt;br&gt;
+The SQL that defines EmpSalesDetail is as follows:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;SQL&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;SELECT C.FirstName+&amp;rsquo; &amp;lsquo;+C.LastName &amp;lsquo;Employee&amp;rsquo;,DATEPART(Month,SOH.OrderDate) &amp;lsquo;OrderMonthNum&amp;rsquo;,PS.Name &amp;lsquo;SubCat&amp;rsquo;,Sum(SOD.LineTotal) &amp;lsquo;Sales&amp;rsquo;,SOH.SalesOrderNumber,P.Name &amp;lsquo;Product&amp;rsquo;,Sum(SOD.OrderQty) &amp;lsquo;OrderQty&amp;rsquo;,SOD.UnitPrice,PC.Name &amp;lsquo;ProdCat&amp;rsquo;FROM AdventureWorks.Person.Contact C,AdventureWorks.HumanResources.Employee E,AdventureWorks.Production.Product P,AdventureWorks.Production.ProductCategory PC,AdventureWorks.Production.ProductSubcategory PS,AdventureWorks.Sales.SalesOrderDetail SOD,AdventureWorks.Sales.SalesOrderHeader SOH,AdventureWorks.Sales.SalesPerson SPWHERE SOH.SalesOrderID = SOD.SalesOrderIDAND SOH.SalesPersonID = SP.SalesPersonIDAND SP.SalesPersonID = E.EmployeeIDAND E.ContactID = C.ContactIDAND SOD.ProductID = P.ProductIDAND P.ProductSubcategoryID = PS.ProductSubcategoryID AND PS.ProductCategoryID = PC.ProductCategoryIDAND ((DATEPART(Year,SOH.OrderDate)=?)AND (DATEPART(Month,SOH.OrderDate)=?) AND (SOH.SalesPersonID=?))GROUP BY C.FirstName+&amp;rsquo; &amp;lsquo;+C.LastName, DATEPART(Month,SOH.OrderDate), PS.Name,SOH.SalesOrderNumber,P.Name,SOD.UnitPrice,PC.Name&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Create a dataset named SalesEmps. We&amp;rsquo;ll use that as the valid values for the EmpID parameter.&lt;br&gt;
+The SQL that defines SalesEmps is:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;SQL&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;SELECT  E.EmployeeID,  C.FirstName + N&amp;rsquo; &#39; + C.LastName AS EmployeeFROM  HumanResources.Employee E INNER JOIN  Sales.SalesPerson SPON E.EmployeeID = SP.SalesPersonID INNER JOIN   Person.Contact CON E.ContactID = C.ContactID  ORDER BY    C.LastName, C.FirstName&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Create three report parameters: ReportYear, ReportMonth and EmpID.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;The valid values for the parameter ReportYear are:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/reportingservices/attachments/6094952/6193291.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The valid values for the parameter ReportMonth is:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/reportingservices/attachments/6094952/6193296.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The valid value for the parameter EmpID are:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/reportingservices/attachments/6094952/6193297.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Map the dataset parameters to report parameters, as follow:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/reportingservices/attachments/6094952/6193294.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Reportingservices: Adding base information for Table</title>
+      <link>https://roywangt.github.io/cells/reportingservices/userguide/creatingtabularreport/adding&#43;base&#43;information&#43;for&#43;table/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/reportingservices/userguide/creatingtabularreport/adding&#43;base&#43;information&#43;for&#43;table/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-reporting-services--adding-base-information-for-table&#34;&gt;Aspose.Cells for Reporting Services : Adding base information for Table&lt;/h1&gt;
+&lt;p&gt;To create a new table:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Open Microsft Excel.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Click &lt;strong&gt;Open Report&lt;/strong&gt; &lt;img src=&#34;https://docs2.aspose.com/cells/reportingservices/attachments/thumbnails/6094951/67338326&#34; alt=&#34;&#34;&gt;  on the Aspose.Cells.Report.Designer toolbar to open an RDL Report file that contains the data sources, datasets and Report Parameters created in advance. Once the file has been opened successfully all its information is available for use, for example, its datasets are listed in the relevant DataSet combo box.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/reportingservices/attachments/6094951/67338331.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Open a Microsoft Excel spreadsheet and design the table header as following:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Designing the table header&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/reportingservices/attachments/6094951/67338333.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Select a dataset ”EmpSalesDetail” from relevant dataset combo box control.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Selecting a data set&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/reportingservices/attachments/6094951/67338335.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;All the fields of dataset ”EmpSalesDetail” are listed in the fields combo box. Select the cell under the OrderNumber column Cell and then select ”SalesOrderNumber” field from the fields combo box to insert a data marker into the cell.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Inserting a field&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/reportingservices/attachments/6094951/67338337.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The field code shows where a field has been inserted.&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/reportingservices/attachments/6094951/67338338.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Repeat the step 5 to insert ProdCat and SubCat fields.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;All fields inserted&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/reportingservices/attachments/6094951/67338340.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Reportingservices: Adding Reporting Services Formulas</title>
+      <link>https://roywangt.github.io/cells/reportingservices/userguide/creatingtabularreport/adding&#43;reporting&#43;services&#43;formulas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/reportingservices/userguide/creatingtabularreport/adding&#43;reporting&#43;services&#43;formulas/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-reporting-services--adding-reporting-services-formulas&#34;&gt;Aspose.Cells for Reporting Services : Adding Reporting Services Formulas&lt;/h1&gt;
+&lt;p&gt;To add Reporting Services Formulas to the table data cell, follow the steps below:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Make the table data cell selected and Click **Insert Formula **on the Aspose.Cells.Report.Designer toolbar (&lt;img src=&#34;https://docs2.aspose.com/cells/reportingservices/attachments/6094954/6193314.png&#34; alt=&#34;&#34;&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/reportingservices/attachments/6094954/67338343.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Select ”DataSet” in the left panel, select ”EmpSalesDetail” in the middle panel and double click ”Sum(EmpSalesDetail.OrderQty)” in the right panel. A formula expression appears in the top edit box. Click &lt;strong&gt;OK&lt;/strong&gt; button to insert the expression into the cell.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/reportingservices/attachments/6094954/67338344.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The result will be shown as following.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;The inserted expression&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/reportingservices/attachments/6094954/67338345.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Repeat the above steps to add formula to Sales column, as shown in the following.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Formula added to the sales column&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/reportingservices/attachments/6094954/67338346.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Reportingservices: Adding Table Group</title>
+      <link>https://roywangt.github.io/cells/reportingservices/userguide/creatingtabularreport/adding&#43;table&#43;group/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/reportingservices/userguide/creatingtabularreport/adding&#43;table&#43;group/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-reporting-services--adding-table-group&#34;&gt;Aspose.Cells for Reporting Services : Adding Table Group&lt;/h1&gt;
+&lt;p&gt;To add table group, follow the steps below:&lt;/p&gt;
+&lt;p&gt;1)    Select the group tag cell which is on the left of the first column of table data column, under the table data row, as shown in the following.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/reportingservices/attachments/6094953/67338347.png&#34; alt=&#34;&#34;&gt; &lt;/p&gt;
+&lt;p&gt;2)    Select ”SalesOrderNumber” in the &lt;strong&gt;Set Group&lt;/strong&gt; combo box to set the group field.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/reportingservices/attachments/6094953/67338348.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The result is shown in the following.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/reportingservices/attachments/6094953/67338349.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;3)    Add the group data row according to the instructions described above. Group data row may contain static text, data markers, Reporting Service Formulas and so on. In the sample, we add a group row that contains a merged static text cell and Reporting Services Formula cell, as shown in the following.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/reportingservices/attachments/6094953/67338350.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;4)    More than one group data row is allowed in a table. We can add a group data row again, as shown in the following.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/reportingservices/attachments/6094953/67338351.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Reportingservices: Adding Table Footers</title>
+      <link>https://roywangt.github.io/cells/reportingservices/userguide/creatingtabularreport/adding&#43;table&#43;footers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/reportingservices/userguide/creatingtabularreport/adding&#43;table&#43;footers/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-reporting-services--adding-table-footers&#34;&gt;Aspose.Cells for Reporting Services : Adding Table Footers&lt;/h1&gt;
+&lt;p&gt;To add table footers:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Select the footer tag cell, directly on the left of the first column of the table, but under the table group data row (or table data row if the table does not contain a table group):&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Selecting the footer tag cell&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/reportingservices/attachments/6094964/6193335.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Click &lt;strong&gt;Set Footer&lt;/strong&gt; on the Aspose.Cells.Report.Designer toolbar (&lt;img src=&#34;https://docs2.aspose.com/cells/reportingservices/attachments/6094964/6193336.png&#34; alt=&#34;&#34;&gt;).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The footer tag set&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/reportingservices/attachments/6094964/6193345.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Add the footer data row.&lt;br&gt;
+Footer data rows can contain static text, data markers, Reporting Services formulas and so on. Here, we&amp;rsquo;ve added a footer row that contains a merged static text cell and a Reporting Services formula cell.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The completed footer&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/reportingservices/attachments/6094964/6193344.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;More than one footer data row is allowed in a table.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;A second footer row&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/reportingservices/attachments/6094964/6193343.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Reportingservices: Adding Report Parameters to Report</title>
+      <link>https://roywangt.github.io/cells/reportingservices/userguide/creatingtabularreport/adding&#43;report&#43;parameters&#43;to&#43;report/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/reportingservices/userguide/creatingtabularreport/adding&#43;report&#43;parameters&#43;to&#43;report/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-reporting-services--adding-report-parameters-to-report&#34;&gt;Aspose.Cells for Reporting Services : Adding Report Parameters to Report&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells&amp;rsquo; report template supports Reporting Services report parameters as a data source for cells that contains a Reporting Services parameter marker. Please refer to &lt;a href=&#34;https://docs2.aspose.com/cells/reportingservices/userguide/aspose.cells+template+and+smart+markers&#34;&gt;Aspose.Cells Template and Smart Markers&lt;/a&gt; to learn about Reporting Services parameter markers. Report parameters are normally placed in the text area of table header or footer.&lt;/p&gt;
+&lt;h3 id=&#34;adding-a-report-parameter&#34;&gt;Adding a Report Parameter&lt;/h3&gt;
+&lt;p&gt;To add report parameters to reports:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Select a cell.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Selecting a cell&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/reportingservices/attachments/6094963/6193352.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Click Insert formula on the Aspose.Cells.Report.Designer toolbar (&lt;img src=&#34;https://docs2.aspose.com/cells/reportingservices/attachments/6094963/6193351.png&#34; alt=&#34;&#34;&gt;).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Select &lt;strong&gt;Parameters&lt;/strong&gt; from the Parameters panel to the left.&lt;br&gt;
+All the parameters are listed in the right panel.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Select a parameter, in the example, we&amp;rsquo;ve selected EmpID.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Double-click the parameter to make the expression appear in the editor at the top of the form.&lt;br&gt;
+A parameter has two data attributes: label and value (the default attribute is value).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Selecting a parameter&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/reportingservices/attachments/6094963/6193350.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;In the sample, the parameter&amp;rsquo;s label should be shown in the report, so modify the expression to &lt;code&gt;Parameters!EmpID.Label&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Modifying the parameter&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/reportingservices/attachments/6094963/6193349.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Click &lt;strong&gt;OK&lt;/strong&gt;.&lt;br&gt;
+The selected cell contains a report parameters marker.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;A report parameter inserted into the cell&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/reportingservices/attachments/6094963/6193348.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Reportingservices: Adding Reporting Services Global Variables to Report</title>
+      <link>https://roywangt.github.io/cells/reportingservices/userguide/creatingtabularreport/adding&#43;reporting&#43;services&#43;global&#43;variables&#43;to&#43;report/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/reportingservices/userguide/creatingtabularreport/adding&#43;reporting&#43;services&#43;global&#43;variables&#43;to&#43;report/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-reporting-services--adding-reporting-services-global-variables-to-report&#34;&gt;Aspose.Cells for Reporting Services : Adding Reporting Services Global Variables to Report&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells&amp;rsquo; report template supports Reporting Services&amp;rsquo; global variables as a data source for cells that contain a Reporting Services global variables marker.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/reportingservices/userguide/aspose.cells+template+and+smart+markers&#34;&gt;Aspose.Cells Template and Smart Markers&lt;/a&gt; explains how Reporting Services Global Variables markers work. Global variables are normally placed in the text area of a table header or footer.&lt;/p&gt;
+&lt;p&gt;To add global variables to reports:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Select a cell.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;A selected cell&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/reportingservices/attachments/6094967/6193359.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Click &lt;strong&gt;Insert formula&lt;/strong&gt; on the Aspose.Cells.Report.Designer toolbar (&lt;img src=&#34;https://docs2.aspose.com/cells/reportingservices/attachments/6094967/6193356.png&#34; alt=&#34;&#34;&gt;).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Select &lt;strong&gt;Globals&lt;/strong&gt; in the left panel.&lt;br&gt;
+All global variables are listed to the right.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Select &lt;strong&gt;ReportName&lt;/strong&gt; and double-click.&lt;br&gt;
+The expression appears in the &lt;strong&gt;Edit&lt;/strong&gt; box at the top.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Selecting a global variable&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/reportingservices/attachments/6094967/6193357.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Click &lt;strong&gt;OK&lt;/strong&gt; to finish.&lt;br&gt;
+The cell now contains a global variable marker.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;A global variables marker in a cell&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/reportingservices/attachments/6094967/6193354.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Reportingservices: Setting Report Attributes</title>
+      <link>https://roywangt.github.io/cells/reportingservices/userguide/creatingtabularreport/setting&#43;report&#43;attributes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/reportingservices/userguide/creatingtabularreport/setting&#43;report&#43;attributes/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-reporting-services--setting-report-attributes&#34;&gt;Aspose.Cells for Reporting Services : Setting Report Attributes&lt;/h1&gt;
+&lt;p&gt;To create a table report, you need to set report attributes before publishing the report to the Report Server. The report attributes holds information about the report&amp;rsquo;s name, range, data grouping, sorting and so on.&lt;/p&gt;
+&lt;p&gt;To set up the attributes of a table report:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Click &lt;strong&gt;Set Attribute&lt;/strong&gt; on the Aspose.Cells.Report.Designer toolbar (&lt;img src=&#34;https://docs2.aspose.com/cells/reportingservices/attachments/6094965/6193367.png&#34; alt=&#34;&#34;&gt;).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Enter the report name into the dialog box.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Setting the report name&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/reportingservices/attachments/6094965/6193364.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Click &lt;strong&gt;Next&lt;/strong&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Select a range for the report.&lt;br&gt;
+The range starts with the first cell in the table data row and ends at the last cell of the footer row, or, if there are no footers, the last cell of the group data.&lt;br&gt;
+The start and end cells&amp;rsquo; index appears in the &lt;strong&gt;Range&lt;/strong&gt; field automatically. Here, the range includes cells from D4 to H8.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Defining the report range&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/reportingservices/attachments/6094965/6193365.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Click &lt;strong&gt;Next&lt;/strong&gt; to continue.&lt;br&gt;
+All the fields of the dataset are listed in the left panel in the dialog box.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Select fields to group the data by.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Selecting fields for grouping data&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/reportingservices/attachments/6094965/6193362.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Click &lt;strong&gt;Next&lt;/strong&gt; to continue.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Select fields to order the data by.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Selecting fields to order data by&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/reportingservices/attachments/6094965/6193363.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Click &lt;strong&gt;Next&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;A summary of the report is displayed.&lt;br&gt;
+&lt;strong&gt;Report summary&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/reportingservices/attachments/6094965/6193375.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Click &lt;strong&gt;Finish&lt;/strong&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Reportingservices: Modifying Report Attributes</title>
+      <link>https://roywangt.github.io/cells/reportingservices/userguide/creatingtabularreport/modifying&#43;report&#43;attributes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/reportingservices/userguide/creatingtabularreport/modifying&#43;report&#43;attributes/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-reporting-services--modifying-report-attributes&#34;&gt;Aspose.Cells for Reporting Services : Modifying Report Attributes&lt;/h1&gt;
+&lt;p&gt;To modify the attributes of a report:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Click &lt;strong&gt;Modify Attribute&lt;/strong&gt; on the Aspose.Cells.Report.Designer toolbar (&lt;img src=&#34;https://docs2.aspose.com/cells/reportingservices/attachments/6094960/6193372.png&#34; alt=&#34;&#34;&gt;).&lt;br&gt;
+Available reports are listed in the left panel.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Select a report and click &lt;strong&gt;Modify&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Selecting a report&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/reportingservices/attachments/6094960/6193383.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Modify the report attributes.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Modifying the attributes&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/reportingservices/attachments/6094960/6193382.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Click &lt;strong&gt;Commit&lt;/strong&gt; to finish.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

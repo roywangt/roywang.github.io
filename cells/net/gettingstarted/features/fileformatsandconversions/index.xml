@@ -1,0 +1,397 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – File Formats and Conversions</title>
+    <link>https://roywangt.github.io/cells/net/gettingstarted/features/fileformatsandconversions/</link>
+    <description>Recent content in File Formats and Conversions on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://roywangt.github.io/cells/net/gettingstarted/features/fileformatsandconversions/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Net: SpreadsheetML - XLSX XML</title>
+      <link>https://roywangt.github.io/cells/net/gettingstarted/features/fileformatsandconversions/spreadsheetml&#43;-&#43;xlsx&#43;xml/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/gettingstarted/features/fileformatsandconversions/spreadsheetml&#43;-&#43;xlsx&#43;xml/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--spreadsheetml---xlsx-xml&#34;&gt;Aspose.Cells for .NET : SpreadsheetML - XLSX, XML&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#about-spreadsheetml&#34;&gt;About SpreadsheetML&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#spreadsheetml-in-aspose.cells&#34;&gt;SpreadsheetML in Aspose.Cells&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;2.1 &lt;a href=&#34;#ooxml-is-open,-why-use-aspose.cells?&#34;&gt;OOXML is Open, Why Use Aspose.Cells?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2.2 &lt;a href=&#34;#a-fragment-of-an-office-open-xml-document&#34;&gt;A fragment of an Office Open XML Document&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;about-spreadsheetml&#34;&gt;About SpreadsheetML&lt;/h2&gt;
+&lt;p&gt;SpreadsheetML is a name for a family of XML-based formats for spreadsheet documents. There are several versions of SpreadsheetML:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;SpreadsheetML version 2003 was introduced in Microsoft Word 2003. SpreadsheetML was a significant step by Microsoft towards making the document format open.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://en.wikipedia.org/wiki/Office_Open_XML&#34;&gt;Office Open XML&lt;/a&gt; (OOXML) is the new XML-based format introduced in Microsoft Office 2007 applications. Office Open XML is a container format for several specialized XML-based markup languages. SpreadsheetML version 2007 is the markup language used by Microsoft Office Excel 2007 to store its documents.&lt;/li&gt;
+&lt;li&gt;Microsoft Excel 2010 stores documents in the SpreadsheetML version 2010 as defined in the updated OOXML standard.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;spreadsheetml-in-asposecells&#34;&gt;SpreadsheetML in Aspose.Cells&lt;/h2&gt;
+&lt;p&gt;There are three &amp;ldquo;versions&amp;rdquo; of SpreadsheetML available:&lt;/p&gt;
+
+&lt;div class=&#34;table table-striped&#34; role=&#34;alert&#34;&gt;
+    &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;SpreadsheetML “Version”&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Applicable Standard/Specification&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Supported in Aspose.Cells for .NET&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Microsoft Excel 2003&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;http://en.wikipedia.org/wiki/Microsoft_Office_XML_formats&#34;&gt;Microsoft Excel 2003 XML&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Yes&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Microsoft Excel 2007&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;http://www.ecma-international.org/publications/standards/Ecma-376.htm&#34;&gt;OOXML ECMA-376&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Yes&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Microsoft Excel 2010&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;OOXML ISO/IEC DIS 29500&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Yes&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Microsoft Excel 2013&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;OOXML ISO/IEC DIS 29500&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Yes&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;OOXML SpreadsheetML documents most often come as XLSX files, which are ZIP packages. In addition to XLSX. Aspose.Cells provides extensive support for loading, saving and converting SpreadsheetML documents. Such all-embracing implementation is possible because Aspose.Cells was designed with the structure of Microsoft Excel documents in mind (and SpreadsheetML is known to mimic the internal representation of Microsoft Excel documents).&lt;/p&gt;
+&lt;h3 id=&#34;ooxml-is-open-why-use-asposecells&#34;&gt;OOXML is Open, Why Use Aspose.Cells?&lt;/h3&gt;
+&lt;p&gt;It is true that Office Open XML technology makes it possible to build document processing and generating applications using just the XML classes without relying on third-party libraries such as Aspose.Cells.  However, we strongly believe it is still very beneficial to use Aspose.Cells when you have to deal with OOXML documents, rather than work through XML or other libraries.&lt;/p&gt;
+&lt;p&gt;The OOXML specification is several thousand pages long. Being open and standard does not mean being simple. To correctly process or generate OOXML documents one must invest in learning the format well.&lt;/p&gt;
+&lt;p&gt;In addition to making it simpler to correctly process and generate valid documents, Aspose.Cells provides the following important features you would not have when working with OOXML files directly via XML or other third-party libraries:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Quality conversions between many popular Excel formats, including conversion to PDF, HTML, TIFF and printing.&lt;/li&gt;
+&lt;li&gt;Ability to build documents from fragments, from one or multiple documents, while automatically merging data by stylistic formatting, charts and graphics.&lt;/li&gt;
+&lt;li&gt;High-level functions, such as, import data from different data sources including Array, ArrayList, DataTable, DataColumn, DataGrid, DataView and DataReader or export data to fill a DataTable or an Array with just one line of code.&lt;/li&gt;
+&lt;li&gt;Robust Formula Calculation Engine that supports almost all of the standard and advanced, Microsoft Excel Functions.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Consider the following example. Some cells contain the text “Hello World” in bold. Now imagine you need to write a program that searches for all “Hello World” phrases in the worksheet and replaces them with “Goodbye Earth”.&lt;/p&gt;
+&lt;h3 id=&#34;a-fragment-of-an-office-open-xml-document&#34;&gt;A fragment of an Office Open XML Document&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;XML&lt;/strong&gt;&lt;/p&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_aec5526455&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_aec5526455&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-xml&#34; data-lang=&#34;xml&#34;&gt;
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&amp;lt;?xml version=&amp;#34;1.0&amp;#34; encoding=&amp;#34;UTF-8&amp;#34; standalone=&amp;#34;yes&amp;#34; ?&amp;gt;&lt;/span&gt;
+- &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;lt;worksheet&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;xmlns=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;http://schemas.openxmlformats.org/spreadsheetml/2006/main&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;xmlns:r=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;http://schemas.openxmlformats.org/officeDocument/2006/relationships&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;lt;dimension&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;ref=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;A1:M184&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;/&amp;gt;&lt;/span&gt;
+- &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;lt;sheetViews&amp;gt;&lt;/span&gt;
+- &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;lt;sheetView&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;tabSelected=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;1&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;workbookViewId=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;0&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;lt;selection&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;activeCell=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;H27&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;sqref=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;H27&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;/&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;lt;/sheetView&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;lt;/sheetViews&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;lt;sheetFormatPr&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;defaultRowHeight=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;15&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;/&amp;gt;&lt;/span&gt;
+- &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;lt;sheetData&amp;gt;&lt;/span&gt;
+- &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;lt;row&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;r=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;1&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;spans=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;1:7&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+- &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;lt;c&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;r=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;A1&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;s=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;1&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;t=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;s&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;lt;v&amp;gt;&lt;/span&gt;0&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;lt;/v&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;lt;/c&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;lt;/row&amp;gt;&lt;/span&gt;
+- &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;lt;row&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;r=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;11&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;spans=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;1:7&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+- &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;lt;c&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;r=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;D11&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;s=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;1&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;t=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;s&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;lt;v&amp;gt;&lt;/span&gt;0&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;lt;/v&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;lt;/c&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;lt;/row&amp;gt;&lt;/span&gt;
+- &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;lt;row&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;r=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;15&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;spans=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;1:7&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+- &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;lt;c&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;r=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;G15&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;s=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;1&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;t=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;s&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;lt;v&amp;gt;&lt;/span&gt;0&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;lt;/v&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;lt;/c&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;lt;/row&amp;gt;&lt;/span&gt;
+- &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;lt;row&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;r=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;21&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;spans=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;2:7&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+- &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;lt;c&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;r=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;G21&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;s=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;1&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;t=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;s&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;lt;v&amp;gt;&lt;/span&gt;0&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;lt;/v&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;lt;/c&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;lt;/row&amp;gt;&lt;/span&gt;
+- &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;lt;row&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;r=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;25&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;spans=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;2:7&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+- &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;lt;c&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;r=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;F25&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;s=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;1&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;t=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;s&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;lt;v&amp;gt;&lt;/span&gt;0&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;lt;/v&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;lt;/c&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;lt;/row&amp;gt;&lt;/span&gt;
+- &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;lt;row&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;r=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;31&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;spans=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;2:7&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+- &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;lt;c&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;r=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;B31&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;s=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;1&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;t=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;s&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;lt;v&amp;gt;&lt;/span&gt;0&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;lt;/v&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;lt;/c&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;lt;/row&amp;gt;&lt;/span&gt;
+- &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;lt;row&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;r=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;34&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;spans=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;6:13&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+- &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;lt;c&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;r=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;M34&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;s=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;1&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;t=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;s&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;lt;v&amp;gt;&lt;/span&gt;0&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;lt;/v&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;lt;/c&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;lt;/row&amp;gt;&lt;/span&gt;
+- &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;lt;row&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;r=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;38&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;spans=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;6:13&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+- &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;lt;c&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;r=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;F38&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;s=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;1&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;t=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;s&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;lt;v&amp;gt;&lt;/span&gt;0&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;lt;/v&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;lt;/c&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;lt;/row&amp;gt;&lt;/span&gt;
+- &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;lt;row&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;r=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;117&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;spans=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;8:8&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+- &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;lt;c&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;r=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;H117&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;s=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;1&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;t=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;s&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;lt;v&amp;gt;&lt;/span&gt;0&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;lt;/v&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;lt;/c&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;lt;/row&amp;gt;&lt;/span&gt;
+- &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;lt;row&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;r=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;184&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;spans=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;8:8&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+- &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;lt;c&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;r=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;H184&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;s=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;1&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;t=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;s&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;lt;v&amp;gt;&lt;/span&gt;0&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;lt;/v&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;lt;/c&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;lt;/row&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;lt;/sheetData&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;lt;pageMargins&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;left=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;0.7&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;right=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;0.7&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;top=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;0.75&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;bottom=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;0.75&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;header=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;0.3&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;footer=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;0.3&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;lt;/worksheet&amp;gt;&lt;/span&gt;
+ 
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;p&gt;Implementing even a simple find and replace operation in an Office Open XML document is difficult. Our advice: remember that open and standard does not mean simple, and use Aspose.Cells.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: OpenDocument - ODS</title>
+      <link>https://roywangt.github.io/cells/net/gettingstarted/features/fileformatsandconversions/opendocument&#43;-&#43;ods/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/gettingstarted/features/fileformatsandconversions/opendocument&#43;-&#43;ods/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--opendocument---ods&#34;&gt;Aspose.Cells for .NET : OpenDocument - ODS&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#about-opendocument&#34;&gt;About OpenDocument&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#ods-in-aspose.cells&#34;&gt;ODS in Aspose.Cells&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;about-opendocument&#34;&gt;About OpenDocument&lt;/h2&gt;
+&lt;p&gt;The &lt;a href=&#34;http://en.wikipedia.org/wiki/OpenDocument&#34;&gt;OpenDocument format (ODF)&lt;/a&gt; is a free and open file format for electronic office documents originally developed by Sun for the Open Office suite. OpenDocument Spreadsheet (ODS) is the file format for Excel documents. OpenDocument is currently an OASIS and ISO standard.&lt;/p&gt;
+&lt;h2 id=&#34;ods-in-asposecells&#34;&gt;ODS in Aspose.Cells&lt;/h2&gt;
+&lt;p&gt;Aspose.Cells supports loading OpenDocument 1.1 and 1.2 documents. Aspose.Cells saves documents in the OpenDocument 1.1 format. You can also see the &lt;a href=&#34;https://docs2.aspose.com/cells/net/gettingstarted/features/documentsupported/save+in+the+ods+-+opendocument+spreadsheet+format&#34;&gt;detailed specification&lt;/a&gt; about what OpenDocument features are supported.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;A sample ODS document generated by Aspose.Cells and opened in OpenOffice Calc&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5018352/5114762.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: XML Paper Specification - XPS</title>
+      <link>https://roywangt.github.io/cells/net/gettingstarted/features/fileformatsandconversions/xml&#43;paper&#43;specification&#43;-&#43;xps/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/gettingstarted/features/fileformatsandconversions/xml&#43;paper&#43;specification&#43;-&#43;xps/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--xml-paper-specification---xps&#34;&gt;Aspose.Cells for .NET : XML Paper Specification - XPS&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#about-xps&#34;&gt;About XPS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#xps-in-aspose.cells&#34;&gt;XPS in Aspose.Cells&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;about-xps&#34;&gt;About XPS&lt;/h2&gt;
+
+&lt;div class=&#34;table table-striped&#34; role=&#34;alert&#34;&gt;
+    &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5018340/5114740.png&#34; alt=&#34;&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;The &lt;a href=&#34;http://en.wikipedia.org/wiki/XML_Paper_Specification&#34;&gt;XML Paper Specification&lt;/a&gt; is a page description language and a fixed-document format originally developed by Microsoft. Like PDF, XPS is a fixed-layout document format designed to preserve document fidelity and provide device-independent document appearance.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+
+&lt;h2 id=&#34;xps-in-asposecells&#34;&gt;XPS in Aspose.Cells&lt;/h2&gt;
+&lt;p&gt;Any document loaded into Aspose.Cells can be converted to XPS. Aspose.Cells uses the same high-fidelity page layout and rendering engine to produce output in all its supported fixed-layout formats e.g PDF, XPS etc.&lt;/p&gt;
+&lt;p&gt;It is worthwhile to note that Aspose.Cells generates XPS directly (including sub-setting of TrueType fonts), without relying on the Windows Presentation Foundation classes found in the .NET Framework 3.5, this allows Aspose.Cells to produce XPS on machines that run .NET of earlier versions or on completely different platforms.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Adobe Portable Document Format - PDF</title>
+      <link>https://roywangt.github.io/cells/net/gettingstarted/features/fileformatsandconversions/adobe&#43;portable&#43;document&#43;format&#43;-&#43;pdf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/gettingstarted/features/fileformatsandconversions/adobe&#43;portable&#43;document&#43;format&#43;-&#43;pdf/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--adobe-portable-document-format---pdf&#34;&gt;Aspose.Cells for .NET : Adobe Portable Document Format - PDF&lt;/h1&gt;
+&lt;p&gt;Any document loaded into Aspose.Cells can be converted to PDF that conforms to the &lt;a href=&#34;http://en.wikipedia.org/wiki/PDF/A&#34;&gt;PDF 1.5&lt;/a&gt; or &lt;a href=&#34;http://en.wikipedia.org/wiki/PDF/A&#34;&gt;PDF/A-1b&lt;/a&gt; specification. Aspose.Cells goes to great lengths to faithfully convert Microsoft Excel documents to PDF. Most of the time the look of the final PDF document will be indistinguishable from the original Microsoft Excel document.&lt;/p&gt;
+&lt;h2 id=&#34;pdf-in-asposecells&#34;&gt;PDF in Aspose.Cells&lt;/h2&gt;
+&lt;p&gt;The Aspose solution thoroughly supports the following document features when converting to PDF:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Cell Data and Text Formatting&lt;/li&gt;
+&lt;li&gt;Charts and Pivot Tables&lt;/li&gt;
+&lt;li&gt;Headers/Footers&lt;/li&gt;
+&lt;li&gt;Conditional Formatting&lt;/li&gt;
+&lt;li&gt;Borders, Border Colors&lt;/li&gt;
+&lt;li&gt;Images, Textboxes and Drawing Shapes&lt;/li&gt;
+&lt;li&gt;Bookmarks&lt;/li&gt;
+&lt;li&gt;Hyperlinks&lt;/li&gt;
+&lt;li&gt;Merged Cells, Page Breaks, Print Titles&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can also see the &lt;a href=&#34;https://roywangt.github.io/cells/pages/createpage.action?spaceKey=cellsnet&amp;amp;title=Converting+Excel+to+PDF+Files&amp;amp;linkCreation=true&amp;amp;fromPageId=5018338&#34;&gt;detailed specification&lt;/a&gt; about how Aspose.Cells converts a document to PDF.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: HyperText Markup Language Format - HTML</title>
+      <link>https://roywangt.github.io/cells/net/gettingstarted/features/fileformatsandconversions/hypertext&#43;markup&#43;language&#43;format&#43;-&#43;html/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/gettingstarted/features/fileformatsandconversions/hypertext&#43;markup&#43;language&#43;format&#43;-&#43;html/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--hypertext-markup-language-format---html&#34;&gt;Aspose.Cells for .NET : HyperText Markup Language Format - HTML&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells can be used to save your Excel workbooks into HTML format. The exported HTML workbooks are Microsoft Excel oriented i.e they are similar as exported by Microsoft Excel. You can also create workbooks from HTML but this HTML should be Excel oriented.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#html-in-aspose.cells&#34;&gt;HTML in Aspose.Cells&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#loading-html-inside-the-workbook-object&#34;&gt;Loading HTML inside the Workbook object&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.2 &lt;a href=&#34;#saving-excel-file-into-html&#34;&gt;Saving Excel file into HTML&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;html-in-asposecells&#34;&gt;HTML in Aspose.Cells&lt;/h2&gt;
+&lt;p&gt;The Aspose solution thoroughly supports the following document features when converting to HTML:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Cell Data and Text Formatting&lt;/li&gt;
+&lt;li&gt;Charts and Pivot Tables&lt;/li&gt;
+&lt;li&gt;Headers/Footers&lt;/li&gt;
+&lt;li&gt;Borders, Border Colors&lt;/li&gt;
+&lt;li&gt;Images, Textboxes and Drawing Shapes&lt;/li&gt;
+&lt;li&gt;Hyperlinks&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;loading-html-inside-the-workbook-object&#34;&gt;Loading HTML inside the Workbook object&lt;/h3&gt;
+&lt;p&gt;Please see the subsection &lt;strong&gt;Opening HTML Files&lt;/strong&gt; in this article that explains how to load HTML inside the Workbook object.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/ld-sv-cvt-mng/opening+files+with+different+formats#openingfileswithdifferentformats-openinghtmlfiles&#34;&gt;Opening Files&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;saving-excel-file-into-html&#34;&gt;Saving Excel file into HTML&lt;/h3&gt;
+&lt;p&gt;Please see the following documentation article that explains how to convert/save your workbooks/spreadsheets into HTML format.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/ld-sv-cvt-mng/convert+workbook+to+different+formats#convertworkbooktodifferentformats-convertingexcelworkbooktohtml&#34;&gt;Converting Excel Files to HTML&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

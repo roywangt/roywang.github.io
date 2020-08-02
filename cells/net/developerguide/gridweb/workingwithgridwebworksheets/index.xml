@@ -1,0 +1,1057 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Working with GridWeb Worksheets</title>
+    <link>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridwebworksheets/</link>
+    <description>Recent content in Working with GridWeb Worksheets on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridwebworksheets/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Net: Access Worksheets</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridwebworksheets/access&#43;worksheets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridwebworksheets/access&#43;worksheets/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--access-worksheets&#34;&gt;Aspose.Cells for .NET : Access Worksheets&lt;/h1&gt;
+&lt;p&gt;This topic discusses accessing worksheets in the Aspose.Cells.GridWeb control. We&amp;rsquo;ll refer to them as &amp;lsquo;web worksheets&amp;rsquo; because of they belong to Aspose.Cells.GridWeb and are used in web applications.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#accessing-a-worksheet&#34;&gt;Accessing a Worksheet&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#using-sheet-index&#34;&gt;Using Sheet Index&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.2 &lt;a href=&#34;#using-sheet-name&#34;&gt;Using Sheet Name&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;accessing-a-worksheet&#34;&gt;Accessing a Worksheet&lt;/h2&gt;
+&lt;p&gt;All worksheets contained in Aspose.Cells.GridWeb, are stored in the GridWeb control&amp;rsquo;s &lt;code&gt;GridWorksheetCollection&lt;/code&gt;. There are two ways to access a worksheet: by its sheet index or by its sheet name.&lt;/p&gt;
+&lt;h3 id=&#34;using-sheet-index&#34;&gt;Using Sheet Index&lt;/h3&gt;
+&lt;p&gt;The code snippet below shows how to access a specific web worksheet from the GridWeb control&amp;rsquo;s &lt;code&gt;GridWorksheetCollection&lt;/code&gt; using the sheet index.&lt;/p&gt;
+&lt;h3 id=&#34;using-sheet-name&#34;&gt;Using Sheet Name&lt;/h3&gt;
+&lt;p&gt;The code snippet below shows how to access a web worksheet from the GridWeb control&amp;rsquo;s &lt;code&gt;GridWorksheetCollection&lt;/code&gt; collection using the sheet name.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Add Worksheets</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridwebworksheets/add&#43;worksheets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridwebworksheets/add&#43;worksheets/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--add-worksheets&#34;&gt;Aspose.Cells for .NET : Add Worksheets&lt;/h1&gt;
+&lt;p&gt;Worksheets are an integral part of Aspose.Cells.GridWeb. All data is managed and stored in the form of worksheets. Aspose.Cells.GridWeb allows developers to add one or more worksheets to the Aspose.Cells.GridWeb control. This topic shows simple approaches to adding worksheets to Aspose.Cells.GridWeb.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#adding-a-worksheet&#34;&gt;Adding a Worksheet&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#without-specifying-sheet-name&#34;&gt;Without Specifying Sheet Name&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.2 &lt;a href=&#34;#with-specified-sheet-name&#34;&gt;With Specified Sheet Name&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;adding-a-worksheet&#34;&gt;Adding a Worksheet&lt;/h2&gt;
+&lt;h3 id=&#34;without-specifying-sheet-name&#34;&gt;Without Specifying Sheet Name&lt;/h3&gt;
+&lt;p&gt;The simplest way to add a worksheet to Aspose.Cells.GridWeb is to call the &lt;code&gt;GridWorksheetCollection&lt;/code&gt; collection&amp;rsquo;s &lt;code&gt;Add&lt;/code&gt; method in the GridWeb control. This creates worksheets that use default names (that is Sheet1, Sheet2, Sheet3 and so on) and adds them to the GridWeb control.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Output: a worksheet with default name has been added to GridWeb&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5013781/5115348.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;Add&lt;/code&gt; method returns the new worksheet&amp;rsquo;s index which can be used to access the instance of this worksheet. For more details on how to access worksheets, read &lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/gridweb/workingwithgridwebworksheets/access+worksheets&#34;&gt;Access Worksheets&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;with-specified-sheet-name&#34;&gt;With Specified Sheet Name&lt;/h3&gt;
+&lt;p&gt;To add a worksheet with a specific name to the GridWeb control instead of using the default naming scheme, call an overloaded version of the &lt;code&gt;Add&lt;/code&gt; method that takes the specified &lt;code&gt;SheetName&lt;/code&gt;. For an instance, the example below adds a worksheet named Invoice.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Output: a worksheet with a specified name has been added to GridWeb&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5013781/5115347.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;Add&lt;/code&gt; method accepting the worksheet name as string returns an instance of &lt;code&gt;GridWorksheet&lt;/code&gt;.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Remove Worksheets</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridwebworksheets/remove&#43;worksheets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridwebworksheets/remove&#43;worksheets/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--remove-worksheets&#34;&gt;Aspose.Cells for .NET : Remove Worksheets&lt;/h1&gt;
+&lt;p&gt;This topic provides information about how to remove worksheets from Microsoft Excel files using the Aspose.Cells.GridWeb API.It is possible to either remove a worksheet by specifying its sheet index or name.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#removing-a-worksheet&#34;&gt;Removing a Worksheet&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#using-sheet-index&#34;&gt;Using Sheet Index&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.2 &lt;a href=&#34;#using-sheet-name&#34;&gt;Using Sheet Name&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;removing-a-worksheet&#34;&gt;Removing a Worksheet&lt;/h2&gt;
+&lt;h3 id=&#34;using-sheet-index&#34;&gt;Using Sheet Index&lt;/h3&gt;
+&lt;p&gt;The code below shows how to remove a worksheet by specifying its sheet index in the &lt;code&gt;GridWorksheetCollection&lt;/code&gt;&#39;s &lt;code&gt;RemoveAt&lt;/code&gt; method.&lt;/p&gt;
+&lt;h3 id=&#34;using-sheet-name&#34;&gt;Using Sheet Name&lt;/h3&gt;
+&lt;p&gt;The code below shows how to remove a worksheet by specifying its sheet name in the &lt;code&gt;GridWorksheetCollection&lt;/code&gt;&#39;s &lt;code&gt;RemoveAt&lt;/code&gt; method.&lt;/p&gt;
+&lt;p&gt;It is also possible to remove a worksheet using its reference or instance. To do so, use the &lt;code&gt;GridWorksheetCollection&lt;/code&gt;&#39;s &lt;code&gt;Remove&lt;/code&gt; method. This approach is commonly used.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Rename Worksheets</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridwebworksheets/rename&#43;worksheets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridwebworksheets/rename&#43;worksheets/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--rename-worksheets&#34;&gt;Aspose.Cells for .NET : Rename Worksheets&lt;/h1&gt;
+&lt;p&gt;Renaming a worksheet can be very useful when working with many worksheets in Aspose.Cells.GridWeb and decide to change their names to make them more meaningful. For example, a worksheet containing an invoice can be renamed Invoice instead of Sheet1. This topic describes this simple but useful feature.&lt;/p&gt;
+&lt;h2 id=&#34;renaming-a-worksheet&#34;&gt;Renaming a Worksheet&lt;/h2&gt;
+&lt;p&gt;All worksheets contain a &lt;code&gt;Name&lt;/code&gt; property that allows developers to access or modify worksheets&amp;rsquo; names. To rename a worksheet:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Access a worksheet from the &lt;code&gt;GridWorksheetCollection&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Rename the selected worksheet.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;For more details on how to access worksheets in Aspose.Cells.GridWeb, please refer to &lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/gridweb/workingwithgridwebworksheets/access+worksheets&#34;&gt;Access Worksheets&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Before executing the code, the worksheet has a default name, such as Sheet1.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Input file: a worksheet with a default name Sheet1&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5013788/5115346.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;After running the code, the worksheet is renamed Students.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Output: the worksheet is renamed Students&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5013788/5115345.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Copy a Worksheet</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridwebworksheets/copy&#43;a&#43;worksheet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridwebworksheets/copy&#43;a&#43;worksheet/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--copy-a-worksheet&#34;&gt;Aspose.Cells for .NET : Copy a Worksheet&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/gridweb/workingwithgridwebworksheets/add+worksheets&#34;&gt;Add Worksheets&lt;/a&gt; describes how to add new worksheets to Aspose.Cells.GridWeb. It&amp;rsquo;s also possible to add a copy (or replica) of another worksheet to the Aspose.Cells.GridWeb control. This feature can be useful when identical or similar data in one worksheet is also required in another worksheet. When that&amp;rsquo;s the case, it&amp;rsquo;s easier to copy an existing worksheet and add it to Aspose.Cells.GridWeb as a new worksheet instead of creating it from scratch.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#copying-a-worksheet&#34;&gt;Copying a Worksheet&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#using-sheet-index&#34;&gt;Using Sheet index&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.2 &lt;a href=&#34;#using-sheet-name&#34;&gt;Using Sheet Name&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;copying-a-worksheet&#34;&gt;Copying a Worksheet&lt;/h2&gt;
+&lt;h3 id=&#34;using-sheet-index&#34;&gt;Using Sheet index&lt;/h3&gt;
+&lt;p&gt;The example code below shows how to add a copy of a worksheet to the GridWeb control by specifying the worksheet&amp;rsquo;s index in the &lt;code&gt;GridWorksheetCollection&lt;/code&gt;&#39;s &lt;code&gt;AddCopy&lt;/code&gt; method.&lt;/p&gt;
+&lt;h3 id=&#34;using-sheet-name&#34;&gt;Using Sheet Name&lt;/h3&gt;
+&lt;p&gt;The example code below shows how to add a copy of a worksheet to the GridWeb control by specifying the worksheet&amp;rsquo;s name in the &lt;code&gt;GridWorksheetCollection&lt;/code&gt;&#39;s &lt;code&gt;AddCopy&lt;/code&gt; method.&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;AddCopy&lt;/code&gt; method returns the newly added worksheet&amp;rsquo;s index which can be used to access the worksheet instance. For more details on how to access worksheets, read &lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/gridweb/workingwithgridwebworksheets/access+worksheets&#34;&gt;Access Worksheets&lt;/a&gt;.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Import DataView to GridWeb</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridwebworksheets/import&#43;dataview&#43;to&#43;gridweb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridwebworksheets/import&#43;dataview&#43;to&#43;gridweb/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--import-dataview-to-gridweb&#34;&gt;Aspose.Cells for .NET : Import DataView to GridWeb&lt;/h1&gt;
+&lt;p&gt;With the release of the Microsoft .NET Framework, a new way of storing data was introduced. Now &lt;code&gt;DataSet&lt;/code&gt;, &lt;code&gt;DataTable&lt;/code&gt; and &lt;code&gt;DataView&lt;/code&gt; objects that store data in offline mode. These objects are very handy as data repositories. Using Aspose.Cells.GridWeb, it&amp;rsquo;s possible to import data from either &lt;code&gt;DataTable&lt;/code&gt; or &lt;code&gt;DataView&lt;/code&gt; objects into worksheets. Aspose.Cells.GridWeb only supports importing data from a &lt;code&gt;DataView&lt;/code&gt;. object but a DataTable object can also be used indirectly. Let&amp;rsquo;s discuss this feature in detail.&lt;/p&gt;
+&lt;h2 id=&#34;importing-data-from-dataview&#34;&gt;Importing Data from DataView&lt;/h2&gt;
+&lt;p&gt;Import data from a &lt;code&gt;DataView&lt;/code&gt; object using the &lt;code&gt;GridWorsheetCollection&lt;/code&gt;&#39;s &lt;code&gt;ImportDataView&lt;/code&gt; method in the GridWeb control. Pass the &lt;code&gt;DataView&lt;/code&gt; object that you want to import data from to the &lt;code&gt;ImportDataView&lt;/code&gt; method. It&amp;rsquo;s possible to specify column header and data styles during import.&lt;/p&gt;
+&lt;p&gt;When data is imported from a &lt;code&gt;DataView&lt;/code&gt; object, a new worksheet is created to hold the imported data. The worksheet is named the same as the &lt;code&gt;DataTable&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Output: Data imported from a DataView into a new worksheet&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5013790/5115119.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The widths of the columns are adjusted to show all the data they contain. When the data is imported from &lt;code&gt;DataView&lt;/code&gt;, column widths are not adjusted automatically. Users need to adjust them by themselves. To adjust the column widths programmatically, refer to &lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/gridweb/workingwithgridwebrowsandcolumns/resize+rows+and+columns&#34;&gt;Resize Rows and Columns&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;An overloaded version of the &lt;code&gt;ImportDataView&lt;/code&gt; method allows developers to specify the name of the sheet that holds the imported data and a specific number of rows and columns to import from the &lt;code&gt;DataView&lt;/code&gt; object.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Export DataTable from GridWeb</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridwebworksheets/export&#43;datatable&#43;from&#43;gridweb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridwebworksheets/export&#43;datatable&#43;from&#43;gridweb/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--export-datatable-from-gridweb&#34;&gt;Aspose.Cells for .NET : Export DataTable from GridWeb&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/gridweb/workingwithgridwebworksheets/import+dataview+to+gridweb&#34;&gt;Import DataView to GridWeb&lt;/a&gt; talked about importing the contents of a &lt;code&gt;DataView&lt;/code&gt; to the Aspose.Cells.GridWeb control. This topic discusses exporting the data in from the Aspose.Cells.GridWeb control to a &lt;code&gt;DataTable&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#exporting-worksheet-data&#34;&gt;Exporting Worksheet Data&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#to-a-specific-datatable&#34;&gt;To a Specific DataTable&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.2 &lt;a href=&#34;#to-a-new-datatable&#34;&gt;To a New DataTable&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;exporting-worksheet-data&#34;&gt;Exporting Worksheet Data&lt;/h2&gt;
+&lt;h3 id=&#34;to-a-specific-datatable&#34;&gt;To a Specific DataTable&lt;/h3&gt;
+&lt;p&gt;To export worksheet data to a specific &lt;code&gt;DataTable&lt;/code&gt; object:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Add the Aspose.Cells.GridWeb control to your Web Form.&lt;/li&gt;
+&lt;li&gt;Create a specific &lt;code&gt;DataTable&lt;/code&gt; object.&lt;/li&gt;
+&lt;li&gt;Export the data of the selected cells to the specified &lt;code&gt;DataTable&lt;/code&gt; object.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The example below creates a specific &lt;code&gt;DataTable&lt;/code&gt; object with four columns. The worksheet data is exported starting from the first cell with all the rows and columns visible in the worksheet, to a &lt;code&gt;DataTable&lt;/code&gt; object already created.&lt;/p&gt;
+&lt;h3 id=&#34;to-a-new-datatable&#34;&gt;To a New DataTable&lt;/h3&gt;
+&lt;p&gt;Sometimes, you don&amp;rsquo;t want to create a &lt;code&gt;DataTable&lt;/code&gt; object but simply need to export the worksheet data to a new &lt;code&gt;DataTable&lt;/code&gt; object.&lt;/p&gt;
+&lt;p&gt;The example below tries a different way to show the use of the &lt;code&gt;Export&lt;/code&gt; method. It takes the reference of the active worksheet and exports the complete data of that worksheet to a new &lt;code&gt;DataTable&lt;/code&gt; object. The &lt;code&gt;DataTable&lt;/code&gt; object can now be used in any way you want. For example, it is possible to bind the &lt;code&gt;DataTable&lt;/code&gt; object to a &lt;code&gt;GridView&lt;/code&gt; to view the data.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Sort Worksheet Data</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridwebworksheets/sort&#43;worksheet&#43;data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridwebworksheets/sort&#43;worksheet&#43;data/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--sort-worksheet-data&#34;&gt;Aspose.Cells for .NET : Sort Worksheet Data&lt;/h1&gt;
+&lt;p&gt;Sorting is a very valuable feature when it comes to data processing. Unsorted data is a pain for users when searching for specific information. Aspose.Cells.GridWeb supports powerful sorting features. This topic discusses sorting data using the Aspose.Cells.GridWeb API.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#sorting-data&#34;&gt;Sorting Data&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#from-top-to-bottom&#34;&gt;From Top to Bottom&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.2 &lt;a href=&#34;#from-left-to-right&#34;&gt;From Left to Right&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;sorting-data&#34;&gt;Sorting Data&lt;/h2&gt;
+&lt;p&gt;Aspose.Cells.GridWeb allows developers to sort data horizontally and vertically so that developers can sort data from top to bottom or left to right.&lt;/p&gt;
+&lt;h3 id=&#34;from-top-to-bottom&#34;&gt;From Top to Bottom&lt;/h3&gt;
+&lt;p&gt;To sort data from top to bottom orientation:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Add the Aspose.Cells.GridWeb control to your Web Form.&lt;/li&gt;
+&lt;li&gt;Access the worksheet that you want to sort.&lt;/li&gt;
+&lt;li&gt;Sort the range of data in any order (ascending or descending). Be sure to select top to bottom orientation.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The example below sorts data in four columns of a worksheet in descending order. Only twenty rows of the four columns are sorted in top to bottom orientation.&lt;/p&gt;
+&lt;p&gt;Before applying the code, the worksheet contains unordered data.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5013786/5115343.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;After executing the code, the data is sorted in ascending order.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5013786/5115342.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;from-left-to-right&#34;&gt;From Left to Right&lt;/h3&gt;
+&lt;p&gt;To sort data from left to right:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Add the Aspose.Cells.GridWeb control to your Web Form.&lt;/li&gt;
+&lt;li&gt;Access the worksheet that you want to sort.&lt;/li&gt;
+&lt;li&gt;Sort the range of data in any order (ascending or descending). Be sure to select left to right.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The example below sorts data in four rows in ascending order. Only four rows of seven columns are sorted left to right.&lt;/p&gt;
+&lt;p&gt;Before applying the code, the worksheet contains unordered data.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5013786/5115341.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;After executing the code, data is sorted in ascending order.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5013786/5115340.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;IMPORTANT: The above examples demonstrate sorting data on the basis of one column (top to bottom) or row (left to right). Aspose.Cells.GridWeb can also sort data according to more than one column or row. To do so, pass an array of column or row indices to the &lt;code&gt;Sort&lt;/code&gt; method. Hybrid data type sorting is also supported.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Search and Replace in GridWeb</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridwebworksheets/search&#43;and&#43;replace&#43;in&#43;gridweb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridwebworksheets/search&#43;and&#43;replace&#43;in&#43;gridweb/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--search-and-replace-in-gridweb&#34;&gt;Aspose.Cells for .NET : Search and Replace in GridWeb&lt;/h1&gt;
+&lt;p&gt;One of the fastest ways to make repetitive changes in a large spreadsheet is to use the find and replace feature. Find helps you locate a text string or data and replace substitutes it with a new value. Aspose.Cells.GridWeb provides this feature. It enables you to search for and replace with a specific text string or value in the worksheet client-side through a simple dialog. It even allows you to look for partial data.&lt;/p&gt;
+
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#working-with-find/replace&#34;&gt;Working with Find/Replace&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#the-find/replace-dialog&#34;&gt;The Find/Replace Dialog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.2 &lt;a href=&#34;#using-find&#34;&gt;Using Find&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.3 &lt;a href=&#34;#searching-options&#34;&gt;Searching Options&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.4 &lt;a href=&#34;#using-replace&#34;&gt;Using Replace&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;working-with-findreplace&#34;&gt;Working with Find/Replace&lt;/h2&gt;
+&lt;h3 id=&#34;the-findreplace-dialog&#34;&gt;The Find/Replace Dialog&lt;/h3&gt;
+&lt;p&gt;There are two ways to open the Find/Replace dialog:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;When the control is active, press &lt;strong&gt;CTRL+F&lt;/strong&gt; to open the dialog, or press &lt;strong&gt;CTRL+R&lt;/strong&gt; key to open the dialog with the &lt;strong&gt;Replace&lt;/strong&gt; button enabled.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Move the cursor to the cell area in the worksheet, then right-click. Select &lt;strong&gt;Find&lt;/strong&gt; or &lt;strong&gt;Replace&lt;/strong&gt; from the menu.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Selecting Find&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5013787/5115339.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;A style dialog is displayed.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The Find/Replace dialog&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5013787/5115338.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;using-find&#34;&gt;Using Find&lt;/h3&gt;
+&lt;p&gt;To search:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Open the Find/Replace dialog.&lt;/li&gt;
+&lt;li&gt;Type the string you want to search for in the &lt;strong&gt;Find what&lt;/strong&gt; field.&lt;/li&gt;
+&lt;li&gt;Click &lt;strong&gt;Find Next&lt;/strong&gt; to search.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The next cell that matches your find condition is highlighted.&lt;/p&gt;
+&lt;p&gt;If your search criterion is not found, a dialog is displayed to tell you.&lt;/p&gt;
+&lt;h3 id=&#34;searching-options&#34;&gt;Searching Options&lt;/h3&gt;
+&lt;p&gt;There are some search options that you can customize in the dialog. The table below lists them.&lt;/p&gt;
+&lt;p&gt;No.&lt;/p&gt;
+&lt;p&gt;Option Name&lt;/p&gt;
+&lt;p&gt;Description&lt;/p&gt;
+&lt;p&gt;1&lt;/p&gt;
+&lt;p&gt;Match case&lt;/p&gt;
+&lt;p&gt;Indicates whether to use case sensitive in searching.&lt;/p&gt;
+&lt;p&gt;2&lt;/p&gt;
+&lt;p&gt;Match whole word&lt;/p&gt;
+&lt;p&gt;Indicates whether to match whole word in searching.&lt;/p&gt;
+&lt;p&gt;3&lt;/p&gt;
+&lt;p&gt;Search up&lt;/p&gt;
+&lt;p&gt;Indicates whether the search will be done from bottom to top.&lt;/p&gt;
+&lt;p&gt;4&lt;/p&gt;
+&lt;p&gt;Regular expression&lt;/p&gt;
+&lt;p&gt;When checked, the control will treat the string in the Find what text box as a regular expression in searching process.&lt;/p&gt;
+&lt;p&gt;5&lt;/p&gt;
+&lt;p&gt;Find in Formulas/Values&lt;/p&gt;
+&lt;p&gt;When the Formulas is selected, the control will match the formula or unformatted value of the cells if the formula or the unformatted value is present. When the Values is selected, the control will only match the displayed value of the cells.&lt;/p&gt;
+&lt;h3 id=&#34;using-replace&#34;&gt;Using Replace&lt;/h3&gt;
+&lt;p&gt;To replace text or values:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Open the Find/Replace dialog Box by pressing &lt;strong&gt;CTRL+F&lt;/strong&gt;, or select right-click a cell and select &lt;strong&gt;Find&lt;/strong&gt; before clicking &lt;strong&gt;Replace&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Type the replacement string in the &lt;strong&gt;Replace with&lt;/strong&gt; field.&lt;/li&gt;
+&lt;li&gt;Click &lt;strong&gt;Replace&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;To replace text:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Open the dialog box.&lt;/li&gt;
+&lt;li&gt;Enter the text you want to find in the &lt;strong&gt;Find what&lt;/strong&gt; field, and the text you want to replace it with in the &lt;strong&gt;Replace with&lt;/strong&gt; field.&lt;/li&gt;
+&lt;li&gt;Replace one occurence at a time by clicking &lt;strong&gt;Find Next&lt;/strong&gt; followed by &lt;strong&gt;Replace&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;If you are very sure of what the worlsheet contains, click &lt;strong&gt;Replace All&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;If the worksheet is not in edit mode, the &lt;strong&gt;Replace&lt;/strong&gt; button is not displayed.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Manage Hyperlinks in Worksheet</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridwebworksheets/manage&#43;hyperlinks&#43;in&#43;worksheet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridwebworksheets/manage&#43;hyperlinks&#43;in&#43;worksheet/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--manage-hyperlinks-in-worksheet&#34;&gt;Aspose.Cells for .NET : Manage Hyperlinks in Worksheet&lt;/h1&gt;
+&lt;p&gt;This topic discusses what types of hyperlinks are supported in Aspose.Cells.GridWeb and how to manage them programmatically. Hyperlinks can be used for either creating links to web URLs or to perform postback to a server.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#working-with-hyperlinks&#34;&gt;Working with Hyperlinks&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#types-of-hyperlinks&#34;&gt;Types of Hyperlinks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.2 &lt;a href=&#34;#adding-hyperlinks&#34;&gt;Adding Hyperlinks&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.2.1 &lt;a href=&#34;#url-hyperlinks&#34;&gt;URL Hyperlinks&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.2.1.1 &lt;a href=&#34;#text-hyperlinks&#34;&gt;Text Hyperlinks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.2.1.2 &lt;a href=&#34;#image-hyperlinks&#34;&gt;Image Hyperlinks&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;1.2.2 &lt;a href=&#34;#cell-command-hyperlinks&#34;&gt;Cell Command Hyperlinks&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.2.2.1 &lt;a href=&#34;#event-handling-of-cell-command-hyperlinks&#34;&gt;Event Handling of Cell Command Hyperlinks&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;1.3 &lt;a href=&#34;#accessing-hyperlinks&#34;&gt;Accessing Hyperlinks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.4 &lt;a href=&#34;#removing-hyperlinks&#34;&gt;Removing Hyperlinks&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;working-with-hyperlinks&#34;&gt;Working with Hyperlinks&lt;/h2&gt;
+&lt;h3 id=&#34;types-of-hyperlinks&#34;&gt;Types of Hyperlinks&lt;/h3&gt;
+&lt;p&gt;Generally,the following hyperlinks are supported by Aspose.Cells.GridWeb:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/gridweb/workingwithgridwebworksheets/manage+hyperlinks+in+worksheet&#34;&gt;URL hyperlinks&lt;/a&gt;, hyperlinks that can be linked to web URLs.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/gridweb/workingwithgridwebworksheets/manage+hyperlinks+in+worksheet&#34;&gt;Text hyperlinks&lt;/a&gt;, URL hyperlinks applied to text.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/gridweb/workingwithgridwebworksheets/manage+hyperlinks+in+worksheet&#34;&gt;Image hyperlinks&lt;/a&gt;, URL hyperlinks applied to images.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/gridweb/workingwithgridwebworksheets/manage+hyperlinks+in+worksheet&#34;&gt;Cell command hyperlinks&lt;/a&gt;, hyperlinks that post data to a server. Such hyperlinks act more like a button that triggers a server-side event when clicked.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The below sections describe the use of all types of hyperlinks in detail. It also discusses how to access or remove links.&lt;/p&gt;
+&lt;h3 id=&#34;adding-hyperlinks&#34;&gt;Adding Hyperlinks&lt;/h3&gt;
+&lt;h4 id=&#34;url-hyperlinks&#34;&gt;URL Hyperlinks&lt;/h4&gt;
+&lt;p&gt;URL hyperlinks look more like simple hyperlinks that you normally see on websites. A URL hyperlink works like an anchor in a cell. Whenever it is clicked, it navigates to a web page or opens a new browser window.&lt;/p&gt;
+&lt;p&gt;There are different types of URL hyperlinks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Text hyperlinks.&lt;/li&gt;
+&lt;li&gt;Image hyperlinks.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Developers can specify an image for the hyperlink. If an image isn&amp;rsquo;t specified, a text hyperlink is created; else an image hyperlink is created.&lt;/p&gt;
+&lt;h5 id=&#34;text-hyperlinks&#34;&gt;Text Hyperlinks&lt;/h5&gt;
+&lt;p&gt;To add a text hyperlink to a worksheet:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Add the Aspose.Cells.GridWeb control to your Web Form.&lt;/li&gt;
+&lt;li&gt;Access a worksheet.&lt;/li&gt;
+&lt;li&gt;Add a hyperlink to a cell in the worksheet.&lt;/li&gt;
+&lt;li&gt;Set the text that will be shown in the cell.&lt;/li&gt;
+&lt;li&gt;Set the hyperlink&amp;rsquo;s URL.&lt;/li&gt;
+&lt;li&gt;Set the hyperlink&amp;rsquo;s target,if desired.&lt;/li&gt;
+&lt;li&gt;Set a tool tip, if desired.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;NOTE: The hyperlink target can be set to _self, _top or _parent for opening web URLs in a new, the current or the top window respectively.&lt;/p&gt;
+&lt;p&gt;The example below adds two hyperlinks to a worksheet. One has no target while the other is set to _parent.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Output: text hyperlinks added to worksheet&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5013773/5115385.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h5 id=&#34;image-hyperlinks&#34;&gt;Image Hyperlinks&lt;/h5&gt;
+&lt;p&gt;To add an image hyperlink:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Add the Aspose.Cells.GridWeb control to your Web Form.&lt;/li&gt;
+&lt;li&gt;Access a worksheet.&lt;/li&gt;
+&lt;li&gt;Add a hyperlink to a cell.&lt;/li&gt;
+&lt;li&gt;Set the URL of the image that will be displayed as hyperlink.&lt;/li&gt;
+&lt;li&gt;Set the hyperlink URL.&lt;/li&gt;
+&lt;li&gt;Set a tool tip, if desired.&lt;/li&gt;
+&lt;li&gt;Set the hyperlink text, if desired.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Output: image hyperlinks added to worksheet&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5013773/5115386.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Setting the image hyperlink&amp;rsquo;s AltText fills a similar function as setting an &lt;ALT&gt; tag in HTML. The text is displayed only if the hyperlinked image is not displayed. (For example, if the image isn&amp;rsquo;t at the specified location.) If the image of the second hyperlink is not found, the output of the code snippet below would look as follows.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The image for the image URL could not be found&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5013773/5115387.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;cell-command-hyperlinks&#34;&gt;Cell Command Hyperlinks&lt;/h4&gt;
+&lt;p&gt;A cell command hyperlink is a special type of hyperlink which triggers a server-side event instead of opening a web page. Developers can add code to the server-side event and perform any task when the hyperlink is clicked. This feature enables developers to create more interactive applications.&lt;/p&gt;
+&lt;p&gt;To add a cell command hyperlink:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Add the Aspose.Cells.GridWeb control to your Web Form.&lt;/li&gt;
+&lt;li&gt;Access a worksheet.&lt;/li&gt;
+&lt;li&gt;Add a hyperlink to a cell.&lt;/li&gt;
+&lt;li&gt;Set the hyperlink&amp;rsquo;s &lt;code&gt;Command&lt;/code&gt; to any desired value.&lt;br&gt;
+The value is used by the hyperlink&amp;rsquo;s event handler to recognise it.&lt;/li&gt;
+&lt;li&gt;Set a tool tip, if desired.&lt;/li&gt;
+&lt;li&gt;Set the URL for the Image that will be displayed as a hyperlink.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;A cell command hyperlink has been added to worksheet&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5013773/5115388.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h5 id=&#34;event-handling-of-cell-command-hyperlinks&#34;&gt;Event Handling of Cell Command Hyperlinks&lt;/h5&gt;
+&lt;p&gt;Developers need to create an event handler for the GridWeb control&amp;rsquo;s &lt;code&gt;CellCommand&lt;/code&gt; event to perform specific tasks when a specific cell command hyperlink is clicked. The &lt;code&gt;CellCommand&lt;/code&gt; event&amp;rsquo;s event handler provides an object of the &lt;code&gt;CellEventArgs&lt;/code&gt; type that offers the &lt;code&gt;Argument&lt;/code&gt; property. Use the &lt;code&gt;Argument&lt;/code&gt; property to identify a specific hyperlink by comparing its &lt;code&gt;CellCommand&lt;/code&gt; value.&lt;/p&gt;
+&lt;p&gt;The example below creates an event handler for the cell command hyperlink created in the code above. The hyperlink&amp;rsquo;s &lt;code&gt;CellCommand&lt;/code&gt; was set to &lt;code&gt;Click&lt;/code&gt;. So, in the event handler, first check it and then add code which displays a message in the A6 cell.&lt;/p&gt;
+&lt;p&gt;The event handler is invoked when the hyperlink is clicked.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Output: text added to A6 cell when hyperlink is clicked&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5013773/5115389.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;accessing-hyperlinks&#34;&gt;Accessing Hyperlinks&lt;/h3&gt;
+&lt;p&gt;To access an existing hyperlink:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Access the cell that contains it.&lt;/li&gt;
+&lt;li&gt;Get the cell reference.&lt;/li&gt;
+&lt;li&gt;Pass the reference to the &lt;code&gt;Hyperlinks&lt;/code&gt; collection&amp;rsquo;s &lt;code&gt;GetHyperlink&lt;/code&gt; method to access the hyperlink.&lt;/li&gt;
+&lt;li&gt;Modify the hyperlink&amp;rsquo;s properties.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;removing-hyperlinks&#34;&gt;Removing Hyperlinks&lt;/h3&gt;
+&lt;p&gt;To remove a hyperlink:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Access the active worksheet.&lt;/li&gt;
+&lt;li&gt;Remove a hyperlink using the &lt;code&gt;Hyperlinks&lt;/code&gt; collection&amp;rsquo;s &lt;code&gt;Remove&lt;/code&gt; method.&lt;/li&gt;
+&lt;/ol&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Manage Comments in Worksheet</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridwebworksheets/manage&#43;comments&#43;in&#43;worksheet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridwebworksheets/manage&#43;comments&#43;in&#43;worksheet/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--manage-comments-in-worksheet&#34;&gt;Aspose.Cells for .NET : Manage Comments in Worksheet&lt;/h1&gt;
+&lt;p&gt;This topic discusses adding, accessing and removing comments from worksheets. Comments are useful for adding notes or useful information for users who will work with the sheet. Developers have the flexibility to add comments to any cell of the worksheet.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#working-with-comments&#34;&gt;Working with Comments&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#adding-comments&#34;&gt;Adding Comments&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.2 &lt;a href=&#34;#accessing-comments&#34;&gt;Accessing Comments&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.3 &lt;a href=&#34;#removing-comments&#34;&gt;Removing Comments&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;working-with-comments&#34;&gt;Working with Comments&lt;/h2&gt;
+&lt;h3 id=&#34;adding-comments&#34;&gt;Adding Comments&lt;/h3&gt;
+&lt;p&gt;To add a comment to worksheet, please follow the steps below:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Add the Aspose.Cells.GridWeb control to the Web Form.&lt;/li&gt;
+&lt;li&gt;Access the worksheet you&amp;rsquo;re adding comments to.&lt;/li&gt;
+&lt;li&gt;Add a comment to a cell.&lt;/li&gt;
+&lt;li&gt;Set a note for the new comment.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;A comment has been added to the worksheet&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5013775/5115390.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;accessing-comments&#34;&gt;Accessing Comments&lt;/h3&gt;
+&lt;p&gt;To access a comment:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Access the cell that contains the comment.&lt;/li&gt;
+&lt;li&gt;Get the cell&amp;rsquo;s reference.&lt;/li&gt;
+&lt;li&gt;Pass the reference to the Comment collection&amp;rsquo;s to access the comment.&lt;/li&gt;
+&lt;li&gt;It&amp;rsquo;s now possible to modify the comment&amp;rsquo;s properties.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;removing-comments&#34;&gt;Removing Comments&lt;/h3&gt;
+&lt;p&gt;To remove a comment:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Access the cell as explained above.&lt;/li&gt;
+&lt;li&gt;Use the Comment collection&amp;rsquo;s &lt;code&gt;RemoveAt&lt;/code&gt; method to remove the comment.&lt;/li&gt;
+&lt;/ol&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Add and Reference Named Ranges</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridwebworksheets/add&#43;and&#43;reference&#43;named&#43;ranges/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridwebworksheets/add&#43;and&#43;reference&#43;named&#43;ranges/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--add-and-reference-named-ranges&#34;&gt;Aspose.Cells for .NET : Add and Reference Named Ranges&lt;/h1&gt;
+&lt;p&gt;Normally, column and row labels are used to uniquely refer to cells. But you can create descriptive names to represent cells, ranges of cells, formulas, or constant values. The word &lt;strong&gt;Name&lt;/strong&gt; may refer to a string of characters that represents a cell, range of cells, formula, or constant value. For example, use easy-to-understand names, such as Products, to refer to hard to understand ranges, such as Sales!C20:C30. Labels can be used in formulas that refer to data on the same worksheet; if you want to represent a range on another worksheet, you may use a name. &lt;strong&gt;Named ranges&lt;/strong&gt; is one of the most powerful features of Microsoft Excel. Users can assign a name to a range and use that name in formulas. Aspose.Cells.GridWeb supports this feature.&lt;/p&gt;
+&lt;h2 id=&#34;addingreferencing-named-ranges-in-formulas&#34;&gt;Adding/Referencing Named Ranges in Formulas&lt;/h2&gt;
+&lt;p&gt;The GridWeb control provides two classes (&lt;code&gt;GridName&lt;/code&gt; and &lt;code&gt;GridNameCollection&lt;/code&gt;) for working with named ranges. The following code snippet will help you understand how to create the Named Range and access it in the formulas.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Binding Worksheet to a Customized Collection Object using GridWeb</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridwebworksheets/binding&#43;worksheet&#43;to&#43;a&#43;customized&#43;collection&#43;object&#43;using&#43;gridweb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridwebworksheets/binding&#43;worksheet&#43;to&#43;a&#43;customized&#43;collection&#43;object&#43;using&#43;gridweb/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--binding-worksheet-to-a-customized-collection-object-using-gridweb&#34;&gt;Aspose.Cells for .NET : Binding Worksheet to a Customized Collection Object using GridWeb&lt;/h1&gt;
+&lt;p&gt;The Microsoft .NET Framework offers many collection classes but sometimes they don&amp;rsquo;t fulfill the development requirements so developers create &lt;strong&gt;custom collections&lt;/strong&gt;, and may require to bind such custom collections with Aspose.Cells.GridWeb.&lt;/p&gt;
+&lt;h3 id=&#34;binding-a-worksheet-with-a-custom-collection&#34;&gt;Binding a Worksheet with a Custom Collection&lt;/h3&gt;
+&lt;p&gt;To illustrate this feature, this article goes through how to create a sample application, step by step. First, create a custom collection and then use that collection to binding with a worksheet.&lt;/p&gt;
+&lt;h4 id=&#34;step-1-creating-a-custom-record&#34;&gt;Step 1: Creating a Custom Record&lt;/h4&gt;
+&lt;p&gt;Before creating a custom collection, create a class to hold the custom records that will be stored in the collection. The purpose of this article is to give an idea of how to create your own custom collections and bind them with Aspose.Cells.GridWeb, so how you create the custom record is up to you.&lt;/p&gt;
+&lt;p&gt;The example below uses the &lt;code&gt;MyCustomRecord&lt;/code&gt; class which contains five private fields and five public properties that control access to the private fields. Here is the structure of properties:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The &lt;code&gt;StringField1&lt;/code&gt; property to read and write &lt;strong&gt;stringfield1&lt;/strong&gt; (string).&lt;/li&gt;
+&lt;li&gt;The &lt;code&gt;ReadonlyField2&lt;/code&gt; property to only read &lt;strong&gt;stringfield2&lt;/strong&gt; (string).&lt;/li&gt;
+&lt;li&gt;The &lt;code&gt;DateField1&lt;/code&gt; property to read and write &lt;strong&gt;datefield1&lt;/strong&gt; (DateTime).&lt;/li&gt;
+&lt;li&gt;The &lt;code&gt;IntField1&lt;/code&gt; property to read and write &lt;strong&gt;intfield1&lt;/strong&gt; (integer).&lt;/li&gt;
+&lt;li&gt;The &lt;code&gt;DoubleField1&lt;/code&gt; property to read and write &lt;strong&gt;doublefield1&lt;/strong&gt; (double).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;C#&lt;/strong&gt;&lt;/p&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_9e75b027c8&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_9e75b027c8&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-c#&#34; data-lang=&#34;c#&#34;&gt;
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//Creating a class that will act as record for the custom collection
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;MyCustomRecord&lt;/span&gt;
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt;
+
+    &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//Private data members
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;private&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;string&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;stringfield1&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;
+    &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;private&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;string&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;stringfield2&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;ABC&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;
+    &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;private&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;DateTime&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;datefield1&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;
+    &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;private&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;int&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;intfield1&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;
+    &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;private&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;double&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;doublefield1&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;
+
+    &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//Creating a string property
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;string&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;StringField1&lt;/span&gt;
+    &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt;
+        &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;get&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;stringfield1&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;}&lt;/span&gt;
+        &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;set&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;stringfield1&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;value&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;}&lt;/span&gt;
+    &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;}&lt;/span&gt;
+
+    &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//Creating a readonly string property
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;string&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;ReadonlyField2&lt;/span&gt;
+    &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt;
+        &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;get&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;stringfield2&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;}&lt;/span&gt;
+    &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;}&lt;/span&gt;
+
+    &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//Creating a DateTime property
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;DateTime&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;DateField1&lt;/span&gt;
+    &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt;
+        &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;get&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;datefield1&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;}&lt;/span&gt;
+        &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;set&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;datefield1&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;value&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;}&lt;/span&gt;
+    &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;}&lt;/span&gt;
+
+    &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//Creating an int property
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;int&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;IntField1&lt;/span&gt;
+    &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt;
+        &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;get&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;intfield1&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;}&lt;/span&gt;
+        &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;set&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;intfield1&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;value&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;}&lt;/span&gt;
+    &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;}&lt;/span&gt;
+
+    &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//Creating a double property
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;double&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;DoubleField1&lt;/span&gt;
+    &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt;
+        &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;get&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;doublefield1&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;}&lt;/span&gt;
+        &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;set&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;doublefield1&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;value&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;}&lt;/span&gt;
+    &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;}&lt;/span&gt;
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;}&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;h4 id=&#34;step-2-creating-a-custom-collection&#34;&gt;Step 2: Creating a Custom Collection&lt;/h4&gt;
+&lt;p&gt;Now, create a custom collection to add customer records to and access them from. To make it simple, this example uses the &lt;code&gt;MyCollection&lt;/code&gt; class which contains a readonly indexer. Using this indexer, we can get any custom record stored in the collection.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;C#&lt;/strong&gt;&lt;/p&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_e54b392c35&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_e54b392c35&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-c#&#34; data-lang=&#34;c#&#34;&gt;
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//Creating a custom collection
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;MyCollection&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;CollectionBase&lt;/span&gt;
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt;
+    &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//Leaving the collection constructor empty
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;MyCollection&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;()&lt;/span&gt;
+    &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt;
+    &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;}&lt;/span&gt;
+
+    &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//Creating a readonly property for custom collection. This Item property is used by GridWeb control to
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//determine the collection&amp;#39;s type
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;MyCustomRecord&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;this&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;int&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;index&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;]&lt;/span&gt;
+    &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt;
+        &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;get&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;MyCustomRecord&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;this&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;List&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;index&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;];&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;}&lt;/span&gt;
+    &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;}&lt;/span&gt;
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;}&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;h4 id=&#34;step-3-binding-a-worksheet-with-a-custom-collection&#34;&gt;Step 3: Binding a Worksheet with a Custom Collection&lt;/h4&gt;
+&lt;p&gt;The process of creating a custom collection is complete. Now use the custom collection to bind to a worksheet in Aspose.Cells.GridWeb . First create a web form, add the GridWeb control to it and add some code.&lt;/p&gt;
+&lt;p&gt;To use the custom collection for binding, first create an object of the &lt;code&gt;MyCollection&lt;/code&gt; class (created in the above step).&lt;br&gt;
+Then create and add &lt;code&gt;MyCustomRecord&lt;/code&gt; objects to the &lt;code&gt;MyCollection&lt;/code&gt; object.&lt;/p&gt;
+&lt;p&gt;Are you&amp;rsquo;re wondering why there wasn&amp;rsquo;t a method in the &lt;code&gt;MyCollection&lt;/code&gt; class for adding an &lt;code&gt;MyCustomRecord&lt;/code&gt; object to the collection. Take another look at the above code and you&amp;rsquo;ll notice that the &lt;code&gt;MyCollection&lt;/code&gt; class is inherited from the &lt;code&gt;CollectionBase&lt;/code&gt; class (that has implemented the &lt;code&gt;IList&lt;/code&gt; interface which provides an &lt;code&gt;Add&lt;/code&gt; method for adding an object to the collection). Use the &lt;code&gt;IList&lt;/code&gt; class&amp;rsquo; &lt;code&gt;Add&lt;/code&gt; method by upcasting the &lt;code&gt;MyCollection&lt;/code&gt; object to &lt;code&gt;IList&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Finally, set the &lt;code&gt;MyCollection&lt;/code&gt; object as the worksheet&amp;rsquo;s data source and bind the worksheet with the collection. At this point, you can also create validation rules for the bound columns of the worksheet.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;C#&lt;/strong&gt;&lt;/p&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_6a74843a6d&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_6a74843a6d&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-c#&#34; data-lang=&#34;c#&#34;&gt;
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//Implementing Page_Load event handler
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;protected&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Page_Load&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;object&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;sender&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;EventArgs&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;e&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt;
+    &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Page&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;IsPostBack&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;==&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;false&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;this&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;GridWeb1&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;IsPostBack&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;==&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;false&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+    &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt;
+        &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//Creating an object of custom collection
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;        &lt;span style=&#34;color:#000&#34;&gt;MyCollection&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;list&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;MyCollection&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;();&lt;/span&gt;
+
+        &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//Creating an instance of Random class
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;        &lt;span style=&#34;color:#000&#34;&gt;System&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Random&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;rand&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;System&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Random&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;();&lt;/span&gt;
+
+        &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//Creating a loop that will run 5 times
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;        &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;for&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;int&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;i&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;0&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;i&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;5&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;i&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;++)&lt;/span&gt;
+        &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt;
+            &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//Creating an object of Custom Record
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;            &lt;span style=&#34;color:#000&#34;&gt;MyCustomRecord&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;rec&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;MyCustomRecord&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;();&lt;/span&gt;
+
+            &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//Initializing all properties of Custom Record
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;            &lt;span style=&#34;color:#000&#34;&gt;rec&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;DateField1&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;DateTime&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Now&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;
+            &lt;span style=&#34;color:#000&#34;&gt;rec&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;DoubleField1&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;rand&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;NextDouble&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;()&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;*&lt;/span&gt; &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;10&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;
+            &lt;span style=&#34;color:#000&#34;&gt;rec&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;IntField1&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;rand&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Next&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;20&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+            &lt;span style=&#34;color:#000&#34;&gt;rec&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;StringField1&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;ABC_&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;i&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;
+
+            &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//Adding Custom Record to Collection
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;            &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;((&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;IList&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;list&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;).&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Add&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;rec&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+        &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;}&lt;/span&gt;
+
+        &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//Accessing a desired worksheet
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;        &lt;span style=&#34;color:#000&#34;&gt;GridWorksheet&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;sheet&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;GridWeb1&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;WorkSheets&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;0&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;];&lt;/span&gt;
+
+        &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//Setting the Data Sorce of worksheet
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;        &lt;span style=&#34;color:#000&#34;&gt;sheet&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;DataSource&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;list&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;
+
+        &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//Creating columns automatically
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;        &lt;span style=&#34;color:#000&#34;&gt;sheet&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;CreateAutoGenratedColumns&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;();&lt;/span&gt;
+
+        &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//Setting the validation type of value to DateTime
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;        &lt;span style=&#34;color:#000&#34;&gt;sheet&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;BindColumns&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;2&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;].&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Validation&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;ValidationType&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;ValidationType&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;DateTime&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;
+
+        &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//Binding worksheet
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;        &lt;span style=&#34;color:#000&#34;&gt;sheet&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;DataBind&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;();&lt;/span&gt;
+
+        &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//Assigning an event handler to InitializeNewBindRow event of the worksheet
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;        &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//sheet.InitializeNewBindRow += new InitializeNewBindRowHandler(GridWeb1_InitializeNewBindRow);
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;}&lt;/span&gt;
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;}&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;h4 id=&#34;step-4-handling-the-worksheets-initializenewbindrow-event&#34;&gt;Step 4: Handling the Worksheet&amp;rsquo;s InitializeNewBindRow Event&lt;/h4&gt;
+&lt;p&gt;In the above code, you might have noticed an extra line of code used to assign the &lt;code&gt;GridWeb1_InitializeNewBindRow&lt;/code&gt; event handler to the worksheet&amp;rsquo;s &lt;code&gt;InitializeNewBindRow&lt;/code&gt;. This event is triggered whenever a new bound row is added to the worksheet. We created an event handler for this this event because of the &lt;code&gt;MyCustomRecord&lt;/code&gt; object&amp;rsquo;s &lt;code&gt;DateField1&lt;/code&gt; property.&lt;/p&gt;
+&lt;p&gt;Aspose.Cells.GridWeb automatically initializes &lt;strong&gt;int&lt;/strong&gt; and &lt;strong&gt;double&lt;/strong&gt; values with &lt;strong&gt;zero (0)&lt;/strong&gt; whenever a new bound row is added to the GridWeb control. For dates, we would like the GridWeb control to automatically add the current date from the system. To do so, we have created the &lt;code&gt;GridWeb1_InitializeNewBindRow&lt;/code&gt; event handler for the &lt;code&gt;InitializeNewBindRow&lt;/code&gt; event.&lt;/p&gt;
+&lt;p&gt;Access a particular instance of the &lt;code&gt;MyCustomRecord&lt;/code&gt; class from the GridWeb using the &lt;code&gt;bindObject&lt;/code&gt; argument and then assign the current system date to its &lt;code&gt;DateField1&lt;/code&gt; property.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;C#&lt;/strong&gt;&lt;/p&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_3130dc9003&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_3130dc9003&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-c#&#34; data-lang=&#34;c#&#34;&gt;
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//Creating GridWeb1_InitializeNewBindRow event handler
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;private&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;GridWeb1_InitializeNewBindRow&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;GridWorksheet&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;sender&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;object&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;bindObject&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt;
+    &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//Accessing that custom record object that is newly bound
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;color:#000&#34;&gt;MyCustomRecord&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;rec&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;MyCustomRecord&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;bindObject&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;
+
+    &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//Initializing the DateTime of a property when a new row gets bound to the database
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;color:#000&#34;&gt;rec&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;DateField1&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;DateTime&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Now&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;}&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;h4 id=&#34;step-5-running-the-application&#34;&gt;Step 5: Running the Application&lt;/h4&gt;
+&lt;p&gt;Run the application by either pressing &lt;strong&gt;Ctrl+F5&lt;/strong&gt; or clicking the &lt;strong&gt;Start&lt;/strong&gt; button in VS.NET. The web form is opened in a new browser window.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Worksheet bound with a custom collection&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5017594/5112972.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Right-click the GridWeb control to add or delete a record. For example, add a new record to the worksheet by selecting &lt;strong&gt;Add Row&lt;/strong&gt; option.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Selecting Add Row option from the menu&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5017594/5112973.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;When a new row is added to the worksheet, cells contain default data including the current system date.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;New row added to worksheet with default data&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5017594/5112974.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;After making changes to the data, click &lt;strong&gt;Save&lt;/strong&gt; or &lt;strong&gt;Submit&lt;/strong&gt; to save your changes.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Saving changes by clicking Save button&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5017594/5112975.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h5 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h5&gt;
+&lt;p&gt;This article showed how to bind a worksheet to a custom collection created. Using Aspose.Cells.GridWeb, developers can bind worksheets to either a database or custom collections via the Worksheets Designer in a GUI mode or through coding. This provides a wide range of options to developers for creating applications.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Validate entire worksheet instead of only the updated cells</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridwebworksheets/validate&#43;entire&#43;worksheet&#43;instead&#43;of&#43;only&#43;the&#43;updated&#43;cells/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridwebworksheets/validate&#43;entire&#43;worksheet&#43;instead&#43;of&#43;only&#43;the&#43;updated&#43;cells/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--validate-entire-worksheet-instead-of-only-the-updated-cells&#34;&gt;Aspose.Cells for .NET : Validate entire worksheet instead of only the updated cells&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#validate-entire-worksheet-instead-of-only-the-updated-cells&#34;&gt;Validate entire worksheet instead of only the updated cells&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;By default, GridWeb validates only the updated cells and does not validate the entire worksheet. However, if you want to validate entire worksheet on client side before GridWeb posts request to server, then you should set the &lt;code&gt;needValidateall&lt;/code&gt; variable inside the &lt;code&gt;acwmain.js&lt;/code&gt; to &lt;code&gt;true&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;validate-entire-worksheet-instead-of-only-the-updated-cells&#34;&gt;Validate entire worksheet instead of only the updated cells&lt;/h2&gt;
+&lt;p&gt;The following screenshot displays the &lt;code&gt;needValidateall&lt;/code&gt; variable in &lt;code&gt;acwmain.js&lt;/code&gt;. Please set it to &lt;code&gt;true&lt;/code&gt; and now GridWeb will validate your entire worksheet not just the updated cells.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/40142278/40468499.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Change the decimal separator from Numeric keypad</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridwebworksheets/change&#43;the&#43;decimal&#43;separator&#43;from&#43;numeric&#43;keypad/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridwebworksheets/change&#43;the&#43;decimal&#43;separator&#43;from&#43;numeric&#43;keypad/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--change-the-decimal-separator-from-numeric-keypad&#34;&gt;Aspose.Cells for .NET : Change the decimal separator from Numeric keypad&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#change-the-decimal-separator-from-numeric-keypad&#34;&gt;Change the decimal separator from Numeric keypad&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;By default, Aspose.Cells.GridWeb displays numeric data accordingly based on the locale/regional settings on the machine. You can change the decimal separator from Numeric keypad programmatically using Aspose.Cells.GridWeb API. So, when a file is imported into GridWeb matrix or you input some numeric data (from the numeric keypad) into a new worksheet cell, it should have your desired decimal separator set visually. &lt;/p&gt;
+&lt;h2 id=&#34;change-the-decimal-separator-from-numeric-keypad&#34;&gt;Change the decimal separator from Numeric keypad&lt;/h2&gt;
+&lt;p&gt;Using the &lt;strong&gt;GridWorksheetCollection.NumberDecimalSeparator&lt;/strong&gt; property, you may change the decimal separator from Numeric keypad programmatically. Please see the screenshots that show how it works&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/64455023/64716827.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/64455023/64716828.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+&lt;p&gt;Please note, decimal separator change is only for users&amp;rsquo; visual experience in GridWeb. When you edit and save your workbook, it will still store the numeric values (in the spreadsheet) as per your locale/regional decimal separator.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

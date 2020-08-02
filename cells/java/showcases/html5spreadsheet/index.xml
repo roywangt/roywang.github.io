@@ -1,0 +1,281 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – HTML5 Spreadsheet Editor by Aspose.Cells for Java</title>
+    <link>https://roywangt.github.io/cells/java/showcases/html5spreadsheet/</link>
+    <description>Recent content in HTML5 Spreadsheet Editor by Aspose.Cells for Java on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://roywangt.github.io/cells/java/showcases/html5spreadsheet/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Java: Spreadsheet Editor Getting Started</title>
+      <link>https://roywangt.github.io/cells/java/showcases/html5spreadsheet/spreadsheet&#43;editor&#43;getting&#43;started/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/showcases/html5spreadsheet/spreadsheet&#43;editor&#43;getting&#43;started/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--spreadsheet-editor-getting-started&#34;&gt;Aspose.Cells for Java : Spreadsheet Editor Getting Started&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Table of Contents&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#SpreadsheetEditorGettingStarted-Introduction&#34;&gt;Introduction&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#SpreadsheetEditorGettingStarted-SystemRequirements&#34;&gt;System Requirements&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#SpreadsheetEditorGettingStarted-DownloadandInstallation&#34;&gt;Download and Installation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#SpreadsheetEditorGettingStarted-Support&#34;&gt;Support&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#SpreadsheetEditorGettingStarted-Contribute&#34;&gt;Contribute&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#SpreadsheetEditorGettingStarted-License&#34;&gt;License&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;introduction&#34;&gt;Introduction&lt;/h3&gt;
+&lt;p&gt;Html5 Spreadsheet Editor is a web application that can view and edit spreadsheet documents in a web browser. It supports Excel, SpreadsheetML, CVS, OpenDocument and many other formats supported by Microsoft Excel. All basic features including cell editing, formatting, formula editing, row and column management etc. are supported.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://i.imgur.com/aoWCRc1.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;HTML5 Spreadsheet Editor uses many features of &lt;a href=&#34;http://www.aspose.com/java/excel-component.aspx&#34;&gt;Aspose.Cells for Java&lt;/a&gt; and shows how to use them to create, manipulate and render a spreadsheet in your Java application.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Features&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Working with Files
+&lt;ul&gt;
+&lt;li&gt;Supported Formats&lt;/li&gt;
+&lt;li&gt;Open local files&lt;/li&gt;
+&lt;li&gt;Open from Dropbox&lt;/li&gt;
+&lt;li&gt;Open from URL&lt;/li&gt;
+&lt;li&gt;Create a new Spreadsheet&lt;/li&gt;
+&lt;li&gt;Export to various formats&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Working with Sheets
+&lt;ul&gt;
+&lt;li&gt;Add and Remove sheets&lt;/li&gt;
+&lt;li&gt;Rename sheets&lt;/li&gt;
+&lt;li&gt;Switch between sheets&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Working with Rows and Columns
+&lt;ul&gt;
+&lt;li&gt;Add a Row&lt;/li&gt;
+&lt;li&gt;Add a Column&lt;/li&gt;
+&lt;li&gt;Remove a Row&lt;/li&gt;
+&lt;li&gt;Remove a Column&lt;/li&gt;
+&lt;li&gt;Column Width and Row Height&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Working with Cells
+&lt;ul&gt;
+&lt;li&gt;Selecting a cell&lt;/li&gt;
+&lt;li&gt;Editing a cell&lt;/li&gt;
+&lt;li&gt;Editing Formula&lt;/li&gt;
+&lt;li&gt;Cell alignment&lt;/li&gt;
+&lt;li&gt;Clear Cell&lt;/li&gt;
+&lt;li&gt;Add a cell&lt;/li&gt;
+&lt;li&gt;Remove a cell&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Working with Text formatting
+&lt;ul&gt;
+&lt;li&gt;Bold, italic, underline&lt;/li&gt;
+&lt;li&gt;Font style and size&lt;/li&gt;
+&lt;li&gt;Clear formatting&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;system-requirements&#34;&gt;System Requirements&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Software Requirements&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;CDI supported Java application server&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.aspose.com/java/excel-component.aspx&#34;&gt;Aspose.Cells for Java&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://javaserverfaces.java.net/&#34;&gt;JavaServer Faces 2.0&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.primefaces.org/&#34;&gt;Primefaces 5.1&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Hardware Requirements&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The hardware requirements vary based upon the Java application server we choose to deploy HTML5 Spreadsheet Editor and the number of spreadsheets we open simultaneously. Following is an estimate, which will help initially setup the environment.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;2 GHz CPU&lt;/li&gt;
+&lt;li&gt;2 GB RAM&lt;/li&gt;
+&lt;li&gt;500 MB Disk&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;download-and-installation&#34;&gt;Download and Installation&lt;/h3&gt;
+&lt;p&gt;HTML5 Spreadsheet Editor is a Java EE application and can be deployed to any Java application server web profile with CDI support. It has been tested with &lt;a href=&#34;https://glassfish.java.net/&#34;&gt;Glassfish&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source Code&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The project source is available at &lt;a href=&#34;https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Showcases/Html5_Spreadsheet_Editor_by_Aspose.Cells_for_Java&#34;&gt;Github&lt;/a&gt;. We are also maintaining Git mirrors at the following sites:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://bitbucket.org/asposeshowcase/html5_spreadsheet_editor_by_aspose.cells_for_java&#34;&gt;Bitbucket&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://code.google.com/p/html5-spreadsheet-editor/&#34;&gt;Google Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://html5spreadsheeteditor.codeplex.com/&#34;&gt;Codeplex&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sourceforge.net/p/html5-spreadsheet-editor/&#34;&gt;SourceForge&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Use one of the following commands to download the source code via command line:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Github&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;git clone &lt;a href=&#34;https://github.com/aspose-cells/Aspose.Cells-for-Java.git&#34;&gt;https://github.com/aspose-cells/Aspose.Cells-for-Java.git&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bitbucket&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;git clone &lt;a href=&#34;https://bitbucket.org/asposeshowcase/html5&#34;&gt;https://bitbucket.org/asposeshowcase/html5&lt;/a&gt;_spreadsheet_editor_by_aspose.cells_for_java.git&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Google Code&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;git clone &lt;a href=&#34;https://code.google.com/p/html5-spreadsheet-editor/&#34;&gt;https://code.google.com/p/html5-spreadsheet-editor/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Codeplex&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;git clone &lt;a href=&#34;https://git01.codeplex.com/html5spreadsheeteditor&#34;&gt;https://git01.codeplex.com/html5spreadsheeteditor&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;SourceForge&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;git clone git://git.code.sf.net/p/html5-spreadsheet-editor/code html5-spreadsheet-editor-code&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Build using Maven&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The project build process is managed using Maven. So you can prepare a WAR file from command line without any IDE. Use the following command to generate a WAR for deployment. The documentation of corresponding application server will help you how to deploy the generated WAR and its dependencies.&lt;/p&gt;
+&lt;p&gt;mvn clean install&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Using NetBeans&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;It is very easy to manage the project using &lt;a href=&#34;https://netbeans.org/&#34;&gt;NetBeans IDE&lt;/a&gt;. NetBeans is one the popular IDEs among Java developers and is sponsored by Oracle.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Download the project source code.&lt;/li&gt;
+&lt;li&gt;Open the project in NetBeans IDE.&lt;/li&gt;
+&lt;li&gt;Click &lt;code&gt;***Run***&lt;/code&gt; button on toolbar.&lt;/li&gt;
+&lt;li&gt;Select &lt;code&gt;***Glassfish***&lt;/code&gt; server as Application Server.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Using Eclipse&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.eclipse.org/ide/&#34;&gt;Eclipse IDE&lt;/a&gt; provides official integration to import Maven projects called &lt;a href=&#34;http://www.eclipse.org/m2e/&#34;&gt;M2Eclipse&lt;/a&gt;:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Install M2Eclipse in your Eclipse IDE. The installation procedure is described on their website.&lt;/li&gt;
+&lt;li&gt;Download the project source code.&lt;/li&gt;
+&lt;li&gt;Open the &lt;code&gt;***Import***&lt;/code&gt; dialog from File menu.&lt;/li&gt;
+&lt;li&gt;Select &lt;code&gt;***Maven Project***&lt;/code&gt; from import dialog.&lt;/li&gt;
+&lt;li&gt;Click &lt;code&gt;***Next***&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Click &lt;code&gt;***Browse***&lt;/code&gt; to select the location of source code.&lt;/li&gt;
+&lt;li&gt;Select &lt;code&gt;***pom.xml***&lt;/code&gt; from the list below.&lt;/li&gt;
+&lt;li&gt;Click &lt;code&gt;***Finish***&lt;/code&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The Eclipse IDE should import and load the project.&lt;/p&gt;
+&lt;h3 id=&#34;support&#34;&gt;Support&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Bug report&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;To send a bug report, create a new issue at &lt;a href=&#34;https://github.com/AsposeShowcase/Html5_Spreadsheet_Editor_by_Aspose.Cells_for_Java/issues&#34;&gt;Github project page&lt;/a&gt; and apply the label &lt;em&gt;&lt;strong&gt;bug&lt;/strong&gt;&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Feature Request&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;We highly appreciate your feedback and the features you request. To request a new feature or enhancement in existing please create a new issue at &lt;a href=&#34;https://github.com/AsposeShowcase/Html5_Spreadsheet_Editor_by_Aspose.Cells_for_Java/issues&#34;&gt;Github project page&lt;/a&gt; and apply the label &lt;em&gt;&lt;strong&gt;enhancement&lt;/strong&gt;&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Questions and Help&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;You can ask all kind of question related to HTML5 Spreadsheet Editor using &lt;a href=&#34;https://github.com/AsposeShowcase/Html5_Spreadsheet_Editor_by_Aspose.Cells_for_Java/issues&#34;&gt;Github issue&lt;/a&gt;. Just create a new issue and apply the &lt;em&gt;&lt;strong&gt;question&lt;/strong&gt;&lt;/em&gt; label.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Aspose.Cells for Java Forums&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Aspose product forums provide full support for both trial and paid customers. Experts are sitting 24/7 to provide help and answer queries. Visit &lt;a href=&#34;http://www.aspose.com/community/forums/aspose.cells-product-family/19/showforum.aspx&#34;&gt;product forums here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Aspose Blogs&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Get in touch with us and stay up-to-date with latest news about our products and offers. Subscribe to &lt;a href=&#34;http://www.aspose.com/blogs/&#34;&gt;our blog here&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;contribute&#34;&gt;Contribute&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/AsposeShowcase/Html5_Spreadsheet_Editor_by_Aspose.Cells_for_Java&#34;&gt;&lt;img src=&#34;https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;br&gt;
+HTML5 Spreadsheet Editor is an open source project which allows maximum options for everyone to contribute to the project.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source Code&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The project source is available at &lt;a href=&#34;https://github.com/AsposeShowcase/Html5_Spreadsheet_Editor_by_Aspose.Cells_for_Java&#34;&gt;Github&lt;/a&gt;. We are also maintaining Git mirrors at the following sites:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://bitbucket.org/asposeshowcase/html5_spreadsheet_editor_by_aspose.cells_for_java&#34;&gt;Bitbucket&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://code.google.com/p/html5-spreadsheet-editor/&#34;&gt;Google Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://html5spreadsheeteditor.codeplex.com/&#34;&gt;Codeplex&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sourceforge.net/p/html5-spreadsheet-editor/&#34;&gt;SourceForge&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Pull Requests&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;To contribute source code to the project just send a pull request via Github. Read more information in Github’s article on &lt;a href=&#34;https://help.github.com/articles/creating-a-pull-request/&#34;&gt;Create a pull request&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;license&#34;&gt;License&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;MIT License&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;We are using one of the most liberal open source licenses for minimum liabilities on contributors. HTML5 Spreadsheet Editor is released under &lt;a href=&#34;http://www.opensource.org/licenses/mit-license.php&#34;&gt;MIT License&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Aspose License&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The product works without Aspose license, &lt;a href=&#34;https://docs2.aspose.com/cells/java/gettingstarted/licensing&#34;&gt;with limitations&lt;/a&gt;. To remove limitations, you can acquire a &lt;a href=&#34;http://www.aspose.com/corporate/purchase/temporary-license.aspx&#34;&gt;free temporary license&lt;/a&gt; or &lt;a href=&#34;http://www.aspose.com/purchase/default.aspx&#34;&gt;buy full license&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;By default, the editor will try to load &lt;strong&gt;Aspose.Total.Java.lic&lt;/strong&gt; file from &lt;strong&gt;src/main/resources/com/aspose/spreadsheeteditor&lt;/strong&gt; directory. Just copy the license file to this directory. The default behavior can be changed by editing the &lt;strong&gt;AsposeLicense&lt;/strong&gt; class.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Spreadsheet Editor Developer Guide</title>
+      <link>https://roywangt.github.io/cells/java/showcases/html5spreadsheet/developerguide/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/showcases/html5spreadsheet/developerguide/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--spreadsheet-editor-developer-guide&#34;&gt;Aspose.Cells for Java : Spreadsheet Editor Developer Guide&lt;/h1&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Spreadsheet Editor Knowledge Base</title>
+      <link>https://roywangt.github.io/cells/java/showcases/html5spreadsheet/spreadsheet&#43;editor&#43;knowledge&#43;base/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/showcases/html5spreadsheet/spreadsheet&#43;editor&#43;knowledge&#43;base/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--spreadsheet-editor-knowledge-base&#34;&gt;Aspose.Cells for Java : Spreadsheet Editor Knowledge Base&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Table of Contents&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#SpreadsheetEditorKnowledgeBase-EmbedHTML5SpreadsheetEditorAnywhere&#34;&gt;Embed HTML5 Spreadsheet Editor Anywhere&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;embed-html5-spreadsheet-editor-anywhere&#34;&gt;Embed HTML5 Spreadsheet Editor Anywhere&lt;/h3&gt;
+&lt;p&gt;HTML5 Spreadsheet Editor can be embedded into any website, blog and forums to share spreadsheets across the internet. It can be embedded as a standalone editor or you can load it with a spreadsheet file.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Embed as standalone editor&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;To embed as a standalone editor, use the HTML IFRAME tag to add into the website. For example:&lt;/p&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_6607ac25d3&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_6607ac25d3&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;iframe&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;src&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;http://spreadsheet-editor.aspose.com/&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;width&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;800&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;height&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;600&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span style=&#34;color:#000&#34;&gt;Your&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;web&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;browser&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;does&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;not&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;support&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;IFRAMEs&lt;/span&gt;
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;iframe&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;p&gt;&lt;strong&gt;Embed with a spreadsheet&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;To load a spreadsheet into an embedded editor &lt;strong&gt;url&lt;/strong&gt; parameter as described in &lt;a href=&#34;https://roywangt.github.io/cells/pages/createpage.action?spaceKey=cellsjava&amp;amp;title=1.2.1.4+Open+from+URL&amp;amp;linkCreation=true&amp;amp;fromPageId=5275663&#34;&gt;Open from URL&lt;/a&gt;. For example:&lt;/p&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_1eb6c49177&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_1eb6c49177&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;iframe&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;src&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;http://spreadsheet-editor.aspose.com/?url=http://example.com/Sample.xlsx&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;width&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;800&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;height&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;600&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span style=&#34;color:#000&#34;&gt;Your&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;web&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;browser&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;does&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;not&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;support&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;IFRAMEs&lt;/span&gt;
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;iframe&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

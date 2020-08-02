@@ -1,0 +1,509 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Styling and Data Formatting</title>
+    <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/stl-dtfmt/</link>
+    <description>Recent content in Styling and Data Formatting on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://roywangt.github.io/cells/java/developerguide/technicalarticles/stl-dtfmt/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Java: Line Breaks and Text Wrapping</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/stl-dtfmt/line&#43;breaks&#43;and&#43;text&#43;wrapping/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/stl-dtfmt/line&#43;breaks&#43;and&#43;text&#43;wrapping/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--line-breaks-and-text-wrapping&#34;&gt;Aspose.Cells for Java : Line Breaks and Text Wrapping&lt;/h1&gt;
+&lt;p&gt;To ensure that text in a cell can be read, explicit line breaks and text wrapping can be applied. Text wrapping turns one line into several in a cell, which explicit line breaks put in breaks exactly where you want them.&lt;/p&gt;
+&lt;h3 id=&#34;to-wrap-text-in-a-cell&#34;&gt;To Wrap Text in a Cell&lt;/h3&gt;
+&lt;p&gt;To wrap text in a cell, use the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/style#IsTextWrapped&#34;&gt;Aspose.Cells.Style.setTextWrapped&lt;/a&gt; property.&lt;/p&gt;
+&lt;p&gt;The following sample code shows how to use text wrapping and explicit line breaks in a cell.&lt;/p&gt;
+&lt;h4 id=&#34;to-use-explicit-line-breaks&#34;&gt;To Use Explicit Line Breaks&lt;/h4&gt;
+&lt;p&gt;You can use ‘\n’ in Java to insert the explicit line breaks in a cell.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Implement 1904 Date System</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/stl-dtfmt/implement&#43;1904&#43;date&#43;system/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/stl-dtfmt/implement&#43;1904&#43;date&#43;system/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--implement-1904-date-system&#34;&gt;Aspose.Cells for Java : Implement 1904 Date System&lt;/h1&gt;
+&lt;p&gt;Microsoft Excel supports two date systems: 1900 date system (the default date system implemented in Excel for Windows) and 1904 date system. The 1904 date system is normally used to provide compatibility with Macintosh Excel files and is the default system if you are using Excel for Macintosh. You can set the 1904 date system for Excel files using Aspose.Cells.&lt;/p&gt;
+&lt;p&gt;To implement 1904 date system in Microsoft Excel (for example Microsoft Excel 2003):&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;From the &lt;strong&gt;Tools&lt;/strong&gt; menu, select &lt;strong&gt;Options&lt;/strong&gt;, and select the &lt;strong&gt;Calculation&lt;/strong&gt; tab.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Select the &lt;strong&gt;1904 date system&lt;/strong&gt; option.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Click &lt;strong&gt;OK&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Selecting 1904 date system in Microsoft Excel&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276624/5472668.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;See the following sample code on how to achieve this using Aspose.Cells APIs.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Apply Superscript and Subscript Effects on Fonts</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/stl-dtfmt/apply&#43;superscript&#43;and&#43;subscript&#43;effects&#43;on&#43;fonts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/stl-dtfmt/apply&#43;superscript&#43;and&#43;subscript&#43;effects&#43;on&#43;fonts/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--apply-superscript-and-subscript-effects-on-fonts&#34;&gt;Aspose.Cells for Java : Apply Superscript and Subscript Effects on Fonts&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells provides the functionality to apply superscript (text above the baseline) and subscript (text below the baseline) effects to text.&lt;/p&gt;
+&lt;h3 id=&#34;working-with-superscript-and-subscript&#34;&gt;Working with Superscript and Subscript&lt;/h3&gt;
+&lt;p&gt;Apply the superscript effect using the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/Font&#34;&gt;font&lt;/a&gt; object&amp;rsquo;s &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/font#IsSuperscript&#34;&gt;setSuperscript&lt;/a&gt; property. To apply subscript, use the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/Font&#34;&gt;font&lt;/a&gt; object&amp;rsquo;s &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/font#IsSubscript&#34;&gt;setSubscript&lt;/a&gt; method.&lt;/p&gt;
+&lt;p&gt;The following code examples show how to apply super- and subscript to text.&lt;/p&gt;
+&lt;h4 id=&#34;applying-superscript&#34;&gt;Applying Superscript&lt;/h4&gt;
+&lt;h4 id=&#34;applying-subscript&#34;&gt;Applying Subscript&lt;/h4&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Apply Conditional Formatting in Worksheets</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/stl-dtfmt/apply&#43;conditional&#43;formatting&#43;in&#43;worksheets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/stl-dtfmt/apply&#43;conditional&#43;formatting&#43;in&#43;worksheets/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--apply-conditional-formatting-in-worksheets&#34;&gt;Aspose.Cells for Java : Apply Conditional Formatting in Worksheets&lt;/h1&gt;
+&lt;p&gt;This article is designed to provide a detailed understanding of how to add conditional formatting to a range of cells in a worksheet.&lt;/p&gt;
+&lt;p&gt;Conditional formatting is an advanced feature in Microsoft Excel that allows you to apply formats to a range of cells, and have that formatting change depending on the value of the cell or the value of a formula. For example, the background of a cell may be red to highlight a negative value, or the text color might be green for a positive value. When the value of the cell meets the format condition, the format is applied. If the value of the cell does not meet the format condition, the cell&amp;rsquo;s default formatting is used.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s possible to apply conditional formatting with Microsoft Office Automation but that has its drawbacks. There are several reasons and issues involved: for example, security, stability, scalability and speed. The main reason for finding another solution is that Microsoft themselves strongly recommends against Office Automation for software solutions.&lt;/p&gt;
+&lt;p&gt;This article shows how to create a console application, add conditional formatting on cells with a few simplest lines of code using the Aspose.Cells API.&lt;/p&gt;
+&lt;h3 id=&#34;working-with-conditional-formatting&#34;&gt;Working with Conditional Formatting&lt;/h3&gt;
+&lt;p&gt;This article works through the following tasks:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/stl-dtfmt/apply+conditional+formatting+in+worksheets&#34;&gt;Using Aspose.Cells to apply conditional formatting based on cell value&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/technicalarticles/stl-dtfmt/apply+conditional+formatting+in+worksheets&#34;&gt;Using Aspose.Cells to apply conditional formatting based on a formula&lt;/a&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;task-1-using-asposecells-to-apply-conditional-formatting-based-on-cell-value&#34;&gt;Task 1: Using Aspose.Cells to Apply Conditional Formatting Based on Cell Value&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Download and install Aspose.Cells.zip&lt;/strong&gt;:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.aspose.com/community/files/72/java-components/aspose.cells-for-java/default.aspx&#34;&gt;Download&lt;/a&gt; Aspose.Cells for Java.&lt;/li&gt;
+&lt;li&gt;Unzip it on your development computer.&lt;br&gt;
+All Aspose components, when installed, work in evaluation mode. The evaluation mode has no time limit and only injects watermarks into produced documents.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Create a project&lt;/strong&gt;.&lt;br&gt;
+Either create a project using an Java Editor such as Eclipse or create a simple program using a text editor.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Add class path&lt;/strong&gt;.&lt;br&gt;
+To set a Class Path using Eclipse, please perform the following steps:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Extract the Aspose.Cells.jar and dom4j_1.6.1.jar from Aspose.Cells.zip.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Set the classpath of project in Eclipse:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Select your project in Eclipse and then select &lt;strong&gt;Properties&lt;/strong&gt; from the &lt;strong&gt;Project&lt;/strong&gt; menu.&lt;/li&gt;
+&lt;li&gt;Select &amp;ldquo;Java Build Path&amp;rdquo; to the left of the dialog.&lt;/li&gt;
+&lt;li&gt;On the &lt;strong&gt;Libraries&lt;/strong&gt; tab, select &lt;strong&gt;Add JARs&lt;/strong&gt; or &lt;strong&gt;Add External JARs&lt;/strong&gt; to select Aspose.Cells.jar and dom4j_1.6.1.jar and add them into build paths.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Write application to invoke APIs of Aspose&amp;rsquo;s components.&lt;br&gt;
+Or you may set the path at runtime on a DOS prompt in Windows.&lt;/p&gt;
+&lt;p&gt;javac -classpath %classpath%;e:\Aspose.Cells.jar;  ClassName .javajava -classpath %classpath%;e:\Aspose.Cells.jar;  ClassName&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Apply conditional formatting based on cell value&lt;/strong&gt;.&lt;br&gt;
+Below is the code used by the component to accomplish the task. It applies conditional formatting on a cell.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;When the above code is executed, conditional formatting is applied to cell “A1” in first worksheet of the output file (output.xls). The conditional formatting applied to A1 depends on the cell value. If the cell value of A1 is between 50 and 100 the background color is red due to the conditional formatting applied. Please see the following screenshots of the generated XLS file.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Output Excel file with A1 value less than 50&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276626/5472666.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Output Excel file with A1 between 50 and 100&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276626/5472667.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;task-2-using-asposecells-to-apply-conditional-formatting-based-on-a-formula&#34;&gt;Task 2: Using Aspose.Cells to Apply Conditional Formatting Based on a Formula&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Apply conditional formatting depending on formula&lt;/strong&gt;.&lt;br&gt;
+Below is the actual code used by the component to accomplish the task. It applies conditional formatting on “B3”.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;When the above code is executed, conditional formatting is applied to cell “B3” in the first worksheet of the output file (output.xls). The conditional formatting applied depends on the formula which calculates the value of “B3” as sum of B1 &amp;amp; B2. Please see the following screenshots of the generated XLS file.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Output Excel file with B3 value less than 100&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276626/5472664.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Output Excel file with B3 greater than 100&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276626/5472665.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h4&gt;
+&lt;p&gt;This article hows how to apply conditional formatting to cells in a worksheet with the Aspose.Cells API. Hopefully, it will gives you some insight so you can use these options in your own scenarios.&lt;/p&gt;
+&lt;p&gt;Aspose.Cells offers great flexibility for solutions and provides outstanding speed, efficiency and reliability to meet specific business application requirements. Aspose.Cells benefits from years of research, design and careful tuning.&lt;/p&gt;
+&lt;p&gt;We welcome your queries, comments and suggestions in the &lt;a href=&#34;http://www.aspose.com/community/forums/aspose.cells-product-family/19/showforum.aspx&#34;&gt;Aspose.Cells Forum&lt;/a&gt;. We warrant a prompt reply.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Modify an Existing Style</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/stl-dtfmt/modify&#43;an&#43;existing&#43;style/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/stl-dtfmt/modify&#43;an&#43;existing&#43;style/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--modify-an-existing-style&#34;&gt;Aspose.Cells for Java : Modify an Existing Style&lt;/h1&gt;
+&lt;p&gt;To apply the same formatting options to cells, create a new formatting style object. A formatting style object is a combination of formatting characteristics, such as font, font size, indentation, number, border, patterns, etc., named and stored as a set. When applied, all of the formattings in that style are applied.&lt;/p&gt;
+&lt;p&gt;You can also use an existing style, save it with the workbook and use it to format information with the same attributes.&lt;/p&gt;
+&lt;p&gt;When cells aren&amp;rsquo;t explicitly formatted, the &lt;strong&gt;Normal&lt;/strong&gt; style (the workbook&amp;rsquo;s default style) is applied. Microsoft Excel predefines several styles in addition to the Normal style including Comma, Currency, and Percent.&lt;/p&gt;
+&lt;p&gt;Aspose.Cells allows modifying any of these styles or any other style that you define with your desired attributes.&lt;/p&gt;
+&lt;h4 id=&#34;using-microsoft-excel&#34;&gt;Using Microsoft Excel&lt;/h4&gt;
+&lt;p&gt;To update a style in Microsoft Excel 97-2003:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;On the &lt;strong&gt;Format&lt;/strong&gt; menu, click &lt;strong&gt;Style&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Select the style you want to modify from the &lt;strong&gt;Style name&lt;/strong&gt; list.&lt;/li&gt;
+&lt;li&gt;Click &lt;strong&gt;Modify&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Select the style options that you want using the tabs in the Format Cells dialog.&lt;/li&gt;
+&lt;li&gt;Click &lt;strong&gt;OK&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Under &lt;strong&gt;Style includes&lt;/strong&gt;, specify the style features you want.&lt;/li&gt;
+&lt;li&gt;Click &lt;strong&gt;OK&lt;/strong&gt; to save the style and apply it to the selected range.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;using-asposecells&#34;&gt;Using Aspose.Cells&lt;/h4&gt;
+&lt;p&gt;Aspose.Cells provides the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/style#update()&#34;&gt;Style.update&lt;/a&gt; method for updating an existing style.&lt;/p&gt;
+&lt;p&gt;To change a named style, whether created dynamically using Aspose.Cells or predefined, call the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/style#update()&#34;&gt;Style.update&lt;/a&gt; method to reflect any changes in style applied to a cell or range.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/style#update()&#34;&gt;Style.update&lt;/a&gt; method behaves like the &lt;strong&gt;OK&lt;/strong&gt; button in the Style dialog: after making changes to an existing style, call to implement the change. If you have already applied a style to a range of cells, modify the style attributes and call the method, the formatting of those cells is updated automatically&lt;/p&gt;
+&lt;h5 id=&#34;creating-and-modifying-a-style&#34;&gt;Creating and Modifying a Style&lt;/h5&gt;
+&lt;p&gt;This example creates a style object, applies it to a range of cells and modifies the style object. The modifications are automatically applied to the cell and the range the style was applied to.&lt;/p&gt;
+&lt;h5 id=&#34;modifying-an-existing-style&#34;&gt;Modifying an Existing Style&lt;/h5&gt;
+&lt;p&gt;This example uses a simple template Excel file in which a style called Percent has already been applied to a range. The example:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;gets the style,&lt;/li&gt;
+&lt;li&gt;creates a style object and&lt;/li&gt;
+&lt;li&gt;modifies the style formatting.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The modifications are automatically applied to the range the style was applied to.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Reusing Style Objects</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/stl-dtfmt/reusing&#43;style&#43;objects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/stl-dtfmt/reusing&#43;style&#43;objects/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--reusing-style-objects&#34;&gt;Aspose.Cells for Java : Reusing Style Objects&lt;/h1&gt;
+&lt;p&gt;Reusing style objects can save memory and make the program execute faster.&lt;/p&gt;
+&lt;p&gt;To apply some formatting to a large range of cells in a worksheet:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Create a style object.&lt;/li&gt;
+&lt;li&gt;Specify the attributes.&lt;/li&gt;
+&lt;li&gt;Apply the style to the cells in the range.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The same process as discussed above could also be accomplished as follow.&lt;/p&gt;
+&lt;p&gt;Because the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/cell#getStyle()&#34;&gt;Cell.getStyle&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/cell#setStyle(com.aspose.cells.Style)&#34;&gt;Cell.setStyle&lt;/a&gt; methods use a lot less memory and are efficient, the older Cell.getStyle() property which consumed a lot of unnecessary memory, was removed with the release of Aspose.Cells 7.1.0.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Add Conditional Icons Set with the Cell Text</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/stl-dtfmt/add&#43;conditional&#43;icons&#43;set&#43;with&#43;the&#43;cell&#43;text/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/stl-dtfmt/add&#43;conditional&#43;icons&#43;set&#43;with&#43;the&#43;cell&#43;text/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--add-conditional-icons-set-with-the-cell-text&#34;&gt;Aspose.Cells for Java : Add Conditional Icons Set with the Cell Text&lt;/h1&gt;
+&lt;p&gt;Sometimes, you want to add conditional icons next to the text in a cell to make data more meaningful to readers. You want to use some of the conditional formatting icon types but without applying conditional formatting to cells. Aspose.Cells supports the feature.&lt;/p&gt;
+&lt;p&gt;Following is a sample that creates an XLSX file from scratch, adding conditional icons to cells with text without applying conditional formatting.&lt;/p&gt;
+&lt;p&gt;When the code is executed, images from the conditional icon set are added in the cell area &amp;ldquo;B2:C4&amp;rdquo; as shown below.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Output file&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276668/5472658.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Find cells with specific style</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/stl-dtfmt/find&#43;cells&#43;with&#43;specific&#43;style/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/stl-dtfmt/find&#43;cells&#43;with&#43;specific&#43;style/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--find-cells-with-specific-style&#34;&gt;Aspose.Cells for Java : Find cells with specific style&lt;/h1&gt;
+&lt;p&gt;Sometimes, you need to find the cells with some particular style. You can use Aspose.Cells to find all such cells which have a common style. Aspose.Cells provides &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/findoptions#Style&#34;&gt;FindOptions.setStyle()&lt;/a&gt; property which you can use to specify the style for searching cells.&lt;/p&gt;
+&lt;h4 id=&#34;example&#34;&gt;Example&lt;/h4&gt;
+&lt;p&gt;In this article, we will find all the cells which have the same style as that of cell A1. Please see the screenshot of the source file used in the following code.&lt;/p&gt;
+&lt;p&gt;After the execution of code, all the cells that have the same style as of cell A1 will have a text &amp;ldquo;Found&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276667/5472657.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure:&lt;/strong&gt; Source file with cells having styles&lt;/p&gt;
+&lt;p&gt;Here is the output file generated by the following code. You can see all the cells that have the same style as of cell A1 has a text &amp;ldquo;Found&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276667/5472656.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure:&lt;/strong&gt; Output file with found cells after searching by A1 style&lt;/p&gt;
+&lt;h4 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h4&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Adding HTML Rich Text inside the Cell</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/stl-dtfmt/adding&#43;html&#43;rich&#43;text&#43;inside&#43;the&#43;cell/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/stl-dtfmt/adding&#43;html&#43;rich&#43;text&#43;inside&#43;the&#43;cell/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--adding-html-rich-text-inside-the-cell&#34;&gt;Aspose.Cells for Java : Adding HTML Rich Text inside the Cell&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells supports converting Microsoft Excel oriented HTML into XLS/XLSX format. It means, the HTML generated by Microsoft Excel can be converted back to XLS/XLSX format using Aspose.Cells.&lt;/p&gt;
+&lt;p&gt;Similarly, if there is some simple HTML, Aspose.Cells can convert it into HTML Rich Text. Aspose.Cells provides &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/cell#HtmlString&#34;&gt;Cell.setHtmlString()&lt;/a&gt; property which can take such a simple HTML and convert it to formatted cell text.&lt;/p&gt;
+&lt;h4 id=&#34;example&#34;&gt;Example&lt;/h4&gt;
+&lt;p&gt;The following screenshot shows the output Excel file generated with Aspose.Cells. As you can see, it shows HTML formatted rich text added inside the cell A1 using the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/cell#HtmlString&#34;&gt;Cell.setHtmlString()&lt;/a&gt; property.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276666/5473008.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;This is the sample code that generated the output Excel file as shown inside the above screenshot.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Specify Custom Number Decimal and Group Separators for Workbook</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/stl-dtfmt/specify&#43;custom&#43;number&#43;decimal&#43;and&#43;group&#43;separators&#43;for&#43;workbook/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/stl-dtfmt/specify&#43;custom&#43;number&#43;decimal&#43;and&#43;group&#43;separators&#43;for&#43;workbook/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--specify-custom-number-decimal-and-group-separators-for-workbook&#34;&gt;Aspose.Cells for Java : Specify Custom Number Decimal and Group Separators for Workbook&lt;/h1&gt;
+&lt;p&gt;In Microsoft Excel, you can specify the Custom Decimal and Thousands Separators instead of using System Separators from the &lt;strong&gt;Advanced Excel Options&lt;/strong&gt; as shown in the screenshot below.&lt;/p&gt;
+&lt;p&gt;Aspose.Cells provides the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/workbooksettings#NumberDecimalSeparator&#34;&gt;WorkbookSettings.setNumberDecimalSeparator()&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/workbooksettings#NumberGroupSeparator&#34;&gt;WorkbookSettings.setNumberGroupSeparator()&lt;/a&gt; properties to set the custom separators for formatting/parsing numbers.&lt;/p&gt;
+&lt;h4 id=&#34;specifying-custom-separators-using-microsoft-excel&#34;&gt;Specifying Custom Separators using Microsoft Excel&lt;/h4&gt;
+&lt;p&gt;The following screenshot shows the &lt;strong&gt;Advanced Excel Options&lt;/strong&gt; and highlights the section to specify the &lt;strong&gt;Custom Separators&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276665/5473007.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;specifying-custom-separators-using-asposecells&#34;&gt;Specifying Custom Separators using Aspose.Cells&lt;/h4&gt;
+&lt;p&gt;The following sample code illustrates how to specify the Custom Separators using Aspose.Cells API. It specifies the Custom Number Decimal and Group Separators as dot and space respectively. So the number &lt;strong&gt;123,456.789&lt;/strong&gt; will be displayed as &lt;strong&gt;123 456.789&lt;/strong&gt; as shown in the screenshot which shows the output PDF generated by the code.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276665/5473006.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Extract Theme Data from Excel File</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/stl-dtfmt/extract&#43;theme&#43;data&#43;from&#43;excel&#43;file/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/stl-dtfmt/extract&#43;theme&#43;data&#43;from&#43;excel&#43;file/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--extract-theme-data-from-excel-file&#34;&gt;Aspose.Cells for Java : Extract Theme Data from Excel File&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells allows the users to extract Theme related data from an Excel file. For example, you can extract Theme Name applied to workbook and Theme Color applied to the cell or borders of the cell, etc.&lt;/p&gt;
+&lt;p&gt;You can apply Theme to your workbook using Microsoft Excel via Page Layout &amp;gt; Themes command.&lt;/p&gt;
+&lt;h4 id=&#34;example&#34;&gt;Example&lt;/h4&gt;
+&lt;h4 id=&#34;sample-output&#34;&gt;Sample Output&lt;/h4&gt;
+&lt;p&gt;Here is a sample console output of the above code.&lt;/p&gt;
+&lt;p&gt;Civictruetrue&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Display Bullets by setting Cell Value using HTML</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/stl-dtfmt/display&#43;bullets&#43;by&#43;setting&#43;cell&#43;value&#43;using&#43;html/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/stl-dtfmt/display&#43;bullets&#43;by&#43;setting&#43;cell&#43;value&#43;using&#43;html/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--display-bullets-by-setting-cell-value-using-html&#34;&gt;Aspose.Cells for Java : Display Bullets by setting Cell Value using HTML&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells now supports showing bullets with HTML code. This article will explain how to display bullets by setting cell value using HTML. We will use &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/cell#HtmlString&#34;&gt;Cell.setHtmlString()&lt;/a&gt; property to set the cell value with our HTML.&lt;/p&gt;
+&lt;h4 id=&#34;display-bullets-by-setting-cell-value-using-html&#34;&gt;Display Bullets by setting Cell Value using HTML&lt;/h4&gt;
+&lt;p&gt;The following code uses the HTML code to set the cell value. Once, you will run this code, you will get the output as shown in the image below.&lt;/p&gt;
+&lt;h4 id=&#34;output&#34;&gt;Output&lt;/h4&gt;
+&lt;p&gt;The following screenshot shows the output of the above sample code.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276663/5473010.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Excel 2007 Themes and Colors</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/stl-dtfmt/excel&#43;2007&#43;themes&#43;and&#43;colors/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/stl-dtfmt/excel&#43;2007&#43;themes&#43;and&#43;colors/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--excel-2007-themes-and-colors&#34;&gt;Aspose.Cells for Java : Excel 2007 Themes and Colors&lt;/h1&gt;
+&lt;p&gt;Themes provide a unified look with named styles, graphical effects and other objects used in a workbook. For example, the Accent1 style looks different in the Office and the Apex themes. Often, you apply a document theme and then amend it as per your needs.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Applying themes in Microsoft Excel&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276662/5473016.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;get-and-set-theme-colors&#34;&gt;Get and Set Theme Colors&lt;/h3&gt;
+&lt;p&gt;Aspose.Cells APIs provide features for customizing themes and colors. Below are a few methods and properties that implements theme colors.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Style.ForegroundThemeColor&lt;/code&gt; property can be used to set the foreground color.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Style.BackgroundThemeColor&lt;/code&gt; property can be used to set the background color.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Font.ThemeColor&lt;/code&gt; property can be used to set the font color.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Workbook.getThemeColor&lt;/code&gt; method can be used to get a theme color.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Workbook.setThemeColor&lt;/code&gt; method can be used to set a theme color.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The following example shows how to get and set theme colors.&lt;/p&gt;
+&lt;p&gt;The following example uses a template XLSX file, gets the colors for different theme color types, changes the colors and saves the Microsoft Excel file.&lt;/p&gt;
+&lt;h4 id=&#34;customizing-themes&#34;&gt;Customizing Themes&lt;/h4&gt;
+&lt;p&gt;The following example shows how to apply custom themes with your desired colors. The example uses a sample template file manually created in Microsoft Excel 2007.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The template CustomThemeColor.xlsx file&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276662/5473017.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The following example loads a template XLSX file, defines colors for different theme color types, applies the custom colors and saves the excel file.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The generated file with customized theme colors&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276662/5473014.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;using-theme-colors&#34;&gt;Using Theme Colors&lt;/h4&gt;
+&lt;p&gt;The following example applies a cell’s foreground and font colors based on the default theme (of the workbook) color types. It also saves the excel file to disk.&lt;/p&gt;
+&lt;p&gt;The following output is generated when executing the code.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The theme colors applied to the D3 cell of the worksheet&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276662/5473015.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Format Worksheet Cells in a Workbook</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/stl-dtfmt/format&#43;worksheet&#43;cells&#43;in&#43;a&#43;workbook/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/stl-dtfmt/format&#43;worksheet&#43;cells&#43;in&#43;a&#43;workbook/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--format-worksheet-cells-in-a-workbook&#34;&gt;Aspose.Cells for Java : Format Worksheet Cells in a Workbook&lt;/h1&gt;
+&lt;p&gt;This article shows how to:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Use styles to quickly format data.&lt;/li&gt;
+&lt;li&gt;Format cells in rows and columns.&lt;/li&gt;
+&lt;li&gt;Use borders and colors to emphasize data.&lt;/li&gt;
+&lt;li&gt;Apply number formats to emphasize data.&lt;/li&gt;
+&lt;li&gt;Use fonts and attributes to highlight data.&lt;/li&gt;
+&lt;li&gt;Format data in a named range.&lt;/li&gt;
+&lt;li&gt;Change data alignment and orientation.&lt;/li&gt;
+&lt;li&gt;Set row height and column width.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The example project performs all of these tasks and provides developers with a detailed description of how to create a workbook, add data into and apply formatting using Aspose.Cells for Java.&lt;/p&gt;
+&lt;h3 id=&#34;data-formatting&#34;&gt;Data Formatting&lt;/h3&gt;
+&lt;p&gt;Formatting is used to distinguish between different types of information and to display data clearly.&lt;/p&gt;
+&lt;p&gt;A format represents a style and is defined as a set of characteristics, such as fonts and font sizes, number formats, cell borders, cell shading, indentation, alignment and text orientation. Borders provide further ways to highlight information. A border is a line drawn around a cell or a group of cells.&lt;/p&gt;
+&lt;p&gt;Number formats also make data more meaningful. By applying different number formats, you can change the appearance of numbers without changing the number behind the appearance.&lt;/p&gt;
+&lt;p&gt;Aspose.Cells lets you to draw cell &amp;amp; range borders quickly &amp;amp; easily. It also lets you apply fonts and shade cells. The component is efficient enough that you can format a complete row or column, set alignments, wrap and rotate text in cells. Aspose.Cells further supports all number formats supported by Microsoft Excel.&lt;/p&gt;
+&lt;p&gt;This article shows how to generate an annual sales report. The workbook is created from scratch, then data is inserted and the worksheet is formatted. We show how to create a simple console application which creates an Excel workbook (you can also use a template file), insert sales data into the first worksheet, format the data and save an Excel file.&lt;/p&gt;
+&lt;h4 id=&#34;process&#34;&gt;Process&lt;/h4&gt;
+&lt;h4 id=&#34;result&#34;&gt;Result&lt;/h4&gt;
+&lt;p&gt;After executing the above code, a Microsoft Excel file is generated with a new, formatted worksheet called Sales Report.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The output file&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276661/5473025.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;summary&#34;&gt;Summary&lt;/h3&gt;
+&lt;p&gt;Worksheet data formatting is important because how data looks can change its meaning. If you plan to print worksheets, email them to clients, or show it to management, think about whether the formatting is viewer-friendly.&lt;br&gt;
+Careful use of color, shading, borders, fonts, number formatting, alignment, indentation and orientation can make the difference between a messy glob of data and a worksheet that&amp;rsquo;s easy to work with and understand.&lt;/p&gt;
+&lt;p&gt;This articles demonstrated how to format data occupied in different cells in a worksheet with Aspose.Cells. Hopefully, you can use the example in your own scenarios.&lt;/p&gt;
+&lt;p&gt;Aspose.Cells offers more flexibility than other solutions and provides outstanding speed, efficiency and reliability. Aspose.Cells benefits from years of research, design and careful tuning.&lt;/p&gt;
+&lt;p&gt;We welcome your queries, comments and suggestions at &lt;a href=&#34;http://www.aspose.com/community/forums/aspose.cells-product-family/19/showforum.aspx&#34;&gt;Aspose.Cells Forum&lt;/a&gt;. We warranty a prompt reply.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Convert Text Numeric Data to Number</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/stl-dtfmt/convert&#43;text&#43;numeric&#43;data&#43;to&#43;number/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/stl-dtfmt/convert&#43;text&#43;numeric&#43;data&#43;to&#43;number/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--convert-text-numeric-data-to-number&#34;&gt;Aspose.Cells for Java : Convert Text Numeric Data to Number&lt;/h1&gt;
+&lt;p&gt;Sometimes, you want to convert numeric data entered as text to numbers. You can enter numbers as text in Microsoft Excel by putting an apostrophe before a number, for example &lt;strong&gt;&amp;lsquo;12345&lt;/strong&gt;. Excel then treats the number as a string. Aspose.Cells allows you to convert strings to numbers.&lt;/p&gt;
+&lt;p&gt;Aspose.Cells for Java API provides the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/cells#convertStringToNumericValue()&#34;&gt;Cells.convertStringToNumericValue()&lt;/a&gt; method which can be used to convert all string or text numeric data into numbers.&lt;/p&gt;
+&lt;p&gt;The following screenshot shows string numbers in cells &lt;strong&gt;A1:A17&lt;/strong&gt;. String numbers are aligned to the left.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Input file: numbers entered as text strings&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276676/5473023.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;These string numbers have been converted to numbers using &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/cells#convertStringToNumericValue()&#34;&gt;Cells.convertStringToNumericValue()&lt;/a&gt; in the following screenshot. As you can see, they are now right-aligned.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Output file: the strings have been converted to numbers&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276676/5473022.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The following sample code illustrates how to convert all string numeric data to actual numbers in all worksheets.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Check Custom Number Format when Setting Style.Custom Property</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/stl-dtfmt/check&#43;custom&#43;number&#43;format&#43;when&#43;setting&#43;style.custom&#43;property/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/stl-dtfmt/check&#43;custom&#43;number&#43;format&#43;when&#43;setting&#43;style.custom&#43;property/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--check-custom-number-format-when-setting-stylecustom-property&#34;&gt;Aspose.Cells for Java : Check Custom Number Format when Setting Style.Custom Property&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#check-the-custom-number-format-when-setting-style.custom-property&#34;&gt;Check the Custom Number Format when setting Style.Custom property&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;If you assign invalid custom number format to &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/style#Custom&#34;&gt;Style.Custom&lt;/a&gt; property then Aspose.Cells will not throw any exception. But if you want that Aspose.Cells should check if the assigned custom number format is valid or not then please set the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/workbooksettings#CheckCustomNumberFormat&#34;&gt;Workbook.Settings.CheckCustomNumberFormat&lt;/a&gt; property to &lt;strong&gt;true&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;check-the-custom-number-format-when-setting-stylecustom-property&#34;&gt;Check the Custom Number Format when setting Style.Custom property&lt;/h2&gt;
+&lt;p&gt;The following sample code assigns an invalid custom number format to &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/style#Custom&#34;&gt;Style.Custom&lt;/a&gt; property. Since we have already set &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/workbooksettings#CheckCustomNumberFormat&#34;&gt;Workbook.Settings.CheckCustomNumberFormat&lt;/a&gt; property to &lt;strong&gt;true&lt;/strong&gt;, therefore the API will throw  CellsException e.g. &lt;em&gt;Invalid number format&lt;/em&gt;. &lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

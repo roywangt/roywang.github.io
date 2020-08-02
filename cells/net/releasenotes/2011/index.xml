@@ -1,0 +1,858 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Release Notes - 2011</title>
+    <link>https://roywangt.github.io/cells/net/releasenotes/2011/</link>
+    <description>Recent content in Release Notes - 2011 on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://roywangt.github.io/cells/net/releasenotes/2011/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Net: Aspose.Cells for .NET 7.0.3 Release Notes</title>
+      <link>https://roywangt.github.io/cells/net/releasenotes/2011/aspose.cells&#43;for&#43;.net&#43;7.0.3&#43;release&#43;notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/releasenotes/2011/aspose.cells&#43;for&#43;.net&#43;7.0.3&#43;release&#43;notes/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--asposecells-for-net-703-release-notes&#34;&gt;Aspose.Cells for .NET : Aspose.Cells for .NET 7.0.3 Release Notes&lt;/h1&gt;
+&lt;p&gt;This page contains release notes for &lt;a href=&#34;http://www.aspose.com/downloads/cells/net/new-releases/aspose.cells-for-.net-7.0.3/&#34;&gt;Aspose.Cells for .NET 7.0.3&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;We are happy to announce Aspose.Cells for .NET v7.0.3!&lt;/p&gt;
+&lt;p&gt;Aspose.Cells&lt;/p&gt;
+&lt;p&gt;New Features&lt;/p&gt;
+&lt;p&gt;24953 Support MS Excel’s advanced conditional formatting in the generated PDF file&lt;/p&gt;
+&lt;p&gt;30020 Support Cell Gradient Color that is not set properly while converting to PDF document&lt;/p&gt;
+&lt;p&gt;40010 Uncheck Multi-level Category Labels while formatting Chart’s Axis&lt;/p&gt;
+&lt;p&gt;Enhancements&lt;/p&gt;
+&lt;p&gt;31243 Copy range with validation&lt;/p&gt;
+&lt;p&gt;31347 Sorting &amp;amp; Dynamic formulas in Smart Markers&lt;/p&gt;
+&lt;p&gt;40027 Implement ToString() method in the Cell, Range, Worksheet and other classes/objects&lt;/p&gt;
+&lt;p&gt;40080 Enhancement - Excel95 - Excel 2003 file&lt;/p&gt;
+&lt;p&gt;40081 Error checking options not working with XLSM files&lt;/p&gt;
+&lt;p&gt;Exceptions&lt;/p&gt;
+&lt;p&gt;31331 Error occurred while opening XLS file&lt;/p&gt;
+&lt;p&gt;40045 NullReferenceException found when setting Header/Footer in Page Setup&lt;/p&gt;
+&lt;p&gt;40047 Unable to copy a particular worksheet into another workbook with one worksheet&lt;/p&gt;
+&lt;p&gt;40060 Invalid Brush Type when converting Excel workbook to XPS&lt;/p&gt;
+&lt;p&gt;40061 StackOverflow on calling WorksheetCollection.GetNamedRanges() method&lt;/p&gt;
+&lt;p&gt;Performance&lt;/p&gt;
+&lt;p&gt;31266 XLS to PDF or XPS takes so much time&lt;/p&gt;
+&lt;p&gt;40053 Excel-to- PDF Performance decreases as number of worksheets increases&lt;/p&gt;
+&lt;p&gt;Bugs&lt;/p&gt;
+&lt;p&gt;29234 Hide pivot table columns issue&lt;/p&gt;
+&lt;p&gt;30224 Charts images do not match Excel’s charts&lt;/p&gt;
+&lt;p&gt;30651 Cell.SetStyle(Style style, bool explicitFlag) doesn&amp;rsquo;t work as expected&lt;/p&gt;
+&lt;p&gt;31334 BuiltInDocumentProperties.HyperlinkBase can’t be read or set&lt;/p&gt;
+&lt;p&gt;40009 Opening XLSM file issue&lt;/p&gt;
+&lt;p&gt;40012 The Style changed after merging or adding copy sheet to workbook operation&lt;/p&gt;
+&lt;p&gt;40013 RowField Subtotal – formatting issue&lt;/p&gt;
+&lt;p&gt;40014 Opening and saving XLSM file throws away macros and ribbons&lt;/p&gt;
+&lt;p&gt;40016 Errors while saving Excel files&lt;/p&gt;
+&lt;p&gt;40024 Charts not rendering fine in rendering / copying workbooks&lt;/p&gt;
+&lt;p&gt;40046 Pivot table does not refresh correctly&lt;/p&gt;
+&lt;p&gt;40057 Array formula references aren&amp;rsquo;t updated on deleting a row or column&lt;/p&gt;
+&lt;p&gt;40065 Negative bigInt problem&lt;/p&gt;
+&lt;p&gt;40073 Aspose.Cells Smart Markers parameters problem&lt;/p&gt;
+&lt;p&gt;40074 Chart disappears after Save&lt;/p&gt;
+&lt;p&gt;40075 Problems found while refreshing Pivot table&lt;/p&gt;
+&lt;p&gt;40076 Error while saving XLSM file&lt;/p&gt;
+&lt;p&gt;40079 Usage of Excel’s default conditional formatting is not working&lt;/p&gt;
+&lt;p&gt;GridDesktop&lt;/p&gt;
+&lt;p&gt;New Features&lt;/p&gt;
+&lt;p&gt;29869 Support Conditional formatting (only Excel 2003 styles are supported (currently))&lt;/p&gt;
+&lt;p&gt;Bugs&lt;/p&gt;
+&lt;p&gt;40022 Parameter is not valid exception&lt;/p&gt;
+&lt;p&gt;40029 Issue: “Address of the site is not valid&amp;rdquo; regarding hyperlinks in the sheet&lt;/p&gt;
+&lt;p&gt;40051 ImportFromExcelFile gives problem while loading an XLSX file (with merged cells) from MemoryStream&lt;/p&gt;
+&lt;p&gt;40064 Bulleted contents are not displayed correctly&lt;/p&gt;
+&lt;p&gt;18463 Problems in grand total calculation in Pivot Table&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Aspose.Cells for .NET 7.0.2 Release Notes</title>
+      <link>https://roywangt.github.io/cells/net/releasenotes/2011/aspose.cells&#43;for&#43;.net&#43;7.0.2&#43;release&#43;notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/releasenotes/2011/aspose.cells&#43;for&#43;.net&#43;7.0.2&#43;release&#43;notes/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--asposecells-for-net-702-release-notes&#34;&gt;Aspose.Cells for .NET : Aspose.Cells for .NET 7.0.2 Release Notes&lt;/h1&gt;
+&lt;p&gt;This page contains release notes for &lt;a href=&#34;http://www.aspose.com/downloads/cells/net/new-releases/aspose.cells-for-.net-7.0.2/&#34;&gt;Aspose.Cells for .NET 7.0.2&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;We are happy to announce Aspose.Cells for .NET v7.0.2! In this version, we made several enhancements and fixed number of user issues/bugs. Moreover, we have removed some unnecessary older obsolete methods for Sheet-to-Image feature now.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Aspose.Cells&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;New Features&lt;/p&gt;
+&lt;p&gt;30970 Access document properties of an encrypted XLS file&lt;/p&gt;
+&lt;p&gt;Enhancements&lt;/p&gt;
+&lt;p&gt;30919 The Worksheet’s TabColor property for Chart type worksheets&lt;/p&gt;
+&lt;p&gt;25224 Export data without XLS limitation to SpreadsheetML file&lt;/p&gt;
+&lt;p&gt;30672 Smart Markers - How to group Rows (Calculate Totals, Sub-Totals and Grand Totals)&lt;/p&gt;
+&lt;p&gt;Exceptions&lt;/p&gt;
+&lt;p&gt;30548 StackOverflowException occurred when opening certain files&lt;/p&gt;
+&lt;p&gt;30609 Workbook constructor throws NullReferenceException&lt;/p&gt;
+&lt;p&gt;30989 Exception: Invalid Excel2007Xlsx file&lt;/p&gt;
+&lt;p&gt;Bugs&lt;/p&gt;
+&lt;p&gt;29663 Converting Excel-to-PDF (missing elements issue)&lt;/p&gt;
+&lt;p&gt;29692 Problem in Excel-to-PDF conversion&lt;/p&gt;
+&lt;p&gt;29840 Problem with version 6.0.1.3 (regarding Charts)&lt;/p&gt;
+&lt;p&gt;30102 Problem with Chart Image regarding Data labels and Error bars&lt;/p&gt;
+&lt;p&gt;30270 Printing issue - Numbers are shown as “#######”&lt;/p&gt;
+&lt;p&gt;30533 Problem with DeleteRange function&lt;/p&gt;
+&lt;p&gt;30603 EMF Vs PNG Issue&lt;/p&gt;
+&lt;p&gt;30729 Wrap Issue when converting XLS-to-PDF&lt;/p&gt;
+&lt;p&gt;30755 Saving as SaveFormat.XLSM causes errors&lt;/p&gt;
+&lt;p&gt;30785 Unable to change line style of a ChartPoint&lt;/p&gt;
+&lt;p&gt;30787 Broken shapes in the copied worksheet&lt;/p&gt;
+&lt;p&gt;30843 Formulas using intersected ranges don&amp;rsquo;t work&lt;/p&gt;
+&lt;p&gt;30877 Dates are shown as serial numbers in Charts&lt;/p&gt;
+&lt;p&gt;30918 Image problems when saving to XLS format&lt;/p&gt;
+&lt;p&gt;30949 Cell content is splitting part way through a word when converting XLS-to-PDF&lt;/p&gt;
+&lt;p&gt;30980 Loading and Updating XLSM then Saving causes ERRORS&lt;/p&gt;
+&lt;p&gt;30998 Problems with Excel 2010 and XLSM&lt;/p&gt;
+&lt;p&gt;31003 Issue with AutoFitRow and the AutoFitMergedCells&lt;/p&gt;
+&lt;p&gt;31005 Negative Values in Parentheses&lt;/p&gt;
+&lt;p&gt;31068 Saving file crashes after using DeleteRange method in some cases&lt;/p&gt;
+&lt;p&gt;31078 Refresh Pivot table - It does not sort properly&lt;/p&gt;
+&lt;p&gt;31095 AutoFitRows doesn&amp;rsquo;t work fine&lt;/p&gt;
+&lt;p&gt;31098 SheetRender exports double-spaces / inconsistent spacing&lt;/p&gt;
+&lt;p&gt;31099 Issue with Chart’s legend items wrapping when saving as an image&lt;/p&gt;
+&lt;p&gt;31102 There are too much formats in the worksheet&lt;/p&gt;
+&lt;p&gt;31195 SheetRender exports chart with wrong height&lt;/p&gt;
+&lt;p&gt;31243 Copying range with validation&lt;/p&gt;
+&lt;p&gt;31277 Saving to XLSX the document is Write-Protected&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;GridDesktop&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Bugs&lt;/p&gt;
+&lt;p&gt;31051 GridDesktop issue while loading an Excel document&lt;/p&gt;
+&lt;p&gt;31053 Parameter is not valid exception occurred in GridDesktop&lt;/p&gt;
+&lt;p&gt;31071 Incorrect rendering of document via GridDesktop.ImportExcelFile method&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Aspose.Cells for .NET 7.0.1 Release Notes</title>
+      <link>https://roywangt.github.io/cells/net/releasenotes/2011/aspose.cells&#43;for&#43;.net&#43;7.0.1&#43;release&#43;notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/releasenotes/2011/aspose.cells&#43;for&#43;.net&#43;7.0.1&#43;release&#43;notes/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--asposecells-for-net-701-release-notes&#34;&gt;Aspose.Cells for .NET : Aspose.Cells for .NET 7.0.1 Release Notes&lt;/h1&gt;
+&lt;p&gt;This page contains release notes for &lt;a href=&#34;http://www.aspose.com/downloads/cells/net/new-releases/aspose.cells-for-.net-7.0.1/&#34;&gt;Aspose.Cells for .NET 7.0.1&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;We are happy to announce Aspose.Cells for .NET v7.0.1!&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Aspose.Cells&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;New Features&lt;/p&gt;
+&lt;p&gt;29512 Add a new overloaded method: Cell.SetStyle(Style style, bool explicitFlag)&lt;/p&gt;
+&lt;p&gt;Enhancements&lt;/p&gt;
+&lt;p&gt;30331 Add and Delete Rows in the ListObject / Table&lt;/p&gt;
+&lt;p&gt;Performance&lt;/p&gt;
+&lt;p&gt;30177 Stack Overflow Exception while generating a PDF file from an ODS file&lt;/p&gt;
+&lt;p&gt;30045 Aspose.Cells hangs up when opening the file&lt;/p&gt;
+&lt;p&gt;Exceptions&lt;/p&gt;
+&lt;p&gt;30188 Error occurred when converting Date column (with empty string) in Excel XML format&lt;/p&gt;
+&lt;p&gt;30252 “’o:relid&amp;rsquo; is a duplicate attribute name” Exception&lt;/p&gt;
+&lt;p&gt;Bugs&lt;/p&gt;
+&lt;p&gt;29876 Security Warning issue&lt;/p&gt;
+&lt;p&gt;27781 Excel chart legends shrinking when saving Excel workbook&lt;/p&gt;
+&lt;p&gt;29620 Excel chart lose some formatting when opening and saving it&lt;/p&gt;
+&lt;p&gt;30246 Worksheet.IsVisible = false groups sheets in the workbook&lt;/p&gt;
+&lt;p&gt;29632 Feature request regarding Exception handling while adding worksheets&lt;/p&gt;
+&lt;p&gt;30303 Problem in copying Worksheets&lt;/p&gt;
+&lt;p&gt;30035 MS Excel (Format-&amp;gt;AutoFit Row Height) VS Aspose.Cells’ AutoFitRow feature&lt;/p&gt;
+&lt;p&gt;29841 Problem with Pie chart&lt;/p&gt;
+&lt;p&gt;30154 Issue with Chart data labels&lt;/p&gt;
+&lt;p&gt;30153 Macros are disabled in the output XLSM file&lt;/p&gt;
+&lt;p&gt;30332 Problem with Chart axis scale changing&lt;/p&gt;
+&lt;p&gt;30308 Secondary Axis in XLSX lost on Save&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;GridDesktop&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;New Features&lt;/p&gt;
+&lt;p&gt;29821 Support formula bar control&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Aspose.Cells for .NET 7.0.0 Release Notes</title>
+      <link>https://roywangt.github.io/cells/net/releasenotes/2011/aspose.cells&#43;for&#43;.net&#43;7.0.0&#43;release&#43;notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/releasenotes/2011/aspose.cells&#43;for&#43;.net&#43;7.0.0&#43;release&#43;notes/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--asposecells-for-net-700-release-notes&#34;&gt;Aspose.Cells for .NET : Aspose.Cells for .NET 7.0.0 Release Notes&lt;/h1&gt;
+&lt;p&gt;This page contains release notes for &lt;a href=&#34;http://www.aspose.com/downloads/cells/net/new-releases/aspose.cells-for-.net-7.0.0/&#34;&gt;Aspose.Cells for .NET 7.0.0&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;We are happy to announce Aspose.Cells for .NET v7.0.0!&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Aspose.Cells&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Enhancements&lt;/p&gt;
+&lt;p&gt;29480 How to change the position of a Pivot table Item&lt;/p&gt;
+&lt;p&gt;29580 Repeating parts of Worksheet based on input data&lt;/p&gt;
+&lt;p&gt;29377 Export GroupShape problem into XLS format&lt;/p&gt;
+&lt;p&gt;29632 Throw exception when sheet name contains special characters&lt;/p&gt;
+&lt;p&gt;29153 Support Conditional Formatting on HTML output&lt;/p&gt;
+&lt;p&gt;Performance&lt;/p&gt;
+&lt;p&gt;29451 CalculateFormula() method is Really slow&lt;/p&gt;
+&lt;p&gt;29461 The performance of CalculateFormula() method&lt;/p&gt;
+&lt;p&gt;30041 Can&amp;rsquo;t Open ODS File&lt;/p&gt;
+&lt;p&gt;29983 AutoFitColumns() is extremely slow when columns have Number Format&lt;/p&gt;
+&lt;p&gt;Exceptions&lt;/p&gt;
+&lt;p&gt;29511&lt;/p&gt;
+&lt;p&gt;Failed to open an Excel file&lt;/p&gt;
+&lt;p&gt;29827 &amp;ldquo;Not a legal OleAut date&amp;rdquo; Exception&lt;/p&gt;
+&lt;p&gt;30056 &amp;ldquo;Invalid end column index&amp;rdquo; Exception&lt;/p&gt;
+&lt;p&gt;Bugs&lt;/p&gt;
+&lt;p&gt;29413 DataRow values are changed&lt;/p&gt;
+&lt;p&gt;29599 Chart with 3D Bars to Image issue&lt;/p&gt;
+&lt;p&gt;29628 Chart to Image issue&lt;/p&gt;
+&lt;p&gt;29765 Radar Chart to Image issue&lt;/p&gt;
+&lt;p&gt;29777 VLookup is not working&lt;/p&gt;
+&lt;p&gt;29408 Add calculated item in the Pivot table&lt;/p&gt;
+&lt;p&gt;29582 File is corrupt and cannot be opened (XLS)&lt;/p&gt;
+&lt;p&gt;29293 Aspose.Cells AutoFitColumns feature with trailing spaces&lt;/p&gt;
+&lt;p&gt;29390 Data mismatch issue in reading file&lt;/p&gt;
+&lt;p&gt;29620 Chart Alignment / Size issue&lt;/p&gt;
+&lt;p&gt;30020 Cell’s Gradient Color is not set properly&lt;/p&gt;
+&lt;p&gt;29597 Adding document properties removes objects in MS Excel&lt;/p&gt;
+&lt;p&gt;29828 ChartPoint.Datalabel has an issue regarding colors&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;GridWeb&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Bugs&lt;/p&gt;
+&lt;p&gt;29254 Render cells with incorrect styles&lt;/p&gt;
+&lt;p&gt;29254 Render double values with DateTime format&lt;/p&gt;
+&lt;p&gt;29254 Render cells with incorrect styles when changing active sheet in IE9&lt;/p&gt;
+&lt;p&gt;30172 Import Comment images when importing shapes from Excel file&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;GridDesktop&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Enhancements&lt;/p&gt;
+&lt;p&gt;29381 Import formulae with values from Excel file&lt;/p&gt;
+&lt;p&gt;29381 Import Excel file from stream without calculating all formulae&lt;/p&gt;
+&lt;p&gt;Bugs&lt;/p&gt;
+&lt;p&gt;29489 CommentDataChanged event is not fired after changing a comment&lt;/p&gt;
+&lt;p&gt;30172 Import Comment images when importing shapes from Excel file&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Aspose.Cells for .NET 6.0.1 Release Notes</title>
+      <link>https://roywangt.github.io/cells/net/releasenotes/2011/aspose.cells&#43;for&#43;.net&#43;6.0.1&#43;release&#43;notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/releasenotes/2011/aspose.cells&#43;for&#43;.net&#43;6.0.1&#43;release&#43;notes/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--asposecells-for-net-601-release-notes&#34;&gt;Aspose.Cells for .NET : Aspose.Cells for .NET 6.0.1 Release Notes&lt;/h1&gt;
+&lt;p&gt;This page contains release notes for &lt;a href=&#34;http://www.aspose.com/downloads/cells/net/new-releases/aspose.cells-for-.net-6.0.1/&#34;&gt;Aspose.Cells for .NET 6.0.1&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;we-are-happy-to-announce-asposecells-for-net-v601-xmlnamespace-prefix--o-ns--urnschemas-microsoft-comofficeoffice--&#34;&gt;We are happy to announce Aspose.Cells for .NET v6.0.1!&amp;lt;!-?xml:namespace prefix = o ns = &amp;ldquo;urn:schemas-microsoft-com:office:office&amp;rdquo; /-&amp;gt;&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Aspose.Cells&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;enhancements&#34;&gt;Enhancements&lt;/h3&gt;
+&lt;p&gt;28643 Export column index of each Cell in the SpreadSheetML file&lt;/p&gt;
+&lt;p&gt;29067 How to format Axis in a Line chart&lt;/p&gt;
+&lt;p&gt;28590 Checking presence of password&lt;/p&gt;
+&lt;p&gt;Performance&lt;/p&gt;
+&lt;p&gt;28414 Printing of worksheet takes very long time&lt;/p&gt;
+&lt;p&gt;28405 SheetRender.ToImage() hangs without an exception or error&lt;/p&gt;
+&lt;h3 id=&#34;exceptions&#34;&gt;Exceptions&lt;/h3&gt;
+&lt;p&gt;28780 SheetRender API throws &amp;ldquo;Format specifier was invalid.&amp;rdquo; exception&lt;/p&gt;
+&lt;p&gt;28961 Object Reference Error when converting to PDF&lt;/p&gt;
+&lt;p&gt;29163 Destination array was not long enough exception&lt;/p&gt;
+&lt;p&gt;28924 Unable to get Worksheet.Validations to work properly&lt;/p&gt;
+&lt;p&gt;28867 Parameter invalid in converting Excel to TIFF&lt;/p&gt;
+&lt;h3 id=&#34;bugs&#34;&gt;Bugs&lt;/h3&gt;
+&lt;p&gt;29129 Legend/Data Labels are bold on charts when generating images&lt;/p&gt;
+&lt;p&gt;28460 Not evaluating INDIRECT function within VLOOKUP function&lt;/p&gt;
+&lt;p&gt;28399 ROUND function by Aspose.Cells gives different value than MS Excel&lt;/p&gt;
+&lt;p&gt;28523 INDIRECT formula does not work when generated in XLSB format&lt;/p&gt;
+&lt;p&gt;28624 #Recursive Reference! Result is obtained from formula&lt;/p&gt;
+&lt;p&gt;28626 Unusual problem with recalculation&lt;/p&gt;
+&lt;p&gt;28781 Formula error when sheet name with bracket is used&lt;/p&gt;
+&lt;p&gt;28571 Displaced cells in HTML&lt;/p&gt;
+&lt;p&gt;24963 Image rendered with transparent backgrounds in PDF output&lt;/p&gt;
+&lt;p&gt;28697 Watermark issue when converting to PDF&lt;/p&gt;
+&lt;p&gt;28610 Group of objects disappears when converting Excel to PDF&lt;/p&gt;
+&lt;p&gt;28815 Incorrect conversion from XLS to PDF&lt;/p&gt;
+&lt;p&gt;28960 Text gets cut off when converted to PDF&lt;/p&gt;
+&lt;p&gt;28930 Text in cells is truncated when converting to PDF&lt;/p&gt;
+&lt;p&gt;29184 Cropped images no longer stay cropped when converting to PDF&lt;/p&gt;
+&lt;p&gt;28352 Pivot Table - extra summary column created&lt;/p&gt;
+&lt;p&gt;28751 Refresh Pivot table functionality&lt;/p&gt;
+&lt;p&gt;28489 Problem converting empty XLSX file to TIFF&lt;/p&gt;
+&lt;p&gt;29058 Rendering problem&lt;/p&gt;
+&lt;p&gt;28929 Getting bitmap or paper size from SheetRender API bug&lt;/p&gt;
+&lt;p&gt;24912 Saving XLSB with data filters adds invalid named range&lt;/p&gt;
+&lt;p&gt;28782 XLSB generation issue when worksheet contains data validation&lt;/p&gt;
+&lt;p&gt;28714 An issue with XLSB file format&lt;/p&gt;
+&lt;p&gt;28659 Workbook corruption for XLSM format&lt;/p&gt;
+&lt;p&gt;28690 Importing a Workbook causes border formatting issue&lt;/p&gt;
+&lt;p&gt;Regression&lt;/p&gt;
+&lt;p&gt;28521 Workbook constructor throws &amp;lsquo;Invalid cell name&amp;rsquo;&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Aspose.Cells.GridWeb&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;new-features&#34;&gt;New Features&lt;/h3&gt;
+&lt;p&gt;29286   Import charts and shapes from Excel file&lt;/p&gt;
+&lt;h3 id=&#34;enhancements-1&#34;&gt;Enhancements&lt;/h3&gt;
+&lt;p&gt;29287   Print function on client side&lt;/p&gt;
+&lt;h3 id=&#34;bugs-1&#34;&gt;Bugs&lt;/h3&gt;
+&lt;p&gt;29289   Render vertical scrollbar issue when filtering rows                                                                                                      &lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Aspose.Cells.GridDesktop&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;new-features-1&#34;&gt;New Features&lt;/h3&gt;
+&lt;p&gt;26751 Import charts and shapes from Excel file&lt;/p&gt;
+&lt;h3 id=&#34;enhancements-2&#34;&gt;Enhancements&lt;/h3&gt;
+&lt;p&gt;28964 Export more than 256 columns to Excel 2007 files&lt;/p&gt;
+&lt;p&gt;26751 Render shape images with EMF format instead of JPEG format&lt;/p&gt;
+&lt;h3 id=&#34;bugs-2&#34;&gt;Bugs&lt;/h3&gt;
+&lt;p&gt;28808 Measure string width&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Aspose.Cells for .NET 6.0.0 Release Notes</title>
+      <link>https://roywangt.github.io/cells/net/releasenotes/2011/aspose.cells&#43;for&#43;.net&#43;6.0.0&#43;release&#43;notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/releasenotes/2011/aspose.cells&#43;for&#43;.net&#43;6.0.0&#43;release&#43;notes/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--asposecells-for-net-600-release-notes&#34;&gt;Aspose.Cells for .NET : Aspose.Cells for .NET 6.0.0 Release Notes&lt;/h1&gt;
+&lt;p&gt;This page contains release notes for &lt;a href=&#34;http://www.aspose.com/downloads/cells/net/new-releases/aspose.cells-for-.net-6.0.0/&#34;&gt;Aspose.Cells for .NET 6.0.0&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;We are pleased to announce Aspose.Cells for .NET v6.0.0 for the users!&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Aspose.Cells&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;New Features&lt;/p&gt;
+&lt;p&gt;13872 Export to XPS file&lt;/p&gt;
+&lt;p&gt;28363 Create write-protected XLSX files&lt;/p&gt;
+&lt;p&gt;Enhancements&lt;/p&gt;
+&lt;p&gt;27285 Show expand/collapse buttons for Pivot Table&lt;/p&gt;
+&lt;p&gt;27781 Chart’s legend is shrinking when Excel workbook is saved&lt;/p&gt;
+&lt;p&gt;27794 Excel Chart Data Labels are moving when Excel file is saved&lt;/p&gt;
+&lt;p&gt;28190 Apply Date format to Nullable date fields&lt;/p&gt;
+&lt;p&gt;26884 Lost sorting for a column after Save&lt;/p&gt;
+&lt;p&gt;27760 Support Table source as named ranges&lt;/p&gt;
+&lt;p&gt;27955 Specify Dynamic Print Area while printing or rendering to PDF&lt;/p&gt;
+&lt;p&gt;Performance&lt;/p&gt;
+&lt;p&gt;28139 Excel to PDF performance issue&lt;/p&gt;
+&lt;p&gt;27095 Problem with Workbook.CalculateFormula() method&lt;/p&gt;
+&lt;p&gt;27348 The process is hangs when opening a file which contains shapes&lt;/p&gt;
+&lt;p&gt;27367 Opening an XLSX file is slow&lt;/p&gt;
+&lt;p&gt;Exceptions&lt;/p&gt;
+&lt;p&gt;28221 Opening Workbook Causes Exception&lt;/p&gt;
+&lt;p&gt;27382 Broken picture causes Aspose.Cells to crash&lt;/p&gt;
+&lt;p&gt;27998 Exception thrown when opening legitimate XLSX file&lt;/p&gt;
+&lt;p&gt;28318 An exception occurred when saving an XLS workbook in XLSM format&lt;/p&gt;
+&lt;p&gt;Bugs&lt;/p&gt;
+&lt;p&gt;27472 Fail to evaluate some Excel formulas/functions&lt;/p&gt;
+&lt;p&gt;27820 Invalid formula obtained if table’s column title contains simple quotes&lt;/p&gt;
+&lt;p&gt;27950 Not calculating the array formulas properly&lt;/p&gt;
+&lt;p&gt;28070 Workbook.CalculateFormula() is not calculating correctly&lt;/p&gt;
+&lt;p&gt;28230 Bug with evaluating Convert function&lt;/p&gt;
+&lt;p&gt;28399 ROUND function gives value other than MS Excel&lt;/p&gt;
+&lt;p&gt;28369 Special Characters in the formula&lt;/p&gt;
+&lt;p&gt;28024 Get Named Ranges and Tables&lt;/p&gt;
+&lt;p&gt;18503 Diagonal Lines are not showing correctly in PDF&lt;/p&gt;
+&lt;p&gt;27168 Grouped shapes are distorted when saving to PDF&lt;/p&gt;
+&lt;p&gt;27240 Excel to PDF Conversion - Chart Ranges Issue&lt;/p&gt;
+&lt;p&gt;28112 Saving Excel (XLS) file as PDF results in an issue&lt;/p&gt;
+&lt;p&gt;27061 Protected view warning in MS Excel 2010&lt;/p&gt;
+&lt;p&gt;27956 Set an existing tables data source to named range(s)&lt;/p&gt;
+&lt;p&gt;28045 Pivot Table corrupted after updating source data sheet&lt;/p&gt;
+&lt;p&gt;27687 Borders missing on the right and bottom of image in Sheet to Image feature&lt;/p&gt;
+&lt;p&gt;27951 Bullets missing in the exported image in Sheet to Image feature&lt;/p&gt;
+&lt;p&gt;28413 Column’s format in TIFF Conversion is not correct&lt;/p&gt;
+&lt;p&gt;27906 Escape character in Smart Markers&lt;/p&gt;
+&lt;p&gt;27342 An issue of opening SpreadsheetML file&lt;/p&gt;
+&lt;p&gt;28269 AutoRow height issue while creating rows that exceed maximum height&lt;/p&gt;
+&lt;p&gt;26941 AutoFilter issue between XLS and XLSX files&lt;/p&gt;
+&lt;p&gt;28036 Problem with cell formatting in generated file&lt;/p&gt;
+&lt;p&gt;28046 Formulas are not refreshing properly&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Aspose.Cells.GridWeb&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Enhancements&lt;/p&gt;
+&lt;p&gt;26523 Load data asynchronously&lt;/p&gt;
+&lt;p&gt;27835 Support IE9 without using compatibility mode&lt;/p&gt;
+&lt;p&gt;28145 Issues on Google Chrome browser&lt;/p&gt;
+&lt;p&gt;26368 Unable to locate a cell by clicking on a hyperlink&lt;/p&gt;
+&lt;p&gt;27799 Setting ShowDefaultGridLine = false is not available when GridWeb’s XhtmlMode is set to “true”&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Aspose.Cells.GridDesktop&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;New Features&lt;/p&gt;
+&lt;p&gt;27280 Set background image for a cell’s Button control&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Aspose.Cells for .NET 5.3.3 Release Notes</title>
+      <link>https://roywangt.github.io/cells/net/releasenotes/2011/aspose.cells&#43;for&#43;.net&#43;5.3.3&#43;release&#43;notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/releasenotes/2011/aspose.cells&#43;for&#43;.net&#43;5.3.3&#43;release&#43;notes/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--asposecells-for-net-533-release-notes&#34;&gt;Aspose.Cells for .NET : Aspose.Cells for .NET 5.3.3 Release Notes&lt;/h1&gt;
+&lt;p&gt;This page contains release notes for &lt;a href=&#34;http://www.aspose.com/downloads/cells/net/new-releases/aspose.cells-for-.net-5.3.3/&#34;&gt;Aspose.Cells for .NET 5.3.3&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;we-are-happy-to-announce-asposecells-for-net-v533&#34;&gt;We are happy to announce Aspose.Cells for .NET v5.3.3!&lt;/h3&gt;
+&lt;h3 id=&#34;1-asposecells&#34;&gt;1) Aspose.Cells&lt;/h3&gt;
+&lt;h3 id=&#34;enhancements&#34;&gt;Enhancements&lt;/h3&gt;
+&lt;p&gt;25032 Set Hyperlink’s Target attribute when converting Excel file to Html format&lt;/p&gt;
+&lt;p&gt;25960 Render Checkboxes in Html file&lt;/p&gt;
+&lt;p&gt;26082 Support Justified Alignment in rendering PDF format&lt;/p&gt;
+&lt;p&gt;26341 Excel-to-Pdf enhancement for Mono&lt;/p&gt;
+&lt;p&gt;26342 External web links have some strange characters attached&lt;/p&gt;
+&lt;p&gt;25332 Enhance various Custom Properties in XLS, XLSX/XLSM documents&lt;/p&gt;
+&lt;p&gt;26472 Support STDEV.S function/formula&lt;/p&gt;
+&lt;h3 id=&#34;performance&#34;&gt;Performance&lt;/h3&gt;
+&lt;p&gt;25774 Excel- to-PDF conversion&lt;/p&gt;
+&lt;h3 id=&#34;exceptions&#34;&gt;Exceptions&lt;/h3&gt;
+&lt;p&gt;27076 Handle FormatException while opening an ODS file&lt;/p&gt;
+&lt;p&gt;27063 Invalid column index - Aspose.Cells.CellsException from SheetRender.ToImage() method&lt;/p&gt;
+&lt;p&gt;26571 Aspose.Cells cannot open the XLS file&lt;/p&gt;
+&lt;p&gt;26309 Source array was not long enough – exception on opening Excel file&lt;/p&gt;
+&lt;p&gt;25972 SheetRender.ToImage() method is failed to render some Worksheets&lt;/p&gt;
+&lt;h3 id=&#34;bugs&#34;&gt;Bugs&lt;/h3&gt;
+&lt;p&gt;26141 Render almost blank picture (from Chart.ToImage() method) , the dash lines are not rendered fine&lt;/p&gt;
+&lt;p&gt;26570 Title in Chart Image is not appearing on the right side of the chart area&lt;/p&gt;
+&lt;p&gt;26601 Data Labels are not visible properly using Chart-to-Image feature&lt;/p&gt;
+&lt;p&gt;26686 No values in the generated chart’s image using Chart-to-Image feature &lt;/p&gt;
+&lt;p&gt;18878 Reduce font size while saving to Pdf file&lt;/p&gt;
+&lt;p&gt;19318 Wrong text in PDF Export&lt;/p&gt;
+&lt;p&gt;24011 Save to Pdf (bugs)&lt;/p&gt;
+&lt;p&gt;26727 Multiple Issues when saving the generated Excel file as PDF&lt;/p&gt;
+&lt;p&gt;25920 Pivot Tables getting corrupted&lt;/p&gt;
+&lt;p&gt;26100 Setting RefreshDataOnOpeningFile does not seem to work&lt;/p&gt;
+&lt;p&gt;26758 Corrupt Pivot Table with Aspose.Cells&lt;/p&gt;
+&lt;p&gt;24961 File Corruption issue&lt;/p&gt;
+&lt;p&gt;26198 Get Maximum Value of ValueAxis in an Excel Chart&lt;/p&gt;
+&lt;p&gt;26198 An Issue with PutValue and ClearContents methods&lt;/p&gt;
+&lt;p&gt;26544 Problem with Copying Rows and Conditional Formatting&lt;/p&gt;
+&lt;p&gt;26711 Calculated cell has “#VALUE!” after using Workbook.CalculateFormula() method&lt;/p&gt;
+&lt;p&gt;26728 Get “#Value!” in the calculated cells&lt;/p&gt;
+&lt;p&gt;26984 Problem with formulas calculation across Worksheets&lt;/p&gt;
+&lt;p&gt;26308 XLSB Formula returns different value than XLSX formula&lt;/p&gt;
+&lt;p&gt;25783 Excel file opens with warning after using Range.CopyValue for Table’s header&lt;/p&gt;
+&lt;p&gt;25797 ListObjectCollection.Add corrupts formatting in header cells&lt;/p&gt;
+&lt;p&gt;25879 2007 Excel file places a shape with zOrderPosition of 0 on top&lt;/p&gt;
+&lt;p&gt;25970 Render Alt Text in MS Excel 2010 XLSX file&lt;/p&gt;
+&lt;p&gt;26013 TextBox Linked Cell returns null&lt;/p&gt;
+&lt;p&gt;26049 Insert a new column into a Table&lt;/p&gt;
+&lt;p&gt;26313    Document corruption after processing with Aspose.Cells&lt;/p&gt;
+&lt;h3 id=&#34;2-asposecellsgridweb&#34;&gt;2) Aspose.Cells.GridWeb&lt;/h3&gt;
+&lt;h3 id=&#34;new-features&#34;&gt;New Features&lt;/h3&gt;
+&lt;p&gt;26410   Expand/Collapse grouped rows on server and client sides                                                                                                                     &lt;/p&gt;
+&lt;h3 id=&#34;exceptions-1&#34;&gt;Exceptions&lt;/h3&gt;
+&lt;p&gt;26227  Handle exception that is raised while obtaining the custom formatted number’s color                                                                                                                    &lt;/p&gt;
+&lt;h3 id=&#34;3-asposecellsgriddesktop&#34;&gt;3) Aspose.Cells.GridDesktop&lt;/h3&gt;
+&lt;h3 id=&#34;new-features-1&#34;&gt;New Features&lt;/h3&gt;
+&lt;p&gt;26545 Customize fonts that are used to display Worksheet names&lt;/p&gt;
+&lt;p&gt;21788 Mark some continuous Undo steps and perform undoing/redoing in one go&lt;/p&gt;
+&lt;p&gt;27138   Copy formulas from Excel templates&lt;/p&gt;
+&lt;h3 id=&#34;regression&#34;&gt;Regression&lt;/h3&gt;
+&lt;p&gt;27139   Formula chains are not calculated accordingly when changing a cell’s value&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Aspose.Cells for .NET 5.3.2 Release Notes</title>
+      <link>https://roywangt.github.io/cells/net/releasenotes/2011/aspose.cells&#43;for&#43;.net&#43;5.3.2&#43;release&#43;notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/releasenotes/2011/aspose.cells&#43;for&#43;.net&#43;5.3.2&#43;release&#43;notes/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--asposecells-for-net-532-release-notes&#34;&gt;Aspose.Cells for .NET : Aspose.Cells for .NET 5.3.2 Release Notes&lt;/h1&gt;
+&lt;p&gt;This page contains release notes for &lt;a href=&#34;http://www.aspose.com/downloads/cells/net/new-releases/aspose.cells-for-.net-5.3.2/&#34;&gt;Aspose.Cells for .NET 5.3.2&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;We are happy to announce Aspose.Cells for .NET v5.3.2!&lt;/p&gt;
+&lt;p&gt;What&amp;rsquo;s changed in Aspose.Cells:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Inserts a common value into all the cells of the range by using Range.Value.&lt;/li&gt;
+&lt;li&gt;Supports MS Excel 2010 encryption.&lt;/li&gt;
+&lt;li&gt;Provides support to disable/hide Printing-Process dialog box&lt;/li&gt;
+&lt;li&gt;Supports to change paper source while printing.&lt;/li&gt;
+&lt;li&gt;43 enhancements and fixes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;What’s changed in Aspose.Cells.GridWeb:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Supports setting grouped rows’ state to ‘Expanded’ or ‘Collapsed’ on the client side.&lt;/li&gt;
+&lt;li&gt;1 fix.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;What’s changed in Aspose.Cells.GridDesktop:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;1 fix.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Issues Resolved in Aspose.Cells for .NET v5.3.2.&lt;/p&gt;
+
+&lt;div class=&#34;table table-striped&#34; role=&#34;alert&#34;&gt;
+    &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Issue ID&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Component&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Summary&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;13695&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;GridWeb&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Fixed the cursor stays on the same line when using Ctrl-Enter keys&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;25599&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;GridDesktop&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Fixed exporting columns’ styles to Excel file&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;25346&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Formula&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;XLS Link VS. XLSX Link&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;25496&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Formula&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Numeric fields displaying as #VALUE!&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;25574&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Formula&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;VLOOKUP formula doesn&amp;rsquo;t work with ListObjects&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;25625&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Formula&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Workbook.CalculateFormula error out&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;25683&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Formula&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;CalculateFormula - StackOverflowException&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;25699&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Formula&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;CELL() function is not working&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;25147&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Html&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Html saving and Charts css layout issue&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;24514&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Pdf&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Excel to PDF conversion problem&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;25149&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Pdf&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF export - Garbage Collection performance issue&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;25260&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Pdf&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;XLS to PDF issue&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;25289&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Pdf&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Number as large exponent issue&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;25365&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Pdf&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Formatting of individual characters to bold&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;25490&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Pdf&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Getting Error while merging Empty Excel Documents&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;25615&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Pdf&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PDF conversion problem&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;24199&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PivotTable&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PivotTable RefreshData throws exception&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;25267&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PivotTable&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Pivot table issue&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;24577&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Xls&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;AutoFitColumn is not setting width correctly&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;25329&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Xls&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;OutOfMemoryException upon opening the Excel with two Shapes&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;25404&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Xls&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Check whether the chart is a 3D chart&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;25412&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Xls&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Faster way to replace all formulas with value&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;25422&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Xls&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug with image aspect ratio&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;25423&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Xls&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Write a string into the merged cell&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;25426&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Formula&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Unable to calculate workbook&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;25506&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Xls&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Issue on saving XLSX format&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;25554&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Xls&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Invalid copied cell&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;25904&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Xls&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Some formatting will not copy&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;25919&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Xls&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Cells in range cannot be merged&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;24912&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Xlsb&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Saving XLSB with data filter&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;25675&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Xlsb&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Aspose.Cells removes Bitmaps&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;25229&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Xlsx&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Problems with complex bar chart&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;25287&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Xlsx&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Strange issue with the shapes after the save&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;25317&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Xlsx&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Get ListObject by name&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;25327&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Xlsx&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Problem with header and footer areas&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;25332&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Xlsx&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Various Custom Property issues&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;25390&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Xlsx&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Opening and copying sheet issue&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;25391&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Xlsx&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Button slides to the left after each Save&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;25421&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Xlsx&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Diagram: Type of axis changes&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;25430&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Xlsx&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;RadioButtons not working as expected&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;25508&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Xlsx&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Excel 2007 Chart with VBA Code Issue&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;25510&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Xlsx&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Embedded objects do not stay in the same location&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;25555&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Xlsx&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Charts not copying correctly&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;25677&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Xlsx&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Aspose.Cells adds border to Bitmaps when saving to Excel 2007 formats&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;25906&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Xlsx&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Invalid tick labels rotation&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Aspose.Cells for .NET 5.3.1 Release Notes</title>
+      <link>https://roywangt.github.io/cells/net/releasenotes/2011/aspose.cells&#43;for&#43;.net&#43;5.3.1&#43;release&#43;notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/releasenotes/2011/aspose.cells&#43;for&#43;.net&#43;5.3.1&#43;release&#43;notes/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--asposecells-for-net-531-release-notes&#34;&gt;Aspose.Cells for .NET : Aspose.Cells for .NET 5.3.1 Release Notes&lt;/h1&gt;
+&lt;p&gt;This page contains release notes for &lt;a href=&#34;http://www.aspose.com/downloads/cells/net/new-releases/aspose.cells-for-.net-5.3.1/&#34;&gt;Aspose.Cells for .NET 5.3.1&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;We are happy to announce Aspose.Cells for .NET v5.3.1!&lt;/p&gt;
+&lt;p&gt;What&amp;rsquo;s changed in Aspose.Cells:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Supports Arabic text rendering in PDF conversion.&lt;br&gt;
+17 enhancements and fixes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;What’s changed in Aspose.Cells.GridWeb:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Supports calculating array constants in Formulas.&lt;br&gt;
+Supports multiple non-sequential cells operations.&lt;br&gt;
+1 enhancement.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;What’s changed in Aspose.Cells.GridDesktop:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Supports calculating array constants in Formulas.&lt;br&gt;
+1 enhancement.&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Aspose.Cells for .NET 5.3.0 Release Notes</title>
+      <link>https://roywangt.github.io/cells/net/releasenotes/2011/aspose.cells&#43;for&#43;.net&#43;5.3.0&#43;release&#43;notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/releasenotes/2011/aspose.cells&#43;for&#43;.net&#43;5.3.0&#43;release&#43;notes/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--asposecells-for-net-530-release-notes&#34;&gt;Aspose.Cells for .NET : Aspose.Cells for .NET 5.3.0 Release Notes&lt;/h1&gt;
+&lt;p&gt;This page contains release notes for &lt;a href=&#34;http://www.aspose.com/downloads/cells/net/new-releases/aspose.cells-for-.net-5.3.0/&#34;&gt;Aspose.Cells for .NET 5.3.0&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;We are happy to announce Aspose.Cells for .NET v5.3.0!&lt;/p&gt;
+&lt;p&gt;What&amp;rsquo;s changed in Aspose.Cells:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Chart-to-Image feature is enhanced.&lt;br&gt;
+Excel-to-PDF feature is enhanced.&lt;br&gt;
+R/W ODS files feature is enhanced.&lt;br&gt;
+Auto-fit rows feature is enhanced.&lt;br&gt;
+63 enhancement and fixes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;What’s changed in Aspose.Cells.GridWeb:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Supports all features of the control in FireFox.&lt;br&gt;
+Provides support for converting a list collection to a DataTable object.&lt;br&gt;
+Supports SMALL function/formula.&lt;br&gt;
+Imports auto-filters in the Excel files.&lt;br&gt;
+The performance of client scripts for IE is enhanced.&lt;br&gt;
+Supports whether to extend maximum row/column automatically when calculating formulas.&lt;br&gt;
+1 fix and 1 enhancement.&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Aspose.Cells for .NET 5.2.2 Release Notes</title>
+      <link>https://roywangt.github.io/cells/net/releasenotes/2011/aspose.cells&#43;for&#43;.net&#43;5.2.2&#43;release&#43;notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/releasenotes/2011/aspose.cells&#43;for&#43;.net&#43;5.2.2&#43;release&#43;notes/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--asposecells-for-net-522-release-notes&#34;&gt;Aspose.Cells for .NET : Aspose.Cells for .NET 5.2.2 Release Notes&lt;/h1&gt;
+&lt;p&gt;This page contains release notes for &lt;a href=&#34;http://www.aspose.com/downloads/cells/net/new-releases/aspose.cells-for-.net-5.2.2/&#34;&gt;Aspose.Cells for .NET 5.2.2&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;We are happy to announce Aspose.Cells for .NET v5.2.2!&lt;/p&gt;
+&lt;p&gt;What&amp;rsquo;s changed in Aspose.Cells:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Supports exporting Tables style to PDF file format.&lt;br&gt;
+Enhances R/W ODS files.&lt;br&gt;
+27 enhancements and fixes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;What’s changed in Aspose.Cells.GridWeb:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Upgrades all .htc script files to JavaScript files.&lt;br&gt;
+2 fixes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Issues Resolved in Aspose.Cells for .NET v5.2.2.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

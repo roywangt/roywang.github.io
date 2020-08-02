@@ -1,0 +1,196 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Installation</title>
+    <link>https://roywangt.github.io/cells/reportingservices/installation/</link>
+    <description>Recent content in Installation on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://roywangt.github.io/cells/reportingservices/installation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Reportingservices: Introduction</title>
+      <link>https://roywangt.github.io/cells/reportingservices/installation/introduction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/reportingservices/installation/introduction/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-reporting-services--introduction&#34;&gt;Aspose.Cells for Reporting Services : Introduction&lt;/h1&gt;
+&lt;p&gt;This section describes how to install and uninstall Aspose.Cells for Reporting Services.&lt;/p&gt;
+&lt;p&gt;Aspose.Cells for Reporting Services can be deployed in two ways:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;using a full MSI installer or&lt;/li&gt;
+&lt;li&gt;using a single DLL.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Both the installer and the DLL are available for free download at the Aspose.Cells for Reporting Services &lt;a href=&#34;http://www.aspose.com/Community/Files/52/aspose.cells.reporting.services/default.aspx&#34;&gt;download page&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Using the installer has a couple of advantages:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;It makes all necessary entries into the system registry to expose Microsoft Excel to COM applications.&lt;/li&gt;
+&lt;li&gt;It contains the demo projects that allow you to obtain code samples.&lt;/li&gt;
+&lt;/ol&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Reportingservices: Installing Aspose.Cells for Reporting Services</title>
+      <link>https://roywangt.github.io/cells/reportingservices/installation/installing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/reportingservices/installation/installing/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-reporting-services--installing-asposecells-for-reporting-services&#34;&gt;Aspose.Cells for Reporting Services : Installing Aspose.Cells for Reporting Services&lt;/h1&gt;
+&lt;h6 id=&#34;this-section-includes-the-following-topics&#34;&gt;This section includes the following topics:&lt;/h6&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/reportingservices/installation/installing/using+msi+installer&#34;&gt;Using MSI Installer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/reportingservices/installation/installing/using+dll+only&#34;&gt;Using DLL Only&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/reportingservices/installation/installing/uninstalling+aspose.cells+for+reporting+services&#34;&gt;Uninstalling Aspose.Cells for Reporting Services&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Reportingservices: Integrating Manually with Visual Studio 2005 or 2008 Report Designer</title>
+      <link>https://roywangt.github.io/cells/reportingservices/installation/integrating&#43;manually&#43;with&#43;visual&#43;studio&#43;2005&#43;or&#43;2008&#43;report&#43;designer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/reportingservices/installation/integrating&#43;manually&#43;with&#43;visual&#43;studio&#43;2005&#43;or&#43;2008&#43;report&#43;designer/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-reporting-services--integrating-manually-with-visual-studio-2005-or-2008-report-designer&#34;&gt;Aspose.Cells for Reporting Services : Integrating Manually with Visual Studio 2005 or 2008 Report Designer&lt;/h1&gt;
+&lt;p&gt;Please perform the following steps in order if you want install Aspose.Cells for Reporting Services manually for Microsoft Visual Studio Report Designer, without the MSI installer. We recommend you use the MSI installer because it performs all necessary installation and configuration automatically. However, if you fail to install with MSI installer then please follow the following guidelines.&lt;br&gt;
+This section describes how to install Aspose.Cells for Reporting Services on a computer with Business Intelligence Development Studio. This will enable you to export reports to Microsoft Excel formats at design time from the Microsoft Visual Studio 2005 or 2008 Report Designer.&lt;/p&gt;
+&lt;h3 id=&#34;integration-process&#34;&gt;Integration Process&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Copy &lt;strong&gt;Aspose.Cells.ReportingServices.dll&lt;/strong&gt; to the Visual Studio directory.
+&lt;ul&gt;
+&lt;li&gt;To integrate with Visual Studio 2005 Report Designer: copy &lt;strong&gt;Aspose.Cells.ReportingServices.dll&lt;/strong&gt; to the C:\Program Files\Microsoft Visual Studio 8\Common7\IDE\PrivateAssemblies directory.&lt;/li&gt;
+&lt;li&gt;To integrate with Visual Studio 2008 Report Designer: copy &lt;strong&gt;Aspose.Cells.ReportingServices.dll&lt;/strong&gt; to the C:\Program Files\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies directory.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Register Aspose.Cells for Reporting Services as a rendering extension:
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Open &lt;strong&gt;C:\Program Files\Microsoft Visual Studio &lt;Version&gt;\Common7\IDE\PrivateAssemblies\ RSReportDesigner.config&lt;/strong&gt;&lt;br&gt;
+(where &lt;Version&gt; is “8” for Visual Studio 2005 or “9.0” for Visual Studio 2008) and add the following lines into the &lt;code&gt;&amp;lt;Render&amp;gt;&lt;/code&gt; element:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;XML&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_8a83eccc6e&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_8a83eccc6e&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-xml&#34; data-lang=&#34;xml&#34;&gt;
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;lt;Extension&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;Name=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;ACXLS&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;Type=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Aspose.Cells.ReportingServices.XlsRenderer,Aspose.Cells.ReportingServices&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;/&amp;gt;&lt;/span&gt;
+      &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;lt;Extension&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;Name=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;ACXLSX&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;Type=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Aspose.Cells.ReportingServices.Excel2007XlsxRenderer,Aspose.Cells.ReportingServices&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;/&amp;gt;&lt;/span&gt;
+      &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;lt;Extension&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;Name=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;ACXLSB&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;Type=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Aspose.Cells.ReportingServices.XlsbRenderer,Aspose.Cells.ReportingServices&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;/&amp;gt;&lt;/span&gt;
+      &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;lt;Extension&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;Name=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;ACXLSM&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;Type=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Aspose.Cells.ReportingServices.Excel2007XlsmRenderer,Aspose.Cells.ReportingServices&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;/&amp;gt;&lt;/span&gt;
+      &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;lt;Extension&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;Name=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;ACXML&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;Type=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Aspose.Cells.ReportingServices.SpreadsheetMLRenderer,Aspose.Cells.ReportingServices&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;/&amp;gt;&lt;/span&gt;
+      &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;lt;Extension&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;Name=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;ACHTML&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;Type=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Aspose.Cells.ReportingServices.HtmlRenderer,Aspose.Cells.ReportingServices&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;/&amp;gt;&lt;/span&gt;
+      &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;lt;Extension&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;Name=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;ACCSV&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;Type=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Aspose.Cells.ReportingServices.CSVRenderer,Aspose.Cells.ReportingServices&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;/&amp;gt;&lt;/span&gt;
+      &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;lt;Extension&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;Name=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;ACODS&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;Type=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Aspose.Cells.ReportingServices.ODSRenderer,Aspose.Cells.ReportingServices&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;/&amp;gt;&lt;/span&gt;
+      &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;lt;Extension&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;Name=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;ACTXT&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;Type=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Aspose.Cells.ReportingServices.TabDelimitedRenderer,Aspose.Cells.ReportingServices&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;/&amp;gt;&lt;/span&gt;
+ 
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Give Aspose.Cells for Reporting Services permissions to execute:
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Open C:\Program Files\Microsoft Visual Studio &lt;Version&gt;\Common7\IDE\PrivateAssemblies\RSPreviewPolicy.config&lt;br&gt;
+(where &lt;code&gt;&amp;lt;Version&amp;gt;&lt;/code&gt; is “8” for Visual Studio 2005 or “9.0” for Visual Studio 2008) and add the following as the last item in the second to outer &lt;code&gt;&amp;lt;CodeGroup&amp;gt;&lt;/code&gt; element (which should be &lt;code&gt;&amp;lt;CodeGroup class=&amp;quot;FirstMatchCodeGroup&amp;quot; version=&amp;quot;1&amp;quot; PermissionSetName=&amp;quot;Execution&amp;quot; Description=&amp;quot;This code group grants MyComputer code Execution permission. &amp;quot;&amp;gt;&lt;/code&gt;):&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;XML&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_10415dcead&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_10415dcead&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-xml&#34; data-lang=&#34;xml&#34;&gt;
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;lt;CodeGroup&amp;gt;&lt;/span&gt;
+  ...
+  &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;lt;CodeGroup&amp;gt;&lt;/span&gt;
+    ...
+    &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&amp;lt;!--Start here.--&amp;gt;&lt;/span&gt;
+   &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;lt;CodeGroup&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;class=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;UnionCodeGroup&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;version=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;1&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;PermissionSetName=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;FullTrust&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;Name=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Aspose.Cells_for_Reporting_Services&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;Description=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;This code group grants full trust to the Aspose.Cells for Reporting Services assembly.&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+                &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;lt;IMembershipCondition&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;class=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;StrongNameMembershipCondition&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;version=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;1&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;PublicKeyBlob=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;00240000048000009400000006020000002400005253413100040000010001002780c08eaa89aedfb00b1b96137cca3e15f32826e0e4fd1da3c98d1e3968a03a019aa7b7228b151f6e5dae4dcb00f98479770f507626b04e786e5e93ec3757c1cc4ed1ac4b72c7649c4438e9d3a5f44d8b7522043686a2e8c2a495e04b917e0505d3201015c828e3c15afc8a46ab78293574b9e0475df68627bbabc5b564addd&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;/&amp;gt;&lt;/span&gt;
+              &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;lt;/CodeGroup&amp;gt;&lt;/span&gt; 
+    &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&amp;lt;!--End here.--&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;lt;/CodeGroup&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;lt;/CodeGroup&amp;gt;&lt;/span&gt;
+ 
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;Verify that Aspose.Cells for Reporting Services was installed successfully:
+&lt;ol&gt;
+&lt;li&gt;Run or restart Microsoft Visual Studio 2005 or 2008 Report Designer.&lt;br&gt;
+You should notice new formats available in the list of export formats.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;When the component has been registered, new export formats appear in Report Designer&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/reportingservices/attachments/6094925/6193430.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

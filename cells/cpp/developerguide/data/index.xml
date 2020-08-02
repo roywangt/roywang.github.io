@@ -1,0 +1,658 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Data</title>
+    <link>https://roywangt.github.io/cells/cpp/developerguide/data/</link>
+    <description>Recent content in Data on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://roywangt.github.io/cells/cpp/developerguide/data/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Cpp: Accessing Cells of a Worksheet</title>
+      <link>https://roywangt.github.io/cells/cpp/developerguide/data/accessing&#43;cells&#43;of&#43;a&#43;worksheet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/cpp/developerguide/data/accessing&#43;cells&#43;of&#43;a&#43;worksheet/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-c--accessing-cells-of-a-worksheet&#34;&gt;Aspose.Cells for C++ : Accessing Cells of a Worksheet&lt;/h1&gt;
+&lt;p&gt;We know that all worksheets may contain data that is basically stored in cells (with which a worksheet is made up of). A cell is a basic part of a worksheet that is used to construct the whole worksheet as a sequence of rows and columns. Before we try to access data from a worksheet, we would need to get access to its cells. So, in this topic, we will discuss some basic approaches to access worksheet cells at runtime using Aspose.Cells.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#accessing-cells&#34;&gt;Accessing Cells&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#using-cell-name&#34;&gt;Using Cell Name&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.2 &lt;a href=&#34;#using-row-&amp;amp;-column-index-of-the-cell&#34;&gt;Using Row &amp;amp; Column Index of the Cell&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#accessing-maximum-display-range-of-worksheet&#34;&gt;Accessing Maximum Display Range of Worksheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;accessing-cells&#34;&gt;Accessing Cells&lt;/h2&gt;
+&lt;p&gt;Aspose.Cells provides a class &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_workbook/&#34;&gt;IWorkbook&lt;/a&gt; that represents an Excel file. The &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_workbook/&#34;&gt;IWorkbook&lt;/a&gt; class contains a &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_worksheet_collection/&#34;&gt;Worksheets&lt;/a&gt; collection that allows to access each worksheet in the Excel file. A worksheet is represented by the &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_worksheet/&#34;&gt;IWorksheet&lt;/a&gt; class. The &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_worksheet/&#34;&gt;IWorksheet&lt;/a&gt; class provides a &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_cells/&#34;&gt;Cells&lt;/a&gt; collection that represents all cells in the worksheet.&lt;/p&gt;
+&lt;p&gt;We can use &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_cells/&#34;&gt;Cells&lt;/a&gt; collection to access cells in a worksheet. Aspose.Cells provides three basic approaches to access cells in a worksheet:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Using cell name.&lt;/li&gt;
+&lt;li&gt;Using a cell&amp;rsquo;s row and column index.&lt;/li&gt;
+&lt;li&gt;Using a cell index in the &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_cells/&#34;&gt;Cells&lt;/a&gt; collection&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;We have mentioned that the 3rd approach is the fastest and the 1st approach is the slowest one. The performance difference between the approaches is very small so don&amp;rsquo;t worry about performance degradation, whichever approach you use.&lt;/p&gt;
+&lt;h3 id=&#34;using-cell-name&#34;&gt;Using Cell Name&lt;/h3&gt;
+&lt;p&gt;Developers can access any specific cell by passing its cell name to the &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_cells/&#34;&gt;Cells&lt;/a&gt; collection of the &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_worksheet/&#34;&gt;IWorksheet&lt;/a&gt; class as an index.&lt;/p&gt;
+&lt;p&gt;If you create a blank worksheet at start, the count of &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_cells/&#34;&gt;Cells&lt;/a&gt; collection is zero. When you use this approach to access a cell, it will check whether this cell exists in the collection or not. If yes, it returns the cell object in the collection otherwise, it creates a new &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_cell/&#34;&gt;ICell&lt;/a&gt; object, adds the object to the &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_cells/&#34;&gt;Cells&lt;/a&gt; collection and then returns that object. This approach is the easiest way to access the cell if you are familiar with Microsoft Excel but it&amp;rsquo;s the slowest one as compared to other approaches.&lt;/p&gt;
+&lt;h3 id=&#34;using-row--column-index-of-the-cell&#34;&gt;Using Row &amp;amp; Column Index of the Cell&lt;/h3&gt;
+&lt;p&gt;Developers can access any specific cell by passing the indices of its row and column to the &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_cells/&#34;&gt;Cells&lt;/a&gt; collection of the &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_worksheet/&#34;&gt;IWorksheet&lt;/a&gt; class. This approach works in the same way as that of the first approach.&lt;/p&gt;
+&lt;h2 id=&#34;accessing-maximum-display-range-of-worksheet&#34;&gt;Accessing Maximum Display Range of Worksheet&lt;/h2&gt;
+&lt;p&gt;Aspose.Cells allows developers to access a worksheet&amp;rsquo;s maximum display range. The maximum display range - the range of cells between the first and last cell with content - is useful when you need to copy, select or display the entire contents of a worksheet in an image.&lt;/p&gt;
+&lt;p&gt;You can access a worksheet&amp;rsquo;s maximum display range using &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_cells/#ad351277ccaa0a4e1e8cd0693a1e2e988&#34;&gt;MaxDisplayIRange&lt;/a&gt; method of the &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_cells/&#34;&gt;Cells&lt;/a&gt; collection.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Cpp: Add and Retrieve Data</title>
+      <link>https://roywangt.github.io/cells/cpp/developerguide/data/add&#43;and&#43;retrieve&#43;data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/cpp/developerguide/data/add&#43;and&#43;retrieve&#43;data/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-c--add-and-retrieve-data&#34;&gt;Aspose.Cells for C++ : Add and Retrieve Data&lt;/h1&gt;
+&lt;p&gt;In &lt;a href=&#34;https://docs2.aspose.com/cells/cpp/developerguide/data/accessing+cells+of+a+worksheet&#34;&gt;Accessing Cells of a Worksheet&lt;/a&gt;, we discussed basic approaches for accessing cells in a worksheet. This article uses one of those approaches to add different types of data to cells.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#adding-data-to-cells&#34;&gt;Adding Data to Cells&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#improving-efficiency&#34;&gt;Improving Efficiency&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#retrieving-data-from-cells&#34;&gt;Retrieving Data from Cells&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;adding-data-to-cells&#34;&gt;Adding Data to Cells&lt;/h2&gt;
+&lt;p&gt;Aspose.Cells provides a class &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_workbook/&#34;&gt;IWorkbook&lt;/a&gt; that represents a Microsoft Excel file. The &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_workbook/&#34;&gt;IWorkbook&lt;/a&gt; class contains an &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_worksheet_collection/&#34;&gt;IWorksheets&lt;/a&gt; collection that allows access to each worksheet in the Excel file. A worksheet is represented by the &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_worksheet/&#34;&gt;IWorksheet&lt;/a&gt; class. The &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_worksheet/&#34;&gt;IWorksheet&lt;/a&gt; class provides an &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_cells/&#34;&gt;ICells&lt;/a&gt; collection. Each item in the &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_cells/&#34;&gt;ICells&lt;/a&gt; collection represents an object of the &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_cell/&#34;&gt;ICell&lt;/a&gt; class.&lt;/p&gt;
+&lt;p&gt;Aspose.Cells allows developers to add data to the cells in worksheets by calling the &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_cell/&#34;&gt;ICell&lt;/a&gt; class &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_cell/#a4a5f4b8cdd54eccb4eb2ea51babcbca9&#34;&gt;PutValue&lt;/a&gt; method. Aspose.Cells provides overloaded versions of the &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_cell/#a4a5f4b8cdd54eccb4eb2ea51babcbca9&#34;&gt;PutValue&lt;/a&gt; method that lets developers add different kinds of data to cells. Using these overloaded versions of the &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_cell/#a4a5f4b8cdd54eccb4eb2ea51babcbca9&#34;&gt;PutValue&lt;/a&gt; method, it is possible to add a Boolean, string, double, integer or date/time, etc. values to the cell.&lt;/p&gt;
+&lt;h3 id=&#34;improving-efficiency&#34;&gt;Improving Efficiency&lt;/h3&gt;
+&lt;p&gt;If you use &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_cell/#a4a5f4b8cdd54eccb4eb2ea51babcbca9&#34;&gt;PutValue&lt;/a&gt; method to put a large amount of data into a worksheet, you should add values to the cells, first by rows and then by columns. This approach greatly improves the efficiency of your applications.&lt;/p&gt;
+&lt;h2 id=&#34;retrieving-data-from-cells&#34;&gt;Retrieving Data from Cells&lt;/h2&gt;
+&lt;p&gt;Aspose.Cells provides a class &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_workbook/&#34;&gt;IWorkbook&lt;/a&gt; that represents a Microsoft Excel file. The &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_workbook/&#34;&gt;IWorkbook&lt;/a&gt; class contains an &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_worksheet_collection/&#34;&gt;IWorksheets&lt;/a&gt; collection that allows access to worksheets in the file. A worksheet is represented by the &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_worksheet/&#34;&gt;IWorksheet&lt;/a&gt; class. The &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_worksheet/&#34;&gt;IWorksheet&lt;/a&gt; class provides a &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_cells/&#34;&gt;ICells&lt;/a&gt; collection. Each item in the &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_cells/&#34;&gt;ICells&lt;/a&gt; collection represents an object of the &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_cell/&#34;&gt;ICell&lt;/a&gt; class.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_cell/&#34;&gt;ICell&lt;/a&gt; class provides several methods that allow developers to retrieve values from the cells according to their data types. These methods include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_cell/#ac048c664985e2cadc2404840599d7ac3&#34;&gt;GetStringValue&lt;/a&gt;, returns the string value of the cell.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_cell/#a5f21cd4c755da84135176c74425f230a&#34;&gt;GetDoubleValue&lt;/a&gt;, returns the double value of the cell.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_cell/#ac61870c4b1d6a68077092fb043bf8741&#34;&gt;GetBoolValue&lt;/a&gt;, returns the boolean value of the cell.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_cell/#a7932b40c41141f716b096cc521113a61&#34;&gt;GetDateTimeValue&lt;/a&gt;, returns the date/time value of the cell.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_cell/#a4e36c4be4c76447f54f8032b17cecf44&#34;&gt;GetFloatValue&lt;/a&gt;, returns the float value of the cell.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_cell/#a7acc93c97c062cbd60a7f1ab00a022d8&#34;&gt;GetIntValue&lt;/a&gt;, returns the integer value of the cell.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;When a field is not filled, cells with &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_cell/#a5f21cd4c755da84135176c74425f230a&#34;&gt;GetDoubleValue&lt;/a&gt; or &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_cell/#a4e36c4be4c76447f54f8032b17cecf44&#34;&gt;GetFloatValue&lt;/a&gt; throws an exception.&lt;/p&gt;
+&lt;p&gt;The type of data contained in a cell can also be checked by using the &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_cell/&#34;&gt;ICell&lt;/a&gt; class &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_cell/#a36708b1bad0bbf45cbf9577ccab101ba&#34;&gt;GetType&lt;/a&gt; method. In fact, the &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_cell/&#34;&gt;ICell&lt;/a&gt; class &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_cell/#a36708b1bad0bbf45cbf9577ccab101ba&#34;&gt;GetType&lt;/a&gt; method is based on the &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/namespace/aspose.cells/#a745bf00b4815ec8dcf1bd11922fa4b62&#34;&gt;CellValueType&lt;/a&gt; enumeration whose pre-defined values are listed below:&lt;/p&gt;
+
+&lt;div class=&#34;table table-striped&#34; role=&#34;alert&#34;&gt;
+    &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Cell Value Types&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;code&gt;CellValueType_IsBool&lt;/code&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Specifies that cell value is Boolean.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;code&gt;CellValueType_IsDateTime&lt;/code&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Specifies that cell value is date/time.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;code&gt;CellValueType_IsNull&lt;/code&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents a blank cell.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;code&gt;CellValueType_IsNumeric&lt;/code&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Specifies that cell value is numeric.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;code&gt;CellValueType_IsString&lt;/code&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Specifies that cell value is string.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;code&gt;CellValueType_IsUnknown&lt;/code&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Specifies that cell value is unknown.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;You can also use the above pre-defined cell value types to compare with the Type of the data present in each cell.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Cpp: Add Hyperlinks to the Cells</title>
+      <link>https://roywangt.github.io/cells/cpp/developerguide/data/add&#43;hyperlinks&#43;to&#43;the&#43;cells/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/cpp/developerguide/data/add&#43;hyperlinks&#43;to&#43;the&#43;cells/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-c--add-hyperlinks-to-the-cells&#34;&gt;Aspose.Cells for C++ : Add Hyperlinks to the Cells&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#add-hyperlinks-to-the-cells&#34;&gt;Add Hyperlinks to the Cells&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;add-hyperlinks-to-the-cells&#34;&gt;Add Hyperlinks to the Cells&lt;/h2&gt;
+&lt;p&gt;The following sample code shows how to add a hyperlink inside the cell of the worksheet. You can also add a hyperlink in a range of cells in a similar way. Please check the &lt;a href=&#34;https://docs2.aspose.com/cells/cpp/attachments/22970921/23167002.xlsx&#34;&gt;output excel file&lt;/a&gt; generated with this code and the following screenshot showing the output excel file in Microsoft Excel.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/cpp/attachments/22970921/23167003.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Cpp: Apply Conditional Formatting in Worksheet</title>
+      <link>https://roywangt.github.io/cells/cpp/developerguide/data/apply&#43;conditional&#43;formatting&#43;in&#43;worksheet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/cpp/developerguide/data/apply&#43;conditional&#43;formatting&#43;in&#43;worksheet/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-c--apply-conditional-formatting-in-worksheet&#34;&gt;Aspose.Cells for C++ : Apply Conditional Formatting in Worksheet&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenario&#34;&gt;Possible Usage Scenario&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#apply-conditional-formatting-in-worksheet&#34;&gt;Apply Conditional Formatting in Worksheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenario&#34;&gt;Possible Usage Scenario&lt;/h2&gt;
+&lt;p&gt;Aspose.Cells allows you to add all sorts of Conditional Formatting e.g. Formula, Above Average, Color Scale, Data Bar, Icon Set, Top10, etc. It provides the &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_format_condition/&#34;&gt;IFormatCondition&lt;/a&gt; class which has all the necessary methods to apply conditional formatting of your choice. Here is the list of a few of Get methods.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_format_condition/#aff550fd834cd78967ec440492ff012d5&#34;&gt;GetIAboveAverage()&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_format_condition/#a3348a7c447dc564ceabc22c9c89bd6f5&#34;&gt;GetIColorScale()&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_format_condition/#a4415a87833c41386ed1595e742485e07&#34;&gt;GetIDataBar()&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_format_condition/#a011b2c7dbaaf671819d09f5d1df865e3&#34;&gt;GetIIconSet()&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_format_condition/#a64388aaf1b43811f5ee1ee3090c9bd4a&#34;&gt;GetITop10()&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;apply-conditional-formatting-in-worksheet&#34;&gt;Apply Conditional Formatting in Worksheet&lt;/h2&gt;
+&lt;p&gt;The following sample code shows how to add a Cell Value conditional formatting on cells A1 and B2. Please see the &lt;a href=&#34;https://docs2.aspose.com/cells/cpp/attachments/22970923/23167004.xlsx&#34;&gt;output excel file&lt;/a&gt; generated by the code and the following screenshot which explains the effect of the code on the &lt;a href=&#34;https://docs2.aspose.com/cells/cpp/attachments/22970923/23167004.xlsx&#34;&gt;output excel file&lt;/a&gt;. If you will put some value greater than 100 in cell A2 and B2, the Red fill color from cell A1 and B2 will disappear.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/cpp/attachments/22970923/23167005.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Cpp: Cells Formatting</title>
+      <link>https://roywangt.github.io/cells/cpp/developerguide/data/cells&#43;formatting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/cpp/developerguide/data/cells&#43;formatting/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-c--cells-formatting&#34;&gt;Aspose.Cells for C++ : Cells Formatting&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#format-cell-or-range-of-cells&#34;&gt;Format Cell or Range of Cells&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;format-cell-or-range-of-cells&#34;&gt;Format Cell or Range of Cells&lt;/h2&gt;
+&lt;p&gt;If you want to format cell or range of cells, then Aspose.Cells provides the &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_style/&#34;&gt;IStyle&lt;/a&gt; class. You can accomplish all the formatting of the cell or range of cells using this class. Some of the things relating to formatting that can be accomplished with &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_style/&#34;&gt;IStyle&lt;/a&gt; class are following&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Set fill color of the cell&lt;/li&gt;
+&lt;li&gt;Set the text wrap of the cell&lt;/li&gt;
+&lt;li&gt;Set the borders of the cells like the top, left, bottom and right borders, etc.&lt;/li&gt;
+&lt;li&gt;Set the font color, font size, font name, strike, bold, italic, underline, etc.&lt;/li&gt;
+&lt;li&gt;Set the text horizontal or vertical alignment to right, left, top, bottom, center, etc.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you want to set the style of a single cell then please use &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_cell/#afa3d5b2aa5e90b286effc9e92de59dd5&#34;&gt;ICell-&amp;gt;SetIStyle()&lt;/a&gt; method and if you want to set the style of a range of cells, then please use &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_range/#aaad6703b803565b674999bbaf5eed3a0&#34;&gt;IRange-&amp;gt;ApplyIStyle()&lt;/a&gt; method.&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+&lt;p&gt;The following sample code formats the cell C4 of the worksheet in various ways and the screenshot shows the &lt;a href=&#34;https://docs2.aspose.com/cells/cpp/attachments/21102594/21266438.xlsx&#34;&gt;output excel file&lt;/a&gt; generated by it for your reference.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/cpp/attachments/21102594/21266439.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Cpp: Create Named Range in a Workbook</title>
+      <link>https://roywangt.github.io/cells/cpp/developerguide/data/create&#43;named&#43;range&#43;in&#43;a&#43;workbook/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/cpp/developerguide/data/create&#43;named&#43;range&#43;in&#43;a&#43;workbook/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-c--create-named-range-in-a-workbook&#34;&gt;Aspose.Cells for C++ : Create Named Range in a Workbook&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#create-named-range-in-a-workbook&#34;&gt;Create Named Range in a Workbook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;4 &lt;a href=&#34;#console-output&#34;&gt;Console Output&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;Aspose.Cells supports the creation of a named range. There are different ways to create a named range. One of the simplest ways is to first create &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_range/&#34;&gt;IRange&lt;/a&gt; object and then set its name using &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_range/#a78480b6b6db0f24cffc8acc2b06552eb&#34;&gt;IRange.SetName()&lt;/a&gt; method. You can see all the named ranges inside your excel file via Microsoft Excel *Name Manager *interface.&lt;/p&gt;
+&lt;h2 id=&#34;create-named-range-in-a-workbook&#34;&gt;Create Named Range in a Workbook&lt;/h2&gt;
+&lt;p&gt;The following sample code explains how to create a &lt;em&gt;Named Range&lt;/em&gt; via Aspose.Cells. Once, the &lt;em&gt;Named Range&lt;/em&gt; is created, it is visible inside the &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_worksheet_collection/#aa9e7bc07917a152a2c0de161cca133fa&#34;&gt;IWorkbook.GetIWorksheets().GetINames()&lt;/a&gt; collection. Please see the &lt;a href=&#34;https://docs2.aspose.com/cells/cpp/attachments/22970925/23167006.xlsx&#34;&gt;output excel file&lt;/a&gt; generated by the code for a reference.&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+&lt;h2 id=&#34;console-output&#34;&gt;Console Output&lt;/h2&gt;
+&lt;p&gt;The following console output prints the values of &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_name/#a5b450ef193365dec035c58280fbe9563&#34;&gt;GetFullText&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_name/#afdb10a12d8d395ae81de231f017eba36&#34;&gt;GetRefersTo&lt;/a&gt; methods of the created &lt;em&gt;Named Range&lt;/em&gt; in the above code.&lt;/p&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_e17355b6e0&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_e17355b6e0&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Full&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Text&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;MyNamedRange&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Refers&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;To&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Sheet1&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;!&lt;/span&gt;&lt;span style=&#34;color:#a40000&#34;&gt;$&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;A&lt;/span&gt;&lt;span style=&#34;color:#a40000&#34;&gt;$&lt;/span&gt;&lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;5&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#a40000&#34;&gt;$&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;C&lt;/span&gt;&lt;span style=&#34;color:#a40000&#34;&gt;$&lt;/span&gt;&lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;10&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Cpp: Creating Subtotals</title>
+      <link>https://roywangt.github.io/cells/cpp/developerguide/data/creating&#43;subtotals/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/cpp/developerguide/data/creating&#43;subtotals/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-c--creating-subtotals&#34;&gt;Aspose.Cells for C++ : Creating Subtotals&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#creating-subtotals&#34;&gt;Creating Subtotals&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;creating-subtotals&#34;&gt;Creating Subtotals&lt;/h2&gt;
+&lt;p&gt;The following sample code shows how to create subtotals using Aspose.Cells. The code loads the &lt;a href=&#34;https://docs2.aspose.com/cells/cpp/attachments/21102597/21266433.xlsx&#34;&gt;sample excel file&lt;/a&gt; and creates subtotals on the cell range B13:C19 and saves the &lt;a href=&#34;https://docs2.aspose.com/cells/cpp/attachments/21102597/21266437.xlsx&#34;&gt;output excel file&lt;/a&gt;. The following screenshot shows how the sample and output excel file looks after the execution of the code.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/cpp/attachments/21102597/21266436.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Cpp: Find or Search Data</title>
+      <link>https://roywangt.github.io/cells/cpp/developerguide/data/find&#43;or&#43;search&#43;data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/cpp/developerguide/data/find&#43;or&#43;search&#43;data/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-c--find-or-search-data&#34;&gt;Aspose.Cells for C++ : Find or Search Data&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#find-or-search-data&#34;&gt;Find or Search Data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#console-output&#34;&gt;Console Output&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;find-or-search-data&#34;&gt;Find or Search Data&lt;/h2&gt;
+&lt;p&gt;You can use Aspose.Cells to find or search data in various ways using the following method. These methods find the data as per their names.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_cells/#a7f90de51db6984956b5ed0b33b73a111&#34;&gt;FindNumber&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_cells/#ae3a8a9cfe7f8dc84ea590a8472e194f1&#34;&gt;FindFormula&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_cells/#ae8d2b8cdef52ef4e501502c4b905943f&#34;&gt;FindFormulaContains&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_cells/#ac3e27028cf708eba8efb0997f9c9048e&#34;&gt;FindString&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_cells/#a4f863b51674f7b18cf20a344872ad704&#34;&gt;FindStringContains&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_cells/#afa17f3d771e73731dd9f682f4ac359df&#34;&gt;FindStringStartsWith&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_cells/#a7d0c58798771b7bc220fb162c30f247b&#34;&gt;FindStringEndsWith&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The following sample code illustrates the usage of the above methods using the &lt;a href=&#34;https://docs2.aspose.com/cells/cpp/attachments/21102595/21266434.xlsx&#34;&gt;sample excel file&lt;/a&gt; as shown in this screenshot.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/cpp/attachments/21102595/21266435.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+&lt;h2 id=&#34;console-output&#34;&gt;Console Output&lt;/h2&gt;
+&lt;p&gt;This is the console output of the above sample code when executed with the given &lt;a href=&#34;https://docs2.aspose.com/cells/cpp/attachments/21102595/21266434.xlsx&#34;&gt;sample excel file&lt;/a&gt;.&lt;/p&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_cefa81963d&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_cefa81963d&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Name&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;of&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;the&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;cell&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;containing&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;the&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;number&lt;/span&gt; &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;80&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;A8&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Name&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;of&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;the&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;cell&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;containing&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;formula&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;SUM&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;A5&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;A10&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;):&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;C6&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Name&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;of&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;the&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;cell&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;containing&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;the&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;formula&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;that&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;contains&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;CHA&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;C7&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Name&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;of&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;the&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;cell&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;containing&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;specified&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;string&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;C8&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Name&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;of&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;the&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;cell&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;containing&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;the&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;string&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;that&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;contains&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Two&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;C9&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Name&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;of&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;the&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;cell&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;containing&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;the&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;string&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;that&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;starts&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;with&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;AAA&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;C10&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Name&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;of&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;the&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;cell&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;containing&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;the&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;string&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;that&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;ends&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;with&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;BBB&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;C11&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Cpp: Manipulate Named Range in a Workbook</title>
+      <link>https://roywangt.github.io/cells/cpp/developerguide/data/manipulate&#43;named&#43;range&#43;in&#43;a&#43;workbook/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/cpp/developerguide/data/manipulate&#43;named&#43;range&#43;in&#43;a&#43;workbook/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-c--manipulate-named-range-in-a-workbook&#34;&gt;Aspose.Cells for C++ : Manipulate Named Range in a Workbook&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#manipulate-named-range-in-a-workbook&#34;&gt;Manipulate Named Range in a Workbook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;4 &lt;a href=&#34;#console-output&#34;&gt;Console Output&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;Aspose.Cells supports the manipulation of existing named ranges. All the existing named ranges can be accessed from &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_worksheet_collection/#aa9e7bc07917a152a2c0de161cca133fa&#34;&gt;IWorkbook.GetIWorksheets().GetINames()&lt;/a&gt; collection. Once, you access the named range, you can change its various methods e.g. &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_name/#a5b450ef193365dec035c58280fbe9563&#34;&gt;GetFullText&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_name/#afdb10a12d8d395ae81de231f017eba36&#34;&gt;GetRefersTo&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;manipulate-named-range-in-a-workbook&#34;&gt;Manipulate Named Range in a Workbook&lt;/h2&gt;
+&lt;p&gt;The following sample code reads the first named-range inside the &lt;a href=&#34;https://docs2.aspose.com/cells/cpp/attachments/22970927/23167008.xlsx&#34;&gt;source excel file&lt;/a&gt; and prints its &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_name/#a5b450ef193365dec035c58280fbe9563&#34;&gt;FullText&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_name/#afdb10a12d8d395ae81de231f017eba36&#34;&gt;RefersTo&lt;/a&gt; properties on the console. After that, it modifies &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_name/#afdb10a12d8d395ae81de231f017eba36&#34;&gt;RefersTo&lt;/a&gt; property and saves the &lt;a href=&#34;https://docs2.aspose.com/cells/cpp/attachments/22970927/23167009.xlsx&#34;&gt;output excel file&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+&lt;h2 id=&#34;console-output&#34;&gt;Console Output&lt;/h2&gt;
+&lt;p&gt;The following console output prints the values of &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_name/#a5b450ef193365dec035c58280fbe9563&#34;&gt;FullText&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_name/#afdb10a12d8d395ae81de231f017eba36&#34;&gt;RefersTo&lt;/a&gt; members of the existing &lt;em&gt;Named Range&lt;/em&gt; in the above code.&lt;/p&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_6ef3b9c666&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_6ef3b9c666&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Full&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Text&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;TestRange&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Refers&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;To&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Sheet1&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;!&lt;/span&gt;&lt;span style=&#34;color:#a40000&#34;&gt;$&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;D&lt;/span&gt;&lt;span style=&#34;color:#a40000&#34;&gt;$&lt;/span&gt;&lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;3&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#a40000&#34;&gt;$&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;G&lt;/span&gt;&lt;span style=&#34;color:#a40000&#34;&gt;$&lt;/span&gt;&lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;6&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Cpp: Precedents and Dependents</title>
+      <link>https://roywangt.github.io/cells/cpp/developerguide/data/precedents&#43;and&#43;dependents/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/cpp/developerguide/data/precedents&#43;and&#43;dependents/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-c--precedents-and-dependents&#34;&gt;Aspose.Cells for C++ : Precedents and Dependents&lt;/h1&gt;
+&lt;p&gt;Complex financial worksheets, especially ones developed in collaboration, can hide the most embarrassing errors. Checking formulas for accuracy and finding the source of an error can be difficult when the formula uses precedent cells and dependent cells.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#introduction&#34;&gt;Introduction&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#tracing-precedent-and-dependent-cells:-microsoft-excel&#34;&gt;Tracing Precedent and Dependent Cells: Microsoft Excel&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#tracing-precedent-and-dependent-cells:-aspose.cells&#34;&gt;Tracing Precedent and Dependent Cells: Aspose.Cells&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;3.1 &lt;a href=&#34;#tracing-precedents&#34;&gt;Tracing Precedents&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3.2 &lt;a href=&#34;#tracing-dependents&#34;&gt;Tracing Dependents&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Precedent cells&lt;/strong&gt; are cells that are referred to by a formula in another cell. For example, if cell D10 contains the formula =B5, cell B5 is a precedent to cell D10.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Dependent cells&lt;/strong&gt; contain formulas that refer to other cells. For example, if cell D10 contains the formula =B5, cell D10 is dependent of cell B5.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;To make the spreadsheet easy to read, you might want to clearly show which cells on a spreadsheet are used in a formula. Similarly, you may want to extract the dependent cells of other cells.&lt;/p&gt;
+&lt;p&gt;Aspose.Cells allows you to trace cells and find out which are linked.&lt;/p&gt;
+&lt;h2 id=&#34;tracing-precedent-and-dependent-cells-microsoft-excel&#34;&gt;Tracing Precedent and Dependent Cells: Microsoft Excel&lt;/h2&gt;
+&lt;p&gt;Formulas may change based on modifications made by a client. For example, if cell C1 is dependent on C3 and C4 containing a formula, and C1 is changed (so the formula is overridden), C3 and C4, or other cells, need to change to balance the spreadsheet based on business rules.&lt;/p&gt;
+&lt;p&gt;Similarly, suppose C1 contains the formula &amp;ldquo;=(B1*22)/(M2*N32)&amp;rdquo;. I want to find the cells that C1 depends on, that is the precedent cells B1, M2, and N32.&lt;/p&gt;
+&lt;p&gt;You might need to trace the dependency of a particular cell to other cells. If business rules are embedded in formulas, we would like to find out the dependency and execute some rules based on it. Similarly, if the value of a particular cell is modified, which cells in the worksheet are impacted by that change?&lt;/p&gt;
+&lt;p&gt;Microsoft Excel allows users to trace precedents and dependents.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;On the &lt;strong&gt;View Toolbar&lt;/strong&gt;, select &lt;strong&gt;Formula Auditing&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Trace Precedents:
+&lt;ol&gt;
+&lt;li&gt;Select the cell that contains the formula for which you want to find precedent cells.&lt;/li&gt;
+&lt;li&gt;To display a tracer arrow to each cell that directly provides data to the active cell, click &lt;strong&gt;Trace Precedents&lt;/strong&gt; on the &lt;strong&gt;Formula Auditing&lt;/strong&gt; toolbar.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Trace formulas that reference a particular cell (dependents)
+&lt;ol&gt;
+&lt;li&gt;Select the cell for which you want to identify the dependent cells.&lt;/li&gt;
+&lt;li&gt;To display a tracer arrow to each cell that is dependent on the active cell, click Trace Dependents on the Formula Auditing toolbar.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;tracing-precedent-and-dependent-cells-asposecells&#34;&gt;Tracing Precedent and Dependent Cells: Aspose.Cells&lt;/h2&gt;
+&lt;h3 id=&#34;tracing-precedents&#34;&gt;Tracing Precedents&lt;/h3&gt;
+&lt;p&gt;Aspose.Cells makes it easy to get precedent cells. Not only can it retrieve cells that provide data to simple formula precedents but also find cells that provide data to complex formula precedents with named ranges.&lt;/p&gt;
+&lt;h3 id=&#34;tracing-dependents&#34;&gt;Tracing Dependents&lt;/h3&gt;
+&lt;p&gt;Aspose.Cells lets you get dependent cells in spreadsheets. Aspose.Cells can not only retrieve cells that provide data regarding a simple formula but also find cells that provide data to complex formula dependents with named ranges.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

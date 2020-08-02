@@ -1,0 +1,202 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Tables</title>
+    <link>https://roywangt.github.io/cells/cpp/developerguide/tables/</link>
+    <description>Recent content in Tables on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://roywangt.github.io/cells/cpp/developerguide/tables/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Cpp: Create and Format Table</title>
+      <link>https://roywangt.github.io/cells/cpp/developerguide/tables/create&#43;and&#43;format&#43;table/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/cpp/developerguide/tables/create&#43;and&#43;format&#43;table/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-c--create-and-format-table&#34;&gt;Aspose.Cells for C++ : Create and Format Table&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#create-table&#34;&gt;Create Table&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#advantages-of-a-list-object&#34;&gt;Advantages of a List Object&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.2 &lt;a href=&#34;#creating-a-list-object-using-microsoft-excel&#34;&gt;Creating a List Object using Microsoft Excel&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.3 &lt;a href=&#34;#using-aspose.cells-api&#34;&gt;Using Aspose.Cells API&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#format-a-table&#34;&gt;Format a Table&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;2.1 &lt;a href=&#34;#formatting-a-list-object&#34;&gt;Formatting a List Object&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;create-table&#34;&gt;Create Table&lt;/h2&gt;
+&lt;p&gt;One of the advantages of spreadsheets is that they allow you to create different types of lists, for example, phone lists, task lists, lists of transactions, assets or liabilities. Several users can work together to use, create and maintain various lists.&lt;/p&gt;
+&lt;p&gt;Aspose.Cells supports creating and managing Lists.&lt;/p&gt;
+&lt;h3 id=&#34;advantages-of-a-list-object&#34;&gt;Advantages of a List Object&lt;/h3&gt;
+&lt;p&gt;There are quite a few advantages when you convert a list of data to an actual List Object&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;New rows and columns are automatically included.&lt;/li&gt;
+&lt;li&gt;A total row at the bottom of your list can be easily added to display SUM, AVERAGE, COUNT, etc.&lt;/li&gt;
+&lt;li&gt;Columns added to the right are automatically incorporated into the List object.&lt;/li&gt;
+&lt;li&gt;Charts based on rows and columns will be expanded automatically.&lt;/li&gt;
+&lt;li&gt;Named ranges assigned to rows and columns will be expanded automatically.&lt;/li&gt;
+&lt;li&gt;The list is protected from accidental row and column deletion.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;creating-a-list-object-using-microsoft-excel&#34;&gt;Creating a List Object using Microsoft Excel&lt;/h3&gt;
+
+&lt;div class=&#34;table table-striped&#34; role=&#34;alert&#34;&gt;
+    &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Selecting data range for creating List object&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;img src=&#34;http://i.imgur.com/jHcNq4o.png&#34; alt=&#34;&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;This displays the Create List dialog.&lt;/p&gt;
+
+&lt;div class=&#34;table table-striped&#34; role=&#34;alert&#34;&gt;
+    &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Create List dialog&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;img src=&#34;http://i.imgur.com/kJmukRF.png&#34; alt=&#34;&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;Implementing the List object for the data and specifying total row (Select &lt;strong&gt;Data&lt;/strong&gt;, then &lt;strong&gt;List&lt;/strong&gt;, followed by &lt;strong&gt;Total Row&lt;/strong&gt;).&lt;/p&gt;
+
+&lt;div class=&#34;table table-striped&#34; role=&#34;alert&#34;&gt;
+    &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Creating a list object&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;img src=&#34;http://i.imgur.com/ECSGVdR.png&#34; alt=&#34;&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+
+&lt;h3 id=&#34;using-asposecells-api&#34;&gt;Using Aspose.Cells API&lt;/h3&gt;
+&lt;p&gt;Aspose.Cells provides a class &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_workbook/&#34;&gt;IWorkbook&lt;/a&gt; that represents a Microsoft Excel file. The &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_workbook/&#34;&gt;IWorkbook&lt;/a&gt; class contains an &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_worksheet_collection/&#34;&gt;IWorksheets&lt;/a&gt; collection that allows access to each worksheet in an Excel file.&lt;/p&gt;
+&lt;p&gt;A worksheet is represented by the &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_worksheet/&#34;&gt;IWorksheet&lt;/a&gt; class. The &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_worksheet/&#34;&gt;IWorksheet&lt;/a&gt; class provides a wide range of methods for managing a worksheet. To create an &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.tables.i_list_object/&#34;&gt;IListObject&lt;/a&gt; in a worksheet, use the &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_worksheet/#a4356bc4b8cffee624891f10ea49a4705&#34;&gt;GetIListObjects&lt;/a&gt; collection method of the &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_worksheet/&#34;&gt;IWorksheet&lt;/a&gt; class. Each &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.tables.i_list_object/&#34;&gt;IListObject&lt;/a&gt; is in fact, an object of the &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.tables.i_list_object_collection/&#34;&gt;IListObjectCollection&lt;/a&gt; class, which further provides the &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.tables.i_list_object_collection/#ae4afda31b69b75a78558a65bef65ee42&#34;&gt;Add&lt;/a&gt; method for adding an &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.tables.i_list_object/&#34;&gt;IListObject&lt;/a&gt; object and specifying a range of cells for the list.&lt;/p&gt;
+&lt;p&gt;According to the specified range of cells, the &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.tables.i_list_object/&#34;&gt;IListObject&lt;/a&gt; object is created by Aspose.Cells. Use attributes (for example &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.tables.i_list_object/#a9026460927f035f374f5e1ea74e639f2&#34;&gt;ShowTotals&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.tables.i_list_object/#afeeb7bfabd0971e9fe34a09f0b83ae73&#34;&gt;ListColumns&lt;/a&gt; etc.) of the &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.tables.i_list_object/&#34;&gt;IListObject&lt;/a&gt; class to control the list.&lt;/p&gt;
+&lt;p&gt;In the example given below, we have created the same &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.tables.i_list_object/&#34;&gt;IListObject&lt;/a&gt; using Aspose.Cells API as we created using Microsoft Excel in the above section.&lt;/p&gt;
+&lt;h2 id=&#34;format-a-table&#34;&gt;Format a Table&lt;/h2&gt;
+&lt;p&gt;To manage and analyze a group of related data, it is possible to turn a range of cells into a list object (also known as an Excel table). A table is a series of rows and columns that contain related data managed independently from the data in other rows and columns. By default, every column in the table has filtering enabled in the header row so that you can filter or sort your list object data quickly. You can add a total row (a special row in a list that provides a selection of aggregate functions useful for working with numerical data) to the list object that provides a drop-down list of aggregate functions for each totals row cell. Aspose.Cells provides options for creating and managing lists (or tables).&lt;/p&gt;
+&lt;h3 id=&#34;formatting-a-list-object&#34;&gt;Formatting a List Object&lt;/h3&gt;
+&lt;p&gt;Aspose.Cells provides a class &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_workbook/&#34;&gt;IWorkbook&lt;/a&gt; that represents a Microsoft Excel file. The &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_workbook/&#34;&gt;IWorkbook&lt;/a&gt; class contains an &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_worksheet_collection/&#34;&gt;IWorksheets&lt;/a&gt; collection that allows access to each worksheet in an Excel file.&lt;/p&gt;
+&lt;p&gt;A worksheet is represented by the &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_worksheet/&#34;&gt;IWorksheet&lt;/a&gt; class. The &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_worksheet/&#34;&gt;IWorksheet&lt;/a&gt; class provides a wide range of methods for managing worksheets. To create a *ListObject *in a worksheet, use &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.tables.i_list_object_collection/&#34;&gt;IListObjectCollection&lt;/a&gt;. Each &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.tables.i_list_object/&#34;&gt;IListObject&lt;/a&gt; is in fact, an object of the &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.tables.i_list_object_collection/&#34;&gt;IListObjectCollection&lt;/a&gt; class, which further provides the &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.tables.i_list_object_collection/#ae4afda31b69b75a78558a65bef65ee42&#34;&gt;Add&lt;/a&gt; method for adding an &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.tables.i_list_object/&#34;&gt;IListObject&lt;/a&gt; object and specify the range of cells it should encompass. According to the specified range of cells, a *ListObject *is created in the worksheet by Aspose.Cells. Use attributes (for example, &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.tables.i_list_object/#a5de8b5321b0ccb30dfb09cefe6536462&#34;&gt;TableStyleType&lt;/a&gt;) of the &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.tables.i_list_object/&#34;&gt;IListObject&lt;/a&gt; class to format the table for your requirements.&lt;/p&gt;
+&lt;p&gt;The example below adds sample data to a worksheet, adds an &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.tables.i_list_object/&#34;&gt;IListObject&lt;/a&gt; and applies default styles to it. &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.tables.i_list_object/&#34;&gt;IListObject&lt;/a&gt; styles are supported by Microsoft Excel 2007/2010.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Cpp: Set the Comment of Table or List Object inside the Worksheet</title>
+      <link>https://roywangt.github.io/cells/cpp/developerguide/tables/set&#43;the&#43;comment&#43;of&#43;table&#43;or&#43;list&#43;object&#43;inside&#43;the&#43;worksheet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/cpp/developerguide/tables/set&#43;the&#43;comment&#43;of&#43;table&#43;or&#43;list&#43;object&#43;inside&#43;the&#43;worksheet/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-c--set-the-comment-of-table-or-list-object-inside-the-worksheet&#34;&gt;Aspose.Cells for C++ : Set the Comment of Table or List Object inside the Worksheet&lt;/h1&gt;
+&lt;p&gt;Please set the comment of the Table or List Object inside the worksheet using the &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.tables.i_list_object/#a55d8e5ca32c591d67143c99dc9972b0d&#34;&gt;IListObject.Comment&lt;/a&gt; method. The comment will be visible inside the &lt;code&gt;xl/tables/tableName.xml&lt;/code&gt; file.&lt;/p&gt;
+&lt;h2 id=&#34;set-the-comment-of-table-or-list-object-inside-the-worksheet&#34;&gt;Set the Comment of Table or List Object inside the Worksheet&lt;/h2&gt;
+&lt;p&gt;The following sample code loads the source excel file and sets the comment of the first table or list object inside the worksheet.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Cpp: Tables and Ranges</title>
+      <link>https://roywangt.github.io/cells/cpp/developerguide/tables/tables&#43;and&#43;ranges/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/cpp/developerguide/tables/tables&#43;and&#43;ranges/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-c--tables-and-ranges&#34;&gt;Aspose.Cells for C++ : Tables and Ranges&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#introduction&#34;&gt;Introduction&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#using-microsoft-excel&#34;&gt;Using Microsoft Excel&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#using-aspose.cells&#34;&gt;Using Aspose.Cells&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Sometimes you create a table in Microsoft Excel and do not want to keep working with the table functionality that it comes with. Instead, you want something that looks like a table. To keep data in a table without losing formatting, convert the table to a regular range of data. Aspose.Cells does support this feature of Microsoft Excel for tables and list-objects.&lt;/p&gt;
+&lt;h2 id=&#34;using-microsoft-excel&#34;&gt;Using Microsoft Excel&lt;/h2&gt;
+&lt;p&gt;Use the &lt;strong&gt;Convert to Range&lt;/strong&gt; feature to quickly convert a table to a range without losing formatting. In Microsoft Excel 2007/2010:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Click anywhere in the table to make sure that the active cell is in a table column.&lt;/li&gt;
+&lt;li&gt;On the &lt;strong&gt;Design&lt;/strong&gt; tab, in the &lt;strong&gt;Tools&lt;/strong&gt; group, click &lt;strong&gt;Convert to Range&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The table features are no longer available after the table has been converted to a range. For example, row headers no longer include the sort and filter arrows, and structured references (references that use table names) that were used in formulas turn into regular cell references.&lt;/p&gt;
+&lt;h2 id=&#34;using-asposecells&#34;&gt;Using Aspose.Cells&lt;/h2&gt;
+&lt;p&gt;The following code snippet demonstrates the same functionality using Aspose.Cells.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

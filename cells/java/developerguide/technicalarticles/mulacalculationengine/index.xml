@@ -1,0 +1,80 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Aspose.Cells Formula Calculation Engine</title>
+    <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mulacalculationengine/</link>
+    <description>Recent content in Aspose.Cells Formula Calculation Engine on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://roywangt.github.io/cells/java/developerguide/technicalarticles/mulacalculationengine/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Java: Setting Shared Formula</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mulacalculationengine/setting&#43;shared&#43;formula/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mulacalculationengine/setting&#43;shared&#43;formula/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--setting-shared-formula&#34;&gt;Aspose.Cells for Java : Setting Shared Formula&lt;/h1&gt;
+&lt;p&gt;Suppose you have a worksheet filled with data in the format that looks like the following sample worksheet.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Input file with one column or data&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276609/5472604.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;You want to add a function in B2 that will calculate the sales tax for the first row of data. The tax is &lt;strong&gt;9%&lt;/strong&gt;. The formula that calculates the sales tax is: &lt;strong&gt;&amp;ldquo;=A2*0.09&amp;rdquo;&lt;/strong&gt;. This article explains how to apply this formula with Aspose.Cells.&lt;/p&gt;
+&lt;p&gt;Aspose.Cells lets you specify a formula using the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/cell#Formula&#34;&gt;Cell.Formula&lt;/a&gt; property, specifically &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/cell#Formula&#34;&gt;Cell.setFormula()&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/cell#Formula&#34;&gt;Cell.getFormula()&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;There are two options for adding formulas to the other cells (B3, B4, B5, and so on) in the column.&lt;/p&gt;
+&lt;p&gt;Either do what you did for the first cell, effectively setting the formula for each cell, updating the cell reference accordingly (A3*0.09, A4*0.09, A5*0.09 and so on ). This requires the cell references for each row to be updated. It also requires Aspose.Cells to parse each formula individually, which can be time-consuming for large spreadsheets and complex formulas. It also adds extra lines of codes although loops can cut them down somewhat.&lt;/p&gt;
+&lt;p&gt;Another approach is to use a &lt;strong&gt;shared formula&lt;/strong&gt;. With a shared formula, the formulas are automatically updated for the cell references in each row so that the tax would be calculated properly. The &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/cell#setSharedFormula(java.lang.String,%20int,%20int)&#34;&gt;Cell.setSharedFormula&lt;/a&gt; method is more efficient than the first method.&lt;/p&gt;
+&lt;p&gt;The following example demonstrates how to use it. The screenshot below shows the output file.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Output file: shared formula applied&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276609/5472605.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Setting Formulas - Notice for Non English Users</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mulacalculationengine/setting&#43;formulas&#43;-&#43;notice&#43;for&#43;non&#43;english&#43;users/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mulacalculationengine/setting&#43;formulas&#43;-&#43;notice&#43;for&#43;non&#43;english&#43;users/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--setting-formulas---notice-for-non-english-users&#34;&gt;Aspose.Cells for Java : Setting Formulas - Notice for Non English Users&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells supports most of the formulas/functions that are part of Microsoft Excel. Developers can use these formulas with either the API or &lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/introduction/what+is+a+designer+spreadsheet&#34;&gt;designer spreadsheets&lt;/a&gt;. Aspose.Cells supports a huge set of mathematical, string, Boolean, date/time, statistical, database, lookup and reference formulas. The formulas should be specified using English (US) style.&lt;/p&gt;
+&lt;p&gt;There are two tips that non-English users must follow when creating formulas with Aspose.Cells:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Formulas must be entered in English.&lt;br&gt;
+For example, use the English &amp;ldquo;=SUM()&amp;rdquo; not the German &amp;ldquo;=SUMME()&amp;rdquo;.&lt;/li&gt;
+&lt;li&gt;Always use a comma (,) to delimit function parameters.&lt;br&gt;
+For some language options or settings, the delimiter for function parameters is a semicolon but Aspose.Cells uses the English style comma. For example, use &amp;ldquo;=IF (C5=0,0,C3/C4)&amp;rdquo; not &amp;ldquo;=IF(C5=0;0;C3/C4)&amp;rdquo;&lt;/li&gt;
+&lt;/ol&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Set External Links in Formulas</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mulacalculationengine/set&#43;external&#43;links&#43;in&#43;formulas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/technicalarticles/mulacalculationengine/set&#43;external&#43;links&#43;in&#43;formulas/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--set-external-links-in-formulas&#34;&gt;Aspose.Cells for Java : Set External Links in Formulas&lt;/h1&gt;
+&lt;p&gt;Sometimes, it is necessary to include links to external files in formulas, for example, to evaluate a cell or range value against them. Aspose.Cells provides this feature and this document explains how to use it&lt;/p&gt;
+&lt;p&gt;The sample code below shows how to include external files in formulas.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

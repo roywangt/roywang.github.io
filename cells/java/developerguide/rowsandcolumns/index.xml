@@ -1,0 +1,518 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Rows and Columns</title>
+    <link>https://roywangt.github.io/cells/java/developerguide/rowsandcolumns/</link>
+    <description>Recent content in Rows and Columns on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://roywangt.github.io/cells/java/developerguide/rowsandcolumns/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Java: Adjusting Row Height and Column Width</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/rowsandcolumns/adjusting&#43;row&#43;height&#43;and&#43;column&#43;width/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/rowsandcolumns/adjusting&#43;row&#43;height&#43;and&#43;column&#43;width/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--adjusting-row-height-and-column-width&#34;&gt;Aspose.Cells for Java : Adjusting Row Height and Column Width&lt;/h1&gt;
+&lt;p&gt;When working with spreadsheets and adding data to rows or columns, you might need to change the height of rows or width of columns. Sometimes, applying formatting to rows or columns means that the current height or width needs to change to show the data. Normally, users adjust row heights and column widths in a WYSIWYG environment using Microsoft Excel. But, with Aspose.Cells developers can perform these operations at runtime. Indexes of rows and columns will start from 0.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#working-with-rows&#34;&gt;Working with Rows&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#adjusting-row-height&#34;&gt;Adjusting Row Height&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.2 &lt;a href=&#34;#setting-the-row-height&#34;&gt;Setting the Row Height&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.3 &lt;a href=&#34;#setting-the-height-of-all-rows&#34;&gt;Setting the Height of All Rows&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#working-with-columns&#34;&gt;Working with Columns&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;2.1 &lt;a href=&#34;#setting-the-width-of-a-column&#34;&gt;Setting the Width of a Column&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2.2 &lt;a href=&#34;#setting-the-width-of-all-columns&#34;&gt;Setting the Width of All Columns&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;working-with-rows&#34;&gt;Working with Rows&lt;/h2&gt;
+&lt;h3 id=&#34;adjusting-row-height&#34;&gt;Adjusting Row Height&lt;/h3&gt;
+&lt;p&gt;Aspose.Cells provides a class, &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/workbook&#34;&gt;Workbook&lt;/a&gt;, that represents a Microsoft Excel file. The &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/workbook&#34;&gt;Workbook&lt;/a&gt; class contains a &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/WorksheetCollection&#34;&gt;WorksheetCollection&lt;/a&gt; that allows access to each worksheet in the Excel file. A worksheet is represented by the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/Worksheet&#34;&gt;Worksheet&lt;/a&gt; class. The &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/Worksheet&#34;&gt;Worksheet&lt;/a&gt; class provides a &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/Cells&#34;&gt;Cells&lt;/a&gt; collection that represents all cells in the worksheet.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/Cells&#34;&gt;Cells&lt;/a&gt; collection provides several methods to manage rows or columns in a worksheet. Some of these are discussed below in more detail.&lt;/p&gt;
+&lt;h3 id=&#34;setting-the-row-height&#34;&gt;Setting the Row Height&lt;/h3&gt;
+&lt;p&gt;It is possible to set the height of a single row by calling the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/Cells&#34;&gt;Cells&lt;/a&gt; collection&amp;rsquo;s &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/cells#setRowHeight(int,%20double)&#34;&gt;setRowHeight&lt;/a&gt; method. The &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/cells#setRowHeight(int,%20double)&#34;&gt;setRowHeight&lt;/a&gt; method takes the following parameters:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Row index&lt;/strong&gt;, the index of the row that you&amp;rsquo;re changing the height of.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Row height&lt;/strong&gt;, the row height to apply on the row.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;setting-the-height-of-all-rows&#34;&gt;Setting the Height of All Rows&lt;/h3&gt;
+&lt;p&gt;To set the same row height for all rows in a worksheet, use the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/Cells&#34;&gt;Cells&lt;/a&gt; collection&amp;rsquo;s &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/cells#StandardHeight&#34;&gt;setStandardHeight&lt;/a&gt; method.&lt;/p&gt;
+&lt;h2 id=&#34;working-with-columns&#34;&gt;Working with Columns&lt;/h2&gt;
+&lt;h3 id=&#34;setting-the-width-of-a-column&#34;&gt;Setting the Width of a Column&lt;/h3&gt;
+&lt;p&gt;Set the width of a column by calling the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/Cells&#34;&gt;Cells&lt;/a&gt; collection&amp;rsquo;s &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/cells#setColumnWidth(int,%20double)&#34;&gt;setColumnWidth&lt;/a&gt; method. The &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/cells#setColumnWidth(int,%20double)&#34;&gt;setColumnWidth&lt;/a&gt; method takes the following parameters:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Column index&lt;/strong&gt;, the index of the column that you&amp;rsquo;re changing the width of.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Column width&lt;/strong&gt;, the desired column width.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;setting-the-width-of-all-columns&#34;&gt;Setting the Width of All Columns&lt;/h3&gt;
+&lt;p&gt;To set the same column width for all columns in a worksheet, use the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/Cells&#34;&gt;Cells&lt;/a&gt; collection&amp;rsquo;s &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/cells#StandardWidth&#34;&gt;setStandardWidth&lt;/a&gt; method.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Autofit Rows and Columns</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/rowsandcolumns/autofit&#43;rows&#43;and&#43;columns/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/rowsandcolumns/autofit&#43;rows&#43;and&#43;columns/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--autofit-rows-and-columns&#34;&gt;Aspose.Cells for Java : Autofit Rows and Columns&lt;/h1&gt;
+&lt;p&gt;Microsoft Excel provides a good feature to Auto Size the width and height of a cell according to its content. This feature is also available to Aspose.Cells users with the power of auto-sizing the dimensions of a cell at runtime.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#auto-fitting&#34;&gt;Auto Fitting&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#autofit-row---simple&#34;&gt;AutoFit Row - Simple&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.2 &lt;a href=&#34;#autofit-row-in-a-range-of-cells&#34;&gt;AutoFit Row in a Range of Cells&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.3 &lt;a href=&#34;#autofit-column---simple&#34;&gt;AutoFit Column - Simple&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.4 &lt;a href=&#34;#autofit-column-in-a-range-of-cells&#34;&gt;AutoFit Column in a Range of Cells&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.5 &lt;a href=&#34;#autofit-rows-for-merged-cells&#34;&gt;AutoFit Rows for Merged Cells&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#important-to-know&#34;&gt;Important to Know&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h3 id=&#34;auto-fitting&#34;&gt;Auto Fitting&lt;/h3&gt;
+&lt;p&gt;Aspose.Cells provides a class, &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/workbook&#34;&gt;Workbook&lt;/a&gt;, that represents a Microsoft Excel file. The &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/workbook&#34;&gt;Workbook&lt;/a&gt; class contains a &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/workbook#Worksheets&#34;&gt;Worksheets&lt;/a&gt; collection that allows access to each worksheet in the Excel file.&lt;/p&gt;
+&lt;p&gt;A worksheet is represented by the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/Worksheet&#34;&gt;Worksheet&lt;/a&gt; class. The &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/Worksheet&#34;&gt;Worksheet&lt;/a&gt; class provides a wide range of properties and methods for managing a worksheet. This article looks at using the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/Worksheet&#34;&gt;Worksheet&lt;/a&gt; class to autofit rows or columns.&lt;/p&gt;
+&lt;h4 id=&#34;autofit-row---simple&#34;&gt;AutoFit Row - Simple&lt;/h4&gt;
+&lt;p&gt;The most straight-forward approach to auto-sizing the width and height of a row is to call the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/Worksheet&#34;&gt;Worksheet&lt;/a&gt; class&amp;rsquo; &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/worksheet#autoFitRow(int)&#34;&gt;autoFitRow&lt;/a&gt; method. The &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/worksheet#autoFitRow(int)&#34;&gt;autoFitRow&lt;/a&gt; method takes a row index (of the row to be resized) as a parameter.&lt;/p&gt;
+&lt;h4 id=&#34;autofit-row-in-a-range-of-cells&#34;&gt;AutoFit Row in a Range of Cells&lt;/h4&gt;
+&lt;p&gt;A row is composed of many columns. Aspose.Cells allows developers to auto-fit a row based on the content in a range of cells within the row by calling an overloaded version of the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/worksheet#autoFitRow(int,%20int,%20int)&#34;&gt;autoFitRow&lt;/a&gt; method. It takes the following parameters:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Row index&lt;/strong&gt;, the index of the row about to be auto-fitted.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;First column index&lt;/strong&gt;, the index of the row&amp;rsquo;s first column.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Last column index&lt;/strong&gt;, the index of the row&amp;rsquo;s last column.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/worksheet#autoFitRow(int,%20int,%20int)&#34;&gt;autoFitRow&lt;/a&gt; method checks the contents of all the columns in the row and then auto-fits the row.&lt;/p&gt;
+&lt;h4 id=&#34;autofit-column---simple&#34;&gt;AutoFit Column - Simple&lt;/h4&gt;
+&lt;p&gt;The easiest way to auto-size the width and height of a column is to call the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/Worksheet&#34;&gt;Worksheet&lt;/a&gt; class&amp;rsquo; &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/worksheet#autoFitColumn(int)&#34;&gt;autoFitColumn&lt;/a&gt; method. The &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/worksheet#autoFitColumn(int)&#34;&gt;autoFitColumn&lt;/a&gt; method takes the column index (of the column about to be resized) as a parameter.&lt;/p&gt;
+&lt;h4 id=&#34;autofit-column-in-a-range-of-cells&#34;&gt;AutoFit Column in a Range of Cells&lt;/h4&gt;
+&lt;p&gt;A column is composed of many rows. It is possible to auto-fit a column based on the content in a range of cells in the column by calling an overloaded version of &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/worksheet#autoFitColumn(int,%20int,%20int)&#34;&gt;autoFitColumn&lt;/a&gt; method that takes the following parameters:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Column index&lt;/strong&gt;, represents the index of the column whose contents need to auto-fit&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;First row index&lt;/strong&gt;, represents the index of the first row of the column&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Last row index&lt;/strong&gt;, represents the index of the last row of the column&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/worksheet#autoFitColumn(int,%20int,%20int)&#34;&gt;autoFitColumn&lt;/a&gt; method checks the contents of all rows in the column and then auto-fits the column.&lt;/p&gt;
+&lt;h4 id=&#34;autofit-rows-for-merged-cells&#34;&gt;AutoFit Rows for Merged Cells&lt;/h4&gt;
+&lt;p&gt;With Aspose.Cells it is possible to autofit rows even for cells that have been merged using the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/AutoFitterOptions&#34;&gt;AutoFitterOptions&lt;/a&gt; API. &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/AutoFitterOptions&#34;&gt;AutoFitterOptions&lt;/a&gt; class provides &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/autofitteroptions#AutoFitMergedCellsType&#34;&gt;AutoFitMergedCellsType&lt;/a&gt; property that can be used to autofit rows for merged cells. &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/autofitteroptions#AutoFitMergedCellsType&#34;&gt;AutoFitMergedCellsType&lt;/a&gt;accepts &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/AutoFitMergedCellsType&#34;&gt;AutoFitMergedCellsType&lt;/a&gt; enumerable which has the following members.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/autofitmergedcellstype#NONE&#34;&gt;NONE&lt;/a&gt;: Ignore merged cells.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/autofitmergedcellstype#FIRST_LINE&#34;&gt;FIRST_LINE&lt;/a&gt;: Only expands the height of the first row.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/autofitmergedcellstype#LAST_LINE&#34;&gt;LAST_LINE&lt;/a&gt;: Only expands the height of the last row.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/autofitmergedcellstype#EACH_LINE&#34;&gt;EACH_LINE&lt;/a&gt;: Only expands the height of each row.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You may also use the overloaded versions of &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/worksheet#autoFitRows()&#34;&gt;autoFitRows&lt;/a&gt; &amp;amp; &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/worksheet#autoFitColumns()&#34;&gt;autoFitColumns&lt;/a&gt; methods accepting a range of rows/columns and an instance of &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/AutoFitterOptions&#34;&gt;AutoFitterOptions&lt;/a&gt; to auto-fit the selected rows/columns with the desired &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/AutoFitterOptions&#34;&gt;AutoFitterOptions&lt;/a&gt; accordingly.&lt;/p&gt;
+&lt;p&gt;The signatures of aforesaid methods are as follow:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;autoFitRows(int startRow, int endRow, &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/AutoFitterOptions&#34;&gt;AutoFitterOptions&lt;/a&gt; options)&lt;/li&gt;
+&lt;li&gt;autoFitColumns(int firstColumn, int lastColumn, &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/AutoFitterOptions&#34;&gt;AutoFitterOptions&lt;/a&gt; options)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;important-to-know&#34;&gt;Important to Know&lt;/h3&gt;
+&lt;p&gt;If a cell is merged then the *AutoFit *methods will not be applied, which is the same behavior as in Microsoft Excel. Moreover, if the text in a cell is wrapped, the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/worksheet#autoFitColumn(int)&#34;&gt;autoFitColumn&lt;/a&gt; method will not be applied either. Another thing you need to know is that the *AutoFit *methods are time-consuming. So, you should call these methods as seldom as possible to ensure the efficiency of your application.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Copying Rows and Columns</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/rowsandcolumns/copying&#43;rows&#43;and&#43;columns/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/rowsandcolumns/copying&#43;rows&#43;and&#43;columns/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--copying-rows-and-columns&#34;&gt;Aspose.Cells for Java : Copying Rows and Columns&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#introduction&#34;&gt;Introduction&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#copying-rows-and-columns-with-microsoft-excel&#34;&gt;Copying Rows and Columns with Microsoft Excel&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#copying-rows-and-columns-with-aspose.cells&#34;&gt;Copying Rows and Columns with Aspose.Cells&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;3.1 &lt;a href=&#34;#copying-rows&#34;&gt;Copying Rows&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3.2 &lt;a href=&#34;#copying-columns&#34;&gt;Copying Columns&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3.3 &lt;a href=&#34;#pasting-rows/columns-with-paste-options&#34;&gt;Pasting Rows/Columns with Paste Options&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Sometimes, you need to copy rows and columns in a worksheet without copying the entire worksheet. With Aspose.Cells, it is possible to copy rows and columns within or between workbooks.&lt;/p&gt;
+&lt;p&gt;When a row (or column) is copied, the data contained in it, including formulas - with updated references - and values, comments, formatting, hidden cells, images, and other drawing objects are copied too.&lt;/p&gt;
+&lt;h2 id=&#34;copying-rows-and-columns-with-microsoft-excel&#34;&gt;Copying Rows and Columns with Microsoft Excel&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Select the row or column that you want to copy.&lt;/li&gt;
+&lt;li&gt;To copy rows or columns, click &lt;strong&gt;Copy&lt;/strong&gt; on the &lt;strong&gt;Standard&lt;/strong&gt; toolbar, or press &lt;strong&gt;CTRL&lt;/strong&gt;+&lt;strong&gt;C&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Select a row or column below or to the right of where you want to copy your selection.&lt;/li&gt;
+&lt;li&gt;When you are copying rows or columns, click &lt;strong&gt;Copied Cells&lt;/strong&gt; on the &lt;strong&gt;Insert&lt;/strong&gt; menu.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;If you click &lt;strong&gt;Paste&lt;/strong&gt; on the &lt;strong&gt;Standard&lt;/strong&gt; toolbar or press &lt;strong&gt;CTRL&lt;/strong&gt;+&lt;strong&gt;V&lt;/strong&gt; instead of clicking a command on the &lt;strong&gt;Insert&lt;/strong&gt; menu, any contents of the destination cells are replaced.&lt;/p&gt;
+&lt;h2 id=&#34;copying-rows-and-columns-with-asposecells&#34;&gt;Copying Rows and Columns with Aspose.Cells&lt;/h2&gt;
+&lt;h3 id=&#34;copying-rows&#34;&gt;Copying Rows&lt;/h3&gt;
+&lt;p&gt;Aspose.Cells provides the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/cells#copyRow(com.aspose.cells.Cells,%20int,%20int)&#34;&gt;copyRow&lt;/a&gt; method of the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/Cells&#34;&gt;Cells&lt;/a&gt; class. This method copies all types of data including formulas, values, comments, cell formats, hidden cells, images and other drawing objects from the source row to the destination row.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/cells#copyRow(com.aspose.cells.Cells,%20int,%20int)&#34;&gt;copyRow&lt;/a&gt; method takes the following parameters:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;the source &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/Cells&#34;&gt;Cells&lt;/a&gt; object,&lt;/li&gt;
+&lt;li&gt;the source row index, and&lt;/li&gt;
+&lt;li&gt;the destination row index.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Use this method to copy a row within a sheet, or to another sheet. The &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/cells#copyRow(com.aspose.cells.Cells,%20int,%20int)&#34;&gt;copyRow&lt;/a&gt; method works in a similar way to Microsoft Excel. So, for example, you don&amp;rsquo;t need to set the height of the destination row explicitly, that value is copied too.&lt;/p&gt;
+&lt;p&gt;The following example shows how to copy a row in a worksheet. It uses a template Microsoft Excel file and copies the second row (complete with data, formatting, comments, images and so on) and paste it to the 12th row in the same worksheet.&lt;/p&gt;
+&lt;p&gt;The following output is generated when the code below is executed.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The row is copied with the highest degree of precision and accuracy&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276735/5473343.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;When copying rows, it is important to note related images, charts or other drawing objects as this is the same with Microsoft Excel:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;If the source row index is 5, the image, chart, etc., is copied if it is contained in the three rows (the starting row index is 4 and the ending row index is 6).&lt;/li&gt;
+&lt;li&gt;The existing images, charts, etc. in the destination row will not be removed.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;copying-columns&#34;&gt;Copying Columns&lt;/h3&gt;
+&lt;p&gt;Aspose.Cells provides the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/cells#copyColumn(com.aspose.cells.Cells,%20int,%20int)&#34;&gt;copyColumn&lt;/a&gt; method of the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/Cells&#34;&gt;Cells&lt;/a&gt; class, this method copies all types of data, including formulas - with updated references - and values, comments, cell formats, hidden cells, images and other drawing objects from the source column to the destination column.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/cells#copyColumn(com.aspose.cells.Cells,%20int,%20int)&#34;&gt;copyColumn&lt;/a&gt; method takes the following parameters:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;the source &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/Cells&#34;&gt;Cells&lt;/a&gt; object,&lt;/li&gt;
+&lt;li&gt;source column index, and&lt;/li&gt;
+&lt;li&gt;the destination column index.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Use the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/cells#copyColumn(com.aspose.cells.Cells,%20int,%20int)&#34;&gt;copyColumn&lt;/a&gt; method to copy a column within a sheet or to another sheet.&lt;/p&gt;
+&lt;p&gt;This example copies a column from a worksheet and pastes it into a worksheet in another workbook.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;A column is copied from one workbook to another&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276735/5473342.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;pasting-rowscolumns-with-paste-options&#34;&gt;Pasting Rows/Columns with Paste Options&lt;/h3&gt;
+&lt;p&gt;Aspose.Cells now provides &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/PasteOptions&#34;&gt;PasteOptions&lt;/a&gt; while using functions &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/cells#copyRows(com.aspose.cells.Cells,%20int,%20int,%20int,%20com.aspose.cells.CopyOptions,%20com.aspose.cells.PasteOptions)&#34;&gt;CopyRows&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/cells#copyColumns(com.aspose.cells.Cells,%20int,%20int,%20int,%20com.aspose.cells.PasteOptions)&#34;&gt;CopyColumns&lt;/a&gt;. It allows setting appropriate paste options similar to Excel.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Grouping and Ungrouping Rows and Columns</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/rowsandcolumns/grouping&#43;and&#43;ungrouping&#43;rows&#43;and&#43;columns/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/rowsandcolumns/grouping&#43;and&#43;ungrouping&#43;rows&#43;and&#43;columns/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--grouping-and-ungrouping-rows-and-columns&#34;&gt;Aspose.Cells for Java : Grouping and Ungrouping Rows and Columns&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#introduction&#34;&gt;Introduction&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#group-management-of-rows-&amp;amp;-columns&#34;&gt;Group Management of Rows &amp;amp; Columns&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;2.1 &lt;a href=&#34;#grouping-rows-&amp;amp;-columns&#34;&gt;Grouping Rows &amp;amp; Columns&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#group-settings&#34;&gt;Group Settings&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;3.1 &lt;a href=&#34;#summary-rows-below-detail&#34;&gt;Summary Rows Below Detail&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3.2 &lt;a href=&#34;#summary-columns-to-right-of-detail&#34;&gt;Summary Columns to Right of Detail&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3.3 &lt;a href=&#34;#ungrouping-rows-&amp;amp;-columns&#34;&gt;Ungrouping Rows &amp;amp; Columns&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h3 id=&#34;introduction&#34;&gt;Introduction&lt;/h3&gt;
+&lt;p&gt;In a Microsoft Excel file, you can create an outline for the data to let you show and hide levels of detail with a single mouse click.&lt;/p&gt;
+&lt;p&gt;Click the &lt;strong&gt;Outline Symbols&lt;/strong&gt;, 1,2,3, + and - to quickly display only the rows or columns that provide summaries or headings for sections in a worksheet, or you can use the symbols to see details under an individual summary or heading as shown below in the figure:&lt;/p&gt;
+&lt;p&gt;Grouping of rows &amp;amp; columns&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276254/5473338.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;group-management-of-rows--columns&#34;&gt;Group Management of Rows &amp;amp; Columns&lt;/h3&gt;
+&lt;p&gt;Aspose.Cells provides a class, &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/workbook&#34;&gt;Workbook&lt;/a&gt; that represents a Microsoft Excel file. The &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/workbook&#34;&gt;Workbook&lt;/a&gt; class contains a &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/WorksheetCollection&#34;&gt;Worksheets&lt;/a&gt; collection that allows access to each worksheet in the Excel file. A worksheet is represented by the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/Worksheet&#34;&gt;Worksheet&lt;/a&gt; class. The &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/Worksheet&#34;&gt;Worksheet&lt;/a&gt; class provides a &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/Cells&#34;&gt;Cells&lt;/a&gt; collection that represents all cells in the worksheet.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/Cells&#34;&gt;Cells&lt;/a&gt; collection provides several methods to manage rows or columns in a worksheet, few of these are discussed below in more detail.&lt;/p&gt;
+&lt;h4 id=&#34;grouping-rows--columns&#34;&gt;Grouping Rows &amp;amp; Columns&lt;/h4&gt;
+&lt;p&gt;It is possible to group rows or columns by calling the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/cells#groupRows(int,%20int,%20boolean)&#34;&gt;groupRows&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/cells#groupColumns(int,%20int,%20boolean)&#34;&gt;groupColumns&lt;/a&gt; methods of the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/Cells&#34;&gt;Cells&lt;/a&gt; collection. Both methods take the following parameters:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;First row/column index, the first row or column in the group.&lt;/li&gt;
+&lt;li&gt;Last row/column index, the last row or column in the group.&lt;/li&gt;
+&lt;li&gt;Is hidden, a Boolean parameter that specifies whether to hide rows/columns after grouping or not.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;group-settings&#34;&gt;Group Settings&lt;/h3&gt;
+&lt;p&gt;Microsoft Excel also allows to configure group settings for displaying:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Summary rows below detail.&lt;/li&gt;
+&lt;li&gt;Summary columns to right of detail.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Group settings&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276254/5473339.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;It is possible to configure these group settings using the &lt;code&gt;Worksheet&lt;/code&gt; class&amp;rsquo; &lt;code&gt;Outline&lt;/code&gt; property.&lt;/p&gt;
+&lt;h4 id=&#34;summary-rows-below-detail&#34;&gt;Summary Rows Below Detail&lt;/h4&gt;
+&lt;p&gt;Developers can control displaying summary rows below detail by using the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/Outline&#34;&gt;Outline&lt;/a&gt; class&amp;rsquo; &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/outline#SummaryRowBelow&#34;&gt;SummaryRowBelow&lt;/a&gt; method.&lt;/p&gt;
+&lt;h4 id=&#34;summary-columns-to-right-of-detail&#34;&gt;Summary Columns to Right of Detail&lt;/h4&gt;
+&lt;p&gt;It is possible to control whether summary columns are displayed to the right of the details with the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/Outline&#34;&gt;Outline&lt;/a&gt; class&amp;rsquo; &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/outline#SummaryColumnRight&#34;&gt;SummaryColumnRight&lt;/a&gt; method.&lt;/p&gt;
+&lt;h4 id=&#34;ungrouping-rows--columns&#34;&gt;Ungrouping Rows &amp;amp; Columns&lt;/h4&gt;
+&lt;p&gt;Ungroup grouped rows or columns by calling the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/Cells&#34;&gt;Cells&lt;/a&gt; collection&amp;rsquo;s &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/cells#ungroupRows(int,%20int)&#34;&gt;UngroupRows&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/cells#ungroupColumns(int,%20int)&#34;&gt;UngroupColumns&lt;/a&gt; methods. Both methods take the same parameters:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;First row or column index, the first row/column to be ungrouped.&lt;/li&gt;
+&lt;li&gt;Last row or column index, the last row/column to be ungrouped.&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Hiding and Showing Rows and Columns</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/rowsandcolumns/hiding&#43;and&#43;showing&#43;rows&#43;and&#43;columns/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/rowsandcolumns/hiding&#43;and&#43;showing&#43;rows&#43;and&#43;columns/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--hiding-and-showing-rows-and-columns&#34;&gt;Aspose.Cells for Java : Hiding and Showing Rows and Columns&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#introduction&#34;&gt;Introduction&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#controlling-the-visibility-of-rows-&amp;amp;-columns&#34;&gt;Controlling the Visibility of Rows &amp;amp; Columns&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;2.1 &lt;a href=&#34;#hiding-rows-or-columns&#34;&gt;Hiding Rows or Columns&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2.2 &lt;a href=&#34;#showing-rows-and-columns&#34;&gt;Showing Rows and Columns&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h3 id=&#34;introduction&#34;&gt;Introduction&lt;/h3&gt;
+&lt;p&gt;Sometimes, it may also be required by users to hide certain rows or columns of the worksheet and then display them later. Microsoft Excel provides this feature and so as Aspose.Cells.&lt;/p&gt;
+&lt;h3 id=&#34;controlling-the-visibility-of-rows--columns&#34;&gt;Controlling the Visibility of Rows &amp;amp; Columns&lt;/h3&gt;
+&lt;p&gt;Aspose.Cells provides a class, &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/workbook&#34;&gt;Workbook&lt;/a&gt;, that represents a Microsoft Excel file. The &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/workbook&#34;&gt;Workbook&lt;/a&gt; class contains a &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/WorksheetCollection&#34;&gt;WorksheetCollection&lt;/a&gt; that allows access to each worksheet in the Excel file. A worksheet is represented by the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/Worksheet&#34;&gt;Worksheet&lt;/a&gt; class. The &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/Worksheet&#34;&gt;Worksheet&lt;/a&gt; class provides a &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/Cells&#34;&gt;Cells&lt;/a&gt; collection that represents all cells in the worksheet. The &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/Cells&#34;&gt;Cells&lt;/a&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/Cells&#34; title=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/Cells&#34;&gt;&lt;/a&gt;collection provides several methods for managing rows or columns in a worksheet. Some of these are discussed below.&lt;/p&gt;
+&lt;h4 id=&#34;hiding-rows-or-columns&#34;&gt;Hiding Rows or Columns&lt;/h4&gt;
+&lt;p&gt;Developers can hide a row or column by calling the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/cells#hideRow(int)&#34;&gt;HideRow&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/cells#hideColumn(int)&#34;&gt;HideColumn&lt;/a&gt; methods of the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/Cells&#34;&gt;Cells&lt;/a&gt; collection respectively. Both methods take the row/column index as a parameter to hide the specific row or column.&lt;/p&gt;
+&lt;p&gt;Note: It is also possible to hide a row or column if we set the row height or column width to 0 respectively.&lt;/p&gt;
+&lt;h4 id=&#34;showing-rows-and-columns&#34;&gt;Showing Rows and Columns&lt;/h4&gt;
+&lt;p&gt;Developers can unhide any hidden row or column by calling the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/cells#unhideRow(int,%20double)&#34;&gt;UnhideRow&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/cells#unhideColumn(int,%20double)&#34;&gt;UnhideColumn&lt;/a&gt; methods of the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/Cells&#34;&gt;Cells&lt;/a&gt; collection respectively. Both methods take two parameters:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Row or column index&lt;/strong&gt; - the index of a row or column that is used to show the specific row or column.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Row height or column width&lt;/strong&gt; - the row height or column width assigned to the row or column after it&amp;rsquo;s shown.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;While making a hidden column/row visible, if you need to restore it to previously assigned width or height, or its original width or height, please unhide the column or row with negative width or height. For example, &lt;code&gt;worksheet.getCells().unhideColumn(5, -1)&lt;/code&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Inserting and Deleting Rows and Columns</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/rowsandcolumns/inserting&#43;and&#43;deleting&#43;rows&#43;and&#43;columns/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/rowsandcolumns/inserting&#43;and&#43;deleting&#43;rows&#43;and&#43;columns/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--inserting-and-deleting-rows-and-columns&#34;&gt;Aspose.Cells for Java : Inserting and Deleting Rows and Columns&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#introduction&#34;&gt;Introduction&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#managing-rows/columns&#34;&gt;Managing Rows/Columns&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;2.1 &lt;a href=&#34;#inserting-a-row&#34;&gt;Inserting a Row&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2.2 &lt;a href=&#34;#inserting-multiple-rows&#34;&gt;Inserting Multiple Rows&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2.3 &lt;a href=&#34;#insert-a-row-with-formatting&#34;&gt;Insert a Row with Formatting&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2.4 &lt;a href=&#34;#deleting-a-row&#34;&gt;Deleting a Row&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2.5 &lt;a href=&#34;#deleting-multiple-rows&#34;&gt;Deleting Multiple Rows&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2.6 &lt;a href=&#34;#inserting-one-or-multiple-columns&#34;&gt;Inserting one or Multiple Columns&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2.7 &lt;a href=&#34;#deleting-a-column&#34;&gt;Deleting a Column&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h3 id=&#34;introduction&#34;&gt;Introduction&lt;/h3&gt;
+&lt;p&gt;Whether creating a new worksheet from scratch or working on an existing worksheet, we may need to add extra rows or columns to accommodate more data. Inversely, we may also need to delete rows or columns from specified positions in the worksheet.&lt;/p&gt;
+&lt;p&gt;To fulfill these requirements, Aspose.Cells provides a very simplest set of classes and methods, discussed below.&lt;/p&gt;
+&lt;h3 id=&#34;managing-rowscolumns&#34;&gt;Managing Rows/Columns&lt;/h3&gt;
+&lt;p&gt;Aspose.Cells provides a &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/workbook&#34;&gt;Workbook&lt;/a&gt; class that represents a Microsoft Excel file. The &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/workbook&#34;&gt;Workbook&lt;/a&gt; class contains a &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/WorksheetCollection&#34;&gt;WorksheetCollection&lt;/a&gt; that allows access to each worksheet in an Excel file. A worksheet is represented by the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/Worksheet&#34;&gt;Worksheet&lt;/a&gt; class. The &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/Worksheet&#34;&gt;Worksheet&lt;/a&gt; class provides a &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/worksheet#Cells&#34;&gt;Cells&lt;/a&gt; collection that represents all cells in the worksheet.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/worksheet#Cells&#34;&gt;Cells&lt;/a&gt; collection provides several methods for managing rows and columns in a worksheet. Some of these are discussed below.&lt;/p&gt;
+&lt;p&gt;When rows or columns are added, the content in the worksheet is shifted down or to the right, but if rows or columns are removed, the content is shifted up or the left.&lt;/p&gt;
+&lt;h4 id=&#34;inserting-a-row&#34;&gt;Inserting a Row&lt;/h4&gt;
+&lt;p&gt;Insert a row into at any location by calling the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/cells#insertRows(int,%20int)&#34;&gt;insertRows&lt;/a&gt; method of the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/Cells&#34;&gt;Cells&lt;/a&gt; collection. The &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/cells#insertRows(int,%20int)&#34;&gt;insertRows &lt;/a&gt;method takes the index of the row where the new row will be inserted as the first argument, and the number of rows to be inserted as the second argument.&lt;/p&gt;
+&lt;h4 id=&#34;inserting-multiple-rows&#34;&gt;Inserting Multiple Rows&lt;/h4&gt;
+&lt;p&gt;To insert multiple rows into the worksheet, call the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/cells#insertRows(int,%20int)&#34;&gt;insertRows&lt;/a&gt; method of the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/Cells&#34;&gt;Cells&lt;/a&gt; collection. The &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/cells#insertRows(int,%20int)&#34;&gt;insertRows&lt;/a&gt; method takes two parameters:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Row index: the index of the row from where the new rows will be inserted.&lt;/li&gt;
+&lt;li&gt;Number of rows: the total number of rows that need to be inserted.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;insert-a-row-with-formatting&#34;&gt;Insert a Row with Formatting&lt;/h4&gt;
+&lt;p&gt;To insert a row with formatting options, use the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/cells#insertRows(int,%20int,%20com.aspose.cells.InsertOptions)&#34;&gt;insertRows&lt;/a&gt; overload that takes &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/InsertOptions&#34;&gt;InsertOptions&lt;/a&gt; as a parameter. Set the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/insertoptions#CopyFormatType&#34;&gt;CopyFormatType&lt;/a&gt; property of &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/InsertOptions&#34;&gt;InsertOptions&lt;/a&gt; class with &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/CopyFormatType&#34;&gt;CopyFormatType&lt;/a&gt; Enumeration. The &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/CopyFormatType&#34;&gt;CopyFormatType&lt;/a&gt; Enumeration has three members as listed below.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/copyformattype#SAME_AS_ABOVE&#34;&gt;SAME_AS_ABOVE&lt;/a&gt;: Formats the row same as the above row.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/copyformattype#SAME_AS_BELOW&#34;&gt;SAME_AS_BELOW&lt;/a&gt;:  Formats the row same as below row.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/copyformattype#CLEAR&#34;&gt;CLEAR&lt;/a&gt;: Clears the formatting.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;deleting-a-row&#34;&gt;Deleting a Row&lt;/h4&gt;
+&lt;p&gt;To delete a row at any location, call the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/cells#deleteRows(int,%20int)&#34;&gt;deleteRows&lt;/a&gt; method of the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/Cells&#34;&gt;Cells&lt;/a&gt; collection. The &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/cells#deleteRows(int,%20int)&#34;&gt;deleteRows&lt;/a&gt; method takes two parameters:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Row index: the index of the row from where the rows will be deleted.&lt;/li&gt;
+&lt;li&gt;Number of rows: the total number of rows that need to be deleted.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;deleting-multiple-rows&#34;&gt;Deleting Multiple Rows&lt;/h4&gt;
+&lt;p&gt;To delete multiple rows from a worksheet, call the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/cells#deleteRows(int,%20int)&#34;&gt;deleteRows&lt;/a&gt; method of the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/Cells&#34;&gt;Cells&lt;/a&gt; collection. The &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/cells#deleteRows(int,%20int)&#34;&gt;deleteRows&lt;/a&gt; method takes two parameters:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Row index: the index of the row from where the rows will be deleted.&lt;/li&gt;
+&lt;li&gt;Number of rows: the total number of rows that need to be deleted.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;inserting-one-or-multiple-columns&#34;&gt;Inserting one or Multiple Columns&lt;/h4&gt;
+&lt;p&gt;Developers can also insert a column into the worksheet at any location by calling the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/cells#insertColumns(int,%20int)&#34;&gt;insertColumns&lt;/a&gt; method of the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/Cells&#34;&gt;Cells&lt;/a&gt; collection. The &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/cells#insertColumns(int,%20int)&#34;&gt;insertColumns&lt;/a&gt; method takes two parameters:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Column index, the index of the column from where the column will be inserted&lt;/li&gt;
+&lt;li&gt;Number of columns, the total number of columns that need to be inserted&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;deleting-a-column&#34;&gt;Deleting a Column&lt;/h4&gt;
+&lt;p&gt;To delete a column from the worksheet at any location, call the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/cells#deleteColumns(int,%20int,%20boolean)&#34;&gt;deleteColumns&lt;/a&gt; method of the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/Cells&#34;&gt;Cells&lt;/a&gt; collection. The &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/cells#deleteColumns(int,%20int,%20boolean)&#34;&gt;deleteColumns&lt;/a&gt; method takes the following parameters:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Column index: the index of the column from where the column will be deleted.&lt;/li&gt;
+&lt;li&gt;Number of columns: the total number of columns that need to be deleted.&lt;/li&gt;
+&lt;li&gt;Update Reference: Boolean parameter to indicate whether to update references in other worksheets.&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Convert Text to Columns using Aspose.Cells</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/rowsandcolumns/convert&#43;text&#43;to&#43;columns&#43;using&#43;aspose.cells/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/rowsandcolumns/convert&#43;text&#43;to&#43;columns&#43;using&#43;aspose.cells/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--convert-text-to-columns-using-asposecells&#34;&gt;Aspose.Cells for Java : Convert Text to Columns using Aspose.Cells&lt;/h1&gt;
+
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#convert-text-to-columns-using-aspose.cells&#34;&gt;Convert Text to Columns using Aspose.Cells&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;You can convert your Text to Columns using Microsoft Excel. This feature is available from &lt;em&gt;Data Tools&lt;/em&gt; under the *Data *tab. In order to split the contents of a column to multiple columns, the data should contain a specific delimiter such as a comma (or any other character) based on which Microsoft Excel splits the contents of a cell to multiple cells. Aspose.Cells also provides this feature via &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/cells#textToColumns(int,%20int,%20int,%20com.aspose.cells.TxtLoadOptions)&#34;&gt;TextToColumns&lt;/a&gt; method.&lt;/p&gt;
+&lt;h2 id=&#34;convert-text-to-columns-using-asposecells&#34;&gt;Convert Text to Columns using Aspose.Cells&lt;/h2&gt;
+&lt;p&gt;The following sample code explains the usage of the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/cells#textToColumns(int,%20int,%20int,%20com.aspose.cells.TxtLoadOptions)&#34;&gt;TextToColumns&lt;/a&gt; method. The code first adds some people names in column A of the first worksheet. The first and last name is separated by space character. Then it applies the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/cells#textToColumns(int,%20int,%20int,%20com.aspose.cells.TxtLoadOptions)&#34;&gt;TextToColumns&lt;/a&gt; method on column A and saves it as output excel file. If you open the &lt;a href=&#34;https://docs2.aspose.com/cells/java/attachments/25002826/25395230.xlsx&#34;&gt;output excel file&lt;/a&gt;, you will see, first names are in column A while last names are in column B as shown in this screenshot.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/25002826/25395231.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

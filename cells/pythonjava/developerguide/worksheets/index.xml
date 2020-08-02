@@ -1,0 +1,332 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Worksheets</title>
+    <link>https://roywangt.github.io/cells/pythonjava/developerguide/worksheets/</link>
+    <description>Recent content in Worksheets on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://roywangt.github.io/cells/pythonjava/developerguide/worksheets/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Pythonjava: Manage Worksheets</title>
+      <link>https://roywangt.github.io/cells/pythonjava/developerguide/worksheets/manage&#43;worksheets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/pythonjava/developerguide/worksheets/manage&#43;worksheets/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-python-via-java--manage-worksheets&#34;&gt;Aspose.Cells for Python via Java : Manage Worksheets&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#adding-worksheets-to-a-new-excel-file&#34;&gt;Adding Worksheets to a New Excel File&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#adding-worksheets-to-a-designer-spreadsheet&#34;&gt;Adding Worksheets to a Designer Spreadsheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#accessing-worksheets-using-sheet-name&#34;&gt;Accessing Worksheets using Sheet Name&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;4 &lt;a href=&#34;#removing-worksheets&#34;&gt;Removing Worksheets&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;4.1 &lt;a href=&#34;#removing-worksheets-using-sheet%C2%A0index&#34;&gt;Removing Worksheets using Sheet Index&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;4.2 &lt;a href=&#34;#removing-worksheets-using-sheet-name&#34;&gt;Removing Worksheets using Sheet Name&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Managing worksheets using Aspose.Cells for Python via Java is very easy. In this article, we will demonstrate added, accessing, and removing worksheets using the Aspose.Cells API.&lt;/p&gt;
+&lt;h2 id=&#34;adding-worksheets-to-a-new-excel-file&#34;&gt;Adding Worksheets to a New Excel File&lt;/h2&gt;
+&lt;p&gt;To create a new Workbook, create an object of the &lt;a href=&#34;https://docs.aspose.com/apireference.aspose.com/cells/python/asposecells.api/Workbook&#34;&gt;Workbook&lt;/a&gt; class. The &lt;a href=&#34;https://docs.aspose.com/apireference.aspose.com/cells/python/asposecells.api/Workbook&#34;&gt;Workbook&lt;/a&gt; class represents an Excel file. Then by using the &lt;a href=&#34;https://apireference.aspose.com/cells/python/asposecells.api/worksheetcollection#add()&#34;&gt;add&lt;/a&gt; method of the &lt;a href=&#34;https://apireference.aspose.com/cells/python/asposecells.api/worksheetcollection&#34;&gt;WorksheetCollection&lt;/a&gt;, new worksheets are added to the Excel file. Finally, to save the newly created Excel file, call the &lt;a href=&#34;https://apireference.aspose.com/cells/python/asposecells.api/workbook#save(java.lang.String)&#34;&gt;save&lt;/a&gt; method of the &lt;a href=&#34;https://docs.aspose.com/apireference.aspose.com/cells/python/asposecells.api/Workbook&#34;&gt;Workbook&lt;/a&gt; class.&lt;/p&gt;
+&lt;p&gt;The following code snippet demonstrates creating a new Excel file and adding a worksheet to it.&lt;/p&gt;
+&lt;h2 id=&#34;adding-worksheets-to-a-designer-spreadsheet&#34;&gt;Adding Worksheets to a Designer Spreadsheet&lt;/h2&gt;
+&lt;p&gt;Adding worksheets to a designer spreadsheet is exactly the same as adding the worksheet to a new Excel file. The only difference is that instead of creating a new Excel file, we open an existing file by the &lt;a href=&#34;https://docs.aspose.com/apireference.aspose.com/cells/python/asposecells.api/Workbook&#34;&gt;Workbook&lt;/a&gt; class.&lt;/p&gt;
+&lt;p&gt;The following code snippet demonstrates adding a worksheet to a designer spreadsheet.&lt;/p&gt;
+&lt;h2 id=&#34;accessing-worksheets-using-sheet-name&#34;&gt;Accessing Worksheets using Sheet Name&lt;/h2&gt;
+&lt;p&gt;After loading a workbook, developers can access any worksheet by using its index or name. The following code snippet demonstrates accessing a worksheet by using its name.&lt;/p&gt;
+&lt;h2 id=&#34;removing-worksheets&#34;&gt;Removing Worksheets&lt;/h2&gt;
+&lt;p&gt;There may be times when some sheets meet to be removed from the workbook. For this, the API provides the &lt;a href=&#34;https://apireference.aspose.com/cells/python/asposecells.api/worksheetcollection#removeAt(int)&#34;&gt;WorksheetCollection.removeAt&lt;/a&gt; method. You can pass it sheet index or sheet name of the sheet to be removed. The following examples demonstrate removing worksheets by using the sheet index and sheet name.&lt;/p&gt;
+&lt;h3 id=&#34;removing-worksheets-using-sheetindex&#34;&gt;Removing Worksheets using Sheet Index&lt;/h3&gt;
+&lt;h3 id=&#34;removing-worksheets-using-sheet-name&#34;&gt;Removing Worksheets using Sheet Name&lt;/h3&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Pythonjava: Copying and Moving Worksheets</title>
+      <link>https://roywangt.github.io/cells/pythonjava/developerguide/worksheets/copying&#43;and&#43;moving&#43;worksheets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/pythonjava/developerguide/worksheets/copying&#43;and&#43;moving&#43;worksheets/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-python-via-java--copying-and-moving-worksheets&#34;&gt;Aspose.Cells for Python via Java : Copying and Moving Worksheets&lt;/h1&gt;
+&lt;p&gt;Sometimes, you do need a number of worksheets with common formatting and data. For example, if you work with quarterly budgets, you might want to create a workbook with sheets that contain the same column headings, row headings, and formulas. There is a way to do this: by creating one sheet and then copying it.&lt;/p&gt;
+&lt;p&gt;Aspose.Cells supports copying and moving worksheets within or between workbooks. Worksheets, complete with data, formatting, tables, matrices, charts, images, and other objects, are copied with the highest degree of precision.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#moving-or-copying-sheets-using-microsoft-excel&#34;&gt;Moving or Copying Sheets using Microsoft Excel&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#copy-worksheets-within-a-workbook&#34;&gt;Copy Worksheets within a Workbook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.2 &lt;a href=&#34;#copy-worksheets-between-workbooks&#34;&gt;Copy Worksheets between Workbooks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.3 &lt;a href=&#34;#move-worksheets-within-workbook&#34;&gt;Move Worksheets within Workbook&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;moving-or-copying-sheets-using-microsoft-excel&#34;&gt;Moving or Copying Sheets using Microsoft Excel&lt;/h2&gt;
+&lt;p&gt;The following are the steps involved in copying and moving worksheets within or between workbooks.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Open the workbook that will receive the sheets.&lt;/li&gt;
+&lt;li&gt;Switch to the workbook that contains the sheets you want to move or copy, and then select the sheets.&lt;/li&gt;
+&lt;li&gt;On the &lt;strong&gt;Edit&lt;/strong&gt; menu, click &lt;strong&gt;Move or Copy Sheet&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;In the To book box, click the workbook to receive the sheets.&lt;/li&gt;
+&lt;li&gt;To move or copy the selected sheets to a new workbook, click &lt;strong&gt;new book&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;In the &lt;strong&gt;Before sheet&lt;/strong&gt; box, click the sheet before which you want to insert the moved or copied sheets.&lt;/li&gt;
+&lt;li&gt;To copy the sheets instead of moving them, select the &lt;strong&gt;Create a copy&lt;/strong&gt; checkbox.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;copy-worksheets-within-a-workbook&#34;&gt;Copy Worksheets within a Workbook&lt;/h3&gt;
+&lt;p&gt;Aspose.Cells provides an overloaded &lt;a href=&#34;https://apireference.aspose.com/cells/python/asposecells.api/worksheetcollection#addCopy(int)&#34;&gt;WorksheetCollection.addCopy()&lt;/a&gt; method that is used to copy an existing worksheet. One version of the method takes the index of the source worksheet as a parameter. The other version takes the name of the source worksheet.&lt;/p&gt;
+&lt;p&gt;The following example shows how to copy an existing worksheet within a workbook.&lt;/p&gt;
+&lt;h3 id=&#34;copy-worksheets-between-workbooks&#34;&gt;Copy Worksheets between Workbooks&lt;/h3&gt;
+&lt;p&gt;Aspose.Cells provides the &lt;a href=&#34;https://apireference.aspose.com/cells/python/asposecells.api/worksheet#copy(com.aspose.cells.Worksheet)&#34;&gt;Worksheet.copy()&lt;/a&gt; method used to copy worksheets to other workbooks. The method takes the source worksheet object as a parameter.&lt;/p&gt;
+&lt;p&gt;The following example shows how to copy a worksheet from one workbook to another workbook.&lt;/p&gt;
+&lt;h3 id=&#34;move-worksheets-within-workbook&#34;&gt;Move Worksheets within Workbook&lt;/h3&gt;
+&lt;p&gt;Aspose.Cells provides the &lt;a href=&#34;https://apireference.aspose.com/cells/python/asposecells.api/worksheet#moveTo(int)&#34;&gt;Worksheet.moveTo()&lt;/a&gt; method used to move a worksheet to another location in the same spreadsheet.&lt;/p&gt;
+&lt;p&gt;The following example shows how to move a worksheet to another location within the workbook.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Pythonjava: Cut and Paste Cells</title>
+      <link>https://roywangt.github.io/cells/pythonjava/developerguide/worksheets/cut&#43;and&#43;paste&#43;cells/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/pythonjava/developerguide/worksheets/cut&#43;and&#43;paste&#43;cells/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-python-via-java--cut-and-paste-cells&#34;&gt;Aspose.Cells for Python via Java : Cut and Paste Cells&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#cut-and-paste-cells&#34;&gt;Cut and Paste Cells&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;cut-and-paste-cells&#34;&gt;Cut and Paste Cells&lt;/h2&gt;
+&lt;p&gt;Aspose.Cells for Python via Java provides the ability to cut and paste cells. For this, the API provides the &lt;a href=&#34;https://docs.aspose.com/apireference.aspose.com/cells/python/asposecells.api/cells#insertCutCells(com.aspose.cells.Range,%20int,%20int,%20int)&#34;&gt;insertCutCells&lt;/a&gt; method of the &lt;a href=&#34;https://apireference.aspose.com/cells/python/asposecells.api/Cells&#34;&gt;Cells&lt;/a&gt; collection. The &lt;a href=&#34;https://docs.aspose.com/apireference.aspose.com/cells/python/asposecells.api/cells#insertCutCells(com.aspose.cells.Range,%20int,%20int,%20int)&#34;&gt;insertCutCells&lt;/a&gt; method accepts the following parameters.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aspose.com/apireference.aspose.com/cells/python/asposecells.api/Range&#34;&gt;Range&lt;/a&gt;: The range of cells to be cut.&lt;/li&gt;
+&lt;li&gt;Row Index: The index of the row to insert cells.&lt;/li&gt;
+&lt;li&gt;Column Index: The index of the column to insert cells.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/error/404?path=cells/python/com.aspose.cells/ShiftType&#34;&gt;ShiftType&lt;/a&gt;: The shift direction of the columns.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The following code snippet demonstrates how to cut and paste cells within a worksheet.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Pythonjava: Count the number of cells in the Worksheet</title>
+      <link>https://roywangt.github.io/cells/pythonjava/developerguide/worksheets/count&#43;the&#43;number&#43;of&#43;cells&#43;in&#43;the&#43;worksheet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/pythonjava/developerguide/worksheets/count&#43;the&#43;number&#43;of&#43;cells&#43;in&#43;the&#43;worksheet/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-python-via-java--count-the-number-of-cells-in-the-worksheet&#34;&gt;Aspose.Cells for Python via Java : Count the number of cells in the Worksheet&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#count-the-number-of-cells-in-the-worksheet&#34;&gt;Count the number of cells in the Worksheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;count-the-number-of-cells-in-the-worksheet&#34;&gt;Count the number of cells in the Worksheet&lt;/h2&gt;
+&lt;p&gt;Aspose.Cells for Python via Java provides the ability to count the number of cells in the worksheet. For this, the API provides the &lt;a href=&#34;https://apireference.aspose.com/cells/python/asposecells.api/cells#Count&#34;&gt;Cells.getCount&lt;/a&gt;() or &lt;a href=&#34;https://apireference.aspose.com/cells/python/asposecells.api/cells#CountLarge&#34;&gt;Cells.getCountLarge&lt;/a&gt;() properties.&lt;/p&gt;
+&lt;p&gt;The following code snippet shows how to use the &lt;a href=&#34;https://apireference.aspose.com/cells/python/asposecells.api/cells#Count&#34;&gt;Cells.getCount&lt;/a&gt;() or &lt;a href=&#34;https://apireference.aspose.com/cells/python/asposecells.api/cells#CountLarge&#34;&gt;Cells.getCountLarge&lt;/a&gt;() properties to get the number of cells in a worksheet.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Pythonjava: Get Hyperlinks in Range</title>
+      <link>https://roywangt.github.io/cells/pythonjava/developerguide/worksheets/get&#43;hyperlinks&#43;in&#43;range/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/pythonjava/developerguide/worksheets/get&#43;hyperlinks&#43;in&#43;range/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-python-via-java--get-hyperlinks-in-range&#34;&gt;Aspose.Cells for Python via Java : Get Hyperlinks in Range&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#get-hyperlinks-in-range&#34;&gt;Get Hyperlinks in Range&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;get-hyperlinks-in-range&#34;&gt;Get Hyperlinks in Range&lt;/h2&gt;
+&lt;p&gt;To get hyperlinks in range, use the &lt;a href=&#34;https://docs.aspose.com/apireference.aspose.com/cells/python/asposecells.api/range#Hyperlinks&#34;&gt;getHyperlinks()&lt;/a&gt; property of the &lt;a href=&#34;https://docs.aspose.com/apireference.aspose.com/cells/python/asposecells.api/Range&#34;&gt;Range&lt;/a&gt; class. The &lt;a href=&#34;https://docs.aspose.com/apireference.aspose.com/cells/python/asposecells.api/range#Hyperlinks&#34;&gt;getHyperlinks()&lt;/a&gt; property gets all the hyperlinks in the selected range.&lt;/p&gt;
+&lt;p&gt;The following code snippet shows how to get all hyperlinks in the selected range.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Pythonjava: Get Range with External Links</title>
+      <link>https://roywangt.github.io/cells/pythonjava/developerguide/worksheets/get&#43;range&#43;with&#43;external&#43;links/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/pythonjava/developerguide/worksheets/get&#43;range&#43;with&#43;external&#43;links/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-python-via-java--get-range-with-external-links&#34;&gt;Aspose.Cells for Python via Java : Get Range with External Links&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#get-range-with-external-links&#34;&gt;Get Range with External Links&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;get-range-with-external-links&#34;&gt;Get Range with External Links&lt;/h2&gt;
+&lt;p&gt;There are many instances where excel files access data from other excel files by the use of external links. Aspose.Cells for Python via Java provides the option to retrieve these external links by using the &lt;a href=&#34;https://apireference.aspose.com/cells/python/asposecells.api/name#getReferredAreas(boolean)&#34;&gt;Name.GetReferredAreas&lt;/a&gt; method. The &lt;a href=&#34;https://apireference.aspose.com/cells/python/asposecells.api/name#getReferredAreas(boolean)&#34;&gt;Name.GetReferredAreas&lt;/a&gt; method returns an array of type &lt;a href=&#34;https://apireference.aspose.com/cells/python/asposecells.api/ReferredArea&#34;&gt;ReferredArea&lt;/a&gt;. The &lt;a href=&#34;https://apireference.aspose.com/cells/python/asposecells.api/ReferredArea&#34;&gt;ReferredArea&lt;/a&gt;class provides an &lt;a href=&#34;https://apireference.aspose.com/cells/python/asposecells.api/referredarea#ExternalFileName&#34;&gt;ExternalFileName&lt;/a&gt; property that returns the name of the external file.&lt;/p&gt;
+&lt;p&gt;The following code snippet shows how to get external links.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Pythonjava: Find if the Worksheet is Dialog Sheet</title>
+      <link>https://roywangt.github.io/cells/pythonjava/developerguide/worksheets/find&#43;if&#43;the&#43;worksheet&#43;is&#43;dialog&#43;sheet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/pythonjava/developerguide/worksheets/find&#43;if&#43;the&#43;worksheet&#43;is&#43;dialog&#43;sheet/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-python-via-java--find-if-the-worksheet-is-dialog-sheet&#34;&gt;Aspose.Cells for Python via Java : Find if the Worksheet is Dialog Sheet&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#find-if-the-worksheet-is-dialog-sheet&#34;&gt;Find if the Worksheet is Dialog Sheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#console-output&#34;&gt;Console Output&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;Dialog Sheet is an old format of the sheet that contains a dialog box. Such a sheet could be inserted by an older version of Microsoft Excel e.g. 2003 as shown in this screenshot. It can also be inserted with VBA in newer versions e.g. Microsoft Excel 2016.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs.aspose.com/download/attachments/64454897/Dialog%20Sheet.png?version=1&amp;amp;modificationDate=1522155535466&amp;amp;api=v2&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;find-if-the-worksheet-is-dialog-sheet&#34;&gt;Find if the Worksheet is Dialog Sheet&lt;/h2&gt;
+&lt;p&gt;Aspose.Cells for Python via Java provides you with the ability to check if the worksheet is a dialog sheet. For this, it provides the &lt;a href=&#34;https://apireference.aspose.com/cells/python/asposecells.api/worksheet#Type&#34;&gt;Worksheet.Type&lt;/a&gt; property. If &lt;a href=&#34;https://apireference.aspose.com/cells/python/asposecells.api/worksheet#Type&#34;&gt;Worksheet.Type&lt;/a&gt; returns enumeration value &lt;a href=&#34;https://apireference.aspose.com/cells/python/asposecells.api/sheettype#DIALOG&#34;&gt;SheetType.DIALOG&lt;/a&gt;, then it means, you are dealing with a dialog sheet.&lt;/p&gt;
+&lt;p&gt;The following code snippet shows how to check for a dialog sheet. The console output generated by the code is given below for reference.&lt;/p&gt;
+&lt;h2 id=&#34;console-output&#34;&gt;Console Output&lt;/h2&gt;
+&lt;p&gt;Worksheet is a Dialog Sheet.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,352 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Working with GridWeb Rows and Columns</title>
+    <link>https://roywangt.github.io/cells/java/developerguide/gridweb/rowsandcolumns/</link>
+    <description>Recent content in Working with GridWeb Rows and Columns on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://roywangt.github.io/cells/java/developerguide/gridweb/rowsandcolumns/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Java: Create Remove and Get GridCell Comments</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/gridweb/rowsandcolumns/create&#43;remove&#43;and&#43;get&#43;gridcell&#43;comments/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/gridweb/rowsandcolumns/create&#43;remove&#43;and&#43;get&#43;gridcell&#43;comments/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--create-remove-and-get-gridcell-comments&#34;&gt;Aspose.Cells for Java : Create Remove and Get GridCell Comments&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#create-comment-object-inside-cell&#34;&gt;Create Comment object inside Cell&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#remove-comment-object-from-cell&#34;&gt;Remove Comment object from Cell&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;4 &lt;a href=&#34;#get-comment-object-from-cell&#34;&gt;Get Comment object from Cell&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;The following article explains how to create, remove and get GridCell comments inside the GridWeb worksheet. It is worth noting that GridWeb displays comment as Tooltip like MS-Excel when you hover mouse over the cell as shown in this screenshot.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/50266359/50528372.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;create-comment-object-inside-cell&#34;&gt;Create Comment object inside Cell&lt;/h2&gt;
+&lt;p&gt;Please use the &lt;code&gt;GridCell.CreateComment&lt;/code&gt; method to create a comment object inside cell. The following sample code creates a sample comment in cell B4 of the first worksheet of GridWeb.&lt;/p&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_7bb4dc5d98&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_7bb4dc5d98&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// Access first worksheet of GridWeb
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;GridWorksheet&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;sheet&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;GridWeb1&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;getWorkSheets&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;().&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;get&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;0&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// Access cell B4
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;GridCell&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;cell&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;sheet&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;getCells&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;().&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;get&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;B4&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// Create comment with these parameters
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// i.e. note, author, isvisible
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;cell&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;createComment&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;This is a B4 note.&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Peter&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;true&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;h2 id=&#34;remove-comment-object-from-cell&#34;&gt;Remove Comment object from Cell&lt;/h2&gt;
+&lt;p&gt;Please use the &lt;code&gt;GridCell.RemoveComment&lt;/code&gt; method to remove a comment object from cell. The following sample code removes cell B4 comment inside the first worksheet of GridWeb.&lt;/p&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_b7bc4a8fc3&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_b7bc4a8fc3&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// Access first worksheet of GridWeb
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;GridWorksheet&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;sheet&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;GridWeb1&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;getWorkSheets&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;().&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;get&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;0&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// Access cell B4
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;GridCell&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;cell&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;sheet&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;getCells&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;().&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;get&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;B4&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// Remove the comment object from this cell.
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;cell&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;removeComment&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;();&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;h2 id=&#34;get-comment-object-from-cell&#34;&gt;Get Comment object from Cell&lt;/h2&gt;
+&lt;p&gt;Please use the &lt;code&gt;GridCell.GetComment()&lt;/code&gt; method to get comment object from cell. The following sample code gets the comment object from cell B4 and then accesses its various properties like Author, Note, Visibility etc.&lt;/p&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_04a5087bbe&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_04a5087bbe&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// Access first worksheet of GridWeb
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;GridWorksheet&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;sheet&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;GridWeb1&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;getWorkSheets&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;().&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;get&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;0&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// Access cell B4
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;GridCell&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;cell&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;sheet&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;getCells&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;().&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;get&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;B4&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// Get comment of this cell
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;GridComment&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;gridComm&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;cell&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;getComment&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;();&lt;/span&gt;
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// Access its various properties
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;String&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;strAuth&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;gridComm&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;getAuthor&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;();&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;String&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;strNote&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;gridComm&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;getNote&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;();&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;boolean&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;isVis&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;gridComm&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;isVisible&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;();&lt;/span&gt;
+
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Working with Rows and Columns GridWeb</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/gridweb/rowsandcolumns/working&#43;with&#43;rows&#43;and&#43;columns&#43;gridweb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/gridweb/rowsandcolumns/working&#43;with&#43;rows&#43;and&#43;columns&#43;gridweb/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--working-with-rows-and-columns-gridweb&#34;&gt;Aspose.Cells for Java : Working with Rows and Columns GridWeb&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#inserting-rows-and-columns&#34;&gt;Inserting Rows and Columns&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#inserting-rows&#34;&gt;Inserting Rows&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.2 &lt;a href=&#34;#inserting-columns&#34;&gt;Inserting Columns&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#deleting-rows-and-columns&#34;&gt;Deleting Rows and Columns&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;2.1 &lt;a href=&#34;#deleting-rows&#34;&gt;Deleting Rows&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2.2 &lt;a href=&#34;#deleting-columns&#34;&gt;Deleting Columns&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#setting-row-height-and-column-width&#34;&gt;Setting Row Height and Column Width&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;3.1 &lt;a href=&#34;#working-with-row-heights-and-column-width&#34;&gt;Working with Row Heights and Column Width&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;3.1.1 &lt;a href=&#34;#setting-row-height&#34;&gt;Setting Row Height&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3.1.2 &lt;a href=&#34;#setting-column-width&#34;&gt;Setting Column Width&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;4 &lt;a href=&#34;#customizing-row-and-column-headers&#34;&gt;Customizing Row and Column Headers&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;4.1 &lt;a href=&#34;#customizing-row-header&#34;&gt;Customizing Row Header&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;4.2 &lt;a href=&#34;#customizing-column-header&#34;&gt;Customizing Column Header&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;5 &lt;a href=&#34;#freeze-and-unfreeze-rows-and-columns&#34;&gt;Freeze and Unfreeze Rows and Columns&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;5.1 &lt;a href=&#34;#freezing-rows-&amp;amp;-columns&#34;&gt;Freezing Rows &amp;amp; Columns&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;5.2 &lt;a href=&#34;#unfreezing-rows-&amp;amp;-columns&#34;&gt;Unfreezing Rows &amp;amp; Columns&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;6 &lt;a href=&#34;#protecting-rows-and-columns&#34;&gt;Protecting Rows and Columns&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;6.1 &lt;a href=&#34;#restricting-context-menu-options&#34;&gt;Restricting Context Menu Options&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;inserting-rows-and-columns&#34;&gt;Inserting Rows and Columns&lt;/h2&gt;
+&lt;p&gt;This topic explains how to insert new rows and columns into a worksheet using the Aspose.Cells.GridWeb API. Rows or columns can be inserted at any position in the worksheet.&lt;/p&gt;
+&lt;h3 id=&#34;inserting-rows&#34;&gt;Inserting Rows&lt;/h3&gt;
+&lt;p&gt;To insert a row at any position in a worksheet:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Add the Aspose.Cells.GridWeb control to the Web Form or page.&lt;/li&gt;
+&lt;li&gt;Access the worksheet you&amp;rsquo;re adding rows to.&lt;/li&gt;
+&lt;li&gt;Insert a row by specifying a row index where the row would be inserted.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;inserting-columns&#34;&gt;Inserting Columns&lt;/h3&gt;
+&lt;p&gt;To insert a column at any position in a worksheet:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Add the Aspose.Cells.GridWeb control to a Web Form or page.&lt;/li&gt;
+&lt;li&gt;Access the worksheet you&amp;rsquo;re adding columns to.&lt;/li&gt;
+&lt;li&gt;Insert a column by specifying the column index where the column would be inserted.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;You can also use &lt;code&gt;insertRows()/insertColumns()&lt;/code&gt; methods to insert multiple rows/columns into the worksheets accordingly.&lt;/p&gt;
+&lt;h2 id=&#34;deleting-rows-and-columns&#34;&gt;Deleting Rows and Columns&lt;/h2&gt;
+&lt;p&gt;This topic demonstrates how to delete rows and columns from a worksheet using the Aspose.Cells.GridWeb API. With the help of this feature, developers can take delete rows or columns at runtime.&lt;/p&gt;
+&lt;h3 id=&#34;deleting-rows&#34;&gt;Deleting Rows&lt;/h3&gt;
+&lt;p&gt;To delete a row from your worksheet:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Add the Aspose.Cells.GridWeb control to a Web Form or page.&lt;/li&gt;
+&lt;li&gt;Access the worksheet you want to delete rows from.&lt;/li&gt;
+&lt;li&gt;Delete a row from the worksheet by specifying its row index.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;deleting-columns&#34;&gt;Deleting Columns&lt;/h3&gt;
+&lt;p&gt;To delete a column from your worksheet:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Add the Aspose.Cells.GridWeb control to a Web Form or page.&lt;/li&gt;
+&lt;li&gt;Access the worksheet you want to delete columns from.&lt;/li&gt;
+&lt;li&gt;Delete a column from the worksheet by specifying its column index.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;setting-row-height-and-column-width&#34;&gt;Setting Row Height and Column Width&lt;/h2&gt;
+&lt;p&gt;Sometimes cell values are wider than the cell they are in or are on several lines. Such values are not fully visible to users unless they change the height and width of rows and columns. Aspose.Cells.GridWeb fully supports setting row heights and column width. This topic discusses these features in detail with the help of examples.&lt;/p&gt;
+&lt;h3 id=&#34;working-with-row-heights-and-column-width&#34;&gt;Working with Row Heights and Column Width&lt;/h3&gt;
+&lt;h4 id=&#34;setting-row-height&#34;&gt;Setting Row Height&lt;/h4&gt;
+&lt;p&gt;To set the height of a row:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Add the Aspose.Cells.GridWeb control to your Web Form/ page.&lt;/li&gt;
+&lt;li&gt;Access the worksheet&amp;rsquo;s &lt;code&gt;GridCells&lt;/code&gt; collection.&lt;/li&gt;
+&lt;li&gt;Set the height of all cells in any specified row.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Aspose.Cells.GridWeb accepts row height and column width measurements in points, inches, pixels, etc.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Output: the height of the 1st row has been set to 50 points&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276822/5472813.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;setting-column-width&#34;&gt;Setting Column Width&lt;/h4&gt;
+&lt;p&gt;To set the width of a column:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Add the Aspose.Cells.GridWeb control to your Web Form/ page.&lt;/li&gt;
+&lt;li&gt;Access the worksheet&amp;rsquo;s &lt;code&gt;GridCells&lt;/code&gt; collection.&lt;/li&gt;
+&lt;li&gt;Set the width of all cells in any specified column.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;customizing-row-and-column-headers&#34;&gt;Customizing Row and Column Headers&lt;/h2&gt;
+&lt;p&gt;Like Microsoft Excel, Aspose.Cells.GridWeb also uses standard headers or captions for rows (numbers like 1, 2, 3 and so on) and columns (alphabetic like A, B, C and so on). Aspose.Cells.GridWeb also makes it possible to customize captions. This topic discusses customizing row and column headers at runtime using Aspose.Cells.GridWeb API.&lt;/p&gt;
+&lt;h3 id=&#34;customizing-row-header&#34;&gt;Customizing Row Header&lt;/h3&gt;
+&lt;p&gt;To customize the header or caption of a row:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Add the Aspose.Cells.GridWeb control to a Web Form/ page.&lt;/li&gt;
+&lt;li&gt;Access the worksheet in the &lt;code&gt;GridWorksheetCollection&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Set the caption of any specified row.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;The headers of row 1 and 2 have been customized&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276822/5472809.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;customizing-column-header&#34;&gt;Customizing Column Header&lt;/h3&gt;
+&lt;p&gt;To customize the header or caption of a column:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Add the Aspose.Cells.GridWeb control to a Web Form/ page.&lt;/li&gt;
+&lt;li&gt;Access the worksheet in the &lt;code&gt;GridWorksheetCollection&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Set the caption of any specified column.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;The headers of column 1 and 2 have been customized&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276822/5472808.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;freeze-and-unfreeze-rows-and-columns&#34;&gt;Freeze and Unfreeze Rows and Columns&lt;/h2&gt;
+&lt;p&gt;This topic explains how to freeze and unfreeze rows and columns. Freezing columns or rows allows users to keep the column headings or row titles visible while they scroll to other parts of the worksheet. This feature is very helpful when working with worksheets that contain large volumes of data. When users scroll only data is scrolled down and the headings stay in place, making the date easier to read. The freeze panes feature is only supported in Internet Explorer 6.0 or above.&lt;/p&gt;
+&lt;h3 id=&#34;freezing-rows--columns&#34;&gt;Freezing Rows &amp;amp; Columns&lt;/h3&gt;
+&lt;p&gt;To freeze a specific number of rows and columns:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Add the Aspose.Cells.GridWeb control to a Web Form/ page.&lt;/li&gt;
+&lt;li&gt;Access a worksheet.&lt;/li&gt;
+&lt;li&gt;Freeze a number of rows &amp;amp; columns.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;It is also possible to freeze a specific number of rows &amp;amp; columns using the interface. Right-click a cell where you want to freeze rows &amp;amp; columns and select &lt;strong&gt;Freeze&lt;/strong&gt; from the list.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Rows &amp;amp; columns in a frozen state&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276822/5472789.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;unfreezing-rows--columns&#34;&gt;Unfreezing Rows &amp;amp; Columns&lt;/h3&gt;
+&lt;p&gt;To unfreeze rows and columns:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Add the Aspose.Cells.GridWeb control to a Web Form/ page.&lt;/li&gt;
+&lt;li&gt;Access a worksheet.&lt;/li&gt;
+&lt;li&gt;Unfreeze rows &amp;amp; columns.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Worksheet after being unfrozen&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276822/5472788.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;protecting-rows-and-columns&#34;&gt;Protecting Rows and Columns&lt;/h2&gt;
+&lt;p&gt;This topic discusses a few techniques for protecting cells in rows and columns from any kind of action performed by end users. Developers can implement this protection using two techniques: by making cells in rows and columns read-only, or by restricting the GridWeb&amp;rsquo;s context menu options.&lt;/p&gt;
+&lt;h3 id=&#34;restricting-context-menu-options&#34;&gt;Restricting Context Menu Options&lt;/h3&gt;
+&lt;p&gt;GridWeb provides a context menu that end users can use to perform operations on the control. The menu provides many options for manipulating cells, rows, and columns.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Complete contextual options&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276822/5472785.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;It is possible to restrict any kind of client-side operations on rows and columns by restricting the options available in the context menu. It can be done by setting the &lt;code&gt;EnableClientColumnOperations&lt;/code&gt; and &lt;code&gt;EnableClientRowOperations&lt;/code&gt; attributes of the GridWeb control to false. It is also possible to restrict users from freezing rows and columns by setting the GridWeb control&amp;rsquo;s &lt;code&gt;EnableClientFreeze&lt;/code&gt; attribute to false.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Context menu after restricting row &amp;amp; column options&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276822/5472784.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

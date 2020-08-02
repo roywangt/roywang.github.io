@@ -1,0 +1,276 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Introduction</title>
+    <link>https://roywangt.github.io/cells/java/developerguide/introduction/</link>
+    <description>Recent content in Introduction on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://roywangt.github.io/cells/java/developerguide/introduction/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Java: Where to Use Aspose.Cells</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/introduction/where&#43;to&#43;use&#43;aspose.cells/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/introduction/where&#43;to&#43;use&#43;aspose.cells/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--where-to-use-asposecells&#34;&gt;Aspose.Cells for Java : Where to Use Aspose.Cells&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells is created to help developers to create and manage Microsoft Excel spreadsheets programmatically. Aspose.Cells doesn&amp;rsquo;t only understand spreadsheets in Microsoft Excel Sheet Format (XLS/XLSX) but also many other file formats like Comma Separated Values (CSV), Tab Delimited/TSV (Text), SpreadsheetML etc.&lt;/p&gt;
+&lt;p&gt;Aspose.Cells provides most of the features available in Microsoft Excel but the exciting thing is that Aspose.Cells can process Excel files dynamically, which enables developers to process thousands or millions of spreadsheets very quickly.&lt;/p&gt;
+&lt;p&gt;This article discusses common scenarios of using Aspose.Cells.&lt;/p&gt;
+&lt;h3 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h3&gt;
+&lt;p&gt;It&amp;rsquo;s up to developers how they use Aspose.Cells but there are few common scenarios in which Aspose.Cells can help. The most common use of Aspose.Cells is deploying it on the Web Server or in Web Services for server side processing. Some of the possible usage scenarios of Aspose.Cells are described below.&lt;/p&gt;
+&lt;h4 id=&#34;automated-spreadsheet-management&#34;&gt;Automated Spreadsheet Management&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;Users upload manually created spreadsheets to a server.&lt;/li&gt;
+&lt;li&gt;Aspose.Cells is used to open files and retrieve data.&lt;br&gt;
+After the data is retrieved:
+&lt;ul&gt;
+&lt;li&gt;The data is saved to a database.&lt;/li&gt;
+&lt;li&gt;Certain data are presented in web pages.&lt;/li&gt;
+&lt;li&gt;Some aspects of the spreadsheets are modified and saved back to Microsoft Excel files.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;web-application&#34;&gt;Web Application&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;Users input data in web pages.&lt;/li&gt;
+&lt;li&gt;Data is collected by the web server.&lt;/li&gt;
+&lt;li&gt;Aspose.Cells is used to populate data in brand new files or pre-defined template files.&lt;/li&gt;
+&lt;li&gt;After the Excel file is created, it can be sent to user as a report etc.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;We have discussed few of the most common scenarios of using Aspose.Cells in web based environment. But Aspose.Cells is equally useful in desktop based applications also.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Aspose.Cells Object Model</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/introduction/aspose.cells&#43;object&#43;model/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/introduction/aspose.cells&#43;object&#43;model/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--asposecells-object-model&#34;&gt;Aspose.Cells for Java : Aspose.Cells Object Model&lt;/h1&gt;
+&lt;h5 id=&#34;object-model&#34;&gt;&lt;em&gt;Object Model&lt;/em&gt;&lt;/h5&gt;
+&lt;p&gt;&lt;strong&gt;Aspose.Cells Object Model&lt;/strong&gt; provides information about the structural relationships between the objects of Aspose.Cells class library. The top level structure of the &lt;strong&gt;Aspose.Cells&lt;/strong&gt; object model is shown below in a hierarchical manner:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276262/5473236.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure:&lt;/strong&gt; Top level structure of Aspose.Cells Object Model&lt;/p&gt;
+&lt;p&gt;As you can see from the above figure that the root of the object model is the &lt;strong&gt;Workbook&lt;/strong&gt; object. A brief description of few of the objects is provided below for the introductory purposes.&lt;/p&gt;
+&lt;h5 id=&#34;worksheetcollectionworksheet&#34;&gt;&lt;em&gt;WorksheetCollection/Worksheet&lt;/em&gt;&lt;/h5&gt;
+&lt;p&gt;&lt;strong&gt;Workbook&lt;/strong&gt; object contains the &lt;strong&gt;WorksheetCollection&lt;/strong&gt; object, which represents the collection of all the &lt;strong&gt;Worksheet&lt;/strong&gt; objects in a spreadsheet as shown below:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276262/5473237.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure:&lt;/strong&gt; WorksheetCollection &amp;amp; Worksheet objects&lt;/p&gt;
+&lt;h5 id=&#34;cellscell&#34;&gt;&lt;em&gt;Cells/Cell&lt;/em&gt;&lt;/h5&gt;
+&lt;p&gt;Each &lt;strong&gt;Worksheet&lt;/strong&gt; object contains a &lt;strong&gt;Cells&lt;/strong&gt; object that represents the collection of all &lt;strong&gt;Cell&lt;/strong&gt; objects in a worksheet as shown below:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276262/5473234.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure:&lt;/strong&gt; Cells &amp;amp; Cell objects&lt;/p&gt;
+&lt;p&gt;You can use the &lt;strong&gt;Cell&lt;/strong&gt; object to get and set the value, style, formula and other properties of a single cell.&lt;/p&gt;
+&lt;h5 id=&#34;chartcollectionchart&#34;&gt;&lt;em&gt;ChartCollection/Chart&lt;/em&gt;&lt;/h5&gt;
+&lt;p&gt;&lt;strong&gt;ChartCollection&lt;/strong&gt; object represents the collection of all the &lt;strong&gt;Chart&lt;/strong&gt; objects in a &lt;strong&gt;Worksheet&lt;/strong&gt; . Each &lt;strong&gt;Chart&lt;/strong&gt; object is comprised of several other objects that work together to create and manage charts. The &lt;strong&gt;Chart&lt;/strong&gt; structure in Aspose.Cells is shown in the diagram below:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276262/5473235.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure:&lt;/strong&gt; Object model of the Chart&lt;/p&gt;
+&lt;h5 id=&#34;commentcollectioncomment&#34;&gt;&lt;em&gt;CommentCollection/Comment&lt;/em&gt;&lt;/h5&gt;
+&lt;p&gt;Each &lt;strong&gt;Worksheet&lt;/strong&gt; object also contains a &lt;strong&gt;CommentCollection&lt;/strong&gt; object that represents the collection of all &lt;strong&gt;Comment&lt;/strong&gt; objects in a worksheet as shown below:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276262/5473232.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure:&lt;/strong&gt; CommentCollection &amp;amp; Comment objects&lt;/p&gt;
+&lt;p&gt;A &lt;strong&gt;Comment&lt;/strong&gt; object is used to add a comment to any specified cell in the worksheet.&lt;/p&gt;
+&lt;h5 id=&#34;hpagebreakcollectionhpagebreak&#34;&gt;&lt;em&gt;HPageBreakCollection/HPageBreak&lt;/em&gt;&lt;/h5&gt;
+&lt;p&gt;Each &lt;strong&gt;Worksheet&lt;/strong&gt; object contains an &lt;strong&gt;HPageBreakCollection&lt;/strong&gt; object that represents the collection of all &lt;strong&gt;HPageBreak&lt;/strong&gt; objects in a worksheet as shown below:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276262/5473233.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure:&lt;/strong&gt; HPageBreakCollection &amp;amp; HPageBreak objects&lt;/p&gt;
+&lt;p&gt;An &lt;strong&gt;HPageBreak&lt;/strong&gt; object is used to create a horizontal page break in the worksheet.&lt;/p&gt;
+&lt;h5 id=&#34;hyperlinkcollectionhyperlink&#34;&gt;&lt;em&gt;HyperlinkCollection/Hyperlink&lt;/em&gt;&lt;/h5&gt;
+&lt;p&gt;A &lt;strong&gt;Worksheet&lt;/strong&gt; object also contains a &lt;strong&gt;HyperlinkCollection&lt;/strong&gt; object that represents the collection of all &lt;strong&gt;Hyperlink&lt;/strong&gt; objects in the worksheet as shown below:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276262/5473230.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure:&lt;/strong&gt; HyperlinkCollection &amp;amp; Hyperlink objects&lt;/p&gt;
+&lt;p&gt;A &lt;strong&gt;Hyperlink&lt;/strong&gt; object represents a hyperlink in the worksheet. Developers can set hyperlink address and other related properties using &lt;strong&gt;Hyperlink&lt;/strong&gt; object.&lt;/p&gt;
+&lt;h5 id=&#34;picturecollectionpicture&#34;&gt;&lt;em&gt;PictureCollection/Picture&lt;/em&gt;&lt;/h5&gt;
+&lt;p&gt;Each &lt;strong&gt;Worksheet&lt;/strong&gt; object contains a &lt;strong&gt;PictureCollection&lt;/strong&gt; object that represents the collection of all &lt;strong&gt;Picture&lt;/strong&gt; ** objects in a worksheet as shown below:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276262/5473231.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure:&lt;/strong&gt; PictureCollection &amp;amp; Picture objects&lt;/p&gt;
+&lt;p&gt;A &lt;strong&gt;Picture&lt;/strong&gt; object represents a picture in the worksheet. Using &lt;strong&gt;Picture&lt;/strong&gt; object, developers cannot only add pictures into their worksheets but also position these pictures at any location. It is also possible to set borders or other properties of the pictures.&lt;/p&gt;
+&lt;h5 id=&#34;vpagebreakcollectionvpagebreak&#34;&gt;&lt;em&gt;VPageBreakCollection/VPageBreak&lt;/em&gt;&lt;/h5&gt;
+&lt;p&gt;Each &lt;strong&gt;Worksheet&lt;/strong&gt; object contains a &lt;strong&gt;VPageBreakCollection&lt;/strong&gt; object that represents the collection of all &lt;strong&gt;VPageBreak&lt;/strong&gt; objects in a worksheet as shown below:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276262/5473244.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure:&lt;/strong&gt; VPageBreakCollection &amp;amp; VPageBreak objects&lt;/p&gt;
+&lt;p&gt;A &lt;strong&gt;VPageBreak&lt;/strong&gt; object is used to create a vertical page break in the worksheet.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Your First Aspose.Cells Application - Hello World</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/introduction/your&#43;first&#43;aspose.cells&#43;application&#43;-&#43;hello&#43;world/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/introduction/your&#43;first&#43;aspose.cells&#43;application&#43;-&#43;hello&#43;world/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--your-first-asposecells-application---hello-world&#34;&gt;Aspose.Cells for Java : Your First Aspose.Cells Application - Hello World&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#creating-the-hello-world-application&#34;&gt;Creating the Hello World Application&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#creating-a-workbook&#34;&gt;Creating a Workbook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.2 &lt;a href=&#34;#opening-an-existing-file&#34;&gt;Opening an Existing File&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;This beginner&amp;rsquo;s topic shows how developers can create a simple first application (Hello World) using Aspose.Cells&amp;rsquo; simple API. The application creates a Microsoft Excel file with the words Hello World in a specified cell of a worksheet.&lt;/p&gt;
+&lt;h3 id=&#34;creating-the-hello-world-application&#34;&gt;Creating the Hello World Application&lt;/h3&gt;
+&lt;p&gt;To create the Hello World application using Aspose.Cells API:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Create an instance of the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/workbook&#34;&gt;Workbook&lt;/a&gt; class.&lt;/li&gt;
+&lt;li&gt;Apply the license:
+&lt;ul&gt;
+&lt;li&gt;If you have purchased a license, then use the license in your application to get access to Aspose.Cells&amp;rsquo; full functionality&lt;/li&gt;
+&lt;li&gt;If you are using the evaluation version of the component (if you&amp;rsquo;re using Aspose.Cells without a license), skip this step.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Create a new Microsoft Excel file, or open an existing file in which you want to add/update some text.&lt;/li&gt;
+&lt;li&gt;Access any cell of a worksheet in the Microsoft Excel file.&lt;/li&gt;
+&lt;li&gt;Insert the words &lt;strong&gt;Hello World!&lt;/strong&gt; into a cell accessed.&lt;/li&gt;
+&lt;li&gt;Generate the modified Microsoft Excel file.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The examples below demonstrate the above steps.&lt;/p&gt;
+&lt;h4 id=&#34;creating-a-workbook&#34;&gt;Creating a Workbook&lt;/h4&gt;
+&lt;p&gt;The following example creates a new workbook from scratch, writes the words &amp;ldquo;Hello World!&amp;rdquo; into cell A1 on the first worksheet, and saves the file.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The generated spreadsheet&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276265/5473251.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;opening-an-existing-file&#34;&gt;Opening an Existing File&lt;/h4&gt;
+&lt;p&gt;The following example opens an existing Microsoft Excel template file called &lt;strong&gt;book1.xls&lt;/strong&gt;, writes the words &amp;ldquo;Hello World!&amp;rdquo; in cell A1 in the first worksheet, and saves the workbook as a new file.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Evaluate Aspose.Cells</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/introduction/evaluate&#43;aspose.cells/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/introduction/evaluate&#43;aspose.cells/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--evaluate-asposecells&#34;&gt;Aspose.Cells for Java : Evaluate Aspose.Cells&lt;/h1&gt;
+&lt;p&gt;You can easily download Aspose.Cells for evaluation from the &lt;a href=&#34;http://maven.aspose.com/repository/simple/ext-release-local/com/aspose/aspose-cells/&#34;&gt;download page&lt;/a&gt; @ maven repos. The evaluation download is same as the purchased download. The evaluation version simply becomes licensed when you add a few lines of code to apply the license.&lt;/p&gt;
+&lt;p&gt;Evaluation version of Aspose.Cells (without a license specified) provides product functionality to some extent not complete though. One limitation is that it always injects an extra worksheet with evaluation watermark on open / save any spreadsheet document.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276264/5473249.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure:&lt;/strong&gt; Demo Spreadsheet created by Aspose.Cells component&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276264/5473248.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure:&lt;/strong&gt; Evaluation Warning – An Extra Worksheet&lt;/p&gt;
+&lt;p&gt;If you want to test Aspose.Cells without evaluation version limitations, you may &lt;a href=&#34;http://www.aspose.com/corporate/purchase/faqs/temporary-license.aspx&#34;&gt;request a 30-day temporary license&lt;/a&gt;.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: What is a Designer Spreadsheet</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/introduction/what&#43;is&#43;a&#43;designer&#43;spreadsheet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/introduction/what&#43;is&#43;a&#43;designer&#43;spreadsheet/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--what-is-a-designer-spreadsheet&#34;&gt;Aspose.Cells for Java : What is a Designer Spreadsheet&lt;/h1&gt;
+&lt;h3 id=&#34;do-you-want-to-speed-up-development&#34;&gt;Do You Want to Speed Up Development?&lt;/h3&gt;
+&lt;p&gt;You can use Aspose.Cells to create Excel files from scratch with the help of its flexible API. One of the most common uses for Aspose.Cells is to create and populate Excel files with data, which may come from an existing database, a user or other sources, dynamically. As well as adding data to Excel files, you&amp;rsquo;ll also need to write to apply formatting (look and feel).&lt;/p&gt;
+&lt;p&gt;Formatting takes time. What could speed up development?&lt;/p&gt;
+&lt;h3 id=&#34;the-solution---designer-spreadsheets&#34;&gt;The Solution - Designer Spreadsheets&lt;/h3&gt;
+&lt;p&gt;To speed up your development, Aspose.Cells offers the exciting feature designer spreadsheet.&lt;/p&gt;
+&lt;h4 id=&#34;what-is-a-designer-spreadsheet&#34;&gt;What is a Designer Spreadsheet?&lt;/h4&gt;
+&lt;p&gt;A designer spreadsheet is an Excel file created using Microsoft Excel in which all formatting are already applied and the contents can be decided at design time. It&amp;rsquo;s more like a template file that doesn&amp;rsquo;t contain any data but just the formatting, as shown below:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Designer spreadsheet&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276266/5473261.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;In &lt;a href=&#34;http://www.aspose.com/demos/java-components/aspose.cells/default.aspx&#34;&gt;the Aspose.Cells demos&lt;/a&gt;, every spreadsheet is created using this methodology, with the exception of the Invoice demo.&lt;/p&gt;
+&lt;h4 id=&#34;how-to-use-it&#34;&gt;How to Use It?&lt;/h4&gt;
+&lt;p&gt;After creating a designer spreadsheet, use Aspose.Cells to read the designer spreadsheet and add data to its specified positions (according to the pre-defined format settings) at runtime. For example, in the screenshot above, you can see that we already decided at design time to add &lt;strong&gt;Product Name&lt;/strong&gt;, &lt;strong&gt;Category Name&lt;/strong&gt;, &lt;strong&gt;Quantity Per Unit&lt;/strong&gt; and &lt;strong&gt;Units In Stock&lt;/strong&gt; columns. They don&amp;rsquo;t have any data yet: this is be added at runtime. The above figure shows a very simple spreadsheet but designer spreadsheets save you time even on complex spreadsheet.&lt;/p&gt;
+&lt;h4 id=&#34;smart-markers&#34;&gt;Smart Markers&lt;/h4&gt;
+&lt;p&gt;Additionally, Aspose.Cells lets you add &lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/smartmarkers/&#34;&gt;smart markers&lt;/a&gt; to the designer spreadsheet. Smart markers are processed at runtime using the &lt;a href=&#34;http://www.aspose.com/api/java/cells/com.aspose.cells/classes/WorkbookDesigner&#34;&gt;&lt;code&gt;WorkbookDesigner&lt;/code&gt;&lt;/a&gt; class&amp;rsquo;s &lt;code&gt;Process&lt;/code&gt; method. This can help you write less code and still get great result.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/smartmarkers/&#34;&gt;Find out more about smart markers&lt;/a&gt;.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Upgrade to Modern Aspose.Cells Component</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/introduction/upgrade&#43;to&#43;modern&#43;aspose.cells&#43;component/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/introduction/upgrade&#43;to&#43;modern&#43;aspose.cells&#43;component/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--upgrade-to-modern-asposecells-component&#34;&gt;Aspose.Cells for Java : Upgrade to Modern Aspose.Cells Component&lt;/h1&gt;
+&lt;p&gt;In order to assist the users for upgrading, we maintain a document describing information critical to existing users especially the ones who have been using the older Aspose.Excel and now, they want to upgrade to newer Aspose.Cells. These are intended to be brief notes, and you should be able to find more information checking all the sections of the &lt;strong&gt;Programmer’s Guide&lt;/strong&gt; and &lt;strong&gt;Aspose.Cells API Reference&lt;/strong&gt; .&lt;/p&gt;
+&lt;h5 id=&#34;upgrading-to-asposecells&#34;&gt;*Upgrading to Aspose.Cells&lt;/h5&gt;
+&lt;p&gt;*&lt;/p&gt;
+&lt;p&gt;Sometimes the previous users (e.g., Aspose.Excel users) might contract an issue / problem or they found some features are missing in the version, alternatively, they need to to upgrade to the newer Aspose.Cells for their requirements. It is to be noted that Aspose.Excel has been renamed to become Aspose.Cells now, so, we cannot continue or make amendments with the older versions of Aspose.Excel component anymore. The new Aspose.Cells component is more reliable, stable and prosperous with enhanced and advanced functionality. We specially focus to optimize its performance for the most diverse scenarios. Just to emphasize, there is not much labor involved upgrading to Aspose.Cells component. However, when you upgrade to it,&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Please note:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Some APIs (classes, struct, enumerations etc.) are added based on some advanced features that we now offer, the previous classes (with their members) are retained and optimised but a few classes are renamed, some additional members (properties, methods etc.) are also included for the classes with a very few excluded.&lt;/p&gt;
+&lt;h5 id=&#34;following-is-the-classes-list-which-are-renamed&#34;&gt;Following is the classes list which are renamed:&lt;/h5&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Excel&lt;/strong&gt; class is replaced by &lt;strong&gt;Workbook&lt;/strong&gt; class.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ExcelDesigner&lt;/strong&gt; class is replaced by &lt;strong&gt;WorkbookDesigner&lt;/strong&gt; class.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ExcelHelper&lt;/strong&gt; class is replaced by &lt;strong&gt;CellsHelper&lt;/strong&gt; class.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;For further reference, please check our featured demos: &lt;a href=&#34;https://github.com/aspose-cells/Aspose.Cells-for-Java&#34;&gt;https://github.com/aspose-cells/Aspose.Cells-for-Java&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Check Version Number of the Component</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/introduction/check&#43;version&#43;number&#43;of&#43;the&#43;component/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/introduction/check&#43;version&#43;number&#43;of&#43;the&#43;component/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--check-version-number-of-the-component&#34;&gt;Aspose.Cells for Java : Check Version Number of the Component&lt;/h1&gt;
+&lt;p&gt;In some cases, you might wonder what version of the product you have. Often we build new fixes (bug fixes for the user scenarios which they point out) and post them in the forums against their need urgently. A version number may consist of two to four parts/components: major, minor, build, and revision. The major and minor components are required; the build and revision components are optional, but the build component is required if the revision component is defined. All defined components must be integers greater than or equal to 0. The format of the version number is as follows. Optional components are shown in square brackets (&#39;[&amp;rsquo; and &amp;lsquo;]&#39;):&lt;/p&gt;
+&lt;p&gt;major.minor[.build[.revision]] , we may increase a part by 1 and make a new version. Normally, we increase the last part by 1 and build a new fix to post it into the forums for the users.&lt;/p&gt;
+&lt;p&gt;This document describes some ways to check which version of the component is installed on your system.&lt;/p&gt;
+&lt;h4 id=&#34;checking-the-version-number&#34;&gt;&lt;em&gt;Checking the version number&lt;/em&gt;&lt;/h4&gt;
+&lt;h5 id=&#34;1-manual-way&#34;&gt;&lt;em&gt;1) Manual Way&lt;/em&gt;&lt;/h5&gt;
+&lt;p&gt;If you have Java version/fix (Aspose.Cells for Java), you can unzip the Aspose.Cells library jar file, open the MANIFEST file with notepad and search the string i.e.., &amp;ldquo;Specification-Version: &amp;quot; to check its value.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276268/5473259.png&#34; alt=&#34;&#34;&gt;&lt;br&gt;
+&lt;strong&gt;Figure:&lt;/strong&gt; Checking the version number of the Java fix&lt;/p&gt;
+&lt;h5 id=&#34;2-using-the-apis&#34;&gt;&lt;em&gt;2) Using the APIs&lt;/em&gt;&lt;/h5&gt;
+&lt;p&gt;You may also use the following APIs to get the version number of the product.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

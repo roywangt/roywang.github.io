@@ -1,0 +1,102 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Drawing Objects</title>
+    <link>https://roywangt.github.io/cells/cpp/developerguide/drawingobjects/</link>
+    <description>Recent content in Drawing Objects on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://roywangt.github.io/cells/cpp/developerguide/drawingobjects/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Cpp: Extracting OLE Objects from Worksheet</title>
+      <link>https://roywangt.github.io/cells/cpp/developerguide/drawingobjects/extracting&#43;ole&#43;objects&#43;from&#43;worksheet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/cpp/developerguide/drawingobjects/extracting&#43;ole&#43;objects&#43;from&#43;worksheet/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-c--extracting-ole-objects-from-worksheet&#34;&gt;Aspose.Cells for C++ : Extracting OLE Objects from Worksheet&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#extracting-ole-objects-from-worksheet&#34;&gt;Extracting OLE Objects from Worksheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;Aspose.Cells allows you to extract all types of OLE objects from the worksheet. Please use &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_worksheet/#a4c59d95cdd871ecfe18274480831a728&#34;&gt;IWorksheet-&amp;gt;GetIOleObjects()&lt;/a&gt; method to access all the OLE objects inside the worksheet. Each OLE object has &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.drawing.i_ole_object/#abb2ea6872025fe4724d9613cd6b81752&#34;&gt;ProgID&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.drawing.i_ole_object/#a4a200a03478d3553798360cd6a911d70&#34;&gt;ObjectData&lt;/a&gt; properties that can help you identify the type of OLE object and extract it successfully.&lt;/p&gt;
+&lt;h2 id=&#34;extracting-ole-objects-from-worksheet&#34;&gt;Extracting OLE Objects from Worksheet&lt;/h2&gt;
+&lt;p&gt;The following sample code loads the &lt;a href=&#34;https://docs2.aspose.com/cells/cpp/attachments/66257169/66519077.xlsx&#34;&gt;sample Excel file&lt;/a&gt; which has three OLE objects. The code identifies the types of OLE objects and extracts them one by one as the following files.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/cpp/attachments/66257169/66519080.pptx&#34;&gt;outputExtractOleObject.pptx&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/cpp/attachments/66257169/66519079.pdf&#34;&gt;outputExtractOleObject.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/cpp/attachments/66257169/66519078.docx&#34;&gt;outputExtractOleObject.docx&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Cpp: Inserting OLE Objects into the Worksheet</title>
+      <link>https://roywangt.github.io/cells/cpp/developerguide/drawingobjects/inserting&#43;ole&#43;objects&#43;into&#43;the&#43;worksheet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/cpp/developerguide/drawingobjects/inserting&#43;ole&#43;objects&#43;into&#43;the&#43;worksheet/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-c--inserting-ole-objects-into-the-worksheet&#34;&gt;Aspose.Cells for C++ : Inserting OLE Objects into the Worksheet&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#inserting-ole-objects-into-the-worksheet&#34;&gt;Inserting OLE Objects into the Worksheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;Aspose.Cells allows you to insert an OLE object inside the worksheet. Please use &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.drawing.i_ole_object_collection/#af230dd65a00cefabcc4b9f165b5dc7ba&#34;&gt;IWorksheet-&amp;gt;GetIOleObjects()-&amp;gt;Add()&lt;/a&gt; method for this purpose. You will need an image byte array that will be used to insert the OLE object inside the worksheet and &lt;code&gt;Ole object data bytes&lt;/code&gt; that will be your actual object.to insert the Ole object inside the worksheet. &lt;/p&gt;
+&lt;h2 id=&#34;inserting-ole-objects-into-the-worksheet&#34;&gt;Inserting OLE Objects into the Worksheet&lt;/h2&gt;
+&lt;p&gt;The following sample code creates the workbook object and inserts the Ole object inside the first worksheet and saves it as &lt;a href=&#34;https://docs2.aspose.com/cells/cpp/attachments/66257162/66519074.xlsx&#34;&gt;output Excel file&lt;/a&gt;. Please see the &lt;a href=&#34;https://docs2.aspose.com/cells/cpp/attachments/66257162/66519075.png&#34;&gt;Aspose Logo&lt;/a&gt; used as &lt;code&gt;image bytes&lt;/code&gt; and &lt;a href=&#34;https://docs2.aspose.com/cells/cpp/attachments/66257162/66519081.xlsx&#34;&gt;input Excel file&lt;/a&gt; used as &lt;code&gt;Ole object data&lt;/code&gt; inside the code for reference.&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,1500 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Release Notes - 2010</title>
+    <link>https://roywangt.github.io/cells/java/releasenotes/asposecellsforjava/java/2010/</link>
+    <description>Recent content in Release Notes - 2010 on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://roywangt.github.io/cells/java/releasenotes/asposecellsforjava/java/2010/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Java: Aspose.Cells for Java 2.4.3 Release Notes</title>
+      <link>https://roywangt.github.io/cells/java/releasenotes/asposecellsforjava/java/2010/aspose.cells&#43;for&#43;java&#43;2.4.3&#43;release&#43;notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/releasenotes/asposecellsforjava/java/2010/aspose.cells&#43;for&#43;java&#43;2.4.3&#43;release&#43;notes/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--asposecells-for-java-243-release-notes&#34;&gt;Aspose.Cells for Java : Aspose.Cells for Java 2.4.3 Release Notes&lt;/h1&gt;
+&lt;p&gt;This page contains release notes for &lt;a href=&#34;http://www.aspose.com/downloads/cells/java/new-releases/aspose.cells-for-java-2.4.3/&#34;&gt;Aspose.Cells for Java 2.4.3&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;We are happy to announce Aspose.Cells for Java 2.4.3!&lt;/p&gt;
+&lt;p&gt;What&amp;rsquo;s changed:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Supports to get Excel 2007 Theme colors.&lt;/li&gt;
+&lt;li&gt;Exports charts/shapes as images for HTML file conversion.&lt;/li&gt;
+&lt;li&gt;Supports to read/write different headers/footers for first/even/odd pages.&lt;/li&gt;
+&lt;li&gt;Fixes some internal bugs of reading/saving Excel 2007 files.&lt;/li&gt;
+&lt;li&gt;Fixes some internal bugs of reading/saving ODS files.&lt;/li&gt;
+&lt;li&gt;Fixes some internal bugs of reading/saving Excel 97-2003 files.&lt;/li&gt;
+&lt;li&gt;Enhancement is made for Chart to Image feature.&lt;/li&gt;
+&lt;li&gt;Enhancement is made for Direct Excel to PDF feature.&lt;/li&gt;
+&lt;li&gt;14 fixes and enhancements.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Issues Resolved in Aspose.Cells for Java 2.4.3&lt;/p&gt;
+
+&lt;div class=&#34;table table-striped&#34; role=&#34;alert&#34;&gt;
+    &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Issue ID&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Component&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Summary&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;20887&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Xlsx&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Theme color used by cells&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;20913&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;ODS&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Read autofilter&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;21073&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Xls&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Copy cells&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;21164&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Xls&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Read Excel2003 file&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;21155&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Xls2Pdf&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Rendering shapes/Chinese characters&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;21283&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Xls&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Different header/footer for first/even/odd pages&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;21480&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Xlsx&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Read styles&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;21481&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;ODS&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Whole row/column reference like “B:B” or “1:1”&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;20635&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Chart&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Check invalid data source&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;21580&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Xls&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;AutoFilter&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;21679&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;ODS&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Read template file&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;21703&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Xls&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Number formatting&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;21686&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Xls&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Read document properties&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;21622&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;html&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Export chart/shapes as image&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Aspose.Cells for Java 2.4.2 Release Notes</title>
+      <link>https://roywangt.github.io/cells/java/releasenotes/asposecellsforjava/java/2010/aspose.cells&#43;for&#43;java&#43;2.4.2&#43;release&#43;notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/releasenotes/asposecellsforjava/java/2010/aspose.cells&#43;for&#43;java&#43;2.4.2&#43;release&#43;notes/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--asposecells-for-java-242-release-notes&#34;&gt;Aspose.Cells for Java : Aspose.Cells for Java 2.4.2 Release Notes&lt;/h1&gt;
+&lt;p&gt;This page contains release notes for &lt;a href=&#34;http://www.aspose.com/downloads/cells/java/new-releases/aspose.cells-for-java-2.4.2/&#34;&gt;Aspose.Cells for Java 2.4.2&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;We are happy to announce Aspose.Cells for Java 2.4.2!&lt;/p&gt;
+&lt;p&gt;What&amp;rsquo;s changed:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Supports array parameters(&lt;/p&gt;
+&lt;p&gt;Unknown macro: {&amp;hellip;}&lt;/p&gt;
+&lt;p&gt;) for setting formulas.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Provides support to add linked pictures.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Supports to save cells data directly into stream or file without building complete data model in the memory.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Check whether the license has been set, includes support to get expiry date of your subscription.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Reading/Saving Excel 2007 files operation is enhanced.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Chart to Image feature is enhanced.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Direct Excel to PDF feature is enhanced.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Formatting Cell values feature is enhanced.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Reading/Saving Excel 97-2003 files operation is enhanced.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;21 fixes and enhancements.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Issues Resolved in Aspose.Cells for Java 2.4.2&lt;/p&gt;
+&lt;p&gt;Issue ID&lt;/p&gt;
+&lt;p&gt;Component&lt;/p&gt;
+&lt;p&gt;Summary&lt;/p&gt;
+&lt;p&gt;20158&lt;/p&gt;
+&lt;p&gt;Formula&lt;/p&gt;
+&lt;p&gt;Function INDIRECT is not working properly with named range&lt;/p&gt;
+&lt;p&gt;20312&lt;/p&gt;
+&lt;p&gt;Xlsx&lt;/p&gt;
+&lt;p&gt;Read Excel2007 file&lt;/p&gt;
+&lt;p&gt;20311&lt;/p&gt;
+&lt;p&gt;Chart&lt;/p&gt;
+&lt;p&gt;Empty/Invisible cells&lt;/p&gt;
+&lt;p&gt;20313&lt;/p&gt;
+&lt;p&gt;Xlsx&lt;/p&gt;
+&lt;p&gt;Read Excel2007 file&lt;/p&gt;
+&lt;p&gt;20377&lt;/p&gt;
+&lt;p&gt;Xls&lt;/p&gt;
+&lt;p&gt;Add linked picture&lt;/p&gt;
+&lt;p&gt;20404&lt;/p&gt;
+&lt;p&gt;Chart2Image&lt;/p&gt;
+&lt;p&gt;Data Table number format&lt;/p&gt;
+&lt;p&gt;20439&lt;/p&gt;
+&lt;p&gt;Xls&lt;/p&gt;
+&lt;p&gt;Clear comments&lt;/p&gt;
+&lt;p&gt;20227&lt;/p&gt;
+&lt;p&gt;Xls&lt;/p&gt;
+&lt;p&gt;Check License&lt;/p&gt;
+&lt;p&gt;20581&lt;/p&gt;
+&lt;p&gt;Xls&lt;/p&gt;
+&lt;p&gt;Conditional formattings&lt;/p&gt;
+&lt;p&gt;20584&lt;/p&gt;
+&lt;p&gt;Xls&lt;/p&gt;
+&lt;p&gt;Saving xls files&lt;/p&gt;
+&lt;p&gt;20653&lt;/p&gt;
+&lt;p&gt;Chart2Image&lt;/p&gt;
+&lt;p&gt;NullPointerException for awt.Font&lt;/p&gt;
+&lt;p&gt;20137&lt;/p&gt;
+&lt;p&gt;Xls&lt;/p&gt;
+&lt;p&gt;Saving large excel files&lt;/p&gt;
+&lt;p&gt;20501&lt;/p&gt;
+&lt;p&gt;Xlsx&lt;/p&gt;
+&lt;p&gt;Saving large excel files&lt;/p&gt;
+&lt;p&gt;20845&lt;/p&gt;
+&lt;p&gt;Chart&lt;/p&gt;
+&lt;p&gt;Visibility of Axis and AxisLine&lt;/p&gt;
+&lt;p&gt;20877&lt;/p&gt;
+&lt;p&gt;Xls&lt;/p&gt;
+&lt;p&gt;Delete columns&lt;/p&gt;
+&lt;p&gt;18342&lt;/p&gt;
+&lt;p&gt;Formula&lt;/p&gt;
+&lt;p&gt;Array parameters in formula&lt;/p&gt;
+&lt;p&gt;18535&lt;/p&gt;
+&lt;p&gt;Formula&lt;/p&gt;
+&lt;p&gt;Array parameters in formula&lt;/p&gt;
+&lt;p&gt;18805&lt;/p&gt;
+&lt;p&gt;Formula&lt;/p&gt;
+&lt;p&gt;Array parameters in formula&lt;/p&gt;
+&lt;p&gt;20913&lt;/p&gt;
+&lt;p&gt;Xlsx&lt;/p&gt;
+&lt;p&gt;Save auto filters&lt;/p&gt;
+&lt;p&gt;21006&lt;/p&gt;
+&lt;p&gt;Chart&lt;/p&gt;
+&lt;p&gt;Chart formatting - Gradient fill lost&lt;/p&gt;
+&lt;p&gt;20979&lt;/p&gt;
+&lt;p&gt;Pdf&lt;/p&gt;
+&lt;p&gt;Image of OleObject&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Aspose.Cells for Java 2.4.1 Release Notes</title>
+      <link>https://roywangt.github.io/cells/java/releasenotes/asposecellsforjava/java/2010/aspose.cells&#43;for&#43;java&#43;2.4.1&#43;release&#43;notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/releasenotes/asposecellsforjava/java/2010/aspose.cells&#43;for&#43;java&#43;2.4.1&#43;release&#43;notes/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--asposecells-for-java-241-release-notes&#34;&gt;Aspose.Cells for Java : Aspose.Cells for Java 2.4.1 Release Notes&lt;/h1&gt;
+&lt;p&gt;This page contains release notes for &lt;a href=&#34;http://www.aspose.com/downloads/cells/java/new-releases/aspose.cells-for-java-2.4.1/&#34;&gt;Aspose.Cells for Java 2.4.1&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;We are happy to announce Aspose.Cells for Java v2.4.1!&lt;/p&gt;
+&lt;p&gt;What&amp;rsquo;s changed:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Supports more flexible model for calculating custom functions.&lt;/li&gt;
+&lt;li&gt;Includes error checking options for cells.&lt;/li&gt;
+&lt;li&gt;Mathematical calculation of Range parameters in formulas is added.&lt;/li&gt;
+&lt;li&gt;Provides support to set linked cells for chart frames such as Title, Data Labels.&lt;/li&gt;
+&lt;li&gt;Supports to manipulate window position and size properties for Workbook.&lt;/li&gt;
+&lt;li&gt;Reading/Saving Excel 2007 files operation is enhanced.&lt;/li&gt;
+&lt;li&gt;Chart to Image feature is enhanced.&lt;/li&gt;
+&lt;li&gt;Direct Excel to PDF feature is enhanced.&lt;/li&gt;
+&lt;li&gt;Formatting Cell values is enhanced.&lt;/li&gt;
+&lt;li&gt;Reading Excel 97-2003 files operation is enhanced.&lt;/li&gt;
+&lt;li&gt;Saving charts module is enhanced.&lt;/li&gt;
+&lt;li&gt;Formula Calculation Engine is enhanced.&lt;/li&gt;
+&lt;li&gt;21 fixes and enhancements.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Issues Resolved in Aspose.Cells for Java 2.4.1&lt;/p&gt;
+
+&lt;div class=&#34;table table-striped&#34; role=&#34;alert&#34;&gt;
+    &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Issue ID&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Component&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Summary&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;19342&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Chart2Image&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Legend order&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;19421&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Formula&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Formula calculation&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;19535&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Xlsx&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Save Excel2007 file&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;19543&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Xlsx&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Read Excel2007 file&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;19596&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Xls&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Cells.getMaxDataColumn()&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;19641&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Xls&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Error check options&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;19696&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Chart&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Save Chart for excel2003 file&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;19822&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Chart&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Linked cells for ChartFrames such as Title/DataLabels&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;19823&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Html&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Cell borders&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;19832&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Chart2Image&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;WaterFall Chart using StackedBar chart&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;19894&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Xls&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Get shape&amp;rsquo;s size, Read style&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;19989&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Xls&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Cell.getStringValue()/getValueType&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;20002&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Formula&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Calculate array formula with empty cells in range&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;20018&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Xls&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;3-Condition limit for conditional formattings&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;20021&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Formula&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Calculate custom functions&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;20037&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Formula&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Calculate formula with ICustomFunctionEx&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;20060&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Formula&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Calculate custom functions&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;20063&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Formula&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;IF function calculation for empty cells&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;20067&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Xls&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Get window position and size properties&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;20069&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Formula&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;VALUE function for empty cells&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;20158&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Formula&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Support Name for INDIRECT function&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Aspose.Cells for Java 2.4.0 Release Notes</title>
+      <link>https://roywangt.github.io/cells/java/releasenotes/asposecellsforjava/java/2010/aspose.cells&#43;for&#43;java&#43;2.4.0&#43;release&#43;notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/releasenotes/asposecellsforjava/java/2010/aspose.cells&#43;for&#43;java&#43;2.4.0&#43;release&#43;notes/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--asposecells-for-java-240-release-notes&#34;&gt;Aspose.Cells for Java : Aspose.Cells for Java 2.4.0 Release Notes&lt;/h1&gt;
+&lt;p&gt;This page contains release notes for &lt;a href=&#34;http://www.aspose.com/downloads/cells/java/new-releases/aspose.cells-for-java-2.4.0/&#34;&gt;Aspose.Cells for Java 2.4.0&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;We are happy to announce Aspose.Cells for Java v2.4.0!&lt;/p&gt;
+&lt;p&gt;What&amp;rsquo;s changed:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Includes Sheet to Image, Sheet to Print and Workbook to Print features&lt;/li&gt;
+&lt;li&gt;Supports Conditional formatting for Excel to Pdf feature&lt;/li&gt;
+&lt;li&gt;Provides support for grouping pivot table fields in Excel2007 files&lt;/li&gt;
+&lt;li&gt;Keeps macros when converting Excel97-2003 files to Excel2007 files&lt;/li&gt;
+&lt;li&gt;Renders Shapes when converting to Pdf files, e.g. TextBox, Rectangle, Oval, Arc&lt;/li&gt;
+&lt;li&gt;Supports to get/set full name of the source file for the Ole Object&lt;/li&gt;
+&lt;li&gt;Enhancement is made for reading/saving Conditional formatting&lt;/li&gt;
+&lt;li&gt;Enhancement is made for Chart to Image feature&lt;/li&gt;
+&lt;li&gt;Enhancement is made for direct Excel to Pdf feature&lt;/li&gt;
+&lt;li&gt;Enhancement is made for formatting of cell values&lt;/li&gt;
+&lt;li&gt;Enhancement is made for removing header/footer of PageSetup&lt;/li&gt;
+&lt;li&gt;Enhancement is made for copying cells&lt;/li&gt;
+&lt;li&gt;22 fixes and enhancements.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Issues Resolved in Aspose.Cells for Java v2.4.0&lt;/p&gt;
+
+&lt;div class=&#34;table table-striped&#34; role=&#34;alert&#34;&gt;
+    &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Issue ID&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Component&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Summary&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;15192&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Pdf&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Use direct xls2pdf instead of xsl2pdf with Aspose.Pdf&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;18628&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Xls&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Copy cells&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;18249&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Xls&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Number format&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;18778&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Xls&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Source file name of OleObject&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;18701&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Xlsx&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Read excel2007 file&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;18668&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Xls&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Conditional formattings&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;18789&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Xls&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Formula&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;12174&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Xls&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Sheet2Print, Sheet2Image&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;18896&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Xlsx&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Save shapes for excel2007&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;18879&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Pdf&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Draw textbox to pdf&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;19034&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Xls&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Remove header/footer&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;18854&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Xlsx&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Group pivottable&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;18917&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Pdf&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Keep macros when saving excel2007&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;19342&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Chart2Image&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Multiple Datasets with long names&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;19239&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Chart2Image&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;toImage() Method&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;19377&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Xlsx&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Sheet’s VeryHidden property&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;19379&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Xlsx&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Protect type MODIFY_FILE&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;19395&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Xlsx&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Save shapes for excel2007&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;19397&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Xls&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Shape.getLinkedCell&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;19057&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Xls&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Number format&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;11816&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Xlsx&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Encryption for excel2007&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;17908&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Pdf&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Conditional formattings for pdf&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Aspose.Cells for Java 2.3.1 Release Notes</title>
+      <link>https://roywangt.github.io/cells/java/releasenotes/asposecellsforjava/java/2010/aspose.cells&#43;for&#43;java&#43;2.3.1&#43;release&#43;notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/releasenotes/asposecellsforjava/java/2010/aspose.cells&#43;for&#43;java&#43;2.3.1&#43;release&#43;notes/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--asposecells-for-java-231-release-notes&#34;&gt;Aspose.Cells for Java : Aspose.Cells for Java 2.3.1 Release Notes&lt;/h1&gt;
+&lt;p&gt;This page contains release notes for &lt;a href=&#34;http://www.aspose.com/downloads/cells/java/new-releases/aspose.cells-for-java-2.3.1/&#34;&gt;Aspose.Cells for Java 2.3.1&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;We are happy to announce Aspose.Cells for Java 2.3.1!&lt;/p&gt;
+&lt;p&gt;What&amp;rsquo;s changed:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Provides support for AES encryption type for Excel 2007 files.&lt;/li&gt;
+&lt;li&gt;Supports reading/writing PivotTables for Excel 2007 files.&lt;/li&gt;
+&lt;li&gt;Adds svg/svgz image format support for Chart to Image feature.&lt;/li&gt;
+&lt;li&gt;Supports multiple print areas for PageSetup options.&lt;/li&gt;
+&lt;li&gt;Sets custom number formats for PivotField.&lt;/li&gt;
+&lt;li&gt;Includes new Built-in document properties for Excel 2007 file.&lt;/li&gt;
+&lt;li&gt;Combines multiple Workbooks.&lt;/li&gt;
+&lt;li&gt;Supports to save PDF to Stream for the direct Excel to PDF feature.&lt;/li&gt;
+&lt;li&gt;An enhancement is made for reading/writing Excel 2007 files.&lt;/li&gt;
+&lt;li&gt;An enhancement is made for reading/writing Excel 2003 files.&lt;/li&gt;
+&lt;li&gt;An enhancement is made for reading XLS template files.&lt;/li&gt;
+&lt;li&gt;25 fixes and other enhancements.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Issues Resolved in Aspose.Cells for Java 2.3.1&lt;/p&gt;
+
+&lt;div class=&#34;table table-striped&#34; role=&#34;alert&#34;&gt;
+    &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Issue ID&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Component&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Summary&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;9189&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Xlsx&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;AES encryption type for Excel 2007 files&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;10798&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Xls&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Combine workbooks&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;14946&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Pdf&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Direct xls2pdf: save to OutputStream&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;17818&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Xlsx&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Reading the template file&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;17835&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Html&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Line coloring, RichText format&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;17837&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Xls&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Column width issue&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;17960&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Pdf&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Generated PDF remains empty&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;17963&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Xls&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;getStringValue()&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;17968&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Chart2Image&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Chart2Image&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;17989&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;SmartMarker&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Dynamic formulas&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;17998&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Xls&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Copy worksheet, copy formula&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;18042&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Xlsx&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Setting standard column width for sheet&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;18096&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Pdf&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Saving Pdf&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;18181&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Xlsx&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Saving Pivot Table for Excel 2007 file&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;18188&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Xlsx&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Setting font name for Excel 2007 file&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;18201&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Xls&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Cell.getDependents() throws exception&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;18257&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Pdf&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Print areas in exported PDF&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;18274&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Xls&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Removing worksheet with pictures&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;18288&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Pdf&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Improving performance of saving Pdf&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;18307&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Xlsx&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Excel 2007 Document Properties&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;18328&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Xls&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Setting custom format to pivotField dataField&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;18345&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Xlsx&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Saving Chart for Excel 2007 files&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;18459&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Xlsx&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Saving document property for Excel 2007 file&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;18467&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Chart&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Getting DataLabels properties&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;13971&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Xlsx&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PivotTable&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Aspose.Cells for Java 2.3.0 Release Notes</title>
+      <link>https://roywangt.github.io/cells/java/releasenotes/asposecellsforjava/java/2010/aspose.cells&#43;for&#43;java&#43;2.3.0&#43;release&#43;notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/releasenotes/asposecellsforjava/java/2010/aspose.cells&#43;for&#43;java&#43;2.3.0&#43;release&#43;notes/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--asposecells-for-java-230-release-notes&#34;&gt;Aspose.Cells for Java : Aspose.Cells for Java 2.3.0 Release Notes&lt;/h1&gt;
+&lt;p&gt;This page contains release notes for &lt;a href=&#34;http://www.aspose.com/downloads/cells/java/new-releases/aspose.cells-for-java-2.3.0/&#34;&gt;Aspose.Cells for Java 2.3.0&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;We are happy to announce Aspose.Cells for Java 2.3.0!&lt;/p&gt;
+&lt;p&gt;What&amp;rsquo;s changed:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Supports saving PDF files directly without using Aspose.Pdf for Java.&lt;/li&gt;
+&lt;li&gt;Includes EMF image format support for Chart-to-Image feature.&lt;/li&gt;
+&lt;li&gt;Imports CalculationMode attribute from MS Excel 2007 template files.&lt;/li&gt;
+&lt;li&gt;Worksheet’s Copy operation is enhanced.&lt;/li&gt;
+&lt;li&gt;Enhances Copying Formulas.&lt;/li&gt;
+&lt;li&gt;Improves reading ODS files with ODF 1.2.&lt;/li&gt;
+&lt;li&gt;Improves reading Charts with gradient fill effect.&lt;/li&gt;
+&lt;li&gt;Reading XLS template files is optimized.&lt;/li&gt;
+&lt;li&gt;31 fixes and enhancements.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Issues Resolved in Aspose.Cells for Java 2.3.0.&lt;/p&gt;
+
+&lt;div class=&#34;table table-striped&#34; role=&#34;alert&#34;&gt;
+    &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Issue ID&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Component&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Summary&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;16386&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;xls&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Copying worksheet&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;17416&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;xls&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Insert Column issue&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;17424&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;xls&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Sort Names&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;17635&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;xls&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Read conditional formatting&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;17491&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;xls&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Getting Cells issue&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;17520&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;xlsx&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;R/W column width&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;17284&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;html&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Export pictures, read template file&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;17355&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;xls&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Invalid Number format&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;17232&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;xls&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Picture in page setup&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;17282&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;xls&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Auto-fit column width&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;17182&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;pdf&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Number format issue&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;17118&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;xls&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Shape position issue&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;17174&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;formula&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Get formula string&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;17001&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;formula&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Set formula&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;16997&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;xls&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Remove shapes&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;17107&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;ODS&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Save Charts in ODS files&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;17016&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;xls&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Copy cells, read template file&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;17140&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;xls&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Read template file&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;17019&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;xlsx&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Read CalculationMode property&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;16870&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;xlsx&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Save xlsx file&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;16986&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;xls&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Change file format&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;15975&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;html&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Save html – Performance issue&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;16872&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;xls&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Read template file issue&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;16890&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;xls&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Save extended style records&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;16001&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Xls2pdf&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Print titles is not working&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;17396&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Chart2Image&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Illegal pattern character error&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;16650&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Chart2Image&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Long category labels issue&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;17403&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Chart2Image&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;IllegalArgumentException issue&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;17431&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Chart2Image&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Line feed in Title&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;14681&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Chart2Image&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Axis Tick Labels issue&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;16037&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Chart2Image&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Legend Entries are wrong&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;16836&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Chart2Image&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Data Labels Alignment&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Aspose.Cells for Java 2.2.1 Release Notes</title>
+      <link>https://roywangt.github.io/cells/java/releasenotes/asposecellsforjava/java/2010/aspose.cells&#43;for&#43;java&#43;2.2.1&#43;release&#43;notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/releasenotes/asposecellsforjava/java/2010/aspose.cells&#43;for&#43;java&#43;2.2.1&#43;release&#43;notes/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--asposecells-for-java-221-release-notes&#34;&gt;Aspose.Cells for Java : Aspose.Cells for Java 2.2.1 Release Notes&lt;/h1&gt;
+&lt;p&gt;This page contains release notes for &lt;a href=&#34;http://www.aspose.com/downloads/cells/java/new-releases/aspose.cells-for-java-2.2.1/&#34;&gt;Aspose.Cells for Java 2.2.1&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;We are happy to announce Aspose.Cells for Java 2.2.1!&lt;/p&gt;
+&lt;p&gt;What&amp;rsquo;s changed:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Includes support for Advanced Conditional formatting provided by MS Excel 2007&lt;/li&gt;
+&lt;li&gt;Supports Extended records of Conditional formatting saved by MS Excel 2007 for XLS file&lt;/li&gt;
+&lt;li&gt;Keeps unsupported formulas in reading MS Excel 2007 files&lt;/li&gt;
+&lt;li&gt;Reads pictures from Header/Footer in MS Excel 2007 template file&lt;/li&gt;
+&lt;li&gt;Enhancements are made for reading template files&lt;/li&gt;
+&lt;li&gt;17 fixes and other enhancements.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Issues Resolved in Aspose.Cells for Java 2.2.1&lt;/p&gt;
+
+&lt;div class=&#34;table table-striped&#34; role=&#34;alert&#34;&gt;
+    &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Issue ID&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Component&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Summary&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;16369&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;xls&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Save xls file&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;16358&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;xls&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Save format conditions&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;16368&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;xls&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Set color of Style&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;12184&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;formula&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Copy formulas&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;16246&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;formula&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Save formulas&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;16240&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;xls&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Shift rows&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;16221&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;xls&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Read template files with non-standard records&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;16180&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Chart&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Create chart with NamedRange as data source&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;16003&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Chart2Image&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Legend Entry missing in the chart image&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;16659&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Chart2Image&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Problems with percent labels&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;16150&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Chart2Image&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Wrong color pattern in the image&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;16261&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;formula&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Read formulas from template file&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;16386&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;xls&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Read template files&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;15585&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;xls&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Re-save template files&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;16732&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;xls&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Delete worksheet&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;16206&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;xls&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Extended conditional formattings of Excel2007&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;16150&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Chart&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;GradientFill color&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Aspose.Cells for Java 2.2.0 Release Notes</title>
+      <link>https://roywangt.github.io/cells/java/releasenotes/asposecellsforjava/java/2010/aspose.cells&#43;for&#43;java&#43;2.2.0&#43;release&#43;notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/releasenotes/asposecellsforjava/java/2010/aspose.cells&#43;for&#43;java&#43;2.2.0&#43;release&#43;notes/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--asposecells-for-java-220-release-notes&#34;&gt;Aspose.Cells for Java : Aspose.Cells for Java 2.2.0 Release Notes&lt;/h1&gt;
+&lt;p&gt;This page contains release notes for &lt;a href=&#34;http://www.aspose.com/downloads/cells/java/new-releases/aspose.cells-for-java-2.2.0/&#34;&gt;Aspose.Cells for Java 2.2.0&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;We are happy to announce Aspose.Cells for Java 2.2.0!&lt;/p&gt;
+&lt;p&gt;What&amp;rsquo;s changed:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Sets formulas with row/column/parameters exceeding MS Excel 2003 limit&lt;br&gt;
+Supports to keep original data that is read from MS Excel 2010 template file&lt;br&gt;
+Manipulate MS Excel 2010 Sparklines&lt;br&gt;
+Provides extended Styles saved by MS Excel 2007 for XLS files&lt;br&gt;
+Supports to auto-detect file format type while opening template file without specifying format for Html and SpreadSheeML files&lt;br&gt;
+Removes a chart from Charts collection&lt;br&gt;
+Allows to delete blank rows/columns in the worksheet&lt;br&gt;
+Supports to save the color to the nearest matching color in the palette when the user specified color is not in the standard palette.&lt;br&gt;
+Exports rotation attribute of text for Excel to Pdf feature&lt;br&gt;
+Exports charts as images for Excel to Pdf feature&lt;br&gt;
+Removes existing Print Area&lt;br&gt;
+Includes enhancements for saving merged areas: check and remove or combine those duplicated/overlapped areas which might cause the generated file show warning message when it is opened in MS Excel&lt;br&gt;
+Includes enhancements for adding page breaks: check and remove duplicated page breaks before saving&lt;br&gt;
+Includes enhancement for Chart to Image feature&lt;br&gt;
+65 fixes and other enhancements.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Issues Resolved in Aspose.Cells for Jav&lt;/p&gt;
+&lt;p&gt;Notable changes for users:&lt;/p&gt;
+&lt;p&gt;In the old versions, the Workbook.save(String) and Workbook.save(InputStream) methods will always save the resultant file as Excel97TO2003 file format.&lt;/p&gt;
+&lt;p&gt;From this version, if the workbook’s format type has been specified, the Workbook.save(String) and Workbook.save(InputStream) methods will save the resultant file in the format specified by the Workbook. The format type of workbook can be set by the Workbook.setFileFormatType(int) method. Or, it can be set as the input template file’s format automatically when opening an existing template file.&lt;/p&gt;
+&lt;p&gt;Moreover, the row/column limit of formulas and parameter count limit of formulas depend on the Workbook’s format type too. Before you exceed the row/column/parameter limit of formulas for MS Excel 2003, you have to set the Workbook’s format explicitly to some other types, such as EXCEL2007.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Aspose.Cells for Java 2.1.2 Release Notes</title>
+      <link>https://roywangt.github.io/cells/java/releasenotes/asposecellsforjava/java/2010/aspose.cells&#43;for&#43;java&#43;2.1.2&#43;release&#43;notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/releasenotes/asposecellsforjava/java/2010/aspose.cells&#43;for&#43;java&#43;2.1.2&#43;release&#43;notes/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--asposecells-for-java-212-release-notes&#34;&gt;Aspose.Cells for Java : Aspose.Cells for Java 2.1.2 Release Notes&lt;/h1&gt;
+&lt;p&gt;This page contains release notes for &lt;a href=&#34;http://www.aspose.com/downloads/cells/java/new-releases/aspose.cells-for-java-2.1.2/&#34;&gt;Aspose.Cells for Java 2.1.2&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;We are happy to announce Aspose.Cells for Jav!&lt;/p&gt;
+&lt;p&gt;What&amp;rsquo;s changed:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Provides Chart-to-Image feature.&lt;br&gt;
+Imports RichText from SpreadSheetML template file.&lt;br&gt;
+Supports to export Name object with external references for SpreadSheetML file.&lt;br&gt;
+Exports Pictures in PageSetup for Excel 2007 files.&lt;br&gt;
+Imports TextBox controls from Excel 2007 files.&lt;br&gt;
+Provides support to set record limit when importing data from ResultSet for Smart Markers.&lt;br&gt;
+Sets the position of a Shape to the center of given range.&lt;br&gt;
+Supports to add calculated field for a PivotTable.&lt;br&gt;
+Supports to get/set VeryHidden property for a Worksheet.&lt;br&gt;
+Adds new formula to the supported formulas list: FREQUENCY&lt;br&gt;
+Recognizes the file format automatically for LightCells API.&lt;br&gt;
+Enhances style’s model for performance consideration.&lt;br&gt;
+Improves the API regarding Comment for performance consideration.&lt;br&gt;
+Enhances the performance of reading large Excel 2007 files.&lt;br&gt;
+Boosts the performance of LightCells API for large Excel 2007 files.&lt;br&gt;
+Reading operation for a document’s properties is enhanced.&lt;br&gt;
+Importing CSV files operation is enhanced.&lt;br&gt;
+67 fixes and enhancements.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Issues Resolved in Aspose.Cells for Java 2.1.2&lt;/p&gt;
+
+&lt;div class=&#34;table table-striped&#34; role=&#34;alert&#34;&gt;
+    &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Issue ID&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Component&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Summary&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;6245&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;xls&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Gather styles&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;6362&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;xls&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Copy style when inserting rows/columns&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;11871&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;xls&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Copy cell range&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;11890&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;html&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Read Conditional formatting&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;11891&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;chart&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;LogarithmicBase property of ValueAxis&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;11911&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;SpreadSheetML&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Save style&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;11928&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;xls&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Read template file&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;11943&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;SpreadSheetML&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Read special file generated by OWC&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;11973&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;SpreadSheetML&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Read special file generated by OWC&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;12006&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;CSV&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Read csv file&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;12032&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;FormulaEngine&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;COUNTIF formula&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;12034&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;xls&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Auto fit columns&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;12056&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;FormulaEngine&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;IF formula&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;12080&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;chart&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Formatted value of ChartFrame&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;12105&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;xls&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Read row height&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;12128&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;chart&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Get marker&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;12138&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;chart&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Read marker&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;12184&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;xls&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Copy formulas&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;12229&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;SpreadSheetML&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Read rich text&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;12238&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;xlsx&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Performance of reading template file&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;12238&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;xlsx&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Performance of reading template file&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;12243&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;chart&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;ASeries’s type&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;12253&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;xls&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Hyperlink’s link type&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;12271&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;chart&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;DataLabels&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;12275&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;xls&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;LightCells&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;12317&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;chart&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Title’s text&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;12324&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Chart2Image&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;ImageOption&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;12347&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;SpreadSheetML&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Hyperlink&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;12434&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;chart&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;GradientFill&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;12477&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;xlsx&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;LightCells&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;12493&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;xlsx&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Read Conditional formatting&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;12498&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;chart&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;ChartPoints and LegendEntries collection&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;12575&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;chart&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PlotArea’s size&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;12576&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;chart&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;ErrorBar&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;12622&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;xlsx&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Read shared formula&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;12625&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;xlsx&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Read chart&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;12667&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;xls&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Datetime value&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;12684&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;CSV&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Read number&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;12717&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;xls&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Picture with Mac OS&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;12727&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;xls&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Read document properties&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;12750&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;xls&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Get hyperlink of shape&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;12870&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;xlsx&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Read drawing object&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;12880&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Chart2Image&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Draw chart&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;12894&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PivotTable&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;addCalculateField() method&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;12915&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;xlsx&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Save String value&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;12957&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;SpreadSheetML&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Save document properties&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;12971&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;xls&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;VeryHidden property of worksheet&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;13012&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Chart2Image&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Unsupported Font in special environment&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;13101&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;xlsx&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Read PageSetup and style&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;13270&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;xls&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Position shape&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;13385&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;xls&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Copy AutoFilter&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;13386&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;xlsx&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Save xlsx file&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;13403&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;xls&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Save style&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;13418&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;xls&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Read AutoFilter&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;13448&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Smart Marker&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Record limit for ResultSet datasource&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;13614&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;xlsx&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Picture in PageSetup&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;13639&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;xls&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Create TextBox&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;13679&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;xlsx&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Read xlsx file with Apache zip tool&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;13725&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;chart&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Copy Axis&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;13735&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;xls&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Formulas of FormatConditions/Validations&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;13736&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;xls&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Date format&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;13821&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;xls&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Performance of creating Comment&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;14056&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;chart&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Gradient fill&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;14108&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;xls&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Copy PageBreaks&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;14116&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;xls&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Delete data&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;14146&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Chart2Image&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Chart2Image&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;14246&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;xls&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Copy PageSetup&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;Notable changes for users:&lt;/p&gt;
+&lt;p&gt;In old versions, Cell.getStyle()/Row.getStyle()/Column.getStyle() methods might cause Cell/Row/Column maintain their own Style object. Modification of the returned Style object for getStyle() later will change the Cell/Row/Column&amp;rsquo;s style directly.&lt;/p&gt;
+&lt;p&gt;From this version, all Style objects that set to Cell/Row/Column will be gathered for performance considerations and Cell/Row/Column will only maintain a style reference. Modification of the returned Style object for getStyle() later will not change the Cell/Row/Column&amp;rsquo;s style. To make the modification take effect, users need to call setStyle() for Cell/Row/Column after the style is modified.&lt;/p&gt;
+&lt;p&gt;This rule is required for Style.getFont()/getColor()/getPatternColor()/getBorderColor() methods too. In old versions, modification of the returned Font/Color object might cause the style change directly. In the new version, after making changes for the Font/Color object, users need to call Style.setFont()/setColor()/setPatternColor()/setBorderColor() to make the modification take effect.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

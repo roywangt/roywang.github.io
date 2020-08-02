@@ -1,0 +1,1298 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Page Setup Features</title>
+    <link>https://roywangt.github.io/cells/net/developerguide/worksheets/pagesetupfeatures/</link>
+    <description>Recent content in Page Setup Features on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://roywangt.github.io/cells/net/developerguide/worksheets/pagesetupfeatures/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Net: Setting Page Options</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/worksheets/pagesetupfeatures/setting&#43;page&#43;options/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/worksheets/pagesetupfeatures/setting&#43;page&#43;options/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--setting-page-options&#34;&gt;Aspose.Cells for .NET : Setting Page Options&lt;/h1&gt;
+&lt;p&gt;Sometimes, it is necessary to configure page setup settings for worksheets to control printing. These page setup settings offer various options.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#setting-page-options&#34;&gt;Setting Page Options&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#page-orientation&#34;&gt;Page Orientation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.2 &lt;a href=&#34;#scaling-factor&#34;&gt;Scaling Factor&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.3 &lt;a href=&#34;#fittopages-options&#34;&gt;FitToPages Options&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.4 &lt;a href=&#34;#paper-size&#34;&gt;Paper Size&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.5 &lt;a href=&#34;#print-quality&#34;&gt;Print Quality&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.6 &lt;a href=&#34;#first-page-number&#34;&gt;First Page Number&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;setting-page-options&#34;&gt;Setting Page Options&lt;/h2&gt;
+&lt;p&gt;Page setup options are fully supported in Aspose.Cells. This article explains how to set page options with Aspose.Cells and shows code samples for setting:&lt;/p&gt;
+&lt;p&gt;Aspose.Cells provides a class, &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/workbook&#34;&gt;Workbook&lt;/a&gt;, that represents a Microsoft Excel file. The &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/workbook&#34;&gt;Workbook &lt;/a&gt;class contains a &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/workbook/properties/worksheets&#34;&gt;Worksheets&lt;/a&gt; collection that allows access to each worksheet in the Excel file. A worksheet is represented by the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/worksheet&#34;&gt;Worksheet&lt;/a&gt; class.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/worksheet&#34;&gt;Worksheet&lt;/a&gt; class provides the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/worksheet/properties/pagesetup&#34;&gt;PageSetup&lt;/a&gt; property that is used to set the page setup options of the worksheet. In fact, this &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/worksheet/properties/pagesetup&#34;&gt;PageSetup&lt;/a&gt; property is an object of the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/pagesetup&#34;&gt;PageSetup&lt;/a&gt; class used to set different page layout options for a printed worksheet. The &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/pagesetup&#34;&gt;PageSetup&lt;/a&gt; class provides various properties used to set page setup options. Some of these properties are discussed below.&lt;/p&gt;
+&lt;h3 id=&#34;page-orientation&#34;&gt;Page Orientation&lt;/h3&gt;
+&lt;p&gt;Page orientation can be set to portrait or landscape using the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/pagesetup&#34;&gt;PageSetup&lt;/a&gt; class&amp;rsquo; &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/pagesetup/properties/orientation&#34;&gt;Orientation&lt;/a&gt; property. The &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/pagesetup/properties/orientation&#34;&gt;Orientation&lt;/a&gt; property accepts one of the pre-defined values in the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/pageorientationtype&#34;&gt;PageOrientationType&lt;/a&gt; enumeration, listed below.&lt;/p&gt;
+
+&lt;div class=&#34;table table-striped&#34; role=&#34;alert&#34;&gt;
+    &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Page Orientation Types&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Landscape&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Landscape orientation&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Portrait&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Portrait orientation&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+
+&lt;h3 id=&#34;scaling-factor&#34;&gt;Scaling Factor&lt;/h3&gt;
+&lt;p&gt;It is possible to reduce or enlarge a worksheet&amp;rsquo;s size by adjusting the scaling factor with the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/pagesetup/properties/zoom&#34;&gt;PageSetup.Zoom&lt;/a&gt; property.&lt;/p&gt;
+&lt;h3 id=&#34;fittopages-options&#34;&gt;FitToPages Options&lt;/h3&gt;
+&lt;p&gt;To fit the contents of the worksheet to a specific number of pages, use the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/pagesetup&#34;&gt;PageSetup&lt;/a&gt; class&amp;rsquo; &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/pagesetup/properties/fittopagestall&#34;&gt;FitToPagesTall&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/pagesetup/properties/fittopageswide&#34;&gt;FitToPagesWide&lt;/a&gt; properties. These properties are also used to scale worksheets.&lt;/p&gt;
+&lt;p&gt;You can either choose the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/pagesetup/properties/fittopagestall&#34;&gt;FitToPagesTall&lt;/a&gt;/&lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/pagesetup/properties/fittopageswide&#34;&gt;FitToPagesWide&lt;/a&gt; or the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/pagesetup/properties/zoom&#34;&gt;Zoom&lt;/a&gt; property but not both at the same time.&lt;/p&gt;
+&lt;h3 id=&#34;paper-size&#34;&gt;Paper Size&lt;/h3&gt;
+&lt;p&gt;Set the paper size that the worksheets will be printed to using the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/pagesetup&#34;&gt;PageSetup&lt;/a&gt; class&amp;rsquo; &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/pagesetup/properties/papersize&#34;&gt;PaperSize&lt;/a&gt; property. The &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/pagesetup/properties/papersize&#34;&gt;PaperSize&lt;/a&gt; property accepts one of the pre-defined values in the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/papersizetype&#34;&gt;PaperSizeType&lt;/a&gt; enumeration, listed below.&lt;/p&gt;
+
+&lt;div class=&#34;table table-striped&#34; role=&#34;alert&#34;&gt;
+    &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Paper Size Types&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperLetter&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Letter (8-1/2 in. x 11 in.)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperLetterSmall&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Letter Small (8-1/2 in. x 11 in.)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperTabloid&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Tabloid (11 in. x 17 in.)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperLedger&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Ledger (17 in. x 11 in.)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperLegal&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Legal (8-1/2 in. x 14 in.)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperStatement&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Statement (5-1/2 in. x 8-1/2 in.)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperExecutive&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Executive (7-1/4 in. x 10-1/2 in.)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperA3&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;A3 (297 mm x 420 mm)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperA4&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;A4 (210 mm x 297 mm)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperA4Small&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;A4 Small (210 mm x 297 mm)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperA5&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;A5 (148 mm x 210 mm)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperB4&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;JIS B4 (257 mm x 364 mm)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperB5&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;JIS B5 (182 mm x 257 mm)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperFolio&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Folio (8-1/2 in. x 13 in.)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperQuarto&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Quarto (215 mm x 275 mm)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Paper10x14&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;10 in. x 14 in.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Paper11x17&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;11 in. x 17 in.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperNote&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Note (8-1/2 in. x 11 in.)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperEnvelope9&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Envelope #9 (3-7/8 in. x 8-7/8 in.)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperEnvelope10&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Envelope #10 (4-1/8 in. x 9-1/2 in.)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperEnvelope11&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Envelope #11 (4-1/2 in. x 10-3/8 in.)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperEnvelope12&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Envelope #12 (4-1/2 in. x 11 in.)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperEnvelope14&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Envelope #14 (5 in. x 11-1/2 in.)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperCSheet&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;C size sheet&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperDSheet&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;D size sheet&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperESheet&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;E size sheet&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperEnvelopeDL&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Envelope DL (110 mm x 220 mm)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperEnvelopeC5&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Envelope C5 (162 mm x 229 mm)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperEnvelopeC3&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Envelope C3 (324 mm x 458 mm)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperEnvelopeC4&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Envelope C4 (229 mm x 324 mm)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperEnvelopeC6&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Envelope C6 (114 mm x 162 mm)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperEnvelopeC65&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Envelope C65 (114 mm x 229 mm)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperEnvelopeB4&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Envelope B4 (250 mm x 353 mm&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperEnvelopeB5&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Envelope B5 (176 mm x 250 mm)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperEnvelopeB6&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Envelope B6 (176 mm x 125 mm)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperEnvelopeItaly&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Envelope Italy (110 mm x 230 mm)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperEnvelopeMonarch&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Envelope Monarch (3-7/8 in. x 7-1/2 in.)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperEnvelopePersonal&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Envelope (3-5/8 in. x 6-1/2 in.)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperFanfoldUS&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;U.S. Standard Fanfold (14-7/8 in. x 11 in.)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperFanfoldStdGerman&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;German Standard Fanfold (8-1/2 in. x 12 in.)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperFanfoldLegalGerman&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;German Legal Fanfold (8-1/2 in. x 13 in.)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperISOB4&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;B4 (ISO) 250 x 353 mm&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperJapanesePostcard&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Japanese Postcard (100mm x 148mm)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Paper9x11&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;9 in. x 11 in.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Paper10x11&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;10 in. x 11 in.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Paper15x11&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;15 in. x 11 in.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperEnvelopeInvite&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Envelope Invite(220mm x 220mm)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperLetterExtra&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;US Letter Extra 9 \275 x 12 in&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperLegalExtra&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;US Legal Extra 9 \275 x 15 in&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperTabloidExtra&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;US Tabloid Extra 11.69 x 18 in&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperA4Extra&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;A4 Extra 9.27 x 12.69 in&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperLetterTransverse&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Letter Transverse 8 \275 x 11 in&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperA4Transverse&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;A4 Transverse 210 x 297 mm&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperLetterExtraTransverse&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Letter Extra Transverse 9\275 x 12 in&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperSuperA&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;SuperA/SuperA/A4 227 x 356 mm&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperSuperB&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;SuperB/SuperB/A3 305 x 487 mm&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperLetterPlus&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;US Letter Plus 8.5 x 12.69 in&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperA4Plus&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;A4 Plus 210 x 330 mm&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperA5Transverse&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;A5 Transverse 148 x 210 mm&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperJISB5Transverse&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;B5 (JIS) Transverse 182 x 257 mm&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperA3Extra&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;A3 Extra 322 x 445 mm&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperA5Extra&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;A5 Extra 174 x 235 mm&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperISOB5Extra&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;B5 (ISO) Extra 201 x 276 mm&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperA2&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;A2 420 x 594 mm&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperA3Transverse&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;A3 Transverse 297 x 420 mm&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperA3ExtraTransverse&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;A3 Extra Transverse 322 x 445 mm&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperJapaneseDoublePostcard&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Japanese Double Postcard 200 x 148 mm&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperA6&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;A6 105 x 148 mm&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperJapaneseEnvelopeKaku2&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Japanese Envelope Kaku #2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperJapaneseEnvelopeKaku3&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Japanese Envelope Kaku #3&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperJapaneseEnvelopeChou3&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Japanese Envelope Chou #3&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperJapaneseEnvelopeChou4&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Japanese Envelope Chou #4&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperLetterRotated&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;11in x 8.5in&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperA3Rotated&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;420mm x 297mm&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperA4Rotated&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;297mm x 210mm&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperA5Rotated&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;210mm x 148mm&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperJISB4Rotated&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;B4 (JIS) Rotated 364 x 257 mm&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperJISB5Rotated&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;B5 (JIS) Rotated 257 x 182 mm&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperJapanesePostcardRotated&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Japanese Postcard Rotated 148 x 100 mm&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperJapaneseDoublePostcardRotated&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Double Japanese Postcard Rotated 148 x 200 mm&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperA6Rotated&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;A6 Rotated 148 x 105 mm&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperJapaneseEnvelopeKaku2Rotated&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Japanese Envelope Kaku #2 Rotated&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperJapaneseEnvelopeKaku3Rotated&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Japanese Envelope Kaku #3 Rotated&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperJapaneseEnvelopeChou3Rotated&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Japanese Envelope Chou #3 Rotated&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperJapaneseEnvelopeChou4Rotated&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Japanese Envelope Chou #4 Rotated&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperJISB6&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;B6 (JIS) 128 x 182 mm&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperJISB6Rotated&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;B6 (JIS) Rotated 182 x 128 mm&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Paper12x11&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;12 x 11 in&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperJapaneseEnvelopeYou4&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Japanese Envelope You #4&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperJapaneseEnvelopeYou4Rotated&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Japanese Envelope You #4 Rotated&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperPRC16K&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PRC 16K 146 x 215 mm&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperPRC32K&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PRC 32K 97 x 151 mm&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperPRCBig32K&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PRC 32K(Big) 97 x 151 mm&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperPRCEnvelope1&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PRC Envelope #1 102 x 165 mm&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperPRCEnvelope2&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PRC Envelope #2 102 x 176 mm&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperPRCEnvelope3&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PRC Envelope #3 125 x 176 mm&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperPRCEnvelope4&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PRC Envelope #4 110 x 208 mm&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperPRCEnvelope5&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PRC Envelope #5 110 x 220 mm&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperPRCEnvelope6&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PRC Envelope #6 120 x 230 mm&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperPRCEnvelope7&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PRC Envelope #7 160 x 230 mm&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperPRCEnvelope8&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PRC Envelope #8 120 x 309 mm&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperPRCEnvelope9&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PRC Envelope #9 229 x 324 mm&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperPRCEnvelope10&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PRC Envelope #10 324 x 458 mm&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperPRC16KRotated&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PRC 16K Rotated&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperPRC32KRotated&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PRC 32K Rotated&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperPRCBig32KRotated&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PRC 32K(Big) Rotated&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperPRCEnvelope1Rotated&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PRC Envelope #1 Rotated 165 x 102 mm&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperPRCEnvelope2Rotated&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PRC Envelope #2 Rotated 176 x 102 mm&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperPRCEnvelope3Rotated&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PRC Envelope #3 Rotated 176 x 125 mm&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperPRCEnvelope4Rotated&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PRC Envelope #4 Rotated 208 x 110 mm&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperPRCEnvelope5Rotated&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PRC Envelope #5 Rotated 220 x 110 mm&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperPRCEnvelope6Rotated&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PRC Envelope #6 Rotated 230 x 120 mm&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperPRCEnvelope7Rotated&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PRC Envelope #7 Rotated 230 x 160 mm&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperPRCEnvelope8Rotated&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PRC Envelope #8 Rotated 309 x 120 mm&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperPRCEnvelope9Rotated&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PRC Envelope #9 Rotated 324 x 229 mm&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperPRCEnvelope10Rotated&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;PRC Envelope #10 Rotated 458 x 324 mm&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperB3&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;usual B3(13.9 x 19.7 in)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperBusinessCard&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Business Card(90mm x 55 mm)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PaperThermal&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Thermal(3 x 11 in)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Custom&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents the custom paper size.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+
+&lt;h3 id=&#34;print-quality&#34;&gt;Print Quality&lt;/h3&gt;
+&lt;p&gt;Set the print quality of the worksheets to be printed with the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/pagesetup&#34;&gt;PageSetup&lt;/a&gt; class&amp;rsquo; &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/pagesetup/properties/printquality&#34;&gt;PrintQuality&lt;/a&gt; property. The measuring unit for print quality is Dots Per Inches (DPI).&lt;/p&gt;
+&lt;h3 id=&#34;first-page-number&#34;&gt;First Page Number&lt;/h3&gt;
+&lt;p&gt;Start the numbering of worksheet pages using the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/pagesetup&#34;&gt;PageSetup&lt;/a&gt; class&amp;rsquo; &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/pagesetup/properties/firstpagenumber&#34;&gt;FirstPageNumber&lt;/a&gt; property. The &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/pagesetup/properties/firstpagenumber&#34;&gt;FirstPageNumber&lt;/a&gt; property sets the page number of the first worksheet page and the next pages are numbered in ascending order.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Setting Margins</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/worksheets/pagesetupfeatures/setting&#43;margins/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/worksheets/pagesetupfeatures/setting&#43;margins/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--setting-margins&#34;&gt;Aspose.Cells for .NET : Setting Margins&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells fully supports Microsoft Excel&amp;rsquo;s page setup options. Developers may need to configure page setup settings for worksheets to control the printing process. This topic discusses how to use Aspose.Cells to configure page margins.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#setting-margins&#34;&gt;Setting Margins&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#page-margins&#34;&gt;Page Margins&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.2 &lt;a href=&#34;#center-on-page&#34;&gt;Center on Page&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.3 &lt;a href=&#34;#header-and-footer-margins&#34;&gt;Header and Footer Margins&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;setting-margins&#34;&gt;Setting Margins&lt;/h2&gt;
+&lt;p&gt;Aspose.Cells provides a class, &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/workbook&#34;&gt;Workbook&lt;/a&gt;, that represents an Excel file. The &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/workbook&#34;&gt;Workbook&lt;/a&gt; class contains the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/workbook/properties/worksheets&#34;&gt;Worksheets&lt;/a&gt; collection that allows access to each worksheet in the Excel file. A worksheet is represented by the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/worksheet&#34;&gt;Worksheet&lt;/a&gt; class.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/worksheet&#34;&gt;Worksheet&lt;/a&gt; class provides the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/worksheet/properties/pagesetup&#34;&gt;PageSetup&lt;/a&gt; property used to set the page setup options for a worksheet. The &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/worksheet/properties/pagesetup&#34;&gt;PageSetup&lt;/a&gt; attribute is an object of the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/pagesetup&#34;&gt;PageSetup&lt;/a&gt; class that enables developers to set different page layout options for a printed worksheet. The &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/pagesetup&#34;&gt;PageSetup&lt;/a&gt; class provides various properties and methods used to set page setup options.&lt;/p&gt;
+&lt;h3 id=&#34;page-margins&#34;&gt;Page Margins&lt;/h3&gt;
+&lt;p&gt;Set page margins (left, right, top, bottom) using &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/pagesetup&#34;&gt;PageSetup&lt;/a&gt; class members. A few of the methods are listed below which are used to specify page margins:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/pagesetup/properties/leftmargin&#34;&gt;LeftMargin&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/pagesetup/properties/rightmargin&#34;&gt;RightMargin&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/pagesetup/properties/topmargin&#34;&gt;TopMargin&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/pagesetup/properties/bottommargin&#34;&gt;BottomMargin&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;center-on-page&#34;&gt;Center on Page&lt;/h3&gt;
+&lt;p&gt;It is possible to center something on a page horizontally and vertically. For this, there are some useful members of the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/pagesetup&#34;&gt;PageSetup&lt;/a&gt; class, &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/pagesetup/properties/centerhorizontally&#34;&gt;CenterHorizontally&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/pagesetup/properties/centervertically&#34;&gt;CenterVertically&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;header-and-footer-margins&#34;&gt;Header and Footer Margins&lt;/h3&gt;
+&lt;p&gt;Set header and footer margins with the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/pagesetup&#34;&gt;PageSetup&lt;/a&gt; class members such as &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/pagesetup/properties/headermargin&#34;&gt;HeaderMargin&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/pagesetup/properties/footermargin&#34;&gt;FooterMargin&lt;/a&gt;.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Setting Headers and Footers</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/worksheets/pagesetupfeatures/setting&#43;headers&#43;and&#43;footers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/worksheets/pagesetupfeatures/setting&#43;headers&#43;and&#43;footers/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--setting-headers-and-footers&#34;&gt;Aspose.Cells for .NET : Setting Headers and Footers&lt;/h1&gt;
+&lt;p&gt;Headers and footers are the lines of text displayed below the top margin or above the bottom margin respectively. It&amp;rsquo;s possible to add headers and footers to the worksheets also. Headers and footers can be used to display useful information like page number, author name, topic name, or date and time. Headers and footers are managed using the page setup settings.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#setting-headers-and-footers&#34;&gt;Setting Headers and Footers&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#script-commands&#34;&gt;Script Commands&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.2 &lt;a href=&#34;#set-headers-and-footers&#34;&gt;Set Headers and Footers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.3 &lt;a href=&#34;#insert-an-image-into-a-header-or-footer&#34;&gt;Insert an Image into a Header or Footer&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;setting-headers-and-footers&#34;&gt;Setting Headers and Footers&lt;/h2&gt;
+&lt;p&gt;Aspose.Cells allows you to add headers and footers to worksheets at runtime but we recommend setting headers and footers manually in a pre-designed file for printing. You can use Microsoft Excel as a GUI tool to set headers and footers to save effort and development time. Aspose.Cells can import the file and save the settings.&lt;/p&gt;
+&lt;p&gt;To add headers and footers at runtime, Aspose.Cells provides special API calls and script commands to format headers and footers.&lt;/p&gt;
+&lt;h3 id=&#34;script-commands&#34;&gt;Script Commands&lt;/h3&gt;
+&lt;p&gt;Script commands are special commands that allow you to set header and footer formatting.&lt;/p&gt;
+
+&lt;div class=&#34;table table-striped&#34; role=&#34;alert&#34;&gt;
+    &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Script Commands&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&amp;amp;P&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;The current page number&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&amp;amp;G&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;A picture&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&amp;amp;N&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;The total number of pages&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&amp;amp;D&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;The current date&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&amp;amp;T&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;The current time&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&amp;amp;A&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;The worksheet name&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&amp;amp;F&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;The file name without its path&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&amp;amp;&amp;ldquo;&lt;FontName&gt;&amp;rdquo;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents a font name. For example: &amp;amp;&amp;ldquo;Arial&amp;rdquo;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&amp;amp;&amp;ldquo;&lt;FontName&gt;, &lt;FontStyle&gt;&amp;rdquo;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents font name with style. For example: &amp;amp;&amp;ldquo;Arial,Bold&amp;rdquo;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&amp;amp;&lt;FontSize&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents font size. For example: “&amp;amp;14abc”. But, if this command is followed by a plain number to be printed in the header, this should be separated with a space character from the font size. For example: “&amp;amp;14 123”.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+
+&lt;h3 id=&#34;set-headers-and-footers&#34;&gt;Set Headers and Footers&lt;/h3&gt;
+&lt;p&gt;The &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/pagesetup&#34;&gt;PageSetup&lt;/a&gt; class provides two methods, &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/pagesetup/methods/setheader&#34;&gt;SetHeader&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/pagesetup/methods/setfooter&#34;&gt;SetFooter&lt;/a&gt;, used to add a header and footer to a worksheet. These methods take only two parameters:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Section&lt;/strong&gt; – the section where the header or footer should be placed. There are three sections: left, center and right, represented by 0, 1 and 2 respectively.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Script&lt;/strong&gt; – the script to be used for the header or footer. This script contains script commands to format headers or footers.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;insert-an-image-into-a-header-or-footer&#34;&gt;Insert an Image into a Header or Footer&lt;/h3&gt;
+&lt;p&gt;The &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/pagesetup&#34;&gt;PageSetup&lt;/a&gt; class has two additional methods, &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/pagesetup/methods/setheaderpicture&#34;&gt;SetHeaderPicture&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/pagesetup/methods/setfooterpicture&#34;&gt;SetFooterPicture&lt;/a&gt;, used to add pictures into the header and footer. These methods take the parameters:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Section&lt;/strong&gt; – the header or footer section where the picture will be placed. There are three sections, left, center and right, represented by the values 0, 1 and 2 respectively.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Byte array&lt;/strong&gt; – the graphical data (the binary data should be written into the buffer of a byte array).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;After executing the code below and opening the file, check the header of the worksheet by:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;On the &lt;strong&gt;File&lt;/strong&gt; menu, select &lt;strong&gt;Page Setup&lt;/strong&gt;. A dialog will be displayed.&lt;/li&gt;
+&lt;li&gt;Select the &lt;strong&gt;Header/Footer&lt;/strong&gt; tab.&lt;/li&gt;
+&lt;/ol&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Setting Print Options</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/worksheets/pagesetupfeatures/setting&#43;print&#43;options/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/worksheets/pagesetupfeatures/setting&#43;print&#43;options/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--setting-print-options&#34;&gt;Aspose.Cells for .NET : Setting Print Options&lt;/h1&gt;
+&lt;p&gt;Microsoft Excel&amp;rsquo;s page setup settings provide several print options (also referred to as sheet options) that allow users to control how worksheet pages are printed.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#setting-print-options&#34;&gt;Setting Print Options&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#set-print-area&#34;&gt;Set Print Area&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.2 &lt;a href=&#34;#set-print-titles&#34;&gt;Set Print Titles&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.3 &lt;a href=&#34;#set-other-print-options&#34;&gt;Set Other Print Options&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.4 &lt;a href=&#34;#set-page-order&#34;&gt;Set Page Order&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;setting-print-options&#34;&gt;Setting Print Options&lt;/h2&gt;
+&lt;p&gt;These print options allow users to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Select a specific print area on a worksheet.&lt;/li&gt;
+&lt;li&gt;Print titles.&lt;/li&gt;
+&lt;li&gt;Print gridlines.&lt;/li&gt;
+&lt;li&gt;Print row/column headings.&lt;/li&gt;
+&lt;li&gt;Achieve draft quality.&lt;/li&gt;
+&lt;li&gt;Print comments.&lt;/li&gt;
+&lt;li&gt;Print cell errors.&lt;/li&gt;
+&lt;li&gt;Define page ordering.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Aspose.Cells supports all the print options offered by Microsoft Excel and developers can easily configure these options for worksheets using the properties offered by the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/pagesetup&#34;&gt;PageSetup&lt;/a&gt; class. How these properties are used is discussed below in more detail.&lt;/p&gt;
+&lt;h3 id=&#34;set-print-area&#34;&gt;Set Print Area&lt;/h3&gt;
+&lt;p&gt;By default, the print area incorporates all areas of the worksheet that contain data. Developers can establish a specific print area of the worksheet.&lt;/p&gt;
+&lt;p&gt;To select a specific print area, use the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/pagesetup&#34;&gt;PageSetup&lt;/a&gt; class&amp;rsquo; &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/pagesetup/properties/printarea&#34;&gt;PrintArea&lt;/a&gt; property. Assign a cell range that defines the print area to this property.&lt;/p&gt;
+&lt;h3 id=&#34;set-print-titles&#34;&gt;Set Print Titles&lt;/h3&gt;
+&lt;p&gt;Aspose.Cells allows you to designate row and column headers to repeat on all pages of a printed worksheet. To do so, use the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/pagesetup&#34;&gt;PageSetup&lt;/a&gt; class&amp;rsquo; &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/pagesetup/properties/printtitlecolumns&#34;&gt;PrintTitleColumns&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/pagesetup/properties/printtitlerows&#34;&gt;PrintTitleRows&lt;/a&gt; properties.&lt;/p&gt;
+&lt;p&gt;The rows or columns that will be repeated are defined by passing their row or column numbers. For example, rows are defined as $1:$2 and columns are defined as $A:$B.&lt;/p&gt;
+&lt;h3 id=&#34;set-other-print-options&#34;&gt;Set Other Print Options&lt;/h3&gt;
+&lt;p&gt;The &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/pagesetup&#34;&gt;PageSetup&lt;/a&gt; class also provides several other properties to set general print options as follows:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/pagesetup/properties/printgridlines&#34;&gt;PrintGridlines&lt;/a&gt;: a Boolean property that defines whether to print gridlines or not print.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/pagesetup/properties/printheadings&#34;&gt;PrintHeadings&lt;/a&gt;: a Boolean property that defines whether to print row and column headings or not.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/pagesetup/properties/blackandwhite&#34;&gt;BlackAndWhite&lt;/a&gt;: a Boolean property that defines whether to print the worksheet in black and white mode or not.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/pagesetup/properties/printcomments&#34;&gt;PrintComments&lt;/a&gt;: defines whether to display the print comments on the worksheet or at the end of the worksheet.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/pagesetup/properties/printdraft&#34;&gt;PrintDraft&lt;/a&gt;: a boolean property that defines whether to print the sheet without graphics..&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/pagesetup/properties/printerrors&#34;&gt;PrintErrors&lt;/a&gt;: defines whether to print cell errors as displayed, blank, dash or N/A.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;To set the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/pagesetup/properties/printcomments&#34;&gt;PrintComments&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/pagesetup/properties/printerrors&#34;&gt;PrintErrors&lt;/a&gt; properties, Aspose.Cells also provides two enumerations, &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/printcommentstype&#34;&gt;PrintCommentsType&lt;/a&gt; , and &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/printerrorstype&#34;&gt;PrintErrorsType&lt;/a&gt; that contain pre-defined values to be assigned to the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/pagesetup/properties/printcomments&#34;&gt;PrintComments&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/pagesetup/properties/printerrors&#34;&gt;PrintErrors&lt;/a&gt; properties respectively.&lt;/p&gt;
+&lt;p&gt;The pre-defined values in the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/printcommentstype&#34;&gt;PrintCommentsType&lt;/a&gt; enumeration are listed below with their descriptions.&lt;/p&gt;
+
+&lt;div class=&#34;table table-striped&#34; role=&#34;alert&#34;&gt;
+    &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Print Comments Types&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PrintInPlace&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Specifies to print comments as displayed on the worksheet.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PrintNoComments&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Specifies not to print comments.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PrintSheetEnd&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Specifies to print comments at the end of the worksheet.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;The pre-defined values of &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/printerrorstype&#34;&gt;PrintErrorsType&lt;/a&gt; enumeration are listed below with their descriptions.&lt;/p&gt;
+
+&lt;div class=&#34;table table-striped&#34; role=&#34;alert&#34;&gt;
+    &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Print Errors Types&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PrintErrorsBlank&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Specifies not to print errors.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PrintErrorsDash&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Specifies to print errors as &amp;ldquo;&amp;ndash;&amp;rdquo;.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PrintErrorsDisplayed&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Specifies to print errors as displayed.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PrintErrorsNA&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Specifies to print errors as &amp;ldquo;#N/A&amp;rdquo;.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+
+&lt;h3 id=&#34;set-page-order&#34;&gt;Set Page Order&lt;/h3&gt;
+&lt;p&gt;The &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/pagesetup&#34;&gt;PageSetup&lt;/a&gt; class provides the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/pagesetup/properties/order&#34;&gt;Order&lt;/a&gt; property that is used to order multiple pages of your worksheet to be printed. There are two possibilities to order the pages as follows.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Down then over:&lt;/strong&gt; prints all the pages down before printing any pages to the right.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Over then down:&lt;/strong&gt; prints pages left to right before printing the pages below.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Aspose.Cells provides an enumeration, &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/printordertype&#34;&gt;PrintOrderType&lt;/a&gt; that contains all pre-defined order types to be assigned to the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/pagesetup/properties/order&#34; title=&#34;https://apireference.aspose.com/net/cells/aspose.cells/pagesetup/properties/order&#34;&gt;Go &lt;/a&gt;property.&lt;/p&gt;
+&lt;p&gt;The pre-defined values of the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/printordertype&#34;&gt;PrintOrderType&lt;/a&gt; enumeration are listed below.&lt;/p&gt;
+
+&lt;div class=&#34;table table-striped&#34; role=&#34;alert&#34;&gt;
+    &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Print Order Types&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;DownThenOver&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents printing order as down then over.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;OverThenDown&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents printing order as over then down.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Get Paper Width and Height of Page Setup of Worksheet</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/worksheets/pagesetupfeatures/get&#43;paper&#43;width&#43;and&#43;height&#43;of&#43;page&#43;setup&#43;of&#43;worksheet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/worksheets/pagesetupfeatures/get&#43;paper&#43;width&#43;and&#43;height&#43;of&#43;page&#43;setup&#43;of&#43;worksheet/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--get-paper-width-and-height-of-page-setup-of-worksheet&#34;&gt;Aspose.Cells for .NET : Get Paper Width and Height of Page Setup of Worksheet&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#get-paper-width-and-height-of-page-setup-of-worksheet&#34;&gt;Get Paper Width and Height of Page Setup of Worksheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;4 &lt;a href=&#34;#console-output&#34;&gt;Console Output&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;Sometimes, you need to know the width and height of paper size as it has been set in page setup of the worksheet. Please use the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/pagesetup/properties/paperwidth&#34;&gt;PageSetup.PaperWidth&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/pagesetup/properties/paperheight&#34;&gt;PageSetup.PaperHeight&lt;/a&gt; properties for this purpose.&lt;/p&gt;
+&lt;h2 id=&#34;get-paper-width-and-height-of-page-setup-of-worksheet&#34;&gt;Get Paper Width and Height of Page Setup of Worksheet&lt;/h2&gt;
+&lt;p&gt;The following sample code explains the usage of &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/pagesetup/properties/paperwidth&#34;&gt;PageSetup.PaperWidth&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/pagesetup/properties/paperheight&#34;&gt;PageSetup.PaperHeight&lt;/a&gt; properties. It first changes the paper size to *A2 *and then finds the width and height of the paper, then it changes it to &lt;em&gt;A3&lt;/em&gt;, &lt;em&gt;A4&lt;/em&gt;, *Letter *and finds the width and height of paper respectively.&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+&lt;h2 id=&#34;console-output&#34;&gt;Console Output&lt;/h2&gt;
+&lt;p&gt;Here is the console output of the above sample code.&lt;/p&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_a9b6de5004&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_a9b6de5004&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;
+&lt;span style=&#34;color:#000&#34;&gt;PaperA2&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;16.54&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;x23&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;39&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;PaperA3&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;11.69&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;x16&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;54&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;PaperA4&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;8.27&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;x11&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;69&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;PaperLetter&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;8.5&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;x11&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Remove Existing PrinterSettings of Worksheets in Excel file</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/worksheets/pagesetupfeatures/remove&#43;existing&#43;printersettings&#43;of&#43;worksheets&#43;in&#43;excel&#43;file/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/worksheets/pagesetupfeatures/remove&#43;existing&#43;printersettings&#43;of&#43;worksheets&#43;in&#43;excel&#43;file/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--remove-existing-printersettings-of-worksheets-in-excel-file&#34;&gt;Aspose.Cells for .NET : Remove Existing PrinterSettings of Worksheets in Excel file&lt;/h1&gt;
+
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#remove-existing-printersettings-of-worksheets-in-excel-file&#34;&gt;Remove Existing PrinterSettings of Worksheets in Excel file&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#screenshot&#34;&gt;Screenshot&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;4 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;5 &lt;a href=&#34;#console-output&#34;&gt;Console Output&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;Sometimes developers want to prevent Excel from including &lt;em&gt;.bin&lt;/em&gt; files of printer settings in the saved XLSX files. Printer settings files are located under &lt;em&gt;“[file &amp;ldquo;root&amp;rdquo;]\xl\printerSettings”.&lt;/em&gt; This document explains how to remove existing printer settings using Aspose.Cells APIs.&lt;/p&gt;
+&lt;h2 id=&#34;remove-existing-printersettings-of-worksheets-in-excel-file&#34;&gt;Remove Existing PrinterSettings of Worksheets in Excel file&lt;/h2&gt;
+&lt;p&gt;Aspose.Cells allows you to remove existing printer settings specified for different sheets in the Excel file. The following sample code illustrates how to remove existing printer settings for all the worksheets in the workbook. Please see its&lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/44860266/45056020.xlsx&#34;&gt;sample Excel file&lt;/a&gt;, &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/44860266/45056021.xlsx&#34;&gt;output Excel file&lt;/a&gt;, console output as well as the screenshot for a reference.&lt;/p&gt;
+&lt;h2 id=&#34;screenshot&#34;&gt;Screenshot&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/44860266/45056019.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+&lt;h2 id=&#34;console-output&#34;&gt;Console Output&lt;/h2&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_546c0a4380&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_546c0a4380&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;
+&lt;span style=&#34;color:#000&#34;&gt;PrinterSettings&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;of&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;this&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;worksheet&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;exist&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Sheet&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Name&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Sheet1&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Paper&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Size&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;PaperLegal&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Printer&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;settings&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;of&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;this&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;worksheet&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;are&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;now&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;removed&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;by&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;setting&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;it&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;null&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;PrinterSettings&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;of&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;this&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;worksheet&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;exist&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Sheet&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Name&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Sheet2&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Paper&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Size&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;PaperEnvelopeB5&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Printer&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;settings&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;of&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;this&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;worksheet&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;are&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;now&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;removed&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;by&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;setting&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;it&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;null&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;PrinterSettings&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;of&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;this&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;worksheet&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;exist&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Sheet&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Name&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Sheet3&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Paper&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Size&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;PaperA6&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Printer&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;settings&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;of&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;this&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;worksheet&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;are&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;now&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;removed&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;by&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;setting&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;it&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;null&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;PrinterSettings&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;of&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;this&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;worksheet&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;exist&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Sheet&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Name&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Sheet4&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Paper&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Size&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;PaperA3&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Printer&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;settings&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;of&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;this&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;worksheet&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;are&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;now&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;removed&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;by&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;setting&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;it&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;null&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Implement Custom Paper Size of Worksheet for Rendering</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/worksheets/pagesetupfeatures/implement&#43;custom&#43;paper&#43;size&#43;of&#43;worksheet&#43;for&#43;rendering/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/worksheets/pagesetupfeatures/implement&#43;custom&#43;paper&#43;size&#43;of&#43;worksheet&#43;for&#43;rendering/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--implement-custom-paper-size-of-worksheet-for-rendering&#34;&gt;Aspose.Cells for .NET : Implement Custom Paper Size of Worksheet for Rendering&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#implement-custom-paper-size-of-worksheet-for-rendering&#34;&gt;Implement Custom Paper Size of Worksheet for Rendering&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#screenshot&#34;&gt;Screenshot&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;4 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;There is no direct option available to create custom paper sizes in MS Excel, however, you can set custom paper size of your desired worksheets when rendering Excel file to PDF file format. This document explains how to set a custom paper size of a worksheet using Aspose.Cells APIs.&lt;/p&gt;
+&lt;h2 id=&#34;implement-custom-paper-size-of-worksheet-for-rendering&#34;&gt;Implement Custom Paper Size of Worksheet for Rendering&lt;/h2&gt;
+&lt;p&gt;Aspose.Cells allows you to implement your desired paper size of the worksheet. You may use the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/pagesetup/methods/custompapersize&#34;&gt;CustomPaperSize&lt;/a&gt; method of the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/pagesetup&#34;&gt;PageSetup&lt;/a&gt; class to specify a custom page size. The following sample code illustrates how to specify a custom paper size for the first worksheet in the workbook. Please also see the &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/44860292/45056028.pdf&#34;&gt;output PDF&lt;/a&gt; generated with the following code for a reference.&lt;/p&gt;
+&lt;h2 id=&#34;screenshot&#34;&gt;Screenshot&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/44860292/45056027.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Copy Page Setup Settings from Source Worksheet into Destination Worksheet</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/worksheets/pagesetupfeatures/copy&#43;page&#43;setup&#43;settings&#43;from&#43;source&#43;worksheet&#43;into&#43;destination&#43;worksheet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/worksheets/pagesetupfeatures/copy&#43;page&#43;setup&#43;settings&#43;from&#43;source&#43;worksheet&#43;into&#43;destination&#43;worksheet/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--copy-page-setup-settings-from-source-worksheet-into-destination-worksheet&#34;&gt;Aspose.Cells for .NET : Copy Page Setup Settings from Source Worksheet into Destination Worksheet&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#copy-page-setup-settings-from-source-worksheet-into-destination-worksheet&#34;&gt;Copy Page Setup Settings from Source Worksheet into Destination Worksheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;4 &lt;a href=&#34;#console-output&#34;&gt;Console Output&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;When you add a new sheet to a workbook, it contains the default &lt;em&gt;Page Setup settings&lt;/em&gt;. There may be times when you need to transfer the settings (&lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/pagesetup&#34;&gt;PageSetup&lt;/a&gt;) from one worksheet to another worksheet. This document explains how to copy Page Setup settings from one worksheet to another using Aspose.Cells APIs.&lt;/p&gt;
+&lt;h2 id=&#34;copy-page-setup-settings-from-source-worksheet-into-destination-worksheet&#34;&gt;Copy Page Setup Settings from Source Worksheet into Destination Worksheet&lt;/h2&gt;
+&lt;p&gt;The following sample code illustrates how to copy &lt;em&gt;Page Setup settings&lt;/em&gt; from one worksheet to another using &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/pagesetup/methods/copy&#34;&gt;PageSetup.Copy()&lt;/a&gt; method. Please see the following sample code and its console output for a reference.&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+&lt;h2 id=&#34;console-output&#34;&gt;Console Output&lt;/h2&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_0666284c76&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_0666284c76&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Before&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Paper&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Size&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;PaperA3ExtraTransverse&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Before&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Paper&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Size&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;PaperLetter&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;After&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Paper&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Size&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;PaperA3ExtraTransverse&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;After&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Paper&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Size&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;PaperA3ExtraTransverse&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Determine if Paper Size of Worksheet is Automatic</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/worksheets/pagesetupfeatures/determine&#43;if&#43;paper&#43;size&#43;of&#43;worksheet&#43;is&#43;automatic/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/worksheets/pagesetupfeatures/determine&#43;if&#43;paper&#43;size&#43;of&#43;worksheet&#43;is&#43;automatic/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--determine-if-paper-size-of-worksheet-is-automatic&#34;&gt;Aspose.Cells for .NET : Determine if Paper Size of Worksheet is Automatic&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#determine-if-paper-size-of-worksheet-is-automatic&#34;&gt;Determine if Paper Size of Worksheet is Automatic&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;4 &lt;a href=&#34;#console-output&#34;&gt;Console Output&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;Most of the time, the paper size of the worksheet is automatic. When it is automatic, it is often set as &lt;em&gt;Letter&lt;/em&gt;. Sometimes the user sets the paper size of the worksheet as per their requirements. In this case, the paper size is not automatic. You can find if the worksheet paper size is automatic or not using the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/pagesetup/properties/isautomaticpapersize&#34;&gt;Worksheet.PageSetup.IsAutomaticPaperSize&lt;/a&gt; property.&lt;/p&gt;
+&lt;h2 id=&#34;determine-if-paper-size-of-worksheet-is-automatic&#34;&gt;Determine if Paper Size of Worksheet is Automatic&lt;/h2&gt;
+&lt;p&gt;The sample code given below loads the following two Excel files&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/48136585/48496681.xlsx&#34;&gt;samplePageSetupIsAutomaticPaperSize-False.xlsx&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/48136585/48496682.xlsx&#34;&gt;samplePageSetupIsAutomaticPaperSize-True.xlsx&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;and find if the paper size of their first worksheet is automatic or not. In Microsoft Excel, you can check if the paper size is automatic or not via the Page Setup window as shown in this screenshot.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/48136585/48496683.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+&lt;h2 id=&#34;console-output&#34;&gt;Console Output&lt;/h2&gt;
+&lt;p&gt;Here is the console output of the above sample code when executed with the given sample Excel files.&lt;/p&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_dcb3a25a43&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_dcb3a25a43&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;
+&lt;span style=&#34;color:#000&#34;&gt;First&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Worksheet&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;of&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;First&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Workbook&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;IsAutomaticPaperSize&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;False&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;First&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Worksheet&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;of&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Second&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Workbook&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;-&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;IsAutomaticPaperSize&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;True&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

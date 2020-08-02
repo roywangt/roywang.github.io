@@ -1,0 +1,495 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Rendering</title>
+    <link>https://roywangt.github.io/cells/java/developerguide/rendering/</link>
+    <description>Recent content in Rendering on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://roywangt.github.io/cells/java/developerguide/rendering/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Java: Add PDF Bookmarks</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/rendering/add&#43;pdf&#43;bookmarks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/rendering/add&#43;pdf&#43;bookmarks/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--add-pdf-bookmarks&#34;&gt;Aspose.Cells for Java : Add PDF Bookmarks&lt;/h1&gt;
+&lt;p&gt;This article provides information on how to insert PDF bookmarks when converting a spreadsheet to PDF.&lt;/p&gt;
+&lt;p&gt;Aspose.Cells allows you to add bookmarks at runtime. PDF bookmarks can drastically improve the navigability of long documents. When adding bookmark links to a PDF document, you can have precise control over the exact view you want, you&amp;rsquo;re not limited to linking to a page. You can set up the precise view by positioning the target page, and then create the bookmark.&lt;/p&gt;
+&lt;h3 id=&#34;adding-pdf-bookmarks&#34;&gt;Adding PDF Bookmarks&lt;/h3&gt;
+&lt;p&gt;Please see the following sample code to find out how to add PDF bookmarks. The code generates a simple workbook, specifies PDF bookmarks with destination locations and generates the PDF file.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Add PDF Bookmarks with Named Destinations</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/rendering/add&#43;pdf&#43;bookmarks&#43;with&#43;named&#43;destinations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/rendering/add&#43;pdf&#43;bookmarks&#43;with&#43;named&#43;destinations/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--add-pdf-bookmarks-with-named-destinations&#34;&gt;Aspose.Cells for Java : Add PDF Bookmarks with Named Destinations&lt;/h1&gt;
+
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#add-pdf-bookmarks-with-named-destinations&#34;&gt;Add PDF Bookmarks with Named Destinations&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;Named Destinations are special kinds of bookmarks or links in PDF that do not depend on PDF pages. It means, if pages are added or deleted from PDF, bookmarks may become invalid but named destinations will remain intact. To create Named Destination, please set the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/pdfbookmarkentry#DestinationName&#34;&gt;PdfBookmarkEntry.DestinationName&lt;/a&gt; property&lt;/p&gt;
+&lt;h2 id=&#34;add-pdf-bookmarks-with-named-destinations&#34;&gt;Add PDF Bookmarks with Named Destinations&lt;/h2&gt;
+&lt;p&gt;Please see the following sample code, its &lt;a href=&#34;https://docs2.aspose.com/cells/java/attachments/50270509/50528370.xlsx&#34;&gt;source Excel file&lt;/a&gt;, and its &lt;a href=&#34;https://docs2.aspose.com/cells/java/attachments/50270509/50528369.pdf&#34;&gt;output PDF file&lt;/a&gt;. The screenshot shows the bookmarks and named destinations inside the output PDF. The screenshot also describes how to view Named Destinations and that you need Professional version of Acrobat Reader. &lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/50270509/50528368.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Avoid Blank Page in Output PDF when there is Nothing to Print</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/rendering/avoid&#43;blank&#43;page&#43;in&#43;output&#43;pdf&#43;when&#43;there&#43;is&#43;nothing&#43;to&#43;print/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/rendering/avoid&#43;blank&#43;page&#43;in&#43;output&#43;pdf&#43;when&#43;there&#43;is&#43;nothing&#43;to&#43;print/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--avoid-blank-page-in-output-pdf-when-there-is-nothing-to-print&#34;&gt;Aspose.Cells for Java : Avoid Blank Page in Output PDF when there is Nothing to Print&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#avoid-blank-page-in-output-pdf-when-there-is-nothing-to-print&#34;&gt;Avoid Blank Page in Output PDF when there is Nothing to Print&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;4 &lt;a href=&#34;#exception&#34;&gt;Exception&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;When the Excel file is empty and the user saves it to PDF using Aspose.Cells, it renders a blank page in output PDF. Sometimes, this default behavior is undesirable. Aspose.Cells provides the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/pdfsaveoptions#OutputBlankPageWhenNothingToPrint&#34;&gt;PdfSaveOptions.OutputBlankPageWhenNothingToPrint&lt;/a&gt; property to deal with this issue. If you will set it as &lt;strong&gt;false&lt;/strong&gt;, then &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/CellsException&#34;&gt;CellsException&lt;/a&gt; will occur whenever there is nothing to print in the output PDF.&lt;/p&gt;
+&lt;h2 id=&#34;avoid-blank-page-in-output-pdf-when-there-is-nothing-to-print&#34;&gt;Avoid Blank Page in Output PDF when there is Nothing to Print&lt;/h2&gt;
+&lt;p&gt;The following sample code creates an empty workbook and then saves it as output PDF after setting the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/pdfsaveoptions#OutputBlankPageWhenNothingToPrint&#34;&gt;PdfSaveOptions.OutputBlankPageWhenNothingToPrint&lt;/a&gt; property as &lt;strong&gt;false&lt;/strong&gt;. Since there is nothing to print in the output PDF, the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/CellsException&#34;&gt;CellsException&lt;/a&gt; occurs as shown below.&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+&lt;h2 id=&#34;exception&#34;&gt;Exception&lt;/h2&gt;
+&lt;p&gt;Exception in thread &amp;ldquo;main&amp;rdquo; com.aspose.cells.CellsException: There is nothing to output/print.	at com.aspose.cells.zcab.a(Unknown Source)	at com.aspose.cells.zcab.a(Unknown Source)	at com.aspose.cells.zcab.a(Unknown Source)	at com.aspose.cells.Workbook.a(Unknown Source)	at com.aspose.cells.Workbook.save(Unknown Source)&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Control loading of External Resources in MS Excel Workbook while rendering to PDF</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/rendering/control&#43;loading&#43;of&#43;external&#43;resources&#43;in&#43;ms&#43;excel&#43;workbook&#43;while&#43;rendering&#43;to&#43;pdf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/rendering/control&#43;loading&#43;of&#43;external&#43;resources&#43;in&#43;ms&#43;excel&#43;workbook&#43;while&#43;rendering&#43;to&#43;pdf/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--control-loading-of-external-resources-in-ms-excel-workbook-while-rendering-to-pdf&#34;&gt;Aspose.Cells for Java : Control loading of External Resources in MS Excel Workbook while rendering to PDF&lt;/h1&gt;
+
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#control-loading-of-external-resources-in-ms-excel-workbook-while-rendering-to-pdf&#34;&gt;Control loading of External Resources in MS Excel Workbook while rendering to PDF&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;Your Excel file may contain external resources e.g. linked images or objects. When you convert your Excel file to PDF, Aspose.Cells retrieves these external resources and renders them to PDF. But sometimes, you do not want to load these external resources and more than that, you want to manipulate them. You can do this using &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/pdfsaveoptions#StreamProvider&#34;&gt;PdfSaveOptions.StreamProvider&lt;/a&gt; which implements the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/IStreamProvider&#34;&gt;IStreamProvider&lt;/a&gt; interface.&lt;/p&gt;
+&lt;h2 id=&#34;control-loading-of-external-resources-in-ms-excel-workbook-while-rendering-to-pdf&#34;&gt;Control loading of External Resources in MS Excel Workbook while rendering to PDF&lt;/h2&gt;
+&lt;p&gt;The following sample code explains how to make use of &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/pdfsaveoptions#StreamProvider&#34;&gt;PdfSaveOptions.StreamProvider&lt;/a&gt; to control the loading of external resources and manipulate them. Please check the &lt;a href=&#34;https://docs2.aspose.com/cells/java/attachments/50270488/50528353.xlsx&#34;&gt;sample Excel file&lt;/a&gt; used inside the code and the &lt;a href=&#34;https://docs2.aspose.com/cells/java/attachments/50270488/50528354.pdf&#34;&gt;output PDF&lt;/a&gt; generated by the code. The &lt;a href=&#34;https://docs2.aspose.com/cells/java/attachments/50270488/50528357.png&#34;&gt;screenshot&lt;/a&gt; shows how the &lt;a href=&#34;https://docs2.aspose.com/cells/java/attachments/50270488/50528356.png&#34;&gt;old external image&lt;/a&gt; in the sample Excel file was replaced with a &lt;a href=&#34;https://docs2.aspose.com/cells/java/attachments/50270488/50528355.png&#34;&gt;new image&lt;/a&gt; in the output PDF.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/50270488/50528357.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Create PdfBookmarkEntry for Chart Sheet</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/rendering/create&#43;pdfbookmarkentry&#43;for&#43;chart&#43;sheet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/rendering/create&#43;pdfbookmarkentry&#43;for&#43;chart&#43;sheet/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--create-pdfbookmarkentry-for-chart-sheet&#34;&gt;Aspose.Cells for Java : Create PdfBookmarkEntry for Chart Sheet&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#create-pdfbookmarkentry-for-chart-sheet&#34;&gt;Create PdfBookmarkEntry for Chart Sheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;Earlier, Aspose.Cells would create &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/PdfBookmarkEntry&#34;&gt;PdfBookmarkEntry&lt;/a&gt; for a normal sheet. But now Aspose.Cells can also create &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/PdfBookmarkEntry&#34;&gt;PdfBookmarkEntry&lt;/a&gt; for chart sheet. Since chart sheet does not have any other cell except cell A1, so it will create &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/PdfBookmarkEntry&#34;&gt;PdfBookmarkEntry&lt;/a&gt; for cell A1 only. &lt;/p&gt;
+&lt;h2 id=&#34;create-pdfbookmarkentry-for-chart-sheet&#34;&gt;Create PdfBookmarkEntry for Chart Sheet&lt;/h2&gt;
+&lt;p&gt;The following sample code loads the &lt;a href=&#34;https://docs2.aspose.com/cells/java/attachments/61540759/61767772.xlsx&#34;&gt;sample Excel file&lt;/a&gt; which has four sheets. Two of them are normal sheets and the other two are chart sheets. It creates four bookmark entries as follows&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Bookmark-I&lt;/li&gt;
+&lt;li&gt;Bookmark-II-Chart1&lt;/li&gt;
+&lt;li&gt;Bookmark-III&lt;/li&gt;
+&lt;li&gt;Bookmark-IV-Chart2&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The following screenshot shows the &lt;a href=&#34;https://docs2.aspose.com/cells/java/attachments/61540759/61767771.pdf&#34;&gt;output PDF&lt;/a&gt; generated by the sample code for a reference.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/61540759/61767770.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Get DrawObject and Bound while rendering to Pdf using DrawObjectEventHandler class</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/rendering/get&#43;drawobject&#43;and&#43;bound&#43;while&#43;rendering&#43;to&#43;pdf&#43;using&#43;drawobjecteventhandler&#43;class/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/rendering/get&#43;drawobject&#43;and&#43;bound&#43;while&#43;rendering&#43;to&#43;pdf&#43;using&#43;drawobjecteventhandler&#43;class/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--get-drawobject-and-bound-while-rendering-to-pdf-using-drawobjecteventhandler-class&#34;&gt;Aspose.Cells for Java : Get DrawObject and Bound while rendering to Pdf using DrawObjectEventHandler class&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#get-drawobject-and-bound-while-rendering-to-pdf-using-drawobjecteventhandler-class&#34;&gt;Get DrawObject and Bound while rendering to Pdf using DrawObjectEventHandler class&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;4 &lt;a href=&#34;#console-output&#34;&gt;Console Output&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;Aspose.Cells provides an abstract class &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/DrawObjectEventHandler&#34;&gt;DrawObjectEventHandler&lt;/a&gt; which has a &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/drawobjecteventhandler#draw(com.aspose.cells.DrawObject,%20float,%20float,%20float,%20float)&#34;&gt;draw()&lt;/a&gt; method. The user can implement &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/DrawObjectEventHandler&#34;&gt;DrawObjectEventHandler&lt;/a&gt; and utilize the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/drawobjecteventhandler#draw(com.aspose.cells.DrawObject,%20float,%20float,%20float,%20float)&#34;&gt;draw()&lt;/a&gt; method to get the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/DrawObject&#34;&gt;DrawObject&lt;/a&gt; and **Bound **while rendering Excel to PDF or Image. Here is a brief description of the parameters of the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/drawobjecteventhandler#draw(com.aspose.cells.DrawObject,%20float,%20float,%20float,%20float)&#34;&gt;draw()&lt;/a&gt; method.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;drawObject&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/DrawObject&#34;&gt;DrawObject&lt;/a&gt; will be initialized and returned when rendering&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;x&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Left of &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/DrawObject&#34;&gt;DrawObject&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;y&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Top of &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/DrawObject&#34;&gt;DrawObject&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;width&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Width of &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/DrawObject&#34;&gt;DrawObject&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;height&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Height of &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/DrawObject&#34;&gt;DrawObject&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;If you are rendering Excel file to PDF, then you can utilize &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/DrawObjectEventHandler&#34;&gt;DrawObjectEventHandler&lt;/a&gt; class with &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/pdfsaveoptions#DrawObjectEventHandler&#34;&gt;PdfSaveOptions.DrawObjectEventHandler&lt;/a&gt;. Similarly, if you are rendering Excel file to Image, you can utilize &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/DrawObjectEventHandler&#34;&gt;DrawObjectEventHandler&lt;/a&gt; class with &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/imageorprintoptions#DrawObjectEventHandler&#34;&gt;ImageOrPrintOptions.DrawObjectEventHandler&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;get-drawobject-and-bound-while-rendering-to-pdf-using-drawobjecteventhandler-class&#34;&gt;Get DrawObject and Bound while rendering to Pdf using DrawObjectEventHandler class&lt;/h2&gt;
+&lt;p&gt;Please see the following sample code. It loads the &lt;a href=&#34;https://docs2.aspose.com/cells/java/attachments/64454899/64716843.xlsx&#34;&gt;sample Excel file&lt;/a&gt; and saves it as &lt;a href=&#34;https://docs2.aspose.com/cells/java/attachments/64454899/64716842.pdf&#34;&gt;output PDF&lt;/a&gt;. While rendering to PDF, it utilizes &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/pdfsaveoptions#DrawObjectEventHandler&#34;&gt;PdfSaveOptions.DrawObjectEventHandler&lt;/a&gt; property and captures the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/DrawObject&#34;&gt;DrawObject&lt;/a&gt; and &lt;strong&gt;Bound&lt;/strong&gt; of existing cells and objects e.g. images etc. If the drawObject type is Cell, it prints its Bound and StringValue. And if the drawObject type is Image, it prints its Bound and Shape Name. Please see the console output of the sample code given below for more help.&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+&lt;h2 id=&#34;console-output&#34;&gt;Console Output&lt;/h2&gt;
+&lt;p&gt;[X]: 153.60349 [Y]: 82.94118 [Width]: 103.203476 [Height]: 14.470589 [Cell Value]: This is sample text.&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-[X]: 267.28854 [Y]: 153.12354 [Width]: 161.25542 [Height]: 128.78824 [Shape Name]: Sun&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Ignore Errors while Rendering Excel to PDF</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/rendering/ignore&#43;errors&#43;while&#43;rendering&#43;excel&#43;to&#43;pdf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/rendering/ignore&#43;errors&#43;while&#43;rendering&#43;excel&#43;to&#43;pdf/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--ignore-errors-while-rendering-excel-to-pdf&#34;&gt;Aspose.Cells for Java : Ignore Errors while Rendering Excel to PDF&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#ignore-errors-while-rendering-excel-to-pdf&#34;&gt;Ignore Errors while Rendering Excel to PDF&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;Sometimes when you convert your Excel file to PDF, errors or exceptions occur and the conversion process terminates. You can ignore all such errors during the conversion process using the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/pdfsaveoptions#IgnoreError&#34;&gt;PdfSaveOptions.IgnoreError&lt;/a&gt; property. This way, the conversion process will complete smoothly without throwing any error or exception but the loss of data may occur. Therefore, please use this property only if the loss of data is not critical for you.&lt;/p&gt;
+&lt;h2 id=&#34;ignore-errors-while-rendering-excel-to-pdf&#34;&gt;Ignore Errors while Rendering Excel to PDF&lt;/h2&gt;
+&lt;p&gt;The following code loads the &lt;a href=&#34;https://docs2.aspose.com/cells/java/attachments/54690159/55541813.xlsx&#34;&gt;sample Excel file&lt;/a&gt; but the sample Excel file is erroneous and throws an error during the &lt;a href=&#34;https://docs2.aspose.com/cells/java/attachments/54690159/55541814.pdf&#34;&gt;conversion to PDF&lt;/a&gt; in 17.11 but since we are using &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/pdfsaveoptions#IgnoreError&#34;&gt;PdfSaveOptions.IgnoreError&lt;/a&gt; property, it does not throw an error. However, one rounded red arrow-like shape as shown in this screenshot is lost.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/54690159/55541815.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Output Blank Page when there is Nothing to Print</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/rendering/output&#43;blank&#43;page&#43;when&#43;there&#43;is&#43;nothing&#43;to&#43;print/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/rendering/output&#43;blank&#43;page&#43;when&#43;there&#43;is&#43;nothing&#43;to&#43;print/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--output-blank-page-when-there-is-nothing-to-print&#34;&gt;Aspose.Cells for Java : Output Blank Page when there is Nothing to Print&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#output-blank-page-when-there-is-nothing-to-print&#34;&gt;Output Blank Page when there is Nothing to Print&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;If the sheet is empty, then Aspose.Cells will not print anything when you export worksheet to image. You can change this behavior by using &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/imageorprintoptions#OutputBlankPageWhenNothingToPrint&#34;&gt;ImageOrPrintOptions.OutputBlankPageWhenNothingToPrint&lt;/a&gt; property. When you will set it to &lt;strong&gt;true&lt;/strong&gt;, it will print the blank page.&lt;/p&gt;
+&lt;h2 id=&#34;output-blank-page-when-there-is-nothing-to-print&#34;&gt;Output Blank Page when there is Nothing to Print&lt;/h2&gt;
+&lt;p&gt;The following sample code creates the empty workbook which has an empty worksheet and renders the empty worksheet to an image after setting the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/imageorprintoptions#OutputBlankPageWhenNothingToPrint&#34;&gt;ImageOrPrintOptions.OutputBlankPageWhenNothingToPrint&lt;/a&gt; property as &lt;strong&gt;true&lt;/strong&gt;. Consequently, it generates the blank page as there is nothing to print which you can see as below.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/50266333/50528272.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Render Office Add-Ins while converting Excel to PDF</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/rendering/render&#43;office&#43;add-ins&#43;while&#43;converting&#43;excel&#43;to&#43;pdf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/rendering/render&#43;office&#43;add-ins&#43;while&#43;converting&#43;excel&#43;to&#43;pdf/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--render-office-add-ins-while-converting-excel-to-pdf&#34;&gt;Aspose.Cells for Java : Render Office Add-Ins while converting Excel to PDF&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#render-office-add-ins-while-converting-excel-to-pdf&#34;&gt;Render Office Add-Ins while converting Excel to PDF&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;Earlier, Aspose.Cells could not render Office Add-Ins when Excel file is saved to PDF format. Now Aspose.Cells renders it fine. You do not need to use any special method or property to render Office Add-Ins in output PDF. Just save your Excel file to PDF format and it will render Office Add-Ins.&lt;/p&gt;
+&lt;h2 id=&#34;render-office-add-ins-while-converting-excel-to-pdf&#34;&gt;Render Office Add-Ins while converting Excel to PDF&lt;/h2&gt;
+&lt;p&gt;The following sample code saves the &lt;a href=&#34;https://docs2.aspose.com/cells/java/attachments/60229066/60489783.xlsx&#34;&gt;sample Excel file&lt;/a&gt; which contains the Office Add-Ins. Please see the &lt;a href=&#34;https://docs2.aspose.com/cells/java/attachments/60229066/60489781.pdf&#34;&gt;output PDF generated with the previous version i.e. 17.11&lt;/a&gt; and the &lt;a href=&#34;https://docs2.aspose.com/cells/java/attachments/60229066/60489782.pdf&#34;&gt;output PDF generated with newer version i.e. 17.12 and onward&lt;/a&gt;. The previous version output PDF is blank but the newer version output PDF shows the Office Add-In.&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Render Sequence of Pages using PageIndex and PageCount Properties of ImageOrPrintOptions</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/rendering/render&#43;sequence&#43;of&#43;pages&#43;using&#43;pageindex&#43;and&#43;pagecount&#43;properties&#43;of&#43;imageorprintoptions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/rendering/render&#43;sequence&#43;of&#43;pages&#43;using&#43;pageindex&#43;and&#43;pagecount&#43;properties&#43;of&#43;imageorprintoptions/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--render-sequence-of-pages-using-pageindex-and-pagecount-properties-of-imageorprintoptions&#34;&gt;Aspose.Cells for Java : Render Sequence of Pages using PageIndex and PageCount Properties of ImageOrPrintOptions&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#render-sequence-of-pages-using-pageindex-and-pagecount-properties-of-imageorprintoptions&#34;&gt;Render Sequence of Pages using PageIndex and PageCount Properties of ImageOrPrintOptions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;You can render a sequence of pages of your Excel file to images using Aspose.Cells with &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/imageorprintoptions#PageIndex&#34;&gt;ImageOrPrintOptions.PageIndex&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/imageorprintoptions#PageCount&#34;&gt;ImageOrPrintOptions.PageCount&lt;/a&gt; properties. These properties are useful when there are so many e.g. thousands of pages in your worksheet but you want to render some of them only. This will not only save the processing time but will also save the memory consumption of the rendering process.&lt;/p&gt;
+&lt;h2 id=&#34;render-sequence-of-pages-using-pageindex-and-pagecount-properties-of-imageorprintoptions&#34;&gt;Render Sequence of Pages using PageIndex and PageCount Properties of ImageOrPrintOptions&lt;/h2&gt;
+&lt;p&gt;The following sample code loads the &lt;a href=&#34;https://docs2.aspose.com/cells/java/attachments/54690163/55541812.xlsx&#34;&gt;sample Excel file&lt;/a&gt; and renders only pages 4, 5, 6, and 7 using the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/imageorprintoptions#PageIndex&#34;&gt;ImageOrPrintOptions.PageIndex&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/imageorprintoptions#PageCount&#34;&gt;ImageOrPrintOptions.PageCount&lt;/a&gt; properties. Here are the rendered pages generated by the code.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/54690163/55541809.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/54690163/55541810.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/54690163/55541811.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/54690163/55541808.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Specify how to cross string in output PDF and image</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/rendering/specify&#43;how&#43;to&#43;cross&#43;string&#43;in&#43;output&#43;pdf&#43;and&#43;image/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/rendering/specify&#43;how&#43;to&#43;cross&#43;string&#43;in&#43;output&#43;pdf&#43;and&#43;image/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--specify-how-to-cross-string-in-output-pdf-and-image&#34;&gt;Aspose.Cells for Java : Specify how to cross string in output PDF and image&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#specify-how-to-cross-string-in-output-pdf/image-using-textcrosstype&#34;&gt;Specify how to cross string in output PDF/Image using TextCrossType&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;When a cell contains text or string but it is larger than the width of the cell, then the string overflows if the next cell in next column is null or empty. When you save your Excel file into PDF/Image, you can control this overflow by specifying the cross-type using the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/TextCrossType&#34;&gt;TextCrossType&lt;/a&gt; enumeration. It has the following values&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/textcrosstype#DEFAULT&#34;&gt;TextCrossType.DEFAULT&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Display like MS Excel, depends on the next cell. If the next cell is null, the string will cross or it will be truncated.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/textcrosstype#CROSS_KEEP&#34;&gt;TextCrossType.CROSS_KEEP&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Display the string like MS Excel exporting PDF/Image&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/textcrosstype#CROSS_OVERRIDE&#34;&gt;TextCrossType.CROSS_OVERRIDE&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Display all the text by crossing other cells and override text of crossed cells&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/textcrosstype#STRICT_IN_CELL&#34;&gt;TextCrossType.STRICT_IN_CELL&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Only displaying the string within the width of cell.&lt;/p&gt;
+&lt;h2 id=&#34;specify-how-to-cross-string-in-output-pdfimage-using-textcrosstype&#34;&gt;Specify how to cross string in output PDF/Image using TextCrossType&lt;/h2&gt;
+&lt;p&gt;The following sample code loads the sample Excel file and saves it to PDF/Image format by specifying different &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/TextCrossType&#34;&gt;TextCrossType&lt;/a&gt;. The sample Excel file and output files can be downloaded from the following links:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs.aspose.com/download/attachments/81690955/sampleCrossType.xlsx?version=1&amp;amp;modificationDate=1549116106058&amp;amp;api=v2&#34;&gt;sampleCrossType.xlsx&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs.aspose.com/download/attachments/81690955/outputCrossType.pdf?version=1&amp;amp;modificationDate=1549116106051&amp;amp;api=v2&#34;&gt;outputCrossType.pdf&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs.aspose.com/download/attachments/81690955/outputCrossType.png?version=1&amp;amp;modificationDate=1549116106054&amp;amp;api=v2&#34;&gt;outputCrossType.png&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

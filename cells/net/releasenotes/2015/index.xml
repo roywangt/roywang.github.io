@@ -1,0 +1,1113 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Release Notes - 2015</title>
+    <link>https://roywangt.github.io/cells/net/releasenotes/2015/</link>
+    <description>Recent content in Release Notes - 2015 on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://roywangt.github.io/cells/net/releasenotes/2015/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Net: Aspose.Cells for .NET 8.6.3 Release Notes</title>
+      <link>https://roywangt.github.io/cells/net/releasenotes/2015/aspose.cells&#43;for&#43;.net&#43;8.6.3&#43;release&#43;notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/releasenotes/2015/aspose.cells&#43;for&#43;.net&#43;8.6.3&#43;release&#43;notes/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--asposecells-for-net-863-release-notes&#34;&gt;Aspose.Cells for .NET : Aspose.Cells for .NET 8.6.3 Release Notes&lt;/h1&gt;
+&lt;p&gt;This page contains release notes for &lt;a href=&#34;http://www.aspose.com/downloads/cells/net/new-releases/aspose.cells-for-.net-8.6.3/&#34;&gt;Aspose.Cells for .NET 8.6.3&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The following is a list of improvements and changes in this release of Aspose.Cells&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Aspose.Cells&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;other-improvements-and-changes&#34;&gt;Other Improvements and Changes&lt;/h2&gt;
+&lt;h2 id=&#34;new-features&#34;&gt;New Features&lt;/h2&gt;
+&lt;p&gt;(CELLSNET-44084) - Parse Html tags while importing data in bulk&lt;/p&gt;
+&lt;p&gt;(CELLSNET-40889) - Load Option : Only open visible sheets&lt;/p&gt;
+&lt;h2 id=&#34;enhancements&#34;&gt;Enhancements&lt;/h2&gt;
+&lt;p&gt;(CELLSNET-44133) - Support for Print Page Size Thermal 3x11&lt;/p&gt;
+&lt;p&gt;(CELLSNET-44095) - Support reading/Writing External linked table.&lt;/p&gt;
+&lt;p&gt;(CELLSNET-44093) - Obfuscated Exception thrown when loading invalid Workbook&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43425) - Cells.ImportGridView does not import Header Row&lt;/p&gt;
+&lt;p&gt;(CELLSNET-41718) - Support for nested object collection in Smart Markers&lt;/p&gt;
+&lt;p&gt;(CELLSNET-41482) - Support for DateTime when merging using Smart Markers&lt;/p&gt;
+&lt;h2 id=&#34;performance&#34;&gt;Performance&lt;/h2&gt;
+&lt;p&gt;(CELLSNET-44096) - Workbook.CalculateFormula gets stuck in for indefinite time&lt;/p&gt;
+&lt;p&gt;(CELLSNET-44102) - Performance lag while converting worksheet to EMF&lt;/p&gt;
+&lt;h2 id=&#34;bugs&#34;&gt;Bugs&lt;/h2&gt;
+&lt;p&gt;(CELLSNET-44092) - Problem reading Hyperlink.Address with Cyrillic characters&lt;/p&gt;
+&lt;p&gt;(CELLSNET-44090) - Xlsb file with pivot table gets corrupted in v8.6.2&lt;/p&gt;
+&lt;p&gt;(CELLSNET-44073) - Converting to HTML with HtmlHiddenColDisplayType.Remove creates empty Chart&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43917) - Text trimmed while converting the spreadsheet to HTML&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43914) - Text overflows the box while rendering the spreadsheet to PDF&lt;/p&gt;
+&lt;p&gt;(CELLSNET-44111) - Hyperlink address containing Chinese characters are not properly converting&lt;/p&gt;
+&lt;p&gt;(CELLSNET-44080) - Cells text shifted right slightly during conversion to pdf&lt;/p&gt;
+&lt;p&gt;(CELLSNET-44125) - Save to PDF fails for an Excel document&lt;/p&gt;
+&lt;p&gt;(CELLSNET-44117) - Incorrect conversion for the chart&amp;rsquo;s title and legend&lt;/p&gt;
+&lt;p&gt;(CELLSNET-44086) - Horizontal axis of chart inside pdf file is scaled wrong and reversed&lt;/p&gt;
+&lt;p&gt;(CELLSNET-44079) - Some entries of the chart legend get missing while saving to pdf&lt;/p&gt;
+&lt;p&gt;(CELLSNET-44046) - Chart.ToImage modifies labels alignment&lt;/p&gt;
+&lt;p&gt;(CELLSNET-44134) - #VALUE! returned for SUMPRODUCT based on ListObject&lt;/p&gt;
+&lt;p&gt;(CELLSNET-44132) - Formula gives &amp;ldquo;#REF!&amp;rdquo; value upon inserting new rows in the output file&lt;/p&gt;
+&lt;p&gt;(CELLSNET-44131) - Some wrong formulas appear around depending on the number of inserted rows&lt;/p&gt;
+&lt;p&gt;(CELLSNET-44128) - Save to XLSB breaks formulas like =SUM(Table&lt;a href=&#34;https://roywangt.github.io/cells/pages/createpage.action?spaceKey=cellsnet&amp;amp;title=Col&amp;amp;linkCreation=true&amp;amp;fromPageId=5013614&#34;&gt;Col&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;(CELLSNET-44082) - Aspose.Cells is displaying hidden styles on saving&lt;/p&gt;
+&lt;p&gt;(CELLSNET-44081) - When combining two workbooks produces a corrupted file&lt;/p&gt;
+&lt;p&gt;(CELLSNET-44076) - ListObject.ListColumns&lt;a href=&#34;https://roywangt.github.io/cells/pages/createpage.action?spaceKey=cellsnet&amp;amp;title=i&amp;amp;linkCreation=true&amp;amp;fromPageId=5013614&#34;&gt;i&lt;/a&gt;.Name is incorrect when Workbook opens XLS file&lt;/p&gt;
+&lt;p&gt;(CELLSNET-44028) - Pivot Table does not refresh upon clicking the Data&amp;gt;Refresh All button&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43084) - The output file is corrupted when when copying a sheet&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43083) - The reference to the named cell is invalid &amp;ldquo;#Name?&amp;rdquo; when copying a sheet&lt;/p&gt;
+&lt;p&gt;(CELLSNET-42114) - Problems encountered converting from xml to xlsx&lt;/p&gt;
+&lt;p&gt;(CELLSNET-41886) - Chart not updating with resized ListObject&lt;/p&gt;
+&lt;p&gt;(CELLSNET-41492) - Huge amount of validations&lt;/p&gt;
+&lt;h2 id=&#34;exceptions&#34;&gt;Exceptions&lt;/h2&gt;
+&lt;p&gt;(CELLSNET-44097) - Input string was not in a correct format, at Workbook.Save&lt;/p&gt;
+&lt;p&gt;(CELLSNET-44099) - CalculateFormula throws exception&lt;/p&gt;
+&lt;p&gt;(CELLSNET-44127) - Saving to PDF file/memory stream causes exception&lt;/p&gt;
+&lt;p&gt;(CELLSNET-44085) - System.Exception while loading ODS&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43720) - Unknown Area error while combining Workbooks with Pivot Tables&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Aspose.Cells Grid Suite&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;other-improvements-and-changes-1&#34;&gt;Other Improvements and Changes&lt;/h2&gt;
+&lt;h2 id=&#34;bugs-1&#34;&gt;Bugs&lt;/h2&gt;
+&lt;p&gt;(CELLSNET-44123) - Unable to serialize the session state System.Collections.Specialized.BitVector32&lt;/p&gt;
+&lt;p&gt;(CELLSNET-44108) - Worksheet.RemoveColumn/RemoveRow not working in GridDesktop&lt;/p&gt;
+&lt;p&gt;(CELLSNET-44105) - Clicking Save button without changing the focus on GridWeb does not update the cell contents in exported DataTable&lt;/p&gt;
+&lt;p&gt;(CELLSNET-44104) - Using OnCellClickOnAjax event makes navigation with keys button impossible from editable cell&lt;/p&gt;
+&lt;p&gt;(CELLSNET-44100) - Zooming out on the GridDesktop Worksheet causes the contents to shrink in top left corner&lt;/p&gt;
+&lt;h2 id=&#34;exceptions-1&#34;&gt;Exceptions&lt;/h2&gt;
+&lt;p&gt;(CELLSNET-44107) - Exception occurred on Inserting Column in GridDesktop&lt;/p&gt;
+&lt;h2 id=&#34;public-api-and-backwards-incompatible-changes&#34;&gt;Public API and Backwards Incompatible Changes&lt;/h2&gt;
+&lt;p&gt;The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Cells for .NET. If you have concerns about any change listed, please raise it on the Aspose.Cells support forum.&lt;/p&gt;
+&lt;p&gt;Adds ImportTableOptions.IsHtmlString property.&lt;/p&gt;
+&lt;p&gt;Indicates whether the string value in the data table contains html tags.&lt;/p&gt;
+&lt;p&gt;Adds Workbook.CreateBuiltinStyle(BuiltinStyleType type) method.&lt;/p&gt;
+&lt;p&gt;Creates built-in style by given type.&lt;/p&gt;
+&lt;p&gt;Obsoletes Cells.End property.&lt;/p&gt;
+&lt;p&gt;Use Cells.LastCell property instead.&lt;/p&gt;
+&lt;p&gt;Adds Cells.ImportGridView(GridView gridView, int firstRow, int firstColumn,ImportTableOptions options) method.&lt;/p&gt;
+&lt;p&gt;Imports a grid view to this cells with options.&lt;/p&gt;
+&lt;p&gt;Adds ImportTableOptions.ConvertGridStyle property.&lt;/p&gt;
+&lt;p&gt;Indicates whether apply the style of the grid view to cells.&lt;/p&gt;
+&lt;p&gt;Obsoletes Cells.ImportGridView(GridView gridView,int firstRow,int firstColumn, bool insertRows, bool convertStringToNumber, bool convertStyle) method.&lt;/p&gt;
+&lt;p&gt;Use Cells.ImportGridView(GridView gridView, int firstRow, int firstColumn,ImportTableOptions options).&lt;/p&gt;
+&lt;p&gt;Adds LoadDataOption.OnlyVisibleWorksheet property.&lt;/p&gt;
+&lt;p&gt;Only loads the data of the visible worksheet.&lt;/p&gt;
+&lt;p&gt;Obsoletes Worksheet.CopyConditionalFormatting method.&lt;/p&gt;
+&lt;p&gt;Use Cells.CopyRows() or Range.Copy() method instead.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Aspose.Cells for .NET 8.6.2 Release Notes</title>
+      <link>https://roywangt.github.io/cells/net/releasenotes/2015/aspose.cells&#43;for&#43;.net&#43;8.6.2&#43;release&#43;notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/releasenotes/2015/aspose.cells&#43;for&#43;.net&#43;8.6.2&#43;release&#43;notes/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--asposecells-for-net-862-release-notes&#34;&gt;Aspose.Cells for .NET : Aspose.Cells for .NET 8.6.2 Release Notes&lt;/h1&gt;
+&lt;p&gt;This page contains release notes for &lt;a href=&#34;http://www.aspose.com/downloads/cells/net/new-releases/aspose.cells-for-.net-8.6.2/&#34;&gt;Aspose.Cells for .NET 8.6.2&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The following is a list of improvements and changes in this release of Aspose.Cells&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Aspose.Cells&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;other-improvements-and-changes&#34;&gt;Other Improvements and Changes&lt;/h2&gt;
+&lt;h2 id=&#34;new-features&#34;&gt;New Features&lt;/h2&gt;
+&lt;p&gt;(CELLSNET-43934) - Support smart markers to accept a generic List as a nested object&lt;/p&gt;
+&lt;h2 id=&#34;bugs&#34;&gt;Bugs&lt;/h2&gt;
+&lt;p&gt;(CELLSNET-44044) - PivotTable.ShowValuesRow has no effect after moving DataField to columns&lt;/p&gt;
+&lt;p&gt;(CELLSNET-44043) - Opening and resaving large Excel file corrupts the document&lt;/p&gt;
+&lt;p&gt;(CELLSNET-44031) - XLSB corrupted in Excel 2010 after saving in v8.6.1&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43990) - Misplaced AutoShape while rendering spreadsheet to PDF&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43989) - Space between the lines with in a Text Box is decreased&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43901) - PivotTable does not WrapText when refreshing&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43808) - PivotTable styling is lost when worksheets are copied to another workbook and rendered to PDF&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43786) - The file is corrupted after refreshing PivotTable in the template file&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43421) - Arrow does not render correctly while converting spreadsheet to PDF&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43391) - Issue with HTML rendering for a table with a hidden column&lt;/p&gt;
+&lt;p&gt;(CELLSNET-44045) - Workbook.CalculateFormula methods gets stuck for indefinite time&lt;/p&gt;
+&lt;p&gt;(CELLSNET-44051) - Conditional formatting icons missing from PDF&lt;/p&gt;
+&lt;p&gt;(CELLSNET-44047) - Pages are zoomed out in the output PDF&lt;/p&gt;
+&lt;p&gt;(CELLSNET-44025) - Border thickness is not preserved as per Print Area&lt;/p&gt;
+&lt;p&gt;(CELLSNET-44002) - Image gets scaled because of some problem in the code&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43960) - Cannot read some password protected file&lt;/p&gt;
+&lt;p&gt;(CELLSNET-44062) - Chart&amp;rsquo;s legend entry is not removed when the data source column is hidden&lt;/p&gt;
+&lt;p&gt;(CELLSNET-44026) - All leader lines are shown in the output image for a custom chart&lt;/p&gt;
+&lt;p&gt;(CELLSNET-44020) - A few of the Data Labels are missing while exporting Chart to Image&lt;/p&gt;
+&lt;p&gt;(CELLSNET-44010) - Chart CategoryAxis slanted TickLabel text cut off when converted to image&lt;/p&gt;
+&lt;p&gt;(CELLSNET-44000) - DataLabel is missed while rendering the chart to image&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43978) - Chart to image is generated with extra values&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43874) - Chart.NSeries.DataLabels number format is not retained while resaving&lt;/p&gt;
+&lt;p&gt;(CELLSNET-44038) - Chart.ToImage() modifies label&amp;rsquo;s text alignment&lt;/p&gt;
+&lt;p&gt;(CELLSNET-44009) - Chart series name is modified if data comes from a merged cell&lt;/p&gt;
+&lt;p&gt;(CELLSNET-44060) - Shape font color wrong after copying sheet&lt;/p&gt;
+&lt;p&gt;(CELLSNET-44056) - Save to PDF loses vertical borders&lt;/p&gt;
+&lt;p&gt;(CELLSNET-44049) - Hidden columns loose their width&lt;/p&gt;
+&lt;p&gt;(CELLSNET-44039) - Could not calculate the formula based on filtered values in the worksheet&lt;/p&gt;
+&lt;p&gt;(CELLSNET-44037) - Aggregate Function results in #NAME error until user enters formula bar&lt;/p&gt;
+&lt;p&gt;(CELLSNET-44034) - Validations do not work in XLSB format&lt;/p&gt;
+&lt;p&gt;(CELLSNET-44030) - SUMIFS Excel function does not work in XLSB format&lt;/p&gt;
+&lt;p&gt;(CELLSNET-44007) - Duplication of camera objects in resultant spreadsheet while re-saving XLSB&lt;/p&gt;
+&lt;p&gt;(CELLSNET-44006) - Protected View Error while opening re-saved XLS&lt;/p&gt;
+&lt;p&gt;(CELLSNET-44001) - NOW() formula not displaying correctly in SpreadsheetML(XML) to PDF conversion&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43894) - OLE link ObjectSourceFullName could not be updated&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43845) - Two fields on the left from the chart were hidden that reappear afterwards&lt;/p&gt;
+&lt;h2 id=&#34;exceptions&#34;&gt;Exceptions&lt;/h2&gt;
+&lt;p&gt;(CELLSNET-44008) - CellsException at SheetRender.ToImage&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43926) - CellsException at Workbook.CalculateFormula&lt;/p&gt;
+&lt;p&gt;(CELLSNET-44052) - Exception occurred on Workbook.Save() in Excel to PDF conversion&lt;/p&gt;
+&lt;p&gt;(CELLSNET-44050) - System.FormatException at Workbook ctor&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Aspose.Cells Grid Suite&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;other-improvements-and-changes-1&#34;&gt;Other Improvements and Changes&lt;/h2&gt;
+&lt;h2 id=&#34;new-features-1&#34;&gt;New Features&lt;/h2&gt;
+&lt;p&gt;(CELLSNET-44036) - Font color is same for entire text even though cell has texts with different colors&lt;/p&gt;
+&lt;p&gt;(CELLSNET-44033) - Get Modified cells in Ajax mode on server side&lt;/p&gt;
+&lt;p&gt;(CELLSNET-44014) - GridWorkSheet.SetEditableRange method is not available in 8.6.1&lt;/p&gt;
+&lt;h2 id=&#34;bugs-1&#34;&gt;Bugs&lt;/h2&gt;
+&lt;p&gt;(CELLSNET-43955) - GridWeb.SaveCustomStyleFile Method is Missing in 8.6.0&lt;/p&gt;
+&lt;p&gt;(CELLSNET-44017) - Serialization error when using SessionState Mode to &amp;ldquo;StateServer&amp;rdquo; in web.config file - GridWeb&lt;/p&gt;
+&lt;h2 id=&#34;exceptions-1&#34;&gt;Exceptions&lt;/h2&gt;
+&lt;p&gt;(CELLSNET-43185) - SerializationException when Session-State Mode is switched to StateServer&lt;/p&gt;
+&lt;h2 id=&#34;public-api-and-backwards-incompatible-changes&#34;&gt;Public API and Backwards Incompatible Changes&lt;/h2&gt;
+&lt;p&gt;The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Cells for .NET. If you have concerns about any change listed, please raise it on the Aspose.Cells support forum.&lt;/p&gt;
+&lt;p&gt;Adds WorkbookDesigner.CallBack property and ISmartMarkerCallBack interface.&lt;/p&gt;
+&lt;p&gt;Represents callback interface of processing smart marker..&lt;/p&gt;
+&lt;p&gt;Adds Cells.Style property.&lt;/p&gt;
+&lt;p&gt;Gets and sets the default style of the worksheet.&lt;/p&gt;
+&lt;p&gt;Adds Chart.ToPdf(string fileName) method.&lt;/p&gt;
+&lt;p&gt;Saves the chart to a pdf file.&lt;/p&gt;
+&lt;p&gt;Adds Workbook.RemoveUnusedStyles() method.&lt;/p&gt;
+&lt;p&gt;Removes all unused styles from workbook&amp;rsquo;s style pool.&lt;/p&gt;
+&lt;p&gt;Adds AjaxCallFinished event in GridWeb&lt;/p&gt;
+&lt;p&gt;Fires when the ajax update of the control finished.(the EnableAJAX shall be set to true).&lt;/p&gt;
+&lt;p&gt;Adds CellModifiedOnAjax event in GridWeb&lt;/p&gt;
+&lt;p&gt;Fires when the cell is modified in ajaxcall.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Aspose.Cells for .NET 8.6.1 Release Notes</title>
+      <link>https://roywangt.github.io/cells/net/releasenotes/2015/aspose.cells&#43;for&#43;.net&#43;8.6.1&#43;release&#43;notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/releasenotes/2015/aspose.cells&#43;for&#43;.net&#43;8.6.1&#43;release&#43;notes/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--asposecells-for-net-861-release-notes&#34;&gt;Aspose.Cells for .NET : Aspose.Cells for .NET 8.6.1 Release Notes&lt;/h1&gt;
+&lt;p&gt;This page contains release notes for &lt;a href=&#34;http://www.aspose.com/downloads/cells/net/new-releases/aspose.cells-for-.net-8.6.1/&#34;&gt;Aspose.Cells for .NET 8.6.1&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The following is a list of improvements and changes in this release of Aspose.Cells&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Aspose.Cells&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;other-improvements-and-changes&#34;&gt;Other Improvements and Changes&lt;/h2&gt;
+&lt;h2 id=&#34;new-features&#34;&gt;New Features&lt;/h2&gt;
+&lt;p&gt;(CELLSNET-43905) - Support to change the HTML hyperlink&amp;rsquo;s target attribute to &amp;ldquo;_blank&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43885) - Ability to retrieve the ConnectionString of ExternalConnection of type WebQuery&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43935) - Ignors hidden Column with ExportTableOptions.PlotVisibleColumns set to true&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43925) - Adding a reference to VBA macros in workbook&lt;/p&gt;
+&lt;h2 id=&#34;enhancements&#34;&gt;Enhancements&lt;/h2&gt;
+&lt;p&gt;(CELLSNET-43933) - Cell.Formula can accept an invalid formula and API tries to correct it&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43476) - API needed to check whether license is loaded or not&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43310) - Renaming of duplicate worksheet names when combining workbooks&lt;/p&gt;
+&lt;p&gt;(CELLSNET-42518) - Ability to access sub-objects via smart markers&lt;/p&gt;
+&lt;h2 id=&#34;bugs&#34;&gt;Bugs&lt;/h2&gt;
+&lt;p&gt;(CELLSNET-43946) - Cell.HtmlString returns a string that renders the normal string as subscript&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43941) - Chart is not generated correctly&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43936) - Shows legend keys even if Chart.ChartDataTable.ShowLegendKey is set to false&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43991) - Removing the worksheets corrupts the resultant XLSX&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43988) - Password to Modify is lost when XLSX is re-saved with Aspose.Cells&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43984) - Password to Modify converts to Password to Open when XLSM is re-saved&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43983) - Password to Modify converts to Password to Open when XLSX is re-saved&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43982) - Password to Modify converts to Password to Open when XLTM is re-saved&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43981) - Password to Modify is lost when XLTM is re-saved&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43980) - Password to Modify converts to Password to Open when XLTX is re-saved&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43979) - SetStyle font not applied for certain fonts&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43977) - Password to Modify is lost when XLTX is re-saved with Aspose.Cells&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43976) - Multiple tries to open password protected XLSX&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43973) - Password to modify is lost after re-saving XLSM&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43968) - Excel application recommends to open the resultant XLSB in read-only&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43967) - Password protected XLT becomes corrupted after resaving&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43966) - ISNONTEXT formula returns the wrong value after CalculateFormula&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43965) - DetectFileFormat(FileStream) to consumes lot of memory for zip file&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43951) - Password to modify is lost in OOXML files&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43950) - Protection identification issues in Aspose.Cells&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43944) - Size of the picture is not correct and changes after reset&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43943) - Cannot read superscript from cell character&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43940) - Incorrect cell selected on report open&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43931) - Deleting rows from named range corrupts the resultant XLSX&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43928) - DocumentProperty Author value is read incomplete&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43927) - #REF in formula referencing listobject on other worksheet&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43891) - Problem of Workbook.VBAProject.Modules operations&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43737) - FileFormatInfo.IsEncrypted has wrong value for legacy formats&lt;/p&gt;
+&lt;p&gt;(CELLSNET-42120) - DisplayStringValue value incorrect in certain scenarios&lt;/p&gt;
+&lt;p&gt;(CELLSNET-42110) - Border set for Ranges in XLSX does not show in PDF&lt;/p&gt;
+&lt;h2 id=&#34;exceptions&#34;&gt;Exceptions&lt;/h2&gt;
+&lt;p&gt;(CELLSNET-43932) - Shape to image Error! while rendering a spreadsheet to PDF&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43964) - Getting display style of all cells throws IndexOutOfRangeException&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43926) - CellsException at Workbook.CalculateFormula&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43911) - CellsException at Workbook.Save&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43930) - GetNamedRanges() method throws Domain First Chance Exception&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43918) - Exception on opening the template XLSX file&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Aspose.Cells Grid Suite&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;other-improvements-and-changes-1&#34;&gt;Other Improvements and Changes&lt;/h2&gt;
+&lt;h2 id=&#34;new-features-1&#34;&gt;New Features&lt;/h2&gt;
+&lt;p&gt;(CELLSNET-44004) - Support to load and save SpreasheetML(XML) file - GridDesktop&lt;/p&gt;
+&lt;h2 id=&#34;enhancements-1&#34;&gt;Enhancements&lt;/h2&gt;
+&lt;p&gt;(CELLSNET-43873) - Old code in the - Formatting a Range of Cells - article is not working&lt;/p&gt;
+&lt;h2 id=&#34;bugs-1&#34;&gt;Bugs&lt;/h2&gt;
+&lt;p&gt;(CELLSNET-43997) - Active cell in the sheet is not on the correct position when loading/saving an XLSX file - GridWeb&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43993) - C2686 error compiling VS2008 C++ with griddesktop.dll&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43986) - WebWorksheet or GridWorkSheet does not have the SetReadonlyRange method&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43970) - Regression issue while upgrading from 8.4.2.0 to 8.6.0&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43952) - LoadValueList API is missing in Aspose.Cells.GridWeb.Validation class&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43859) - Cell filled with Yellow color does not get exported to XLSX file&lt;/p&gt;
+&lt;h2 id=&#34;public-api-and-backwards-incompatible-changes&#34;&gt;Public API and Backwards Incompatible Changes&lt;/h2&gt;
+&lt;p&gt;The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Cells for .NET. If you have concerns about any change listed, please raise it on the Aspose.Cells support forum.&lt;/p&gt;
+&lt;p&gt;Adds enum HtmlLinkTargetType and HtmlSaveOptions.LinkTargetType.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s used to set the type of target attribute in HTML&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Aspose.Cells for .NET 8.6.0 Release Notes</title>
+      <link>https://roywangt.github.io/cells/net/releasenotes/2015/aspose.cells&#43;for&#43;.net&#43;8.6.0&#43;release&#43;notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/releasenotes/2015/aspose.cells&#43;for&#43;.net&#43;8.6.0&#43;release&#43;notes/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--asposecells-for-net-860-release-notes&#34;&gt;Aspose.Cells for .NET : Aspose.Cells for .NET 8.6.0 Release Notes&lt;/h1&gt;
+&lt;p&gt;This page contains release notes for &lt;a href=&#34;http://www.aspose.com/downloads/cells/net/new-releases/aspose.cells-for-.net-8.6.0/&#34;&gt;Aspose.Cells for .NET 8.6.0&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The following is a list of improvements and changes in this release of Aspose.Cells&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Aspose.Cells&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;other-improvements-and-changes&#34;&gt;Other Improvements and Changes&lt;/h2&gt;
+&lt;h2 id=&#34;new-features&#34;&gt;New Features&lt;/h2&gt;
+&lt;p&gt;(CELLSNET-43880) - Assign macro to form controls&lt;/p&gt;
+&lt;h2 id=&#34;enhancements&#34;&gt;Enhancements&lt;/h2&gt;
+&lt;p&gt;(CELLSNET-43832) - Worksheet.Shapes.UpdateSelectedValue throwing CellsException sometimes&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43823) - Including a Font Directory with CellsHelper, doesn&amp;rsquo;t seem to work&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43900) - Hyperlink.TextToDisplay is not updated&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43892) - XLSX document size increases with every save&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43869) - Aspose.Cells is not able to run in the Medium Trust&lt;/p&gt;
+&lt;h2 id=&#34;bugs&#34;&gt;Bugs&lt;/h2&gt;
+&lt;p&gt;(CELLSNET-43884) - Wingdings symbols do not render correctly while converting certain spreadsheet to HTML&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43877) - Excel always repairs the resultant spreadsheet after adding the PivotTable&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43831) - HTML to Excel - CSS Styling Ignored&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43750) - Chart changes in resultant spreadsheet after refreshing the Chart&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43843) - Workbook.CalculateFormula never returns&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43842) - Aspose.Cells Row Insertion Error&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43879) - characters overlapped and converted to ######## in Excel to PDF rendering&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43854) - Superscript and subscript shifted up too much when generating image&lt;/p&gt;
+&lt;p&gt;(CELLSNET-42762) - Chart Axis labels are rendered in jagged text&lt;/p&gt;
+&lt;p&gt;(CELLSNET-42384) - WordArt Boxes are balcked out when XLSX is converted to PDF&lt;/p&gt;
+&lt;p&gt;(CELLSNET-42380) - SmartArt boxes are coming as black.&lt;/p&gt;
+&lt;p&gt;(CELLSNET-42377) - SmartArt layout heading is overlapping with underline under Picture heading.&lt;/p&gt;
+&lt;p&gt;(CELLSNET-41493) - Text is being truncated/wrapped in the generated PDF&lt;/p&gt;
+&lt;p&gt;(CELLSNET-41398) - Spreadsheet document produces multiple documents when converted&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43894) - OLE link ObjectSourceFullName could not be updated&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43882) - PageSetup.Zoom has changed after opening and saving the workbook&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43881) - Some cell formulas are lost when row is copied&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43876) - Double read of Carriage Return Line Feeds&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43864) - Combining two XLSM workbooks produces a corrupted workbook&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43839) - Images in the spreadsheet do not render while converting to PDF&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43837) - Linked Picture is not inside the chart after instantiating the Workbook object and saving it&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43836) - Range.CopyData works but Range.Copy is not working&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43830) - Adding more than 2084 characters in hyperlink corrupts the output xlsx file&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43829) - Excel function renders with #NAME? error on Sheet 1&lt;/p&gt;
+&lt;h2 id=&#34;exceptions&#34;&gt;Exceptions&lt;/h2&gt;
+&lt;p&gt;(CELLSNET-43866) - CellsException while rendering a spreadsheet to PDF&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43847) - Exception occurs when trying to invoke RefreshPivotTables&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43852) - CellsException at Workbook.CalculateFormula&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43893) - CellsException while rendering a spreadsheet to PDF format&lt;/p&gt;
+&lt;p&gt;(CELLSNET-42108) - CellsException: Parameter is not valid: while converting XLS to PDF&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43835) - System.OutOfMemoryException when converting an XLS file to PDF file format&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43865) - ArgumentException while rendering spreadsheet to PDF &amp;amp; HTML&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43862) - NullReferenceException at Workbook.Save&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Aspose.Cells Grid Suite&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;other-improvements-and-changes-1&#34;&gt;Other Improvements and Changes&lt;/h2&gt;
+&lt;h2 id=&#34;bugs-1&#34;&gt;Bugs&lt;/h2&gt;
+&lt;p&gt;(CELLSNET-43875) - Gridweb Print on Chrome does not work correctly&lt;/p&gt;
+&lt;h2 id=&#34;public-api-and-backwards-incompatible-changes&#34;&gt;Public API and Backwards Incompatible Changes&lt;/h2&gt;
+&lt;p&gt;The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Cells for .NET. If you have concerns about any change listed, please raise it on the Aspose.Cells support forum.&lt;/p&gt;
+&lt;p&gt;Adds WorkbookMetadata namespace and classes.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s used to reading and saving metadata of the file.&lt;/p&gt;
+&lt;p&gt;Adds HtmlSaveOptions. ExportFrameScriptsAndProperties property&lt;/p&gt;
+&lt;p&gt;Indicating whether exporting frame scripts and document properties. The default value is true.&lt;/p&gt;
+&lt;p&gt;Adds Shape.MarcoName property&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s used to get and set the name of macro.&lt;/p&gt;
+&lt;p&gt;Adds OoxmlSaveOptions.UpdateZoom property&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s used to update PageSetup.Zoom if PageSetup.FitToPagesWide and PageSetup.FitToPagesTall properties control how the worksheet is scaled.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Aspose.Cells for .NET 8.5.2 Release Notes</title>
+      <link>https://roywangt.github.io/cells/net/releasenotes/2015/aspose.cells&#43;for&#43;.net&#43;8.5.2&#43;release&#43;notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/releasenotes/2015/aspose.cells&#43;for&#43;.net&#43;8.5.2&#43;release&#43;notes/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--asposecells-for-net-852-release-notes&#34;&gt;Aspose.Cells for .NET : Aspose.Cells for .NET 8.5.2 Release Notes&lt;/h1&gt;
+&lt;p&gt;This page contains release notes for &lt;a href=&#34;http://www.aspose.com/downloads/cells/net/new-releases/aspose.cells-for-.net-8.5.2/&#34;&gt;Aspose.Cells for .NET 8.5.2&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The following is a list of improvements and changes in this release of Aspose.Cells&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Aspose.Cells&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;other-improvements-and-changes&#34;&gt;Other Improvements and Changes&lt;/h2&gt;
+&lt;h2 id=&#34;new-features&#34;&gt;New Features&lt;/h2&gt;
+&lt;p&gt;(CELLSNET-43758) - Render to Graphic Context&lt;/p&gt;
+&lt;h2 id=&#34;bugs&#34;&gt;Bugs&lt;/h2&gt;
+&lt;p&gt;(CELLSNET-43786) - The file is corrupted after refreshing PivotTable in the template file&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43594) - PivotField.IsRepeatItemLabels not working in the Pivot Table&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43367) - Issue with PivotTable.Format() to format the PivotField header&lt;/p&gt;
+&lt;p&gt;(CELLSNET-41618) - Not displaying some pictures and shapes after converting Xls to Html&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43817) - CalculateFormula() never ends for some SUMIF Excel formulas&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43675) - Problem in calculating NORM.S.DIST function&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43741) - Number does not increase when Workbook.Settings.CreateCalcChain is set to true&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43818) - Aspose.Cells generates 2 pages while Excel Print Preview shows 1 page&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43780) - Wrong Executive paper size when converting to PDF&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43776) - Image is converted to black while converting spreadsheet to PdfA1b&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43769) - Cell contents are cropped at the top a bit in the output image&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43806) - The plot/curve isn&amp;rsquo;t the same for the XY Scatter charts.&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43805) - Spreadsheet to PDF Conversion: Bold Style is Lost&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43804) - Spreadsheet to PDF Conversion: Contents in TextBox Renders with Indentation&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43779) - Chart to Image inconsistency for EMF file format&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43772) - The text in the drawing shape is not being wrapped correctly&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43771) - Picture has displaced after rendering the spreadsheet to PDF&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43748) - TextBox text is overlapped in Excel to PDF rendering&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43820) - Spreadsheet containing Slicers becomes corrupt after resaving&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43812) - Chart gets blank in the output excel file and does not show up in Excel 2013&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43810) - Error opening the saved XLSX file via Aspose.Cells APIs&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43807) - Spreadsheet containing pivot table is corrupted after re-saving it&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43802) - Excel file corrupts on opening and re-saving and does not open in Excel 2013&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43799) - Resaving the spreadsheet makes the results corrupt and slicers are removed&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43792) - Workbook Data Connection is removed after resaving the spreadsheet&lt;/p&gt;
+&lt;h2 id=&#34;exceptions&#34;&gt;Exceptions&lt;/h2&gt;
+&lt;p&gt;(CELLSNET-43629) - PivotTable.RefreshData() - Unable to cast object of type&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43778) - System.FormatException at Chart.ToImage when system locale is Russia&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43822) - Workbook containing chart cannot be saved and throws exception&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43814) - Loading excel in xlsm format throws null reference error&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43793) - Aspose.Cells.CellsException: Override element error on loading an XLSX file&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43784) - System.ArgumentException at Workbook.Combine&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43783) - Exception when rendering a spreadsheet to Tab Delimited file format&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43828) - System.InvalidCastException when re-saving a template XLSX file&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Aspose.Cells Grid Suite&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;new-features-1&#34;&gt;New Features&lt;/h2&gt;
+&lt;p&gt;(CELLSNET-43809) - Adds async callback event for griddesktop&lt;/p&gt;
+&lt;p&gt;(CELLSNET-42316) - Keyboard Shortcut Ctrl + Shift + Arrow keys is not working.&lt;/p&gt;
+&lt;p&gt;(CELLSNET-42174) - Control + arrow keys does not jump to cell with data&lt;/p&gt;
+&lt;h2 id=&#34;other-improvements-and-changes-1&#34;&gt;Other Improvements and Changes&lt;/h2&gt;
+&lt;h2 id=&#34;bugs-1&#34;&gt;Bugs&lt;/h2&gt;
+&lt;p&gt;(CELLSNET-43782) - GridCell.Protected property has been removed&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43688) - Row height for some merged cells is not correct.&lt;/p&gt;
+&lt;h2 id=&#34;public-api-and-backwards-incompatible-changes&#34;&gt;Public API and Backwards Incompatible Changes&lt;/h2&gt;
+&lt;p&gt;The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Cells for .NET. If you have concerns about any change listed, please raise it on the Aspose.Cells support forum.&lt;/p&gt;
+&lt;p&gt;Adds SaveOptions.MergeAreas property.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s used to merge individual CellAreas of the conditional formatting and validation.&lt;/p&gt;
+&lt;p&gt;Adds PivotTable.GetCellByDisplayName(string displayName) method&lt;/p&gt;
+&lt;p&gt;Gets the Cell object by the DisplayName of PivotField.&lt;/p&gt;
+&lt;p&gt;Adds SheetRender.ToImage(int pageIndex, Graphics g, float x, float y) method&lt;/p&gt;
+&lt;p&gt;Render certain page of SheetRender to a Graphics.&lt;/p&gt;
+&lt;p&gt;Adds SheetRender.ToImage(int pageIndex, Graphics g, float x, float y, float width, float height) method.&lt;/p&gt;
+&lt;p&gt;Render certain page of SheetRender to a Graphics.&lt;/p&gt;
+&lt;p&gt;Adds Shape.Geometry.ShapeAdjustValues property.&lt;/p&gt;
+&lt;p&gt;Gets a collection of shape adjust value.&lt;/p&gt;
+&lt;p&gt;Adds GridDesktop.BeforeLoadFile/FinishLoadFile/BeforeCalculate/FinishCalculate events.&lt;/p&gt;
+&lt;p&gt;Occurs on the diffrent state of loading workbook file in GridDesktop.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Aspose.Cells for .NET 8.5.1 Release Notes</title>
+      <link>https://roywangt.github.io/cells/net/releasenotes/2015/aspose.cells&#43;for&#43;.net&#43;8.5.1&#43;release&#43;notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/releasenotes/2015/aspose.cells&#43;for&#43;.net&#43;8.5.1&#43;release&#43;notes/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--asposecells-for-net-851-release-notes&#34;&gt;Aspose.Cells for .NET : Aspose.Cells for .NET 8.5.1 Release Notes&lt;/h1&gt;
+&lt;p&gt;This page contains release notes for &lt;a href=&#34;http://www.aspose.com/downloads/cells/net/new-releases/aspose.cells-for-.net-8.5.1/&#34;&gt;Aspose.Cells for .NET 8.5.1&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The following is a list of improvements and changes in this release of Aspose.Cells&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Aspose.Cells&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;other-improvements-and-changes&#34;&gt;Other Improvements and Changes&lt;/h2&gt;
+&lt;h2 id=&#34;new-features&#34;&gt;New Features&lt;/h2&gt;
+&lt;p&gt;(CELLSNET-43703) - ICustomFunction - returning a range instead of a single cell&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43777) - Cell.GetHeightOfValue() similar to Cell.GetWidthOfValue() needed&lt;/p&gt;
+&lt;h2 id=&#34;bugs&#34;&gt;Bugs&lt;/h2&gt;
+&lt;p&gt;(CELLSNET-43744) - PivotTable does not refresh when saving to PDF&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43735) - Pivot Table&amp;rsquo;s Banded Rows option is lost&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43759) - Pivot Table doesn&amp;rsquo;t keep sorting when combine&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43721) - Error message pops up after saving workbook&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43724) - Values are not correct when data changes&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43719) - Different value after CalculateFormula&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43713) - Workbook.CalculateFormula does not calculate correct values&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43708) - Calling the Worksheet.GetPrintingPageBreaks changes the TextBox width&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43695) - Cell.RemoveArrayFormula does not remove the array formula&lt;/p&gt;
+&lt;p&gt;(CELLSNET-41874) - Excel syntax not supported for the formulas&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43753) - Aspose.Cells renders 2 pages&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43731) - Text is getting cutoff while rendering worksheet to EMF image&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43756) - Chart image doesn&amp;rsquo;t contain the same values as the x axis from the excel chart&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43728) - Refreshing the PivotTable with new data changes the chart&amp;rsquo;s color style&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43726) - Combining Workbooks change the Chart style&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43700) - Color of the picture looks differently after converting to PDF&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43199) - Contents and shapes are shifting when Excel is saved to PDF&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43767) - Excel shows Protected View on Aspose.Cells saved spreadsheet&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43762) - Cell.GetPrecedents() not returning correct worksheet name&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43761) - The background color of the conditionally formatted cells change&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43760) - Conditional format rules corrupted&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43742) - Inconsistent Workbook protection behavior&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43734) - Excel cannot open file after conversion from XLSM to XLS&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43727) - Combining Workbooks cause the Excel&amp;rsquo;s &amp;ldquo;Cannot edit a PivotTable in group edit mode&amp;rdquo; warning&lt;/p&gt;
+&lt;h2 id=&#34;exceptions&#34;&gt;Exceptions&lt;/h2&gt;
+&lt;p&gt;(CELLSNET-43768) - Unkown Area error while copying worksheet from other workbook&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43716) - Shape to image Error on converting to PDF&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43764) - NullReferenceException at Worbook ctor with spreadsheet saved as Strict OpenXML&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43740) - System.IndexOutOfRangeException at Workbook.Save&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Aspose.Cells Grid Suite&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;other-improvements-and-changes-1&#34;&gt;Other Improvements and Changes&lt;/h2&gt;
+&lt;h2 id=&#34;new-features-1&#34;&gt;New Features&lt;/h2&gt;
+&lt;p&gt;(CELLSNET-42783) - Link to external workbook creates #REF! in GridDesktop&lt;/p&gt;
+&lt;p&gt;(CELLSNET-41744) - Right to Left Display&lt;/p&gt;
+&lt;h2 id=&#34;bugs-1&#34;&gt;Bugs&lt;/h2&gt;
+&lt;p&gt;(CELLSNET-43730) - Difference between GridWeb.ActiveCell and GridWeb.WorkSheets&lt;a href=&#34;https://roywangt.github.io/cells/pages/createpage.action?spaceKey=cellsnet&amp;amp;title=0&amp;amp;linkCreation=true&amp;amp;fromPageId=5013621&#34;&gt;0&lt;/a&gt;.ActiveCell&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43175) - GridDesktop Random Red X Error&lt;/p&gt;
+&lt;p&gt;(CELLSNET-42321) - Custom number formatting not matched with Excel in Aspose.Cells.GridDesktop&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43763) - Missing methods in Aspose.Cells.GridDesktop&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43774) - GridDesktop new mode: borders not rendered correctly in merged cells&lt;/p&gt;
+&lt;h2 id=&#34;exceptions-1&#34;&gt;Exceptions&lt;/h2&gt;
+&lt;p&gt;(CELLSNET-43670) - System.ArgumentException at GridDesktop.ImportExcelFile&lt;/p&gt;
+&lt;h2 id=&#34;public-api-and-backwards-incompatible-changes&#34;&gt;Public API and Backwards Incompatible Changes&lt;/h2&gt;
+&lt;p&gt;The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Cells for .NET. If you have concerns about any change listed, please raise it on the Aspose.Cells support forum.&lt;/p&gt;
+&lt;p&gt;Adds enum TableDataSourceType and ListObject.DataSourceType&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s used to get the data source type of the table.&lt;/p&gt;
+&lt;p&gt;Adds Workbook.Dispose() method.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s used to release unmanaged resources.&lt;/p&gt;
+&lt;p&gt;Adds Cell.GetHeightOfValue() method.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s used to get the height of the value in unit of pixels.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Aspose.Cells for .NET 8.5.0 Release Notes</title>
+      <link>https://roywangt.github.io/cells/net/releasenotes/2015/aspose.cells&#43;for&#43;.net&#43;8.5.0&#43;release&#43;notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/releasenotes/2015/aspose.cells&#43;for&#43;.net&#43;8.5.0&#43;release&#43;notes/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--asposecells-for-net-850-release-notes&#34;&gt;Aspose.Cells for .NET : Aspose.Cells for .NET 8.5.0 Release Notes&lt;/h1&gt;
+&lt;p&gt;This page contains release notes for &lt;a href=&#34;http://www.aspose.com/downloads/cells/net/new-releases/aspose.cells-for-.net-8.5.0/&#34;&gt;Aspose.Cells for .NET 8.5.0&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The following is a list of improvements and changes in this release of Aspose.Cells&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Aspose.Cells&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;other-improvements-and-changes&#34;&gt;Other Improvements and Changes&lt;/h2&gt;
+&lt;h2 id=&#34;new-features&#34;&gt;New Features&lt;/h2&gt;
+&lt;p&gt;(CELLSNET-43640) - Cannot render the custom date format pattern g and ge.mm.dd&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43682) - ExportDataTableAsString function should export cell vaues as StringValueWithoutFormat&lt;/p&gt;
+&lt;p&gt;(CELLSNET-41619) - Convert revision of XLSB to XLSM&lt;/p&gt;
+&lt;p&gt;(CELLSNET-40366) - How to know if the license is registered&lt;/p&gt;
+&lt;h2 id=&#34;performance&#34;&gt;Performance&lt;/h2&gt;
+&lt;p&gt;(CELLSNET-41836) - System.StackOverflowException occurred in Aspose.Cells.dll&lt;/p&gt;
+&lt;h2 id=&#34;bugs&#34;&gt;Bugs&lt;/h2&gt;
+&lt;p&gt;(CELLSNET-43702) - Spreadsheet corrupted after opening and saving the template XLSX file&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43669) - Adding more than 14 fields to Pivot Table&amp;rsquo;s report filter causes error&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43667) - Incorrect formula value after calling Worksheet.CalculateFormula&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43584) - Chart labels are lost when converting to PDF&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43705) - Date format is different in output pdf&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43658) - Error in calculating cell exception occurs on calculating formula&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43329) - Calculate formula with SUMIF gives different result than Excel&lt;/p&gt;
+&lt;p&gt;(CELLSNET-42598) - Problem in formula calculation&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43715) - Cell Pattern Fill - PDF conversion produces large files&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43694) - Text Alignment lost when spreadsheet is rendered to image&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43693) - Misplaced text while rendering spreadsheet to image&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43691) - Text is getting truncated at the bottom&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43690) - Text is getting truncated at the bottom while rendering worksheet to image&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43676) - Output PDF does not have correct number of Pages&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43672) - Bad image quality while rendering worksheet to PNG&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43661) - Text getting truncated while rendering spreadsheet to PDF&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43644) - Text does not render correctly&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43600) - Excel file is not properly rendered&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43593) - Text is above the line and other formatting issues in Excel to PDF&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43481) - Cells with Hebrew words have had lost the RTL consistency&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43457) - Arabic currency symbol is on the wrong side&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43453) - Text is getting trimmed&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43365) - Horizontal Line does not render&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43102) - Difference in font spacing&lt;/p&gt;
+&lt;p&gt;(CELLSNET-42832) - The text outside of the page break is rendered in PDF as wrapped text&lt;/p&gt;
+&lt;p&gt;(CELLSNET-42751) - Text overruns cell and is cut off&lt;/p&gt;
+&lt;p&gt;(CELLSNET-42721) - Output pdf has one extra page&lt;/p&gt;
+&lt;p&gt;(CELLSNET-42720) - Text is cut off in the output pdf&lt;/p&gt;
+&lt;p&gt;(CELLSNET-42696) - Characters touching each other after conversion&lt;/p&gt;
+&lt;p&gt;(CELLSNET-42542) - Merged and warped text is getting cut-off while converting XLSX to PDF&lt;/p&gt;
+&lt;p&gt;(CELLSNET-42537) - Underline overlaps with double bottom border&lt;/p&gt;
+&lt;p&gt;(CELLSNET-42474) - Font Size changed after conversion to PDF&lt;/p&gt;
+&lt;p&gt;(CELLSNET-42260) - Comparision of PDF generated with Aspose.Cells with MS Excel&lt;/p&gt;
+&lt;p&gt;(CELLSNET-41519) - Pages don&amp;rsquo;t line up when converting XLSX File to PDF&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43683) - Aspose 8.4.2 reads chart properties incorrectly and are swapped&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43680) - Legend color is missing in the output PDF file in Excel to PDF conversion&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43679) - Chart&amp;rsquo;s horizontal x-axis scaling is missing in the rendered PDF file format&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43677) - Unable to set Category Axis to a Text Axis&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43668) - 3D Pie chart is not rendered fine in Excel to PDF conversion&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43657) - Chart is generated incorrectly after saving with OoxmlSaveOptions.RefreshChartCache = true&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43648) - Image from cell reference is truncated when using SheetRender.ToImage&lt;/p&gt;
+&lt;p&gt;(CELLSNET-42922) - Leader lines are hidden when rendering to PDF file format&lt;/p&gt;
+&lt;p&gt;(CELLSNET-42376) - Text is cutoff from TextBox while rendering XLSX to PDF&lt;/p&gt;
+&lt;p&gt;(CELLSNET-42369) - PDF not rendered properly&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43714) - Custom Ribbon is removed when the XLSM file is processed&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43711) - Newly inserted image in the Worksheet is vertically stretched&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43665) - Saving XLS in XLSX removed the TextBoxes from the worksheet&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43664) - Euro symbol is changed to Dollar sign when saved as ODS&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43659) - Some line styles are different&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43650) - Cells.CopyColumns does not copy Conditional Formatting&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43649) - IsEncrypted is false for .xlsx but true for .xls&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43641) - Issue with calculating formulas when enable Iterative calculation&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43618) - Value is not retrieved fine by Aspose.Cells APIs&lt;/p&gt;
+&lt;p&gt;(CELLSNET-42995) - Workbook.HasRevisions is true but it does not have any revisions&lt;/p&gt;
+&lt;p&gt;(CELLSNET-41753) - Excel Found Unreadable Content in ToolExample_Revised.xlsm&lt;/p&gt;
+&lt;h2 id=&#34;exceptions&#34;&gt;Exceptions&lt;/h2&gt;
+&lt;p&gt;(CELLSNET-43671) - Object reference not set to an instance of an object exception&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Aspose.Cells Grid Suite&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;other-improvements-and-changes-1&#34;&gt;Other Improvements and Changes&lt;/h2&gt;
+&lt;h2 id=&#34;new-features-1&#34;&gt;New Features&lt;/h2&gt;
+&lt;p&gt;(CELLSNET-43692) - Build a Zoom Slider in GridDesktop like the one in Excel&lt;/p&gt;
+&lt;h2 id=&#34;bugs-1&#34;&gt;Bugs&lt;/h2&gt;
+&lt;p&gt;(CELLSNET-43688) - Row height for some merged cells is not correct when loading the file into GridDesktop control&lt;/p&gt;
+&lt;h2 id=&#34;public-api-and-backwards-incompatible-changes&#34;&gt;Public API and Backwards Incompatible Changes&lt;/h2&gt;
+&lt;p&gt;The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Cells for .NET. If you have concerns about any change listed, please raise it on the Aspose.Cells support forum.&lt;/p&gt;
+&lt;p&gt;Adds enum PasteType.RowHeights&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s used to copy the heights of the range.&lt;/p&gt;
+&lt;p&gt;Adds property SheetRender.PageScale.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s used to get calculated page scale of the sheet.&lt;/p&gt;
+&lt;p&gt;Adds method Cell.GetStingValue(CellValueFormatStrategy).&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s used to get the string value of the cell by specific formatted strategy.&lt;/p&gt;
+&lt;p&gt;Adds property ExportTableOptions.FormatStrategy.&lt;/p&gt;
+&lt;p&gt;Gets and sets the format strategy when exporting the value as string value.&lt;/p&gt;
+&lt;p&gt;Adds class CalculationOptions.&lt;/p&gt;
+&lt;p&gt;Represents options for calculating formulas.&lt;/p&gt;
+&lt;p&gt;Adds methods for calculating formulas with CalculationOptions: Cell.Calculate(CalculationOptions),&lt;br&gt;
+Workbook.CalculateFormula(CalculationOptions), Worksheet.CalculateFormula(CalculationOptions options, bool recursive).&lt;/p&gt;
+&lt;p&gt;Allow user to calculate formulas with more flexible and extensible options.&lt;/p&gt;
+&lt;p&gt;Adds methods: ReferredArea.GetValues(),ReferredArea.GetValue(int rowOffset, int colOffset)&lt;/p&gt;
+&lt;p&gt;Allow user to fetch data from a reference.&lt;/p&gt;
+&lt;p&gt;Changes for parameters of ICustomFunction.CalculateCustomFunction(string functionName, ArrayList paramsList, ArrayList contextObjects)&lt;/p&gt;
+&lt;p&gt;Now we add ReferredArea object into &amp;ldquo;paramsList&amp;rdquo; instead the value or value array of the referred area when corresponding parameter is a reference or its calcualted result is reference. And we remove ReferredAreaCollection from contextObjexts.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Aspose.Cells for .NET 8.4.2 Release Notes</title>
+      <link>https://roywangt.github.io/cells/net/releasenotes/2015/aspose.cells&#43;for&#43;.net&#43;8.4.2&#43;release&#43;notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/releasenotes/2015/aspose.cells&#43;for&#43;.net&#43;8.4.2&#43;release&#43;notes/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--asposecells-for-net-842-release-notes&#34;&gt;Aspose.Cells for .NET : Aspose.Cells for .NET 8.4.2 Release Notes&lt;/h1&gt;
+&lt;p&gt;This page contains release notes for &lt;a href=&#34;http://www.aspose.com/downloads/cells/net/new-releases/aspose.cells-for-.net-8.4.2/&#34;&gt;Aspose.Cells for .NET 8.4.2&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The following is a list of improvements and changes in this release of Aspose.Cells&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Aspose.Cells&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;other-improvements-and-changes&#34;&gt;Other Improvements and Changes&lt;/h2&gt;
+&lt;h2 id=&#34;new-features&#34;&gt;New Features&lt;/h2&gt;
+&lt;p&gt;(CELLSNET-43596) - Add new Module to Worksheet VbaProject&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43569) - Support of IFNA formula/function&lt;/p&gt;
+&lt;h2 id=&#34;bugs&#34;&gt;Bugs&lt;/h2&gt;
+&lt;p&gt;(CELLSNET-43581) - Text is moved out of banner when Excel file is converted to PDF&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43639) - Watermarks are not displayed correctly&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43645) - Unable to save embedded OLE-object from the XLSX to the HTML&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43613) - Custom font does not work with SheetRender&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43573) - Columns moved to next page when converting to PDF&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43571) - Incorrect page break in the generated PDF via Aspose.Cells&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43525) - SheetRender.ToImage generated image has text getting cutoff&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43591) - Incorrect Pie Chart&amp;rsquo;s datalabel value&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43574) - Data labels&amp;rsquo; text exceeds the chart area when converted to PDF&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43568) - Converting Chart to Image and inserting the image&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43502) - Major Grid lines disappear and series legend comes on center&lt;/p&gt;
+&lt;p&gt;(CELLSNET-41716) - X-Axis labels are not properly displayed&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43641) - Issue with calculating formulas when enable Iterative calculation&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43637) - Incorrect formula results for PERCENTRANK function&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43630) - Issue with calculating LINEST formula/ function&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43628) - Spreadsheet disappears from view when Restore Window button is clicked&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43612) - System.ArgumentOutOfRangeException while loading a file saved by Aspose.Cells for Java&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43604) - ListObjects.DataRange does not update after deleting a row&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43603) - Cells.DeleteRows makes the spreadsheet corrupted&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43602) - Vlookup formula was not calculated correctly&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43590) - Xlsx file gets corrupt on opening and saving&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43589) - Cell.GetValidationValue not working for numeric list&lt;/p&gt;
+&lt;h2 id=&#34;exceptions&#34;&gt;Exceptions&lt;/h2&gt;
+&lt;p&gt;(CELLSNET-43585) - Aspose.Cells.CellsException while converting spreadsheet to PDF&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43609) - Exception on rendering an Excel file to PDF file format&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43583) - GDI Error on SheetRender.ToImage method&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43565) - CellsException on saving xlsx to pdf&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43631) - SheetRender ctor throws NullReferenceException exception&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43646) - IndexOutOfRangeException at Workbook.Save when file path location does not an extension&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43643) - System.NullReferenceException at Workbook ctor&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43636) - CellsException at Workbook.CalculateFormula&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43621) - System.ArgumentException at Workbook ctor&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43614) - Adding module causes duplicate keys exception on saving workbook&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43598) - Exception when converting xls to pdf&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43572) - System.OverflowException at Workbook.Save&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43570) - ListObject.ConvertToRange throws NullReferenceException on a table&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43564) - NullReferenceException while saving an XLSB file back&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Aspose.Cells Grid Suite&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;other-improvements-and-changes-1&#34;&gt;Other Improvements and Changes&lt;/h2&gt;
+&lt;h2 id=&#34;bugs-1&#34;&gt;Bugs&lt;/h2&gt;
+&lt;p&gt;(CELLSNET-43610) - SaveCommand event is not firing&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43551) - IE8 is not working fine with Dutch-Belgium custom format&lt;/p&gt;
+&lt;h2 id=&#34;public-api-and-backwards-incompatible-changes&#34;&gt;Public API and Backwards Incompatible Changes&lt;/h2&gt;
+&lt;p&gt;The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Cells for .NET. If you have concerns about any change listed, please raise it on the Aspose.Cells support forum.&lt;/p&gt;
+&lt;p&gt;Adds VbaModuleCollection.Add methods&lt;/p&gt;
+&lt;p&gt;Adds VBA Module.&lt;/p&gt;
+&lt;p&gt;Adds override Cells.CopyColumns() methods.&lt;/p&gt;
+&lt;p&gt;Copies some columns.&lt;/p&gt;
+&lt;p&gt;Adds PasteType.Default and PasteType.DefaultExceptBorders enums.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s used to copy range as &amp;ldquo;All&amp;rdquo; and &amp;ldquo;All except borders&amp;rdquo; in MS Excel.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Aspose.Cells for .NET 8.4.1 Release Notes</title>
+      <link>https://roywangt.github.io/cells/net/releasenotes/2015/aspose.cells&#43;for&#43;.net&#43;8.4.1&#43;release&#43;notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/releasenotes/2015/aspose.cells&#43;for&#43;.net&#43;8.4.1&#43;release&#43;notes/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--asposecells-for-net-841-release-notes&#34;&gt;Aspose.Cells for .NET : Aspose.Cells for .NET 8.4.1 Release Notes&lt;/h1&gt;
+&lt;p&gt;This page contains release notes for &lt;a href=&#34;http://www.aspose.com/downloads/cells/net/new-releases/aspose.cells-for-.net-8.4.1/&#34;&gt;Aspose.Cells for .NET 8.4.1&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The following is a list of improvements and changes in this release of Aspose.Cells&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Aspose.Cells&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;other-improvements-and-changes&#34;&gt;Other Improvements and Changes&lt;/h2&gt;
+&lt;h2 id=&#34;new-features&#34;&gt;New Features&lt;/h2&gt;
+&lt;p&gt;(CELLSNET-42514) - Set SQL Data Connection&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43449) - Support to Print Comments at the End of Sheet&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43513) - Rich Text Feature for Chart&amp;rsquo;s DataLabels&lt;/p&gt;
+&lt;h2 id=&#34;bugs&#34;&gt;Bugs&lt;/h2&gt;
+&lt;p&gt;(CELLSNET-43475) - Pivot Table&amp;rsquo;s data view in HTML does not correlate&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43474) - Pivot Table does not refresh while rendering to HTML&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43473) - Report Filter selections change&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43450) - Incorrect rendering of HTML while converting spreadsheet to HTML&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43428) - pivot table cells in group headers have incorrect styles&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43422) - Removing the source sheet causes exception on save&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43417) - The sort order of PivotChart&amp;rsquo;s series data points is wrong&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43413) - Wrong conversion from HTML file to PDF&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43340) - Re-saving the XLS spreadsheet makes the result corrupt&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43545) - Date is overlapping with text in the left footer in the rendered PDF file format&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43543) - Double cell border is not printing properly for the last cell&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43541) - Missing table header border when converting to PDF&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43516) - Aspose doesn&amp;rsquo;t print empty page&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43508) - Spreadsheet to PDF generates a blank PDF&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43507) - Pixels deteriorated a bit for the image in the output PDF file&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43481) - Cells that had dates and/or numbers with Hebrew words&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43479) - The logo with indentation wrong&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43478) - Colon in the end of the last word in the first line broke off&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43477) - The spaces between the Hebrew words vanished mashing the sentence into one word&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43469) - Support RenderToSize API for Worksheet Image&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43526) - FillFormat.GradientColorType returns PresetColors&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43521) - API returns null for DataLabel.NumberFormat&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43519) - Chart x-axis has negative values but only the minus sign &lt;img src=&#34;s/en_GB-1988229788/4108/b47156ace146e4f759b49ef98258cb637bdd5af8.5/_/images/icons/emoticons/forbidden.png&#34; alt=&#34;(minus)&#34;&gt; is shown&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43509) - Separator is read as &amp;ldquo;Auto&amp;rdquo; instead of &amp;ldquo;(NewLine)&amp;rdquo; for the Chart&amp;rsquo;s Datalabels&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43505) - The Category axis&amp;rsquo; Major Minor and Base units in the chart changed&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43486) - Arrow is added to each trend element while rendering the chart to image&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43480) - Graph legend&amp;rsquo;s size (Hebrew and English words) varied in the PD&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43412) - Setting CategoryAxis&amp;rsquo; CategoryType to TimeScale causes Chart.Calculate method stuck&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43383) - Missing Secondry Vertical Axis Values while rendering the Chart to Image&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43382) - Missing Secondry Verical Axis Values while rendering the Chart to Image&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43381) - Arrangement of the legends has changed after rendering the Chart to Image&lt;/p&gt;
+&lt;p&gt;(CELLSNET-42854) - Half number lines and text do not show up for the x axis&lt;/p&gt;
+&lt;p&gt;(CELLSNET-42614) - Chart exported to PDF have extra lines&lt;/p&gt;
+&lt;p&gt;(CELLSNET-40984) - I&amp;rsquo;ve got a 0byte image - Shape2Image Error&lt;/p&gt;
+&lt;p&gt;(CELLSNET-40912) - Chart mistakes when rendering container range&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43547) - Opening and re-saving an Excel file with SplitView results in a corrupted file&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43542) - Images in workbook cause it to not be openable&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43529) - Incorrect values returned for formula fields as compared to Excel&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43527) - Dropdown filter cannot be selected after loading and saving&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43518) - Loading and saving the XLSM makes the result corrupted&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43515) - Formula involving Named range cell is not read fine&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43494) - Value of Linked Cell of Radio Button is wrong&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43492) - Workbook.CalculateFormula gives different results from Excel&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43487) - Text style changed after loading a spreadsheet and saving back&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43472) - Cells.CopyRows has strange behavior with borders formatting&lt;/p&gt;
+&lt;h2 id=&#34;exceptions&#34;&gt;Exceptions&lt;/h2&gt;
+&lt;p&gt;(CELLSNET-43304) - System.ArgumentException while loading a MHTML file into an instance of Workbook&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43503) - System.NullReferenceException observed at Workbook.Save&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43500) - NullRefrenceException thrown when RefreshChartCache = true&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43499) - Index was outside the bounds of the array exception when using AutoFitRow&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Aspose.Cells Grid Suite&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;other-improvements-and-changes-1&#34;&gt;Other Improvements and Changes&lt;/h2&gt;
+&lt;h2 id=&#34;bugs-1&#34;&gt;Bugs&lt;/h2&gt;
+&lt;p&gt;(CELLSNET-43510) - Copy then paste a single row with multiple columns is not working&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43501) - GridWeb component load excel file problem with french culture&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43497) - GridDesktop is unable to find embedded resource license&lt;/p&gt;
+&lt;p&gt;(CELLSNET-42509) - Shapes are not rendered properly in gridweb&lt;/p&gt;
+&lt;p&gt;(CELLSNET-42559) - Moving worksheets in GridDesktop&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43455) - Some of the methods are missing in GridWeb&lt;/p&gt;
+&lt;h2 id=&#34;public-api-and-backwards-incompatible-changes&#34;&gt;Public API and Backwards Incompatible Changes&lt;/h2&gt;
+&lt;p&gt;The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Cells for .NET. If you have concerns about any change listed, please raise it on the Aspose.Cells support forum.&lt;/p&gt;
+&lt;p&gt;Adds Workbook.IsLicensed property.&lt;/p&gt;
+&lt;p&gt;Indicates whether the license was set.&lt;/p&gt;
+&lt;p&gt;Obsoletes Workbook.ValidateFormula method.&lt;/p&gt;
+&lt;p&gt;Please use Cell.Formula property instead.&lt;/p&gt;
+&lt;p&gt;Adds ImageOrPrintOptions.SVGFitToViewPort property.&lt;/p&gt;
+&lt;p&gt;Indicates whether the generated SVG image is fit to view port.&lt;/p&gt;
+&lt;p&gt;Adds ImageOrPrintOptions.SetDesiredSize method.&lt;/p&gt;
+&lt;p&gt;Sets desired width and height of image.&lt;/p&gt;
+&lt;p&gt;Adds Aspose.Cells.GridDesktop.WorksheetCollection.MoveTo method&lt;/p&gt;
+&lt;p&gt;Moves the worksheet at the specified index to anther index.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Aspose.Cells for .NET 8.4.0 Release Notes</title>
+      <link>https://roywangt.github.io/cells/net/releasenotes/2015/aspose.cells&#43;for&#43;.net&#43;8.4.0&#43;release&#43;notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/releasenotes/2015/aspose.cells&#43;for&#43;.net&#43;8.4.0&#43;release&#43;notes/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--asposecells-for-net-840-release-notes&#34;&gt;Aspose.Cells for .NET : Aspose.Cells for .NET 8.4.0 Release Notes&lt;/h1&gt;
+&lt;p&gt;This page contains release notes for &lt;a href=&#34;http://www.aspose.com/downloads/cells/net/new-releases/aspose.cells-for-.net-8.4.0/&#34;&gt;Aspose.Cells for .NET 8.4.0&lt;/a&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Aspose.Cells&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;other-improvements-and-changes&#34;&gt;Other Improvements and Changes&lt;/h2&gt;
+&lt;h2 id=&#34;new-features&#34;&gt;New Features&lt;/h2&gt;
+&lt;p&gt;(CELLSNET-43362) - Support to delete a PivotTable from Worksheet&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43279) - Content Type Properties are not shown in XLS format&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43276) - Workbook.ContentTypeProperties.Add(name, value, type) is needed&lt;/p&gt;
+&lt;h2 id=&#34;enhancements&#34;&gt;Enhancements&lt;/h2&gt;
+&lt;p&gt;(CELLSNET-43368) - Customizing the generation of CSS while saving Excel to HTML&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43361) - Cannot retain the Cell&amp;rsquo;s Number Format after ImportTwoDimensionArray&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43454) - Aspose.Pdf does not validate output PDF/A-1B&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43452) - PDFA1B compliance of the output PDF was not validated&lt;/p&gt;
+&lt;p&gt;(CELLSNET-42646) - Workbook RefreshChartCache works with regional and language settings&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43408) - The whole workbook will have the text bold&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43357) - Excel found unreadable content after setting up password&lt;/p&gt;
+&lt;h2 id=&#34;performance&#34;&gt;Performance&lt;/h2&gt;
+&lt;p&gt;(CELLSNET-43438) - Spreadsheet to HTML generates a 1GB HTML file&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43399) - Performance issue with CalculateFormula() method&lt;/p&gt;
+&lt;h2 id=&#34;bugs&#34;&gt;Bugs&lt;/h2&gt;
+&lt;p&gt;(CELLSNET-43460) - Background-color: rgba(0, 0, 0, 0); makes the background color black&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43403) - First column disappears when second Pivot&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43390) - Data in Static Pivot Tables is Re-arranged&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43369) - Pivot Tables always label first column as &amp;lsquo;Row Labels&amp;rsquo;&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43358) - Specifying the BaseItemPosition attribute produces an invalid file&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43354) - PivotTable calculation issue: cell value is truncated&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43337) - PivotTable.RefreshData corrupting content&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43331) - Excel file becomes corrupted after creating pivot table&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43328) - Position of images is wrong in the output PDF&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43322) - Buttons appeared in the PivotChart when the file is re-saved&lt;/p&gt;
+&lt;p&gt;(CELLSNET-42919) - &amp;ldquo;Excel found unreadable&amp;hellip;&amp;rdquo; error after refreshing Pivot Data&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43451) - Alignment issue while rendering the worksheet to image&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43414) - Gap between the header and the body is different&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43411) - Newer version could not accept less than 96dpi&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43410) - Incorrect spacing with each Environment.NewLine in output PDF&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43348) - FitToPagesTall and FitToPagesWide attribute not working as expected&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43385) - Incorrect rendering of the Chart Title while converting Chart to Image&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43378) - Incorrect rendering of the Chart Title while converting Chart to Image&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43375) - Chart Title is incorrectly rendered while converting Chart to Image&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43352) - PDF size doubles when it is converted from XLSX&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43351) - Chart Legend issue while converting XLSX to PDF&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43350) - Chart Axis issue while converting XLSX to PDF&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43349) - Graphic Issue while converting XLSX to PDF&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43347) - Chart&amp;rsquo;s Series Shadow does not copy while copying the Workbook&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43339) - Charts are not rendered properly in the output PDF&lt;/p&gt;
+&lt;p&gt;(CELLSNET-42573) - Pie chart labels are overlapping&lt;/p&gt;
+&lt;p&gt;(CELLSNET-42558) - Labels overlapping when rendering the pie chart&lt;/p&gt;
+&lt;p&gt;(CELLSNET-41725) - Pie Chart Data Labels overlapped&lt;/p&gt;
+&lt;p&gt;(CELLSNET-41001) - Issue with OLE Pie charts Data Labels / Leader Lines&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43466) - Problem with Array formula&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43463) - Cell values are replaced by values from other cells&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43456) - Font color of WordArt changes after loading and saving xls&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43441) - Conversion from XLSX to XLSB produce corrupted spreadsheet&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43434) - Embedded Docm or Dotx in xls cannot be opened&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43432) - Smart Markers stops merging data after X number of rows&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43426) - Combining worksheets breaks apostrophe&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43424) - Lookup formula is not calculated correctly&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43423) - PageSetup.IsHFAlignMargins gets automatically true in the output Excel file&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43419) - Hyperlinks without subaddresses are lost&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43407) - Conditional Formatting - Cells should not have Red background&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43401) - &amp;ldquo;Invalid data format&amp;rdquo; error after manipulating VBA codes&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43398) - Updated formula not saving when it contains an external reference&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43396) - Error occured with images in the template file&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43363) - Formula value is not calculated correctly by Workbook.CalculateFormula&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43355) - Spreadsheet built-in document property &amp;lsquo;Version&amp;rsquo; inconsistency&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43346) - Format of the Hyperlink changes while copying the range&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43338) - Inserting columns in a table causes the unreadable warning&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43336) - Issue with rendering conditional formatting - Excel to HTML&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43335) - Issue with rendering conditional formatting - Excel to PDF&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43333) - Insert Rows parameter is not working fine in Cells.ImportDataReader() method&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43293) - Removing Border does not work in the output Excel file&lt;/p&gt;
+&lt;h2 id=&#34;exceptions&#34;&gt;Exceptions&lt;/h2&gt;
+&lt;p&gt;(CELLSNET-43459) - Background-color: rgba(255, 255, 255, 0.1); throws an exception.&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43442) - RGBA element inside of TD throws exception&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43406) - System.IndexOutOfRangeException at PivotTable.CalculateData&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43373) - PivotTable.RefreshData throws an exception&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43320) - Null reference exception while saving as html&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43314) - Exception thrown while opening an XLS file&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43312) - Index was out of range exception on refreshing pivot table&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43393) - Index out of bound exception on Cell.PutValue&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43427) - System.OverflowException on opening the Excel file&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43356) - Format error occurs when regional setting is set to French&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43353) - System.NullReferenceException at Workbook.Combine&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Aspose.Cells Grid Suite&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;other-improvements-and-changes-1&#34;&gt;Other Improvements and Changes&lt;/h2&gt;
+&lt;h2 id=&#34;bugs-1&#34;&gt;Bugs&lt;/h2&gt;
+&lt;p&gt;(CELLSNET-43437) - WebCells.SetRowCaption() is missing&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43435) - Issue with Grid&amp;rsquo;s background color - GridWeb&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43430) - Alignment of the GridWeb Rows is not correct&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43429) - Chart is not refreshed when new Excel file is loaded&lt;/p&gt;
+&lt;h2 id=&#34;public-api-and-backwards-incompatible-changes&#34;&gt;Public API and Backwards Incompatible Changes&lt;/h2&gt;
+&lt;p&gt;The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Cells for .NET. If you have concerns about any change listed, please raise it on the Aspose.Cells support forum.&lt;/p&gt;
+&lt;p&gt;Adds HtmlSaveOptions.ExportBogusRowData attribute&lt;/p&gt;
+&lt;p&gt;Indicates whether exporting bogus bottom row data. the default value is true.&lt;/p&gt;
+&lt;p&gt;Adds HtmlSaveOptions.CellCssPrefix attribute&lt;/p&gt;
+&lt;p&gt;Gets and sets the prefix of the css name,the default value is &amp;ldquo;&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;Adds PivotTable.ShowInCompactForm() method&lt;/p&gt;
+&lt;p&gt;Layouts the PivotTable in compact form.&lt;/p&gt;
+&lt;p&gt;Adds PivotTable.ShowInOutlineForm() method&lt;/p&gt;
+&lt;p&gt;Layouts the PivotTable in outline form.&lt;/p&gt;
+&lt;p&gt;Adds PivotTable.ShowInTabularForm() method&lt;/p&gt;
+&lt;p&gt;Layouts the PivotTable in tabular form.&lt;/p&gt;
+&lt;p&gt;Adds PivotTableCollection.Remove(PivotTable pivotTable) method&lt;/p&gt;
+&lt;p&gt;Deletes the specified PivotTable&lt;/p&gt;
+&lt;p&gt;Adds PivotTableCollection.RemoveAt(int index) method.&lt;/p&gt;
+&lt;p&gt;Deletes the PivotTable at the specified index&lt;/p&gt;
+&lt;p&gt;Adds Aspose.Cells.Vba namespace, VbaPorject, VbaModuleCollection and VbaModule classes.&lt;/p&gt;
+&lt;p&gt;They are used to read and modify the VBA project in the file.&lt;/p&gt;
+&lt;p&gt;Adds Border.ThemeColor property.&lt;/p&gt;
+&lt;p&gt;Gets and sets the theme color of the border.&lt;/p&gt;
+&lt;p&gt;Adds TxtLoadStyleStrategy class and TxtLoadOptions.LoadStyleStrategy property.&lt;/p&gt;
+&lt;p&gt;Indicates the strategy to apply style for parsed values when converting string value to number or datetime.&lt;/p&gt;
+&lt;p&gt;Obsoletes TxtLoadOptions.KeepExactFormat methods.&lt;/p&gt;
+&lt;p&gt;Please use TxtLoadOptions.LoadStyleStrategy property instead.&lt;/p&gt;
+&lt;p&gt;Obsoletes Cells.GetCellByIndex() and Row.GetCellByIndex() methods.&lt;/p&gt;
+&lt;p&gt;Please use GetEnumerator() method to iterate all cells instead.&lt;/p&gt;
+&lt;p&gt;Obsoletes DrawObject.Image property&lt;/p&gt;
+&lt;p&gt;Please use DrawObject.ImageBytes property to get image data instead.&lt;/p&gt;
+&lt;p&gt;Adds DrawObject.ImageBytes property&lt;/p&gt;
+&lt;p&gt;Gets the bytes of image which is converted from Chart or Shape.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Aspose.Cells for .NET 8.3.2 Release Notes</title>
+      <link>https://roywangt.github.io/cells/net/releasenotes/2015/aspose.cells&#43;for&#43;.net&#43;8.3.2&#43;release&#43;notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/releasenotes/2015/aspose.cells&#43;for&#43;.net&#43;8.3.2&#43;release&#43;notes/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--asposecells-for-net-832-release-notes&#34;&gt;Aspose.Cells for .NET : Aspose.Cells for .NET 8.3.2 Release Notes&lt;/h1&gt;
+&lt;p&gt;This page contains release notes for &lt;a href=&#34;http://www.aspose.com/downloads/cells/net/new-releases/aspose.cells-for-.net-8.3.2/&#34;&gt;Aspose.Cells for .NET 8.3.2&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The following is a list of changes in this version of Aspose.Cells.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Aspose.Cells&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;other-improvements-and-changes&#34;&gt;Other Improvements and Changes&lt;/h2&gt;
+&lt;h2 id=&#34;new-features&#34;&gt;New Features&lt;/h2&gt;
+&lt;p&gt;(CELLSNET-43214) - Ability to specify the absolute position for the PivotItem&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43298) - Support to format cell values automatically by Cells.ImportTwoDimensionArray()&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43227) - Specify Custom Separators.&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43256) - Printing range of pages&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43240) - Change the font on just the specific unicode characters&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43239) - OnePagePerSheet, PageIndex and PageCount properties for XpsSaveOptions&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43220) - Implementation of Chart.HasAxis(axisType, axisGroup) method&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43259) - Ability to add Signature Line at specified location&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43253) - Ability to check &amp;ldquo;Password to modify&amp;rdquo;&lt;/p&gt;
+&lt;h2 id=&#34;enhancements&#34;&gt;Enhancements&lt;/h2&gt;
+&lt;p&gt;(CELLSNET-43144) - Render HTML for each sheet with the contents of the element only&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43282) - Importing a CSV file to an Excel XLSX file&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43251) - Aspose.Cells does not increase the corresponding row height&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43307) - Chart lines are not smooth and curved at edges&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43305) - Copying a Range with PasteType.All does not copy the Hyperlink&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43287) - Enhance exceptions while handling un-supported OOXML file formats&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43260) - Ability to retrieve Signature Line information from a spreadsheet&lt;/p&gt;
+&lt;h2 id=&#34;performance&#34;&gt;Performance&lt;/h2&gt;
+&lt;p&gt;(CELLSNET-43236) - Loading a spreadsheet uses most of the system memory&lt;/p&gt;
+&lt;h2 id=&#34;bugs&#34;&gt;Bugs&lt;/h2&gt;
+&lt;p&gt;(CELLSNET-43271) - Opening and saving the spreadsheet makes it corrupt&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43266) - Second worksheet is not rendered fine in the output PDF&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43262) - Methods of IStreamProvider are not called&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43248) - PivotTable connections removed for the slicer when re-saving an XLSB file&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43215) - PivotItem does not move to specified location while using PivotItem.Move&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43205) - Some graphic elements are misplaced in the output HTML&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43204) - Some graphic elements are misplaced in the output PDF&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43051) - Chart data points appear below the image in the rendered HTML file format&lt;/p&gt;
+&lt;p&gt;(CELLSNET-42878) - Background color of the pivot table is set to black&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43226) - Reading and saving an existing xls workbook causes corruption&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43306) - Aspose.Cells does not convert dotted line to straight line&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43288) - Images do not render while converting spreadsheet to PDF&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43263) - Issue on Rendering Image&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43245) - Layout is shrunk and the borders become thicker in the output PDF&lt;/p&gt;
+&lt;p&gt;(CELLSNET-42973) - Footer Alignment Problem&lt;/p&gt;
+&lt;p&gt;(CELLSNET-42439) - Merged cell content disappears when rows are filtered&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43300) - Chart category axis is re-positioned after Workbook.Copy&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43296) - Text above the chart area is moved slightly upwards&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43273) - Vertical (Value) Axis Major Gridlines is no more selectable&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43272) - Image rotation not used in the rendered PDF file format&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43267) - Hebrew text is reversed in the chart&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43255) - Chart image is not rendered correctly&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43212) - Differences in rich text datalabels rendering in Excel and PDF&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43210) - Missing Field Buttons in Pivot Chart&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43046) - Chart.ToImage not rendering the date format conforming to the CultureInfo&lt;/p&gt;
+&lt;p&gt;(CELLSNET-42993) - Graph data labels are not shown when rendering to PDF&lt;/p&gt;
+&lt;p&gt;(CELLSNET-42893) - SheetRender.ToImage does not render the Chart correctly&lt;/p&gt;
+&lt;p&gt;(CELLSNET-42634) - Box on the chart showing the series information incorrectly moves and resizes&lt;/p&gt;
+&lt;p&gt;(CELLSNET-42480) - Datalabel is not correct&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43325) - Excel found unreadable content error occurs&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43308) - Copy Paste a range of cells without altering the destination column widths&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43299) - Resultant spreadsheet looses text box&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43295) - Legend font is changed from Arial to MS Gothic&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43290) - The text attached to a shape is moved at the top-left position&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43286) - ListObject.PutCellValue() does not initialize the VLookup formula&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43280) - Setting CommentShape&amp;rsquo;s Placement type to &amp;ldquo;Move&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43275) - Excel document opened in blocking Protected View&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43270) - Setting Zoom for Chart type Worksheet does not take effect&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43269) - UpdateLinkedDataSource is not retrieving new data from external workbook&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43265) - Ansi Pound sign SpreadsheetML conversion issue&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43264) - Applying borders to cells&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43261) - Workbook.Settings.IsWriteProtected returns false&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43252) - Enter space and indentation of bullets are not rendered fine&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43243) - Resultant spreadsheet asks to download a converter&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43235) - Worksheet&amp;rsquo;s CodeName is changed&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43229) - Workbook.SaveOptions.CreateDirectory does not work&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43228) - Connect data points with line does not work&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43157) - Textboxes are getting hidden behind the images&lt;/p&gt;
+&lt;h2 id=&#34;exceptions&#34;&gt;Exceptions&lt;/h2&gt;
+&lt;p&gt;(CELLSNET-43323) - Exception on Workbook.CalculateFormula() method&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43319) - System.ArgumentOutOfRangeException on opening XLA file&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43292) - Exception on saving workbook with empty chart sheet&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43278) - Error loading Excel document with Sparklines&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43274) - ArgumentException at Workbool ctor&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43242) - Unknown image format - error on opening the workbook&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Aspose.Cells Grid Suite&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;other-improvements-and-changes-1&#34;&gt;Other Improvements and Changes&lt;/h2&gt;
+&lt;h2 id=&#34;new-features-1&#34;&gt;New Features&lt;/h2&gt;
+&lt;p&gt;(CELLSNET-43291) - Aspose.Cells.GridWeb does not support to create/ add Named Ranges now&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43180) - Select shapes and trigger an event on backend&lt;/p&gt;
+&lt;p&gt;(CELLSNET-43172) - Support to hide scroll tab bar left and right arrows&lt;/p&gt;
+&lt;p&gt;(CELLSNET-42263) - Conditional Formmating for GridDesktop&lt;/p&gt;
+&lt;p&gt;(CELLSNET-41370) - Conditional formatting not displaying while importing Excel to GridWeb&lt;/p&gt;
+&lt;p&gt;(CELLSNET-41078) - Refresh GridWeb worksheet charts when values are modified&lt;/p&gt;
+&lt;h2 id=&#34;bugs-1&#34;&gt;Bugs&lt;/h2&gt;
+&lt;p&gt;(CELLSNET-42264) - Formula issues: MATCH, ADDRESS, and INDIRECT in GridDesktop&lt;/p&gt;
+&lt;h2 id=&#34;public-api-and-backwards-incompatible-changes&#34;&gt;Public API and Backwards Incompatible Changes&lt;/h2&gt;
+&lt;p&gt;The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Cells for .NET. If you have concerns about any change listed, please raise it on the Aspose.Cells support forum.&lt;/p&gt;
+&lt;p&gt;Adds WorkbookSettings.NumberDecimalSeparator, NumberGroupSeparator properties&lt;/p&gt;
+&lt;p&gt;Gets/sets the separators used for formatting/parsing numeric values.&lt;/p&gt;
+&lt;p&gt;Adds WorkbookSettings.CheckWriteProtectedPassword() method&lt;/p&gt;
+&lt;p&gt;Checks whether the password is correct write protected password.&lt;/p&gt;
+&lt;p&gt;Adds Picture.SignatureLine property and SignatureLine class.&lt;/p&gt;
+&lt;p&gt;They are used to create and read the setting of signature line.&lt;/p&gt;
+&lt;p&gt;Adds PivotItem.Position property.&lt;/p&gt;
+&lt;p&gt;Specifies the position index in all the PivotItems,not the PivotItems under the same parent node.&lt;/p&gt;
+&lt;p&gt;Adds PivotItem.PositionInSameParentNode property.&lt;/p&gt;
+&lt;p&gt;Specifies the position index in the PivotItems under the same parent node.&lt;/p&gt;
+&lt;p&gt;Adds PivotItem.Move(int count, bool isSameParent) method.&lt;/p&gt;
+&lt;p&gt;Moves the item up or down.&lt;/p&gt;
+&lt;p&gt;Adds Worksheet.RefreshPivotTables() method.&lt;/p&gt;
+&lt;p&gt;Refresh all the PivotTables in this Worksheet.&lt;/p&gt;
+&lt;p&gt;Adds Workbook.GetNamedStyle(string name) method.&lt;/p&gt;
+&lt;p&gt;Gets the named style in the workbook&amp;rsquo;s style pool by name.&lt;/p&gt;
+&lt;p&gt;Adds Cells.ImportTwoDimensionArray(object,, object,, int, int, TxtLoadOptions)&lt;/p&gt;
+&lt;p&gt;Imports a two-dimension array of data into a worksheet with more flexible options defined in TxtLoadOptions.&lt;/p&gt;
+&lt;p&gt;Adds PageSetup.IsAutomaticPaperSize property.&lt;/p&gt;
+&lt;p&gt;Indicates whether the pape size is automatic.&lt;/p&gt;
+&lt;p&gt;Adds XpsSaveOptions.OnePagePerSheet properties&lt;/p&gt;
+&lt;p&gt;If OnePagePerSheet is true , all content of one sheet will output to only one page in result.&lt;/p&gt;
+&lt;p&gt;Adds XpsSaveOptions.PageIndex properties&lt;/p&gt;
+&lt;p&gt;Gets or sets the 0-based index of the first page to save.&lt;/p&gt;
+&lt;p&gt;Adds XpsSaveOptions.PageCount properties&lt;/p&gt;
+&lt;p&gt;Gets or sets the number of pages to save.&lt;/p&gt;
+&lt;p&gt;Adds SheetRender.ToPrinter(string PrinterName, int PrintPageIndex, int PrintPageCount) method&lt;/p&gt;
+&lt;p&gt;Renders worksheet to Printer.&lt;/p&gt;
+&lt;p&gt;Adds WorkbookRender.ToPrinter(string PrinterName, int PrintPageIndex, int PrintPageCount) method&lt;/p&gt;
+&lt;p&gt;Renders workbook to Printer.&lt;/p&gt;
+&lt;p&gt;Adds PdfSaveOptions.IsFontSubstitutionCharGranularity properties&lt;/p&gt;
+&lt;p&gt;Indicates whether only substitute the font of character when the cell font is not compatibility for it.&lt;/p&gt;
+&lt;p&gt;Obsoletes Workbook.SaveOptions property&lt;/p&gt;
+&lt;p&gt;Users should build proper SaveOptions and then use Workbook.Save() with it.&lt;/p&gt;
+&lt;p&gt;Obsoletes StyleCollection class and Workbook.Styles property&lt;/p&gt;
+&lt;p&gt;Users should use Workbook.CreateStyle() to create and manipulate style for workbook instead of StyleCollection.Add() and use Workbook.GetNamedStyle(string) to get named style instead of StyleCollectionstring.&lt;/p&gt;
+&lt;p&gt;Obsoletes PivotItem.Move(int count) method.&lt;/p&gt;
+&lt;p&gt;Using PivotItem.Move(int count, bool isSameParent) method for instead.&lt;/p&gt;
+&lt;p&gt;Deletes all obsoleted Open() and Save() methods of Workbook.&lt;/p&gt;
+&lt;p&gt;Deletes obsoleted Workbook.SetOleSize() method.&lt;/p&gt;
+&lt;p&gt;Deletes obsoleted IsProtected ,Language and Region properties of Workbook.&lt;/p&gt;
+&lt;p&gt;Deletes obsoleted Workbook.LoadData() methods.&lt;/p&gt;
+&lt;p&gt;Deletes obsoleted Open() and Save() methods of WorkbookDesigner.&lt;/p&gt;
+&lt;p&gt;Deletes obsoleted ReCalcOnOpen,Language,Encoding and ConvertNumericData properties of WorkbookSettings.&lt;/p&gt;
+&lt;p&gt;Deletes obsoleted HidePivotFieldList,EnableHTTPCompression,IsMinimized,IsHidden,SheetTabBarWidth properties of WorksheetCollection.&lt;/p&gt;
+&lt;p&gt;Deletes obsoleted WindowLeft,WindowLeftInch,WindowLeftCM,WindowTop,WindowTopInch,WindowTopCM,WindowWidth,WindowWidthInch,WindowWidthCM,WindowHeight,WindowHeightInch,WindowHeightCM properties of WorksheetCollection.&lt;/p&gt;
+&lt;p&gt;Deletes obsoleted DeleteName() method of WorksheetCollection.&lt;/p&gt;
+&lt;p&gt;Deletes obsoleted HPageBreaks and VPageBreaks of Worksheet.&lt;/p&gt;
+&lt;p&gt;Deletes obsoleted DisplayHTMLCrossString and ExportChartImageFormat of HtmlSaveOptions.&lt;/p&gt;
+&lt;p&gt;Deletes obsoleted ExpCellNameToXLSX property of SaveOptions.&lt;/p&gt;
+&lt;p&gt;Deletes obsoleted DefaultFont,Compliance,PdfBookmark and PdfImageCompression properties of SaveOptions.&lt;/p&gt;
+&lt;p&gt;Deletes obsoleted TxtSaveOptions.AlwaysQuoted property.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

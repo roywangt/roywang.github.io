@@ -1,0 +1,210 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Release Notes - 2016</title>
+    <link>https://roywangt.github.io/cells/cpp/releasenotes/2016/</link>
+    <description>Recent content in Release Notes - 2016 on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://roywangt.github.io/cells/cpp/releasenotes/2016/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Cpp: Aspose.Cells for CPP 16.12.0 Release Notes</title>
+      <link>https://roywangt.github.io/cells/cpp/releasenotes/2016/aspose.cells&#43;for&#43;cpp&#43;16.12.0&#43;release&#43;notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/cpp/releasenotes/2016/aspose.cells&#43;for&#43;cpp&#43;16.12.0&#43;release&#43;notes/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-c--asposecells-for-cpp-16120-release-notes&#34;&gt;Aspose.Cells for C++ : Aspose.Cells for CPP 16.12.0 Release Notes&lt;/h1&gt;
+
+&lt;div class=&#34;table table-striped&#34; role=&#34;alert&#34;&gt;
+    &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Key&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Summary&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Category&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSPORTINGC-432&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Apply Conditional formatting to the cells&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSPORTINGC-433&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Read/Write Custom Document Properties&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSPORTINGC-434&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Read/Write Built-in document properties&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSPORTINGC-435&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Add Hyperlinks to the cells&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSPORTINGC-436&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Support MS Excel Themes&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSPORTINGC-437&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Add and manipulate PivotTables in the spreadsheet&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSPORTINGC-438&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Group rows and columns in the worksheet&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSPORTINGC-439&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Add Table/List Object to the worksheet&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSPORTINGC-426&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;License problem with Aspose.Cells for C++ APIs&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSPORTINGC-425&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Optimize the performance of saving XLS files&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Improvement &lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+
+&lt;h3 id=&#34;public-api-and-backwards-incompatible-changes&#34;&gt;Public API and Backwards Incompatible Changes&lt;/h3&gt;
+&lt;p&gt;The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Cells for C++. If you have concerns about any change listed, please raise it on the Aspose.Cells support forum.&lt;/p&gt;
+&lt;h4 id=&#34;renames-icellsetstyle-method-to-icellsetistyle&#34;&gt;Renames ICell::SetStyle method to ICell::SetIStyle&lt;/h4&gt;
+&lt;h4 id=&#34;renames-icellsetcharacters-method-to-icellsetifontsettings&#34;&gt;Renames ICell::SetCharacters method to ICell::SetIFontSettings&lt;/h4&gt;
+&lt;h4 id=&#34;renames-icellscolorsetthemecolor-method-to-icellscolorsetithemecolor&#34;&gt;Renames ICellsColor::SetThemeColor method to ICellsColor::SetIThemeColor&lt;/h4&gt;
+&lt;h4 id=&#34;renames-icellssetstyle-method-to-icellssetistyle&#34;&gt;Renames ICells::SetStyle method to ICells::SetIStyle&lt;/h4&gt;
+&lt;h4 id=&#34;renames-icellshelpergetdpi_i-method-to-icellshelpergetdpi&#34;&gt;Renames ICellsHelper::GetDPI_i method to ICellsHelper::GetDPI&lt;/h4&gt;
+&lt;h4 id=&#34;renames-icellshelpersetdpi_i-method-to-icellshelpersetdpi&#34;&gt;Renames ICellsHelper::SetDPI_i method to ICellsHelper::SetDPI&lt;/h4&gt;
+&lt;h4 id=&#34;renames-icellshelpergetversion_i-method-to-icellshelpergetversion&#34;&gt;Renames ICellsHelper::GetVersion_i method to ICellsHelper::GetVersion&lt;/h4&gt;
+&lt;h4 id=&#34;renames-icellshelperisprotectedbyrms_i-method-to-icellshelperisprotectedbyrms&#34;&gt;Renames ICellsHelper::IsProtectedByRMS_i method to ICellsHelper::IsProtectedByRMS&lt;/h4&gt;
+&lt;h4 id=&#34;renames-icellshelperisprotectedbyrms_i-method-to-icellshelperisprotectedbyrms-1&#34;&gt;Renames ICellsHelper::IsProtectedByRMS_i method to ICellsHelper::IsProtectedByRMS&lt;/h4&gt;
+&lt;h4 id=&#34;renames-icellshelpercellnametoindex_i-method-to-icellshelpercellnametoindex&#34;&gt;Renames ICellsHelper::CellNameToIndex_i method to ICellsHelper::CellNameToIndex&lt;/h4&gt;
+&lt;h4 id=&#34;renames-icellshelpercellindextoname_i-method-to-icellshelpercellindextoname&#34;&gt;Renames ICellsHelper::CellIndexToName_i method to ICellsHelper::CellIndexToName&lt;/h4&gt;
+&lt;h4 id=&#34;renames-icellshelpercolumnindextoname_i-method-to-icellshelpercolumnindextoname&#34;&gt;Renames ICellsHelper::ColumnIndexToName_i method to ICellsHelper::ColumnIndexToName&lt;/h4&gt;
+&lt;h4 id=&#34;renames-icellshelpercolumnnametoindex_i-method-to-icellshelpercolumnnametoindex&#34;&gt;Renames ICellsHelper::ColumnNameToIndex_i method to ICellsHelper::ColumnNameToIndex&lt;/h4&gt;
+&lt;h4 id=&#34;renames-icellshelperrowindextoname_i-method-to-icellshelperrowindextoname&#34;&gt;Renames ICellsHelper::RowIndexToName_i method to ICellsHelper::RowIndexToName&lt;/h4&gt;
+&lt;h4 id=&#34;renames-icellshelperrownametoindex_i-method-to-icellshelperrownametoindex&#34;&gt;Renames ICellsHelper::RowNameToIndex_i method to ICellsHelper::RowNameToIndex&lt;/h4&gt;
+&lt;h4 id=&#34;renames-icellshelperconvertr1c1formulatoa1_i-method-to-icellshelperconvertr1c1formulatoa1&#34;&gt;Renames ICellsHelper::ConvertR1C1FormulaToA1_i method to ICellsHelper::ConvertR1C1FormulaToA1&lt;/h4&gt;
+&lt;h4 id=&#34;renames-icellshelperconverta1formulator1c1_i-method-to-icellshelperconverta1formulator1c1&#34;&gt;Renames ICellsHelper::ConvertA1FormulaToR1C1_i method to ICellsHelper::ConvertA1FormulaToR1C1&lt;/h4&gt;
+&lt;h4 id=&#34;renames-icellshelpergetdatetimefromdouble_i-method-to-icellshelpergetdatetimefromdouble&#34;&gt;Renames ICellsHelper::GetDateTimeFromDouble_i method to ICellsHelper::GetDateTimeFromDouble&lt;/h4&gt;
+&lt;h4 id=&#34;renames-icellshelpergetdoublefromdatetime_i-method-to-icellshelpergetdoublefromdatetime&#34;&gt;Renames ICellsHelper::GetDoubleFromDateTime_i method to ICellsHelper::GetDoubleFromDateTime&lt;/h4&gt;
+&lt;h4 id=&#34;renames-icellshelperdetectloadformat_i-method-to-icellshelperdetectloadformat&#34;&gt;Renames ICellsHelper::DetectLoadFormat_i method to ICellsHelper::DetectLoadFormat&lt;/h4&gt;
+&lt;h4 id=&#34;renames-icellshelperdetectfileformat_i-method-to-icellshelperdetectfileformat&#34;&gt;Renames ICellsHelper::DetectFileFormat_i method to ICellsHelper::DetectFileFormat&lt;/h4&gt;
+&lt;h4 id=&#34;renames-icellshelpergetfontdir_i-method-to-icellshelpergetfontdir&#34;&gt;Renames ICellsHelper::GetFontDir_i method to ICellsHelper::GetFontDir&lt;/h4&gt;
+&lt;h4 id=&#34;renames-icellshelpersetfontdir_i-method-to-icellshelpersetfontdir&#34;&gt;Renames ICellsHelper::SetFontDir_i method to ICellsHelper::SetFontDir&lt;/h4&gt;
+&lt;h4 id=&#34;renames-icellshelpergetfontdirs_i-method-to-icellshelpergetfontdirs&#34;&gt;Renames ICellsHelper::GetFontDirs_i method to ICellsHelper::GetFontDirs&lt;/h4&gt;
+&lt;h4 id=&#34;renames-icellshelpersetfontdirs_i-method-to-icellshelpersetfontdirs&#34;&gt;Renames ICellsHelper::SetFontDirs_i method to ICellsHelper::SetFontDirs&lt;/h4&gt;
+&lt;h4 id=&#34;renames-icellshelpergetfontfiles_i-method-to-icellshelpergetfontfiles&#34;&gt;Renames ICellsHelper::GetFontFiles_i method to ICellsHelper::GetFontFiles&lt;/h4&gt;
+&lt;h4 id=&#34;renames-icellshelpersetfontfiles_i-method-to-icellshelpersetfontfiles&#34;&gt;Renames ICellsHelper::SetFontFiles_i method to ICellsHelper::SetFontFiles&lt;/h4&gt;
+&lt;h4 id=&#34;renames-icellshelpergetstartuppath_i-method-to-icellshelpergetstartuppath&#34;&gt;Renames ICellsHelper::GetStartupPath_i method to ICellsHelper::GetStartupPath&lt;/h4&gt;
+&lt;h4 id=&#34;renames-icellshelpersetstartuppath_i-method-to-icellshelpersetstartuppath&#34;&gt;Renames ICellsHelper::SetStartupPath_i method to ICellsHelper::SetStartupPath&lt;/h4&gt;
+&lt;h4 id=&#34;renames-icellshelpergetaltstartpath_i-method-to-icellshelpergetaltstartpath&#34;&gt;Renames ICellsHelper::GetAltStartPath_i method to ICellsHelper::GetAltStartPath&lt;/h4&gt;
+&lt;h4 id=&#34;renames-icellshelpersetaltstartpath_i-method-to-icellshelpersetaltstartpath&#34;&gt;Renames ICellsHelper::SetAltStartPath_i method to ICellsHelper::SetAltStartPath&lt;/h4&gt;
+&lt;h4 id=&#34;renames-icellshelpergetlibrarypath_i-method-to-icellshelpergetlibrarypath&#34;&gt;Renames ICellsHelper::GetLibraryPath_i method to ICellsHelper::GetLibraryPath&lt;/h4&gt;
+&lt;h4 id=&#34;renames-icellshelpersetlibrarypath_i-method-to-icellshelpersetlibrarypath&#34;&gt;Renames ICellsHelper::SetLibraryPath_i method to ICellsHelper::SetLibraryPath&lt;/h4&gt;
+&lt;h4 id=&#34;renames-icellshelpergetusedcolors_i-method-to-icellshelpergetusedcolors&#34;&gt;Renames ICellsHelper::GetUsedColors_i method to ICellsHelper::GetUsedColors&lt;/h4&gt;
+&lt;h4 id=&#34;renames-icellshelperaddaddinfunction_i-method-to-icellshelperaddaddinfunction&#34;&gt;Renames ICellsHelper::AddAddInFunction_i method to ICellsHelper::AddAddInFunction&lt;/h4&gt;
+&lt;h4 id=&#34;renames-icellshelpermergefiles_i-method-to-icellshelpermergefiles&#34;&gt;Renames ICellsHelper::MergeFiles_i method to ICellsHelper::MergeFiles&lt;/h4&gt;
+&lt;h4 id=&#34;renames-icolumncollectiongetbyindex_i-method-to-icolumncollectiongeticolumn&#34;&gt;Renames IColumnCollection::GetByIndex_i method to IColumnCollection::GetIColumn&lt;/h4&gt;
+&lt;h4 id=&#34;renames-ifileformatutildetectfileformat_i-method-to-ifileformatutildetectfileformat&#34;&gt;Renames IFileFormatUtil::DetectFileFormat_i method to IFileFormatUtil::DetectFileFormat&lt;/h4&gt;
+&lt;h4 id=&#34;renames-ifileformatutilextensiontosaveformat_i-method-to-ifileformatutilextensiontosaveformat&#34;&gt;Renames IFileFormatUtil::ExtensionToSaveFormat_i method to IFileFormatUtil::ExtensionToSaveFormat&lt;/h4&gt;
+&lt;h4 id=&#34;renames-ifileformatutilistemplateformat_i-method-to-ifileformatutilistemplateformat&#34;&gt;Renames IFileFormatUtil::IsTemplateFormat_i method to IFileFormatUtil::IsTemplateFormat&lt;/h4&gt;
+&lt;h4 id=&#34;renames-ifileformatutilloadformattoextension_i-method-to-ifileformatutilloadformattoextension&#34;&gt;Renames IFileFormatUtil::LoadFormatToExtension_i method to IFileFormatUtil::LoadFormatToExtension&lt;/h4&gt;
+&lt;h4 id=&#34;renames-ifileformatutilloadformattosaveformat_i-method-to-ifileformatutilloadformattosaveformat&#34;&gt;Renames IFileFormatUtil::LoadFormatToSaveFormat_i method to IFileFormatUtil::LoadFormatToSaveFormat&lt;/h4&gt;
+&lt;h4 id=&#34;renames-ifileformatutilsaveformattoextension_i-method-to-ifileformatutilsaveformattoextension&#34;&gt;Renames IFileFormatUtil::SaveFormatToExtension_i method to IFileFormatUtil::SaveFormatToExtension&lt;/h4&gt;
+&lt;h4 id=&#34;renames-ifileformatutilsaveformattoloadformat_i-method-to-ifileformatutilsaveformattoloadformat&#34;&gt;Renames IFileFormatUtil::SaveFormatToLoadFormat_i method to IFileFormatUtil::SaveFormatToLoadFormat&lt;/h4&gt;
+&lt;h4 id=&#34;renames-irangesetstyle-method-to-irangesetistyle&#34;&gt;Renames IRange::SetStyle method to IRange::SetIStyle&lt;/h4&gt;
+&lt;h4 id=&#34;renames-ifindoptionssetrange-method-to-ifindoptionssetirange&#34;&gt;Renames IFindOptions::SetRange method to IFindOptions::SetIRange&lt;/h4&gt;
+&lt;h4 id=&#34;renames-iloadoptionssetloaddataoptions-method-to-iloadoptionssetiloaddataoptions&#34;&gt;Renames ILoadOptions::SetLoadDataOptions method to ILoadOptions::SetILoadDataOptions&lt;/h4&gt;
+&lt;h4 id=&#34;renames-iworkbooksetsettings-method-to-iworkbooksetisettings&#34;&gt;Renames IWorkbook::SetSettings method to IWorkbook::SetISettings&lt;/h4&gt;
+&lt;h4 id=&#34;renames-iworkbooksetdefaultstyle-method-to-setdefaultistyle&#34;&gt;Renames IWorkbook::SetDefaultStyle method to SetDefaultIStyle&lt;/h4&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Cpp: Aspose.Cells for CPP 16.11.0 Release Notes</title>
+      <link>https://roywangt.github.io/cells/cpp/releasenotes/2016/aspose.cells&#43;for&#43;cpp&#43;16.11.0&#43;release&#43;notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/cpp/releasenotes/2016/aspose.cells&#43;for&#43;cpp&#43;16.11.0&#43;release&#43;notes/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-c--asposecells-for-cpp-16110-release-notes&#34;&gt;Aspose.Cells for C++ : Aspose.Cells for CPP 16.11.0 Release Notes&lt;/h1&gt;
+&lt;p&gt;We are pleased to launch our brand new product, Aspose.Cells for C++!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Major Features&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&#34;table table-striped&#34; role=&#34;alert&#34;&gt;
+    &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Key&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Summary&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Category&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSPORTINGC-417&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Open/Save XLS, OOXML file formats&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature  &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSPORTINGC-418&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Set Styles and Formatting to worksheet cells&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature  &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSPORTINGC-419&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Apply data validation to the cells &lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSPORTINGC-420&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Filter data by using an AutoFilter&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSPORTINGC-421                 &lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Apply Page Setup options&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature  &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSPORTINGC-422&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Set data and Formulas to the cells&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

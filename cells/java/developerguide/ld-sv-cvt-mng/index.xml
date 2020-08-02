@@ -1,0 +1,1625 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Loading Saving Converting and Managing</title>
+    <link>https://roywangt.github.io/cells/java/developerguide/ld-sv-cvt-mng/</link>
+    <description>Recent content in Loading Saving Converting and Managing on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://roywangt.github.io/cells/java/developerguide/ld-sv-cvt-mng/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Java: Opening Files with Different Formats</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/ld-sv-cvt-mng/opening&#43;files&#43;with&#43;different&#43;formats/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/ld-sv-cvt-mng/opening&#43;files&#43;with&#43;different&#43;formats/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--opening-files-with-different-formats&#34;&gt;Aspose.Cells for Java : Opening Files with Different Formats&lt;/h1&gt;
+&lt;p&gt;Developers use of Aspose.Cells to open files for different purposes. For example, open a file to retrieve data from it, or use a pre-defined designer spreadsheet file to speed up your development process. Aspose.Cells allows developers to open different kinds of source files. These source files can be Microsoft Excel reports, SpreadsheetML, Comma-separated values (CSV), Tab Delimited or Tab-separated values (TSV) files. This article discusses opening these different source files using Aspose.Cells.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#simple-ways-to-open-excel-files&#34;&gt;Simple Ways to Open Excel Files&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#important-to-know&#34;&gt;Important to Know&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.2 &lt;a href=&#34;#opening-through-path&#34;&gt;Opening through Path&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.2.1 &lt;a href=&#34;#example&#34;&gt;Example&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;1.3 &lt;a href=&#34;#opening-through-stream&#34;&gt;Opening through Stream&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.3.1 &lt;a href=&#34;#example&#34;&gt;Example&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;1.4 &lt;a href=&#34;#opening-files-of-different-microsoft-excel-versions&#34;&gt;Opening Files of Different Microsoft Excel Versions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.5 &lt;a href=&#34;#opening-microsoft-excel-95/5.0-files&#34;&gt;Opening Microsoft Excel 95/5.0 Files&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.5.1 &lt;a href=&#34;#example&#34;&gt;Example&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;1.6 &lt;a href=&#34;#opening-microsoft-excel-97-files&#34;&gt;Opening Microsoft Excel 97 Files&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.6.1 &lt;a href=&#34;#example&#34;&gt;Example&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;1.7 &lt;a href=&#34;#opening-microsoft-excel-2000-files&#34;&gt;Opening Microsoft Excel 2000 Files&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.7.1 &lt;a href=&#34;#example&#34;&gt;Example&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;1.8 &lt;a href=&#34;#opening-microsoft-excel-2003-files&#34;&gt;Opening Microsoft Excel 2003 Files&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.8.1 &lt;a href=&#34;#example&#34;&gt;Example&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;1.9 &lt;a href=&#34;#opening-microsoft-excel-xp-files&#34;&gt;Opening Microsoft Excel XP Files&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.9.1 &lt;a href=&#34;#example&#34;&gt;Example&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;1.10 &lt;a href=&#34;#opening-microsoft-excel-2007/2010-xlsx-files&#34;&gt;Opening Microsoft Excel 2007/2010 XLSX Files&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.10.1 &lt;a href=&#34;#example&#34;&gt;Example&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;1.11 &lt;a href=&#34;#opening-files-with-different-formats&#34;&gt;Opening Files with Different Formats&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.12 &lt;a href=&#34;#opening-spreadsheetml-files&#34;&gt;Opening SpreadsheetML Files&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.12.1 &lt;a href=&#34;#example&#34;&gt;Example&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;1.13 &lt;a href=&#34;#opening-csv-files&#34;&gt;Opening CSV Files&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.13.1 &lt;a href=&#34;#example&#34;&gt;Example&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;1.14 &lt;a href=&#34;#opening-csv-files-and-replacing-invalid-characters&#34;&gt;Opening CSV files and replacing invalid characters&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.14.1 &lt;a href=&#34;#example&#34;&gt;Example&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;1.15 &lt;a href=&#34;#opening-csv-files-using-preferred-parser&#34;&gt;Opening CSV files using preferred parser&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.15.1 &lt;a href=&#34;#example&#34;&gt;Example&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;1.16 &lt;a href=&#34;#opening-tab-delimited-files&#34;&gt;Opening Tab Delimited Files&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.16.1 &lt;a href=&#34;#example&#34;&gt;Example&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;1.17 &lt;a href=&#34;#opening-tab-separated-values-(tsv)-files&#34;&gt;Opening Tab-Separated Values (TSV) Files&lt;/a&gt;Files)
+&lt;ul&gt;
+&lt;li&gt;1.17.1 &lt;a href=&#34;#example&#34;&gt;Example&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;1.18 &lt;a href=&#34;#opening-encrypted-excel-files&#34;&gt;Opening Encrypted Excel Files&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.18.1 &lt;a href=&#34;#example&#34;&gt;Example&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;1.19 &lt;a href=&#34;#opening-sxc-files&#34;&gt;Opening SXC Files&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.19.1 &lt;a href=&#34;#example&#34;&gt;Example&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;1.20 &lt;a href=&#34;#opening-fods-files&#34;&gt;Opening FODS Files&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.20.1 &lt;a href=&#34;#example&#34;&gt;Example&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h3 id=&#34;simple-ways-to-open-excel-files&#34;&gt;Simple Ways to Open Excel Files&lt;/h3&gt;
+&lt;h4 id=&#34;important-to-know&#34;&gt;Important to Know&lt;/h4&gt;
+&lt;p&gt;Aspose.Cells supports Excel file formats from Excel 97 to Excel 2007/2010. But, if you save your Excel file in the following format as shown below in the figure then your Excel file will fail to open using Aspose.Cells.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Don&amp;rsquo;t save your Excel files in this format&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276272/5473257.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;If you do, the Excel file will contain data in Excel 5.0/95 format, which is not supported by Aspose.Cells. So, please save your Excel file as a Microsoft Excel Workbook as shown below.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Save your Excel files in this format&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276272/5473256.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;opening-through-path&#34;&gt;Opening through Path&lt;/h4&gt;
+&lt;p&gt;To open a Microsoft Excel file using the file path, pass the path of the file as a parameter while creating the instance of the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/Workbook&#34;&gt;Workbook&lt;/a&gt; class. The following sample code demonstrates opening an Excel file using the file path.&lt;/p&gt;
+&lt;h5 id=&#34;example&#34;&gt;Example&lt;/h5&gt;
+&lt;h4 id=&#34;opening-through-stream&#34;&gt;Opening through Stream&lt;/h4&gt;
+&lt;p&gt;Sometimes, the Excel file that you want to open is stored as a stream. In that case, similar to opening a file using the file path, pass the stream as a parameter while instantiating the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/Workbook&#34;&gt;Workbook&lt;/a&gt; class. The following sample code demonstrates opening an Excel file using stream.&lt;/p&gt;
+&lt;h5 id=&#34;example-1&#34;&gt;Example&lt;/h5&gt;
+&lt;h4 id=&#34;opening-files-of-different-microsoft-excel-versions&#34;&gt;Opening Files of Different Microsoft Excel Versions&lt;/h4&gt;
+&lt;p&gt;It&amp;rsquo;s very common to believe that the Excel files that you&amp;rsquo;re opening could be created by different versions of Microsoft Excel: Microsoft Excel 97, 2000, XP, 2003 and 2007/2010. When that&amp;rsquo;s the case, use the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/LoadOptions&#34;&gt;LoadOptions&lt;/a&gt; class to specify the format of the Excel file using the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/FileFormatType&#34;&gt;FileFormatType&lt;/a&gt; enumeration.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/FileFormatType&#34;&gt;FileFormatType&lt;/a&gt; enumeration contains many pre-defined file formats some of which are given below.&lt;/p&gt;
+
+&lt;div class=&#34;table table-striped&#34; role=&#34;alert&#34;&gt;
+    &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;File Format Types&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;AsposePdf&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Specifies the spreadsheet in Aspose.Pdf.Xml format that can be read by Aspose.Pdf to produce a PDF file.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CSV&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents a CSV file&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Default&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents an Excel 2003 file&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Excel97&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents an Excel 97 file&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Excel2000&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents an Excel 2000 file&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;ExcelXP&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents an Excel XP file&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Excel2003&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents an Excel 2003 file&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Excel2007Xlsx&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents an Excel 2007 XLSX file&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Excel2007Xlsm&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents an Excel 2007 XLSM file&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Excel2007Xltx&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents an Excel 2007 template XLTX file&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Excel2007Xltm&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents an Excel 2007 macro-enabled XLTM file&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Excel2007Xlsb&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents an Excel 2007 binary XLSB file&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;SpreadsheetML&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents a SpreadSheetML file&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;TSV&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents a Tab-separated values file&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;TabDelimited&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents a Tab Delimited text file&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;HTML&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents an HTML file(s)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;MHTML&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents an MHTML file(s)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;ODS&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents an OpenDocument Spreadsheet file&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+
+&lt;h4 id=&#34;opening-microsoft-excel-9550-files&#34;&gt;Opening Microsoft Excel 95/5.0 Files&lt;/h4&gt;
+&lt;p&gt;To open Microsoft Excel 95 files, use the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/LoadOptions&#34;&gt;LoadOptions&lt;/a&gt; class and select &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/fileformattype#EXCEL_95&#34;&gt;EXCEL_95&lt;/a&gt; value in the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/FileFormatType&#34;&gt;FileFormatType&lt;/a&gt; enumeration. Sample file to test the code can be downloaded from the following link:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/java/attachments/5276272/81920919.xls&#34;&gt;Excel95_5.0.xls&lt;/a&gt;&lt;/p&gt;
+&lt;h5 id=&#34;example-2&#34;&gt;Example&lt;/h5&gt;
+&lt;h4 id=&#34;opening-microsoft-excel-97-files&#34;&gt;Opening Microsoft Excel 97 Files&lt;/h4&gt;
+&lt;p&gt;To open Microsoft Excel 97 files, use the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/LoadOptions&#34;&gt;LoadOptions&lt;/a&gt; method and select the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/fileformattype#EXCEL_97_TO_2003&#34;&gt;EXCEL_97_TO_2003&lt;/a&gt; value in the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/FileFormatType&#34;&gt;FileFormatType&lt;/a&gt; enumeration.&lt;/p&gt;
+&lt;h5 id=&#34;example-3&#34;&gt;Example&lt;/h5&gt;
+&lt;h4 id=&#34;opening-microsoft-excel-2000-files&#34;&gt;Opening Microsoft Excel 2000 Files&lt;/h4&gt;
+&lt;p&gt;To open Microsoft Excel 2000 files, use the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/LoadOptions&#34;&gt;LoadOptions&lt;/a&gt; class and select the EXCEL2000 value in the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/FileFormatType&#34;&gt;FileFormatType&lt;/a&gt; enumeration.&lt;/p&gt;
+&lt;h5 id=&#34;example-4&#34;&gt;Example&lt;/h5&gt;
+&lt;h4 id=&#34;opening-microsoft-excel-2003-files&#34;&gt;Opening Microsoft Excel 2003 Files&lt;/h4&gt;
+&lt;p&gt;To open Microsoft Excel 2003 files, use the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/LoadOptions&#34;&gt;LoadOptions&lt;/a&gt; class and select the EXCEL2003 value, predefined in the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/FileFormatType&#34;&gt;FileFormatType&lt;/a&gt; enumeration.&lt;/p&gt;
+&lt;h5 id=&#34;example-5&#34;&gt;Example&lt;/h5&gt;
+&lt;h4 id=&#34;opening-microsoft-excel-xp-files&#34;&gt;Opening Microsoft Excel XP Files&lt;/h4&gt;
+&lt;p&gt;To open Microsoft Excel XP files, use the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/LoadOptions&#34;&gt;LoadOptions&lt;/a&gt; class and select the EXCELlXP value, predefined in the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/FileFormatType&#34;&gt;FileFormatType&lt;/a&gt; enumeration.&lt;/p&gt;
+&lt;h5 id=&#34;example-6&#34;&gt;Example&lt;/h5&gt;
+&lt;h4 id=&#34;opening-microsoft-excel-20072010-xlsx-files&#34;&gt;Opening Microsoft Excel 2007/2010 XLSX Files&lt;/h4&gt;
+&lt;p&gt;To open Microsoft Excel 2007/2010 XLSX files, use the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/LoadOptions&#34;&gt;LoadOptions&lt;/a&gt; class and select the EXCEL2007 value, predefined in the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/FileFormatType&#34;&gt;FileFormatType&lt;/a&gt; enumeration.&lt;/p&gt;
+&lt;h5 id=&#34;example-7&#34;&gt;Example&lt;/h5&gt;
+&lt;h4 id=&#34;opening-files-with-different-formats&#34;&gt;Opening Files with Different Formats&lt;/h4&gt;
+&lt;p&gt;Aspose.Cells allows developers to open spreadsheet files with different formats such as SpreadsheetML, CSV, Tab Delimited files. To open such files, developers can use the same methodology as they use for opening files of different Microsoft Excel versions.&lt;/p&gt;
+&lt;h4 id=&#34;opening-spreadsheetml-files&#34;&gt;Opening SpreadsheetML Files&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;SpreadsheetML&lt;/code&gt; files are the XML representations of your spreadsheets including all information about the spreadsheet such as formatting, formulae, etc. Since Microsoft Excel XP, an XML export option is added to Microsoft Excel that exports your spreadsheets to SpreadsheetML files.&lt;/p&gt;
+&lt;p&gt;To open SpreadsheetML files, use the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/LoadOptions&#34;&gt;LoadOptions&lt;/a&gt; class and select the SPREADSHEETML value, predefined in the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/FileFormatType&#34;&gt;FileFormatType&lt;/a&gt; enumeration.&lt;/p&gt;
+&lt;h5 id=&#34;example-8&#34;&gt;Example&lt;/h5&gt;
+&lt;h4 id=&#34;opening-csv-files&#34;&gt;Opening CSV Files&lt;/h4&gt;
+&lt;p&gt;Comma Separated Values (CSV) files contain records whose values are delimited or separated by commas. In CSV files, data is stored in a tabular format that has fields separated by the comma character and quoted by the double-quote character. If a field&amp;rsquo;s value contains a double quote character it is escaped with a pair of double-quote characters. You can also use Microsoft Excel to export your spreadsheet data to a CSV file.&lt;/p&gt;
+&lt;p&gt;To open CSV files, use the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/LoadOptions&#34;&gt;LoadOptions&lt;/a&gt; class and select the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/fileformattype#CSV&#34;&gt;CSV&lt;/a&gt; value, predefined in the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/FileFormatType&#34;&gt;FileFormatType&lt;/a&gt; enumeration.&lt;/p&gt;
+&lt;h5 id=&#34;example-9&#34;&gt;Example&lt;/h5&gt;
+&lt;h4 id=&#34;opening-csv-files-and-replacing-invalid-characters&#34;&gt;Opening CSV files and replacing invalid characters&lt;/h4&gt;
+&lt;p&gt;In Excel, when CSV file with special characters is opened, the characters are automatically replaced. The same is done by Aspose.Cells API which is demonstrated in the code example given below.&lt;/p&gt;
+&lt;h5 id=&#34;example-10&#34;&gt;Example&lt;/h5&gt;
+&lt;h4 id=&#34;opening-csv-files-using-preferred-parser&#34;&gt;Opening CSV files using preferred parser&lt;/h4&gt;
+&lt;p&gt;This is not always necessary to use default parser settings for opening the CSV files. Sometimes importing CSV file does not create expected output like date format is not as expected or empty fields are handled differently. For this purpose &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/txtloadoptions#PreferredParsers&#34;&gt;TxtLoadOptions.PreferredParsers&lt;/a&gt;is available to provide own preferred parser to parse different data types as per the requirement. Following sample code demonstrates the usage of the preferred parser.  &lt;/p&gt;
+&lt;p&gt;Sample source file and output files can be downloaded from the following links for testing this feature.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs.aspose.com/download/attachments/5013529/samplePreferredParser.csv?version=1&amp;amp;modificationDate=1540829615013&amp;amp;api=v2&#34;&gt;samplePreferredParser.csv&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs.aspose.com/download/attachments/5013529/outputsamplePreferredParser.xlsx?version=1&amp;amp;modificationDate=1540829626105&amp;amp;api=v2&#34;&gt;outputsamplePreferredParser.xlsx&lt;/a&gt;&lt;/p&gt;
+&lt;h5 id=&#34;example-11&#34;&gt;Example&lt;/h5&gt;
+&lt;h4 id=&#34;opening-tab-delimited-files&#34;&gt;Opening Tab Delimited Files&lt;/h4&gt;
+&lt;p&gt;Tab-delimited files contain spreadsheet data but without any formatting. Data is arranged in rows and columns such as tables and spreadsheets. Shortly, a tab-delimited file is a special kind of plain text file with a tab between each column in the text.&lt;/p&gt;
+&lt;p&gt;To open tab-delimited files, developers should use the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/LoadOptions&#34;&gt;LoadOptions&lt;/a&gt; class and select the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/fileformattype#TAB_DELIMITED&#34;&gt;TAB_DELIMITED&lt;/a&gt; value, predefined in the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/FileFormatType&#34;&gt;FileFormatType&lt;/a&gt; enumeration.&lt;/p&gt;
+&lt;h5 id=&#34;example-12&#34;&gt;Example&lt;/h5&gt;
+&lt;h4 id=&#34;opening-tab-separated-values-tsv-files&#34;&gt;Opening Tab-Separated Values (TSV) Files&lt;/h4&gt;
+&lt;p&gt;TSV files are also used to contain spreadsheet data but without any formatting. The format is the same with Tab Delimited where data is arranged in rows and columns such as tables and spreadsheets.&lt;/p&gt;
+&lt;p&gt;To open tab-delimited files, developers should use the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/LoadOptions&#34;&gt;LoadOptions&lt;/a&gt; class and select the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/fileformattype#TSV&#34;&gt;TSV&lt;/a&gt; value, predefined in the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/FileFormatType&#34;&gt;FileFormatType&lt;/a&gt; enumeration.&lt;/p&gt;
+&lt;h5 id=&#34;example-13&#34;&gt;Example&lt;/h5&gt;
+&lt;h4 id=&#34;opening-encrypted-excel-files&#34;&gt;Opening Encrypted Excel Files&lt;/h4&gt;
+&lt;p&gt;We know that it&amp;rsquo;s possible to create encrypted Excel files using Microsoft Excel. To open such encrypted files, developers should call a special overloaded &lt;code&gt;LoadOptions&lt;/code&gt; method and select the DEFAULT value, predefined in the &lt;code&gt;FileFormatType&lt;/code&gt; enumeration. This method would also take the password for the encrypted file as shown below in the example.&lt;/p&gt;
+&lt;h5 id=&#34;example-14&#34;&gt;Example&lt;/h5&gt;
+&lt;p&gt;Aspose.Cells also supports opening password-protected MS Excel 2013 files.&lt;/p&gt;
+&lt;p&gt;There are fair chances that the &lt;code&gt;Workbook&lt;/code&gt; constructor may throw &lt;code&gt;System.OutOfMemoryException&lt;/code&gt; while loading large spreadsheets. This exception suggests that the available memory is insufficient to completely load the spreadsheet into the memory, therefore, the spreadsheet has to be loaded while enabling the &lt;a href=&#34;http://www.aspose.com/docs/display/cellsjava/Optimizing+Memory+Usage+while+Working+with+Big+Files+having+Large+Datasets&#34;&gt;Memory Preferences&lt;/a&gt;.&lt;/p&gt;
+&lt;h4 id=&#34;opening-sxc-files&#34;&gt;Opening SXC Files&lt;/h4&gt;
+&lt;p&gt;StarOffice Calc is similar to Microsoft Excel and supports formulas, charts, functions, and macros. The spreadsheets created with this software are saved with the SXCextension. The SXC file is also used for OpenOffice.org Calc spreadsheet files. Aspose.Cells can read SXC files as demonstrated by the following code sample.&lt;/p&gt;
+&lt;h5 id=&#34;example-15&#34;&gt;Example&lt;/h5&gt;
+&lt;h4 id=&#34;opening-fods-files&#34;&gt;Opening FODS Files&lt;/h4&gt;
+&lt;p&gt;FODS file is spreadsheet saved in OpenDocument XML without any compression. Aspose.Cells can read FODS files as demonstrated by the following code sample.&lt;/p&gt;
+&lt;h5 id=&#34;example-16&#34;&gt;Example&lt;/h5&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Converting Workbook to Different Formats</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/ld-sv-cvt-mng/converting&#43;workbook&#43;to&#43;different&#43;formats/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/ld-sv-cvt-mng/converting&#43;workbook&#43;to&#43;different&#43;formats/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--converting-workbook-to-different-formats&#34;&gt;Aspose.Cells for Java : Converting Workbook to Different Formats&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells supports conversion between many formats. Technically, conversion means to load a workbook in one file format and save it into another.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#converting-excel-to-xps&#34;&gt;Converting Excel to XPS&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#converting-single-worksheet-to-xps&#34;&gt;Converting single Worksheet to XPS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.2 &lt;a href=&#34;#export-whole-workbook-to-xps&#34;&gt;Export Whole Workbook to XPS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.3 &lt;a href=&#34;#quick-excel-to-xps-conversion&#34;&gt;Quick Excel to XPS Conversion&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#converting-excel-to-mhtml-files&#34;&gt;Converting Excel to MHTML Files&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#converting-to,-and-from,-mhtml&#34;&gt;Converting to, and from, MHTML&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;4 &lt;a href=&#34;#converting-excel-files-to-html&#34;&gt;Converting Excel Files to HTML&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;4.1 &lt;a href=&#34;#setting-image-preferences-for-html&#34;&gt;Setting Image Preferences for HTML&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;5 &lt;a href=&#34;#converting-excel-to-pdf-files&#34;&gt;Converting Excel to PDF Files&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;5.1 &lt;a href=&#34;#converting-excel-to-pdf&#34;&gt;Converting Excel to PDF&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;5.1.1 &lt;a href=&#34;#direct-conversion&#34;&gt;Direct Conversion&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;5.1.2 &lt;a href=&#34;#advanced-conversion&#34;&gt;Advanced Conversion&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;5.1.2.1 &lt;a href=&#34;#saving-excel-spreadsheets-to-pdf/a-complied-files&#34;&gt;Saving Excel Spreadsheets to PDF/A Complied Files&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;5.1.3 &lt;a href=&#34;#conversion-with-aspose.pdf:-aspose.cells-prior-to-2.3.0&#34;&gt;Conversion with Aspose.Pdf: Aspose.Cells Prior to 2.3.0&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;5.1.4 &lt;a href=&#34;#conversion-attributes&#34;&gt;Conversion Attributes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;converting-excel-to-xps&#34;&gt;Converting Excel to XPS&lt;/h2&gt;
+&lt;p&gt;The XPS document format consists of structured XML markup that defines the layout of a document and the visual appearance of each page, along with rendering rules for distributing, archiving, rendering, processing and printing documents.&lt;/p&gt;
+&lt;p&gt;The markup language for XPS is a subset of XAML which allows it to incorporate vector graphic elements in documents, using XAML to mark up the Windows Presentation Foundation (WPF) primitives. The elements used are described in terms of paths and other geometrical primitives.&lt;/p&gt;
+&lt;p&gt;An XPS file is in fact a Unicoded ZIP archive using the Open Packaging Conventions, containing the files which make up the document. These include an XML markup file for each page, text, embedded fonts, raster images, 2D vector graphics, as well as the digital rights management information. The contents of an XPS file can be examined simply by opening it in an application that supports ZIP files.&lt;/p&gt;
+&lt;p&gt;From Aspose.Cells 6.0.0, Microsoft Excel tp XPS conversion is supported.&lt;/p&gt;
+&lt;h3 id=&#34;converting-single-worksheet-to-xps&#34;&gt;Converting single Worksheet to XPS&lt;/h3&gt;
+&lt;p&gt;The following example shows how to convert a single worksheet in an Excel file to XPS.&lt;/p&gt;
+&lt;h3 id=&#34;export-whole-workbook-to-xps&#34;&gt;Export Whole Workbook to XPS&lt;/h3&gt;
+&lt;p&gt;The following example shows how to convert the whole workbook to XPS format.&lt;/p&gt;
+&lt;h3 id=&#34;quick-excel-to-xps-conversion&#34;&gt;Quick Excel to XPS Conversion&lt;/h3&gt;
+&lt;p&gt;The following example shows a simple way to directly convert the Excel file to XPS format.&lt;/p&gt;
+&lt;h2 id=&#34;converting-excel-to-mhtml-files&#34;&gt;Converting Excel to MHTML Files&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;http://en.wikipedia.org/wiki/Mhtml&#34;&gt;MHTML&lt;/a&gt; combines normal HTML with external resources; that is, content that is usually linked in like images, animations, audio and so on into one file. They are used for emails with the .mht file extension.&lt;/p&gt;
+&lt;p&gt;Aspose.Cells supports reading and writing MHTML files.&lt;/p&gt;
+&lt;h2 id=&#34;converting-to-and-from-mhtml&#34;&gt;Converting to, and from, MHTML&lt;/h2&gt;
+&lt;p&gt;Converting a spreadsheet to MHTML is a quick operation, as shown below.&lt;/p&gt;
+&lt;p&gt;The code example below shows how to save a workbook as an MHTML file.&lt;/p&gt;
+&lt;h2 id=&#34;converting-excel-files-to-html&#34;&gt;Converting Excel Files to HTML&lt;/h2&gt;
+&lt;p&gt;The Aspose.Cells APIs provides support for exporting spreadsheets to HTML format. For this purpose, Aspose.Cells uses the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/HtmlSaveOptions&#34;&gt;HtmlSaveOptions&lt;/a&gt; class which allows developers to control several aspects of the output HTML.&lt;/p&gt;
+&lt;p&gt;The code below demonstrates how to use the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/HtmlSaveOptions&#34;&gt;HtmlSaveOptions&lt;/a&gt; class to export Microsoft Excel files to HTML format without specifying additional parameters.&lt;/p&gt;
+&lt;p&gt;You may achieve the same results by passing the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/saveformat#HTML&#34;&gt;SaveFormat.HTML&lt;/a&gt; to the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions)&#34;&gt;Workbook.save&lt;/a&gt; method.&lt;/p&gt;
+&lt;h3 id=&#34;setting-image-preferences-for-html&#34;&gt;Setting Image Preferences for HTML&lt;/h3&gt;
+&lt;p&gt;Starting from 8.0.2, Aspose.Cells has exposed &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/htmlsaveoptions#ImageOptions&#34;&gt;ImageOptions&lt;/a&gt; for the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/HtmlSaveOptions&#34;&gt;HtmlSaveOptions&lt;/a&gt; class, which allows developers to specify image preferences when saving spreadsheets to HTML format.&lt;/p&gt;
+&lt;p&gt;The image settings that can be applied are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/imageorprintoptions#ImageType&#34;&gt;ImageType&lt;/a&gt;: Gets or sets the image type. Please note, all shapes, including charts, render as images in the output HTML.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/imageorprintoptions#Quality&#34;&gt;Quality&lt;/a&gt;: Gets or sets the quality of images between 0 to 100, when &lt;code&gt;ImageFormat&lt;/code&gt; is specified as Jpeg.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/imageorprintoptions#VerticalResolution&#34;&gt;VerticalResolution&lt;/a&gt;: Gets or sets the vertical resolution of the image in dots per inch.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/imageorprintoptions#HorizontalResolution&#34;&gt;HorizontalResolution&lt;/a&gt;: Gets or sets the horizontal resolution of the image in dots per inch.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/imageorprintoptions#TiffCompression&#34;&gt;TiffCompression&lt;/a&gt;: Gets or sets the compression type for the images when &lt;code&gt;ImageFormat&lt;/code&gt; is specified as Tiff.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/imageorprintoptions#Transparent&#34;&gt;Transparent&lt;/a&gt;: Indicates if the background of an image should be transparent when &lt;code&gt;ImageFormat&lt;/code&gt; is specified as Png.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The code below demonstrates how to use &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/htmlsaveoptions#ImageOptions&#34;&gt;HtmlSaveOptions.ImageOptions&lt;/a&gt; to specify different preferences.&lt;/p&gt;
+
+&lt;div class=&#34;table table-striped&#34; role=&#34;alert&#34;&gt;
+    &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Spreadsheet view before export&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;HTML view after export&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276167/5472417.png&#34; alt=&#34;&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276167/5472418.png&#34; alt=&#34;&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+
+&lt;h2 id=&#34;converting-excel-to-pdf-files&#34;&gt;Converting Excel to PDF Files&lt;/h2&gt;
+&lt;p&gt;PDF documents are widely used as a standard format of exchanging documents between organizations, government sectors, and individuals. Software developers are often asked to device a way to easily convert Microsoft Excel files into PDF documents. Aspose.Cells supports these features. This article shows how.&lt;/p&gt;
+&lt;h3 id=&#34;converting-excel-to-pdf&#34;&gt;Converting Excel to PDF&lt;/h3&gt;
+&lt;p&gt;Microsoft Excel to PDF conversion was introduced with Aspose.Cells for Java 2.3.0. From that release, Aspose.Cells can &lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/ld-sv-cvt-mng/converting+workbook+to+different+formats&#34;&gt;convert spreadsheets to PDF directly&lt;/a&gt; (including &lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/ld-sv-cvt-mng/converting+workbook+to+different+formats&#34;&gt;PDF/A&lt;/a&gt;), without another product. To convert spreadsheets with older versions of Aspose.Cells, &lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/ld-sv-cvt-mng/converting+workbook+to+different+formats&#34;&gt;use Aspose.PDF for the conversion&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Aspose.Cell&amp;rsquo;s converts spreadsheets to PDF with a high degree of accuracy and fidelity. However, there are a few &lt;a href=&#34;https://docs2.aspose.com/cells/java/developerguide/ld-sv-cvt-mng/converting+workbook+to+different+formats&#34;&gt;limitations&lt;/a&gt;, listed at the end of this article.&lt;/p&gt;
+&lt;p&gt;Aspose.Cells for Java directly writes the information about API and Version Number in output documents. For example, upon rendering Document to PDF, Aspose.Cells for Java populates &lt;strong&gt;Application&lt;/strong&gt; field with value &amp;lsquo;Aspose.Cells&amp;rsquo; and &lt;strong&gt;PDF Producer&lt;/strong&gt; field with a value, e.g &amp;lsquo;Aspose.Cells for Java v17.9&amp;rsquo;.&lt;/p&gt;
+&lt;p&gt;Please note that you cannot instruct Aspose.Cells for Java to change or remove this information from output Documents.&lt;/p&gt;
+&lt;h4 id=&#34;direct-conversion&#34;&gt;Direct Conversion&lt;/h4&gt;
+&lt;p&gt;Save an Excel file directly to PDF using the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions)&#34;&gt;Workbook.save&lt;/a&gt; method, and provide the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/saveformat#PDF&#34;&gt;SaveFormat.PDF&lt;/a&gt; interface member. Direct conversion like this is the most efficient conversion method. It does not lose data or formatting but keeps the output PDF looking like the input Excel file.&lt;/p&gt;
+&lt;p&gt;To specify security options when saving to PDF, use &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/PdfSaveOptions&#34;&gt;PdfSaveOptions&lt;/a&gt;.&lt;/p&gt;
+&lt;h4 id=&#34;advanced-conversion&#34;&gt;Advanced Conversion&lt;/h4&gt;
+&lt;p&gt;You may also opt to use the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/PdfSaveOptions&#34;&gt;PdfSaveOptions&lt;/a&gt; class to set different attributes for the conversion. Setting different properties of &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/PdfSaveOptions&#34;&gt;PdfSaveOptions&lt;/a&gt; class will give you the control over the Print, Font, Security and Compression settings for the resultant PDF file. Most notable property is the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/pdfsaveoptions#Compliance&#34;&gt;Compliance&lt;/a&gt; that enables you to save the Excel files to PDF/A compliant PDF files.&lt;/p&gt;
+&lt;h5 id=&#34;saving-excel-spreadsheets-to-pdfa-complied-files&#34;&gt;Saving Excel Spreadsheets to PDF/A Complied Files&lt;/h5&gt;
+&lt;p&gt;Below provided code snippet demonstrates the usage of the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/PdfSaveOptions&#34;&gt;PdfSaveOptions&lt;/a&gt; class to save the Excel files to PDF/A compliant PDF format.&lt;/p&gt;
+&lt;h4 id=&#34;conversion-with-asposepdf-asposecells-prior-to-230&#34;&gt;Conversion with Aspose.Pdf: Aspose.Cells Prior to 2.3.0&lt;/h4&gt;
+&lt;p&gt;For Aspose.Cells versions prior to version 2.3.0 you need to use a component like &lt;a href=&#34;https://docs.aspose.com/display/pdfjava/Introducing+Aspose.PDF+for+Java&#34;&gt;Aspose.PDF for Java&lt;/a&gt; to convert spreadsheets to PDF files. Aspose.Cells and Aspose.PDF work together to convert a spreadsheet to PDF via an intermediate step.&lt;/p&gt;
+&lt;p&gt;To convert spreadsheets to PDF with Aspose.Cells and Aspose.PDF:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Instantiate an object of the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/Workbook&#34;&gt;Workbook&lt;/a&gt; class by calling its empty constructor.&lt;/li&gt;
+&lt;li&gt;Do your desired work on the spreadsheet using the Aspose.Cells API.&lt;/li&gt;
+&lt;li&gt;Call the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions)&#34;&gt;Workbook.save&lt;/a&gt; method to save the spreadsheet:
+&lt;ol&gt;
+&lt;li&gt;Set the file format to XML.&lt;/li&gt;
+&lt;li&gt;Select &lt;code&gt;Aspose_Pdf&lt;/code&gt; (a pre-defined value) from the &lt;code&gt;FileFormatType&lt;/code&gt; interface. This directs the &lt;code&gt;save&lt;/code&gt; method to generate a spreadsheet in the XML form compatible with the Aspose.PDF Schema so that Aspose.PDF for Java can then generate a PDF document.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;When the XML file has been created, create an object of the &lt;code&gt;Pdf&lt;/code&gt; class in the &lt;code&gt;aspose.pdf&lt;/code&gt; package.&lt;/li&gt;
+&lt;li&gt;Call the &lt;code&gt;Pdf&lt;/code&gt; class&amp;rsquo; &lt;code&gt;bindXML&lt;/code&gt; method and pass the name of the output XML file.&lt;/li&gt;
+&lt;li&gt;Call the &lt;code&gt;Pdf&lt;/code&gt; class&amp;rsquo; &lt;code&gt;save&lt;/code&gt; method to generate the PDF document.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The above steps are implemented below in an example.&lt;/p&gt;
+&lt;p&gt;If your spreadsheet contains formulas, it is best to call &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/workbook#calculateFormula()&#34;&gt;Workbook.calculateFormula&lt;/a&gt; method just before rendering the spreadsheet to PDF format. Doing so will ensure that the formula dependent values are recalculated, and the correct values are rendered in the PDF.&lt;/p&gt;
+&lt;h4 id=&#34;conversion-attributes&#34;&gt;Conversion Attributes&lt;/h4&gt;
+&lt;p&gt;We work hard to improve conversion and other aspects of Aspose.Cells with every release. Excel to PDF conversion has a few limitations. Some format settings specified in a spreadsheet might be lost, and not all drawing objects are supported.&lt;/p&gt;
+&lt;p&gt;The table below lists all features that are fully or partially supported when exporting to PDF using Aspose.Cells. This table is not final and does not cover all the spreadsheet attributes. It can also identify those features that may not be supported or are partially supported for the conversion.&lt;/p&gt;
+
+&lt;div class=&#34;table table-striped&#34; role=&#34;alert&#34;&gt;
+    &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Document Element&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Attribute&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Net Supported&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Notes&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Alignment&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Yes&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Rotation&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Partially&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Only supports 90 and -90.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Background settings&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Yes&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Border&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Color&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Yes&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Border&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Line style&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Yes&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Border&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Line width&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Yes&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Cell Data&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Yes&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Comments&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;No&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Conditional Formatting&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Yes&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Document Properties&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Yes&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Drawing Objects&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Yes&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Font&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Size&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Yes&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Font&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Color&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Yes&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Font&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Style&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Yes&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Font&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Underline&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Yes&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Font&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Effects&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Partially&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Only the strike-through effect is supported&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Images&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Yes&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Hyperlink&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Yes&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Charts&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Yes&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Merged Cells&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Yes&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Page Break&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Yes&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Page Setup&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Header/Footer&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Yes&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Page Setup&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Margins&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Yes&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Page Setup&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Page Orientation&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Yes&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Page Setup&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Page Size&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Yes&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Page Setup&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Print Area&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Yes&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Page Setup&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Print Titles&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Yes&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Page Setup&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Scaling&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Yes&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Row Height/Column Width&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Yes&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276167/5472417.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Converting Worksheet to Different Image Formats</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/ld-sv-cvt-mng/converting&#43;worksheet&#43;to&#43;different&#43;image&#43;formats/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/ld-sv-cvt-mng/converting&#43;worksheet&#43;to&#43;different&#43;image&#43;formats/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--converting-worksheet-to-different-image-formats&#34;&gt;Aspose.Cells for Java : Converting Worksheet to Different Image Formats&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells allows you to export a worksheet from the workbook and convert it into different formats. This article explains how to convert a worksheet to different formats.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#converting-worksheet-to-image&#34;&gt;Converting Worksheet to Image&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#converting-worksheet-to-svg&#34;&gt;Converting Worksheet to SVG&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;2.1 &lt;a href=&#34;#render-active-worksheet-in-a-workbook&#34;&gt;Render active worksheet in a workbook&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;converting-worksheet-to-image&#34;&gt;Converting Worksheet to Image&lt;/h2&gt;
+&lt;p&gt;Sometimes, it is useful to save a picture of a worksheet. Images can be shared online, inserted into other documents (reports written in Microsoft Word, for example, or PowerPoint presentations).&lt;/p&gt;
+&lt;p&gt;Aspose.Cells provides image export through the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/sheetrender&#34;&gt;SheetRender&lt;/a&gt; class. This class represents the worksheet that will be rendered to an image. The &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/sheetrender&#34;&gt;SheetRender&lt;/a&gt; class provides the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/sheetrender#toImage(int,%20java.io.OutputStream)&#34;&gt;toImage()&lt;/a&gt; method for converting a worksheet to an image file. BMP, PNG, JPEG, TIFF, and EMF formats are supported.&lt;/p&gt;
+&lt;p&gt;Aspose.Cells for Java also supports conversion to TIFF format. To convert a worksheet to a TIFF image, add the JAI library to your classpath.&lt;/p&gt;
+&lt;p&gt;At present, the converting worksheet to image API does not support 3D-bubble charts.&lt;/p&gt;
+&lt;p&gt;The code below shows how to convert a worksheet in a Microsoft Excel file to a PNG file.&lt;/p&gt;
+&lt;h2 id=&#34;converting-worksheet-to-svg&#34;&gt;Converting Worksheet to SVG&lt;/h2&gt;
+&lt;p&gt;SVG stands for &lt;strong&gt;Scalable Vector Graphics&lt;/strong&gt;. SVG is a specification based on XML standards for two-dimensional vector graphics. It is an open standard that has been under development by the World Wide Web Consortium (W3C) since 1999.&lt;/p&gt;
+&lt;p&gt;Since the release of v7.1.0, &lt;strong&gt;Aspose.Cells for Java&lt;/strong&gt; can convert worksheets into SVG images.&lt;/p&gt;
+&lt;p&gt;To use this feature, you need to import the &lt;code&gt;com.aspose.cells&lt;/code&gt; namespace to your program or project. It has several valuable classes for rendering and printing, for example, &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/sheetrender&#34;&gt;SheetRender&lt;/a&gt;, &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/ImageOrPrintOptions&#34;&gt;ImageOrPrintOptions&lt;/a&gt;, &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/workbookrender&#34;&gt;WorkbookRender&lt;/a&gt;, and others. &lt;/p&gt;
+&lt;p&gt;The &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/ImageOrPrintOptions&#34;&gt;com.aspose.cells.ImageOrPrintOptions&lt;/a&gt; class specifies that the worksheet will be saved in SVG format.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/sheetrender&#34;&gt;SheetRender&lt;/a&gt; class takes the object of &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/ImageOrPrintOptions&#34;&gt;ImageOrPrintOptions&lt;/a&gt; as a parameter that sets the save format to SVG format. &lt;/p&gt;
+&lt;p&gt;The following code snippet shows how to convert a worksheet in an Excel file to an SVG image file.&lt;/p&gt;
+&lt;h3 id=&#34;render-active-worksheet-in-a-workbook&#34;&gt;Render active worksheet in a workbook&lt;/h3&gt;
+&lt;p&gt;A simple way to convert active worksheet in a workbook is to set the active sheet index and then save the workbook as SVG. It will render the active sheet to SVG. Following sample code demonstrates this feature:&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Encrypting Excel Files</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/ld-sv-cvt-mng/encrypting&#43;excel&#43;files/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/ld-sv-cvt-mng/encrypting&#43;excel&#43;files/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--encrypting-excel-files&#34;&gt;Aspose.Cells for Java : Encrypting Excel Files&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#using-ms-excel&#34;&gt;Using MS Excel&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#sample-code:&#34;&gt;Sample Code:&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#encrypting/decrypting-ods-file:&#34;&gt;Encrypting/Decrypting ODS File:&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;2.1 &lt;a href=&#34;#sample-code:&#34;&gt;Sample Code:&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Microsoft Excel (97 - 2007/2010 ) enables you to encrypt / password protect your spreadsheets. It utilizes algorithms provided by Crypto Service Provider. A Crypto Service Provider or CSP is a set of cryptographic algorithms with different properties. The default CSP is &amp;ldquo;Office 97/2000 Compatible&amp;rdquo; or &amp;quot; Week Encryption (XOR) &amp;ldquo;. It&amp;rsquo;s also important to choose a proper encryption key length. Some of the Crypto Service Providers don&amp;rsquo;t support more than 40 or 56 bits. That&amp;rsquo;s considered to be a weak encryption type. But, for strong encryption type, a minimum key length of 128 bits is required. Microsoft Windows contains Crypto Service Providers that offer strong encryption types as well, for example, the &amp;lsquo;Microsoft Strong Cryptographic Provider&amp;rsquo;. To give an idea, 128 bits encryption is what banks use to encrypt the connection with their Internet Banking Systems. Aspose.Cells allows you to encrypt / password protect your excel files with your desired encryption type.&lt;/p&gt;
+&lt;h3 id=&#34;using-ms-excel&#34;&gt;Using MS Excel&lt;/h3&gt;
+&lt;p&gt;In MS Excel (e.g MS Excel 2003), to implement file encryption settings, you may try:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;From the &lt;strong&gt;Tools&lt;/strong&gt; menu, select &lt;strong&gt;Options&lt;/strong&gt;, and then select the &lt;strong&gt;Security&lt;/strong&gt; tab.&lt;/li&gt;
+&lt;li&gt;Input &lt;strong&gt;Password to open&lt;/strong&gt; and click the &lt;strong&gt;Advanced&lt;/strong&gt; button.&lt;/li&gt;
+&lt;li&gt;Choose the encryption type and confirm the password.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276284/5473262.png&#34; alt=&#34;&#34;&gt;&lt;br&gt;
+&lt;strong&gt;Figure: Options dialog&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276284/5473263.png&#34; alt=&#34;&#34;&gt;&lt;br&gt;
+&lt;strong&gt;Figure: Encryption Type dialog&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The following example shows how you can encrypt / password protect an excel file using the Aspose.Cells API.&lt;/p&gt;
+&lt;h4 id=&#34;sample-code&#34;&gt;Sample Code:&lt;/h4&gt;
+&lt;h3 id=&#34;encryptingdecrypting-ods-file&#34;&gt;Encrypting/Decrypting ODS File:&lt;/h3&gt;
+&lt;p&gt;The Aspose.Cells library allows encrypting and decrypting the ODS files. Un-encrypted ODS file can be opened both in Excel and OpenOffice, however, encrypted ODS file can only be opened by OpenOffice after providing the password. Excel cannot open the encrypted ODS file and may raise warning messages. The EncryptionOptions are not applicable for the ODS file, unlike other file types. For encrypting an ODS file, load the file and pass the actual password to &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/workbooksettings#Password&#34;&gt;WorkbookSettings.setPassword()&lt;/a&gt; before saving it. The output encrypted ODS file can be opened in OpenOffice only. For decrypting an ODS file, load the file by providing the password in the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/loadoptions#Password&#34;&gt;LoadOptions.setPassword()&lt;/a&gt;. Once the file is loaded, call function &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/workbook#unprotect(java.lang.String)&#34;&gt;Workbook.unprotect()&lt;/a&gt; with actual password as argument and finally pass null to &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/workbooksettings#Password&#34;&gt;Workbook.getWorkbookSettings().setPassword()&lt;/a&gt;.&lt;/p&gt;
+&lt;h4 id=&#34;sample-code-1&#34;&gt;Sample Code:&lt;/h4&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Trim Leading Blank Rows and Columns while exporting spreadsheets to CSV format</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/ld-sv-cvt-mng/trim&#43;leading&#43;blank&#43;rows&#43;and&#43;columns&#43;while&#43;exporting&#43;spreadsheets&#43;to&#43;csv&#43;format/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/ld-sv-cvt-mng/trim&#43;leading&#43;blank&#43;rows&#43;and&#43;columns&#43;while&#43;exporting&#43;spreadsheets&#43;to&#43;csv&#43;format/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format&#34;&gt;Aspose.Cells for Java : Trim Leading Blank Rows and Columns while exporting spreadsheets to CSV format&lt;/h1&gt;
+
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format&#34;&gt;Trim Leading Blank Rows and Columns while exporting spreadsheets to CSV format&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;Sometimes, your Excel or CSV file has leading blank columns or rows. For example, consider this line&lt;/p&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_eb224c7259&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_eb224c7259&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,,,&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;data1&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;data2&lt;/span&gt; 
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;p&gt;Here the first three cells or columns are blank. When you open such a CSV file in Microsoft Excel, then Microsoft Excel discards these leading blank rows and columns.&lt;/p&gt;
+&lt;p&gt;By default, Aspose.Cells does not discard leading blank columns and rows on saving but if you want to remove them just like Microsoft Excel does, then Aspose.Cells provides &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/txtsaveoptions#TrimLeadingBlankRowAndColumn&#34;&gt;TxtSaveOptions.TrimLeadingBlankRowAndColumn&lt;/a&gt; property. Please set it to &lt;strong&gt;true&lt;/strong&gt; and then all the leading blank rows and columns will be discarded on saving.&lt;/p&gt;
+&lt;p&gt;Prior to the release of Aspose.Cells for .NET 20.4, the default value of &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/txtsaveoptions#TrimLeadingBlankRowAndColumn&#34;&gt;TxtSaveOptions.TrimLeadingBlankRowAndColumn&lt;/a&gt; was &lt;strong&gt;false&lt;/strong&gt;. Since the 20.4 release, the default value of &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/txtsaveoptions#TrimLeadingBlankRowAndColumn&#34;&gt;TxtSaveOptions.TrimLeadingBlankRowAndColumn&lt;/a&gt; is &lt;strong&gt;true.&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format&#34;&gt;Trim Leading Blank Rows and Columns while exporting spreadsheets to CSV format&lt;/h2&gt;
+&lt;p&gt;The following sample code loads the source excel file which has two leading blank columns. It first saves the excel file in CSV format without any changes and then it sets &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/txtsaveoptions#TrimLeadingBlankRowAndColumn&#34;&gt;TxtSaveOptions.TrimLeadingBlankRowAndColumn&lt;/a&gt; property to &lt;strong&gt;true&lt;/strong&gt; and saves it again. The screenshot shows the &lt;a href=&#34;https://docs.aspose.com/download/attachments/25002392/sampleTrimBlankColumns.xlsx?version=1&amp;amp;modificationDate=1487598739655&amp;amp;api=v2&#34;&gt;source excel file&lt;/a&gt;, &lt;a href=&#34;https://docs.aspose.com/download/attachments/25002392/outputWithoutTrimBlankColumns.csv?version=1&amp;amp;modificationDate=1487598617807&amp;amp;api=v2&#34;&gt;output CSV file without trimming&lt;/a&gt;, and the &lt;a href=&#34;https://docs.aspose.com/download/attachments/25002392/outputTrimBlankColumns.csv?version=1&amp;amp;modificationDate=1487598755921&amp;amp;api=v2&#34;&gt;output CSV file with trimming&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/25002392/25395206.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Get Warnings while Loading Excel File</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/ld-sv-cvt-mng/get&#43;warnings&#43;while&#43;loading&#43;excel&#43;file/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/ld-sv-cvt-mng/get&#43;warnings&#43;while&#43;loading&#43;excel&#43;file/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--get-warnings-while-loading-excel-file&#34;&gt;Aspose.Cells for Java : Get Warnings while Loading Excel File&lt;/h1&gt;
+
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#get-warnings-while-loading-excel-file&#34;&gt;Get Warnings while Loading Excel File&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;4 &lt;a href=&#34;#console-output&#34;&gt;Console Output&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;Sometimes the user tries to load the workbook which is somewhat corrupt but loadable. In such case, Aspose.Cells throws warnings while loading the workbook. You can catch these warnings by implementing the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/IWarningCallback&#34;&gt;IWarningCallback&lt;/a&gt; interface and setting &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/loadoptions#WarningCallback&#34;&gt;LoadOptions.WarningCallback&lt;/a&gt; property.&lt;/p&gt;
+&lt;h2 id=&#34;get-warnings-while-loading-excel-file&#34;&gt;Get Warnings while Loading Excel File&lt;/h2&gt;
+&lt;p&gt;The following sample code explains how to get warnings while loading excel file. The code loads the &lt;a href=&#34;https://docs2.aspose.com/cells/java/attachments/25002833/25395234.xlsx&#34;&gt;sample excel file&lt;/a&gt; which throws &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/warningtype#DUPLICATE_DEFINED_NAME&#34;&gt;DuplicateDefinedName&lt;/a&gt; warning on loading. This warning is then caught by &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/iwarningcallback#warning(com.aspose.cells.WarningInfo)&#34;&gt;IWarningCallback.Warning()&lt;/a&gt; method that prints the warning messages on the console. The code then saves the workbook as &lt;a href=&#34;https://docs2.aspose.com/cells/java/attachments/25002833/25395233.xlsx&#34;&gt;output excel file&lt;/a&gt;. If you open the sample excel file in Microsoft Excel, it will also display you this warning as shown in this screenshot. Please also check the console output of the code given below for more understanding.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/25002833/25395232.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+&lt;h2 id=&#34;console-output&#34;&gt;Console Output&lt;/h2&gt;
+&lt;p&gt;Here is the console output of the above code when executed with the provided &lt;a href=&#34;https://docs2.aspose.com/cells/java/attachments/25002833/25395234.xlsx&#34;&gt;sample excel file&lt;/a&gt;.&lt;/p&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_253a42ad34&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_253a42ad34&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Duplicate&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Defined&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Name&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Warning&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Name&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;PRINT_AREA&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;ReferTo&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Introduction&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;!&lt;/span&gt;&lt;span style=&#34;color:#a40000&#34;&gt;$&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;D&lt;/span&gt;&lt;span style=&#34;color:#a40000&#34;&gt;$&lt;/span&gt;&lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;16&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#a40000&#34;&gt;$&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;D&lt;/span&gt;&lt;span style=&#34;color:#a40000&#34;&gt;$&lt;/span&gt;&lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;17&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Duplicate&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Defined&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Name&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Warning&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Name&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;PRINT_AREA&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;ReferTo&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Panel&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;!&lt;/span&gt;&lt;span style=&#34;color:#a40000&#34;&gt;$&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;B&lt;/span&gt;&lt;span style=&#34;color:#a40000&#34;&gt;$&lt;/span&gt;&lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;228&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Duplicate&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Defined&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Name&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Warning&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Name&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;PRINT_AREA&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;ReferTo&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#a40000&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Queries&lt;/span&gt; &lt;span style=&#34;color:#a40000&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;!&lt;/span&gt;&lt;span style=&#34;color:#a40000&#34;&gt;$&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;D&lt;/span&gt;&lt;span style=&#34;color:#a40000&#34;&gt;$&lt;/span&gt;&lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;14&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#a40000&#34;&gt;$&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;D&lt;/span&gt;&lt;span style=&#34;color:#a40000&#34;&gt;$&lt;/span&gt;&lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;16&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: AutoFit Columns and Rows while loading HTML in Workbook</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/ld-sv-cvt-mng/autofit&#43;columns&#43;and&#43;rows&#43;while&#43;loading&#43;html&#43;in&#43;workbook/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/ld-sv-cvt-mng/autofit&#43;columns&#43;and&#43;rows&#43;while&#43;loading&#43;html&#43;in&#43;workbook/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--autofit-columns-and-rows-while-loading-html-in-workbook&#34;&gt;Aspose.Cells for Java : AutoFit Columns and Rows while loading HTML in Workbook&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#autofit-columns-and-rows-while-loading-html-in-workbook&#34;&gt;AutoFit Columns and Rows while loading HTML in Workbook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;You can autofit columns and rows while loading your HTML file inside the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/Workbook&#34;&gt;Workbook&lt;/a&gt; object. Please set the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/htmlloadoptions#AutoFitColsAndRows&#34;&gt;HtmlLoadOptions.AutoFitColsAndRows&lt;/a&gt; property to **true **for this purpose.&lt;/p&gt;
+&lt;h2 id=&#34;autofit-columns-and-rows-while-loading-html-in-workbook&#34;&gt;AutoFit Columns and Rows while loading HTML in Workbook&lt;/h2&gt;
+&lt;p&gt;The following sample code first loads the sample HTML into Workbook without any load options and saves it in XLSX format. It then again loads the sample HTML into Workbook but this time, it loads the HTML after setting the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/htmlloadoptions#AutoFitColsAndRows&#34;&gt;HtmlLoadOptions.AutoFitColsAndRows&lt;/a&gt; property to **true **and saves it in XLSX format. Please download both the output excel files i.e.&lt;a href=&#34;https://docs2.aspose.com/cells/java/attachments/25002947/25395235.xlsx&#34;&gt;Output Excel File Without AutoFitColsAndRows&lt;/a&gt; and &lt;a href=&#34;https://docs2.aspose.com/cells/java/attachments/25002947/25395237.xlsx&#34;&gt;Output Excel File With AutoFitColsAndRows&lt;/a&gt;. The following screenshot shows the effect of &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/htmlloadoptions#AutoFitColsAndRows&#34;&gt;HtmlLoadOptions.AutoFitColsAndRows&lt;/a&gt; property on both output excel files.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/25002947/25395236.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Convert Excel file to PDF format compatible with PDFA-1a</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/ld-sv-cvt-mng/convert&#43;excel&#43;file&#43;to&#43;pdf&#43;format&#43;compatible&#43;with&#43;pdfa-1a/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/ld-sv-cvt-mng/convert&#43;excel&#43;file&#43;to&#43;pdf&#43;format&#43;compatible&#43;with&#43;pdfa-1a/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--convert-excel-file-to-pdf-format-compatible-with-pdfa-1a&#34;&gt;Aspose.Cells for Java : Convert Excel file to PDF format compatible with PDFA-1a&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#convert-excel-file-to-pdf-format-compatible-with-pdfa-1a&#34;&gt;Convert Excel file to PDF format compatible with PDFA-1a&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#screenshot&#34;&gt;Screenshot&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;4 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;PDF/A is a unique flavor of PDF designed for the long-term preservation of documents. PDF/A is an ISO-standardized version of the Portable Document Format (PDF) which is an archival format of PDF that embeds all fonts used in the document within the PDF file. PDF/A differs from PDF by prohibiting features, such as font linking (as opposed to font embedding) and encryption. Aspose.Cells enables you to save the Excel files to PDF/A compliant PDF files (both PdfA1a and PdfA1b are supported). This topic describes how to save the Excel workbook to PDF/A compliant (PdfA1a) PDF file.&lt;/p&gt;
+&lt;h2 id=&#34;convert-excel-file-to-pdf-format-compatible-with-pdfa-1a&#34;&gt;Convert Excel file to PDF format compatible with PDFA-1a&lt;/h2&gt;
+&lt;p&gt;Developers may use the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/PdfSaveOptions&#34;&gt;PdfSaveOptions&lt;/a&gt; class to set different attributes for the conversion. Setting different properties of the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/PdfSaveOptions&#34;&gt;PdfSaveOptions&lt;/a&gt; class gives you control over the print, font, security and compression settings for the output PDF. The most important property is &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/pdfsaveoptions#Compliance&#34;&gt;PdfSaveOptions.Compliance&lt;/a&gt; that enables you to save the Excel files to PDF/A compliant PDF files.&lt;/p&gt;
+&lt;p&gt;The following sample code explains how to convert Excel file to PDF format compatible with PDFA-1a. Please see its &lt;a href=&#34;https://docs2.aspose.com/cells/java/attachments/44860262/45056017.pdf&#34;&gt;output PDF&lt;/a&gt; as well as a screenshot for reference.&lt;/p&gt;
+&lt;h2 id=&#34;screenshot&#34;&gt;Screenshot&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/44860262/45056016.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Read Numbers Spreadsheet Developed by Apple Inc. using Aspose.Cells</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/ld-sv-cvt-mng/read&#43;numbers&#43;spreadsheet&#43;developed&#43;by&#43;apple&#43;inc.&#43;using&#43;aspose.cells/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/ld-sv-cvt-mng/read&#43;numbers&#43;spreadsheet&#43;developed&#43;by&#43;apple&#43;inc.&#43;using&#43;aspose.cells/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--read-numbers-spreadsheet-developed-by-apple-inc-using-asposecells&#34;&gt;Aspose.Cells for Java : Read Numbers Spreadsheet Developed by Apple Inc. using Aspose.Cells&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#read-numbers-spreadsheet-developed-by-apple-inc.-using-aspose.cells&#34;&gt;Read Numbers Spreadsheet Developed by Apple Inc. using Aspose.Cells&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;Numbers is a spreadsheet application developed by Apple Inc. Aspose.Cells can read Numbers spreadsheet but it does not support writing to it. It can read Numbers spreadsheet&amp;rsquo;s Data, Style and Formulas.&lt;/p&gt;
+&lt;h2 id=&#34;read-numbers-spreadsheet-developed-by-apple-inc-using-asposecells&#34;&gt;Read Numbers Spreadsheet Developed by Apple Inc. using Aspose.Cells&lt;/h2&gt;
+&lt;p&gt;The following sample code loads the &lt;a href=&#34;https://docs2.aspose.com/cells/java/attachments/48136892/48496695.numbers&#34;&gt;Sample Numbers Spreadsheet&lt;/a&gt; and converts it to &lt;a href=&#34;https://docs2.aspose.com/cells/java/attachments/48136892/48496694.pdf&#34;&gt;Output PDF Format&lt;/a&gt;. You will have to use &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/LoadOptions&#34;&gt;LoadOptions&lt;/a&gt; class and specify &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/loadformat#NUMBERS&#34;&gt;LoadFormat.NUMBERS&lt;/a&gt; as a parameter in its constructor to load it successfully. Please download both of them from the given links. You can try the code with any Numbers spreadsheet. Please also read the comments of the code for more help.&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Save Workbook to Strict Open XML Spreadsheet Format</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/ld-sv-cvt-mng/save&#43;workbook&#43;to&#43;strict&#43;open&#43;xml&#43;spreadsheet&#43;format/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/ld-sv-cvt-mng/save&#43;workbook&#43;to&#43;strict&#43;open&#43;xml&#43;spreadsheet&#43;format/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--save-workbook-to-strict-open-xml-spreadsheet-format&#34;&gt;Aspose.Cells for Java : Save Workbook to Strict Open XML Spreadsheet Format&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#save-workbook-to-strict-open-xml-spreadsheet-format&#34;&gt;Save Workbook to Strict Open XML Spreadsheet Format&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;Aspose.Cells allows you to save the workbook in &lt;em&gt;Strict Open XML Spreadsheet&lt;/em&gt; format. For that purpose, it provides the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/workbooksettings#Compliance&#34;&gt;Workbook.Settings.Compliance&lt;/a&gt; property. If you set its value as &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/ooxmlcompliance#ISO_29500_2008_STRICT&#34;&gt;OoxmlCompliance.ISO_29500_2008_STRICT&lt;/a&gt;, then the output Excel file will be saved in &lt;em&gt;Strict Open XML Spreadsheet&lt;/em&gt; format.&lt;/p&gt;
+&lt;h2 id=&#34;save-workbook-to-strict-open-xml-spreadsheet-format&#34;&gt;Save Workbook to Strict Open XML Spreadsheet Format&lt;/h2&gt;
+&lt;p&gt;The following sample code creates a workbook and sets the value of the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/workbooksettings#Compliance&#34;&gt;Workbook.Settings.Compliance&lt;/a&gt; property as &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/ooxmlcompliance#ISO_29500_2008_STRICT&#34;&gt;OoxmlCompliance.ISO_29500_2008_STRICT&lt;/a&gt; and saves it as &lt;a href=&#34;https://docs2.aspose.com/cells/java/attachments/66945679/67338299.xlsx&#34;&gt;output Excel file&lt;/a&gt;. If you open the output Excel file in Microsoft Excel and open the &lt;em&gt;Save As&amp;hellip;&lt;/em&gt; dialog box, you will see its format as &lt;em&gt;Strict Open XML Spreadsheet&lt;/em&gt; as shown in this screenshot.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/66945679/67338300.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Keep Separators for Blank Rows while exporting spreadsheets to CSV format</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/ld-sv-cvt-mng/keep&#43;separators&#43;for&#43;blank&#43;rows&#43;while&#43;exporting&#43;spreadsheets&#43;to&#43;csv&#43;format/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/ld-sv-cvt-mng/keep&#43;separators&#43;for&#43;blank&#43;rows&#43;while&#43;exporting&#43;spreadsheets&#43;to&#43;csv&#43;format/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--keep-separators-for-blank-rows-while-exporting-spreadsheets-to-csv-format&#34;&gt;Aspose.Cells for Java : Keep Separators for Blank Rows while exporting spreadsheets to CSV format&lt;/h1&gt;
+
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#keep-separators-for-blank-rows-while-exporting-spreadsheets-to-csv-format&#34;&gt;Keep Separators for Blank Rows while exporting spreadsheets to CSV format&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;keep-separators-for-blank-rows-while-exporting-spreadsheets-to-csv-format&#34;&gt;Keep Separators for Blank Rows while exporting spreadsheets to CSV format&lt;/h2&gt;
+&lt;p&gt;Aspose.Cells provides the ability to keep line separators while converting spreadsheets to CSV format. For this, You may use the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/txtsaveoptions#KeepSeparatorsForBlankRow&#34;&gt;KeepSeparatorsForBlankRow&lt;/a&gt; property of &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/TxtSaveOptions&#34;&gt;TxtSaveOptions&lt;/a&gt; class. &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/txtsaveoptions#KeepSeparatorsForBlankRow&#34;&gt;KeepSeparatorsForBlankRow&lt;/a&gt; is a boolean property. To keep the separators for blank lines while converting the Excel File to CSV, set the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/txtsaveoptions#KeepSeparatorsForBlankRow&#34;&gt;KeepSeparatorsForBlankRow&lt;/a&gt; property to &lt;strong&gt;true&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;The following sample code loads the &lt;a href=&#34;https://docs2.aspose.com/cells/java/attachments/84214140/84378944.xlsx&#34;&gt;source Excel file&lt;/a&gt;. It sets &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/txtsaveoptions#KeepSeparatorsForBlankRow&#34;&gt;TxtSaveOptions.KeepSeparatorsForBlankRow&lt;/a&gt; property to **true **and saves it as &lt;a href=&#34;https://docs2.aspose.com/cells/java/attachments/84214140/84378945.csv&#34;&gt;KeepSeparatorsForBlankRow.out.csv&lt;/a&gt;. The screenshot shows the comparison between the source Excel file, the default output generated while converting the spreadsheet to CSV and the output generated by setting &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/txtsaveoptions#KeepSeparatorsForBlankRow&#34;&gt;KeepSeparatorsForBlankRow&lt;/a&gt; to &lt;strong&gt;true&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/84214140/84378943.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Track Document Conversion Progress</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/ld-sv-cvt-mng/track&#43;document&#43;conversion&#43;progress/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/ld-sv-cvt-mng/track&#43;document&#43;conversion&#43;progress/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--track-document-conversion-progress&#34;&gt;Aspose.Cells for Java : Track Document Conversion Progress&lt;/h1&gt;
+
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#track-document-conversion-progress&#34;&gt;Track Document Conversion Progress&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;4 &lt;a href=&#34;#console-output&#34;&gt;Console Output&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;Sometimes converting large excel files can take some time. During this time, you might want to show the document conversion progress instead of just a loading screen to enhance the usability of your application. Aspose.Cells supports tracking document conversion process by providing the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/IPageSavingCallback&#34;&gt;IPageSavingCallback&lt;/a&gt; interface. The &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/IPageSavingCallback&#34;&gt;IPageSavingCallback&lt;/a&gt; interface provides &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/ipagesavingcallback#pageStartSaving(com.aspose.cells.PageStartSavingArgs)&#34;&gt;PageStartSaving&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/ipagesavingcallback#pageEndSaving(com.aspose.cells.PageEndSavingArgs)&#34;&gt;PageEndSaving&lt;/a&gt; methods that you can implement in your custom class. You may also control which pages are rendered as demonstrated in the T&lt;em&gt;estPageSavingCallback&lt;/em&gt; custom class.&lt;/p&gt;
+&lt;h2 id=&#34;track-document-conversion-progress&#34;&gt;Track Document Conversion Progress&lt;/h2&gt;
+&lt;p&gt;The following code sample loads the &lt;a href=&#34;https://docs.aspose.com/download/attachments/94635041/PagesBook1.xlsx?version=1&amp;amp;modificationDate=1566205942121&amp;amp;api=v2&#34;&gt;source excel file&lt;/a&gt; and prints its conversion progress in the console by using the &lt;em&gt;TestPageSavingCallback&lt;/em&gt; custom class that implements the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/IPageSavingCallback&#34;&gt;IPageSavingCallback&lt;/a&gt; interface.&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+&lt;p&gt;The following is the code for the &lt;em&gt;TestPageSavingCallback&lt;/em&gt; custom class.&lt;/p&gt;
+&lt;h2 id=&#34;console-output&#34;&gt;Console Output&lt;/h2&gt;
+&lt;p&gt;Start saving page index 0 of pages 11&lt;br&gt;
+End saving page index 0 of pages 11&lt;br&gt;
+Start saving page index 1 of pages 11&lt;br&gt;
+End saving page index 1 of pages 11&lt;br&gt;
+Start saving page index 2 of pages 11&lt;br&gt;
+End saving page index 2 of pages 11&lt;br&gt;
+Start saving page index 3 of pages 11&lt;br&gt;
+End saving page index 3 of pages 11&lt;br&gt;
+Start saving page index 4 of pages 11&lt;br&gt;
+End saving page index 4 of pages 11&lt;br&gt;
+Start saving page index 5 of pages 11&lt;br&gt;
+End saving page index 5 of pages 11&lt;br&gt;
+Start saving page index 6 of pages 11&lt;br&gt;
+End saving page index 6 of pages 11&lt;br&gt;
+Start saving page index 7 of pages 11&lt;br&gt;
+End saving page index 7 of pages 11&lt;br&gt;
+Start saving page index 8 of pages 11&lt;br&gt;
+End saving page index 8 of pages 11&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Adjust workbook compression level</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/ld-sv-cvt-mng/adjust&#43;workbook&#43;compression&#43;level/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/ld-sv-cvt-mng/adjust&#43;workbook&#43;compression&#43;level/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--adjust-workbook-compression-level&#34;&gt;Aspose.Cells for Java : Adjust workbook compression level&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#adjust-workbook-compression-level&#34;&gt;Adjust workbook compression level&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;adjust-workbook-compression-level&#34;&gt;Adjust workbook compression level&lt;/h2&gt;
+&lt;p&gt;Developers can adjust the compression level of the workbook when working with larger workbooks. Developers may prioritize smaller file sizes over processing time or vice versa. Aspose.Cells provides &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/OoxmlCompressionType&#34;&gt;OoxmlCompressionType&lt;/a&gt; enumeration which you can use to set the compression level of the workbook. The &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/OoxmlCompressionType&#34;&gt;OoxmlCompressionType&lt;/a&gt; enumeration provides the following members.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/ooxmlcompressiontype#LEVEL_1&#34;&gt;LEVEL_1&lt;/a&gt;: The fastest but least effective compression.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/ooxmlcompressiontype#LEVEL_2&#34;&gt;LEVEL_2&lt;/a&gt;: A little slower, but better, than level 1.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/ooxmlcompressiontype#LEVEL_3&#34;&gt;LEVEL_3&lt;/a&gt;: A little slower, but better, than level 2.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/ooxmlcompressiontype#LEVEL_4&#34;&gt;LEVEL_4&lt;/a&gt;: A little slower, but better, than level 3.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/ooxmlcompressiontype#LEVEL_5&#34;&gt;LEVEL_5&lt;/a&gt;: A little slower than level 4, but with better compression.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/ooxmlcompressiontype#LEVEL_6&#34;&gt;LEVEL_6&lt;/a&gt;: A good balance of speed and compression efficiency.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/ooxmlcompressiontype#LEVEL_7&#34;&gt;LEVEL_7&lt;/a&gt;: Pretty good compression!&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/ooxmlcompressiontype#LEVEL_8&#34;&gt;LEVEL_8&lt;/a&gt;: Better compression than Level7!&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/ooxmlcompressiontype#LEVEL_9&#34;&gt;LEVEL_9&lt;/a&gt;: The &amp;ldquo;best&amp;rdquo; compression, where best means greatest reduction in the size of the input data stream. This is also the slowest compression.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The following code snippet demonstrates the use of &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/OoxmlCompressionType&#34;&gt;OoxmlCompressionType&lt;/a&gt; enumeration and compares the conversion time for &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/ooxmlcompressiontype#LEVEL_1&#34;&gt;LEVEL_1&lt;/a&gt;, &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/ooxmlcompressiontype#LEVEL_6&#34;&gt;LEVEL_6&lt;/a&gt;, and &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/ooxmlcompressiontype#LEVEL_9&#34;&gt;LEVEL_9&lt;/a&gt;. You may also compare the sizes of the generated files.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;[LEVEL_7](https://apireference.aspose.com/java/cells/com.aspose.cells/ooxmlcompressiontype#LEVEL_7)&lt;/code&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Track Conversion Progress of Excel to TIFF</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/ld-sv-cvt-mng/track&#43;conversion&#43;progress&#43;of&#43;excel&#43;to&#43;tiff/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/ld-sv-cvt-mng/track&#43;conversion&#43;progress&#43;of&#43;excel&#43;to&#43;tiff/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--track-conversion-progress-of-excel-to-tiff&#34;&gt;Aspose.Cells for Java : Track Conversion Progress of Excel to TIFF&lt;/h1&gt;
+
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#track-conversion-progress-of-excel-to-tiff&#34;&gt;Track Conversion Progress of Excel to TIFF&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;4 &lt;a href=&#34;#console-output&#34;&gt;Console Output&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;Sometimes converting large excel files can take some time. During this time, you might want to show the document conversion progress instead of just a loading screen to enhance the usability of your application. Aspose.Cells supports tracking document conversion process by providing the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/IPageSavingCallback&#34;&gt;IPageSavingCallback&lt;/a&gt; interface. The &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/IPageSavingCallback&#34;&gt;IPageSavingCallback&lt;/a&gt; interface provides &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/ipagesavingcallback#pageStartSaving(com.aspose.cells.PageStartSavingArgs)&#34;&gt;PageStartSaving&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/ipagesavingcallback#pageEndSaving(com.aspose.cells.PageEndSavingArgs)&#34;&gt;PageEndSaving&lt;/a&gt; methods that you can implement in your custom class. You may also control which pages are rendered as demonstrated in the T&lt;em&gt;estPageSavingCallback&lt;/em&gt; custom class.&lt;/p&gt;
+&lt;h2 id=&#34;track-conversion-progress-of-excel-to-tiff&#34;&gt;Track Conversion Progress of Excel to TIFF&lt;/h2&gt;
+&lt;p&gt;The following code sample loads the &lt;a href=&#34;https://docs.aspose.com/download/attachments/95323804/sampleUseWorkbookRenderForImageConversion.xlsx?version=1&amp;amp;modificationDate=1573639949884&amp;amp;api=v2&#34;&gt;source excel file&lt;/a&gt; and prints its conversion progress in the console by using the &lt;em&gt;TestPageSavingCallback&lt;/em&gt; custom class that implements the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.rendering/ipagesavingcallback&#34;&gt;IPageSavingCallback&lt;/a&gt; interface. The generated output file is attached for your reference.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs.aspose.com/download/attachments/95323804/DocumentConversionProgressForTiff_out.tiff?version=1&amp;amp;modificationDate=1573639949866&amp;amp;api=v2&#34;&gt;Output File&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+&lt;p&gt;The following is the code for the &lt;em&gt;TestTiffPageSavingCallback&lt;/em&gt; custom class.&lt;/p&gt;
+&lt;h2 id=&#34;console-output&#34;&gt;Console Output&lt;/h2&gt;
+&lt;p&gt;Start saving page index 0 of pages 10&lt;br&gt;
+End saving page index 0 of pages 10&lt;br&gt;
+Start saving page index 1 of pages 10&lt;br&gt;
+End saving page index 1 of pages 10&lt;br&gt;
+Start saving page index 2 of pages 10&lt;br&gt;
+End saving page index 2 of pages 10&lt;br&gt;
+Start saving page index 3 of pages 10&lt;br&gt;
+End saving page index 3 of pages 10&lt;br&gt;
+Start saving page index 4 of pages 10&lt;br&gt;
+End saving page index 4 of pages 10&lt;br&gt;
+Start saving page index 5 of pages 10&lt;br&gt;
+End saving page index 5 of pages 10&lt;br&gt;
+Start saving page index 6 of pages 10&lt;br&gt;
+End saving page index 6 of pages 10&lt;br&gt;
+Start saving page index 7 of pages 10&lt;br&gt;
+End saving page index 7 of pages 10&lt;br&gt;
+Start saving page index 8 of pages 10&lt;br&gt;
+End saving page index 8 of pages 10&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Convert Excel to HTML with tooltip</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/ld-sv-cvt-mng/convert&#43;excel&#43;to&#43;html&#43;with&#43;tooltip/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/ld-sv-cvt-mng/convert&#43;excel&#43;to&#43;html&#43;with&#43;tooltip/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--convert-excel-to-html-with-tooltip&#34;&gt;Aspose.Cells for Java : Convert Excel to HTML with tooltip&lt;/h1&gt;
+
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#convert-excel-to-html-with-tooltip&#34;&gt;Convert Excel to HTML with tooltip&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;convert-excel-to-html-with-tooltip&#34;&gt;Convert Excel to HTML with tooltip&lt;/h2&gt;
+&lt;p&gt;There might be cases where the text is cut off in the generated HTML and you want to display the complete text as a tooltip on the hover event. Aspose.Cells supports this by providing &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/htmlsaveoptions#AddTooltipText&#34;&gt;HtmlSaveOptions.AddTooltipText&lt;/a&gt; property. Setting the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/htmlsaveoptions#AddTooltipText&#34;&gt;HtmlSaveOptions.AddTooltipText&lt;/a&gt; property to &lt;strong&gt;true&lt;/strong&gt; will add the complete text as a tooltip in the generated HTML.&lt;/p&gt;
+&lt;p&gt;The following image shows the tooltip in the generated HTML file.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/97878711/98107418.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The following code sample loads the &lt;a href=&#34;https://docs.aspose.com/download/attachments/97878711/AddTooltipToHtmlSample.xlsx?version=1&amp;amp;modificationDate=1577761498436&amp;amp;api=v2&#34;&gt;source excel file&lt;/a&gt; and generates the &lt;a href=&#34;https://docs.aspose.com/download/attachments/97878711/AddTooltipToHtmlSample_out.zip?version=1&amp;amp;modificationDate=1577761498439&amp;amp;api=v2&#34;&gt;output HTML file&lt;/a&gt; with the tooltip.&lt;/p&gt;
+&lt;p&gt;Sample Code&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Convert JSON to CSV</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/ld-sv-cvt-mng/convert&#43;json&#43;to&#43;csv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/ld-sv-cvt-mng/convert&#43;json&#43;to&#43;csv/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--convert-json-to-csv&#34;&gt;Aspose.Cells for Java : Convert JSON to CSV&lt;/h1&gt;
+
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#convert-json-to-csv&#34;&gt;Convert JSON to CSV&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;convert-json-to-csv&#34;&gt;Convert JSON to CSV&lt;/h2&gt;
+&lt;p&gt;Aspose.Cells supports converting simple as well as nested JSON to CSV. For this, the API provides &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/JsonLayoutOptions&#34;&gt;JsonLayoutOptions&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/JsonUtility&#34;&gt;JsonUtility&lt;/a&gt; classes. The &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/JsonLayoutOptions&#34;&gt;JsonLayoutOptions&lt;/a&gt; class provides the options for JSON layout like &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/jsonlayoutoptions#IgnoreArrayTitle&#34;&gt;IgnoreArrayTitle&lt;/a&gt;(ignores the title if the array is a property of an object) or &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/jsonlayoutoptions#ArrayAsTable&#34;&gt;ArrayAsTable&lt;/a&gt;(processes the array as a table). The &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/JsonUtility&#34;&gt;JsonUtility&lt;/a&gt; class processes the JSON using the layout options set with the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/JsonLayoutOptions&#34;&gt;JsonLayoutOptions&lt;/a&gt; class.&lt;/p&gt;
+&lt;p&gt;The following code sample demonstrates the use of &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/JsonLayoutOptions&#34;&gt;JsonLayoutOptions&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/JsonUtility&#34;&gt;JsonUtility&lt;/a&gt; classes to load the &lt;a href=&#34;https://docs.aspose.com/download/attachments/104267878/SampleJson.json?version=1&amp;amp;modificationDate=1582825037682&amp;amp;api=v2&#34;&gt;source JSON file&lt;/a&gt; and generates the &lt;a href=&#34;https://docs.aspose.com/download/attachments/104267878/SampleJson_out.csv?version=1&amp;amp;modificationDate=1582825037684&amp;amp;api=v2&#34;&gt;output CSV file&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Sample Code&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Convert CSV to JSON</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/ld-sv-cvt-mng/convert&#43;csv&#43;to&#43;json/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/ld-sv-cvt-mng/convert&#43;csv&#43;to&#43;json/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--convert-csv-to-json&#34;&gt;Aspose.Cells for Java : Convert CSV to JSON&lt;/h1&gt;
+
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#convert-csv-to-json&#34;&gt;Convert CSV to JSON&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.2 &lt;a href=&#34;#console-output&#34;&gt;Console Output&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;convert-csv-to-json&#34;&gt;Convert CSV to JSON&lt;/h2&gt;
+&lt;p&gt;Aspose.Cells supports converting CSV to JSON. For this, the API provides &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/ExportRangeToJsonOptions&#34;&gt;ExportRangeToJsonOptions&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/JsonUtility&#34;&gt;JsonUtility&lt;/a&gt; classes. The &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/ExportRangeToJsonOptions&#34;&gt;ExportRangeToJsonOptions&lt;/a&gt; class provides the options for exporting range to JSON. The &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/ExportRangeToJsonOptions&#34;&gt;ExportRangeToJsonOptions&lt;/a&gt; class has the following properties.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/exportrangetojsonoptions#ExportAsString&#34;&gt;ExportAsString&lt;/a&gt;: This exports the string value of the cells to JSON.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/exportrangetojsonoptions#HasHeaderRow&#34;&gt;HasHeaderRow&lt;/a&gt;: This indicates whether the range contains a header row.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.utility/exportrangetojsonoptions/properties/indent&#34;&gt;Inde&lt;/a&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/exportrangetojsonoptions#Indent&#34;&gt;Indent&lt;/a&gt;&lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.utility/exportrangetojsonoptions/properties/indent&#34;&gt;nt&lt;/a&gt;: Indicates the indent.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/JsonUtility&#34;&gt;JsonUtility&lt;/a&gt; class exports the JSON using the export options set with the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/ExportRangeToJsonOptions&#34;&gt;ExportRangeToJsonOptions&lt;/a&gt; class.&lt;/p&gt;
+&lt;p&gt;The following code sample demonstrates the use of &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/ExportRangeToJsonOptions&#34;&gt;ExportRangeToJsonOptions&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/JsonUtility&#34;&gt;JsonUtility&lt;/a&gt; classes to load the &lt;a href=&#34;https://docs.aspose.com/download/attachments/104267887/SampleCsv.csv?version=1&amp;amp;modificationDate=1582857186959&amp;amp;api=v2&#34;&gt;source CSV file&lt;/a&gt; and prints the &lt;a href=&#34;https://docs.aspose.com/download/attachments/104267887/SampleJson_out.csv?version=1&amp;amp;modificationDate=1582857186965&amp;amp;api=v2&#34;&gt;J&lt;/a&gt;SON output in the console.&lt;/p&gt;
+&lt;h3 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h3&gt;
+&lt;h3 id=&#34;console-output&#34;&gt;Console Output&lt;/h3&gt;
+&lt;p&gt;[&lt;br&gt;
+{&lt;br&gt;
+&amp;ldquo;id&amp;rdquo;: 1,&lt;br&gt;
+&amp;ldquo;language&amp;rdquo;: &amp;ldquo;Java&amp;rdquo;,&lt;br&gt;
+&amp;ldquo;edition&amp;rdquo;: &amp;ldquo;third&amp;rdquo;,&lt;br&gt;
+&amp;ldquo;author&amp;rdquo;: &amp;ldquo;Herbert Schildt&amp;rdquo;,&lt;br&gt;
+&amp;ldquo;streetAddress&amp;rdquo;: 126,&lt;br&gt;
+&amp;ldquo;city&amp;rdquo;: &amp;ldquo;San Jone&amp;rdquo;,&lt;br&gt;
+&amp;ldquo;state&amp;rdquo;: &amp;ldquo;CA&amp;rdquo;,&lt;br&gt;
+&amp;ldquo;postalCode&amp;rdquo;: 394221&lt;br&gt;
+},&lt;br&gt;
+{&lt;br&gt;
+&amp;ldquo;id&amp;rdquo;: 2,&lt;br&gt;
+&amp;ldquo;language&amp;rdquo;: &amp;ldquo;C++&amp;rdquo;,&lt;br&gt;
+&amp;ldquo;edition&amp;rdquo;: &amp;ldquo;second&amp;rdquo;,&lt;br&gt;
+&amp;ldquo;author&amp;rdquo;: &amp;ldquo;EAAAA&amp;rdquo;,&lt;br&gt;
+&amp;ldquo;streetAddress&amp;rdquo;: 126,&lt;br&gt;
+&amp;ldquo;city&amp;rdquo;: &amp;ldquo;San Jone&amp;rdquo;,&lt;br&gt;
+&amp;ldquo;state&amp;rdquo;: &amp;ldquo;CA&amp;rdquo;,&lt;br&gt;
+&amp;ldquo;postalCode&amp;rdquo;: 394221&lt;br&gt;
+},&lt;br&gt;
+{&lt;br&gt;
+&amp;ldquo;id&amp;rdquo;: 3,&lt;br&gt;
+&amp;ldquo;language&amp;rdquo;: &amp;ldquo;.Net&amp;rdquo;,&lt;br&gt;
+&amp;ldquo;edition&amp;rdquo;: &amp;ldquo;second&amp;rdquo;,&lt;br&gt;
+&amp;ldquo;author&amp;rdquo;: &amp;ldquo;E.Balagurusamy&amp;rdquo;,&lt;br&gt;
+&amp;ldquo;streetAddress&amp;rdquo;: 126,&lt;br&gt;
+&amp;ldquo;city&amp;rdquo;: &amp;ldquo;San Jone&amp;rdquo;,&lt;br&gt;
+&amp;ldquo;state&amp;rdquo;: &amp;ldquo;CA&amp;rdquo;,&lt;br&gt;
+&amp;ldquo;postalCode&amp;rdquo;: 394221&lt;br&gt;
+}&lt;br&gt;
+]&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Saving Excel files to CSV PDF and other formats</title>
+      <link>https://roywangt.github.io/cells/java/developerguide/ld-sv-cvt-mng/saving&#43;excel&#43;files&#43;to&#43;csv&#43;pdf&#43;and&#43;other&#43;formats/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/developerguide/ld-sv-cvt-mng/saving&#43;excel&#43;files&#43;to&#43;csv&#43;pdf&#43;and&#43;other&#43;formats/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--saving-excel-files-to-csv-pdf-and-other-formats&#34;&gt;Aspose.Cells for Java : Saving Excel files to CSV, PDF and other formats&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Aspose.Cells&lt;/strong&gt; allows developers to create Excel files from scratch using its flexible API. Once you create Excel files, you would also need to save your workbook (file). Aspose.Cells provides a variety of ways to save these files. In this topic, we will discuss all those possible ways that can be adopted by developers to save their files.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#different-ways-to-save-your-files&#34;&gt;Different Ways to Save Your Files&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#saving-file-to-some-location&#34;&gt;Saving File to Some Location&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#saving-workbook-to-text-or-csv-format&#34;&gt;Saving Workbook to Text or CSV Format&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;4 &lt;a href=&#34;#saving-text-files-with-custom-separator&#34;&gt;Saving Text Files with Custom Separator&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;5 &lt;a href=&#34;#saving-file-to-a-stream&#34;&gt;Saving File to a Stream&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;6 &lt;a href=&#34;#saving-file-to-other-format&#34;&gt;Saving File to Other Format&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;6.1 &lt;a href=&#34;#xls-files&#34;&gt;XLS Files&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;6.2 &lt;a href=&#34;#xlsx-files&#34;&gt;XLSX Files&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;6.3 &lt;a href=&#34;#pdf-files&#34;&gt;PDF Files&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;6.3.1 &lt;a href=&#34;#set-contentcopyforaccessibility-option&#34;&gt;Set ContentCopyForAccessibility option&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;6.3.2 &lt;a href=&#34;#export-custom-properties-to-pdf&#34;&gt;Export Custom properties to PDF&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;7 &lt;a href=&#34;#convert-excel-workbook-to-markdown&#34;&gt;Convert Excel Workbook to Markdown&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;different-ways-to-save-your-files&#34;&gt;Different Ways to Save Your Files&lt;/h2&gt;
+&lt;p&gt;Aspose.Cells API provides a class named &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/Workbook&#34;&gt;Workbook&lt;/a&gt; that represents an Excel file and provides all necessary properties and methods that developers may need to work with their Excel files. The &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/Workbook&#34;&gt;Workbook&lt;/a&gt; class provides a &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions)&#34;&gt;save&lt;/a&gt; method that is used to save Excel files. The &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions)&#34;&gt;save&lt;/a&gt; method has many overloads that are used to save Excel files in different ways.&lt;/p&gt;
+&lt;p&gt;Developers can also specify the file format in which their files should be saved. The files can be saved in several formats such as XLS, SpreadsheetML, CSV, Tab Delimited, Tab-separated values TSV, XPS and many more. These file formats are specified using the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/SaveFormat&#34;&gt;SaveFormat&lt;/a&gt; enumeration.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/SaveFormat&#34;&gt;SaveFormat&lt;/a&gt; enumeration contains many pre-defined file formats (that can be chosen by you) as follows:&lt;/p&gt;
+
+&lt;div class=&#34;table table-striped&#34; role=&#34;alert&#34;&gt;
+    &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;File Format Types&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/saveformat#AUTO&#34;&gt;AUTO&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;API tries to detect the appropriate format from the file extension specified in the first parameter to the &lt;code&gt;save&lt;/code&gt; method&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/saveformat#CSV&#34;&gt;CSV&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents a CSV file&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/saveformat#XLSX&#34;&gt;XLSX&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents an Office Open XML SpreadsheetML file&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;code&gt;[XLSM](https://apireference.aspose.com/java/cells/com.aspose.cells/saveformat#XLSM)&lt;/code&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents XML-based XLSM file&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/saveformat#XLTX&#34;&gt;XLTX&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents an Excel template file&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/saveformat#XLTM&#34;&gt;XLTM&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents an Excel Macro-enabled template file&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/saveformat#XLAM&#34;&gt;XLAM&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents an Excel XLAM file&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/saveformat#TSV&#34;&gt;TSV&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents a Tab-separated values file&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/saveformat#TAB_DELIMITED&#34;&gt;TAB_DELIMITED&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents a Tab Delimited text file&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/saveformat#HTML&#34;&gt;HTML&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents an HTML file(s)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/saveformat#M_HTML&#34;&gt;M_HTML&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents an MHTML file(s)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/saveformat#ODS&#34;&gt;ODS&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents an OpenDocument Spreadsheet file&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/saveformat#EXCEL_97_TO_2003&#34;&gt;EXCEL_97_TO_2003&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents an XLS file that is the default format for Excel 1997 to 2003 revisions&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/saveformat#SPREADSHEET_ML&#34;&gt;SPREADSHEET_ML&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents a SpreadSheetML file&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/saveformat#XLSB&#34;&gt;XLSB&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents an Excel 2007 binary XLSB file&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/saveformat#UNKNOWN&#34;&gt;UNKNOWN&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents unrecognized format, cannot be saved.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/saveformat#PDF&#34;&gt;PDF&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents a PDF Document&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/saveformat#XPS&#34;&gt;XPS&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents an XML Paper Specification (XPS) file&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/saveformat#TIFF&#34;&gt;TIFF&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents a Tagged Image File Format (TIFF) file&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/saveformat#SVG&#34;&gt;SVG&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents an XML-based Scalable Vector Graphics (SVG) file&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/saveformat#DIF&#34;&gt;DIF&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents Data Interchange Format.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/saveformat#NUMBERS&#34;&gt;NUMBERS&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents a numbers file.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/saveformat#MARKDOWN&#34;&gt;MARKDOWN&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Represents a markdown document.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Normally, there are two ways to save Excel files as follows:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Saving the file to some location&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Saving the file to a stream&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;saving-file-to-some-location&#34;&gt;Saving File to Some Location&lt;/h2&gt;
+&lt;p&gt;If developers need to save their files to some storage location then they can simply specify the file name (with its complete storage path) and desired file format (using the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/SaveFormat&#34;&gt;SaveFormat&lt;/a&gt; enumeration) while calling the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions)&#34;&gt;save&lt;/a&gt; method of &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/Workbook&#34;&gt;Workbook&lt;/a&gt; object.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Example:&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;saving-workbook-to-text-or-csv-format&#34;&gt;Saving Workbook to Text or CSV Format&lt;/h2&gt;
+&lt;p&gt;Sometimes, you want to convert or save a workbook with multiple worksheets into text format. For text formats (for example TXT, TabDelim, CSV etc.), by default both Microsoft Excel and Aspose.Cells save the contents of the active worksheet only.&lt;/p&gt;
+&lt;p&gt;The following code example explains how to save an entire workbook into text format. Load the source workbook which could be any Microsoft Excel or OpenOffice spreadsheet file (so XLS, XLSX, XLSM, XLSB, ODS and so on) with any number of worksheets.&lt;/p&gt;
+&lt;p&gt;When the code is executed, it converts the data of all sheets in the workbook to TXT format.&lt;/p&gt;
+&lt;p&gt;You can modify the same example to save your file to CSV. By default, &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/txtsaveoptions#Separator&#34;&gt;TxtSaveOptions.Separator&lt;/a&gt; is a comma, so do not specify a separator if saving to CSV format.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Example:&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;saving-text-files-with-custom-separator&#34;&gt;Saving Text Files with Custom Separator&lt;/h2&gt;
+&lt;p&gt;Text files contain spreadsheet data without formatting. The file is a kind of plain text file that can have some customized delimiters between its data.&lt;/p&gt;
+&lt;h2 id=&#34;saving-file-to-a-stream&#34;&gt;Saving File to a Stream&lt;/h2&gt;
+&lt;p&gt;If developers need to save their files to a &lt;strong&gt;Stream&lt;/strong&gt; then they should create a &lt;strong&gt;FileOutputStream&lt;/strong&gt; object and then save the file to that &lt;strong&gt;Stream&lt;/strong&gt; object by calling the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions)&#34;&gt;save&lt;/a&gt; method of &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/Workbook&#34;&gt;Workbook&lt;/a&gt; object. Developers can also specify the desired file format (using the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/SaveFormat&#34;&gt;SaveFormat&lt;/a&gt; enumeration) while calling the &lt;strong&gt;save&lt;/strong&gt; method.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Example:&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;saving-file-to-other-format&#34;&gt;Saving File to Other Format&lt;/h2&gt;
+&lt;h3 id=&#34;xls-files&#34;&gt;XLS Files&lt;/h3&gt;
+&lt;h3 id=&#34;xlsx-files&#34;&gt;XLSX Files&lt;/h3&gt;
+&lt;h3 id=&#34;pdf-files&#34;&gt;PDF Files&lt;/h3&gt;
+&lt;h4 id=&#34;set-contentcopyforaccessibility-option&#34;&gt;Set ContentCopyForAccessibility option&lt;/h4&gt;
+&lt;p&gt;With the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/PdfSaveOptions&#34;&gt;PdfSaveOptions&lt;/a&gt; class, you can get or set the PDF &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/pdfsecurityoptions#AccessibilityExtractContent&#34;&gt;AccessibilityExtractContent&lt;/a&gt; option to control the content access in the converted PDF. It means it allows screen reader software to utilize the text within the PDF file for reading the PDF file.  You can disable it by applying a change permissions password and deselecting the two items in the screenshot &lt;a href=&#34;https://docs2.aspose.com/cells/java/attachments/5276010/71630877.png&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h4 id=&#34;export-custom-properties-to-pdf&#34;&gt;Export Custom properties to PDF&lt;/h4&gt;
+&lt;p&gt;With the &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/PdfSaveOptions&#34;&gt;PdfSaveOptions&lt;/a&gt; class, you can export the custom properties in source workbook to the PDF. &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/PdfCustomPropertiesExport&#34;&gt;PdfCustomPropertiesExport&lt;/a&gt; enumerator is provided for specifying the way by which properties are exported. These properties can be observed in Adobe Acrobat Reader by clicking on File and then properties option as shown in the following image. Template file &amp;ldquo;sourceWithCustProps.xlsx&amp;rdquo;  can be downloaded &lt;a href=&#34;https://docs.aspose.com/download/attachments/5013526/sourceWithCustProps.xlsx?version=1&amp;amp;modificationDate=1537199854325&amp;amp;api=v2&#34;&gt;here&lt;/a&gt; for testing and output PDF file &amp;ldquo;outSourceWithCustProps&amp;rdquo; is available &lt;a href=&#34;https://docs.aspose.com/download/attachments/5013526/outSourceWithCustProps.pdf?version=1&amp;amp;modificationDate=1537199854325&amp;amp;api=v2&#34;&gt;here&lt;/a&gt; for analysis.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/java/attachments/5276010/72417294.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;convert-excel-workbook-to-markdown&#34;&gt;Convert Excel Workbook to Markdown&lt;/h2&gt;
+&lt;p&gt;The Aspose.Cells API provides support for exporting spreadsheets to Markdown format. To export the active worksheet to Markdown, pass &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/saveformat#MARKDOWN&#34;&gt;SaveFormat.Markdown&lt;/a&gt; as the second parameter of &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/workbook#save(java.lang.String,%20int)&#34;&gt;Workbook.Save&lt;/a&gt; method. You may also use &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/MarkdownSaveOptions&#34;&gt;MarkdownSaveOptions&lt;/a&gt; class to specify additional settings for exporting worksheet to Markdown.&lt;/p&gt;
+&lt;p&gt;The following code example demonstrates exporting active worksheet to Markdown by using &lt;a href=&#34;https://apireference.aspose.com/java/cells/com.aspose.cells/saveformat#MARKDOWN&#34;&gt;SaveFormat.Markdown&lt;/a&gt; enumeration member. Please see the &lt;a href=&#34;https://docs.aspose.com/download/attachments/5013525/Book1.md?version=1&amp;amp;modificationDate=1557893527266&amp;amp;api=v2&#34;&gt;output Markdown file&lt;/a&gt; generated by the code for reference.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

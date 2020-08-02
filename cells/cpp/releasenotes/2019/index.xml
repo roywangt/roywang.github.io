@@ -1,0 +1,293 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Release Notes - 2019</title>
+    <link>https://roywangt.github.io/cells/cpp/releasenotes/2019/</link>
+    <description>Recent content in Release Notes - 2019 on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://roywangt.github.io/cells/cpp/releasenotes/2019/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Cpp: Aspose.Cells for CPP 19.11 Release Notes</title>
+      <link>https://roywangt.github.io/cells/cpp/releasenotes/2019/aspose.cells&#43;for&#43;cpp&#43;19.11&#43;release&#43;notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/cpp/releasenotes/2019/aspose.cells&#43;for&#43;cpp&#43;19.11&#43;release&#43;notes/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-c--asposecells-for-cpp-1911-release-notes&#34;&gt;Aspose.Cells for C++ : Aspose.Cells for CPP 19.11 Release Notes&lt;/h1&gt;
+&lt;p&gt;This page contains release notes for Aspose.Cells for C++ 19.11.&lt;/p&gt;
+
+&lt;div class=&#34;table table-striped&#34; role=&#34;alert&#34;&gt;
+    &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Key&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Summary&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Category&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSCPP-218&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Support for adding some sort of Callback event/mechanism that notifies the progress of conversion (e.g Excel to PDF)&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSCPP-220&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Fix x64 debug mode crush while integrating other C++ products&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+
+&lt;h3 id=&#34;public-api-and-backwards-incompatible-changes&#34;&gt;Public API and Backwards Incompatible Changes&lt;/h3&gt;
+&lt;p&gt;The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Cells for C++. If you have concerns about any change listed, please raise it on the Aspose.Cells support forum.&lt;/p&gt;
+&lt;p&gt;Add IPdfSaveOptions::SetIPageSavingCallback&lt;br&gt;
+Add IPdfSaveOptions::GetIPageSavingCallback&lt;br&gt;
+Add PageSavingArgs::GetPageIndex&lt;br&gt;
+Add PageSavingArgs::GetPageCount&lt;br&gt;
+Add PageStartSavingArgs::SetToOutput&lt;br&gt;
+Add PageStartSavingArgs::IsToOutput&lt;br&gt;
+Add PageEndSavingArgs::HasMorePages&lt;br&gt;
+Add PageEndSavingArgs::SetHasMorePages&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Cpp: Aspose.Cells for CPP 19.10 Release Notes</title>
+      <link>https://roywangt.github.io/cells/cpp/releasenotes/2019/aspose.cells&#43;for&#43;cpp&#43;19.10&#43;release&#43;notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/cpp/releasenotes/2019/aspose.cells&#43;for&#43;cpp&#43;19.10&#43;release&#43;notes/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-c--asposecells-for-cpp-1910-release-notes&#34;&gt;Aspose.Cells for C++ : Aspose.Cells for CPP 19.10 Release Notes&lt;/h1&gt;
+&lt;p&gt;This page contains release notes for Aspose.Cells for CPP 19.10.&lt;/p&gt;
+
+&lt;div class=&#34;table table-striped&#34; role=&#34;alert&#34;&gt;
+    &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Key&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Summary&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Category&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSCPP-215&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Fix clashes issue&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSCPP-216&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Support independent package release&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+
+&lt;h3 id=&#34;public-api-and-backwards-incompatible-changes&#34;&gt;Public API and Backwards Incompatible Changes&lt;/h3&gt;
+&lt;p&gt;The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Cells for C++. If you have concerns about any change listed, please raise it on the Aspose.Cells support forum.&lt;/p&gt;
+&lt;p&gt;Renamed namespace &amp;lsquo;System&amp;rsquo; to &amp;lsquo;Systems&amp;rsquo; to avoid collisions with other C++ production in a single project&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Cpp: Aspose.Cells for CPP 19.8 Release Notes</title>
+      <link>https://roywangt.github.io/cells/cpp/releasenotes/2019/aspose.cells&#43;for&#43;cpp&#43;19.8&#43;release&#43;notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/cpp/releasenotes/2019/aspose.cells&#43;for&#43;cpp&#43;19.8&#43;release&#43;notes/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-c--asposecells-for-cpp-198-release-notes&#34;&gt;Aspose.Cells for C++ : Aspose.Cells for CPP 19.8 Release Notes&lt;/h1&gt;
+&lt;p&gt;This page contains release notes for Aspose.Cells for CPP 19.8.&lt;/p&gt;
+
+&lt;div class=&#34;table table-striped&#34; role=&#34;alert&#34;&gt;
+    &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Key&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Summary&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Category&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSCPP-213&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Fix out-of-bounds read issue&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+
+&lt;h3 id=&#34;public-api-and-backwards-incompatible-changes&#34;&gt;Public API and Backwards Incompatible Changes&lt;/h3&gt;
+&lt;p&gt;The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Cells for C++. If you have concerns about any change listed, please raise it on the Aspose.Cells support forum.&lt;/p&gt;
+&lt;p&gt;No API changes in this version&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Cpp: Aspose.Cells for CPP 19.4 Release Notes</title>
+      <link>https://roywangt.github.io/cells/cpp/releasenotes/2019/aspose.cells&#43;for&#43;cpp&#43;19.4&#43;release&#43;notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/cpp/releasenotes/2019/aspose.cells&#43;for&#43;cpp&#43;19.4&#43;release&#43;notes/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-c--asposecells-for-cpp-194-release-notes&#34;&gt;Aspose.Cells for C++ : Aspose.Cells for CPP 19.4 Release Notes&lt;/h1&gt;
+&lt;p&gt;This page contains release notes for Aspose.Cells for CPP 19.4.&lt;/p&gt;
+
+&lt;div class=&#34;table table-striped&#34; role=&#34;alert&#34;&gt;
+    &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Key&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Summary&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Category&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSCPP-209&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Support 64bits(x64) lib in nuget in debug mode&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSCPP-210&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Exception while calling CalculateFormula()&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+
+&lt;h3 id=&#34;public-api-and-backwards-incompatible-changes&#34;&gt;Public API and Backwards Incompatible Changes&lt;/h3&gt;
+&lt;p&gt;The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Cells for C++. If you have concerns about any change listed, please raise it on the Aspose.Cells support forum.&lt;/p&gt;
+&lt;p&gt;No API changes in this version&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Cpp: Aspose.Cells for CPP 19.3 Release Notes</title>
+      <link>https://roywangt.github.io/cells/cpp/releasenotes/2019/aspose.cells&#43;for&#43;cpp&#43;19.3&#43;release&#43;notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/cpp/releasenotes/2019/aspose.cells&#43;for&#43;cpp&#43;19.3&#43;release&#43;notes/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-c--asposecells-for-cpp-193-release-notes&#34;&gt;Aspose.Cells for C++ : Aspose.Cells for CPP 19.3 Release Notes&lt;/h1&gt;
+&lt;p&gt;This page contains release notes for Aspose.Cells for CPP 19.3.&lt;/p&gt;
+
+&lt;div class=&#34;table table-striped&#34; role=&#34;alert&#34;&gt;
+    &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Key&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Summary&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Category&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSCPP-208&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Add 64-bit (x64) library to NuGet package&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+
+&lt;h3 id=&#34;public-api-and-backwards-incompatible-changes&#34;&gt;Public API and Backwards Incompatible Changes&lt;/h3&gt;
+&lt;p&gt;The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Cells for C++. If you have concerns about any change listed, please raise it on the Aspose.Cells support forum.&lt;/p&gt;
+&lt;p&gt;No API changes in this version&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Cpp: Aspose.Cells for CPP 19.1 Release Notes</title>
+      <link>https://roywangt.github.io/cells/cpp/releasenotes/2019/aspose.cells&#43;for&#43;cpp&#43;19.1&#43;release&#43;notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/cpp/releasenotes/2019/aspose.cells&#43;for&#43;cpp&#43;19.1&#43;release&#43;notes/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-c--asposecells-for-cpp-191-release-notes&#34;&gt;Aspose.Cells for C++ : Aspose.Cells for CPP 19.1 Release Notes&lt;/h1&gt;
+&lt;p&gt;This page contains release notes for Aspose.Cells for CPP 19.1.&lt;/p&gt;
+
+&lt;div class=&#34;table table-striped&#34; role=&#34;alert&#34;&gt;
+    &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Key&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Summary&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Category&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSCPP-187&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Save shape to image format&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;New Feature&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSCPP-178&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Support TSV format which is also known as TabDelimited format&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Improvement&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSCPP-123&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Issue with strong &amp;amp; weak reference in Shape type&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSCPP-124&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Remove cycle reference for Shape 2007&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CELLSCPP-184&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Issue with static member variable translation&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+
+&lt;h3 id=&#34;public-api-and-backwards-incompatible-changes&#34;&gt;Public API and Backwards Incompatible Changes&lt;/h3&gt;
+&lt;p&gt;The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Cells for C++. If you have concerns about any change listed, please raise it on the Aspose.Cells support forum.&lt;/p&gt;
+&lt;p&gt;No API changes in this version&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

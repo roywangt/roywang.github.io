@@ -1,0 +1,829 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Styling and Data Formatting</title>
+    <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/stl-dtfmt/</link>
+    <description>Recent content in Styling and Data Formatting on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/stl-dtfmt/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Net: Change Text Direction of the Comment</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/stl-dtfmt/change&#43;text&#43;direction&#43;of&#43;the&#43;comment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/stl-dtfmt/change&#43;text&#43;direction&#43;of&#43;the&#43;comment/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--change-text-direction-of-the-comment&#34;&gt;Aspose.Cells for .NET : Change Text Direction of the Comment&lt;/h1&gt;
+&lt;p&gt;Microsoft Excel allows users to add comments to cells to add additional information and highlight data. Developers may need to customize the comment to specify alignment settings and text direction. Aspose.Cells provides APIs to accomplish the task.&lt;/p&gt;
+&lt;p&gt;Aspose.Cells provides a &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.drawing/shape/properties/textdirection&#34;&gt;Shape.TextDirection&lt;/a&gt; property to set text direction for a comment. The following sample code demonstrates the use of &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.drawing/shape/properties/textdirection&#34;&gt;Shape.TextDirection&lt;/a&gt; property to set text direction for a comment.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Format Worksheet Cells in a Workbook</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/stl-dtfmt/format&#43;worksheet&#43;cells&#43;in&#43;a&#43;workbook/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/stl-dtfmt/format&#43;worksheet&#43;cells&#43;in&#43;a&#43;workbook/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--format-worksheet-cells-in-a-workbook&#34;&gt;Aspose.Cells for .NET : Format Worksheet Cells in a Workbook&lt;/h1&gt;
+&lt;p&gt;This article shows how to:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Use styles to quickly format data.&lt;/li&gt;
+&lt;li&gt;Format cells in rows and columns.&lt;/li&gt;
+&lt;li&gt;Use borders and colors to emphasize data.&lt;/li&gt;
+&lt;li&gt;Apply number formats to emphasize data.&lt;/li&gt;
+&lt;li&gt;Use fonts and attributes to highlight data.&lt;/li&gt;
+&lt;li&gt;Format data in a named range.&lt;/li&gt;
+&lt;li&gt;Change data alignment and orientation.&lt;/li&gt;
+&lt;li&gt;Set row height and column width.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The example project performs all of these tasks and provides developers with a detailed description of how to create a workbook, add data into and apply formatting using &lt;a href=&#34;http://www.aspose.com/categories/.net-components/aspose.cells-for-.net/default.aspx&#34;&gt;Aspose.Cells&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#data-formatting&#34;&gt;Data Formatting&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#process&#34;&gt;Process&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;data-formatting&#34;&gt;Data Formatting&lt;/h2&gt;
+&lt;p&gt;Formatting is used to distinguish between different types of information and to display data clearly.&lt;/p&gt;
+&lt;p&gt;A format represents a style and is defined as a set of characteristics, such as fonts and font sizes, number formats, cell borders, cell shading, indentation, alignment and text orientation. Borders provide further ways to highlight information. A border is a line drawn around a cell or a group of cells.&lt;/p&gt;
+&lt;p&gt;Number formats also make data more meaningful. By applying different number formats, you can change the appearance of numbers without changing the number behind the appearance.&lt;/p&gt;
+&lt;p&gt;Aspose.Cells provides lets you draw borders around cells and ranges easily. It also lets you apply fonts and shade cells. The component is efficient enough that you can format a complete row or column, set alignments, wrap and rotate text in cells. Aspose.Cells further supports all number formats supported by Microsoft Excel.&lt;/p&gt;
+&lt;p&gt;This article shows how to create a console application in Visual Studio.Net that generates an annual sales report. The workbook is created from scratch, then data is inserted and the worksheet is formatted. We show how to create a simple console application which creates an Excel workbook (you can also use a template file), insert sales data into the first worksheet, format the data and save an Excel file.&lt;/p&gt;
+&lt;h3 id=&#34;process&#34;&gt;Process&lt;/h3&gt;
+&lt;p&gt;Below are the steps involved how to create a spreadsheet and format different cells in different rows and columns of a worksheet.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Download and install Aspose.Cells:
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.aspose.com/community/files/51/.net-components/aspose.cells-for-.net/default.aspx&#34;&gt;Download&lt;/a&gt; Aspose.Cells for .NET.&lt;/li&gt;
+&lt;li&gt;Install it on your development computer.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Create a project and add references:
+&lt;ol&gt;
+&lt;li&gt;Start Visual Studio.Net.&lt;/li&gt;
+&lt;li&gt;Create a new console application.&lt;/li&gt;
+&lt;li&gt;Add a reference to Aspose.Cells, for example …\Program Files\Aspose\Aspose.Cells\Bin\Net1.0\Aspose.Cells.dll&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Add the following code to the project:&lt;/li&gt;
+&lt;/ol&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Reusing Style Objects</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/stl-dtfmt/reusing&#43;style&#43;objects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/stl-dtfmt/reusing&#43;style&#43;objects/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--reusing-style-objects&#34;&gt;Aspose.Cells for .NET : Reusing Style Objects&lt;/h1&gt;
+&lt;p&gt;Reusing style objects can save memory and make a program faster.&lt;/p&gt;
+&lt;p&gt;To apply some formatting to a large range of cells in a worksheet:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Create a style object.&lt;/li&gt;
+&lt;li&gt;Specify the attributes.&lt;/li&gt;
+&lt;li&gt;Apply the style to the cells in the range.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Because the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/cell/methods/getstyle&#34;&gt;Cell.GetStyle&lt;/a&gt;/&lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/cell/methods/setstyle&#34;&gt;Cell.SetStyle&lt;/a&gt; approach uses a lot less memory, and is efficient, the older &lt;code&gt;Cell.Style&lt;/code&gt; property which consumed a lot of unnecessary memory, was removed with the release of Aspose.Cells 7.1.0.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Modify an Existing Style</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/stl-dtfmt/modify&#43;an&#43;existing&#43;style/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/stl-dtfmt/modify&#43;an&#43;existing&#43;style/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--modify-an-existing-style&#34;&gt;Aspose.Cells for .NET : Modify an Existing Style&lt;/h1&gt;
+&lt;p&gt;To apply the same formatting options to cells, create a new formatting style object. A formatting style object is a combination of formatting characteristics, such as font, font size, indentation, number, border, patterns etc., named and stored as a set. When applied, all of the formatting in that style are applied.&lt;/p&gt;
+&lt;p&gt;You can also use an existing style, save it with the workbook and use to format information with the same attributes.&lt;/p&gt;
+&lt;p&gt;When cells aren&amp;rsquo;t explicitly formatted, the &lt;strong&gt;Normal&lt;/strong&gt; style (the workbook&amp;rsquo;s default style) is applied. Microsoft Excel predefines several styles in addition to the Normal style including Comma, Currency, and Percent.&lt;/p&gt;
+&lt;p&gt;Aspose.Cells allows modifying any of these styles or any other style that you define with your desired attributes.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#using-microsoft-excel&#34;&gt;Using Microsoft Excel&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#using-aspose.cells&#34;&gt;Using Aspose.Cells&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;2.1 &lt;a href=&#34;#creating-and-modifying-a-style&#34;&gt;Creating and Modifying a Style&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2.2 &lt;a href=&#34;#modifying-an-existing-style&#34;&gt;Modifying an Existing Style&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;using-microsoft-excel&#34;&gt;Using Microsoft Excel&lt;/h2&gt;
+&lt;p&gt;To update a style in Microsoft Excel 97-2003:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;On the &lt;strong&gt;Format&lt;/strong&gt; menu, click &lt;strong&gt;Style&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Select the style you want to modify from the &lt;strong&gt;Style name&lt;/strong&gt; list.&lt;/li&gt;
+&lt;li&gt;Click &lt;strong&gt;Modify&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Select the style options that you want using the tabs in the Format Cells dialog.&lt;/li&gt;
+&lt;li&gt;Click &lt;strong&gt;OK&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Under &lt;strong&gt;Style includes&lt;/strong&gt;, specify the style features you want.&lt;/li&gt;
+&lt;li&gt;Click &lt;strong&gt;OK&lt;/strong&gt; to save the style and apply it to the selected range.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;using-asposecells&#34;&gt;Using Aspose.Cells&lt;/h2&gt;
+&lt;p&gt;The following examples demonstrate how to use &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/style/methods/update&#34;&gt;Style.Update&lt;/a&gt; method.&lt;/p&gt;
+&lt;h3 id=&#34;creating-and-modifying-a-style&#34;&gt;Creating and Modifying a Style&lt;/h3&gt;
+&lt;p&gt;This example creates a &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/style&#34;&gt;Style&lt;/a&gt; object, applies it to a range of cells and modifies the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/style&#34;&gt;Style&lt;/a&gt; object. The modifications are automatically applied to the cell and the range the style was applied to.&lt;/p&gt;
+&lt;h3 id=&#34;modifying-an-existing-style&#34;&gt;Modifying an Existing Style&lt;/h3&gt;
+&lt;p&gt;This example uses a simple template Excel file in which a style called Percent has already been applied to a range. The example:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;gets the style,&lt;/li&gt;
+&lt;li&gt;creates a style object and&lt;/li&gt;
+&lt;li&gt;modifies the style formatting.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The modifications are automatically applied to the range the style was applied to.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Evaluating Cell.GetStyle and SetStyle Methods against Cell.Style Property</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/stl-dtfmt/evaluating&#43;cell.getstyle&#43;and&#43;setstyle&#43;methods&#43;against&#43;cell.style&#43;property/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/stl-dtfmt/evaluating&#43;cell.getstyle&#43;and&#43;setstyle&#43;methods&#43;against&#43;cell.style&#43;property/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--evaluating-cellgetstyle-and-setstyle-methods-against-cellstyle-property&#34;&gt;Aspose.Cells for .NET : Evaluating Cell.GetStyle and SetStyle Methods against Cell.Style Property&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells for .NET 4.4.2 introduced two new methods for formatting cells: &lt;code&gt;Cell.GetStyle&lt;/code&gt; and &lt;code&gt;Cell.SetStyle&lt;/code&gt;. This article examines the &lt;code&gt;Cell.GetStyle&lt;/code&gt;/&lt;code&gt;SetStyle&lt;/code&gt; approach Vs the &lt;code&gt;Cell.Style&lt;/code&gt; approach to help you judge which technique best suits you.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#formatting-cells&#34;&gt;Formatting Cells&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#using-getstyle()&#34;&gt;Using GetStyle()&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;1.2 &lt;a href=&#34;#using-setstyle()&#34;&gt;Using SetStyle()&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#conclusion&#34;&gt;Conclusion&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;formatting-cells&#34;&gt;Formatting Cells&lt;/h2&gt;
+&lt;p&gt;There are two ways to format a cell, illustrated below.&lt;/p&gt;
+&lt;h3 id=&#34;using-getstyle&#34;&gt;Using GetStyle()&lt;/h3&gt;
+&lt;p&gt;With following piece of code, a &lt;code&gt;Style&lt;/code&gt; object is initiated for each cell when formatting it. If ta lot of cells are being formatted, a large amount of memory is consumed because the &lt;code&gt;Style&lt;/code&gt; object is a large object. These &lt;code&gt;Style&lt;/code&gt; objects won&amp;rsquo;t be freed until the &lt;code&gt;Workbook.Save&lt;/code&gt; method is called.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;C#&lt;/strong&gt;&lt;/p&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_bab8b4e5cc&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_bab8b4e5cc&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-c#&#34; data-lang=&#34;c#&#34;&gt;
+&lt;span style=&#34;color:#000&#34;&gt;cell&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;GetStyle&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;().&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Font&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;IsBold&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;true&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;
+ 
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;h3 id=&#34;using-setstyle&#34;&gt;Using SetStyle()&lt;/h3&gt;
+&lt;p&gt;The first approach is easy and straight-forward so why did we add the second approach?&lt;/p&gt;
+&lt;p&gt;We added the second approach to optimize memory usage. After using the &lt;code&gt;Cell.GetStyle&lt;/code&gt; method to retrieve a &lt;code&gt;Style&lt;/code&gt; object, modify it and use the &lt;code&gt;Cell.SetStyle&lt;/code&gt; method to set the it back to this cell. This &lt;code&gt;Style&lt;/code&gt; object won&amp;rsquo;t be preserved and .NET GC collect it when it&amp;rsquo;s not referenced.&lt;/p&gt;
+&lt;p&gt;When calling the &lt;code&gt;Cell.SetStyle&lt;/code&gt; method, the &lt;code&gt;Style&lt;/code&gt; object isn&amp;rsquo;t saved for each cell. Instead, we compare this &lt;code&gt;Style&lt;/code&gt; object to an internal &lt;code&gt;Style&lt;/code&gt; object pool to see if it can be reused. Only &lt;code&gt;Style&lt;/code&gt; objects that differ from the existing ones are kept for each &lt;code&gt;Workbook&lt;/code&gt; object. This means that there are only several hundred &lt;code&gt;Style&lt;/code&gt; objects for each Excel file instead of thousands. For each cell, only an index to the &lt;code&gt;Style&lt;/code&gt; object pool is preserved.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;C#&lt;/strong&gt;&lt;/p&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_9391f4245f&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_9391f4245f&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-c#&#34; data-lang=&#34;c#&#34;&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Style&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;style&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;cell&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;GetStyle&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;();&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;style&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Font&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;IsBold&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;true&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;cell&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;SetStyle&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;style&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+ 
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;p&gt;Since the &lt;code&gt;Cell.GetStyle&lt;/code&gt;/&lt;code&gt;SetStyle&lt;/code&gt; approach uses much less memory and is performance efficient we have eliminated the older &lt;code&gt;Cell.Style&lt;/code&gt; property that consumed a lot of unnecessary memory with the release of Aspose.Cells 7.1.x.&lt;/p&gt;
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;The new approach saves a large amount of memory when processing very large Excel files.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Line Breaks and Text Wrapping</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/stl-dtfmt/line&#43;breaks&#43;and&#43;text&#43;wrapping/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/stl-dtfmt/line&#43;breaks&#43;and&#43;text&#43;wrapping/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--line-breaks-and-text-wrapping&#34;&gt;Aspose.Cells for .NET : Line Breaks and Text Wrapping&lt;/h1&gt;
+&lt;p&gt;To ensure that text in a cell can be read, explicit line breaks and text wrapping can be applied. Text wrapping turns one line into several in a cell, which explicit line breaks put in breaks exactly where you want them.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#to-wrap-text-in-a-cell&#34;&gt;To Wrap Text in a Cell&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#to-use-explicit-line-breaks&#34;&gt;To Use Explicit Line Breaks&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h1 id=&#34;to-wrap-text-in-a-cell&#34;&gt;To Wrap Text in a Cell&lt;/h1&gt;
+&lt;p&gt;To wrap text in a cell, use the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/style/properties/istextwrapped&#34;&gt;Aspose.Cells.Style.IsTextWrapped&lt;/a&gt; property.&lt;/p&gt;
+&lt;h1 id=&#34;to-use-explicit-line-breaks&#34;&gt;To Use Explicit Line Breaks&lt;/h1&gt;
+&lt;p&gt;You can use ‘\n’ in C# and ‘ vbLf’ in VB.NET to insert explicit line breaks in a cell.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Implement 1904 Date System</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/stl-dtfmt/implement&#43;1904&#43;date&#43;system/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/stl-dtfmt/implement&#43;1904&#43;date&#43;system/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--implement-1904-date-system&#34;&gt;Aspose.Cells for .NET : Implement 1904 Date System&lt;/h1&gt;
+&lt;p&gt;Microsoft Excel supports two date systems: 1900 date system (the default date system implemented in Excel for Windows) and 1904 date system. The 1904 date system is normally used to provide compatibility with Macintosh Excel files and is the default system if you are using Excel for Macintosh. You can set the 1904 date system for Excel files using Aspose.Cells.&lt;/p&gt;
+&lt;p&gt;To implement 1904 date system in Microsoft Excel (for example Microsoft Excel 2003):&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;From the &lt;strong&gt;Tools&lt;/strong&gt; menu, select &lt;strong&gt;Options&lt;/strong&gt;, and select the &lt;strong&gt;Calculation&lt;/strong&gt; tab.&lt;/li&gt;
+&lt;li&gt;Select the &lt;strong&gt;1904 date system&lt;/strong&gt; option.&lt;/li&gt;
+&lt;li&gt;Click &lt;strong&gt;OK&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&#34;table table-striped&#34; role=&#34;alert&#34;&gt;
+    &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Selecting 1904 date system in Microsoft Excel&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5017711/5112598.png&#34; alt=&#34;&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;See the following sample code on how to achieve this using Aspose.Cells APIs.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Apply Superscript and Subscript Effects on Fonts</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/stl-dtfmt/apply&#43;superscript&#43;and&#43;subscript&#43;effects&#43;on&#43;fonts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/stl-dtfmt/apply&#43;superscript&#43;and&#43;subscript&#43;effects&#43;on&#43;fonts/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--apply-superscript-and-subscript-effects-on-fonts&#34;&gt;Aspose.Cells for .NET : Apply Superscript and Subscript Effects on Fonts&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells provides the functionality to apply superscript (text above the baseline) and subscript (text below the baseline) effects to text.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#working-with-superscript-and-subscript&#34;&gt;Working with Superscript and Subscript&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#applying-superscript&#34;&gt;Applying Superscript&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.2 &lt;a href=&#34;#applying-subscript&#34;&gt;Applying Subscript&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;working-with-superscript-and-subscript&#34;&gt;Working with Superscript and Subscript&lt;/h2&gt;
+&lt;p&gt;Apply the superscript effect by setting the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/font&#34;&gt;Style.Font&lt;/a&gt; object&amp;rsquo;s &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/font/properties/issuperscript&#34;&gt;IsSuperscript&lt;/a&gt; property to &lt;strong&gt;true&lt;/strong&gt;. To apply subscript, set the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/font&#34;&gt;Style.Font&lt;/a&gt; object&amp;rsquo;s &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/font/properties/issubscript&#34;&gt;IsSubscript&lt;/a&gt; property to &lt;strong&gt;true&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;The following code examples show how to apply super and subscript to text.&lt;/p&gt;
+&lt;h3 id=&#34;applying-superscript&#34;&gt;Applying Superscript&lt;/h3&gt;
+&lt;h3 id=&#34;applying-subscript&#34;&gt;Applying Subscript&lt;/h3&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Convert Text Numeric Data to Number</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/stl-dtfmt/convert&#43;text&#43;numeric&#43;data&#43;to&#43;number/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/stl-dtfmt/convert&#43;text&#43;numeric&#43;data&#43;to&#43;number/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--convert-text-numeric-data-to-number&#34;&gt;Aspose.Cells for .NET : Convert Text Numeric Data to Number&lt;/h1&gt;
+&lt;p&gt;Sometimes, you want to convert numeric data entered as text to numbers. You can enter numbers as text in Microsoft Excel by putting an apostrophe before a number, for example &lt;strong&gt;&amp;lsquo;12345&lt;/strong&gt;. Excel then treats the number as a string. Aspose.Cells allows you to convert strings to numbers.&lt;/p&gt;
+&lt;p&gt;Aspose.Cells provides the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/cells/methods/convertstringtonumericvalue&#34;&gt;Cells.ConvertStringToNumericValue()&lt;/a&gt; method which can be used to convert all string or text numeric data into numbers.&lt;/p&gt;
+&lt;p&gt;The following screenshot shows string numbers in cells &lt;strong&gt;A1:A17&lt;/strong&gt;. String numbers are aligned to the left.&lt;/p&gt;
+
+&lt;div class=&#34;table table-striped&#34; role=&#34;alert&#34;&gt;
+    &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Input file: numbers entered as text strings&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5017715/5112588.png&#34; alt=&#34;&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;These string numbers have been converted to numbers using &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/cells/methods/convertstringtonumericvalue&#34;&gt;Cells.ConvertStringToNumericValue()&lt;/a&gt; in the following screenshot. As you can see, they are now right-aligned.&lt;/p&gt;
+
+&lt;div class=&#34;table table-striped&#34; role=&#34;alert&#34;&gt;
+    &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Output file: the strings have been converted to numbers&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5017715/5112587.png&#34; alt=&#34;&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;The following sample code illustrates how to convert all string numeric data to actual numbers in all worksheets.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Applying Subtotal and Changing Direction of Outline Summary Rows below Detail</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/stl-dtfmt/applying&#43;subtotal&#43;and&#43;changing&#43;direction&#43;of&#43;outline&#43;summary&#43;rows&#43;below&#43;detail/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/stl-dtfmt/applying&#43;subtotal&#43;and&#43;changing&#43;direction&#43;of&#43;outline&#43;summary&#43;rows&#43;below&#43;detail/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--applying-subtotal-and-changing-direction-of-outline-summary-rows-below-detail&#34;&gt;Aspose.Cells for .NET : Applying Subtotal and Changing Direction of Outline Summary Rows below Detail&lt;/h1&gt;
+&lt;p&gt;This article will explain how to apply Subtotal to data and changing the direction of Outline Summary Rows below Detail.&lt;/p&gt;
+&lt;p&gt;You can apply Subtotal to data using &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/cells/methods/subtotal/index&#34;&gt;Worksheet.Cells.Subtotal()&lt;/a&gt; method. It takes the following parameters.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;CellArea&lt;/strong&gt; - The range to apply subtotal on&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GroupBy&lt;/strong&gt; - The field to group by, as a zero-based integer offset&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Function&lt;/strong&gt; - The subtotal function.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;TotalList&lt;/strong&gt; - An array of zero-based field offsets, indicating the fields to which the subtotals are added.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Replace&lt;/strong&gt; - Indicates whether replace the current subtotals&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;PageBreaks&lt;/strong&gt; - Indicates whether add page break between groups&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;SummaryBelowData&lt;/strong&gt; - Indicates whether add summary below data.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Also, you can control the direction of Outline &lt;strong&gt;Summary rows below detail&lt;/strong&gt; as shown in the following screenshot using Worksheet.Outline.SummaryRowBelow property. You can open this setting in Microsoft Excel using &lt;strong&gt;Data &amp;gt; Outline &amp;gt; Settings&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5017721/5112592.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;example&#34;&gt;Example&lt;/h4&gt;
+&lt;p&gt;The following screenshot shows the source Excel file used in the sample code below which contains some data in columns A and B.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5017721/5112591.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The following screenshot shows the output Excel file generated by the sample code. As you can see, subtotal has been applied to range A2:B11 and the direction of the outline is summary rows below detail.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5017721/5112590.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Here is the sample code to achieve the output as shown above.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Specify Custom Number Decimal and Group Separators for Workbook</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/stl-dtfmt/specify&#43;custom&#43;number&#43;decimal&#43;and&#43;group&#43;separators&#43;for&#43;workbook/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/stl-dtfmt/specify&#43;custom&#43;number&#43;decimal&#43;and&#43;group&#43;separators&#43;for&#43;workbook/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--specify-custom-number-decimal-and-group-separators-for-workbook&#34;&gt;Aspose.Cells for .NET : Specify Custom Number Decimal and Group Separators for Workbook&lt;/h1&gt;
+&lt;p&gt;In Microsoft Excel, you can specify the Custom Decimal and Thousands Separators instead of using System Separators from the &lt;strong&gt;Advanced Excel Options&lt;/strong&gt; as shown in the screenshot below.&lt;/p&gt;
+&lt;p&gt;Aspose.Cells provides the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/workbooksettings/properties/numberdecimalseparator&#34;&gt;WorkbookSettings.NumberDecimalSeparator&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/workbooksettings/properties/numbergroupseparator&#34;&gt;WorkbookSettings.NumberGroupSeparator&lt;/a&gt; properties to set the custom separators for formatting/parsing numbers.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#specifying-custom-separators-using-microsoft-excel&#34;&gt;Specifying Custom Separators using Microsoft Excel&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#specifying-custom-separators-using-aspose.cells&#34;&gt;Specifying Custom Separators using Aspose.Cells&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;2.1 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;specifying-custom-separators-using-microsoft-excel&#34;&gt;Specifying Custom Separators using Microsoft Excel&lt;/h2&gt;
+&lt;p&gt;The following screenshot shows the &lt;strong&gt;Advanced Excel Options&lt;/strong&gt; and highlights the section to specify the &lt;strong&gt;Custom Separators&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5017719/5112645.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;specifying-custom-separators-using-asposecells&#34;&gt;Specifying Custom Separators using Aspose.Cells&lt;/h2&gt;
+&lt;p&gt;The following sample code illustrates how to specify the Custom Separators using Aspose.Cells API. It specifies the Custom Number Decimal and Group Separators as dot and space respectively.&lt;/p&gt;
+&lt;h3 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h3&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Extract Theme Data from Excel File</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/stl-dtfmt/extract&#43;theme&#43;data&#43;from&#43;excel&#43;file/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/stl-dtfmt/extract&#43;theme&#43;data&#43;from&#43;excel&#43;file/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--extract-theme-data-from-excel-file&#34;&gt;Aspose.Cells for .NET : Extract Theme Data from Excel File&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells allows the users to extract Theme related data from Excel file. For example, you can extract Theme Name applied to workbook and Theme Color applied to cell or borders of the cell, etc.&lt;/p&gt;
+&lt;p&gt;You can apply Theme to your workbook using Microsoft Excel via &lt;code&gt;Page Layout &amp;gt; Themes&lt;/code&gt; command.&lt;/p&gt;
+&lt;p&gt;The following sample code extracts the Theme name applied to source workbook and then it extracts the Theme color applied to cell A1 and Theme color applied to the bottom border of the cell.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Display Bullets by setting Cell Value using HTML</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/stl-dtfmt/display&#43;bullets&#43;by&#43;setting&#43;cell&#43;value&#43;using&#43;html/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/stl-dtfmt/display&#43;bullets&#43;by&#43;setting&#43;cell&#43;value&#43;using&#43;html/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--display-bullets-by-setting-cell-value-using-html&#34;&gt;Aspose.Cells for .NET : Display Bullets by setting Cell Value using HTML&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells supports showing bullets with HTML code. This article will explain how to display bullets by setting cell value using HTML. We will use &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/cell/properties/htmlstring&#34;&gt;Cell.HtmlString&lt;/a&gt; property to set the cell value with our HTML.&lt;/p&gt;
+&lt;p&gt;The following code uses the HTML code to set the cell value. Once, you will run this code, you will get the output as shown in the image below.&lt;/p&gt;
+&lt;h2 id=&#34;output&#34;&gt;Output&lt;/h2&gt;
+&lt;p&gt;The following screenshot shows the output of the above sample code.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5017723/5112649.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Access and Update the Portions of Rich Text of Cell</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/stl-dtfmt/access&#43;and&#43;update&#43;the&#43;portions&#43;of&#43;rich&#43;text&#43;of&#43;cell/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/stl-dtfmt/access&#43;and&#43;update&#43;the&#43;portions&#43;of&#43;rich&#43;text&#43;of&#43;cell/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--access-and-update-the-portions-of-rich-text-of-cell&#34;&gt;Aspose.Cells for .NET : Access and Update the Portions of Rich Text of Cell&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells allows you to access and update the portions of the rich text of the cell. For this purpose, you can use &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/cell/methods/getcharacters/index&#34;&gt;Cell.GetCharacters()&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/cell/methods/setcharacters&#34;&gt;Cell.SetCharacters()&lt;/a&gt; methods. These methods will return and accept the array of &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/fontsetting&#34;&gt;FontSetting&lt;/a&gt; objects which you can use to access and update various properties of font like font name, font color, boldness, etc.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#access-and-update-the-portions-of-rich-text-of-cell&#34;&gt;Access and Update the Portions of Rich Text of Cell&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#console-output&#34;&gt;Console Output&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;access-and-update-the-portions-of-rich-text-of-cell&#34;&gt;Access and Update the Portions of Rich Text of Cell&lt;/h2&gt;
+&lt;p&gt;The following code demonstrates the usage of &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/cell/methods/getcharacters/index&#34;&gt;Cell.GetCharacters()&lt;/a&gt;and &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/cell/methods/setcharacters&#34;&gt;Cell.SetCharacters()&lt;/a&gt; method using the &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/5017266/5112369.xlsx&#34;&gt;source excel file&lt;/a&gt; which you can download from the provided link. The source excel file has a rich text in the cell A1. It has 3 portions and each portion has a different font. The following code snippet accesses these portions and updates the first portion with a new font name. Finally, it saves the workbook as &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/5017266/5112366.xlsx&#34;&gt;output excel file&lt;/a&gt;. When you will open it, you will find the font of the first portion of the text has changed to &lt;strong&gt;&amp;ldquo;Arial&amp;rdquo;&lt;/strong&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;console-output&#34;&gt;Console Output&lt;/h3&gt;
+&lt;p&gt;Here is the console output of the above sample code using the &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/5017266/5112369.xlsx&#34;&gt;source excel file&lt;/a&gt;.&lt;/p&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_bfef9c51c2&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_bfef9c51c2&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Before&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;updating&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;the&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;font&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;settings&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;....&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Century&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Courier&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;New&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Verdana&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;After&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;updating&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;the&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;font&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;settings&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;....&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Arial&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Courier&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;New&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Verdana&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Using Built-in Styles</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/stl-dtfmt/using&#43;built-in&#43;styles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/stl-dtfmt/using&#43;built-in&#43;styles/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--using-built-in-styles&#34;&gt;Aspose.Cells for .NET : Using Built-in Styles&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells provides a vast collection of re-usable styles to format a cell in spreadsheet document. We can use built-in styles in our workbook and also create custom styles.&lt;/p&gt;
+&lt;h1 id=&#34;how-to-use-built-in-styles&#34;&gt;How to use Built-in Styles&lt;/h1&gt;
+&lt;p&gt;The method &lt;code&gt;Workbook.CreateBuiltinStyle&lt;/code&gt; and class &lt;code&gt;BuiltinStyleType&lt;/code&gt;, make it convenient to create re-usable styles. Here is a list of all possible built-in styles:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;TWENTY_PERCENT_ACCENT_1&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;TWENTY_PERCENT_ACCENT_2&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;TWENTY_PERCENT_ACCENT_3&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;TWENTY_PERCENT_ACCENT_4&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;TWENTY_PERCENT_ACCENT_5&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;TWENTY_PERCENT_ACCENT_6&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;FORTY_PERCENT_ACCENT_1&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;FORTY_PERCENT_ACCENT_2&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;FORTY_PERCENT_ACCENT_3&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;FORTY_PERCENT_ACCENT_4&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;FORTY_PERCENT_ACCENT_5&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;FORTY_PERCENT_ACCENT_6&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;SIXTY_PERCENT_ACCENT_1&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;SIXTY_PERCENT_ACCENT_2&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;SIXTY_PERCENT_ACCENT_3&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;SIXTY_PERCENT_ACCENT_4&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;SIXTY_PERCENT_ACCENT_5&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;SIXTY_PERCENT_ACCENT_6&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ACCENT_1&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ACCENT_2&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ACCENT_3&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ACCENT_4&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ACCENT_5&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ACCENT_6&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;BAD&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;CALCULATION&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;CHECK_CELL&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;COMMA&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;COMMA_1&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;CURRENCY&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;CURRENCY_1&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;EXPLANATORY_TEXT&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;GOOD&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;HEADER_1&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;HEADER_2&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;HEADER_3&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;HEADER_4&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;HYPERLINK&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;FOLLOWED_HYPERLINK&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;INPUT&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;LINKED_CELL&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;NEUTRAL&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;NORMAL&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;NOTE&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;OUTPUT&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;PERCENT&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;TITLE&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;TOTAL&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;WARNING_TEXT&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ROW_LEVEL&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;COLUMN_LEVEL&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Render Custom Date Format Pattern g and ge mm dd</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/stl-dtfmt/render&#43;custom&#43;date&#43;format&#43;pattern&#43;g&#43;and&#43;ge&#43;mm&#43;dd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/stl-dtfmt/render&#43;custom&#43;date&#43;format&#43;pattern&#43;g&#43;and&#43;ge&#43;mm&#43;dd/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--render-custom-date-format-pattern-g-and-ge-mm-dd&#34;&gt;Aspose.Cells for .NET : Render Custom Date Format Pattern g and ge mm dd&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells is now able to render the custom date format pattern like g, ge.mm.dd and similar. Please check the attached &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/5017309/5112361.xlsx&#34;&gt;source excel file&lt;/a&gt; and the &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/5017309/5112360.pdf&#34;&gt;converted pdf&lt;/a&gt; by Aspose.Cells for your reference.&lt;/p&gt;
+&lt;p&gt;The following sample code converts the &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/5017309/5112361.xlsx&#34;&gt;source excel file&lt;/a&gt; which contains date values with custom format patterns like g and ge.mm.dd into &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/5017309/5112360.pdf&#34;&gt;output pdf&lt;/a&gt;.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Check Custom Number Format when Setting Style.Custom Property</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/stl-dtfmt/check&#43;custom&#43;number&#43;format&#43;when&#43;setting&#43;style.custom&#43;property/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/stl-dtfmt/check&#43;custom&#43;number&#43;format&#43;when&#43;setting&#43;style.custom&#43;property/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--check-custom-number-format-when-setting-stylecustom-property&#34;&gt;Aspose.Cells for .NET : Check Custom Number Format when Setting Style.Custom Property&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#check-custom-number-format-when-setting-style.custom-property&#34;&gt;Check Custom Number Format when setting Style.Custom property&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;If you assign invalid custom number format to &lt;code&gt;Style.Custom&lt;/code&gt; property, then Aspose.Cells will not throw any exception. But if you want that Aspose.Cells should check if the assigned custom number format is valid or not, then please set the &lt;code&gt;Workbook.Settings.CheckCustomNumberFormat&lt;/code&gt; property to true.&lt;/p&gt;
+&lt;h2 id=&#34;check-custom-number-format-when-setting-stylecustom-property&#34;&gt;Check Custom Number Format when setting Style.Custom property&lt;/h2&gt;
+&lt;p&gt;The following sample code assigns an invalid custom number format to &lt;code&gt;Style.Custom&lt;/code&gt; property. Since, we have already set &lt;code&gt;Workbook.Settings.CheckCustomNumberFormat&lt;/code&gt; property to true, therefore it throws exception e.g. &lt;code&gt;Invalid number format&lt;/code&gt;. Please read the comments inside the code for more help.&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: How to change the Comment Font Color</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/stl-dtfmt/how&#43;to&#43;change&#43;the&#43;comment&#43;font&#43;color/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/stl-dtfmt/how&#43;to&#43;change&#43;the&#43;comment&#43;font&#43;color/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--how-to-change-the-comment-font-color&#34;&gt;Aspose.Cells for .NET : How to change the Comment Font Color&lt;/h1&gt;
+&lt;p&gt;Microsoft Excel allows users to add comments to cells to add additional information and highlight data. Developers may need to customize the comment to specify alignment settings, text direction Font Color, etc. Aspose.Cells provides APIs to accomplish the task.&lt;/p&gt;
+&lt;p&gt;Aspose.Cells provides a &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.drawing/shape/properties/textbody&#34;&gt;Shape.TextBody&lt;/a&gt; property to the font color of the comment. The following sample code demonstrates the use of &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.drawing/shape/properties/textbody&#34;&gt;Shape.TextBody&lt;/a&gt; property to set text direction for a comment.&lt;/p&gt;
+&lt;p&gt; The &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/102465752/102662195.xlsx&#34;&gt;output file&lt;/a&gt; generated by the above code is attached for your reference.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

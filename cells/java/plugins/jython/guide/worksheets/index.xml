@@ -1,0 +1,425 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Working With Worksheets in Jython</title>
+    <link>https://roywangt.github.io/cells/java/plugins/jython/guide/worksheets/</link>
+    <description>Recent content in Working With Worksheets in Jython on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://roywangt.github.io/cells/java/plugins/jython/guide/worksheets/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Java: Adding Worksheets to New Excel File in Jython</title>
+      <link>https://roywangt.github.io/cells/java/plugins/jython/guide/worksheets/adding&#43;worksheets&#43;to&#43;new&#43;excel&#43;file&#43;in&#43;jython/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/plugins/jython/guide/worksheets/adding&#43;worksheets&#43;to&#43;new&#43;excel&#43;file&#43;in&#43;jython/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--adding-worksheets-to-new-excel-file-in-jython&#34;&gt;Aspose.Cells for Java : Adding Worksheets to New Excel File in Jython&lt;/h1&gt;
+&lt;h2 id=&#34;asposecells---adding-worksheets-to-new-excel&#34;&gt;Aspose.Cells - Adding Worksheets to New Excel&lt;/h2&gt;
+&lt;p&gt;To append documents using &lt;strong&gt;Aspose.Cells Java for Jython&lt;/strong&gt;. Here you can see example code.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Jython Code&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;from aspose-cells import Settingsfrom com.aspose.cells import Workbookfrom com.aspose.cells import SaveFormatclass AddingWorksheetstoNewExcelFile:    def __init__(self):        dataDir = Settings.dataDir + &amp;lsquo;WorkingWithWorksheets/AddingWorksheetstoNewExcelFile/&amp;rsquo;             workbook = Workbook(dataDir + &amp;ldquo;Book1.xls&amp;rdquo;)        #Adding a new worksheet to the Workbook object        worksheets = workbook.getWorksheets()        sheetIndex = worksheets.add()        worksheet = worksheets.get(sheetIndex)        #Setting the name of the newly added worksheet        worksheet.setName(&amp;ldquo;My Worksheet&amp;rdquo;)        #Saving the Excel file        workbook.save(dataDir + &amp;ldquo;book.out.xls&amp;rdquo;)        #Print Message        print &amp;ldquo;Sheet added successfully.&amp;ldquo;if __name__ == &amp;lsquo;__main__&#39;:            AddingWorksheetstoNewExcelFile()&lt;/p&gt;
+&lt;h2 id=&#34;download-running-code&#34;&gt;Download Running Code&lt;/h2&gt;
+&lt;p&gt;Download &lt;strong&gt;Append Documents (Aspose.Cells)&lt;/strong&gt; from any of the below mentioned social coding sites:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://asposecellsjavajython.codeplex.com/SourceControl/latest#asposecells/WorkingWithWorksheets/AddingWorksheetstoNewExcelFile.py&#34;&gt;CodePlex&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithWorksheets/AddingWorksheetstoNewExcelFile.py&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Copying And Moving Worksheets in Jython</title>
+      <link>https://roywangt.github.io/cells/java/plugins/jython/guide/worksheets/copying&#43;and&#43;moving&#43;worksheets&#43;in&#43;jython/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/plugins/jython/guide/worksheets/copying&#43;and&#43;moving&#43;worksheets&#43;in&#43;jython/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--copying-and-moving-worksheets-in-jython&#34;&gt;Aspose.Cells for Java : Copying And Moving Worksheets in Jython&lt;/h1&gt;
+&lt;h2 id=&#34;asposecells---copying-and-moving-worksheets&#34;&gt;Aspose.Cells - Copying And Moving Worksheets&lt;/h2&gt;
+&lt;p&gt;To append documents using &lt;strong&gt;Aspose.Cells Java for Jython&lt;/strong&gt;. Here you can see example code.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Jython Code&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;from aspose-cells import Settingsfrom com.aspose.cells import Workbookfrom com.aspose.cells import SaveFormatclass CopyingAndMovingWorksheets:    def __init__(self):        # Copy Worksheets within a Workbook        self.copy_worksheet()        # Move Worksheets within Workbook        self.move_worksheet()            def copy_worksheet(dataDir):                  dataDir = Settings.dataDir + &amp;lsquo;WorkingWithWorksheets/CopyingAndMovingWorksheets/&amp;rsquo;                 # Instantiating a Workbook object by excel file path        workbook = Workbook(dataDir + &amp;ldquo;Book1.xls&amp;rdquo;)                # Create a Worksheets object with reference to the sheets of the Workbook.        sheets = workbook.getWorksheets()        # Copy data to a new sheet from an existing sheet within the Workbook.        sheets.addCopy(&amp;ldquo;Sheet1&amp;rdquo;)        # Saving the modified Excel file in default (that is Excel 2003) format        workbook.save(dataDir + &amp;ldquo;Copy Worksheet.xls&amp;rdquo;)        print &amp;ldquo;Copy worksheet, please check the output file.&amp;rdquo;        def move_worksheet(dataDir):                dataDir = Settings.dataDir + &amp;lsquo;WorkingWithWorksheets/CopyingAndMovingWorksheets/&amp;rsquo;                 # Instantiating a Workbook object by excel file path        workbook = Workbook(dataDir + &amp;ldquo;Book1.xls&amp;rdquo;)            # Get the first worksheet in the book.        sheet = workbook.getWorksheets().get(0)        # Move the first sheet to the third position in the workbook.        sheet.moveTo(2)        # Saving the modified Excel file in default (that is Excel 2003) format        workbook.save(dataDir + &amp;ldquo;Move Worksheet.xls&amp;rdquo;)        print &amp;ldquo;Move worksheet, please check the output file.&amp;rdquo;    if __name__ == &amp;lsquo;__main__&#39;:            CopyingAndMovingWorksheets()&lt;/p&gt;
+&lt;h2 id=&#34;download-running-code&#34;&gt;Download Running Code&lt;/h2&gt;
+&lt;p&gt;Download &lt;strong&gt;Append Documents (Aspose.Cells)&lt;/strong&gt; from any of the below mentioned social coding sites:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://asposecellsjavajython.codeplex.com/SourceControl/latest#asposecells/WorkingWithWorksheets/CopyingAndMovingWorksheets.py&#34;&gt;CodePlex&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithWorksheets/CopyingAndMovingWorksheets.py&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Display Hide Gridlines in Jython</title>
+      <link>https://roywangt.github.io/cells/java/plugins/jython/guide/worksheets/display&#43;hide&#43;gridlines&#43;in&#43;jython/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/plugins/jython/guide/worksheets/display&#43;hide&#43;gridlines&#43;in&#43;jython/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--display-hide-gridlines-in-jython&#34;&gt;Aspose.Cells for Java : Display Hide Gridlines in Jython&lt;/h1&gt;
+&lt;h2 id=&#34;asposecells---display-hide-gridlines&#34;&gt;Aspose.Cells - Display Hide Gridlines&lt;/h2&gt;
+&lt;p&gt;To append documents using &lt;strong&gt;Aspose.Cells Java for Jython&lt;/strong&gt;. Here you can see example code.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Jython Code&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;from aspose-cells import Settingsfrom com.aspose.cells import Workbookclass DisplayHideGridlines:    def __init__(self):        dataDir = Settings.dataDir + &amp;lsquo;WorkingWithWorksheets/DisplayHideGridlines/&amp;rsquo;             workbook = Workbook(dataDir + &amp;ldquo;Book1.xls&amp;rdquo;)                #Accessing the first worksheet in the Excel file        worksheets = workbook.getWorksheets()        worksheet = worksheets.get(0)        #Hiding the grid lines of the first worksheet of the Excel file        worksheet.setGridlinesVisible(False)        #Saving the modified Excel file in default (that is Excel 2000) format        workbook.save(dataDir + &amp;ldquo;output.xls&amp;rdquo;)        # Print message        print &amp;ldquo;Grid lines are now hidden on sheet 1, please check the output document.&amp;rdquo; if __name__ == &amp;lsquo;__main__&#39;:            DisplayHideGridlines()&lt;/p&gt;
+&lt;h2 id=&#34;download-running-code&#34;&gt;Download Running Code&lt;/h2&gt;
+&lt;p&gt;Download &lt;strong&gt;Append Documents (Aspose.Cells)&lt;/strong&gt; from any of the below mentioned social coding sites:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://asposecellsjavajython.codeplex.com/SourceControl/latest#asposecells/WorkingWithWorksheets/DisplayHideGridlines.py&#34;&gt;CodePlex&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithWorksheets/DisplayHideGridlines.py&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Display Hide Scroll Bars in Jython</title>
+      <link>https://roywangt.github.io/cells/java/plugins/jython/guide/worksheets/display&#43;hide&#43;scroll&#43;bars&#43;in&#43;jython/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/plugins/jython/guide/worksheets/display&#43;hide&#43;scroll&#43;bars&#43;in&#43;jython/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--display-hide-scroll-bars-in-jython&#34;&gt;Aspose.Cells for Java : Display Hide Scroll Bars in Jython&lt;/h1&gt;
+&lt;h2 id=&#34;asposecells---display-hide-scroll-bars&#34;&gt;Aspose.Cells - Display Hide Scroll Bars&lt;/h2&gt;
+&lt;p&gt;To append documents using &lt;strong&gt;Aspose.Cells Java for Jython&lt;/strong&gt;. Here you can see example code.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Jython Code&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;from aspose-cells import Settingsfrom com.aspose.cells import Workbookclass DisplayHideScrollBars:    def __init__(self):        dataDir = Settings.dataDir + &amp;lsquo;WorkingWithWorksheets/DisplayHideScrollBars/&amp;rsquo;             workbook = Workbook(dataDir + &amp;ldquo;Book1.xls&amp;rdquo;)                #Hiding the vertical scroll bar of the Excel file        workbook.getSettings().setVScrollBarVisible(False)        #Hiding the horizontal scroll bar of the Excel file        workbook.getSettings().setHScrollBarVisible(False)        #Saving the modified Excel file in default (that is Excel 2003) format        workbook.save(dataDir + &amp;ldquo;output.xls&amp;rdquo;)        # Print message        print &amp;ldquo;Scroll bars are now hidden, please check the output document.&amp;rdquo; if __name__ == &amp;lsquo;__main__&#39;:            DisplayHideScrollBars()&lt;/p&gt;
+&lt;h2 id=&#34;download-running-code&#34;&gt;Download Running Code&lt;/h2&gt;
+&lt;p&gt;Download &lt;strong&gt;Append Documents (Aspose.Cells)&lt;/strong&gt; from any of the below mentioned social coding sites:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://asposecellsjavajython.codeplex.com/SourceControl/latest#asposecells/WorkingWithWorksheets/DisplayHideScrollBars.py&#34;&gt;CodePlex&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithWorksheets/DisplayHideScrollBars.py&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Display Hide Tabs in Jython</title>
+      <link>https://roywangt.github.io/cells/java/plugins/jython/guide/worksheets/display&#43;hide&#43;tabs&#43;in&#43;jython/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/plugins/jython/guide/worksheets/display&#43;hide&#43;tabs&#43;in&#43;jython/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--display-hide-tabs-in-jython&#34;&gt;Aspose.Cells for Java : Display Hide Tabs in Jython&lt;/h1&gt;
+&lt;h2 id=&#34;asposecells---display-hide-tabs&#34;&gt;Aspose.Cells - Display Hide Tabs&lt;/h2&gt;
+&lt;p&gt;To append documents using &lt;strong&gt;Aspose.Cells Java for Jython&lt;/strong&gt;. Here you can see example code.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Jython Code&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;from aspose-cells import Settingsfrom com.aspose.cells import Workbookclass DisplayHideTabs:    def __init__(self):        dataDir = Settings.dataDir + &amp;lsquo;WorkingWithWorksheets/DisplayHideTabs/&amp;rsquo;             workbook = Workbook(dataDir + &amp;ldquo;Book1.xls&amp;rdquo;)                #Hiding the tabs of the Excel file        workbook.getSettings().setShowTabs(False)        #Saving the modified Excel file in default (that is Excel 2003) format        workbook.save(dataDir + &amp;ldquo;output.xls&amp;rdquo;)        # Print message        print &amp;ldquo;Tabs are now hidden, please check the output file.&amp;ldquo;if __name__ == &amp;lsquo;__main__&#39;:            DisplayHideTabs()&lt;/p&gt;
+&lt;h2 id=&#34;download-running-code&#34;&gt;Download Running Code&lt;/h2&gt;
+&lt;p&gt;Download &lt;strong&gt;Append Documents (Aspose.Cells)&lt;/strong&gt; from any of the below mentioned social coding sites:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://asposecellsjavajython.codeplex.com/SourceControl/latest#asposecells/WorkingWithWorksheets/DisplayHideTabs.py&#34;&gt;CodePlex&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithWorksheets/DisplayHideTabs.py&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Freeze Panes in Jython</title>
+      <link>https://roywangt.github.io/cells/java/plugins/jython/guide/worksheets/freeze&#43;panes&#43;in&#43;jython/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/plugins/jython/guide/worksheets/freeze&#43;panes&#43;in&#43;jython/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--freeze-panes-in-jython&#34;&gt;Aspose.Cells for Java : Freeze Panes in Jython&lt;/h1&gt;
+&lt;h2 id=&#34;asposecells---freeze-panes&#34;&gt;Aspose.Cells - Freeze Panes&lt;/h2&gt;
+&lt;p&gt;To append documents using &lt;strong&gt;Aspose.Cells Java for Jython&lt;/strong&gt;. Here you can see example code.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Jython Code&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;from aspose-cells import Settingsfrom com.aspose.cells import Workbookclass FreezePanes:    def __init__(self):        dataDir = Settings.dataDir + &amp;lsquo;WorkingWithWorksheets/FreezePanes/&amp;rsquo;             workbook = Workbook(dataDir + &amp;ldquo;Book1.xls&amp;rdquo;)                #Accessing the first worksheet in the Excel file        worksheets = workbook.getWorksheets()        worksheet = worksheets.get(0)        #Applying freeze panes settings        worksheet.freezePanes(3,2,3,2)        #Saving the modified Excel file in default format        workbook.save(dataDir + &amp;ldquo;book.out.xls&amp;rdquo;)        #Print Message        print &amp;ldquo;Panes freeze successfull.&amp;ldquo;if __name__ == &amp;lsquo;__main__&#39;:            FreezePanes()&lt;/p&gt;
+&lt;h2 id=&#34;download-running-code&#34;&gt;Download Running Code&lt;/h2&gt;
+&lt;p&gt;Download &lt;strong&gt;Append Documents (Aspose.Cells)&lt;/strong&gt; from any of the below mentioned social coding sites:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://asposecellsjavajython.codeplex.com/SourceControl/latest#asposecells/WorkingWithWorksheets/FreezePanes.py&#34;&gt;CodePlex&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithWorksheets/FreezePanes.py&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Hide Unhide Worksheet in Jython</title>
+      <link>https://roywangt.github.io/cells/java/plugins/jython/guide/worksheets/hide&#43;unhide&#43;worksheet&#43;in&#43;jython/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/plugins/jython/guide/worksheets/hide&#43;unhide&#43;worksheet&#43;in&#43;jython/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--hide-unhide-worksheet-in-jython&#34;&gt;Aspose.Cells for Java : Hide Unhide Worksheet in Jython&lt;/h1&gt;
+&lt;h2 id=&#34;asposecells---hide-unhide-worksheet&#34;&gt;Aspose.Cells - Hide Unhide Worksheet&lt;/h2&gt;
+&lt;p&gt;To append documents using &lt;strong&gt;Aspose.Cells Java for Jython&lt;/strong&gt;. Here you can see example code.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Jython Code&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;from aspose-cells import Settingsfrom com.aspose.cells import Workbookclass HideUnhideWorksheet:    def __init__(self):        dataDir = Settings.dataDir + &amp;lsquo;WorkingWithWorksheets/HideUnhideWorksheet/&amp;rsquo;             workbook = Workbook(dataDir + &amp;ldquo;Book1.xls&amp;rdquo;)                #Accessing the first worksheet in the Excel file        worksheets = workbook.getWorksheets()        worksheet = worksheets.get(0)        #Hiding the first worksheet of the Excel file        worksheet.setVisible(False)        #Saving the modified Excel file in default (that is Excel 2003) format        workbook.save(dataDir + &amp;ldquo;output.xls&amp;rdquo;)        # Print message        print &amp;ldquo;Worksheet 1 is now hidden, please check the output document.&amp;ldquo;if __name__ == &amp;lsquo;__main__&#39;:            HideUnhideWorksheet()&lt;/p&gt;
+&lt;h2 id=&#34;download-running-code&#34;&gt;Download Running Code&lt;/h2&gt;
+&lt;p&gt;Download &lt;strong&gt;Append Documents (Aspose.Cells)&lt;/strong&gt; from any of the below mentioned social coding sites:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://asposecellsjavajython.codeplex.com/SourceControl/latest#asposecells/WorkingWithWorksheets/HideUnhideWorksheet.py&#34;&gt;CodePlex&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithWorksheets/HideUnhideWorksheet.py&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Managing Page Breaks in Jython</title>
+      <link>https://roywangt.github.io/cells/java/plugins/jython/guide/worksheets/managing&#43;page&#43;breaks&#43;in&#43;jython/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/plugins/jython/guide/worksheets/managing&#43;page&#43;breaks&#43;in&#43;jython/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--managing-page-breaks-in-jython&#34;&gt;Aspose.Cells for Java : Managing Page Breaks in Jython&lt;/h1&gt;
+&lt;h2 id=&#34;asposecells---managing-page-breaks&#34;&gt;Aspose.Cells - Managing Page Breaks&lt;/h2&gt;
+&lt;p&gt;To append documents using &lt;strong&gt;Aspose.Cells Java for Jython&lt;/strong&gt;. Here you can see example code.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Jython Code&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;from aspose-cells import Settingsfrom com.aspose.cells import Workbookfrom com.aspose.cells import SaveFormatclass ManagingPageBreaks:    def __init__(self):                # Adding Page Breaks        self.add_page_breaks()        # Clearing All Page Breaks        self.clear_all_page_breaks()        # Removing Specific Page Break        self.remove_page_break()            def add_page_breaks(dataDir):                dataDir = Settings.dataDir + &amp;lsquo;WorkingWithWorksheets/ManagingPageBreaks/&amp;rsquo;                # Instantiating a Workbook object        workbook = Workbook(dataDir + &amp;ldquo;Book1.xls&amp;rdquo;)            worksheets = workbook.getWorksheets()        worksheet = worksheets.get(0)        h_page_breaks = worksheet.getHorizontalPageBreaks()        h_page_breaks.add(&amp;ldquo;Y30&amp;rdquo;)        v_page_breaks = worksheet.getVerticalPageBreaks()        v_page_breaks.add(&amp;ldquo;Y30&amp;rdquo;)        # Saving the modified Excel file in default (that is Excel 2003) format        workbook.save(dataDir + &amp;ldquo;Add Page Breaks.xls&amp;rdquo;)        print &amp;ldquo;Add page breaks, please check the output file.&amp;rdquo;        def clear_all_page_breaks(dataDir):                dataDir = Settings.dataDir + &amp;lsquo;WorkingWithWorksheets/ManagingPageBreaks/&amp;rsquo;                # Instantiating a Workbook object        workbook = Workbook(dataDir + &amp;ldquo;Book1.xls&amp;rdquo;)            workbook.getWorksheets().get(0).getHorizontalPageBreaks().clear()        workbook.getWorksheets().get(0).getVerticalPageBreaks().clear()                # Saving the modified Excel file in default (that is Excel 2003) format        workbook.save(dataDir + &amp;ldquo;Clear All Page Breaks.xls&amp;rdquo;)        print &amp;ldquo;Clear all page breaks, please check the output file.&amp;rdquo;        def remove_page_break(dataDir):            dataDir = Settings.dataDir + &amp;lsquo;WorkingWithWorksheets/ManagingPageBreaks/&amp;rsquo;                # Instantiating a Workbook object        workbook = Workbook(dataDir + &amp;ldquo;Book1.xls&amp;rdquo;)        worksheets = workbook.getWorksheets()        worksheet = worksheets.get(0)        h_page_breaks = worksheet.getHorizontalPageBreaks()        h_page_breaks.removeAt(0)        v_page_breaks = worksheet.getVerticalPageBreaks()        v_page_breaks.removeAt(0)        # Saving the modified Excel file in default (that is Excel 2003) format        workbook.save(dataDir + &amp;ldquo;Remove Page Break.xls&amp;rdquo;)        print &amp;ldquo;Remove page break, please check the output file.&amp;rdquo;    if __name__ == &amp;lsquo;__main__&#39;:            ManagingPageBreaks()&lt;/p&gt;
+&lt;h2 id=&#34;download-running-code&#34;&gt;Download Running Code&lt;/h2&gt;
+&lt;p&gt;Download &lt;strong&gt;Append Documents (Aspose.Cells)&lt;/strong&gt; from any of the below mentioned social coding sites:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://asposewordsjavajython.codeplex.com/releases/view/619260&#34;&gt;CodePlex&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/asposewords/Aspose_Words_Java/releases/tag/Aspose.Words_Java_for_Jython-v1.0.0&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Page Break Preview in Jython</title>
+      <link>https://roywangt.github.io/cells/java/plugins/jython/guide/worksheets/page&#43;break&#43;preview&#43;in&#43;jython/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/plugins/jython/guide/worksheets/page&#43;break&#43;preview&#43;in&#43;jython/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--page-break-preview-in-jython&#34;&gt;Aspose.Cells for Java : Page Break Preview in Jython&lt;/h1&gt;
+&lt;h2 id=&#34;asposecells---page-break-preview&#34;&gt;Aspose.Cells - Page Break Preview&lt;/h2&gt;
+&lt;p&gt;To append documents using &lt;strong&gt;Aspose.Cells Java for Jython&lt;/strong&gt;. Here you can see example code.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Jython Code&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;from aspose-cells import Settingsfrom com.aspose.cells import Workbookclass PageBreakPreview:    def __init__(self):        dataDir = Settings.dataDir + &amp;lsquo;WorkingWithWorksheets/PageBreakPreview/&amp;rsquo;             workbook = Workbook(dataDir + &amp;ldquo;Book1.xls&amp;rdquo;)                #Adding a new worksheet to the Workbook object        worksheets = workbook.getWorksheets()        worksheet = worksheets.get(0)        #Displaying the worksheet in page break preview        worksheet.setPageBreakPreview(True)        #Saving the modified Excel file in default format        workbook.save(dataDir + &amp;ldquo;output.xls&amp;rdquo;)        # Print message        print &amp;ldquo;Page break preview is enabled for sheet 1, please check the output document.&amp;rdquo; if __name__ == &amp;lsquo;__main__&#39;:            PageBreakPreview()&lt;/p&gt;
+&lt;h2 id=&#34;download-running-code&#34;&gt;Download Running Code&lt;/h2&gt;
+&lt;p&gt;Download &lt;strong&gt;Append Documents (Aspose.Cells)&lt;/strong&gt; from any of the below mentioned social coding sites:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://asposecellsjavajython.codeplex.com/SourceControl/latest#asposecells/WorkingWithWorksheets/PageBreakPreview.py&#34;&gt;CodePlex&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithWorksheets/PageBreakPreview.py&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Protecting Worksheet in Jython</title>
+      <link>https://roywangt.github.io/cells/java/plugins/jython/guide/worksheets/protecting&#43;worksheet&#43;in&#43;jython/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/plugins/jython/guide/worksheets/protecting&#43;worksheet&#43;in&#43;jython/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--protecting-worksheet-in-jython&#34;&gt;Aspose.Cells for Java : Protecting Worksheet in Jython&lt;/h1&gt;
+&lt;h2 id=&#34;asposecells---protecting-worksheet&#34;&gt;Aspose.Cells - Protecting Worksheet&lt;/h2&gt;
+&lt;p&gt;To append documents using &lt;strong&gt;Aspose.Cells Java for Jython&lt;/strong&gt;. Here you can see example code.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Jython Code&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;from aspose-cells import Settingsfrom com.aspose.cells import Workbookfrom com.aspose.cells import SaveFormatclass ProtectingWorksheet:    def __init__(self):        dataDir = Settings.dataDir + &amp;lsquo;WorkingWithWorksheets/ProtectingWorksheet/&amp;rsquo;                #Instantiating a Excel object by excel file path        excel = Workbook(dataDir + &amp;ldquo;Book1.xls&amp;rdquo;)        #Accessing the first worksheet in the Excel file        worksheets = excel.getWorksheets()        worksheet = worksheets.get(0)        protection = worksheet.getProtection()        #The following 3 methods are only for Excel 2000 and earlier formats        protection.setAllowEditingContent(False)        protection.setAllowEditingObject(False)        protection.setAllowEditingScenario(False)        #Protects the first worksheet with a password &amp;ldquo;1234&amp;rdquo;        protection.setPassword(&amp;ldquo;1234&amp;rdquo;)        #Saving the modified Excel file in default format        excel.save(dataDir + &amp;ldquo;output.xls&amp;rdquo;)        #Print Message        print &amp;ldquo;Sheet protected successfully.&amp;ldquo;if __name__ == &amp;lsquo;__main__&#39;:            ProtectingWorksheet()&lt;/p&gt;
+&lt;h2 id=&#34;download-running-code&#34;&gt;Download Running Code&lt;/h2&gt;
+&lt;p&gt;Download &lt;strong&gt;Append Documents (Aspose.Cells)&lt;/strong&gt; from any of the below mentioned social coding sites:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://asposecellsjavajython.codeplex.com/SourceControl/latest#asposecells/WorkingWithWorksheets/ProtectingWorksheet.py&#34;&gt;CodePlex&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithWorksheets/ProtectingWorksheet.py&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Removing Worksheets using Sheet Index in Jython</title>
+      <link>https://roywangt.github.io/cells/java/plugins/jython/guide/worksheets/removing&#43;worksheets&#43;using&#43;sheet&#43;index&#43;in&#43;jython/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/plugins/jython/guide/worksheets/removing&#43;worksheets&#43;using&#43;sheet&#43;index&#43;in&#43;jython/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--removing-worksheets-using-sheet-index-in-jython&#34;&gt;Aspose.Cells for Java : Removing Worksheets using Sheet Index in Jython&lt;/h1&gt;
+&lt;h2 id=&#34;asposecells---removing-worksheets-using-sheet-index&#34;&gt;Aspose.Cells - Removing Worksheets using Sheet Index&lt;/h2&gt;
+&lt;p&gt;To append documents using &lt;strong&gt;Aspose.Cells Java for Jython&lt;/strong&gt;. Here you can see example code.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Jython Code&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;from aspose-cells import Settingsfrom com.aspose.cells import Workbookfrom java.io import FileInputStream;class RemovingWorksheetsusingSheetIndex:    def __init__(self):        dataDir = Settings.dataDir + &amp;lsquo;WorkingWithWorksheets/RemovingWorksheetsusingSheetIndex/&amp;rsquo;                  fstream=FileInputStream(dataDir + &amp;ldquo;Book1.xls&amp;rdquo;);        #Instantiating a Workbook object with the stream        workbook = Workbook(fstream)        #Removing a worksheet using its sheet index        workbook.getWorksheets().removeAt(0)        #Saving the Excel file        workbook.save(dataDir + &amp;ldquo;book.out.xls&amp;rdquo;)        #Closing the file stream to free all resources        fstream.close()        #Print Message        print &amp;ldquo;Sheet removed successfully.&amp;ldquo;if __name__ == &amp;lsquo;__main__&#39;:            RemovingWorksheetsusingSheetIndex()&lt;/p&gt;
+&lt;h2 id=&#34;download-running-code&#34;&gt;Download Running Code&lt;/h2&gt;
+&lt;p&gt;Download &lt;strong&gt;Append Documents (Aspose.Cells)&lt;/strong&gt; from any of the below mentioned social coding sites:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://asposecellsjavajython.codeplex.com/SourceControl/latest#asposecells/WorkingWithWorksheets/RemovingWorksheetsusingSheetIndex.py&#34;&gt;CodePlex&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithWorksheets/RemovingWorksheetsusingSheetIndex.py&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Removing Worksheets using Sheet Name in Jython</title>
+      <link>https://roywangt.github.io/cells/java/plugins/jython/guide/worksheets/removing&#43;worksheets&#43;using&#43;sheet&#43;name&#43;in&#43;jython/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/plugins/jython/guide/worksheets/removing&#43;worksheets&#43;using&#43;sheet&#43;name&#43;in&#43;jython/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--removing-worksheets-using-sheet-name-in-jython&#34;&gt;Aspose.Cells for Java : Removing Worksheets using Sheet Name in Jython&lt;/h1&gt;
+&lt;h2 id=&#34;asposecells---removing-worksheets-using-sheet-name&#34;&gt;Aspose.Cells - Removing Worksheets using Sheet Name&lt;/h2&gt;
+&lt;p&gt;To append documents using &lt;strong&gt;Aspose.Cells Java for Jython&lt;/strong&gt;. Here you can see example code.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Jython Code&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;from aspose-cells import Settingsfrom com.aspose.cells import Workbookfrom java.io import FileInputStream;class RemovingWorksheetsusingSheetName:    def __init__(self):        dataDir = Settings.dataDir + &amp;lsquo;WorkingWithWorksheets/RemovingWorksheetsusingSheetName/&amp;rsquo;                  #Creating a file stream containing the Excel file to be opened        fstream = FileInputStream(dataDir + &amp;ldquo;Book1.xls&amp;rdquo;);        #Instantiating a Workbook object with the stream        workbook = Workbook(fstream);        #Removing a worksheet using its sheet name        workbook.getWorksheets().removeAt(&amp;ldquo;Sheet1&amp;rdquo;);        #Saving the Excel file        workbook.save(dataDir + &amp;ldquo;book.out.xls&amp;rdquo;);        #Closing the file stream to free all resources        fstream.close();        #Print Message        print &amp;ldquo;Sheet removed successfully.&amp;quot;;if __name__ == &amp;lsquo;__main__&#39;:            RemovingWorksheetsusingSheetName()&lt;/p&gt;
+&lt;h2 id=&#34;download-running-code&#34;&gt;Download Running Code&lt;/h2&gt;
+&lt;p&gt;Download &lt;strong&gt;Append Documents (Aspose.Cells)&lt;/strong&gt; from any of the below mentioned social coding sites:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://asposecellsjavajython.codeplex.com/SourceControl/latest#asposecells/WorkingWithWorksheets/RemovingWorksheetsusingSheetName.py&#34;&gt;CodePlex&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithWorksheets/RemovingWorksheetsusingSheetName.py&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Setting Page Options in Jython</title>
+      <link>https://roywangt.github.io/cells/java/plugins/jython/guide/worksheets/setting&#43;page&#43;options&#43;in&#43;jython/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/plugins/jython/guide/worksheets/setting&#43;page&#43;options&#43;in&#43;jython/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--setting-page-options-in-jython&#34;&gt;Aspose.Cells for Java : Setting Page Options in Jython&lt;/h1&gt;
+&lt;h2 id=&#34;asposecells---setting-page-options&#34;&gt;Aspose.Cells - Setting Page Options&lt;/h2&gt;
+&lt;p&gt;To append documents using &lt;strong&gt;Aspose.Cells Java for Jython&lt;/strong&gt;. Here you can see example code.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Jython Code&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;from aspose-cells import Settingsfrom com.aspose.cells import Workbookfrom com.aspose.cells import PageOrientationTypefrom java.io import FileInputStreamclass SettingPageOptions:    def __init__(self):                        self.page_orientation()        self.scaling()    def page_orientation(dataDir):                dataDir = Settings.dataDir + &amp;lsquo;WorkingWithWorksheets/SettingPageOptions/&amp;rsquo;        # Instantiating a Workbook object by excel file path        workbook = Workbook()        # Accessing the first worksheet in the Excel file        worksheets = workbook.getWorksheets()        sheet_index = worksheets.add()        sheet = worksheets.get(sheet_index)        # Setting the orientation to Portrait        page_setup = sheet.getPageSetup()        page_orientation_type = PageOrientationType        page_setup.setOrientation(page_orientation_type.PORTRAIT)        # Saving the modified Excel file in default (that is Excel 2003) format        workbook.save(dataDir + &amp;ldquo;Page Orientation.xls&amp;rdquo;)        print &amp;ldquo;Set page orientation, please check the output file.&amp;rdquo;        def scaling(dataDir):        dataDir = Settings.dataDir + &amp;lsquo;WorkingWithWorksheets/SettingPageOptions/&amp;rsquo;                # Instantiating a Workbook object by excel file path        workbook = Workbook(dataDir + &amp;lsquo;Book1.xls&amp;rsquo;)        # Accessing the first worksheet in the Excel file        worksheets = workbook.getWorksheets()        sheet_index = worksheets.add()        sheet = worksheets.get(sheet_index)        # Setting the scaling factor to 100        page_setup = sheet.getPageSetup()        page_setup.setZoom(100)        # Saving the modified Excel file in default (that is Excel 2003) format        workbook.save(dataDir + &amp;ldquo;Scaling.xls&amp;rdquo;)        print &amp;ldquo;Set scaling, please check the output file.&amp;ldquo;if __name__ == &amp;lsquo;__main__&#39;:            SettingPageOptions()&lt;/p&gt;
+&lt;h2 id=&#34;download-running-code&#34;&gt;Download Running Code&lt;/h2&gt;
+&lt;p&gt;Download &lt;strong&gt;Append Documents (Aspose.Cells)&lt;/strong&gt; from any of the below mentioned social coding sites:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://asposecellsjavajython.codeplex.com/SourceControl/latest#asposecells/WorkingWithWorksheets/SettingPageOptions.py&#34;&gt;CodePlex&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithWorksheets/SettingPageOptions.py&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Split Panes in Jython</title>
+      <link>https://roywangt.github.io/cells/java/plugins/jython/guide/worksheets/split&#43;panes&#43;in&#43;jython/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/plugins/jython/guide/worksheets/split&#43;panes&#43;in&#43;jython/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--split-panes-in-jython&#34;&gt;Aspose.Cells for Java : Split Panes in Jython&lt;/h1&gt;
+&lt;h2 id=&#34;asposecells---split-panes&#34;&gt;Aspose.Cells - Split Panes&lt;/h2&gt;
+&lt;p&gt;To append documents using &lt;strong&gt;Aspose.Cells Java for Jython&lt;/strong&gt;. Here you can see example code.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Jython Code&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;from aspose-cells import Settingsfrom com.aspose.cells import Workbookfrom com.aspose.cells import SaveFormatclass SplitPanes:    def __init__(self):        dataDir = Settings.dataDir + &amp;lsquo;WorkingWithWorksheets/SplitPanes/&amp;rsquo;                saveFormat = SaveFormat;             workbook = Workbook(dataDir + &amp;ldquo;Book1.xls&amp;rdquo;)        #Set the active cell        workbook.getWorksheets().get(0).setActiveCell(&amp;ldquo;A20&amp;rdquo;);        #Split the worksheet window        workbook.getWorksheets().get(0).split();        #Save the excel file        workbook.save(dataDir + &amp;ldquo;book.out.xls&amp;rdquo;, saveFormat.EXCEL_97_TO_2003);        #Print Message        print &amp;ldquo;Panes split successfully.&amp;ldquo;if __name__ == &amp;lsquo;__main__&#39;:            SplitPanes()&lt;/p&gt;
+&lt;h2 id=&#34;download-running-code&#34;&gt;Download Running Code&lt;/h2&gt;
+&lt;p&gt;Download &lt;strong&gt;Append Documents (Aspose.Cells)&lt;/strong&gt; from any of the below mentioned social coding sites:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://asposecellsjavajython.codeplex.com/SourceControl/latest#asposecells/WorkingWithWorksheets/SplitPanes.py&#34;&gt;CodePlex&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithWorksheets/SplitPanes.py&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Unprotecting Password Protected Worksheet in Jython</title>
+      <link>https://roywangt.github.io/cells/java/plugins/jython/guide/worksheets/unprotecting&#43;password&#43;protected&#43;worksheet&#43;in&#43;jython/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/plugins/jython/guide/worksheets/unprotecting&#43;password&#43;protected&#43;worksheet&#43;in&#43;jython/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--unprotecting-password-protected-worksheet-in-jython&#34;&gt;Aspose.Cells for Java : Unprotecting Password Protected Worksheet in Jython&lt;/h1&gt;
+&lt;h2 id=&#34;asposecells---append-documents&#34;&gt;Aspose.Cells - Append Documents&lt;/h2&gt;
+&lt;p&gt;To append documents using &lt;strong&gt;Aspose.Cells Java for Jython&lt;/strong&gt;. Here you can see example code.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Jython Code&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;from aspose-cells import Settingsfrom com.aspose.cells import Workbookfrom com.aspose.cells import SaveFormatfrom com.aspose.cells import FileFormatType;class UnprotectingPasswordProtectedWorksheet:    def __init__(self):        dataDir = Settings.dataDir + &amp;lsquo;WorkingWithWorksheets/UnprotectingPasswordProtectedWorksheet/&amp;rsquo;                filesFormatType = FileFormatType        #Instantiating a Workbook object        workbook = Workbook(dataDir + &amp;ldquo;book1.xls&amp;rdquo;)        worksheets = workbook.getWorksheets()        worksheet = worksheets.get(0)        protection = worksheet.getProtection()        #Unprotecting the worksheet with a password        worksheet.unprotect(&amp;ldquo;aspose&amp;rdquo;)        # Save the excel file.        workbook.save(dataDir + &amp;ldquo;output.xls&amp;rdquo;, filesFormatType.EXCEL_97_TO_2003)        #Print Message        print &amp;ldquo;Worksheet unprotected successfully.&amp;ldquo;if __name__ == &amp;lsquo;__main__&#39;:            UnprotectingPasswordProtectedWorksheet()&lt;/p&gt;
+&lt;h2 id=&#34;download-running-code&#34;&gt;Download Running Code&lt;/h2&gt;
+&lt;p&gt;Download &lt;strong&gt;Append Documents (Aspose.Cells)&lt;/strong&gt; from any of the below mentioned social coding sites:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://asposecellsjavajython.codeplex.com/SourceControl/latest#asposecells/WorkingWithWorksheets/UnprotectingPasswordProtectedWorksheet.py&#34;&gt;CodePlex&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithWorksheets/UnprotectingPasswordProtectedWorksheet.py&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Unprotecting Simply Protected Worksheet in Jython</title>
+      <link>https://roywangt.github.io/cells/java/plugins/jython/guide/worksheets/unprotecting&#43;simply&#43;protected&#43;worksheet&#43;in&#43;jython/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/plugins/jython/guide/worksheets/unprotecting&#43;simply&#43;protected&#43;worksheet&#43;in&#43;jython/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--unprotecting-simply-protected-worksheet-in-jython&#34;&gt;Aspose.Cells for Java : Unprotecting Simply Protected Worksheet in Jython&lt;/h1&gt;
+&lt;h2 id=&#34;asposecells---unprotecting-simply-protected-worksheet&#34;&gt;Aspose.Cells - Unprotecting Simply Protected Worksheet&lt;/h2&gt;
+&lt;p&gt;To append documents using &lt;strong&gt;Aspose.Cells Java for Jython&lt;/strong&gt;. Here you can see example code.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Jython Code&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;from aspose-cells import Settingsfrom com.aspose.cells import Workbookfrom com.aspose.cells import SaveFormatfrom com.aspose.cells import FileFormatTypeclass UnprotectingSimplyProtectedWorksheet:    def __init__(self):        dataDir = Settings.dataDir + &amp;lsquo;WorkingWithWorksheets/UnprotectingSimplyProtectedWorksheet/&amp;rsquo;                filesFormatType = FileFormatType        #Instantiating a Workbook object        workbook = Workbook(dataDir + &amp;ldquo;Book1.xls&amp;rdquo;)        worksheets = workbook.getWorksheets()        worksheet = worksheets.get(0)        protection = worksheet.getProtection()        #The following 3 methods are only for Excel 2000 and earlier formats        protection.setAllowEditingContent(False)        protection.setAllowEditingObject(False)        protection.setAllowEditingScenario(False)        #Unprotecting the worksheet        worksheet.unprotect()        # Save the excel file.        workbook.save(dataDir + &amp;ldquo;output.xls&amp;rdquo;, filesFormatType.EXCEL_97_TO_2003)        #Print Message        print &amp;ldquo;Worksheet unprotected successfully.&amp;ldquo;if __name__ == &amp;lsquo;__main__&#39;:            UnprotectingSimplyProtectedWorksheet()&lt;/p&gt;
+&lt;h2 id=&#34;download-running-code&#34;&gt;Download Running Code&lt;/h2&gt;
+&lt;p&gt;Download &lt;strong&gt;Append Documents (Aspose.Cells)&lt;/strong&gt; from any of the below mentioned social coding sites:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://asposecellsjavajython.codeplex.com/SourceControl/latest#asposecells/WorkingWithWorksheets/UnprotectingSimplyProtectedWorksheet.py&#34;&gt;CodePlex&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithWorksheets/UnprotectingSimplyProtectedWorksheet.py&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Zoom Factor in Jython</title>
+      <link>https://roywangt.github.io/cells/java/plugins/jython/guide/worksheets/zoom&#43;factor&#43;in&#43;jython/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/plugins/jython/guide/worksheets/zoom&#43;factor&#43;in&#43;jython/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--zoom-factor-in-jython&#34;&gt;Aspose.Cells for Java : Zoom Factor in Jython&lt;/h1&gt;
+&lt;h2 id=&#34;asposecells---zoom-factor&#34;&gt;Aspose.Cells - Zoom Factor&lt;/h2&gt;
+&lt;p&gt;To append documents using &lt;strong&gt;Aspose.Cells Java for Jython&lt;/strong&gt;. Here you can see example code.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Jython Code&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;from aspose-cells import Settingsfrom com.aspose.cells import Workbookfrom com.aspose.cells import SaveFormatclass ZoomFactor:    def __init__(self):        dataDir = Settings.dataDir + &amp;lsquo;WorkingWithWorksheets/ZoomFactor/&amp;rsquo;             workbook = Workbook(dataDir + &amp;ldquo;Book1.xls&amp;rdquo;)        #Accessing the first worksheet in the Excel file        worksheets = workbook.getWorksheets()        worksheet = worksheets.get(0)        #Setting the zoom factor of the worksheet to 75        worksheet.setZoom(75)        #Saving the modified Excel file in default format        workbook.save(dataDir + &amp;ldquo;output.xls&amp;rdquo;)        # Print message        print &amp;ldquo;Zoom factor set to 75% for sheet 1, please check the output document.&amp;ldquo;if __name__ == &amp;lsquo;__main__&#39;:            ZoomFactor()&lt;/p&gt;
+&lt;h2 id=&#34;download-running-code&#34;&gt;Download Running Code&lt;/h2&gt;
+&lt;p&gt;Download &lt;strong&gt;Append Documents (Aspose.Cells)&lt;/strong&gt; from any of the below mentioned social coding sites:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://asposecellsjavajython.codeplex.com/SourceControl/latest#asposecells/WorkingWithWorksheets/ZoomFactor.py&#34;&gt;CodePlex&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithWorksheets/ZoomFactor.py&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

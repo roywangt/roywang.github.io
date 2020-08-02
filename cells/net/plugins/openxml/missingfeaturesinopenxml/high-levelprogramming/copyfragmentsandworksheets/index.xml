@@ -1,0 +1,138 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Copy fragments and worksheets between Workbooks</title>
+    <link>https://roywangt.github.io/cells/net/plugins/openxml/missingfeaturesinopenxml/high-levelprogramming/copyfragmentsandworksheets/</link>
+    <description>Recent content in Copy fragments and worksheets between Workbooks on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://roywangt.github.io/cells/net/plugins/openxml/missingfeaturesinopenxml/high-levelprogramming/copyfragmentsandworksheets/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Net: Copy Worksheets between Workbooks</title>
+      <link>https://roywangt.github.io/cells/net/plugins/openxml/missingfeaturesinopenxml/high-levelprogramming/copyfragmentsandworksheets/copy&#43;worksheets&#43;between&#43;workbooks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/plugins/openxml/missingfeaturesinopenxml/high-levelprogramming/copyfragmentsandworksheets/copy&#43;worksheets&#43;between&#43;workbooks/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--copy-worksheets-between-workbooks&#34;&gt;Aspose.Cells for .NET : Copy Worksheets between Workbooks&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells provides a method, Aspose.Cells.Worksheet.Copy() used to copy data and formatting from a source worksheet to another worksheet within or between workbooks. The method takes the source worksheet object as a parameter.&lt;/p&gt;
+&lt;p&gt;The following example shows how to copy a worksheet from one workbook to another workbook.&lt;/p&gt;
+&lt;p&gt;string FilePath = @&amp;rdquo;..\..\..\Sample Files\&amp;quot;;string FileName = FilePath + &amp;ldquo;Copy Sheet between Workbook.xlsx&amp;rdquo;;//Create a new Workbook.Workbook excelWorkbook0 = new Workbook();//Get the first worksheet in the book.Worksheet ws0 = excelWorkbook0.Worksheets[0];//Put some data into header rows (A1:A4)for (int i = 0; i &amp;lt; 5; i++){    ws0.Cells[i, 0].PutValue(string.Format(&amp;ldquo;Header Row {0}&amp;rdquo;, i));}//Put some detail data (A5:A999)for (int i = 5; i &amp;lt; 1000; i++){    ws0.Cells[i, 0].PutValue(string.Format(&amp;ldquo;Detail Row {0}&amp;rdquo;, i));}//Define a pagesetup object based on the first worksheet.PageSetup pagesetup = ws0.PageSetup;//The first five rows are repeated in each page&amp;hellip;//It can be seen in print preview.pagesetup.PrintTitleRows = &amp;ldquo;$1:$5&amp;rdquo;;//Create another Workbook.Workbook excelWorkbook1 = new Workbook();//Get the first worksheet in the book.Worksheet ws1 = excelWorkbook1.Worksheets[0];//Name the worksheet.ws1.Name = &amp;ldquo;MySheet&amp;rdquo;;//Copy data from the first worksheet of the first workbook into the//first worksheet of the second workbook.ws1.Copy(ws0);//Save the excel file.excelWorkbook1.Save(FileName);&lt;/p&gt;
+&lt;h2 id=&#34;download-sample-code&#34;&gt;Download Sample Code&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://goo.gl/sbk9qP&#34;&gt;Codeplex&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/asposemarketplace/Aspose_for_OpenXML/releases/download/4/Copy.between.Workbooks.Aspose.Cells.zip&#34;&gt;Github&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Copy%20between%20Workbooks%20%28Aspose.Cells%29.zip&#34;&gt;Bitbucket&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The following example shows how to copy a worksheet from one workbook to another workbook.&lt;/p&gt;
+&lt;p&gt;//Create a new Workbook.Workbook excelWorkbook0 = new Workbook();//Get the first worksheet in the book.Worksheet ws0 = excelWorkbook0.Worksheets[0];//Put some data into header rows (A1:A4)for (int i = 0; i &amp;lt; 5; i++){	ws0.Cells[i, 0].PutValue(string.Format(&amp;ldquo;Header Row {0}&amp;rdquo;, i));}//Put some detail data (A5:A999)for (int i = 5; i &amp;lt; 1000; i++){	ws0.Cells[i, 0].PutValue(string.Format(&amp;ldquo;Detail Row {0}&amp;rdquo;, i));}//Define a pagesetup object based on the first worksheet.PageSetup pagesetup = ws0.PageSetup;//The first five rows are repeated in each page&amp;hellip;//It can be seen in print preview.pagesetup.PrintTitleRows = &amp;ldquo;$1:$5&amp;rdquo;;//Create another Workbook.Workbook excelWorkbook1 = new Workbook();//Get the first worksheet in the book.Worksheet ws1 = excelWorkbook1.Worksheets[0];//Name the worksheet.ws1.Name = &amp;ldquo;MySheet&amp;rdquo;;//Copy data from the first worksheet of the first workbook into the//first worksheet of the second workbook.ws1.Copy(ws0);//Save the excel file.excelWorkbook1.Save(&amp;ldquo;copyworksheet.xls&amp;rdquo;);&lt;/p&gt;
+&lt;h2 id=&#34;download-sample-code-1&#34;&gt;Download Sample Code&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://asposecellsopenxml.codeplex.com/releases/view/619160&#34;&gt;Codeplex&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1&#34;&gt;Github&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://code.msdn.microsoft.com/AsposeCells-Features-8fba7c3c&#34;&gt;Code.MSDN&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Copy%20Sheet%20between%20Workbook%20%28Aspose.Cells%29.zip&#34;&gt;Bitbucket&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Copy Worksheets within a Workbook</title>
+      <link>https://roywangt.github.io/cells/net/plugins/openxml/missingfeaturesinopenxml/high-levelprogramming/copyfragmentsandworksheets/copy&#43;worksheets&#43;within&#43;a&#43;workbook/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/plugins/openxml/missingfeaturesinopenxml/high-levelprogramming/copyfragmentsandworksheets/copy&#43;worksheets&#43;within&#43;a&#43;workbook/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--copy-worksheets-within-a-workbook&#34;&gt;Aspose.Cells for .NET : Copy Worksheets within a Workbook&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Aspose.Cells&lt;/strong&gt; provides an overloaded method, &lt;strong&gt;Aspose.Cells.WorksheetCollection.AddCopy()&lt;/strong&gt;, that is used to add a worksheet to the collection and copies data from an existing worksheet. One version of the method takes the index of the source worksheet as a parameter. The other version takes the name of the source worksheet as the parameter.&lt;/p&gt;
+&lt;p&gt;The following example shows how to copy an existing worksheet within a workbook.&lt;/p&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_5affa4def6&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_5affa4def6&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//Create a new Workbook.
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//Open an existing Excel file.
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Workbook&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;wb&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Workbook&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;ResultedBook.xls&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//Create a Worksheets object with reference to
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//the sheets of the Workbook.
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;WorksheetCollection&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;sheets&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;wb&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Worksheets&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//Copy data to a new sheet from an existing
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//sheet within the Workbook.
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;sheets&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;AddCopy&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;MySheet&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//Save the Excel file.
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;wb&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Save&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Copy Worksheet.xls&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;h2 id=&#34;download-sample-code&#34;&gt;Download Sample Code&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://asposecellsopenxml.codeplex.com/releases/view/619160&#34;&gt;Codeplex&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1&#34;&gt;Github&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://code.msdn.microsoft.com/AsposeCells-Features-8fba7c3c&#34;&gt;Code.MSDN&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Copy%20Worksheet%20%28Aspose.Cells%29.zip&#34;&gt;Bitbucket&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Move Worksheets within Workbook</title>
+      <link>https://roywangt.github.io/cells/net/plugins/openxml/missingfeaturesinopenxml/high-levelprogramming/copyfragmentsandworksheets/move&#43;worksheets&#43;within&#43;workbook/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/plugins/openxml/missingfeaturesinopenxml/high-levelprogramming/copyfragmentsandworksheets/move&#43;worksheets&#43;within&#43;workbook/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--move-worksheets-within-workbook&#34;&gt;Aspose.Cells for .NET : Move Worksheets within Workbook&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells provides a method, Aspose.Cells.Worksheet.MoveTo(), used to move a worksheet to another location in the spreadsheet. The method takes the target worksheet index as a parameter.&lt;/p&gt;
+&lt;p&gt;The following example shows how to move a worksheet to another location within the workbook.&lt;/p&gt;
+&lt;p&gt;string FilePath = @&amp;rdquo;..\..\..\Sample Files\&amp;quot;;string FileName = FilePath + &amp;ldquo;Move Worksheet.xlsx&amp;rdquo;;//Open an existing excel file.Workbook wb = new Workbook(FileName);//Create a Worksheets object with reference to//the sheets of the Workbook.WorksheetCollection sheets = wb.Worksheets;//Get the first worksheet.Worksheet worksheet = sheets[0];string test = worksheet.Name;//Move the first sheet to the third position in the workbook.worksheet.MoveTo(2);//Save the excel file.wb.Save(FileName);&lt;/p&gt;
+&lt;h2 id=&#34;download-sample-code&#34;&gt;Download Sample Code&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://asposecellsopenxml.codeplex.com/releases/view/619160&#34;&gt;Codeplex&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1&#34;&gt;Github&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://code.msdn.microsoft.com/AsposeCells-Features-8fba7c3c&#34;&gt;Code.MSDN&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Move%20Worksheet%20%28Aspose.Cells%29.zip&#34;&gt;Bitbucket&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

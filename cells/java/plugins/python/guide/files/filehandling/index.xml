@@ -1,0 +1,65 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – File Handling Features in Python</title>
+    <link>https://roywangt.github.io/cells/java/plugins/python/guide/files/filehandling/</link>
+    <description>Recent content in File Handling Features in Python on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://roywangt.github.io/cells/java/plugins/python/guide/files/filehandling/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Java: Opening Files in Python</title>
+      <link>https://roywangt.github.io/cells/java/plugins/python/guide/files/filehandling/opening&#43;files&#43;in&#43;python/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/plugins/python/guide/files/filehandling/opening&#43;files&#43;in&#43;python/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--opening-files-in-python&#34;&gt;Aspose.Cells for Java : Opening Files in Python&lt;/h1&gt;
+&lt;h2 id=&#34;asposecells---opening-files-in-python&#34;&gt;Aspose.Cells - Opening Files in Python&lt;/h2&gt;
+&lt;p&gt;To open a file using Aspose.Cells Java in Python, simply invoke the openfile() method of Document class and specify the second document to append at end.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Python Code&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;fileFormatType = self.FileFormatType# 1. Opening from path# Creatin an Workbook object with an Excel file pathworkbook1 = self.Workbook(self.dataDir + &amp;ldquo;Book1.xls&amp;rdquo;)print &amp;ldquo;Workbook opened using path successfully.&amp;quot;;# 2 Opening workbook from stream#Create a Stream objectfstream = self.FileInputStream(self.dataDir + &amp;ldquo;Book2.xls&amp;rdquo;)#Creating an Workbook object with the stream objectworkbook2 = self.Workbook(fstream)fstream.close()print (&amp;ldquo;Workbook opened using stream successfully.&amp;quot;);# 3.# Opening Microsoft Excel 97 Files#Createing and EXCEL_97_TO_2003 LoadOptions objectloadOptions1 = self.LoadOptions(fileFormatType.EXCEL_97_TO_2003)#Creating an Workbook object with excel 97 file path and the loadOptions objectworkbook3 = self.Workbook(self.dataDir + &amp;ldquo;Book_Excel97_2003.xls&amp;rdquo;, loadOptions1)# Print messageprint(&amp;ldquo;Excel 97 Workbook opened successfully.&amp;quot;);# 4.# Opening Microsoft Excel 2007 XLSX Files#Createing and XLSX LoadOptions objectloadOptions2 = self.LoadOptions(fileFormatType.XLSX)#Creating an Workbook object with 2007 xlsx file path and the loadOptions objectworkbook4 = self.Workbook(self.dataDir + &amp;ldquo;Book_Excel2007.xlsx&amp;rdquo;, loadOptions2)# Print messageprint (&amp;ldquo;Excel 2007 Workbook opened successfully.&amp;quot;)# 5.# Opening SpreadsheetML Files#Creating and EXCEL_2003_XML LoadOptions objectloadOptions3 = self.LoadOptions(fileFormatType.EXCEL_2003_XML)#Creating an Workbook object with SpreadsheetML file path and the loadOptions objectworkbook5 = self.Workbook(self.dataDir + &amp;ldquo;Book3.xml&amp;rdquo;, loadOptions3)# Print messageprint (&amp;ldquo;SpreadSheetML format workbook has been opened successfully.&amp;quot;);# 6.# Opening CSV Files#Creating and CSV LoadOptions objectloadOptions4 = self.LoadOptions(fileFormatType.CSV)#Creating an Workbook object with CSV file path and the loadOptions objectworkbook6 = self.Workbook(self.dataDir + &amp;ldquo;Book_CSV.csv&amp;rdquo;, loadOptions4)# Print messageprint (&amp;ldquo;CSV format workbook has been opened successfully.&amp;quot;)# 7.# Opening Tab Delimited Files# Creating and TAB_DELIMITED LoadOptions objectloadOptions5 = self.LoadOptions(fileFormatType.TAB_DELIMITED);# Creating an Workbook object with Tab Delimited text file path and the loadOptions objectworkbook7 = self.Workbook(self.dataDir + &amp;ldquo;Book1TabDelimited.txt&amp;rdquo;, loadOptions5)# Print messageprint(&amp;ldquo;&lt;br /&gt;&amp;rdquo;);print (&amp;ldquo;Tab Delimited workbook has been opened successfully.&amp;quot;);# 8.# Opening Encrypted Excel Files# Creating and EXCEL_97_TO_2003 LoadOptions objectloadOptions6 = self.LoadOptions(fileFormatType.EXCEL_97_TO_2003)# Setting the password for the encrypted Excel fileloadOptions6.setPassword(&amp;ldquo;1234&amp;rdquo;)# Creating an Workbook object with file path and the loadOptions objectworkbook8 = self.Workbook(self.dataDir + &amp;ldquo;encryptedBook.xls&amp;rdquo;, loadOptions6)# Print messageprint(&amp;ldquo;&lt;br /&gt;&amp;rdquo;);print (&amp;ldquo;Encrypted workbook has been opened successfully.&amp;quot;);&lt;/p&gt;
+&lt;h2 id=&#34;download-running-code&#34;&gt;Download Running Code&lt;/h2&gt;
+&lt;p&gt;Download &lt;strong&gt;Opening File (Aspose.Cells)&lt;/strong&gt; from any of the below mentioned social coding sites:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://asposecellsjavapython.codeplex.com/releases/view/620185&#34;&gt;CodePlex&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Saving Files in Python</title>
+      <link>https://roywangt.github.io/cells/java/plugins/python/guide/files/filehandling/saving&#43;files&#43;in&#43;python/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/plugins/python/guide/files/filehandling/saving&#43;files&#43;in&#43;python/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--saving-files-in-python&#34;&gt;Aspose.Cells for Java : Saving Files in Python&lt;/h1&gt;
+&lt;h2 id=&#34;asposecells---saving-files&#34;&gt;Aspose.Cells - Saving Files&lt;/h2&gt;
+&lt;h5 id=&#34;saving-file-to-some-location&#34;&gt;Saving file to some location&lt;/h5&gt;
+&lt;p&gt;If developers need to save their files using &lt;strong&gt;Aspose.Cells Java for Python&lt;/strong&gt; to some storage location then they can simply specify the file name (with its complete storage path) and desired file format (using the&lt;strong&gt;FileFormatType&lt;/strong&gt;enumeration) while calling the&lt;strong&gt;save&lt;/strong&gt;method of&lt;strong&gt;Workbook&lt;/strong&gt;object.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Python Code&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;fileFormatType = self.FileFormatType#Creating an Workbook object with an Excel file pathworkbook = self.Workbook(self.dataDir + &amp;ldquo;Book1.xls&amp;rdquo;)#Save in default (Excel2003) formatworkbook.save(self.dataDir + &amp;ldquo;book.default.out.xls&amp;rdquo;)#Save in Excel2003 formatworkbook.save(self.dataDir + &amp;ldquo;book.out.xls&amp;rdquo;, fileFormatType.EXCEL_97_TO_2003)#Save in Excel2007 xlsx formatworkbook.save(self.dataDir + &amp;ldquo;book.out.xlsx&amp;rdquo;, fileFormatType.XLSX)#Save in SpreadsheetML formatworkbook.save(self.dataDir + &amp;ldquo;book.out.xml&amp;rdquo;, fileFormatType.EXCEL_2003_XML)#Print Messageprint(&amp;ldquo;&lt;BR&gt;&amp;rdquo;)print(&amp;ldquo;Worksheets are saved successfully.&amp;quot;)&lt;/p&gt;
+&lt;p&gt;Download &lt;strong&gt;Saving File (Aspose.Cells)&lt;/strong&gt; from any of the below mentioned social coding sites:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://asposecellsjavapython.codeplex.com/releases/view/620185&#34;&gt;CodePlex&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

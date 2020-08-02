@@ -1,0 +1,572 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Rendering</title>
+    <link>https://roywangt.github.io/cells/net/developerguide/rendering/</link>
+    <description>Recent content in Rendering on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://roywangt.github.io/cells/net/developerguide/rendering/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Net: Add PDF Bookmarks</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/rendering/add&#43;pdf&#43;bookmarks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/rendering/add&#43;pdf&#43;bookmarks/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--add-pdf-bookmarks&#34;&gt;Aspose.Cells for .NET : Add PDF Bookmarks&lt;/h1&gt;
+&lt;p&gt;This article provides information on how to insert PDF bookmarks when converting a spreadsheet to PDF.&lt;/p&gt;
+&lt;p&gt;Aspose.Cells allows you to add bookmarks on the fly. PDF bookmarks can drastically improve the navigability of long documents. When adding bookmark links to PDF document, you can have precise control over the exact view you want, you&amp;rsquo;re not limited to linking to a page. You can set up the precise view by positioning the target page, and then create the bookmark.&lt;/p&gt;
+&lt;p&gt;Please see the following sample code to find out how to add PDF bookmarks. The code generates a simple workbook, specifies PDF bookmarks with destination locations and generates the PDF file.&lt;/p&gt;
+&lt;p&gt;If your spreadsheet has formulas, it is best to call &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/workbook/methods/calculateformula/index&#34;&gt;Workbook.CalculateFormula&lt;/a&gt; just before rendering the spreadsheet to PDF format. Doing so will ensure that the formula dependent values are refreshed &amp;amp; rendered correctly in PDF.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Add PDF Bookmarks with Named Destinations</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/rendering/add&#43;pdf&#43;bookmarks&#43;with&#43;named&#43;destinations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/rendering/add&#43;pdf&#43;bookmarks&#43;with&#43;named&#43;destinations/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--add-pdf-bookmarks-with-named-destinations&#34;&gt;Aspose.Cells for .NET : Add PDF Bookmarks with Named Destinations&lt;/h1&gt;
+
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#add-pdf-bookmarks-with-named-destinations&#34;&gt;Add PDF Bookmarks with Named Destinations&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;Named Destinations are special kinds of bookmarks or links in PDF that do not depend on PDF pages. It means, if pages are added or deleted from PDF, bookmarks may become invalid but named destinations will remain intact. To create Named Destination, please set the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.rendering/pdfbookmarkentry/properties/destinationname&#34;&gt;PdfBookmarkEntry.DestinationName&lt;/a&gt; property.&lt;/p&gt;
+&lt;h2 id=&#34;add-pdf-bookmarks-with-named-destinations&#34;&gt;Add PDF Bookmarks with Named Destinations&lt;/h2&gt;
+&lt;p&gt;Please see the following sample code, its &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/50270324/50528348.xlsx&#34;&gt;source Excel file&lt;/a&gt;, and its &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/50270324/50528349.pdf&#34;&gt;output PDF file&lt;/a&gt;. The screenshot shows the bookmarks and named destinations inside the output PDF. The screenshot also describes how to view Named Destinations and that you need Professional version of Acrobat Reader. &lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/50270324/50528350.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Avoid Blank Page in Output PDF when there is Nothing to Print</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/rendering/avoid&#43;blank&#43;page&#43;in&#43;output&#43;pdf&#43;when&#43;there&#43;is&#43;nothing&#43;to&#43;print/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/rendering/avoid&#43;blank&#43;page&#43;in&#43;output&#43;pdf&#43;when&#43;there&#43;is&#43;nothing&#43;to&#43;print/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--avoid-blank-page-in-output-pdf-when-there-is-nothing-to-print&#34;&gt;Aspose.Cells for .NET : Avoid Blank Page in Output PDF when there is Nothing to Print&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#avoid-blank-page-in-output-pdf-when-there-is-nothing-to-print&#34;&gt;Avoid Blank Page in Output PDF when there is Nothing to Print&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;4 &lt;a href=&#34;#exception&#34;&gt;Exception&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;When the Excel file is empty and the user saves it to PDF using Aspose.Cells, it renders a blank page in output PDF. Sometimes, this default behavior is undesirable. Aspose.Cells provides the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/pdfsaveoptions/properties/outputblankpagewhennothingtoprint&#34;&gt;PdfSaveOptions.OutputBlankPageWhenNothingToPrint&lt;/a&gt; property to deal with this issue. If you will set it as &lt;strong&gt;false&lt;/strong&gt;, then &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/cellsexception&#34;&gt;CellsException&lt;/a&gt; will occur whenever there is nothing to print in the output PDF.&lt;/p&gt;
+&lt;h2 id=&#34;avoid-blank-page-in-output-pdf-when-there-is-nothing-to-print&#34;&gt;Avoid Blank Page in Output PDF when there is Nothing to Print&lt;/h2&gt;
+&lt;p&gt;The following sample code creates an empty workbook and then saves it as PDF after setting the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/pdfsaveoptions/properties/outputblankpagewhennothingtoprint&#34;&gt;PdfSaveOptions.OutputBlankPageWhenNothingToPrint&lt;/a&gt; property as &lt;strong&gt;false&lt;/strong&gt;. Since there is nothing to print in the output PDF, the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/cellsexception&#34;&gt;CellsException&lt;/a&gt; occurs as shown below.&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+&lt;h2 id=&#34;exception&#34;&gt;Exception&lt;/h2&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_375870e68c&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_375870e68c&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Aspose&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Cells&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;CellsException&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;was&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;unhandled&lt;/span&gt;
+  &lt;span style=&#34;color:#000&#34;&gt;HResult&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=-&lt;/span&gt;&lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;2146232832&lt;/span&gt;
+  &lt;span style=&#34;color:#000&#34;&gt;Message&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;There&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;is&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;nothing&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;to&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;output&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;/&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;print&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;
+  &lt;span style=&#34;color:#000&#34;&gt;Source&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Aspose&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Cells&lt;/span&gt;
+  &lt;span style=&#34;color:#000&#34;&gt;StackTrace&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt;
+       &lt;span style=&#34;color:#000&#34;&gt;at&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Aspose&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Cells&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Workbook&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Save&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;String&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;fileName&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;SaveOptions&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;saveOptions&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Control loading of External Resources in MS Excel Workbook while rendering to PDF</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/rendering/control&#43;loading&#43;of&#43;external&#43;resources&#43;in&#43;ms&#43;excel&#43;workbook&#43;while&#43;rendering&#43;to&#43;pdf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/rendering/control&#43;loading&#43;of&#43;external&#43;resources&#43;in&#43;ms&#43;excel&#43;workbook&#43;while&#43;rendering&#43;to&#43;pdf/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--control-loading-of-external-resources-in-ms-excel-workbook-while-rendering-to-pdf&#34;&gt;Aspose.Cells for .NET : Control loading of External Resources in MS Excel Workbook while rendering to PDF&lt;/h1&gt;
+
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#control-loading-of-external-resources-in-ms-excel-workbook-while-rendering-to-pdf&#34;&gt;Control loading of External Resources in MS Excel Workbook while rendering to PDF&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;Your Excel file may contain external resources e.g. linked images or objects. When you convert your Excel file to PDF, Aspose.Cells retrieves these external resources and renders them to PDF. But sometimes, you do not want to load these external resources and more than that, you want to manipulate them. You can do this using &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/workbooksettings/properties/streamprovider&#34;&gt;WorkbookSettings.StreamProvider&lt;/a&gt; which implements the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/istreamprovider&#34;&gt;IStreamProvider&lt;/a&gt; interface.&lt;/p&gt;
+&lt;h2 id=&#34;control-loading-of-external-resources-in-ms-excel-workbook-while-rendering-to-pdf&#34;&gt;Control loading of External Resources in MS Excel Workbook while rendering to PDF&lt;/h2&gt;
+&lt;p&gt;The following sample code explains how to make use of &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/workbooksettings/properties/streamprovider&#34;&gt;WorkbookSettings.StreamProvider&lt;/a&gt; to control the loading of external resources and manipulate them. Please check the &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/50270177/50528322.xlsx&#34;&gt;sample Excel file&lt;/a&gt; used inside the code and the &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/50270177/50528325.pdf&#34;&gt;output PDF&lt;/a&gt; generated by the code. The &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/50270177/50528326.png&#34;&gt;screenshot&lt;/a&gt; shows how the &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/50270177/50528324.png&#34;&gt;old external image&lt;/a&gt; in the sample Excel file was replaced with a &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/50270177/50528323.png&#34;&gt;new image&lt;/a&gt; in the output PDF.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/50270177/50528326.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Create PdfBookmarkEntry for Chart Sheet</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/rendering/create&#43;pdfbookmarkentry&#43;for&#43;chart&#43;sheet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/rendering/create&#43;pdfbookmarkentry&#43;for&#43;chart&#43;sheet/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--create-pdfbookmarkentry-for-chart-sheet&#34;&gt;Aspose.Cells for .NET : Create PdfBookmarkEntry for Chart Sheet&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#create-pdfbookmarkentry-for-chart-sheet&#34;&gt;Create PdfBookmarkEntry for Chart Sheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;Earlier, Aspose.Cells would create &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.rendering/pdfbookmarkentry&#34;&gt;PdfBookmarkEntry&lt;/a&gt; for a normal sheet. But now Aspose.Cells can also create &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.rendering/pdfbookmarkentry&#34;&gt;PdfBookmarkEntry&lt;/a&gt; for chart sheet. Since chart sheet does not have any other cell except cell A1, so it will create &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.rendering/pdfbookmarkentry&#34;&gt;PdfBookmarkEntry&lt;/a&gt; for cell A1 only. &lt;/p&gt;
+&lt;h2 id=&#34;create-pdfbookmarkentry-for-chart-sheet&#34;&gt;Create PdfBookmarkEntry for Chart Sheet&lt;/h2&gt;
+&lt;p&gt;The following sample code loads the &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/61540691/61767756.xlsx&#34;&gt;sample Excel file&lt;/a&gt; which has four sheets. Two of them are normal sheets and the other two are chart sheets. It creates four bookmark entries as follows&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Bookmark-I&lt;/li&gt;
+&lt;li&gt;Bookmark-II-Chart1&lt;/li&gt;
+&lt;li&gt;Bookmark-III&lt;/li&gt;
+&lt;li&gt;Bookmark-IV-Chart2&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The following screenshot shows the &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/61540691/61767757.pdf&#34;&gt;output PDF&lt;/a&gt; generated by the sample code for a reference.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/61540691/61767758.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Export Range of Cells in a Worksheet to Image</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/rendering/export&#43;range&#43;of&#43;cells&#43;in&#43;a&#43;worksheet&#43;to&#43;image/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/rendering/export&#43;range&#43;of&#43;cells&#43;in&#43;a&#43;worksheet&#43;to&#43;image/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--export-range-of-cells-in-a-worksheet-to-image&#34;&gt;Aspose.Cells for .NET : Export Range of Cells in a Worksheet to Image&lt;/h1&gt;
+
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#export-range-of-cells-in-a-worksheet-to-image&#34;&gt;Export Range of Cells in a Worksheet to Image&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#screenshot-of-sample-excel-file-and-its-exported-image&#34;&gt;Screenshot of Sample Excel File and its Exported Image&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;4 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;You can make an image of a worksheet using Aspose.Cells. However, sometimes you need to export only a range of cells in a worksheet to an image. This article explains how to achieve this.&lt;/p&gt;
+&lt;h2 id=&#34;export-range-of-cells-in-a-worksheet-to-image&#34;&gt;Export Range of Cells in a Worksheet to Image&lt;/h2&gt;
+&lt;p&gt;To take an image of a range, set the print area to the desired range and then set all margins to 0. Also set &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.rendering/imageorprintoptions/properties/onepagepersheet&#34;&gt;ImageOrPrintOptions.OnePagePerSheet&lt;/a&gt; to &lt;strong&gt;true&lt;/strong&gt;. The following code takes an image of the range D8:G16. Below is a screenshot of the &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/5017499/47153160.xlsx&#34;&gt;sample Excel file&lt;/a&gt; used in the code. You can try the code with any Excel file.&lt;/p&gt;
+&lt;h2 id=&#34;screenshot-of-sample-excel-file-and-its-exported-image&#34;&gt;Screenshot of Sample Excel File and its Exported Image&lt;/h2&gt;
+&lt;p&gt;**&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5017499/47153157.png&#34; alt=&#34;&#34;&gt;&lt;br&gt;
+**&lt;/p&gt;
+&lt;p&gt;Executing the code creates an image of the range D8:G16 only.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;img src=&#34;download/thumbnails/5017499/1575420641&#34; alt=&#34;&#34;&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Get DrawObject and Bound while rendering to Pdf using DrawObjectEventHandler class</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/rendering/get&#43;drawobject&#43;and&#43;bound&#43;while&#43;rendering&#43;to&#43;pdf&#43;using&#43;drawobjecteventhandler&#43;class/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/rendering/get&#43;drawobject&#43;and&#43;bound&#43;while&#43;rendering&#43;to&#43;pdf&#43;using&#43;drawobjecteventhandler&#43;class/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--get-drawobject-and-bound-while-rendering-to-pdf-using-drawobjecteventhandler-class&#34;&gt;Aspose.Cells for .NET : Get DrawObject and Bound while rendering to Pdf using DrawObjectEventHandler class&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#get-drawobject-and-bound-while-rendering-to-pdf-using-drawobjecteventhandler-class&#34;&gt;Get DrawObject and Bound while rendering to Pdf using DrawObjectEventHandler class&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;4 &lt;a href=&#34;#console-output&#34;&gt;Console Output&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;Aspose.Cells provides an abstract class &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.rendering/drawobjecteventhandler&#34;&gt;DrawObjectEventHandler&lt;/a&gt; which has a &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.rendering/drawobjecteventhandler/methods/draw&#34;&gt;Draw()&lt;/a&gt; method. The user can implement &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.rendering/drawobjecteventhandler&#34;&gt;DrawObjectEventHandler&lt;/a&gt; and utilize the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.rendering/drawobjecteventhandler/methods/draw&#34;&gt;Draw()&lt;/a&gt; method to get the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.rendering/drawobject&#34;&gt;DrawObject&lt;/a&gt; and Bound while rendering Excel to PDF or Image. Here is a brief description of the parameters of the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.rendering/drawobjecteventhandler/methods/draw&#34;&gt;Draw()&lt;/a&gt; method.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;drawObject&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.rendering/drawobject&#34;&gt;DrawObject&lt;/a&gt; will be initialized and returned when rendering&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;x&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Left of &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.rendering/drawobject&#34;&gt;DrawObject&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;y&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Top of &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.rendering/drawobject&#34;&gt;DrawObject&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;width&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Width of &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.rendering/drawobject&#34;&gt;DrawObject&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;height&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Height of &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.rendering/drawobject&#34;&gt;DrawObject&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;If you are rendering Excel file to PDF, then you can utilize &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.rendering/drawobjecteventhandler&#34;&gt;DrawObjectEventHandler&lt;/a&gt; class with &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/pdfsaveoptions/properties/drawobjecteventhandler&#34;&gt;PdfSaveOptions.DrawObjectEventHandler&lt;/a&gt;. Similarly, if you are rendering Excel file to Image, you can utilize &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.rendering/drawobjecteventhandler&#34;&gt;DrawObjectEventHandler&lt;/a&gt; class with &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.rendering/imageorprintoptions/properties/drawobjecteventhandler&#34;&gt;ImageOrPrintOptions.DrawObjectEventHandler&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;get-drawobject-and-bound-while-rendering-to-pdf-using-drawobjecteventhandler-class&#34;&gt;Get DrawObject and Bound while rendering to Pdf using DrawObjectEventHandler class&lt;/h2&gt;
+&lt;p&gt;Please see the following sample code. It loads the &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/64454877/64716821.xlsx&#34;&gt;sample Excel file&lt;/a&gt; and saves it as &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/64454877/64716822.pdf&#34;&gt;output PDF&lt;/a&gt;. While rendering to PDF, it utilizes &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/pdfsaveoptions/properties/drawobjecteventhandler&#34;&gt;PdfSaveOptions.DrawObjectEventHandler&lt;/a&gt; property and captures the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.rendering/drawobject&#34;&gt;DrawObject&lt;/a&gt; and Bound of existing cells and objects e.g. images etc. If the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.rendering/drawobject&#34;&gt;DrawObject&lt;/a&gt; type is Cell, it prints its Bound and StringValue. And if the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.rendering/drawobject&#34;&gt;DrawObject&lt;/a&gt; type is Image, it prints its Bound and Shape Name. Please see the console output of the sample code given below for more help.&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+&lt;h2 id=&#34;console-output&#34;&gt;Console Output&lt;/h2&gt;
+&lt;p&gt;[X]: 153.6035 [Y]: 82.94118 [Width]: 103.2035 [Height]: 14.47059 [Cell Value]: This is sample text.&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-[X]: 267.6917 [Y]: 153.4853 [Width]: 160.4491 [Height]: 128.0647 [Shape Name]: Sun&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Ignore Errors while Rendering Excel to PDF</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/rendering/ignore&#43;errors&#43;while&#43;rendering&#43;excel&#43;to&#43;pdf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/rendering/ignore&#43;errors&#43;while&#43;rendering&#43;excel&#43;to&#43;pdf/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--ignore-errors-while-rendering-excel-to-pdf&#34;&gt;Aspose.Cells for .NET : Ignore Errors while Rendering Excel to PDF&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#ignore-errors-while-rendering-excel-to-pdf&#34;&gt;Ignore Errors while Rendering Excel to PDF&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;Sometimes when you convert your Excel file to PDF, errors or exceptions occur and the conversion process terminates. You can ignore all such errors during the conversion process by using the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/pdfsaveoptions/properties/ignoreerror&#34;&gt;PdfSaveOptions.IgnoreError&lt;/a&gt; property. This way, the conversion process will complete smoothly without throwing any error or exception but the loss of data may occur. Therefore, please use this property only if the loss of data is not critical for you.&lt;/p&gt;
+&lt;h2 id=&#34;ignore-errors-while-rendering-excel-to-pdf&#34;&gt;Ignore Errors while Rendering Excel to PDF&lt;/h2&gt;
+&lt;p&gt;The following code loads the &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/54690010/55541778.xlsx&#34;&gt;sample Excel file&lt;/a&gt; but the sample Excel file is erroneous and throws an error during &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/54690010/55541779.pdf&#34;&gt;conversion to PDF&lt;/a&gt; in 17.11 but since we are using &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/pdfsaveoptions/properties/ignoreerror&#34;&gt;PdfSaveOptions.IgnoreError&lt;/a&gt; property, it does not throw an error. However, one &lt;em&gt;rounded red arrow like shape&lt;/em&gt; as shown in this screenshot is lost. &lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/54690010/55541780.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Output Blank Page when there is Nothing to Print</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/rendering/output&#43;blank&#43;page&#43;when&#43;there&#43;is&#43;nothing&#43;to&#43;print/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/rendering/output&#43;blank&#43;page&#43;when&#43;there&#43;is&#43;nothing&#43;to&#43;print/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--output-blank-page-when-there-is-nothing-to-print&#34;&gt;Aspose.Cells for .NET : Output Blank Page when there is Nothing to Print&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#output-blank-page-when-there-is-nothing-to-print&#34;&gt;Output Blank Page when there is Nothing to Print&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;If the sheet is empty, then Aspose.Cells will not print anything when you export worksheet to image. You can change this behavior by using &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.rendering/imageorprintoptions/properties/outputblankpagewhennothingtoprint&#34;&gt;ImageOrPrintOptions.OutputBlankPageWhenNothingToPrint&lt;/a&gt; property. When you will set it &lt;strong&gt;true&lt;/strong&gt;, it will print the blank page.&lt;/p&gt;
+&lt;h2 id=&#34;output-blank-page-when-there-is-nothing-to-print&#34;&gt;Output Blank Page when there is Nothing to Print&lt;/h2&gt;
+&lt;p&gt;The following sample code creates the empty workbook which has an empty worksheet and renders the empty worksheet to an image after setting the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.rendering/imageorprintoptions/properties/outputblankpagewhennothingtoprint&#34;&gt;ImageOrPrintOptions.OutputBlankPageWhenNothingToPrint&lt;/a&gt; property as &lt;strong&gt;true&lt;/strong&gt;. Consequently, it generates the blank page as there is nothing to print which you can see in the image below.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/50266174/50528263.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Render Office Add-Ins while converting Excel to Pdf</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/rendering/render&#43;office&#43;add-ins&#43;while&#43;converting&#43;excel&#43;to&#43;pdf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/rendering/render&#43;office&#43;add-ins&#43;while&#43;converting&#43;excel&#43;to&#43;pdf/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--render-office-add-ins-while-converting-excel-to-pdf&#34;&gt;Aspose.Cells for .NET : Render Office Add-Ins while converting Excel to Pdf&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#render-office-add-ins-while-converting-excel-to-pdf&#34;&gt;Render Office Add-Ins while converting Excel to Pdf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;Earlier, Aspose.Cells could not render Office Add-Ins when Excel file is saved to Pdf format. Now Aspose.Cells renders it fine. You do not need to use any special method or property to render Office Add-Ins in output Pdf. Just save your Excel file to Pdf format and it will render Office Add-Ins.&lt;/p&gt;
+&lt;h2 id=&#34;render-office-add-ins-while-converting-excel-to-pdf&#34;&gt;Render Office Add-Ins while converting Excel to Pdf&lt;/h2&gt;
+&lt;p&gt;The following sample code saves the &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/60229062/60489769.xlsx&#34;&gt;sample Excel file&lt;/a&gt; which contains the Office Add-Ins. Please see the &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/60229062/60489770.pdf&#34;&gt;output Pdf generated with the previous version i.e. 17.11&lt;/a&gt; and the &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/60229062/60489771.pdf&#34;&gt;output Pdf generated with newer version i.e. 17.12 and onward&lt;/a&gt;. The previous version output Pdf is blank but the newer version output Pdf shows the Office Add-In.&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Render Sequence of Pages using PageIndex and PageCount Properties of ImageOrPrintOptions</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/rendering/render&#43;sequence&#43;of&#43;pages&#43;using&#43;pageindex&#43;and&#43;pagecount&#43;properties&#43;of&#43;imageorprintoptions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/rendering/render&#43;sequence&#43;of&#43;pages&#43;using&#43;pageindex&#43;and&#43;pagecount&#43;properties&#43;of&#43;imageorprintoptions/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--render-sequence-of-pages-using-pageindex-and-pagecount-properties-of-imageorprintoptions&#34;&gt;Aspose.Cells for .NET : Render Sequence of Pages using PageIndex and PageCount Properties of ImageOrPrintOptions&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#render-sequence-of-pages-using-pageindex-and-pagecount-properties-of-imageorprintoptions&#34;&gt;Render Sequence of Pages using PageIndex and PageCount Properties of ImageOrPrintOptions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;You can render a sequence of pages of your Excel file to images by using Aspose.Cells with &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.rendering/imageorprintoptions/properties/pageindex&#34;&gt;ImageOrPrintOptions.PageIndex&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.rendering/imageorprintoptions/properties/pagecount&#34;&gt;ImageOrPrintOptions.PageCount&lt;/a&gt; properties. These properties are useful when there are so many e.g. thousands of pages in your worksheet but you want to render some of them only. This will not only save the processing time but will also save the memory consumption of the rendering process.&lt;/p&gt;
+&lt;h2 id=&#34;render-sequence-of-pages-using-pageindex-and-pagecount-properties-of-imageorprintoptions&#34;&gt;Render Sequence of Pages using PageIndex and PageCount Properties of ImageOrPrintOptions&lt;/h2&gt;
+&lt;p&gt;The following sample code loads the &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/54690103/55541781.xlsx&#34;&gt;sample Excel file&lt;/a&gt; and renders only pages&lt;code&gt; 4, 5, 6 and 7&lt;/code&gt; using the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.rendering/imageorprintoptions/properties/pageindex&#34;&gt;ImageOrPrintOptions.PageIndex&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.rendering/imageorprintoptions/properties/pagecount&#34;&gt;ImageOrPrintOptions.PageCount&lt;/a&gt; properties. Here are the rendered pages generated by the code.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/thumbnails/54690103/55541783&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/thumbnails/54690103/55541784&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/thumbnails/54690103/55541785&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/thumbnails/54690103/55541782&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Specify how to cross string in output PDF and image</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/rendering/specify&#43;how&#43;to&#43;cross&#43;string&#43;in&#43;output&#43;pdf&#43;and&#43;image/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/rendering/specify&#43;how&#43;to&#43;cross&#43;string&#43;in&#43;output&#43;pdf&#43;and&#43;image/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--specify-how-to-cross-string-in-output-pdf-and-image&#34;&gt;Aspose.Cells for .NET : Specify how to cross string in output PDF and image&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#specify-how-to-cross-string-in-output-pdf/image-using-textcrosstype&#34;&gt;Specify how to cross string in output PDF/Image using TextCrossType&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;When a cell contains text or string but it is larger than the width of the cell, then the string overflows if the next cell in the next column is null or empty. When you save your Excel file into PDF/Image, you can control this overflow by specifying the cross type using the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/textcrosstype&#34;&gt;TextCrossType&lt;/a&gt; enumeration. It has the following values&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;TextCrossType.Default&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Display text like MS Excel which depends on the next cell. If the next cell is null, the string will cross or it will be truncated.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;TextCrossType.CrossKeep&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Display the string like MS Excel exporting PDF/Image&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;TextCrossType.CrossOverride&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Display all the text by crossing other cells and override the text of crossed cells&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;TextCrossType.StrictInCell&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Only display the string within the width of the cell.&lt;/p&gt;
+&lt;h2 id=&#34;specify-how-to-cross-string-in-output-pdfimage-using-textcrosstype&#34;&gt;Specify how to cross string in output PDF/Image using TextCrossType&lt;/h2&gt;
+&lt;p&gt;The following sample code loads the sample Excel file and saves it to PDF/Image format by specifying different &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/textcrosstype&#34;&gt;TextCrossType&lt;/a&gt;. The sample Excel file and output files can be downloaded from the following links:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/81690955/81920905.xlsx&#34;&gt;sampleCrossType.xlsx&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/81690955/81920903.pdf&#34;&gt;outputCrossType.pdf&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/81690955/81920904.png&#34;&gt;outputCrossType.png&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Sample Code&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,673 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Working with GridWeb Cells</title>
+    <link>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridwebcells/</link>
+    <description>Recent content in Working with GridWeb Cells on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridwebcells/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Net: Access Worksheet Cells</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridwebcells/access&#43;worksheet&#43;cells/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridwebcells/access&#43;worksheet&#43;cells/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--access-worksheet-cells&#34;&gt;Aspose.Cells for .NET : Access Worksheet Cells&lt;/h1&gt;
+&lt;p&gt;This topic discusses cells, looking at Aspose.Cells.GridWeb&amp;rsquo;s most basic feature: accessing cells.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#accessing-cells-in-a-worksheet&#34;&gt;Accessing Cells in a Worksheet&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#using-cell-name&#34;&gt;Using Cell Name&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.2 &lt;a href=&#34;#using-row-&amp;amp;-column-indices&#34;&gt;Using Row &amp;amp; Column Indices&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;accessing-cells-in-a-worksheet&#34;&gt;Accessing Cells in a Worksheet&lt;/h2&gt;
+&lt;p&gt;Each worksheet contains a property by the name of &lt;code&gt;Cells&lt;/code&gt; that is actually a collection of &lt;code&gt;GridCell&lt;/code&gt; objects where a &lt;code&gt;GridCell&lt;/code&gt; object represents a cell in Aspose.Cells.GridWeb. It is possible to access any cell using Aspose.Cells.GridWeb. There are two preferred methods, each of which is discussed below.&lt;/p&gt;
+&lt;h3 id=&#34;using-cell-name&#34;&gt;Using Cell Name&lt;/h3&gt;
+&lt;p&gt;All cells have a unique name. For example, A1, A2, B1, B2 etc. Aspose.Cells.GridWeb allows developers to access any desired cell by using the cell name. Simply pass the cell name (as an index) to the &lt;code&gt;Cells&lt;/code&gt; collection of the &lt;code&gt;GridWorksheet&lt;/code&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;using-row--column-indices&#34;&gt;Using Row &amp;amp; Column Indices&lt;/h3&gt;
+&lt;p&gt;A cell can also be recognized by its location in terms of row and column indices. Just pass a cell&amp;rsquo;s row and column indices to the &lt;code&gt;Cells&lt;/code&gt; collection of the &lt;code&gt;GridWorksheet&lt;/code&gt;. This approach is more faster than the above one.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Access and Modify Cell Values</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridwebcells/access&#43;and&#43;modify&#43;cell&#43;values/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridwebcells/access&#43;and&#43;modify&#43;cell&#43;values/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--access-and-modify-cell-values&#34;&gt;Aspose.Cells for .NET : Access and Modify Cell Values&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/gridweb/workingwithgridwebcells/access+worksheet+cells&#34;&gt;Access Worksheet Cells&lt;/a&gt; discussed accessing cells. This topic extends that discussion to show how to access and modify cell values using the Aspose.Cells.GridWeb API.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#accessing-&amp;amp;-modifying-a-cell&#39;s-value&#34;&gt;Accessing &amp;amp; Modifying a Cell&amp;rsquo;s Value&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#string-values&#34;&gt;String Values&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.2 &lt;a href=&#34;#all-types-of-values&#34;&gt;All Types of Values&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;accessing--modifying-a-cells-value&#34;&gt;Accessing &amp;amp; Modifying a Cell&amp;rsquo;s Value&lt;/h2&gt;
+&lt;h3 id=&#34;string-values&#34;&gt;String Values&lt;/h3&gt;
+&lt;p&gt;Before accessing and modifying the value of a cell, you need to know how to access cells. For details about the different approaches for accessing cells, refer to &lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/gridweb/workingwithgridwebcells/access+worksheet+cells&#34;&gt;Access Worksheet Cells&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Each cell has a property named &lt;code&gt;StringValue&lt;/code&gt;. Once a cell is accessed, developers can use the &lt;code&gt;StringValue&lt;/code&gt; property to access the cells string value. To modify cell values, a special method &lt;code&gt;PutValue&lt;/code&gt; is provided, which can be used to update the cell&amp;rsquo;s string value.&lt;/p&gt;
+&lt;h3 id=&#34;all-types-of-values&#34;&gt;All Types of Values&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;PutValue&lt;/code&gt; method of a cell&amp;rsquo;s object has 8 overloads available which can be used to modify any type of value (Boolean, int, double, DateTime and string) in a cell.&lt;/p&gt;
+&lt;p&gt;There is also an overloaded version of the &lt;code&gt;PutValue&lt;/code&gt; method that can take any kind of value in string format and convert it to a proper data type automatically. To make it happen, pass the Boolean value &lt;code&gt;true&lt;/code&gt; to another parameter of the &lt;code&gt;PutValue&lt;/code&gt; method as shown below in the example.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Add Cell Formulas</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridwebcells/add&#43;cell&#43;formulas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridwebcells/add&#43;cell&#43;formulas/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--add-cell-formulas&#34;&gt;Aspose.Cells for .NET : Add Cell Formulas&lt;/h1&gt;
+&lt;p&gt;The most valuable feature offered by Aspose.Cells.GridWeb is support for formulas or functions. Aspose.Cells.GridWeb has its own Formula Engine that calculates the formulas in worksheets. Aspose.Cells.GridWeb supports both in-built and user-defined functions or formulas. This topic discusses adding formulas to cells using Aspose.Cells.GridWeb API in detail.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#adding-formulas-to-cells&#34;&gt;Adding Formulas to Cells&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#how-to-add-&amp;amp;-calculate-a-formula?&#34;&gt;How to Add &amp;amp; Calculate a Formula?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.2 &lt;a href=&#34;#referencing-cells-from-other-worksheets&#34;&gt;Referencing Cells from Other Worksheets&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;adding-formulas-to-cells&#34;&gt;Adding Formulas to Cells&lt;/h2&gt;
+&lt;h3 id=&#34;how-to-add--calculate-a-formula&#34;&gt;How to Add &amp;amp; Calculate a Formula?&lt;/h3&gt;
+&lt;p&gt;It is possible to add, access and modify formulas in cells by using a cell&amp;rsquo;s &lt;code&gt;Formula&lt;/code&gt; property. Aspose.Cells.GridWeb supports user-defined formulas ranging from simple to complex. However, a large number of built-in functions or formulas (similar to Microsoft Excel) are also supplied with Aspose.Cells.GridWeb. To see the full list of built-in functions, please refer to this &lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/knowledgebase/formulacalculationengine/apsclsgridcontrols/list+of+supported+functions&#34;&gt;list of supported functions.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The formula syntax should be compatible with Microsoft Excel syntax. For example, all formulas must begin with an equal sign (=).&lt;/p&gt;
+&lt;p&gt;To add a formula dynamically, Aspose.Cells.GridWeb will recognize it as a formula even if you don&amp;rsquo;t use an &lt;strong&gt;=&lt;/strong&gt; sign, but if end users working in the GUI, he must use the &amp;ldquo;=&amp;rdquo; sign.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Formula added to B3 cell but not calculated by GridWeb&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5013761/5115361.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;In the above screenshot, you can see that a formula has been added to B3 but has not been calculated yet. To calculate all formulas, call the GridWeb control&amp;rsquo;s &lt;code&gt;GridWorksheetCollection&lt;/code&gt;&#39;s &lt;code&gt;CalculateFormula&lt;/code&gt; method after adding formulas to worksheets as shown below.&lt;/p&gt;
+&lt;p&gt;Users can also calculate formulas by clicking &lt;strong&gt;Submit&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Clicking Submit button of GridWeb&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5013761/5115358.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;IMPORTANT&lt;/strong&gt;: If a user clicks the &lt;strong&gt;Save&lt;/strong&gt; or &lt;strong&gt;Undo&lt;/strong&gt; buttons, or the sheet tabs, all formulas are calculated by GridWeb automatically.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Formula result after calculation&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5013761/5115359.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;referencing-cells-from-other-worksheets&#34;&gt;Referencing Cells from Other Worksheets&lt;/h3&gt;
+&lt;p&gt;Using Aspose.Cells.GridWeb, it is possible to reference values stored in different worksheets in their formulas, creating complex formulas.&lt;/p&gt;
+&lt;p&gt;The syntax for referencing a cell value from a different worksheet is SheetName!CellName.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Format Cells</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridwebcells/format&#43;cells/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridwebcells/format&#43;cells/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--format-cells&#34;&gt;Aspose.Cells for .NET : Format Cells&lt;/h1&gt;
+&lt;p&gt;This topic provides a detailed discussion about how to format cells.&lt;/p&gt;
+&lt;p&gt;It covers formatting cells in GUI mode using the Aspose.Cells.GridWeb control&amp;rsquo;s Style dialog. It also shows how to format cells programmatically. Different format settings like font, border and number format are discussed, illustrated with examples.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#formatting-cells-using-the-style-dialog&#34;&gt;Formatting Cells Using the Style Dialog&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#customizing-font-settings&#34;&gt;Customizing Font Settings&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.2 &lt;a href=&#34;#customizing-border-settings&#34;&gt;Customizing Border Settings&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.3 &lt;a href=&#34;#applying-settings&#34;&gt;Applying Settings&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#formatting-cells-using-api&#34;&gt;Formatting Cells Using API&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;2.1 &lt;a href=&#34;#setting-font&#34;&gt;Setting Font&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2.2 &lt;a href=&#34;#setting-borders&#34;&gt;Setting Borders&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;2.2.1 &lt;a href=&#34;#single-cell&#34;&gt;Single Cell&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2.2.2 &lt;a href=&#34;#range-of-cells&#34;&gt;Range of Cells&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;2.3 &lt;a href=&#34;#setting-number-formats&#34;&gt;Setting Number Formats&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;formatting-cells-using-the-style-dialog&#34;&gt;Formatting Cells Using the Style Dialog&lt;/h2&gt;
+&lt;p&gt;Cells can be formatted &lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/gridweb/workingwithgridwebcells/format+cells&#34;&gt;programmatically&lt;/a&gt; but the easiest way to format cells in the Aspose.Cells.GridWeb control in a WYSIWYG way, is using the Style dialog.&lt;/p&gt;
+&lt;p&gt;To use the Style dialog:&lt;br&gt;
+Select a range of cells then right-click and select &lt;strong&gt;Format Cell&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Selecting Format Cell&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5013760/5115364.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The Style dialog is displayed.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The Style dialog is used to format cells&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5013760/5115365.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The Style dialog lets users format cells by customizing font and border settings.&lt;/p&gt;
+&lt;h3 id=&#34;customizing-font-settings&#34;&gt;Customizing Font Settings&lt;/h3&gt;
+&lt;p&gt;You can customize the following font settings using the Style dialog:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Font name, select a desired font from the list.&lt;/li&gt;
+&lt;li&gt;Font style, apply a font style like bold, italic etc.&lt;/li&gt;
+&lt;li&gt;Font size, select a font size in points.&lt;/li&gt;
+&lt;li&gt;Underline, underline text.&lt;/li&gt;
+&lt;li&gt;Strikethrough, apply a strikethrough effect to text.&lt;/li&gt;
+&lt;li&gt;Horzontal alignment, select horizontal alignment.&lt;/li&gt;
+&lt;li&gt;Vertical alignment, select vertical alignment.&lt;/li&gt;
+&lt;li&gt;Font color, select a font color.&lt;/li&gt;
+&lt;li&gt;Background, select a color for the background.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can check the selected font settings in a small preview area.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Customized font settings&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5013760/5115362.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;customizing-border-settings&#34;&gt;Customizing Border Settings&lt;/h3&gt;
+&lt;p&gt;The control also allows users to draw a border around cells by customizing border settings in the Style dialog.&lt;/p&gt;
+&lt;p&gt;To view border related options:&lt;br&gt;
+Click &lt;strong&gt;Borders&lt;/strong&gt; in the Style dialog.&lt;br&gt;
+Border related options are displayed.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Border options in style dialog&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5013760/5115363.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The following border options can be selected from the Style dialog:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Border line style, select the border style like solid, dashed etc.&lt;/li&gt;
+&lt;li&gt;Border line width, select the border width in pixels.&lt;/li&gt;
+&lt;li&gt;Border line color, select the line color.&lt;/li&gt;
+&lt;li&gt;Border lines, select the numbering and positioing of border lines.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Customized border settings&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5013760/5115352.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;applying-settings&#34;&gt;Applying Settings&lt;/h3&gt;
+&lt;p&gt;Click &lt;strong&gt;OK&lt;/strong&gt; in the Style dialog to apply the changes.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Font and border settings applied&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5013760/5115353.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;formatting-cells-using-api&#34;&gt;Formatting Cells Using API&lt;/h2&gt;
+&lt;p&gt;Cells can also be formatted programmatically with the Aspose.Cells.GridWeb API. Each cell has a &lt;code&gt;Style&lt;/code&gt; property, which represents a &lt;code&gt;GridTableItemStyle&lt;/code&gt; object. Use the &lt;code&gt;Style&lt;/code&gt; property to customize font and border settings.&lt;/p&gt;
+&lt;h3 id=&#34;setting-font&#34;&gt;Setting Font&lt;/h3&gt;
+&lt;p&gt;To customize font settings programmatically:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Add the Aspose.Cells.GridWeb control to a Web Form.&lt;/li&gt;
+&lt;li&gt;Access a worksheet.&lt;/li&gt;
+&lt;li&gt;Access the cell you are formatting.&lt;/li&gt;
+&lt;li&gt;Acces the cell&amp;rsquo;s style.&lt;/li&gt;
+&lt;li&gt;Set the font size in points.&lt;/li&gt;
+&lt;li&gt;Set the font style.&lt;/li&gt;
+&lt;li&gt;Set foreground and background colors.&lt;/li&gt;
+&lt;li&gt;Set horizontal and vertical alignment.&lt;/li&gt;
+&lt;li&gt;Set the style back to the cell.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Output: customized font settings shown in A1&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5013760/5115350.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;setting-borders&#34;&gt;Setting Borders&lt;/h3&gt;
+&lt;p&gt;Borders can be applied to individual cells, or to a range.&lt;/p&gt;
+&lt;h4 id=&#34;single-cell&#34;&gt;Single Cell&lt;/h4&gt;
+&lt;p&gt;To set the borders of a single cell:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Add the Aspose.Cells.GridWeb control to a Web Form.&lt;/li&gt;
+&lt;li&gt;Access a worksheet.&lt;/li&gt;
+&lt;li&gt;Access the cell you&amp;rsquo;re about to format.&lt;/li&gt;
+&lt;li&gt;Access the cell&amp;rsquo;s &lt;code&gt;Style&lt;/code&gt; object.&lt;/li&gt;
+&lt;li&gt;Set the border style.&lt;/li&gt;
+&lt;li&gt;Set the border width in pixels.&lt;/li&gt;
+&lt;li&gt;Set the border color.&lt;/li&gt;
+&lt;li&gt;Set the style to the cell.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Customized border settings on a single cell&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5013760/5115351.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;It is possible to set different styles for each border line with the cell&amp;rsquo;s &lt;code&gt;Style.TopBorderStyle&lt;/code&gt;, &lt;code&gt;Style.BottomBorderStyle&lt;/code&gt;, &lt;code&gt;Style.LeftBorderStyle&lt;/code&gt;, &lt;code&gt;Style.RightBorderStyle&lt;/code&gt; properties.&lt;/p&gt;
+&lt;h4 id=&#34;range-of-cells&#34;&gt;Range of Cells&lt;/h4&gt;
+&lt;p&gt;To set borders on a range of cells:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Add Aspose.Cells.GridWeb control to your Web Form&lt;/li&gt;
+&lt;li&gt;Access a desired worksheet&lt;/li&gt;
+&lt;li&gt;Instantiate an object of WebBorderStyle class&lt;/li&gt;
+&lt;li&gt;Set Style of the Border to Solid or Dashed etc.&lt;/li&gt;
+&lt;li&gt;Set Width of the Border in pixels&lt;/li&gt;
+&lt;li&gt;Set Color of the Border&lt;/li&gt;
+&lt;li&gt;Apply border settings stored in WebBorderStyle object to a specified range of cells&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;A range of cells with customized border settings&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5013760/5115354.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;setting-number-formats&#34;&gt;Setting Number Formats&lt;/h3&gt;
+&lt;p&gt;Aspose.Cells.GridWeb supports setting number formats. There are 59 built-in number formats. To see them, please refer to this &lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/knowledgebase/list+of+supported+number+formats&#34;&gt;list of supported number formats&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;All built-in number formats are in the &lt;code&gt;NumberType&lt;/code&gt; enumeration. To use a built-in number format, set the NumberType using &lt;code&gt;SetNumberType&lt;/code&gt; method of a cell&amp;rsquo;s object to a number format from the &lt;code&gt;NumberType&lt;/code&gt; enumeration.&lt;/p&gt;
+&lt;p&gt;To set custom number format use the cell&amp;rsquo;s &lt;code&gt;SetCustom&lt;/code&gt; method.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Number format settings applied on B1 and B2&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5013760/5115355.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Protect Cells</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridwebcells/protect&#43;cells/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridwebcells/protect&#43;cells/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--protect-cells&#34;&gt;Aspose.Cells for .NET : Protect Cells&lt;/h1&gt;
+&lt;p&gt;This topic describes a few techniques for protecting cells. Using these techniques allows developers to restrict users from editing all or a selected range of cells in a worksheet.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#protecting-cells&#34;&gt;Protecting Cells&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#making-all-cells-read-only&#34;&gt;Making All Cells Read Only&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.2 &lt;a href=&#34;#making-all-cells-editable&#34;&gt;Making All Cells Editable&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.3 &lt;a href=&#34;#making-selected-cells-read-only&#34;&gt;Making Selected Cells Read Only&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.4 &lt;a href=&#34;#making-selected-cells-editable&#34;&gt;Making Selected Cells Editable&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;protecting-cells&#34;&gt;Protecting Cells&lt;/h2&gt;
+&lt;p&gt;Aspose.Cells.GridWeb provides a few different techniques for controlling the protection level on cells when the control is in &lt;a href=&#34;http://www.aspose.com/docs/display/cellsnet/Enable+Different+GridWeb+Modes#EnableDifferentGridWebModes-EditMode&#34;&gt;Edit mode&lt;/a&gt; (the default mode). This protects cells from being modified by end users.&lt;/p&gt;
+&lt;h3 id=&#34;making-all-cells-read-only&#34;&gt;Making All Cells Read Only&lt;/h3&gt;
+&lt;p&gt;To set all cells in a worksheet to read only, call the worksheet&amp;rsquo;s &lt;code&gt;SetAllCellsReadonly&lt;/code&gt; method.&lt;/p&gt;
+&lt;h3 id=&#34;making-all-cells-editable&#34;&gt;Making All Cells Editable&lt;/h3&gt;
+&lt;p&gt;To remove protection from all cells, call the worksheet&amp;rsquo;s &lt;code&gt;SetAllCellsEditable&lt;/code&gt; method. This method has the opposite effect to the &lt;code&gt;SetAllCellsReadonly&lt;/code&gt; method.&lt;/p&gt;
+&lt;h3 id=&#34;making-selected-cells-read-only&#34;&gt;Making Selected Cells Read Only&lt;/h3&gt;
+&lt;p&gt;To protect only a range of cells:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;First make all cells editable by calling the &lt;code&gt;SetAllCellsEditable&lt;/code&gt; method.&lt;/li&gt;
+&lt;li&gt;Specify the range of cells that to protect by calling the worksheet&amp;rsquo;s &lt;code&gt;SetReadonlyRange&lt;/code&gt; method. This method takes the number of rows and columns to specify the range of cells.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;making-selected-cells-editable&#34;&gt;Making Selected Cells Editable&lt;/h3&gt;
+&lt;p&gt;To un-protect a range of cells:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Make all cells read only by calling the &lt;code&gt;SetAllCellsReadonly&lt;/code&gt; method.&lt;/li&gt;
+&lt;li&gt;Specify the range of cells that to be editable by calling the worksheet&amp;rsquo;s &lt;code&gt;SetEditableRange&lt;/code&gt; method. This method takes the number of rows and columns to specify the range of cells.&lt;/li&gt;
+&lt;/ol&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Merge and Unmerge Cells</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridwebcells/merge&#43;and&#43;unmerge&#43;cells/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridwebcells/merge&#43;and&#43;unmerge&#43;cells/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--merge-and-unmerge-cells&#34;&gt;Aspose.Cells for .NET : Merge and Unmerge Cells&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells.GridWeb has a handy utility feature that lets you merge cells into one large cell. This topic describes how to merge cells programmatically.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#merging-cells&#34;&gt;Merging Cells&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#unmerging-cells&#34;&gt;Unmerging Cells&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;merging-cells&#34;&gt;Merging Cells&lt;/h2&gt;
+&lt;p&gt;Merge multiple cells in a worksheet into a single cell by calling the &lt;code&gt;Cells&lt;/code&gt; collection&amp;rsquo;s &lt;code&gt;Merge&lt;/code&gt; method. Specify the range of cells that to be merged when calling the &lt;code&gt;Merge&lt;/code&gt; method.&lt;/p&gt;
+&lt;p&gt;If you merge multiple cells and each cell contains data, only the content of the top left cell in the range is retained after the merge. Data in the other cells is not lost. If you unmerge the cells, each cell recovers its data.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Four cells merged into one&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5013797/5115377.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;unmerging-cells&#34;&gt;Unmerging Cells&lt;/h2&gt;
+&lt;p&gt;To unmerge cells, use the &lt;code&gt;Cells&lt;/code&gt; collection&amp;rsquo;s &lt;code&gt;UnMerge&lt;/code&gt; method that takes same parameters as of the &lt;code&gt;Merge&lt;/code&gt; method and performs the unmerging of cells.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Add Cell Validations</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridwebcells/add&#43;cell&#43;validations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridwebcells/add&#43;cell&#43;validations/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--add-cell-validations&#34;&gt;Aspose.Cells for .NET : Add Cell Validations&lt;/h1&gt;
+&lt;p&gt;One of Aspose.Cells.GridWeb&amp;rsquo;s advenced features is its apability to add input validation rules for cells. Developers can create different types of validation rules for cells to control and validate input values. This topic discusses the validation types supported and how to create them.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#types-of-validations&#34;&gt;Types of Validations&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#list-validation&#34;&gt;List Validation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.2 &lt;a href=&#34;#drop-down-list-validation&#34;&gt;Drop-down List Validation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.3 &lt;a href=&#34;#custom-expression-validation&#34;&gt;Custom Expression Validation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.4 &lt;a href=&#34;#forcing-validation&#34;&gt;Forcing Validation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;types-of-validations&#34;&gt;Types of Validations&lt;/h2&gt;
+&lt;p&gt;Three types of validations can be applied using Aspose.Cells.GridWeb:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;List validation.&lt;/li&gt;
+&lt;li&gt;Drop-down list validation.&lt;/li&gt;
+&lt;li&gt;Custom expression validation.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Each is discussed in detail below.&lt;/p&gt;
+&lt;h3 id=&#34;list-validation&#34;&gt;List Validation&lt;/h3&gt;
+&lt;p&gt;List validation allows users to provide cell input either by typing or selecting a value from a menu. To create a list validation for a cell:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Add the Aspose.Cells.GridWeb control to a Web Form.&lt;/li&gt;
+&lt;li&gt;Access a worksheet.&lt;/li&gt;
+&lt;li&gt;Access the cell to add validation to.&lt;/li&gt;
+&lt;li&gt;Create the validation for the cell and specify the validation type as &lt;code&gt;List&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Add values for the list validation.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The example code adds a list validation to C1. When a user clicks the cell, a list appears.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Output: selecting a value from the list&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5013798/5115376.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;drop-down-list-validation&#34;&gt;Drop-down List Validation&lt;/h3&gt;
+&lt;p&gt;Drop-down list validation allows users to provide input for cells by selecting a value from a pre-defined list. To create a drop-down list validation:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Add the Aspose.Cells.GridWeb control to a Web Form.&lt;/li&gt;
+&lt;li&gt;Access a worksheet.&lt;/li&gt;
+&lt;li&gt;Access the cell to create the validation for.&lt;/li&gt;
+&lt;li&gt;Create a validation for the cell and specify the type as &lt;code&gt;DropDownList&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Add values for the validation.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The example code adds a drop-down list validation to C1. When a user clicks the cell, a drop-down appears and users can select a value from it.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Selecting a value from a drop-down&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5013798/5115375.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;custom-expression-validation&#34;&gt;Custom Expression Validation&lt;/h3&gt;
+&lt;p&gt;Custom expression Validation allows developers to write their own custom regular expressions to validate input values. To create a custom expression validation:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Add the Aspose.Cells.GridWeb control to a Web Form.&lt;/li&gt;
+&lt;li&gt;Access a worksheet.&lt;/li&gt;
+&lt;li&gt;Access the cell to create a validation for.&lt;/li&gt;
+&lt;li&gt;Create a validation for the cell and specify the type as &lt;code&gt;CustomExpression&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Set the validation&amp;rsquo;s regular expression.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The sample code adds a custom expression validation to C1. Users can only add a date into the cell as per the format specified by the regular expression.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Adding a date value to C1 according to a regular expression&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5013798/5115374.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;forcing-validation&#34;&gt;Forcing Validation&lt;/h3&gt;
+&lt;p&gt;Using Aspose.Cells.GridWeb, users may post input data to a server. Even if there are validation rules for different cells but the GridWeb control&amp;rsquo;s &lt;code&gt;ForceValidation&lt;/code&gt; property is not set to &lt;code&gt;true&lt;/code&gt;, input data that&amp;rsquo;s wrong will also be submitted to the server and no validation is forced. The GridWeb&amp;rsquo;s &lt;code&gt;ForceValidation&lt;/code&gt; property is always set to &lt;code&gt;true&lt;/code&gt; by default.&lt;/p&gt;
+&lt;p&gt;When the &lt;code&gt;ForceValidation&lt;/code&gt; property is &lt;code&gt;true&lt;/code&gt; the control does not post data to the web server until the input values of all cells are valid. For example, if someone enters an invalid input value into a cell, or don&amp;rsquo;t enter a value, the client-side validation is activated and the users can&amp;rsquo;t post data even if they click &lt;strong&gt;Submit&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Wrong input value highlighted by GridWeb&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5013798/5115381.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Filter Data</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridwebcells/filter&#43;data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridwebcells/filter&#43;data/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--filter-data&#34;&gt;Aspose.Cells for .NET : Filter Data&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells.GridWeb provides auto-filter and custom data filter features. These features give you a way to select only those items in a worksheet that you want to display in a list. Moreover, you can filter items in a list according to set criteria. Filter text, numbers or dates with the filtering features.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#working-with-filters&#34;&gt;Working with Filters&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#auto-filter&#34;&gt;Auto-filter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.2 &lt;a href=&#34;#custom-data-filter&#34;&gt;Custom Data Filter&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;working-with-filters&#34;&gt;Working with Filters&lt;/h2&gt;
+&lt;p&gt;Use the worksheet &lt;code&gt;AddAutoFilter&lt;/code&gt; method to enable auto-filter for a worksheet. This method accepts the row, start and end column indexes.&lt;/p&gt;
+&lt;p&gt;To enable custom filter, use the worksheet &lt;code&gt;AddCustomFilter&lt;/code&gt; method which accepts the row index to which filter has to be applied and the custom filtering criteria.&lt;/p&gt;
+&lt;p&gt;The example below implements both auto- and custom data filters. In the example, the auto-filter feature is enabled and filtered rows are searched based on some criteria.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Input: the data list in the first worksheet&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5013799/5115380.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Output: enable auto-filter feature&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5013799/5115379.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;auto-filter&#34;&gt;Auto-filter&lt;/h3&gt;
+&lt;h3 id=&#34;custom-data-filter&#34;&gt;Custom Data Filter&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Custom filtered data based on the criteria&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5013799/5115378.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Add Cell Data Validations</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridwebcells/add&#43;cell&#43;data&#43;validations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridwebcells/add&#43;cell&#43;data&#43;validations/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--add-cell-data-validations&#34;&gt;Aspose.Cells for .NET : Add Cell Data Validations&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells.GridWeb allows you to add &lt;strong&gt;Data Validation&lt;/strong&gt; using the &lt;code&gt;GridWorksheet.Validations.Add()&lt;/code&gt; method. Using this method, you have to specify the &lt;strong&gt;Cell Range&lt;/strong&gt;. But if you want to create a Data Validation in a single &lt;code&gt;GridCell&lt;/code&gt; then you can do it directly using &lt;code&gt;GridCell.CreateValidation()&lt;/code&gt; method. Similarly, you can remove &lt;strong&gt;Data Validation&lt;/strong&gt; from a &lt;code&gt;GridCell&lt;/code&gt; using the &lt;code&gt;GridCell.RemoveValidation()&lt;/code&gt; method.&lt;/p&gt;
+&lt;h2 id=&#34;create-data-validation-in-a-gridcell-of-gridweb&#34;&gt;Create Data Validation in a GridCell of GridWeb&lt;/h2&gt;
+&lt;p&gt;The following sample code creates a &lt;strong&gt;Data Validation&lt;/strong&gt; in a cell B3. If you enter any value which is not between 20 and 40, the cell B3 will show &lt;strong&gt;Validation Error&lt;/strong&gt; in the form of &lt;strong&gt;Red XXXX&lt;/strong&gt; as shown in this screenshot.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5013800/5115369.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Access Hyperlink object of the GridWeb Cell</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridwebcells/access&#43;hyperlink&#43;object&#43;of&#43;the&#43;gridweb&#43;cell/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridwebcells/access&#43;hyperlink&#43;object&#43;of&#43;the&#43;gridweb&#43;cell/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--access-hyperlink-object-of-the-gridweb-cell&#34;&gt;Aspose.Cells for .NET : Access Hyperlink object of the GridWeb Cell&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#open-hyperlink-in-new-or-existing-window&#34;&gt;Open Hyperlink in New or Existing Window&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#access-hyperlink-object-of-the-gridweb-cell&#34;&gt;Access Hyperlink object of the GridWeb Cell&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;3.1 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;You can check if cell contains hyperlink or not using the following two methods. These methods will return &lt;code&gt;null&lt;/code&gt; if the cell does not contain a hyperlink and if it contains a hyperlink, it will return &lt;code&gt;GridHyperlink&lt;/code&gt; object.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;GridHyperlinkCollection.GetHyperlink(GridCell cell)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;GridHyperlinkCollection.GetHyperlink(int row,int column)&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;open-hyperlink-in-new-or-existing-window&#34;&gt;Open Hyperlink in New or Existing Window&lt;/h2&gt;
+&lt;p&gt;If your excel file contains hyperlink which links to some URL like &lt;code&gt;[http://wwww.aspose.com/](http://wwww.aspose.com/)&lt;/code&gt; and you load it in GridWeb then the hyperlinks will be rendered with target attribute set to &lt;code&gt;_blank&lt;/code&gt;. It means, when you will click the hyperlink in a GridWeb cell, it will open up in a new window instead of existing window. Please check the &lt;code&gt;GridHyperlink.Target&lt;/code&gt; property in the following debug window. Besides, if you want to open the hyperlink in the existing window, then please set the &lt;code&gt;GridHyperlink.Target&lt;/code&gt; to &lt;code&gt;_self&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5013575/5115150.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;access-hyperlink-object-of-the-gridweb-cell&#34;&gt;Access Hyperlink object of the GridWeb Cell&lt;/h2&gt;
+&lt;p&gt;The following sample code accesses the hyperlink of cell A1. If cell A1 contains hyperlink then it will return &lt;code&gt;GridHyperlink&lt;/code&gt; object, otherwise, it will return &lt;code&gt;null&lt;/code&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h3&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Add Custom Server-side Function Validation</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridwebcells/add&#43;custom&#43;server-side&#43;function&#43;validation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/gridweb/workingwithgridwebcells/add&#43;custom&#43;server-side&#43;function&#43;validation/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--add-custom-server-side-function-validation&#34;&gt;Aspose.Cells for .NET : Add Custom Server-side Function Validation&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#add-custom-server-side-function-validation&#34;&gt;Add Custom Server-side Function Validation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;Sometimes, you might require to implement data validation on server-side. Aspose.Cells.GridWeb allows you to add custom server-side data validation. You have to specify the cell range or area. You can also set client-side validation functions for callbacks with custom server side validation.&lt;/p&gt;
+&lt;h2 id=&#34;add-custom-server-side-function-validation&#34;&gt;Add Custom Server-side Function Validation&lt;/h2&gt;
+&lt;p&gt;You need to set the server validation class which implements the &lt;strong&gt;GridCustomServerValidation&lt;/strong&gt; interface via &lt;strong&gt;GridValidation.ServerValidation&lt;/strong&gt; attribute. You also need to set the client-side validation function (it should be written in JavaScript on client-side), this function is compulsory to validate the data on client end on callback. You can set the error message string via &lt;strong&gt;GridValidation.ErrorMessage&lt;/strong&gt; and title via &lt;strong&gt;GridValidation.ErrorTitle&lt;/strong&gt; properties for your needs. Please see a series of screenshots that show how it works (step by step) in a given scenario after executing the sample code below.  In the example, you cannot update data in B2:C3 cells. When you try to edit those cells in the sheet, you will be prompted some error messages and previous value would be restored. You may open Console window (in your browser) to print cell&amp;rsquo;s info/details for certain events. &lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/64455551/64716863.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/64455551/64716864.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/64455551/64716865.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/64455551/64716866.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/64455551/64716867.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

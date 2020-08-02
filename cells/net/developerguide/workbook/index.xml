@@ -1,0 +1,748 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Workbook</title>
+    <link>https://roywangt.github.io/cells/net/developerguide/workbook/</link>
+    <description>Recent content in Workbook on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://roywangt.github.io/cells/net/developerguide/workbook/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Net: Add Custom XML Parts and Select them by ID</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/workbook/add&#43;custom&#43;xml&#43;parts&#43;and&#43;select&#43;them&#43;by&#43;id/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/workbook/add&#43;custom&#43;xml&#43;parts&#43;and&#43;select&#43;them&#43;by&#43;id/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--add-custom-xml-parts-and-select-them-by-id&#34;&gt;Aspose.Cells for .NET : Add Custom XML Parts and Select them by ID&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#add-custom-xml-parts-and-select-them-by-id&#34;&gt;Add Custom XML Parts and Select them by ID&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;4 &lt;a href=&#34;#console-output&#34;&gt;Console Output&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;Custom XML Parts are the XML data that is stored inside the Microsoft Excel documents and are used by the applications that deal with them. There is no direct way of adding them using Microsoft Excel UI at the moment. However, you can add them programmatically in various ways e.g. using VSTO, using Aspose.Cells etc. Please use &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.markup/customxmlpartcollection/methods/add&#34;&gt;Workbook.CustomXmlParts.Add()&lt;/a&gt; method if you want to add Custom XML Part using Aspose.Cells API. You can also set its ID, using the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.markup/customxmlpart/properties/id&#34;&gt;CustomXmlPart.ID&lt;/a&gt; property. Similarly, if you want to select Custom XML Part by ID, you can use &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.markup/customxmlpartcollection/methods/selectbyid&#34;&gt;Workbook.CustomXmlParts.SelectByID()&lt;/a&gt; method.&lt;/p&gt;
+&lt;h2 id=&#34;add-custom-xml-parts-and-select-them-by-id&#34;&gt;Add Custom XML Parts and Select them by ID&lt;/h2&gt;
+&lt;p&gt;The following sample code first adds four Custom XML Parts using &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.markup/customxmlpartcollection/methods/add&#34;&gt;Workbook.CustomXmlParts.Add()&lt;/a&gt; method. It then sets their IDs using &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.markup/customxmlpart/properties/id&#34;&gt;CustomXmlPart.ID&lt;/a&gt; property. Finally, it finds or selects one of the added Custom XML Part using &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.markup/customxmlpartcollection/methods/selectbyid&#34;&gt;Workbook.CustomXmlParts.SelectByID()&lt;/a&gt; method. Please also see the console output of the code given below for reference.&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+&lt;h2 id=&#34;console-output&#34;&gt;Console Output&lt;/h2&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_17ee1e79a1&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_17ee1e79a1&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Found&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;CustomXmlPart&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;ID&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Sport&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Add Digital Signature to an already signed Excel file</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/workbook/add&#43;digital&#43;signature&#43;to&#43;an&#43;already&#43;signed&#43;excel&#43;file/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/workbook/add&#43;digital&#43;signature&#43;to&#43;an&#43;already&#43;signed&#43;excel&#43;file/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--add-digital-signature-to-an-already-signed-excel-file&#34;&gt;Aspose.Cells for .NET : Add Digital Signature to an already signed Excel file&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#add-digital-signature-to-an-already-signed-excel-file&#34;&gt;Add Digital Signature to an already signed Excel file&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;Aspose.Cells provides the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/workbook/methods/adddigitalsignature&#34;&gt;Workbook.AddDigitalSignature(DigitalSignatureCollection digitalSignatureCollection)&lt;/a&gt; method that you can use to add digital signature to an already signed Excel file. &lt;/p&gt;
+&lt;p&gt;Please note while adding a digital signature to an already signed Excel document, if the original document is Aspose.Cells generated document, it works well. But if the original document is generated by other engines (e.g. Microsoft Excel etc.), Aspose.Cells cannot keep the file same after loading and re-saving it, this will make the original signature to be invalid.&lt;/p&gt;
+&lt;h2 id=&#34;add-digital-signature-to-an-already-signed-excel-file&#34;&gt;Add Digital Signature to an already signed Excel file&lt;/h2&gt;
+&lt;p&gt;The following sample code demonstrated how to make use of &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/workbook/methods/adddigitalsignature&#34;&gt;Workbook.AddDigitalSignature(DigitalSignatureCollection digitalSignatureCollection)&lt;/a&gt; method to add digital signature to already signed Excel file. Please check the &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/50266400/50528280.xlsx&#34;&gt;sample Excel file&lt;/a&gt; used in this code. This file is already digitally signed. Please check the &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/50266400/50528281.xlsx&#34;&gt;output Excel file&lt;/a&gt; generated by the code. We have used the demo certificate named &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/50266400/50528279.pfx&#34;&gt;AsposeDemo.pfx&lt;/a&gt; in this code which has a password &lt;strong&gt;aspose&lt;/strong&gt;. The screenshot shows the effect of the sample code on the sample Excel file after execution.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/50266400/50528282.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Assign and Validate Digital Signatures</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/workbook/assign&#43;and&#43;validate&#43;digital&#43;signatures/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/workbook/assign&#43;and&#43;validate&#43;digital&#43;signatures/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--assign-and-validate-digital-signatures&#34;&gt;Aspose.Cells for .NET : Assign and Validate Digital Signatures&lt;/h1&gt;
+&lt;p&gt;A digital signature provides assurance that a workbook file is valid and no one has altered it. You can create a personal digital signature by using the &lt;strong&gt;Microsoft Selfcert.exe&lt;/strong&gt; or any other tool, or you can purchase a digital signature. After you create a digital signature, you must attach it to your workbook. Attaching a digital signature is similar to sealing an envelope. If an envelope arrives sealed, you have some level of assurance that no one has tampered with its contents.&lt;/p&gt;
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Use the Digital Signature dialog to attach a digital signature. The Digital Signature dialog lists valid certificates. You can use the Digital Signature dialog to view certificates and to select the one you want to use. If a workbook has a digital signature, the name of the signature appears in the &lt;strong&gt;Certificate Name&lt;/strong&gt; field. If you click the &lt;strong&gt;Remove&lt;/strong&gt; button in the Digital Signature dialog, Microsoft Excel removes the digital signature as well.&lt;/p&gt;
+&lt;p&gt;Aspose.Cells provides the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.digitalsignatures/digitalsignature&#34;&gt;Aspose.Cells.DigitalSignatures&lt;/a&gt; namespace to perform the job (assign and validate digital signatures). The namespace has some useful features for adding and validating digital signatures.&lt;/p&gt;
+&lt;p&gt;Please see the following sample code that describes how you can perform the task using the Aspose.Cells for .NET API.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Create Shared Workbook with Aspose.Cells</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/workbook/create&#43;shared&#43;workbook&#43;with&#43;aspose.cells/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/workbook/create&#43;shared&#43;workbook&#43;with&#43;aspose.cells/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--create-shared-workbook-with-asposecells&#34;&gt;Aspose.Cells for .NET : Create Shared Workbook with Aspose.Cells&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#create-shared-workbook-with-aspose.cells&#34;&gt;Create Shared Workbook with Aspose.Cells&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;Microsoft Excel allows you to share the workbook as shown in the following screenshot. When you share the workbook, then more than one user can edit the workbook on the network. Aspose.Cells enables you to create a shared workbook with &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/workbooksettings/properties/shared&#34;&gt;Workbook.Settings.Shared&lt;/a&gt; property. &lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/54690107/55541795.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;create-shared-workbook-with-asposecells&#34;&gt;Create Shared Workbook with Aspose.Cells&lt;/h2&gt;
+&lt;p&gt;The following sample code creates a shared workbook by setting &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/workbooksettings/properties/shared&#34;&gt;Workbook.Settings.Shared&lt;/a&gt; property as &lt;strong&gt;true&lt;/strong&gt;. When you will open the &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/54690107/55541786.xlsx&#34;&gt;output Excel file&lt;/a&gt; in Microsoft Excel, you will see **Shared **with the output workbook name as shown in this screenshot.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/54690107/55541787.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Filter Defined Names while loading Workbook</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/workbook/filter&#43;defined&#43;names&#43;while&#43;loading&#43;workbook/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/workbook/filter&#43;defined&#43;names&#43;while&#43;loading&#43;workbook/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--filter-defined-names-while-loading-workbook&#34;&gt;Aspose.Cells for .NET : Filter Defined Names while loading Workbook&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#filter-defined-names-while-loading-workbook&#34;&gt;Filter Defined Names while loading Workbook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;Aspose.Cells allows you to filter or remove defined names present inside the workbook. Please use &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/loaddatafilteroptions&#34;&gt;LoadDataFilterOptions.DefinedNames&lt;/a&gt; to load defined names and use ~&lt;code&gt;[LoadDataFilterOptions.DefinedNames](https://apireference.aspose.com/net/cells/aspose.cells/loaddatafilteroptions)&lt;/code&gt; to remove them while loading the workbook. Please note, if you will remove defined names, then formulas inside the workbook may break up. &lt;/p&gt;
+&lt;h2 id=&#34;filter-defined-names-while-loading-workbook&#34;&gt;Filter Defined Names while loading Workbook&lt;/h2&gt;
+&lt;p&gt;The following sample code loads the &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/61542294/61767860.xlsx&#34;&gt;sample Excel file&lt;/a&gt; which has a formula in cell &lt;strong&gt;C1&lt;/strong&gt; containing the defined names i.e. &lt;em&gt;=SUM(MyName1, MyName2)&lt;/em&gt;. Since we are using ~&lt;code&gt;[LoadDataFilterOptions.DefinedNames](https://apireference.aspose.com/net/cells/aspose.cells/loaddatafilteroptions)&lt;/code&gt; to remove the defined names while loading the workbook, the formula in cell C1 in &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/61542294/61767861.xlsx&#34;&gt;output Excel file&lt;/a&gt; breaks up and you see &lt;em&gt;#NAME?&lt;/em&gt; instead. Please see the following screenshot that shows the effect of the code on the sample Excel file.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/61542294/61767858.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: How to get OData Connection Information</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/workbook/how&#43;to&#43;get&#43;odata&#43;connection&#43;information/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/workbook/how&#43;to&#43;get&#43;odata&#43;connection&#43;information/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--how-to-get-odata-connection-information&#34;&gt;Aspose.Cells for .NET : How to get OData Connection Information&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#get-odata-connection-information&#34;&gt;Get OData Connection Information&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.2 &lt;a href=&#34;#console-output&#34;&gt;Console Output&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h1 id=&#34;get-odata-connection-information&#34;&gt;Get OData Connection Information&lt;/h1&gt;
+&lt;p&gt;There might be cases where developers need to extract OData information from the excel file. Aspose.Cells provides the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/workbook/properties/datamashup&#34;&gt;Workbook.DataMashup&lt;/a&gt; property which returns the DataMashup information present in the Excel file. This information is represented by the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.querytables/datamashup&#34;&gt;DataMashup&lt;/a&gt; class. The &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.querytables/datamashup&#34;&gt;DataMashup&lt;/a&gt; class provides the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.querytables/datamashup/properties/powerqueryformulas&#34;&gt;PowerQueryFormulas&lt;/a&gt; property that returns the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.querytables/powerqueryformulacollction&#34;&gt;PowerQueryFormulaCollction&lt;/a&gt; collection. From the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.querytables/powerqueryformulacollction&#34;&gt;PowerQueryFormulaCollction&lt;/a&gt;, you can get access to &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.querytables/powerqueryformula&#34;&gt;PowerQueryFormula&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.querytables/powerqueryformulaitem&#34;&gt;PowerQueryFormulaItem&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The following code snippet demonstrates the use of these classes to retrieve the OData information.&lt;/p&gt;
+&lt;p&gt;The Source file used in the following code snippet is attached for your reference.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/96764782/96928098.xlsx&#34;&gt;Source File&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h3&gt;
+&lt;h3 id=&#34;console-output&#34;&gt;Console Output&lt;/h3&gt;
+&lt;p&gt;Connection Name: Orders&lt;/p&gt;
+&lt;p&gt;Name: Source&lt;/p&gt;
+&lt;p&gt;Value: OData.Feed(&amp;ldquo;&lt;a href=&#34;https://services.odata.org/V3/Northwind/Northwind.svc/%22,&#34;&gt;https://services.odata.org/V3/Northwind/Northwind.svc/&amp;quot;,&lt;/a&gt; null, [Implementation=&amp;quot;2.0&amp;rdquo;])&lt;/p&gt;
+&lt;p&gt;Name: Orders_table&lt;/p&gt;
+&lt;p&gt;Value: Source{[Name=&amp;quot;Orders&amp;rdquo;,Signature=&amp;quot;table&amp;rdquo;]}[Data]&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Password Protect or Unprotect the Shared Workbook</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/workbook/password&#43;protect&#43;or&#43;unprotect&#43;the&#43;shared&#43;workbook/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/workbook/password&#43;protect&#43;or&#43;unprotect&#43;the&#43;shared&#43;workbook/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--password-protect-or-unprotect-the-shared-workbook&#34;&gt;Aspose.Cells for .NET : Password Protect or Unprotect the Shared Workbook&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#password-protect-or-unprotect-the-shared-workbook&#34;&gt;Password Protect or Unprotect the Shared Workbook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;You can protect or unprotect the shared workbook with Microsoft Excel as shown in the following screenshot. Aspose.Cells also supports this feature with the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/workbook/methods/protectsharedworkbook&#34;&gt;Workbook.ProtectSharedWorkbook()&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/workbook/methods/unprotectsharedworkbook&#34;&gt;Workbook.UnprotectSharedWorkbook()&lt;/a&gt; methods.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/54690001/55541794.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;password-protect-or-unprotect-the-shared-workbook&#34;&gt;Password Protect or Unprotect the Shared Workbook&lt;/h2&gt;
+&lt;p&gt;The following sample code creates a workbook and protects it while enabling sharing and saves it as &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/54690001/55541777.xlsx&#34;&gt;output Excel file&lt;/a&gt;. The screenshot shows that when you try to unprotect it, Microsoft Excel prompts you to enter the password to unprotect it.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/54690001/55541776.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Read and Write External Connection of XLS and XLSB files</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/workbook/read&#43;and&#43;write&#43;external&#43;connection&#43;of&#43;xls&#43;and&#43;xlsb&#43;files/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/workbook/read&#43;and&#43;write&#43;external&#43;connection&#43;of&#43;xls&#43;and&#43;xlsb&#43;files/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--read-and-write-external-connection-of-xls-and-xlsb-files&#34;&gt;Aspose.Cells for .NET : Read and Write External Connection of XLS and XLSB files&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#read-and-write-external-connection-of-xls/xlsb-file&#34;&gt;Read and Write External Connection of XLS/XLSB file&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;4 &lt;a href=&#34;#console-output&#34;&gt;Console Output&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;Aspose.Cells already supports read and write external connection of XLSX file but now, it also supports this feature for XLSB and XLS file. However, the code is the same for all types of formats.&lt;/p&gt;
+&lt;h2 id=&#34;read-and-write-external-connection-of-xlsxlsb-file&#34;&gt;Read and Write External Connection of XLS/XLSB file&lt;/h2&gt;
+&lt;p&gt;The following sample code loads the sample XLSB file (XLS can also be loaded) and reads its first External Connection which is actually a Microsoft Access DB Connection. It then modifies the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.externalconnections/externalconnection/properties/name&#34;&gt;DBConnection.Name&lt;/a&gt; property and saves it as output XLS/XLSB file. The screenshot shows the effect of code on &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/51479843/51740722.xlsb&#34;&gt;sample XLSB file&lt;/a&gt; and &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/51479843/51740723.xlsb&#34;&gt;output XLSB file&lt;/a&gt; after its execution. Please also see the console output of the sample code given below for a reference.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/51479843/51740721.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+&lt;p&gt;The following code shall work for both XLSB and XLS files by loading and saving files with the appropriate extension.&lt;/p&gt;
+&lt;h2 id=&#34;console-output&#34;&gt;Console Output&lt;/h2&gt;
+&lt;p&gt;Connection Name: CustCommand: CustomerConnection Info: Provider=Microsoft.ACE.OLEDB.12.0;Password=&amp;rdquo;&amp;quot;;User ID=Admin;Data Source=C:\TempSha\Cust.accdb;Mode=Share Deny Write;Extended Properties=&amp;rdquo;&amp;quot;;Jet OLEDB:System database=&amp;rdquo;&amp;quot;;Jet OLEDB:Registry Path=&amp;rdquo;&amp;quot;;Jet OLEDB:Database Password=&amp;rdquo;&amp;quot;;Jet OLEDB:Engine Type=6;Jet OLEDB:Database Locking Mode=0;Jet OLEDB:Global Partial Bulk Ops=2;Jet OLEDB:Global Bulk Transactions=1;Jet OLEDB:New Database Password=&amp;rdquo;&amp;quot;;Jet OLEDB:Create System Database=False;Jet OLEDB:Encrypt Database=False;Jet OLEDB:Don&amp;rsquo;t Copy Locale on Compact=False;Jet OLEDB:Compact Without Replica Repair=False;Jet OLEDB:SFP=False;Jet OLEDB:Support Complex Data=False;Jet OLEDB:Bypass UserInfo Validation=False;Jet OLEDB:Limited DB Caching=False;Jet OLEDB:Bypass ChoiceField Validation=False&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Replace text in a workbook using Regular Expression</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/workbook/replace&#43;text&#43;in&#43;a&#43;workbook&#43;using&#43;regular&#43;expression/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/workbook/replace&#43;text&#43;in&#43;a&#43;workbook&#43;using&#43;regular&#43;expression/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--replace-text-in-a-workbook-using-regular-expression&#34;&gt;Aspose.Cells for .NET : Replace text in a workbook using Regular Expression&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#replace-text-in-a-workbook-using-regular-expression&#34;&gt;Replace text in a workbook using Regular Expression&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h1 id=&#34;replace-text-in-a-workbook-using-regular-expression&#34;&gt;Replace text in a workbook using Regular Expression&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells provides the feature to replace text in a workbook using a regular expression. For this, the API provides &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/replaceoptions/properties/regexkey&#34;&gt;RegexKey&lt;/a&gt; property of the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/replaceoptions&#34;&gt;ReplaceOptions&lt;/a&gt; class. Setting the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/replaceoptions/properties/regexkey&#34;&gt;RegexKey&lt;/a&gt; to &lt;strong&gt;true&lt;/strong&gt; indicates that the searched key will be a regular expression.&lt;/p&gt;
+&lt;p&gt;The following code snippet demonstrates the use of the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/replaceoptions/properties/regexkey&#34;&gt;RegexKey&lt;/a&gt; property by using the &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/101122950/101089318.xlsx&#34;&gt;sample excel file&lt;/a&gt;. The &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/101122950/101089319.xlsx&#34;&gt;output file&lt;/a&gt; generated by the following code snippet is attached for reference.&lt;/p&gt;
+&lt;h3 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h3&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Stop conversion or loading using InterruptMonitor when it is taking too long</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/workbook/stop&#43;conversion&#43;or&#43;loading&#43;using&#43;interruptmonitor&#43;when&#43;it&#43;is&#43;taking&#43;too&#43;long/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/workbook/stop&#43;conversion&#43;or&#43;loading&#43;using&#43;interruptmonitor&#43;when&#43;it&#43;is&#43;taking&#43;too&#43;long/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--stop-conversion-or-loading-using-interruptmonitor-when-it-is-taking-too-long&#34;&gt;Aspose.Cells for .NET : Stop conversion or loading using InterruptMonitor when it is taking too long&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#stop-conversion-or-loading-using-interruptmonitor-when-it-is-taking-too-long&#34;&gt;Stop conversion or loading using InterruptMonitor when it is taking too long&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;Aspose.Cells allows you to stop the conversion of Workbook to various formats like PDF, HTML etc. using the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/interruptmonitor&#34;&gt;InterruptMonitor&lt;/a&gt; object when it is taking too long. The conversion process is often both CPU and Memory intensive and it is often useful to halt it when resources are limited. You can use &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/interruptmonitor&#34;&gt;InterruptMonitor&lt;/a&gt; both for stopping conversion as well as to stop loading huge workbook. Please use &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/workbook/properties/interruptmonitor&#34;&gt;Workbook.InterruptMonitor&lt;/a&gt; property for stopping conversion and &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/loadoptions/properties/interruptmonitor&#34;&gt;LoadOptions.InterruptMonitor&lt;/a&gt; property for loading huge workbook. &lt;/p&gt;
+&lt;h2 id=&#34;stop-conversion-or-loading-using-interruptmonitor-when-it-is-taking-too-long&#34;&gt;Stop conversion or loading using InterruptMonitor when it is taking too long&lt;/h2&gt;
+&lt;p&gt;The following sample code explains the usage of &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/interruptmonitor&#34;&gt;InterruptMonitor&lt;/a&gt; object. The code converts quite a large Excel file to PDF. It will take several seconds (i.e. &lt;em&gt;more than 30 seconds&lt;/em&gt;) to get it converted because of these lines of code.&lt;/p&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_d3ee8c5eda&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_d3ee8c5eda&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;//Access cell J1000000 and add some text inside it.
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Cell&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;cell&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;ws&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Cells&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;J1000000&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;];&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;cell&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;PutValue&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;This is text.&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;);&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;p&gt;As you see &lt;strong&gt;J1000000&lt;/strong&gt; is quite a farther cell in XLSX file. However, the &lt;strong&gt;WaitForWhileAndThenInterrupt()&lt;/strong&gt; method interrupts the conversion after 10 seconds and program ends/terminates. Please use the following code to execute the sample code.&lt;/p&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_5415cad25a&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_5415cad25a&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;StopConversionOrLoadingUsingInterruptMonitor&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;().&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;TestRun&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;();&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;h2 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h2&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Support for XAdES Signature</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/workbook/support&#43;for&#43;xades&#43;signature/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/workbook/support&#43;for&#43;xades&#43;signature/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--support-for-xades-signature&#34;&gt;Aspose.Cells for .NET : Support for XAdES Signature&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#support-for-xades-signature&#34;&gt;Support for XAdES Signature&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h1 id=&#34;support-for-xades-signature&#34;&gt;Support for XAdES Signature&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells provides supports signing workbooks with XAdES Signature. For this, the API provides &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.digitalsignatures/digitalsignature&#34;&gt;DigitalSignature&lt;/a&gt; class and &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.digitalsignatures/xadestype&#34;&gt;XAdESType&lt;/a&gt; enumeration.&lt;/p&gt;
+&lt;p&gt;The following code snippet demonstrates the use of the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.digitalsignatures/digitalsignature&#34;&gt;DigitalSignature&lt;/a&gt; class to sign the &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/101122954/101089323.xlsx&#34;&gt;source&lt;/a&gt; workbook.&lt;/p&gt;
+&lt;h3 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h3&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Update Power Query Formula Item</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/workbook/update&#43;power&#43;query&#43;formula&#43;item/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/workbook/update&#43;power&#43;query&#43;formula&#43;item/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--update-power-query-formula-item&#34;&gt;Aspose.Cells for .NET : Update Power Query Formula Item&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#usage-scenario&#34;&gt;Usage Scenario&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#updating%C2%A0power-query-formula-item&#34;&gt;Updating Power Query Formula Item&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;2.1 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h1 id=&#34;usage-scenario&#34;&gt;Usage Scenario&lt;/h1&gt;
+&lt;p&gt;There might be cases where the data source files are moved and the excel file is unable to locate the file. In such cases, Aspose.Cells API provides the option to update the Power Query Formula item by using the &lt;a href=&#34;https://apireference.aspose.com/cells/net/aspose.cells.querytables/powerqueryformulaitem&#34;&gt;PowerQueryFormulaItem&lt;/a&gt; class to update the location of the source file.&lt;/p&gt;
+&lt;h1 id=&#34;updatingpower-query-formula-item&#34;&gt;Updating Power Query Formula Item&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells API provides the ability to update Power Query Formula Items. The following code snippet demonstrates updating the data source file location in the excel file by using the &lt;a href=&#34;https://apireference.aspose.com/cells/net/aspose.cells.querytables/powerqueryformulaitem/properties/value&#34;&gt;PowerQueryFormulaItem.Value&lt;/a&gt; property. The source and output files attached for your reference.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/106201463/106364953.xlsx&#34;&gt;Source File 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/106201463/106364954.xlsx&#34;&gt;Source File 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/106201463/106364955.xlsx&#34;&gt;Output File&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h3&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Web Extensions - Office Add-ins</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/workbook/web&#43;extensions&#43;-&#43;office&#43;add-ins/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/workbook/web&#43;extensions&#43;-&#43;office&#43;add-ins/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--web-extensions---office-add-ins&#34;&gt;Aspose.Cells for .NET : Web Extensions - Office Add-ins&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#web-extensions---office-add-ins&#34;&gt;Web Extensions - Office Add-ins&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#add-web-extension&#34;&gt;Add Web Extension&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;2.1 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#access-web-extension-information&#34;&gt;Access Web Extension Information&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;3.1 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3.2 &lt;a href=&#34;#console-output&#34;&gt;Console Output&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h1 id=&#34;web-extensions---office-add-ins&#34;&gt;Web Extensions - Office Add-ins&lt;/h1&gt;
+&lt;p&gt;Web Extensions extend Office applications and interact with the content in Office documents. Web Extensions add additional functionality to Office client to improve the user experience and productivity.&lt;/p&gt;
+&lt;p&gt;Aspose.Cells also provides the ability to work with Web Extensions.&lt;/p&gt;
+&lt;h1 id=&#34;add-web-extension&#34;&gt;Add Web Extension&lt;/h1&gt;
+&lt;p&gt;You may add Web Extensions(Office Add-ins) in Excel by clicking the &lt;strong&gt;Insert&lt;/strong&gt; tab and then clicking the &lt;strong&gt;Store&lt;/strong&gt;/&lt;strong&gt;Get Add-ins&lt;/strong&gt; link. In the Add-ins box, browse for the add-in you want and add it.&lt;/p&gt;
+&lt;p&gt;Aspose.Cells also provides the feature to add Web Extensions by using the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.webextensions/webextension&#34;&gt;WebExtension&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.webextensions/webextensiontaskpane&#34;&gt;WebExtensionTaskPane&lt;/a&gt; classes. The following code sample demonstrates the use of &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.webextensions/webextension&#34;&gt;WebExtension&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.webextensions/webextensiontaskpane&#34;&gt;WebExtensionTaskPane&lt;/a&gt; classes to add a web extension to Excel file. Please see the &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/89686048/89849869.xlsx&#34;&gt;output Excel file&lt;/a&gt; generated by the code for reference.&lt;/p&gt;
+&lt;h3 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h3&gt;
+&lt;h1 id=&#34;access-web-extension-information&#34;&gt;Access Web Extension Information&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells provides the ability to access the information of Web Extensions in Excel file. The following code sample demonstrates how to access web extension information by loading the &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/89686048/89849870.xlsx&#34;&gt;sample Excel file&lt;/a&gt;. Please see the console output generated by the code for reference.&lt;/p&gt;
+&lt;h3 id=&#34;sample-code-1&#34;&gt;Sample Code&lt;/h3&gt;
+&lt;h3 id=&#34;console-output&#34;&gt;Console Output&lt;/h3&gt;
+&lt;p&gt;Width: 350IsVisible: TrueIsLocked: FalseDockState: rightStoreName: en-USStoreType: OMEXWebExtension.Id: 95D7ECE8-1355-492B-B6BF-27D25D0B0EEF&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Workbook and Worksheet Print Preview</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/workbook/workbook&#43;and&#43;worksheet&#43;print&#43;preview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/workbook/workbook&#43;and&#43;worksheet&#43;print&#43;preview/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--workbook-and-worksheet-print-preview&#34;&gt;Aspose.Cells for .NET : Workbook and Worksheet Print Preview&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#usage-scenario&#34;&gt;Usage Scenario&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#workbook-and-worksheet-print-preview&#34;&gt;Workbook and Worksheet Print Preview&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;2.1 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2.2 &lt;a href=&#34;#console-output&#34;&gt;Console Output&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h1 id=&#34;usage-scenario&#34;&gt;Usage Scenario&lt;/h1&gt;
+&lt;p&gt;There may be cases where Excel files with millions of pages need to be converted to PDF or images. Processing such files will consume a lot of time and resources. In such cases, the Workbook and Worksheet Print Preview feature might prove to be useful. Before converting such files, the user can check the total number of pages and then decide whether the file is to be converted or not. This article focuses on using the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.rendering/workbookprintingpreview&#34;&gt;WorkbookPrintingPreview&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.rendering/sheetprintingpreview&#34;&gt;SheetPrintingPreview&lt;/a&gt; classes to find out the total number of pages.&lt;/p&gt;
+&lt;h1 id=&#34;workbook-and-worksheet-print-preview&#34;&gt;Workbook and Worksheet Print Preview&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells provides the print preview feature. For this, the API provides &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.rendering/workbookprintingpreview&#34;&gt;WorkbookPrintingPreview&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.rendering/sheetprintingpreview&#34;&gt;SheetPrintingPreview&lt;/a&gt; classes. To create the print preview of the whole workbook, create an instance of the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.rendering/workbookprintingpreview&#34;&gt;WorkbookPrintingPreview&lt;/a&gt; class by passing &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/workbook&#34;&gt;Workbook&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.rendering/imageorprintoptions&#34;&gt;ImageOrPrintOptions&lt;/a&gt; objects to the constructor. The &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.rendering/workbookprintingpreview&#34;&gt;WorkbookPrintingPreview&lt;/a&gt; class provides an &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.rendering/workbookprintingpreview/properties/evaluatedpagecount&#34;&gt;EvaluatedPageCount&lt;/a&gt; method which returns the number of pages in the generated preview. Similar to &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.rendering/workbookprintingpreview&#34;&gt;WorkbookPrintingPreview&lt;/a&gt; class, the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.rendering/sheetprintingpreview&#34;&gt;SheetPrintingPreview&lt;/a&gt; class is used to generate a print preview for a specific worksheet. To create the print preview of a worksheet, create an instance of the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.rendering/sheetprintingpreview&#34;&gt;SheetPrintingPreview&lt;/a&gt; class by passing &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/worksheet&#34;&gt;Worksheet&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.rendering/imageorprintoptions&#34;&gt;ImageOrPrintOptions&lt;/a&gt; objects to the constructor. The &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.rendering/sheetprintingpreview&#34;&gt;SheetPrintingPreview&lt;/a&gt; class also provides an &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.rendering/sheetprintingpreview/properties/evaluatedpagecount&#34;&gt;EvaluatedPageCount&lt;/a&gt; method which returns the number of pages in the generated preview.&lt;/p&gt;
+&lt;p&gt;The following code snippet demonstrates the use of both &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.rendering/workbookprintingpreview&#34;&gt;WorkbookPrintingPreview&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.rendering/sheetprintingpreview&#34;&gt;SheetPrintingPreview&lt;/a&gt; classes by using the &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/94635905/94896177.xlsx&#34;&gt;sample excel file&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h3&gt;
+&lt;p&gt;The following is the output generated by executing the above code.&lt;/p&gt;
+&lt;h3 id=&#34;console-output&#34;&gt;Console Output&lt;/h3&gt;
+&lt;p&gt;Workbook page count: 1&lt;br&gt;
+Worksheet page count: 1&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Working with ContentTypeProperties</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/workbook/working&#43;with&#43;contenttypeproperties/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/workbook/working&#43;with&#43;contenttypeproperties/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--working-with-contenttypeproperties&#34;&gt;Aspose.Cells for .NET : Working with ContentTypeProperties&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#working-with-contenttypeproperties&#34;&gt;Working with ContentTypeProperties&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#sample-code&#34;&gt;Sample Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h1 id=&#34;working-with-contenttypeproperties&#34;&gt;Working with ContentTypeProperties&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells provides &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.properties/contenttypepropertycollection/methods/add/index&#34;&gt;Workbook.ContentTypeProperties.Add&lt;/a&gt; method to add custom ContentTypeProperties to an excel file. You may also make the property optional by setting the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.properties/contenttypeproperty/properties/isnillable&#34;&gt;ContentTypeProperty.IsNillable&lt;/a&gt; property to &lt;strong&gt;true&lt;/strong&gt;. The following code snippet demonstrates adding optional custom ContentTypeProperties to an excel file. The following image shows both properties that were added by the sample code.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/95323808/95584315.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The output file generated by the sample code is attached for reference.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/95323808/95584314.xlsx&#34;&gt;Output File&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;sample-code&#34;&gt;Sample Code&lt;/h3&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

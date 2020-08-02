@@ -1,0 +1,591 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Working with Cells</title>
+    <link>https://roywangt.github.io/cells/net/developerguide/griddesktop/cells/</link>
+    <description>Recent content in Working with Cells on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://roywangt.github.io/cells/net/developerguide/griddesktop/cells/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Net: Accessing Cells in a Worksheet</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/griddesktop/cells/accessing&#43;cells&#43;in&#43;a&#43;worksheet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/griddesktop/cells/accessing&#43;cells&#43;in&#43;a&#43;worksheet/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--accessing-cells-in-a-worksheet&#34;&gt;Aspose.Cells for .NET : Accessing Cells in a Worksheet&lt;/h1&gt;
+&lt;p&gt;We have discussed about working with worksheets, rows and columns so far but this is the time to go more deeper and talk about cells. So, in this topic, we would start our discussion about cells with a basic feature of accessing cells.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#accessing-cells-in-a-worksheet&#34;&gt;Accessing Cells in a Worksheet&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#using-cell-name&#34;&gt;Using Cell Name&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.2 &lt;a href=&#34;#using-cell&#39;s-row-and-column-indices&#34;&gt;Using Cell&amp;rsquo;s Row and Column Indices&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.3 &lt;a href=&#34;#getting-focused-cell&#34;&gt;Getting Focused Cell&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;accessing-cells-in-a-worksheet&#34;&gt;Accessing Cells in a Worksheet&lt;/h2&gt;
+&lt;p&gt;We can access any cell of a worksheet using the API of Aspose.Cells.GridDesktop. There could be three possible ways to access cells as follows:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Using Cell Name&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Using Cell&amp;rsquo;s Row &amp;amp; Column Indices&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Getting Focused Cell&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Let&amp;rsquo;s discuss all above three approaches one by one.&lt;/p&gt;
+&lt;h3 id=&#34;using-cell-name&#34;&gt;Using Cell Name&lt;/h3&gt;
+&lt;p&gt;All cells in a worksheet have a unique name. For example, A1, A2, B1, B2 etc. Aspose.Cells.GridDesktop allows developers to access any desired cell by using its cell name. All we have to do is to just pass the cell name (as an index) to the &lt;strong&gt;Cells&lt;/strong&gt; collection of the &lt;strong&gt;Worksheet&lt;/strong&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;using-cells-row-and-column-indices&#34;&gt;Using Cell&amp;rsquo;s Row and Column Indices&lt;/h3&gt;
+&lt;p&gt;A cell in a worksheet can also be recognized using its location in terms of its row and column indices. All we have to do is to just pass the row and column indices of the cell to the &lt;strong&gt;Cells&lt;/strong&gt; collection of the &lt;strong&gt;Worksheet&lt;/strong&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;getting-focused-cell&#34;&gt;Getting Focused Cell&lt;/h3&gt;
+&lt;p&gt;If you don&amp;rsquo;t know accurately that which cell is to be accessed. Then Aspose.Cells.GridDesktop also allows you to access a cell that is currently in the focus of a user. Using this feature, you can allow a user to select any cell and then you can access that cell at the backend. It can simply be achieved by using &lt;strong&gt;GetFocusedCell&lt;/strong&gt; method of the &lt;strong&gt;Worksheet&lt;/strong&gt;.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Accessing and Modifying the Value of a Cell</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/griddesktop/cells/accessing&#43;&#43;and&#43;&#43;modifying&#43;the&#43;value&#43;of&#43;a&#43;cell/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/griddesktop/cells/accessing&#43;&#43;and&#43;&#43;modifying&#43;the&#43;value&#43;of&#43;a&#43;cell/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--accessing-and-modifying-the-value-of-a-cell&#34;&gt;Aspose.Cells for .NET : Accessing and Modifying the Value of a Cell&lt;/h1&gt;
+&lt;p&gt;In our previous topic, we have discussed about accessing cells of a worksheet. In this topic, we will simply extend that topic to show developers that how can they access and modify the values of cells using the API of Aspose.Cells.GridDesktop.&lt;/p&gt;
+&lt;h2 id=&#34;access-and-modify-cell-value-using-asposecellsgriddesktop&#34;&gt;Access and Modify Cell Value using &lt;code&gt;Aspose.Cells.GridDesktop&lt;/code&gt;&lt;/h2&gt;
+&lt;p&gt;Before accessing and modifying the value of a cell, we should know that how to access cells. There are three approaches to access cells of a worksheet. For more details about these three approaches, please &lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/griddesktop/cells/accessing+cells+in+a+worksheet&#34;&gt;Accessing Cells in a Worksheet.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Each cell has a property named Value . So, once a cell is accessed, developers can access and modify the contents of the Value property in order to access and change the value of a cell.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;IMPORTANT:&lt;/strong&gt; Using Value property of a cell to modify its value is a good approach for setting the value of a single or few cells. If you need to set the values of many cells then the performance of this approach would not be good. So, to set the values of many cells, you should use &lt;strong&gt;SetCellValue&lt;/strong&gt; method of the cell for improving the performance of your applications. A modified version of the above code snippet using &lt;strong&gt;SetCellValue&lt;/strong&gt; method is shown below.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Adding Formulas to Cells</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/griddesktop/cells/adding&#43;formulas&#43;to&#43;cells/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/griddesktop/cells/adding&#43;formulas&#43;to&#43;cells/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--adding-formulas-to-cells&#34;&gt;Aspose.Cells for .NET : Adding Formulas to Cells&lt;/h1&gt;
+&lt;p&gt;A cell cannot only just contain a simple value like a numeric figure or some text but we can also insert a formula in a cell as its value. A formula is used in a cell when the value of a cell needs to be determined after some calculations. In this topic, we will discuss that how can we access and modify a formula applied on a cell.&lt;/p&gt;
+&lt;h2 id=&#34;adding-formula-to-a-cell&#34;&gt;Adding Formula to a Cell&lt;/h2&gt;
+&lt;p&gt;Adding formula to a cell is just like setting the value of a cell as we have discussed in our previous topic: &lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/griddesktop/cells/accessing++and++modifying+the+value+of+a+cell&#34;&gt;Accessing &amp;amp; Modifying the Value of a Cell&lt;/a&gt; except that in that case, we just added simple values to cells. Now, we will add formulas. Developers can use Value property of a cell to access &amp;amp; modify the formula or otherwise &lt;strong&gt;SetCellValue&lt;/strong&gt; method of the cell can also be used to add or modify the formula in a cell.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;IMPORTANT:&lt;/strong&gt; The basic difference between using Value property or &lt;strong&gt;SetCellValue&lt;/strong&gt; method of a cell is that Value property invokes &lt;strong&gt;RunAllFormulas&lt;/strong&gt; method of Grid automatically to recalculate the values of all formulas where as in the case of &lt;strong&gt;SetCellValue&lt;/strong&gt; method developers need to call &lt;strong&gt;RunAllFormulas&lt;/strong&gt; method explicitly after the formulas are added to cells. Actually, when we use &lt;strong&gt;SetCellValue&lt;/strong&gt; method of a cell then this method sets the value of the cell to &lt;strong&gt;FormulaType&lt;/strong&gt; only and don&amp;rsquo;t calculate the formula. Moreover, calling &lt;strong&gt;RunAllFormulas&lt;/strong&gt; method every time is not necessary. If you want to add many formulas in the cells of a worksheet then you can call &lt;strong&gt;RunAllFormulas&lt;/strong&gt; method just once at the end.&lt;/p&gt;
+&lt;p&gt;A formula is added to a cell as a string value. Moreover, the formula structure must be compatible with the formula structure of MS Excel. All formulas must begin with an &lt;strong&gt;Equal Sign (=)&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;In the example given below, we have added a formula to multiply the values of two cells of the worksheet and store the result into another cell. &lt;strong&gt;RunAllFormulas&lt;/strong&gt; method is also invoked at the end.&lt;/p&gt;
+&lt;p&gt;Now run the application. If you double click on the cell where formula was added then you would notice that the value will be replaced by the formula that is actually calculating the value on back-end.&lt;/p&gt;
+&lt;p&gt;Aspose.Cells.GridDesktop supports most of the commonly used functions of MS Excel. For more details about the list of supported functions, please &lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/knowledgebase/formulacalculationengine/apsclsgridcontrols/list+of+supported+functions&#34;&gt;click here.&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Changing the Font and Color of a Cell</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/griddesktop/cells/changing&#43;the&#43;font&#43;and&#43;color&#43;of&#43;a&#43;cell/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/griddesktop/cells/changing&#43;the&#43;font&#43;and&#43;color&#43;of&#43;a&#43;cell/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--changing-the-font-and-color-of-a-cell&#34;&gt;Aspose.Cells for .NET : Changing the Font and Color of a Cell&lt;/h1&gt;
+&lt;p&gt;In this topic, we will discuss about changing the font and font color of a cell. This feature provides more in depth control of worksheets to developers. Using this feature, developers can customize the font and color of any desired cell.&lt;/p&gt;
+&lt;h2 id=&#34;changing-the-font--color-of-a-cell&#34;&gt;Changing the Font &amp;amp; Color of a Cell&lt;/h2&gt;
+&lt;p&gt;To change the font and color of a cell using Aspose.Cells.GridDesktop, please follow the steps below:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Access any desired &lt;strong&gt;Worksheet&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Access a &lt;strong&gt;Cell&lt;/strong&gt; whose font and color are to be changed&lt;/li&gt;
+&lt;li&gt;Create a customized &lt;strong&gt;Font&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Set the &lt;strong&gt;Font&lt;/strong&gt; of the &lt;strong&gt;Cell&lt;/strong&gt; to the customized one&lt;/li&gt;
+&lt;li&gt;Finally, set &lt;strong&gt;Font Color&lt;/strong&gt; of the &lt;strong&gt;Cell&lt;/strong&gt; to any desired &lt;strong&gt;Color&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you only need to get information about the font or font color of the cell then you can also use &lt;strong&gt;GetFont&lt;/strong&gt; and &lt;strong&gt;GetFontColor&lt;/strong&gt; methods of the cell.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Applying Styles on Cells</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/griddesktop/cells/applying&#43;styles&#43;on&#43;cells/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/griddesktop/cells/applying&#43;styles&#43;on&#43;cells/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--applying-styles-on-cells&#34;&gt;Aspose.Cells for .NET : Applying Styles on Cells&lt;/h1&gt;
+&lt;p&gt;This topic deals with applying styles on cells so, we will try to cover almost everything that can be used to apply style on a cell. Besides some basic formatting settings, we will also discuss about drawing borders and setting number format of cells in detail.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#applying-a-custom-style-on-a-cell---an-example&#34;&gt;Applying a Custom Style on a Cell - An Example&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#drawing-borders-of-cells&#34;&gt;Drawing Borders of Cells&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;2.1 &lt;a href=&#34;#types-of-borders&#34;&gt;Types of Borders&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2.2 &lt;a href=&#34;#types-of-border-lines&#34;&gt;Types of Border Lines&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#summing-up-all-together---example&#34;&gt;Summing Up All Together - Example&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;4 &lt;a href=&#34;#setting-number-formats&#34;&gt;Setting Number Formats&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;applying-a-custom-style-on-a-cell---an-example&#34;&gt;Applying a Custom Style on a Cell - An Example&lt;/h2&gt;
+&lt;p&gt;To change the font and color of a cell using Aspose.Cells.GridDesktop, please follow the steps below:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Access any desired &lt;strong&gt;Worksheet&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Access a &lt;strong&gt;Cell&lt;/strong&gt; on which we want to apply a &lt;strong&gt;Style&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Get &lt;strong&gt;Style&lt;/strong&gt; of the &lt;strong&gt;Cell&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Set &lt;strong&gt;Style&lt;/strong&gt; properties according to your custom needs&lt;/li&gt;
+&lt;li&gt;Finally, set &lt;strong&gt;Style&lt;/strong&gt; of the &lt;strong&gt;Cell&lt;/strong&gt; with the updated one&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;There are many useful properties and methods offered by &lt;strong&gt;Style&lt;/strong&gt; object that can be used by developers to customize the style according to their requirements. In the code below it is demonstrated that how to apply custom style on cell.&lt;/p&gt;
+&lt;h2 id=&#34;drawing-borders-of-cells&#34;&gt;Drawing Borders of Cells&lt;/h2&gt;
+&lt;p&gt;Using &lt;strong&gt;Style&lt;/strong&gt; object, we can draw borders of a cell very easily. The borders can be drawn in any color. Moreover, developers also have the flexibility to choose a specific type of line that will be used to draw borders around the cell. Developers can use &lt;strong&gt;SetBorderLine&lt;/strong&gt; and &lt;strong&gt;SetBorderColor&lt;/strong&gt; methods of &lt;strong&gt;Style&lt;/strong&gt; object to draw borders of any type and colors. Similarly, to get border information of any cell, developers can also make use of &lt;strong&gt;GetBorderLine&lt;/strong&gt; and &lt;strong&gt;GetBorderColor&lt;/strong&gt; methods of &lt;strong&gt;Style&lt;/strong&gt; object.&lt;/p&gt;
+&lt;h3 id=&#34;types-of-borders&#34;&gt;Types of Borders&lt;/h3&gt;
+&lt;p&gt;There are six types of borders supported by Aspose.Cells.GridDesktop as follows:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Left&lt;/strong&gt; , represents left border&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Right&lt;/strong&gt; , represents right border&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Top&lt;/strong&gt; , represents Top border&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Bottom&lt;/strong&gt; , represents bottom border&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;DiagonalDown&lt;/strong&gt; , represents diagonal down border&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;DiagonalUp&lt;/strong&gt; , represents diagonal up border&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;types-of-border-lines&#34;&gt;Types of Border Lines&lt;/h3&gt;
+&lt;p&gt;A border is composed of a line. Changing the type of line, changes the appearance of a border. There are many types of border lines supported by Aspose.Cells.GridDesktop, which are also listed below:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;None&lt;/strong&gt; , represents no border&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Thin&lt;/strong&gt; , represents solid line border&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Medium&lt;/strong&gt; , represents solid line border with line width equal to 2f&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Dashed&lt;/strong&gt; , represents dashed line border&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Dotted&lt;/strong&gt; , represents dotted line border&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Thick&lt;/strong&gt; , represents solid line border with line width equal to 3f&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;MediumDashed&lt;/strong&gt; , represents dashed line border with line width equal to 2f&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ThinDashDotted&lt;/strong&gt; , represents dash dotted line border&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;MediumDashDotted&lt;/strong&gt; , represents dash dotted line border with line width equal to 2f&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ThinDashDotDotted&lt;/strong&gt; , represents dash dot dotted line border&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;MediumDashDotDotted&lt;/strong&gt; , represents dash dot dotted line border with line width equal to 2f&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;summing-up-all-together---example&#34;&gt;Summing Up All Together - Example&lt;/h2&gt;
+&lt;h2 id=&#34;setting-number-formats&#34;&gt;Setting Number Formats&lt;/h2&gt;
+&lt;p&gt;Aspose.Cells.GridDesktop also provides a strong feature of setting number formats for the values entered into cells. There are 58 built-in number formats offered by Aspose.Cells.GridDesktop. To see a complete list of all supported number formats, please refer to &lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/knowledgebase/list+of+supported+number+formats&#34;&gt;Supported Number Formats.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;All built-in number formats are assigned an &lt;strong&gt;Index&lt;/strong&gt; number. &lt;strong&gt;For example&lt;/strong&gt; the &lt;strong&gt;Index&lt;/strong&gt; number of &lt;strong&gt;0.00E+00&lt;/strong&gt; number format is &lt;strong&gt;11&lt;/strong&gt; . To use a built-in number format in any cell, developers can set the NumberFormat property of &lt;strong&gt;Style&lt;/strong&gt; object to the &lt;strong&gt;Index&lt;/strong&gt; number of that specific number format. However,if developers need to have their own custom number format then they can also use Custom property of &lt;strong&gt;Style&lt;/strong&gt; object.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Formatting a Range of Cells</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/griddesktop/cells/formatting&#43;a&#43;range&#43;of&#43;cells/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/griddesktop/cells/formatting&#43;a&#43;range&#43;of&#43;cells/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--formatting-a-range-of-cells&#34;&gt;Aspose.Cells for .NET : Formatting a Range of Cells&lt;/h1&gt;
+&lt;p&gt;This topic also belongs to the series of topics related to the application of font settings and other formatting styles on cells. Our last topics have covered well about handling such features. For example, you can refer to &lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/griddesktop/cells/changing+the+font+and+color+of+a+cell&#34;&gt;Changing the Font &amp;amp; Color of a Cell&lt;/a&gt; and &lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/griddesktop/cells/applying+styles+on+cells&#34;&gt;Applying Styles on Cells&lt;/a&gt; topics to learn about the same features. Then what is new in this topic if we have already covered these concepts. Well, the only difference of this topic with the previous ones is that we will apply formatting settings (related to fonts and other styles) on a range of cells instead of just a single cell. We hope that you will still find this topic useful for you.&lt;/p&gt;
+&lt;h2 id=&#34;setting-font--style-of-a-range-of-cells&#34;&gt;Setting Font &amp;amp; Style of a Range of Cells&lt;/h2&gt;
+&lt;p&gt;Before we talk about formatting settings (that we have already talked a lot in our previous topics), we should know about how to create a range of cells. Well, we can create a range of cells using &lt;strong&gt;CellRange&lt;/strong&gt; class whose constructor takes some parameters to specify the range of cells. We can specify the cells range using the &lt;strong&gt;Names&lt;/strong&gt; or &lt;strong&gt;Row &amp;amp; Column Indices&lt;/strong&gt; of start and end cells.&lt;/p&gt;
+&lt;p&gt;Once we have created a &lt;strong&gt;CellRange&lt;/strong&gt; object then we can use the overloaded versions of &lt;strong&gt;SetStyle&lt;/strong&gt;, &lt;strong&gt;SetFont&lt;/strong&gt; &amp;amp; &lt;strong&gt;SetFontColor&lt;/strong&gt; methods of Worksheet that can take a &lt;strong&gt;CellRange&lt;/strong&gt; object to apply formatting settings on the specified range of cells.&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s check out an example to understand this basic concept.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Using Style Dialog</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/griddesktop/cells/using&#43;style&#43;dialog/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/griddesktop/cells/using&#43;style&#43;dialog/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--using-style-dialog&#34;&gt;Aspose.Cells for .NET : Using Style Dialog&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells.GridDesktop is a GUI based control that lets its users to work on their data in a WYSIWYG mode. We have explored the API of Aspose.Cells.GridDesktop a lot to perform different kinds of tasks. We have also discussed about controlling the formatting settings of Grid, Worksheets, Rows &amp;amp; Columns and Cells programmatically using the robust and easier API of Aspose.Cells.GridDesktop. But all of that was from the programming point of view. In this topic, we will discuss that how can a simple end user control the formatting settings of Aspose.Cells.GridDesktop using its &lt;strong&gt;Style Dialog&lt;/strong&gt;.&lt;/p&gt;
+
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#using-style-dialog&#34;&gt;Using Style Dialog&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#number-tab&#34;&gt;Number Tab&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.2 &lt;a href=&#34;#alignment-tab&#34;&gt;Alignment Tab&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.3 &lt;a href=&#34;#border-tab&#34;&gt;Border Tab&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.4 &lt;a href=&#34;#font-tab&#34;&gt;Font Tab&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.5 &lt;a href=&#34;#protection-tab&#34;&gt;Protection Tab&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;using-style-dialog&#34;&gt;Using Style Dialog&lt;/h2&gt;
+&lt;p&gt;To use &lt;strong&gt;Style Dialog&lt;/strong&gt; in Aspose.Cells.GridDesktop, please follow the steps below:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Right Click&lt;/strong&gt; on the Grid. A context menu will be popped up before you offering some options&lt;/li&gt;
+&lt;li&gt;Select &lt;strong&gt;Format Cells&amp;hellip;&lt;/strong&gt; option from the context menu.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;After you select &lt;strong&gt;Format Cells&amp;hellip;&lt;/strong&gt; option, &lt;strong&gt;Style Dialog&lt;/strong&gt; would appear before you. &lt;strong&gt;Style Dialog&lt;/strong&gt; consists of several tabs including:* &lt;strong&gt;Number&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Alignment&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Border&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Font&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Protection&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Let&amp;rsquo;s discuss and view each tab of the &lt;strong&gt;Style Dialog&lt;/strong&gt; one by one.&lt;/p&gt;
+&lt;h3 id=&#34;number-tab&#34;&gt;Number Tab&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Number&lt;/strong&gt; tab is used to set the &lt;strong&gt;Number Format&lt;/strong&gt; settings of a cell. You can select a number format category, set decimal places for the value, select a symbol set and also select that how to show negative value in the cell.&lt;/p&gt;
+&lt;h3 id=&#34;alignment-tab&#34;&gt;Alignment Tab&lt;/h3&gt;
+&lt;p&gt;Using &lt;strong&gt;Alignment&lt;/strong&gt; tab, users can set the horizontal and vertical alignment of the text. Even they can also use other text controlling options like wrapping text, shrinking cell to fit text and merging cells.&lt;/p&gt;
+&lt;h3 id=&#34;border-tab&#34;&gt;Border Tab&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Border&lt;/strong&gt; tab facilitates users to draw borders of any type and color with just a few clicks. All they have to do is to just select few options to draw a border according to their desires.&lt;/p&gt;
+&lt;h3 id=&#34;font-tab&#34;&gt;Font Tab&lt;/h3&gt;
+&lt;p&gt;Using &lt;strong&gt;Font&lt;/strong&gt; tab, users can change their font name, size, color and styles etc. Users can also preview their font settings before applying them on cells. So, it makes the job of users easier to format cells &lt;strong&gt;Just In Time&lt;/strong&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;protection-tab&#34;&gt;Protection Tab&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Protection&lt;/strong&gt; tab simply allows users to protect their cells by locking or hiding them.&lt;/p&gt;
+&lt;p&gt;Developers can also open &lt;strong&gt;Style Dialog&lt;/strong&gt; programmatically by calling the &lt;strong&gt;ShowStyleDialog&lt;/strong&gt; method of &lt;strong&gt;GridDesktop&lt;/strong&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Using Format Painter</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/griddesktop/cells/using&#43;format&#43;painter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/griddesktop/cells/using&#43;format&#43;painter/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--using-format-painter&#34;&gt;Aspose.Cells for .NET : Using Format Painter&lt;/h1&gt;
+&lt;p&gt;Format painter is the feature of MS Excel that has been adapted in Aspose.Cells.GridDesktop. It&amp;rsquo;s a very nice feature. For those people who have not yet used this feature, format painter allows users to apply the formatting settings of any focused cell to another cell. The implementation of this feature is very simple. In this topic, we will cover that too.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#using-format-painter&#34;&gt;Using Format Painter&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#using-format-painter-once&#34;&gt;Using Format Painter Once&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.2 &lt;a href=&#34;#using-format-painter-always&#34;&gt;Using Format Painter Always&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;using-format-painter&#34;&gt;Using Format Painter&lt;/h2&gt;
+&lt;p&gt;The feature of &lt;strong&gt;Format Painter&lt;/strong&gt; requires users to select a cell whose formatting settings you want to apply on other cells and then call &lt;strong&gt;StartFormatPainter&lt;/strong&gt; method &lt;strong&gt;GridDesktop&lt;/strong&gt;. There are two modes of format painter as follows:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Using Format Painter Once&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Using Format Painter Always&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;using-format-painter-once&#34;&gt;Using Format Painter Once&lt;/h3&gt;
+&lt;p&gt;If developers want to use the feature of format painter for just one time only to apply the formatting settings of a focused cell to a single cell then they can do it by calling &lt;strong&gt;StartFormatPainter&lt;/strong&gt; method and passing a &lt;strong&gt;false&lt;/strong&gt; value to it. This &lt;strong&gt;false&lt;/strong&gt; value will prohibit format painter from painting forever.&lt;/p&gt;
+&lt;h3 id=&#34;using-format-painter-always&#34;&gt;Using Format Painter Always&lt;/h3&gt;
+&lt;p&gt;To use format painter always is a useful feature when we need to apply the formatting settings on more than ons cells. Developers can achieve this feature by simply calling &lt;strong&gt;StartFormatPainter&lt;/strong&gt; method and passing a &lt;strong&gt;true&lt;/strong&gt; value to it.&lt;/p&gt;
+&lt;p&gt;This kind of format painter keeps painting forever unless we stop it. So, to stop format painter from painting always, we can simply call &lt;strong&gt;EndFormatPainter&lt;/strong&gt; method of &lt;strong&gt;GridDesktop&lt;/strong&gt;.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Merging and Unmerging Cells</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/griddesktop/cells/merging&#43;&#43;and&#43;&#43;unmerging&#43;cells/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/griddesktop/cells/merging&#43;&#43;and&#43;&#43;unmerging&#43;cells/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--merging-and-unmerging-cells&#34;&gt;Aspose.Cells for .NET : Merging and Unmerging Cells&lt;/h1&gt;
+&lt;p&gt;In this topic, we will discuss a utility feature of merging and unmerging cells of a worksheet. This feature is useful in those cases when we need to span some rows or columns to enhance the readability of data.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#merging-cells&#34;&gt;Merging Cells&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#unmerging-cells&#34;&gt;Unmerging Cells&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;merging-cells&#34;&gt;Merging Cells&lt;/h2&gt;
+&lt;p&gt;To merge cells into a single large cell, please follow the steps below:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Access any desired &lt;strong&gt;Worksheet&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Create a &lt;strong&gt;Range of Cells&lt;/strong&gt; to be merged&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Merge&lt;/strong&gt; the range of cells into a large cell&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can use &lt;strong&gt;Merge&lt;/strong&gt; method of &lt;strong&gt;Worksheet&lt;/strong&gt; to merge cells. However, a range of cells can be defined using &lt;strong&gt;CellRange&lt;/strong&gt; object.&lt;/p&gt;
+&lt;h2 id=&#34;unmerging-cells&#34;&gt;Unmerging Cells&lt;/h2&gt;
+&lt;p&gt;To unmerge a large cell into many cells, please follow the steps below:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Access any desired &lt;strong&gt;Worksheet&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Access the merged cell that needs to be unmerged&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Unmerge&lt;/strong&gt; the large cell into many cells using the location of merged cell&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can use &lt;strong&gt;Unmerge&lt;/strong&gt; method of &lt;strong&gt;Worksheet&lt;/strong&gt; to unmerge a cell using its location.&lt;/p&gt;
+&lt;p&gt;When you merge cells into a single cell then the formatting settings of top left cell (in the range of cells) are applied on the merged cell but when the cell is unmerged, all unmerged cells maintain their formatting settings.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Filtering Data</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/griddesktop/cells/filtering&#43;data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/griddesktop/cells/filtering&#43;data/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--filtering-data&#34;&gt;Aspose.Cells for .NET : Filtering Data&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Aspose.Cells.GridDesktop&lt;/strong&gt; provides Auto-Filter and Custom Data Filter features for the users. Using these features, you may find a way to select only those items from the worksheet that you want to display in a list. Moreover, you are allowed to filter items in a list according to a set criteria. You can filter text, numbers or dates with Auto-Filter / Custom Data Filter feature.&lt;/p&gt;
+&lt;p&gt;You can use &lt;strong&gt;EnableAutoFilter&lt;/strong&gt; Boolean attribute of &lt;strong&gt;RowFilterSettings&lt;/strong&gt; class to enable the Auto-Filter feature for the GridDesktop control. There are some other properties of the class that you can use, e.g &lt;strong&gt;HeaderRow&lt;/strong&gt; , &lt;strong&gt;StartRow&lt;/strong&gt; and &lt;strong&gt;EndRow&lt;/strong&gt; to specify the header, start and end row indexes. The &lt;strong&gt;Criteria&lt;/strong&gt; property is used to set the custom filtering criteria. The class has also a method named &lt;strong&gt;FilterRows&lt;/strong&gt; to get the filtered rows based on the given criteria.&lt;/p&gt;
+&lt;p&gt;The &amp;ldquo;contains&amp;rdquo; type search (case-insensitive) attribute in RowFilter is also supported by GridDesktop. You may use &lt;strong&gt;IgnoreCase&lt;/strong&gt; property of &lt;strong&gt;GridColumn&lt;/strong&gt; class to specify the case sensivity attribute for your need. You can also use a property named &lt;strong&gt;IsStartWithCriteria&lt;/strong&gt; of &lt;strong&gt;GridColumn&lt;/strong&gt; class to indicate whether the RowFilter uses the StartWith criteria on a column; the default value of the property is set to false.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#filtering-data&#34;&gt;Filtering Data&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#auto-filter&#34;&gt;Auto-Filter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.2 &lt;a href=&#34;#custom-data-filter&#34;&gt;Custom Data Filter&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;filtering-data&#34;&gt;Filtering Data&lt;/h2&gt;
+&lt;p&gt;We implement both Auto-Filter and Custom Data Filter features in this example. We fill some data list in the GridDesktop, enable Auto-Filter feature and then search filtered rows based on some criteria.&lt;/p&gt;
+&lt;h3 id=&#34;auto-filter&#34;&gt;Auto-Filter&lt;/h3&gt;
+&lt;h3 id=&#34;custom-data-filter&#34;&gt;Custom Data Filter&lt;/h3&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Using Named Ranges</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/griddesktop/cells/using&#43;named&#43;ranges/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/griddesktop/cells/using&#43;named&#43;ranges/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--using-named-ranges&#34;&gt;Aspose.Cells for .NET : Using Named Ranges&lt;/h1&gt;
+&lt;p&gt;Normally, you use the labels of columns and rows on a worksheet to refer to the cells within those columns and rows. But you can create descriptive names to represent cells, ranges of cells, formulas, or constant values. The word &lt;strong&gt;Name&lt;/strong&gt; may refer to a string of characters that represents a cell, range of cells, formula, or constant value. For example, Use easy-to-understand names, such as Products, to refer to hard to understand ranges, such as Sales!C20:C30 to represent a cell, range of cells, formula, or constant value. Labels can be used in formulas that refer to data on the same worksheet; if you want to represent a range on another worksheet, you may use a name. &lt;strong&gt;Named Ranges&lt;/strong&gt; are among the most powerful features of Microsoft. Users may assign a name to a named range so that this range of cells can be referred with its name in the formulas. &lt;strong&gt;Aspose.Cells.Grid****Desktop&lt;/strong&gt; does support this feature.&lt;/p&gt;
+&lt;h2 id=&#34;addingreferencing-named-ranges-in-formulas&#34;&gt;Adding/Referencing Named Ranges in Formulas&lt;/h2&gt;
+&lt;p&gt;The GridDesktop control does support to import/export named ranges in the Excel files, it provides two classes (&lt;strong&gt;Name&lt;/strong&gt; and &lt;strong&gt;NameCollection&lt;/strong&gt;) to work with named ranges.&lt;/p&gt;
+&lt;p&gt;Following code snippet will help you how to use them.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Using Undo and Redo Feature</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/griddesktop/cells/using&#43;undo&#43;and&#43;redo&#43;feature/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/griddesktop/cells/using&#43;undo&#43;and&#43;redo&#43;feature/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--using-undo-and-redo-feature&#34;&gt;Aspose.Cells for .NET : Using Undo and Redo Feature&lt;/h1&gt;
+&lt;p&gt;The GridDesktop&amp;rsquo;s Undo/Redo feature is very useful. The name explains its functionality itselft, it allows you to undo/redo the recent action(s) in a worksheet. For example, if a formula is accidentally deleted or you edit data in a cell which you don&amp;rsquo;t actually want, these actions can be corrected by using the Undo and Redo operations provided by the control.&lt;/p&gt;
+
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#performing-undo-and-redo-operation&#34;&gt;Performing Undo and Redo Operation&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#undo&#34;&gt;Undo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;performing-undo-and-redo-operation&#34;&gt;Performing Undo and Redo Operation&lt;/h2&gt;
+&lt;p&gt;The following APIs are available for the task. The description is given with each API, please check them.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;GridDesktop.EnableUndo&lt;/strong&gt; - attribute: It indicates whether the Undo function is enabled, the default value is &amp;ldquo;false&amp;rdquo;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;UndoManager&lt;/strong&gt; – class: It is used to manage the undo/redo operation.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GridDesktop.UndoManager&lt;/strong&gt; – attribute: It gets the instance of the &lt;strong&gt;UndoManager&lt;/strong&gt; object.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;UndoManager.Undo&lt;/strong&gt; – method: It performs an undo operation.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;UndoManager.Redo -&lt;/strong&gt; method: It performs the redo operation.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;UndoManager.ClearStack&lt;/strong&gt; – method: It clears the undo/redo stack.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;UndoManager.UndoStepsCount&lt;/strong&gt; – attribute: It gets the count of current available undo steps.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;UndoManager.RedoStepsCount&lt;/strong&gt; – attribute: It gets the count of current available redo steps.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;UndoManager.UndoStackSize&lt;/strong&gt; – attribute: It gets/sets the undo stack size.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;undo&#34;&gt;Undo&lt;/h3&gt;
+&lt;p&gt;The following sample code shows how to implement the Undo operation using the GridDesktop API.&lt;/p&gt;
+&lt;h3 id=&#34;heading&#34;&gt;&lt;/h3&gt;
+&lt;p&gt;Redo&lt;/p&gt;
+&lt;p&gt;The following sample code shows how to implement the Redo operation using the GridDesktop API.&lt;/p&gt;
+&lt;p&gt;Currently, undo/redo operation refers to the change in a cell value.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Adding Cell Protection in Worksheet</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/griddesktop/cells/adding&#43;cell&#43;protection&#43;in&#43;worksheet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/griddesktop/cells/adding&#43;cell&#43;protection&#43;in&#43;worksheet/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--adding-cell-protection-in-worksheet&#34;&gt;Aspose.Cells for .NET : Adding Cell Protection in Worksheet&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells for GridDesktop allows you to protect your cells in a worksheet. You first need to protect your worksheet, then you can protect your desired cells in a worksheet. In order to protect worksheet, please set &lt;strong&gt;Worksheet.Protected&lt;/strong&gt; property to true, then use &lt;strong&gt;Worksheet.SetProtected()&lt;/strong&gt; method to protect the range of cells.&lt;/p&gt;
+&lt;h2 id=&#34;protect-cell-using-asposecellsgriddesktop&#34;&gt;Protect Cell using &lt;code&gt;Aspose.Cells.GridDesktop&lt;/code&gt;&lt;/h2&gt;
+&lt;p&gt;The following sample code protects all the cells in range &lt;strong&gt;A1:B1&lt;/strong&gt; of the active worksheet of GridDesktop. When you will double click any cell in this range, you will not able to edit. It will make these cells readonly.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Text overflows from GridDesktop cell if it is too long</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/griddesktop/cells/text&#43;overflows&#43;from&#43;griddesktop&#43;cell&#43;if&#43;it&#43;is&#43;too&#43;long/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/griddesktop/cells/text&#43;overflows&#43;from&#43;griddesktop&#43;cell&#43;if&#43;it&#43;is&#43;too&#43;long/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--text-overflows-from-griddesktop-cell-if-it-is-too-long&#34;&gt;Aspose.Cells for .NET : Text overflows from GridDesktop cell if it is too long&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#text-overflows-from-griddesktop-cell-if-it-is-too-long&#34;&gt;Text overflows from GridDesktop cell if it is too long&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#screenshot&#34;&gt;Screenshot&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;Microsoft Excel overflows the text when the next adjacent cells are empty and the text is too long to fit inside the cell. Aspose.Cells for GridDesktop also supports this feature. However, this feature was not supported in earlier versions of GridDesktop e.g. 17.11, 17.10 etc. The newer versions starting from 17.12 and onward supports this feature.&lt;/p&gt;
+&lt;h2 id=&#34;text-overflows-from-griddesktop-cell-if-it-is-too-long&#34;&gt;Text overflows from GridDesktop cell if it is too long&lt;/h2&gt;
+&lt;p&gt;The following screenshot shows that the text overflows from GridDesktop cell when it is too long to fit inside the cell width. The screenshot shows the behavior of newer and older version of GridDesktop relating to the text overflow. As you can see in screenshot, the feature is supported from 17.12 onward.&lt;/p&gt;
+&lt;h2 id=&#34;screenshot&#34;&gt;Screenshot&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/60229445/60489796.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

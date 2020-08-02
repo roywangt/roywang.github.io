@@ -1,0 +1,90 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – License Aspose.Cells for SharePoint</title>
+    <link>https://roywangt.github.io/cells/sharepoint/productinformation/license/</link>
+    <description>Recent content in License Aspose.Cells for SharePoint on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://roywangt.github.io/cells/sharepoint/productinformation/license/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Sharepoint: Installing Aspose.Cells for SharePoint License</title>
+      <link>https://roywangt.github.io/cells/sharepoint/productinformation/license/installing&#43;aspose.cells&#43;for&#43;sharepoint&#43;license/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/sharepoint/productinformation/license/installing&#43;aspose.cells&#43;for&#43;sharepoint&#43;license/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-sharepoint--installing-asposecells-for-sharepoint-license&#34;&gt;Aspose.Cells for SharePoint : Installing Aspose.Cells for SharePoint License&lt;/h1&gt;
+&lt;p&gt;Once you are happy with your &lt;a href=&#34;https://docs2.aspose.com/cells/sharepoint/productinformation/evaluate+aspose.cells&#34;&gt;evaluation&lt;/a&gt;, &lt;a href=&#34;http://www.aspose.com/purchase/default.aspx&#34;&gt;buy a license&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Before buying, make sure that you understand and agree to the license subscription terms.&lt;/p&gt;
+&lt;p&gt;The license is emailed to you when the order has been paid. The license is a ZIP archive containing a regular SharePoint solution package.&lt;/p&gt;
+&lt;p&gt;The license ZIP contains:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Aspose.Cells.SharePoint.License.wsp&lt;/strong&gt; – SharePoint solution package file. The Aspose.Cells for SharePoint license is packaged as a SharePoint solution to facilitate deployment and retraction across the server farm.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;readme.txt&lt;/strong&gt; – License installation instructions. License installation is performed from the server console via the &lt;strong&gt;stsadm.exe&lt;/strong&gt;. The steps required to install the license are given below.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;installing-the-license&#34;&gt;Installing the License&lt;/h4&gt;
+&lt;p&gt;Paths are omitted for clarity. Add the actual path to &lt;strong&gt;stsadm.exe&lt;/strong&gt; and/or solution file when executing the steps below.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Run stsadm to add the solution to the SharePoint solution store:&lt;br&gt;
+&lt;code&gt;stsadm.exe -o addsolution -filename Aspose.Cells.SharePoint.License.wsp&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Deploy the solution to all servers in the farm:&lt;br&gt;
+&lt;code&gt;stsadm.exe -o deploysolution -name Aspose.Cells.SharePoint.License.wsp -immediate -force&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Execute administrative timer jobs to complete the deployment immediately:&lt;br&gt;
+&lt;code&gt;stsadm.exe -o execadmsvcjobs&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;You will receive a warning when running the deployment step if the Windows SharePoint Services Administration service has not been started. &lt;strong&gt;Stsadm.exe&lt;/strong&gt; relies on this service and Windows SharePoint Timer Service to replicate solution data across the farm. If these services are not running on your server farm, you may need to deploy the license separately to each server.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Sharepoint: Testing a License</title>
+      <link>https://roywangt.github.io/cells/sharepoint/productinformation/license/testing&#43;a&#43;license/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/sharepoint/productinformation/license/testing&#43;a&#43;license/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-sharepoint--testing-a-license&#34;&gt;Aspose.Cells for SharePoint : Testing a License&lt;/h1&gt;
+&lt;p&gt;To test that a license has been installed correctly, convert any document into desired format. If the document contains no evaluation warning, the license was activated successfully.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Sharepoint: Uninstalling Aspose.Cells for SharePoint License</title>
+      <link>https://roywangt.github.io/cells/sharepoint/productinformation/license/uninstalling&#43;aspose.cells&#43;for&#43;sharepoint&#43;license/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/sharepoint/productinformation/license/uninstalling&#43;aspose.cells&#43;for&#43;sharepoint&#43;license/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-sharepoint--uninstalling-asposecells-for-sharepoint-license&#34;&gt;Aspose.Cells for SharePoint : Uninstalling Aspose.Cells for SharePoint License&lt;/h1&gt;
+&lt;p&gt;To uninstall Aspose.Cells for SharePoint license, please use the steps below from the server console.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Retract the license solution from the farm:&lt;br&gt;
+&lt;code&gt;stsadm.exe -o retractsolution -name Aspose.Cells.SharePoint.License.wsp -immediate&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Execute administrative timer jobs to complete the retraction immediately:&lt;br&gt;
+&lt;code&gt;stsadm.exe -o execadmsvcjobs&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Wait for the retraction to complete.&lt;br&gt;
+You can use Central Administration to check if the retraction has completed by going to &lt;strong&gt;Central Administration&lt;/strong&gt;, then &lt;strong&gt;Operations&lt;/strong&gt; and &lt;strong&gt;Solution Management&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Remove the solution from the SharePoint solution store:&lt;br&gt;
+&lt;code&gt;stsadm.exe -o deletesolution -name Aspose.Cells.SharePoint.License.wsp&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,302 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Rows and Columns</title>
+    <link>https://roywangt.github.io/cells/cpp/developerguide/rowsandcolumns/</link>
+    <description>Recent content in Rows and Columns on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://roywangt.github.io/cells/cpp/developerguide/rowsandcolumns/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Cpp: Adjusting Row Height and Column Width</title>
+      <link>https://roywangt.github.io/cells/cpp/developerguide/rowsandcolumns/adjusting&#43;row&#43;height&#43;and&#43;column&#43;width/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/cpp/developerguide/rowsandcolumns/adjusting&#43;row&#43;height&#43;and&#43;column&#43;width/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-c--adjusting-row-height-and-column-width&#34;&gt;Aspose.Cells for C++ : Adjusting Row Height and Column Width&lt;/h1&gt;
+&lt;p&gt;When working with spreadsheets and adding data to rows or columns, you might need to change the height of rows or the width of columns. Sometimes, applying formatting on rows or columns means that the current height or width needs to change to show the data. Normally, users adjust row heights and column widths in a WYSIWYG environment using Microsoft Excel. But, with Aspose.Cells developers can perform these operations at runtime.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#working-with-rows&#34;&gt;Working with Rows&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#adjusting-row-height&#34;&gt;Adjusting Row Height&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1.1 &lt;a href=&#34;#setting-the-height-of-a-row&#34;&gt;Setting the Height of a Row&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.1.2 &lt;a href=&#34;#setting-the-height-of-all-rows-in-a-worksheet&#34;&gt;Setting the Height of All Rows in a Worksheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#working-with-columns&#34;&gt;Working with Columns&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;2.1 &lt;a href=&#34;#setting-the-width-of-a-column&#34;&gt;Setting the Width of a Column&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2.2 &lt;a href=&#34;#setting-the-width-of-all-columns-in-a-worksheet&#34;&gt;Setting the Width of All Columns in a Worksheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;working-with-rows&#34;&gt;Working with Rows&lt;/h2&gt;
+&lt;h3 id=&#34;adjusting-row-height&#34;&gt;Adjusting Row Height&lt;/h3&gt;
+&lt;p&gt;Aspose.Cells provides a class, &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_workbook/&#34;&gt;IWorkbook&lt;/a&gt; that represents a Microsoft Excel file. The &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_workbook/&#34;&gt;IWorkbook&lt;/a&gt; class contains a &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_worksheet_collection/&#34;&gt;IWorksheetCollection&lt;/a&gt; that allows access to each worksheet in the Excel file. A worksheet is represented by the &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_worksheet/&#34;&gt;IWorksheet&lt;/a&gt; class. The &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_worksheet/&#34;&gt;IWorksheet&lt;/a&gt; class provides a &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_cells/&#34;&gt;ICells&lt;/a&gt; collection that represents all cells in the worksheet. The &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_cells/&#34;&gt;ICells&lt;/a&gt; collection provides several methods to manage rows or columns in a worksheet. Some of these are discussed below in more detail.&lt;/p&gt;
+&lt;h4 id=&#34;setting-the-height-of-a-row&#34;&gt;Setting the Height of a Row&lt;/h4&gt;
+&lt;p&gt;It is possible to set the height of a single row by calling the &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_cells/&#34;&gt;ICells&lt;/a&gt; collection&amp;rsquo;s &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_cells/#a7aa441877e03639232299627261a7d1f&#34;&gt;SetRowHeight&lt;/a&gt; method. The &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_cells/#a7aa441877e03639232299627261a7d1f&#34;&gt;SetRowHeight&lt;/a&gt; method takes the following parameters as follows:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Row index&lt;/strong&gt;, the index of the row that you&amp;rsquo;re changing the height of.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Row height&lt;/strong&gt;, the row height to apply on the row.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;setting-the-height-of-all-rows-in-a-worksheet&#34;&gt;Setting the Height of All Rows in a Worksheet&lt;/h4&gt;
+&lt;p&gt;If developers need to set the same row height for all rows in the worksheet, they can do it by using the &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_cells/#a0b79a3163e2b601aa1b6a6a1e3f1467f&#34;&gt;SetStandardHeight&lt;/a&gt; method of the &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_cells/&#34;&gt;ICells&lt;/a&gt; collection.&lt;/p&gt;
+&lt;h2 id=&#34;working-with-columns&#34;&gt;Working with Columns&lt;/h2&gt;
+&lt;h3 id=&#34;setting-the-width-of-a-column&#34;&gt;Setting the Width of a Column&lt;/h3&gt;
+&lt;p&gt;Set the width of a column by calling the &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_cells/&#34;&gt;ICells&lt;/a&gt; collection&amp;rsquo;s &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_cells/#ab1c6a4e89760d2a022d5bfba8bc40987&#34;&gt;SetColumnWidth&lt;/a&gt; method. The &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_cells/#ab1c6a4e89760d2a022d5bfba8bc40987&#34;&gt;SetColumnWidth&lt;/a&gt; method takes the following parameters:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Column index&lt;/strong&gt;, the index of the column that you&amp;rsquo;re changing the width of.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Column width&lt;/strong&gt;, the desired column width.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;setting-the-width-of-all-columns-in-a-worksheet&#34;&gt;Setting the Width of All Columns in a Worksheet&lt;/h3&gt;
+&lt;p&gt;To set the same column width for all columns in the worksheet, use the &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_cells/&#34;&gt;ICells&lt;/a&gt; collection&amp;rsquo;s &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_cells/#a48f5dbccc3bf4bb9e6e882094b500bd7&#34;&gt;SetStandardWidth&lt;/a&gt; method.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Cpp: Copying Rows and Columns</title>
+      <link>https://roywangt.github.io/cells/cpp/developerguide/rowsandcolumns/copying&#43;rows&#43;and&#43;columns/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/cpp/developerguide/rowsandcolumns/copying&#43;rows&#43;and&#43;columns/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-c--copying-rows-and-columns&#34;&gt;Aspose.Cells for C++ : Copying Rows and Columns&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#introduction&#34;&gt;Introduction&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#copying-rows-and-columns-with-microsoft-excel&#34;&gt;Copying Rows and Columns with Microsoft Excel&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#using-aspose.cells&#34;&gt;Using Aspose.Cells&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;3.1 &lt;a href=&#34;#copying-rows&#34;&gt;Copying Rows&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3.2 &lt;a href=&#34;#copying-columns&#34;&gt;Copying Columns&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Sometimes you need to copy rows and columns in a worksheet without copying the entire worksheet. With Aspose.Cells, it is possible to copy rows and columns within or between workbooks.&lt;br&gt;
+When a row (or column) is copied, the data contained in it, including formulas - with updated references - and values, comments, formatting, hidden cells, images and other drawing objects are copied too.&lt;/p&gt;
+&lt;h2 id=&#34;copying-rows-and-columns-with-microsoft-excel&#34;&gt;Copying Rows and Columns with Microsoft Excel&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Select the row or column that you want to copy.&lt;/li&gt;
+&lt;li&gt;To copy rows or columns, click &lt;strong&gt;Copy&lt;/strong&gt; on the &lt;strong&gt;Standard&lt;/strong&gt; toolbar, or press &lt;strong&gt;CTRL&lt;/strong&gt;+&lt;strong&gt;C&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Select a row or column below or to the right of where you want to copy your selection.&lt;/li&gt;
+&lt;li&gt;When you are copying rows or columns, click &lt;strong&gt;Copied Cells&lt;/strong&gt; on the &lt;strong&gt;Insert&lt;/strong&gt; menu.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;If you click &lt;strong&gt;Paste&lt;/strong&gt; on the &lt;strong&gt;Standard&lt;/strong&gt; toolbar or press &lt;strong&gt;CTRL&lt;/strong&gt;+&lt;strong&gt;V&lt;/strong&gt; instead of clicking a command on the &lt;strong&gt;Insert&lt;/strong&gt; menu, any contents of the destination cells is replaced.&lt;/p&gt;
+&lt;h2 id=&#34;using-asposecells&#34;&gt;Using Aspose.Cells&lt;/h2&gt;
+&lt;h3 id=&#34;copying-rows&#34;&gt;Copying Rows&lt;/h3&gt;
+&lt;p&gt;Aspose.Cells provides the &lt;code&gt;CopyRow&lt;/code&gt; method of the &lt;code&gt;Aspose::Cells::ICells&lt;/code&gt; class. This method copies all types of data including formulas, values, comments, cell formats, hidden cells, images and other drawing objects from the source row to the destination row.&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;CopyRow&lt;/code&gt; method takes the following parameters:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;the source &lt;code&gt;Cells&lt;/code&gt; object,&lt;/li&gt;
+&lt;li&gt;the source row index, and&lt;/li&gt;
+&lt;li&gt;the destination row index.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Use this method to copy a row within a sheet, or to another sheet. The &lt;code&gt;CopyRow&lt;/code&gt; method works in a similar way to Microsoft Excel. So, for example, you don&amp;rsquo;t need to set the height of the destination row explicitly, that value is copied too.&lt;/p&gt;
+&lt;p&gt;The following example shows how to copy a row in a worksheet. It uses a template Microsoft Excel file and copies the second row (complete with data, formatting, comments, images and so on) and paste it to 12th row in the same worksheet.&lt;/p&gt;
+&lt;p&gt;You can skip the step that gets the source row height using the &lt;strong&gt;GetRowHeigh&lt;/strong&gt; method and then sets the destination row height using the &lt;strong&gt;SetRowHeight&lt;/strong&gt; method as the &lt;strong&gt;CopyRow&lt;/strong&gt; method automatically takes care of the row height.&lt;/p&gt;
+&lt;p&gt;When copying rows, it is important to note related images, charts or other drawing objects as this is same with Microsoft Excel:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;If the source row index is 5, the image, chart etc., is copied if it is contained in the three rows (the starting row index is 4 and the ending row index is 6).&lt;/li&gt;
+&lt;li&gt;The existing images, charts etc. in the destination row will not be removed.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;copying-columns&#34;&gt;Copying Columns&lt;/h3&gt;
+&lt;p&gt;Aspose.Cells provides the &lt;code&gt;CopyColumn&lt;/code&gt; method of the &lt;code&gt;Aspose::Cells::ICells&lt;/code&gt; class, this method copies all types of data, including formulas - with updated references - and values, comments, cell formats, hidden cells, images and other drawing objects from the source column to the destination column.&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;CopyColumn&lt;/code&gt; method takes the following parameters:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;the source &lt;code&gt;Cells&lt;/code&gt; object,&lt;/li&gt;
+&lt;li&gt;source column index, and&lt;/li&gt;
+&lt;li&gt;the destination column index.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Use the &lt;code&gt;CopyColumn&lt;/code&gt; method to copy a column within a sheet or to another sheet.&lt;/p&gt;
+&lt;p&gt;This example copies a column from a worksheet and pastes it into a worksheet in another workbook.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Cpp: Grouping Ungrouping Rows and Columns</title>
+      <link>https://roywangt.github.io/cells/cpp/developerguide/rowsandcolumns/grouping&#43;ungrouping&#43;rows&#43;and&#43;columns/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/cpp/developerguide/rowsandcolumns/grouping&#43;ungrouping&#43;rows&#43;and&#43;columns/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-c--grouping-ungrouping-rows-and-columns&#34;&gt;Aspose.Cells for C++ : Grouping, Ungrouping Rows and Columns&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#introduction&#34;&gt;Introduction&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#group-management-of-rows-&amp;amp;-columns&#34;&gt;Group Management of Rows &amp;amp; Columns&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;2.1 &lt;a href=&#34;#grouping-rows-&amp;amp;-columns&#34;&gt;Grouping Rows &amp;amp; Columns&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;2.1.1 &lt;a href=&#34;#group-settings&#34;&gt;Group Settings&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#ungrouping-rows-&amp;amp;-columns&#34;&gt;Ungrouping Rows &amp;amp; Columns&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;In a Microsoft Excel file, you can create an outline for the data to let you show and hide levels of detail with a single mouse click.&lt;/p&gt;
+&lt;p&gt;Click the &lt;strong&gt;Outline Symbols&lt;/strong&gt;, 1,2,3, + and - to quickly display only the rows or columns that provide summaries or headings for sections in a worksheet, or you can use the symbols to see details under an individual summary or heading.&lt;/p&gt;
+&lt;h2 id=&#34;group-management-of-rows--columns&#34;&gt;Group Management of Rows &amp;amp; Columns&lt;/h2&gt;
+&lt;p&gt;Aspose.Cells provides a class, &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_workbook/&#34;&gt;IWorkbook&lt;/a&gt; that represents a Microsoft Excel file. The &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_workbook/&#34;&gt;IWorkbook&lt;/a&gt; class contains a &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_worksheet_collection/&#34;&gt;IWorksheets&lt;/a&gt; collection that allows access to each worksheet in the Excel file. A worksheet is represented by the &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_worksheet/&#34;&gt;IWorksheet&lt;/a&gt; class. The &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_worksheet/&#34;&gt;IWorksheet&lt;/a&gt; class provides an &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_cells/&#34;&gt;ICells&lt;/a&gt; collection that represents all cells in the worksheet.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_cells/&#34;&gt;ICells&lt;/a&gt; collection provides several methods to manage rows or columns in a worksheet, few of these are discussed below in more detail.&lt;/p&gt;
+&lt;h3 id=&#34;grouping-rows--columns&#34;&gt;Grouping Rows &amp;amp; Columns&lt;/h3&gt;
+&lt;p&gt;It is possible to group rows or columns by calling the &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_cells/#a88e0180ed1a4a423e0bd3ac599ef9332&#34;&gt;GroupRows&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_cells/#aaa14179e2a84ba5c2857f8434570d3d8&#34;&gt;GroupColumns&lt;/a&gt; methods of the &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_cells/&#34;&gt;ICells&lt;/a&gt; collection. Both methods take the following parameters:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The first row/column index, the first row or column in the group.&lt;/li&gt;
+&lt;li&gt;The last row/column index, the last row or column in the group.&lt;/li&gt;
+&lt;li&gt;Is hidden, a Boolean parameter that specifies whether to hide rows/columns after grouping or not.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;group-settings&#34;&gt;Group Settings&lt;/h4&gt;
+&lt;p&gt;Microsoft Excel allows you to configure group settings for displaying:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Summary rows below detail.&lt;/li&gt;
+&lt;li&gt;Summary columns to the right of detail.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;ungrouping-rows--columns&#34;&gt;Ungrouping Rows &amp;amp; Columns&lt;/h2&gt;
+&lt;p&gt;To ungroup any grouped rows or columns, call the &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_cells/&#34;&gt;ICells&lt;/a&gt; collection&amp;rsquo;s &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_cells/#adc1f6418506854ab41707bfef453ddb1&#34;&gt;UngroupRows&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_cells/#aa3bf9a9510d4e85f68db9ebdcadc8406&#34;&gt;UngroupColumns&lt;/a&gt; methods. Both methods take two parameters:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The first row or column index, the first row/column to be ungrouped.&lt;/li&gt;
+&lt;li&gt;The last row or column index, the last row/column to be ungrouped.&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Cpp: Inserting Deleting Rows and Columns</title>
+      <link>https://roywangt.github.io/cells/cpp/developerguide/rowsandcolumns/inserting&#43;deleting&#43;rows&#43;and&#43;columns/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/cpp/developerguide/rowsandcolumns/inserting&#43;deleting&#43;rows&#43;and&#43;columns/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-c--inserting-deleting-rows-and-columns&#34;&gt;Aspose.Cells for C++ : Inserting, Deleting Rows and Columns&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#introduction&#34;&gt;Introduction&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#managing-rows-and-columns&#34;&gt;Managing Rows and Columns&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1.1 &lt;a href=&#34;#insert-a-row&#34;&gt;Insert a Row&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.1.2 &lt;a href=&#34;#inserting-multiple-rows&#34;&gt;Inserting Multiple Rows&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.1.3 &lt;a href=&#34;#deleting-multiple-rows&#34;&gt;Deleting Multiple Rows&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.1.4 &lt;a href=&#34;#insert-a-column&#34;&gt;Insert a Column&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.1.5 &lt;a href=&#34;#delete-a-column&#34;&gt;Delete a Column&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Whether creating a new worksheet from scratch or working on an existing worksheet, we may need to add extra rows or columns to accommodate more data. Inversely, we may also need to delete rows or columns from specified positions in the worksheet. To fulfill these requirements, Aspose.Cells provides a very simplest set of classes and methods, discussed below.&lt;/p&gt;
+&lt;h3 id=&#34;managing-rows-and-columns&#34;&gt;Managing Rows and Columns&lt;/h3&gt;
+&lt;p&gt;Aspose.Cells provides a class, &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_workbook/&#34;&gt;IWorkbook&lt;/a&gt;, that represents a Microsoft Excel file. The &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_workbook/&#34;&gt;IWorkbook&lt;/a&gt; class contains an &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_worksheet_collection/&#34;&gt;IWorksheets&lt;/a&gt; collection that allows access to each worksheet in an Excel file. A worksheet is represented by the &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_worksheet/&#34;&gt;IWorksheet&lt;/a&gt; class. The &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_worksheet/&#34;&gt;IWorksheet&lt;/a&gt; class provides an &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_cells/&#34;&gt;ICells&lt;/a&gt; collection that represents all cells in the worksheet.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_cells/&#34;&gt;ICells&lt;/a&gt; collection provides several methods managing rows and columns in a worksheet. Some of these are discussed below.&lt;/p&gt;
+&lt;p&gt;When rows or columns are added, the content in the worksheet is shifted down or to the right, and if rows or columns are removed, the content is shifted up or the left.&lt;/p&gt;
+&lt;h4 id=&#34;insert-a-row&#34;&gt;Insert a Row&lt;/h4&gt;
+&lt;p&gt;Insert a row into the worksheet at any location by calling the &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_cells/#ad9c067ccb5f34a7740f5d1cc3dbefbe7&#34;&gt;InsertRow&lt;/a&gt; method of the &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_cells/&#34;&gt;ICells&lt;/a&gt; collection. The &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_cells/#ad9c067ccb5f34a7740f5d1cc3dbefbe7&#34;&gt;InsertRow&lt;/a&gt; method takes the index of the row where the new row will be inserted.&lt;/p&gt;
+&lt;h4 id=&#34;inserting-multiple-rows&#34;&gt;Inserting Multiple Rows&lt;/h4&gt;
+&lt;p&gt;To insert multiple rows into a worksheet, call the &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_cells/#a61e4cd6dcaeeb0d11afd54616df75ee0&#34;&gt;InsertRows&lt;/a&gt; method of the &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_cells/&#34;&gt;ICells&lt;/a&gt; collection. The &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_cells/#a61e4cd6dcaeeb0d11afd54616df75ee0&#34;&gt;InsertRows&lt;/a&gt; method takes two parameters:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Row index, the index of the row from where the new rows will be inserted.&lt;/li&gt;
+&lt;li&gt;Number of rows, the total number of rows that need to be inserted.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;deleting-multiple-rows&#34;&gt;Deleting Multiple Rows&lt;/h4&gt;
+&lt;p&gt;To delete multiple rows from a worksheet, call the &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_cells/#a251261027b564ebdf27c2c6d5149c0e1&#34;&gt;DeleteRows&lt;/a&gt; method of the &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_cells/&#34;&gt;ICells&lt;/a&gt; collection. The &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_cells/#a251261027b564ebdf27c2c6d5149c0e1&#34;&gt;DeleteRows&lt;/a&gt; method takes two parameters:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Row index, the index of the row from where the rows will be deleted.&lt;/li&gt;
+&lt;li&gt;Number of rows, the total number of rows that need to be deleted.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;insert-a-column&#34;&gt;Insert a Column&lt;/h4&gt;
+&lt;p&gt;Developers can also insert a column into the worksheet at any location by calling the &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_cells/#a8e8cb6d0812129669258378649b3fd55&#34;&gt;InsertColumn&lt;/a&gt; method of the &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_cells/&#34;&gt;ICells&lt;/a&gt; collection. &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_cells/#a8e8cb6d0812129669258378649b3fd55&#34;&gt;InsertColumn&lt;/a&gt; method takes the index of the column where the new column will be inserted.&lt;/p&gt;
+&lt;h4 id=&#34;delete-a-column&#34;&gt;Delete a Column&lt;/h4&gt;
+&lt;p&gt;To delete a column from the worksheet at any location, call the &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_cells/#ae00721fd2be220e7b73b2cab6a70e89b&#34;&gt;DeleteColumn&lt;/a&gt; method of the &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_cells/&#34;&gt;ICells&lt;/a&gt; collection. The &lt;a href=&#34;https://apireference.aspose.com/cpp/cells/class/aspose.cells.i_cells/#ae00721fd2be220e7b73b2cab6a70e89b&#34;&gt;DeleteColumn&lt;/a&gt; method takes the index of the column to delete.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

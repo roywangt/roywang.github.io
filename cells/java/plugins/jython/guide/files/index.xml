@@ -1,0 +1,233 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Working With Files in Jython</title>
+    <link>https://roywangt.github.io/cells/java/plugins/jython/guide/files/</link>
+    <description>Recent content in Working With Files in Jython on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://roywangt.github.io/cells/java/plugins/jython/guide/files/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Java: Converting ExcelFiles To Html in Jython</title>
+      <link>https://roywangt.github.io/cells/java/plugins/jython/guide/files/converting&#43;excelfiles&#43;to&#43;html&#43;in&#43;jython/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/plugins/jython/guide/files/converting&#43;excelfiles&#43;to&#43;html&#43;in&#43;jython/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--converting-excelfiles-to-html-in-jython&#34;&gt;Aspose.Cells for Java : Converting ExcelFiles To Html in Jython&lt;/h1&gt;
+&lt;h2 id=&#34;asposecells---converting-excelfiles-to-html&#34;&gt;Aspose.Cells - Converting ExcelFiles To Html&lt;/h2&gt;
+&lt;p&gt;To append documents using &lt;strong&gt;Aspose.Cells Java for Jython&lt;/strong&gt;. Here you can see example code.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Jython Code&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;from aspose-cells import Settingsfrom com.aspose.cells import Workbookfrom com.aspose.cells import SaveFormatclass ConvertingExcelFilesToHtml:    def __init__(self):        dataDir = Settings.dataDir + &amp;lsquo;WorkingWithFiles/ConvertingExcelFilesToHtml/&amp;rsquo;                saveFormat = SaveFormat        workbook = Workbook(dataDir + &amp;ldquo;Book1.xls&amp;rdquo;)        #Save the document in PDF format        workbook.save(dataDir + &amp;ldquo;OutBook1.html&amp;rdquo;, saveFormat.HTML)        # Print message        print &amp;ldquo;\n Excel to HTML conversion performed successfully.&amp;rdquo; if __name__ == &amp;lsquo;__main__&#39;:            ConvertingExcelFilesToHtml()&lt;/p&gt;
+&lt;h2 id=&#34;download-running-code&#34;&gt;Download Running Code&lt;/h2&gt;
+&lt;p&gt;Download &lt;strong&gt;Append Documents (Aspose.Cells)&lt;/strong&gt; from any of the below mentioned social coding sites:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://asposecellsjavajython.codeplex.com/SourceControl/latest#asposecells/WorkingWithFiles/ConvertingExcelFilesToHtml.py&#34;&gt;CodePlex&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithFiles/ConvertingExcelFilesToHtml.py&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Converting To Mhtml Files in Jython</title>
+      <link>https://roywangt.github.io/cells/java/plugins/jython/guide/files/converting&#43;to&#43;mhtml&#43;files&#43;in&#43;jython/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/plugins/jython/guide/files/converting&#43;to&#43;mhtml&#43;files&#43;in&#43;jython/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--converting-to-mhtml-files-in-jython&#34;&gt;Aspose.Cells for Java : Converting To Mhtml Files in Jython&lt;/h1&gt;
+&lt;h2 id=&#34;asposecells---converting-to-mhtml-files&#34;&gt;Aspose.Cells - Converting To Mhtml Files&lt;/h2&gt;
+&lt;p&gt;To append documents using &lt;strong&gt;Aspose.Cells Java for Jython&lt;/strong&gt;. Here you can see example code.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Jython Code&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;from aspose-cells import Settingsfrom com.aspose.cells import Workbookfrom com.aspose.cells import HtmlSaveOptionsfrom com.aspose.cells import SaveFormatclass ConvertingToMhtmlFiles:    def __init__(self):        dataDir = Settings.dataDir + &amp;lsquo;WorkingWithFiles/ConvertingToMhtmlFiles/&amp;rsquo;                saveFormat = SaveFormat        #Specify the file path        filePath = dataDir + &amp;ldquo;Book1.xlsx&amp;rdquo;        #Specify the HTML saving options        sv = HtmlSaveOptions(saveFormat.M_HTML)        #Instantiate a workbook and open the template XLSX file        wb = Workbook(filePath)        #Save the MHT file        wb.save(filePath + &amp;ldquo;.out.mht&amp;rdquo;, sv)        # Print message        print &amp;ldquo;Excel to MHTML conversion performed successfully.&amp;rdquo; if __name__ == &amp;lsquo;__main__&#39;:            ConvertingToMhtmlFiles()&lt;/p&gt;
+&lt;h2 id=&#34;download-running-code&#34;&gt;Download Running Code&lt;/h2&gt;
+&lt;p&gt;Download &lt;strong&gt;Append Documents (Aspose.Cells)&lt;/strong&gt; from any of the below mentioned social coding sites:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://asposecellsjavajython.codeplex.com/SourceControl/latest#asposecells/WorkingWithFiles/ConvertingToMhtmlFiles.py&#34;&gt;CodePlex&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithFiles/ConvertingToMhtmlFiles.py&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Converting To XPS in Jython</title>
+      <link>https://roywangt.github.io/cells/java/plugins/jython/guide/files/converting&#43;to&#43;xps&#43;in&#43;jython/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/plugins/jython/guide/files/converting&#43;to&#43;xps&#43;in&#43;jython/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--converting-to-xps-in-jython&#34;&gt;Aspose.Cells for Java : Converting To XPS in Jython&lt;/h1&gt;
+&lt;h2 id=&#34;asposecells---converting-to-xps&#34;&gt;Aspose.Cells - Converting To XPS&lt;/h2&gt;
+&lt;p&gt;To append documents using &lt;strong&gt;Aspose.Cells Java for Jython&lt;/strong&gt;. Here you can see example code.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Jython Code&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;from aspose-cells import Settingsfrom com.aspose.cells import Workbookfrom com.aspose.cells import ImageFormat;from com.aspose.cells import ImageOrPrintOptions;from com.aspose.cells import SheetRender;from com.aspose.cells import SaveFormat;class ConvertingToXPS:    def __init__(self):        dataDir = Settings.dataDir + &amp;lsquo;WorkingWithFiles/ConvertingToXPS/&amp;rsquo;                saveFormat = SaveFormat        workbook = Workbook(dataDir + &amp;ldquo;Book1.xls&amp;rdquo;)        #Get the first worksheet.        sheet = workbook.getWorksheets().get(0)        #Apply different Image and Print options        options = ImageOrPrintOptions()        #Set the Format        options.setSaveFormat(saveFormat.XPS)        # Render the sheet with respect to specified printing options        sr = SheetRender(sheet, options)        sr.toImage(0, dataDir + &amp;ldquo;out_printingxps.xps&amp;rdquo;)        #Save the complete Workbook in XPS format        workbook.save(dataDir + &amp;ldquo;out_whole_printingxps&amp;rdquo;, saveFormat.XPS)        # Print message        print &amp;ldquo;Excel to XPS conversion performed successfully.&amp;rdquo; if __name__ == &amp;lsquo;__main__&#39;:            ConvertingToXPS()&lt;/p&gt;
+&lt;h2 id=&#34;download-running-code&#34;&gt;Download Running Code&lt;/h2&gt;
+&lt;p&gt;Download &lt;strong&gt;Append Documents (Aspose.Cells)&lt;/strong&gt; from any of the below mentioned social coding sites:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://asposecellsjavajython.codeplex.com/SourceControl/latest#asposecells/WorkingWithFiles/ConvertingToXPS.py&#34;&gt;CodePlex&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithFiles/ConvertingToXPS.py&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Converting Worksheet To SVG in Jython</title>
+      <link>https://roywangt.github.io/cells/java/plugins/jython/guide/files/converting&#43;worksheet&#43;to&#43;svg&#43;in&#43;jython/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/plugins/jython/guide/files/converting&#43;worksheet&#43;to&#43;svg&#43;in&#43;jython/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--converting-worksheet-to-svg-in-jython&#34;&gt;Aspose.Cells for Java : Converting Worksheet To SVG in Jython&lt;/h1&gt;
+&lt;h2 id=&#34;asposecells---converting-worksheet-to-svg&#34;&gt;Aspose.Cells - Converting Worksheet To SVG&lt;/h2&gt;
+&lt;p&gt;To append documents using &lt;strong&gt;Aspose.Cells Java for Jython&lt;/strong&gt;. Here you can see example code.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Jython Code&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;from aspose-cells import Settingsfrom com.aspose.cells import Workbookfrom com.aspose.cells import ImageFormatfrom com.aspose.cells import ImageOrPrintOptionsfrom com.aspose.cells import SheetRenderfrom com.aspose.cells import SaveFormatclass ConvertingWorksheetToSVG:    def __init__(self):        dataDir = Settings.dataDir + &amp;lsquo;WorkingWithFiles/ConvertingWorksheetToSVG/&amp;rsquo;                saveFormat = SaveFormat        workbook = Workbook(dataDir + &amp;ldquo;Book1.xls&amp;rdquo;)        #Convert each worksheet into svg format in a single page.        imgOptions = ImageOrPrintOptions()        imgOptions.setSaveFormat(saveFormat.SVG)        imgOptions.setOnePagePerSheet(True)        #Convert each worksheet into svg format        sheetCount = workbook.getWorksheets().getCount()        #for(i=0; i&amp;lt;sheetCount; i++)        for i in range(sheetCount):                    sheet = workbook.getWorksheets().get(i)            sr = SheetRender(sheet, imgOptions)            pageCount = sr.getPageCount()            #for (k = 0 k &amp;lt; pageCount k++)            for k in range(pageCount):                            #Output the worksheet into Svg image format                sr.toImage(k, dataDir + sheet.getName() + &amp;ldquo;.out.svg&amp;rdquo;)                            # Print message        print &amp;ldquo;Excel to SVG conversion completed successfully.&amp;rdquo; if __name__ == &amp;lsquo;__main__&#39;:            ConvertingWorksheetToSVG()&lt;/p&gt;
+&lt;h2 id=&#34;download-running-code&#34;&gt;Download Running Code&lt;/h2&gt;
+&lt;p&gt;Download &lt;strong&gt;Append Documents (Aspose.Cells)&lt;/strong&gt; from any of the below mentioned social coding sites:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://asposecellsjavajython.codeplex.com/SourceControl/latest#asposecells/WorkingWithFiles/ConvertingWorksheetToSVG.py&#34;&gt;CodePlex&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithFiles/ConvertingWorksheetToSVG.py&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Excel to Pdf Conversion in Jython</title>
+      <link>https://roywangt.github.io/cells/java/plugins/jython/guide/files/excel&#43;to&#43;pdf&#43;conversion&#43;in&#43;jython/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/plugins/jython/guide/files/excel&#43;to&#43;pdf&#43;conversion&#43;in&#43;jython/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--excel-to-pdf-conversion-in-jython&#34;&gt;Aspose.Cells for Java : Excel to Pdf Conversion in Jython&lt;/h1&gt;
+&lt;h2 id=&#34;asposecells---excel-to-pdf-conversion&#34;&gt;Aspose.Cells - Excel to Pdf Conversion&lt;/h2&gt;
+&lt;p&gt;To append documents using &lt;strong&gt;Aspose.Cells Java for Jython&lt;/strong&gt;. Here you can see example code.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Jython Code&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;from aspose-cells import Settingsfrom com.aspose.cells import Workbookfrom com.aspose.cells import SaveFormatclass Excel2PdfConversion:    def __init__(self):        dataDir = Settings.dataDir + &amp;lsquo;WorkingWithFiles/Excel2PdfConversion/&amp;rsquo;                saveFormat = SaveFormat        workbook = Workbook(dataDir + &amp;ldquo;Book1.xls&amp;rdquo;)        #Save the document in PDF format        workbook.save(dataDir + &amp;ldquo;OutBook1.pdf&amp;rdquo;, saveFormat.PDF)        # Print message        print &amp;ldquo;\n Excel to PDF conversion performed successfully.&amp;rdquo; if __name__ == &amp;lsquo;__main__&#39;:            Excel2PdfConversion()&lt;/p&gt;
+&lt;h2 id=&#34;download-running-code&#34;&gt;Download Running Code&lt;/h2&gt;
+&lt;p&gt;Download &lt;strong&gt;Append Documents (Aspose.Cells)&lt;/strong&gt; from any of the below mentioned social coding sites:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://asposecellsjavajython.codeplex.com/SourceControl/latest#asposecells/WorkingWithFiles/Excel2PdfConversion.py&#34;&gt;CodePlex&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithFiles/Excel2PdfConversion.py&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Managing Document Properties in Jython</title>
+      <link>https://roywangt.github.io/cells/java/plugins/jython/guide/files/managing&#43;document&#43;properties&#43;in&#43;jython/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/plugins/jython/guide/files/managing&#43;document&#43;properties&#43;in&#43;jython/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--managing-document-properties-in-jython&#34;&gt;Aspose.Cells for Java : Managing Document Properties in Jython&lt;/h1&gt;
+&lt;h2 id=&#34;asposecells---managing-document-properties&#34;&gt;Aspose.Cells - Managing Document Properties&lt;/h2&gt;
+&lt;p&gt;To append documents using &lt;strong&gt;Aspose.Cells Java for Jython&lt;/strong&gt;. Here you can see example code.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Jython Code&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;from aspose-cells import Settingsfrom com.aspose.cells import Workbookclass ManagingDocumentProperties:    def __init__(self):        dataDir = Settings.dataDir + &amp;lsquo;WorkingWithFiles/ManagingDocumentProperties/&amp;rsquo;        workbook = Workbook(dataDir + &amp;ldquo;Book1.xls&amp;rdquo;)        #Retrieve a list of all custom document properties of the Excel file        customProperties = workbook.getWorksheets().getCustomDocumentProperties()        #Accessing a custom document property by using the property index        #customProperty1 = customProperties.get(3)        #Accessing a custom document property by using the property name        customProperty2 = customProperties.get(&amp;ldquo;Owner&amp;rdquo;)        #Adding a custom document property to the Excel file        publisher = customProperties.add(&amp;ldquo;Publisher&amp;rdquo;, &amp;ldquo;Aspose&amp;rdquo;)        #Save the file        workbook.save(dataDir + &amp;ldquo;Test_Workbook.xls&amp;rdquo;)        #Removing a custom document property        customProperties.remove(&amp;ldquo;Publisher&amp;rdquo;)        #Save the file        workbook.save(dataDir + &amp;ldquo;Test_Workbook_RemovedProperty.xls&amp;rdquo;)        # Print message        print &amp;ldquo;Excel file&amp;rsquo;s custom properties accessed successfully.&amp;rdquo; if __name__ == &amp;lsquo;__main__&#39;:            ManagingDocumentProperties()&lt;/p&gt;
+&lt;h2 id=&#34;download-running-code&#34;&gt;Download Running Code&lt;/h2&gt;
+&lt;p&gt;Download &lt;strong&gt;Append Documents (Aspose.Cells)&lt;/strong&gt; from any of the below mentioned social coding sites:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://asposecellsjavajython.codeplex.com/SourceControl/latest#asposecells/WorkingWithFiles/ManagingDocumentProperties.py&#34;&gt;CodePlex&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithFiles/ManagingDocumentProperties.py&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Opening Files in Jython</title>
+      <link>https://roywangt.github.io/cells/java/plugins/jython/guide/files/opening&#43;files&#43;in&#43;jython/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/plugins/jython/guide/files/opening&#43;files&#43;in&#43;jython/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--opening-files-in-jython&#34;&gt;Aspose.Cells for Java : Opening Files in Jython&lt;/h1&gt;
+&lt;h2 id=&#34;asposecells---opening-files&#34;&gt;Aspose.Cells - Opening Files&lt;/h2&gt;
+&lt;p&gt;To append documents using &lt;strong&gt;Aspose.Cells Java for Jython&lt;/strong&gt;. Here you can see example code.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Jython Code&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;from aspose-cells import Settingsfrom com.aspose.cells import Workbookfrom com.aspose.cells import FileFormatTypefrom com.aspose.cells import LoadOptionsfrom java.io import FileInputStreamclass OpeningFiles:    def __init__(self):        dataDir = Settings.dataDir + &amp;lsquo;WorkingWithFiles/OpeningFiles/&amp;rsquo;                fileFormatType = FileFormatType        # 1. Opening from path        # Creatin an Workbook object with an Excel file path        workbook1 = Workbook(dataDir + &amp;ldquo;Book1.xls&amp;rdquo;)        print &amp;ldquo;Workbook opened using path successfully.&amp;quot;;                # 2 Opening workbook from stream                #Create a Stream object        fstream = FileInputStream(dataDir + &amp;ldquo;Book2.xls&amp;rdquo;)        #Creating an Workbook object with the stream object        workbook2 = Workbook(fstream)        fstream.close()        print (&amp;ldquo;Workbook opened using stream successfully.&amp;quot;);                # 3.        # Opening Microsoft Excel 97 Files        #Createing and EXCEL_97_TO_2003 LoadOptions object        loadOptions1 = LoadOptions(fileFormatType.EXCEL_97_TO_2003)        #Creating an Workbook object with excel 97 file path and the loadOptions object        workbook3 = Workbook(dataDir + &amp;ldquo;Book_Excel97_2003.xls&amp;rdquo;, loadOptions1)        # Print message        print(&amp;ldquo;Excel 97 Workbook opened successfully.&amp;quot;);                # 4.        # Opening Microsoft Excel 2007 XLSX Files        #Createing and XLSX LoadOptions object        loadOptions2 = LoadOptions(fileFormatType.XLSX)        #Creating an Workbook object with 2007 xlsx file path and the loadOptions object        workbook4 = Workbook(dataDir + &amp;ldquo;Book_Excel2007.xlsx&amp;rdquo;, loadOptions2)        # Print message        print (&amp;ldquo;Excel 2007 Workbook opened successfully.&amp;quot;)                        # 5.        # Opening SpreadsheetML Files        #Creating and EXCEL_2003_XML LoadOptions object        loadOptions3 = LoadOptions(fileFormatType.EXCEL_2003_XML)        #Creating an Workbook object with SpreadsheetML file path and the loadOptions object        workbook5 = Workbook(dataDir + &amp;ldquo;Book3.xml&amp;rdquo;, loadOptions3)                # Print message        print (&amp;ldquo;SpreadSheetML format workbook has been opened successfully.&amp;quot;);                # 6.        # Opening CSV Files        #Creating and CSV LoadOptions object        loadOptions4 = LoadOptions(fileFormatType.CSV)        #Creating an Workbook object with CSV file path and the loadOptions object        workbook6 = Workbook(dataDir + &amp;ldquo;Book_CSV.csv&amp;rdquo;, loadOptions4)        # Print message        print (&amp;ldquo;CSV format workbook has been opened successfully.&amp;quot;)                        # 7.        # Opening Tab Delimited Files        # Creating and TAB_DELIMITED LoadOptions object        loadOptions5 = LoadOptions(fileFormatType.TAB_DELIMITED);        # Creating an Workbook object with Tab Delimited text file path and the loadOptions object        workbook7 = Workbook(dataDir + &amp;ldquo;Book1TabDelimited.txt&amp;rdquo;, loadOptions5)        # Print message        print(&amp;ldquo;&lt;br /&gt;&amp;rdquo;);        print (&amp;ldquo;Tab Delimited workbook has been opened successfully.&amp;quot;);        # 8.        # Opening Encrypted Excel Files        # Creating and EXCEL_97_TO_2003 LoadOptions object        loadOptions6 = LoadOptions(fileFormatType.EXCEL_97_TO_2003)        # Setting the password for the encrypted Excel file        loadOptions6.setPassword(&amp;ldquo;1234&amp;rdquo;)        # Creating an Workbook object with file path and the loadOptions object        workbook8 = Workbook(dataDir + &amp;ldquo;encryptedBook.xls&amp;rdquo;, loadOptions6)        # Print message        print(&amp;ldquo;&lt;br /&gt;&amp;rdquo;);        print (&amp;ldquo;Encrypted workbook has been opened successfully.&amp;quot;);                if __name__ == &amp;lsquo;__main__&#39;:            OpeningFiles()&lt;/p&gt;
+&lt;h2 id=&#34;download-running-code&#34;&gt;Download Running Code&lt;/h2&gt;
+&lt;p&gt;Download &lt;strong&gt;Append Documents (Aspose.Cells)&lt;/strong&gt; from any of the below mentioned social coding sites:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://asposecellsjavajython.codeplex.com/SourceControl/latest#asposecells/WorkingWithFiles/OpeningFiles.py&#34;&gt;CodePlex&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithFiles/OpeningFiles.py&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Saving Files in Jython</title>
+      <link>https://roywangt.github.io/cells/java/plugins/jython/guide/files/saving&#43;files&#43;in&#43;jython/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/plugins/jython/guide/files/saving&#43;files&#43;in&#43;jython/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--saving-files-in-jython&#34;&gt;Aspose.Cells for Java : Saving Files in Jython&lt;/h1&gt;
+&lt;h2 id=&#34;asposecells---saving-files&#34;&gt;Aspose.Cells - Saving Files&lt;/h2&gt;
+&lt;p&gt;To append documents using &lt;strong&gt;Aspose.Cells Java for Jython&lt;/strong&gt;. Here you can see example code.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Jython Code&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;from aspose-cells import Settingsfrom com.aspose.cells import Workbookfrom com.aspose.cells import FileFormatTypeclass SavingFiles:    def __init__(self):        dataDir = Settings.dataDir + &amp;lsquo;WorkingWithFiles/SavingFiles/&amp;rsquo;                fileFormatType = FileFormatType                        #Creating an Workbook object with an Excel file path        workbook = Workbook(dataDir + &amp;ldquo;Book1.xls&amp;rdquo;)        #Save in default (Excel2003) format        workbook.save(dataDir + &amp;ldquo;book.default.out.xls&amp;rdquo;)        #Save in Excel2003 format        workbook.save(dataDir + &amp;ldquo;book.out.xls&amp;rdquo;, fileFormatType.EXCEL_97_TO_2003)        #Save in Excel2007 xlsx format        workbook.save(dataDir + &amp;ldquo;book.out.xlsx&amp;rdquo;, fileFormatType.XLSX)        #Save in SpreadsheetML format        workbook.save(dataDir + &amp;ldquo;book.out.xml&amp;rdquo;, fileFormatType.EXCEL_2003_XML)                #Print Message        print(&amp;ldquo;&lt;BR&gt;&amp;rdquo;)        print(&amp;ldquo;Worksheets are saved successfully.&amp;quot;)                if __name__ == &amp;lsquo;__main__&#39;:            SavingFiles()&lt;/p&gt;
+&lt;h2 id=&#34;download-running-code&#34;&gt;Download Running Code&lt;/h2&gt;
+&lt;p&gt;Download &lt;strong&gt;Append Documents (Aspose.Cells)&lt;/strong&gt; from any of the below mentioned social coding sites:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://asposecellsjavajython.codeplex.com/SourceControl/latest#asposecells/WorkingWithFiles/SavingFiles.py&#34;&gt;CodePlex&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithFiles/SavingFiles.py&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Java: Worksheet To Image in Jython</title>
+      <link>https://roywangt.github.io/cells/java/plugins/jython/guide/files/worksheet&#43;to&#43;image&#43;in&#43;jython/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/java/plugins/jython/guide/files/worksheet&#43;to&#43;image&#43;in&#43;jython/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-java--worksheet-to-image-in-jython&#34;&gt;Aspose.Cells for Java : Worksheet To Image in Jython&lt;/h1&gt;
+&lt;h2 id=&#34;asposecells---worksheet-to-image&#34;&gt;Aspose.Cells - Worksheet To Image&lt;/h2&gt;
+&lt;p&gt;To append documents using &lt;strong&gt;Aspose.Cells Java for Jython&lt;/strong&gt;. Here you can see example code.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Jython Code&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;from aspose-cells import Settingsfrom com.aspose.cells import Workbookfrom com.aspose.cells import ImageFormatfrom com.aspose.cells import ImageOrPrintOptionsfrom com.aspose.cells import SheetRenderclass WorksheetToImage:    def __init__(self):        dataDir = Settings.dataDir + &amp;lsquo;WorkingWithFiles/WorksheetToImage/&amp;rsquo;                imageFormat = ImageFormat                #Instantiate a workbook with path to an Excel file        book = Workbook(dataDir + &amp;ldquo;Book1.xls&amp;rdquo;)        #Create an object for ImageOptions        imgOptions = ImageOrPrintOptions()        #Set the image type        imgOptions.setImageFormat(imageFormat.getPng())        #Get the first worksheet.        sheet = book.getWorksheets().get(0)        #Create a SheetRender object for the target sheet        sr =SheetRender(sheet, imgOptions)        for i in range(sr.getPageCount()):                    #Generate an image for the worksheet            sr.toImage(i, dataDir + &amp;ldquo;mysheetimg&amp;rdquo; + &amp;ldquo;.png&amp;rdquo;)                # Print message        print &amp;ldquo;Images generated successfully.&amp;rdquo; if __name__ == &amp;lsquo;__main__&#39;:            WorksheetToImage()&lt;/p&gt;
+&lt;h2 id=&#34;download-running-code&#34;&gt;Download Running Code&lt;/h2&gt;
+&lt;p&gt;Download &lt;strong&gt;Append Documents (Aspose.Cells)&lt;/strong&gt; from any of the below mentioned social coding sites:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://asposecellsjavajython.codeplex.com/SourceControl/latest#asposecells/WorkingWithFiles/WorksheetToImage.py&#34;&gt;CodePlex&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithFiles/WorksheetToImage.py&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

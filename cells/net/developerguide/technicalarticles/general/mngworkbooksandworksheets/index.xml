@@ -1,0 +1,1610 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation – Managing Workbooks and Worksheets</title>
+    <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/mngworkbooksandworksheets/</link>
+    <description>Recent content in Managing Workbooks and Worksheets on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/mngworkbooksandworksheets/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Net: Export Visible Rows Data from Worksheet</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/mngworkbooksandworksheets/export&#43;visible&#43;rows&#43;data&#43;from&#43;worksheet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/mngworkbooksandworksheets/export&#43;visible&#43;rows&#43;data&#43;from&#43;worksheet/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--export-visible-rows-data-from-worksheet&#34;&gt;Aspose.Cells for .NET : Export Visible Rows Data from Worksheet&lt;/h1&gt;
+&lt;p&gt;You can export data from worksheets into data tables using Aspose.Cells. Sometimes you want to export the data of visible rows only. Aspose.Cells provides a way to achieve this. Use the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/exporttableoptions/properties/plotvisiblerows&#34;&gt;ExportTableOptions.PlotVisibleRows&lt;/a&gt; to specify that you want to export visible rows data only.&lt;/p&gt;
+&lt;p&gt;This example shows how to export data from the following worksheet. Rows 5, 6 and 7 are hidden.&lt;/p&gt;
+
+&lt;div class=&#34;table table-striped&#34; role=&#34;alert&#34;&gt;
+    &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Sample data in worksheet, rows 5, 6 and 7 are hidden&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5017562/5112473.png&#34; alt=&#34;&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;Once the data is exported to a data table using the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/cells/methods/exportdatatable/index&#34;&gt;Worksheet.Cells.ExportDataTable()&lt;/a&gt; method with the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/exporttableoptions/properties/plotvisiblerows&#34;&gt;ExportTableOptions.PlotVisibleRows&lt;/a&gt; option, it will look like this. Hidden rows are plotted as blank rows&lt;/p&gt;
+
+&lt;div class=&#34;table table-striped&#34; role=&#34;alert&#34;&gt;
+    &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Hidden rows are exported to the data table as blank rows&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5017562/5112470.png&#34; alt=&#34;&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Show Formulas Instead of Values in a Worksheet</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/mngworkbooksandworksheets/show&#43;formulas&#43;instead&#43;of&#43;values&#43;in&#43;a&#43;worksheet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/mngworkbooksandworksheets/show&#43;formulas&#43;instead&#43;of&#43;values&#43;in&#43;a&#43;worksheet/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--show-formulas-instead-of-values-in-a-worksheet&#34;&gt;Aspose.Cells for .NET : Show Formulas Instead of Values in a Worksheet&lt;/h1&gt;
+&lt;p&gt;It is possible to show formulas instead of calculated values in Microsoft Excel using the &lt;strong&gt;Show Formulas&lt;/strong&gt; option from the &lt;strong&gt;Formulas&lt;/strong&gt; ribbon. When formulas are shown, Microsoft Excel displays formulas in the worksheet. You can achieve the same thing using Aspose.Cells.&lt;/p&gt;
+&lt;p&gt;Aspose.Cells provides a &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/worksheet/properties/showformulas&#34;&gt;Worksheet.ShowFormulas&lt;/a&gt; property. Set this to **true **to set Microsoft Excel to display formulas.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Load a Web Image from a URL into an Excel Worksheet</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/mngworkbooksandworksheets/load&#43;a&#43;web&#43;image&#43;from&#43;a&#43;url&#43;into&#43;an&#43;excel&#43;worksheet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/mngworkbooksandworksheets/load&#43;a&#43;web&#43;image&#43;from&#43;a&#43;url&#43;into&#43;an&#43;excel&#43;worksheet/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--load-a-web-image-from-a-url-into-an-excel-worksheet&#34;&gt;Aspose.Cells for .NET : Load a Web Image from a URL into an Excel Worksheet&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/technicalarticles/general/mngworkbooksandworksheets/insert+a+linked+picture+from+web+address&#34;&gt;Insert a Linked Picture from Web Address&lt;/a&gt; explained how to insert an image from the web into a spreadsheet. As well as linking to the image, you can extract and download the image data into a stream and then insert the image from the stream into the worksheet with Aspose.Cells. This adds the image to the spreadsheet&amp;rsquo;s image collection whereas the other method loads the image from the web each time the spreadsheet is opened.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Create Workbook and Worksheet Scoped Named Ranges</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/mngworkbooksandworksheets/create&#43;workbook&#43;and&#43;worksheet&#43;scoped&#43;named&#43;ranges/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/mngworkbooksandworksheets/create&#43;workbook&#43;and&#43;worksheet&#43;scoped&#43;named&#43;ranges/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--create-workbook-and-worksheet-scoped-named-ranges&#34;&gt;Aspose.Cells for .NET : Create Workbook and Worksheet Scoped Named Ranges&lt;/h1&gt;
+&lt;p&gt;Microsoft Excel allows users to define named ranges with two different scopes: workbook (also known as global scope) and worksheet.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Named ranges with a workbook scope can be accessed from any worksheet within that workbook by simply using its name.&lt;/li&gt;
+&lt;li&gt;Worksheet scoped named ranges are accessed with the reference of the particular worksheet in which it was created.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Aspose.Cells provides the same functionality as Microsoft Excel for adding workbook and worksheet scoped named ranges. When creating a worksheet scoped named range, the worksheet reference should be used in the named range to specify it as a worksheet scoped named range.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#adding-a-named-range-with-workbook-scoped&#34;&gt;Adding a Named Range with Workbook Scoped&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#adding-a-named-range-with-worksheet-scope&#34;&gt;Adding a Named Range with Worksheet Scope&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;adding-a-named-range-with-workbook-scoped&#34;&gt;Adding a Named Range with Workbook Scoped&lt;/h2&gt;
+&lt;h2 id=&#34;adding-a-named-range-with-worksheet-scope&#34;&gt;Adding a Named Range with Worksheet Scope&lt;/h2&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Hiding the Display of Zero Values in the Worksheet</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/mngworkbooksandworksheets/hiding&#43;the&#43;display&#43;of&#43;zero&#43;values&#43;in&#43;the&#43;worksheet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/mngworkbooksandworksheets/hiding&#43;the&#43;display&#43;of&#43;zero&#43;values&#43;in&#43;the&#43;worksheet/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--hiding-the-display-of-zero-values-in-the-worksheet&#34;&gt;Aspose.Cells for .NET : Hiding the Display of Zero Values in the Worksheet&lt;/h1&gt;
+&lt;p&gt;Sometimes, you need to hide zero values in a spreadsheet. It might be a personal preference or a formatting standard.&lt;/p&gt;
+&lt;p&gt;To hide zero values in a worksheet in Microsoft Excel (for example Microsoft Excel 2003):&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;From the &lt;strong&gt;Tools&lt;/strong&gt; menu, select &lt;strong&gt;Options&lt;/strong&gt;, and then select the &lt;strong&gt;View&lt;/strong&gt; tab.&lt;/li&gt;
+&lt;li&gt;Deselect the &lt;strong&gt;Zero values&lt;/strong&gt; option.&lt;/li&gt;
+&lt;li&gt;Click &lt;strong&gt;OK&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Please see the following sample code that demonstrates hiding zeros using Aspose.Cells.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Setting Strong Encryption Type</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/mngworkbooksandworksheets/setting&#43;strong&#43;encryption&#43;type/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/mngworkbooksandworksheets/setting&#43;strong&#43;encryption&#43;type/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--setting-strong-encryption-type&#34;&gt;Aspose.Cells for .NET : Setting Strong Encryption Type&lt;/h1&gt;
+&lt;p&gt;Microsoft Excel (97-2007/2010) enables you to encrypt and password protect spreadsheets. It uses algorithms provided by a Crypto Service Provider. A Crypto Service Provider (or CSP) is a set of cryptographic algorithms with different properties. The default CSP is &amp;ldquo;Office 97/2000 Compatible&amp;rdquo;. This is a CSP with some publicly known security issues. Spreadsheets that are secured with the &amp;ldquo;weak encryption (XOR)&amp;rdquo; or with the &amp;ldquo;Office 97/2000 Compatible&amp;rdquo; encryption type can be cracked easily.&lt;/p&gt;
+&lt;p&gt;To overcome this problem, use one of the strong encryption types provided by Microsoft Excel. You can change the encryption type to the strongest available CSP. For strong encryption, a minimum key length of 128 bits is required, for example, &amp;lsquo;Microsoft Strong Cryptographic Provider&amp;rsquo;.&lt;/p&gt;
+&lt;p&gt;You can also encrypt and password protect Excel files with strong encryption type using the Aspose.Cells API.&lt;/p&gt;
+&lt;h2 id=&#34;applying-encryption-with-microsoft-excel&#34;&gt;Applying Encryption with Microsoft Excel&lt;/h2&gt;
+&lt;p&gt;To implement file encryption in Microsoft Excel (for example 2007):&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;From the &lt;strong&gt;Tools&lt;/strong&gt; menu, select &lt;strong&gt;Options&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Select the &lt;strong&gt;Security&lt;/strong&gt; tab.&lt;/li&gt;
+&lt;li&gt;Enter a value for the &lt;strong&gt;Password to open&lt;/strong&gt; field.&lt;/li&gt;
+&lt;li&gt;Click &lt;strong&gt;Advanced&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Choose the encryption type and confirm the password.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;applying-encryption-with-asposecells&#34;&gt;Applying Encryption with Aspose.Cells&lt;/h2&gt;
+&lt;p&gt;The code examples below apply strong encryption on a file and set a password.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Inserting a WAV file as an Ole Object</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/mngworkbooksandworksheets/inserting&#43;a&#43;wav&#43;file&#43;as&#43;an&#43;ole&#43;object/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/mngworkbooksandworksheets/inserting&#43;a&#43;wav&#43;file&#43;as&#43;an&#43;ole&#43;object/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--inserting-a-wav-file-as-an-ole-object&#34;&gt;Aspose.Cells for .NET : Inserting a WAV file as an Ole Object&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells provides the functionality to add different types of OLE objects to the excel worksheets. We will see in the following code examples, how to add a wav file as an OLE object using simple APIs provided by Aspose.Cells.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Copy and Move Worksheets Within and Between Workbooks</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/mngworkbooksandworksheets/copy&#43;and&#43;move&#43;worksheets&#43;within&#43;and&#43;between&#43;workbooks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/mngworkbooksandworksheets/copy&#43;and&#43;move&#43;worksheets&#43;within&#43;and&#43;between&#43;workbooks/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--copy-and-move-worksheets-within-and-between-workbooks&#34;&gt;Aspose.Cells for .NET : Copy and Move Worksheets Within and Between Workbooks&lt;/h1&gt;
+&lt;p&gt;Sometimes, you do need a number of worksheets with common formatting and data entry. For example, if you work with quarterly budgets, you might want to create a workbook with sheets that contain the same column headings, row headings, and formulas. There is a way to do this: by creating one sheet and then copying it three times.&lt;/p&gt;
+&lt;p&gt;Aspose.Cells supports copying or moving worksheets within or between workbooks. Worksheets including data, formatting, tables, matrices, charts, images and other objects are copied with the highest degree of precision.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#copying-and-moving-worksheets&#34;&gt;Copying and Moving Worksheets&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#copying-a-worksheet-within-a-workbook&#34;&gt;Copying a Worksheet within a Workbook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.2 &lt;a href=&#34;#moving-a-worksheet-within-a-workbook&#34;&gt;Moving a Worksheet within a Workbook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.3 &lt;a href=&#34;#copying-a-worksheet-between-workbooks&#34;&gt;Copying a Worksheet between Workbooks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.4 &lt;a href=&#34;#moving-a-worksheet-between-workbooks&#34;&gt;Moving a Worksheet between Workbooks&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;copying-and-moving-worksheets&#34;&gt;Copying and Moving Worksheets&lt;/h2&gt;
+&lt;h3 id=&#34;copying-a-worksheet-within-a-workbook&#34;&gt;Copying a Worksheet within a Workbook&lt;/h3&gt;
+&lt;p&gt;The initial steps are the same for all examples.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Create two workbooks with some data in Microsoft Excel.&lt;br&gt;
+For the purposes of this example, we created two new workbooks in Microsoft Excel and input some data into the worksheets.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;FirstWorkbook.xlsx (3 worksheets).&lt;/li&gt;
+&lt;li&gt;SecondWorkbook.xlsx (1 worksheet).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;Download and install Aspose.Cells:
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.aspose.com/community/files/51/.net-components/aspose.cells-for-.net/default.aspx&#34;&gt;Download Aspose.Cells for .NET&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Install it on your development computer.&lt;br&gt;
+All &lt;a href=&#34;http://www.aspose.com/&#34;&gt;Aspose&lt;/a&gt; components, when installed, work in evaluation mode. The evaluation mode has no time limit and it only injects watermarks into produced documents.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Create a project:
+&lt;ol&gt;
+&lt;li&gt;Start Visual Studio.Net.&lt;/li&gt;
+&lt;li&gt;Create a new console application.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Add references:
+&lt;ol&gt;
+&lt;li&gt;Add a reference to Aspose.Cells to the project.&lt;br&gt;
+For example, add a reference to &amp;hellip;\Program Files\Aspose\Aspose.Cells\Bin\Net1.0\Aspose.Cells.dll&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Copy the worksheet within a workbook&lt;br&gt;
+The first example copies the first worksheet (Copy) within FirstWorkbook.xlsx.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;When executing the code, the worksheet named Copy is copied within FirstWorkbook.xlsx with the name Last Sheet.&lt;/p&gt;
+&lt;h3 id=&#34;moving-a-worksheet-within-a-workbook&#34;&gt;Moving a Worksheet within a Workbook&lt;/h3&gt;
+&lt;p&gt;The code below shows how to move a worksheet from one position in a workbook to another. Executing the code moves the worksheet called Move from index 1 to index 2 in FirstWorkbook.xlsx.&lt;/p&gt;
+&lt;h3 id=&#34;copying-a-worksheet-between-workbooks&#34;&gt;Copying a Worksheet between Workbooks&lt;/h3&gt;
+&lt;p&gt;Executing the code copies the worksheet named Copy is to SecondWorkbook.xlsx with the name Sheet2.&lt;/p&gt;
+&lt;h3 id=&#34;moving-a-worksheet-between-workbooks&#34;&gt;Moving a Worksheet between Workbooks&lt;/h3&gt;
+&lt;p&gt;Executing the code moves the worksheet named Move from FirstWorkbook.xlsx to SecondWorkbook.xlsx with the name Sheet3.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Set Background Picture for a Worksheet</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/mngworkbooksandworksheets/set&#43;background&#43;picture&#43;for&#43;a&#43;worksheet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/mngworkbooksandworksheets/set&#43;background&#43;picture&#43;for&#43;a&#43;worksheet/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--set-background-picture-for-a-worksheet&#34;&gt;Aspose.Cells for .NET : Set Background Picture for a Worksheet&lt;/h1&gt;
+&lt;p&gt;You can make a worksheet more appealing by adding a picture as a worksheet background. This feature can be quite effective if you have a special corporate graphic that adds a hint of background without obscuring the data on the sheet. You can set background picture for a sheet using Aspose.Cells API.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#setting-sheet-background-in-microsoft-excel&#34;&gt;Setting Sheet Background in Microsoft Excel&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#setting-sheet-background-with-aspose.cells&#34;&gt;Setting Sheet Background with Aspose.Cells&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;setting-sheet-background-in-microsoft-excel&#34;&gt;Setting Sheet Background in Microsoft Excel&lt;/h2&gt;
+&lt;p&gt;To set a sheet&amp;rsquo;s background image in Microsoft Excel (for example Microsoft Excel 2003):&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;From the &lt;strong&gt;Format&lt;/strong&gt; menu, select &lt;strong&gt;Sheet&lt;/strong&gt;, and then select the &lt;strong&gt;Background&lt;/strong&gt; option.&lt;/li&gt;
+&lt;li&gt;Select a picture to set the sheet&amp;rsquo;s background picture.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;setting-sheet-background-with-asposecells&#34;&gt;Setting Sheet Background with Aspose.Cells&lt;/h2&gt;
+&lt;p&gt;The code below sets a background image using an image from a stream.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Load Specific Sheets in a Workbook</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/mngworkbooksandworksheets/load&#43;specific&#43;sheets&#43;in&#43;a&#43;workbook/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/mngworkbooksandworksheets/load&#43;specific&#43;sheets&#43;in&#43;a&#43;workbook/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--load-specific-sheets-in-a-workbook&#34;&gt;Aspose.Cells for .NET : Load Specific Sheets in a Workbook&lt;/h1&gt;
+&lt;p&gt;By default, Aspose.Cells loads the whole spreadsheet into memory. It is possible to only load specific sheets. This can improve performance and consume less memory. This approach is useful when working with a large workbook made up of many worksheets.&lt;/p&gt;
+&lt;p&gt;Here is the implementation of the CustomLoad class.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Extract OLE Objects from Workbook</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/mngworkbooksandworksheets/extract&#43;ole&#43;objects&#43;from&#43;workbook/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/mngworkbooksandworksheets/extract&#43;ole&#43;objects&#43;from&#43;workbook/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--extract-ole-objects-from-workbook&#34;&gt;Aspose.Cells for .NET : Extract OLE Objects from Workbook&lt;/h1&gt;
+&lt;p&gt;Sometimes, you do need to extract OLE objects from a workbook. Aspose.Cells supports extracting and saving those OLe objects.&lt;/p&gt;
+&lt;p&gt;This article shows how to create a console application in Visual Studio.Net and extract different OLE objects from a workbook with a few simple lines of code.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#extract-ole-objects-from-a-workbook&#34;&gt;Extract OLE Objects from a Workbook&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#creating-a-template-workbook&#34;&gt;Creating a Template Workbook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.2 &lt;a href=&#34;#download-and-install-aspose.cells&#34;&gt;Download and Install Aspose.Cells&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.3 &lt;a href=&#34;#create-a-project&#34;&gt;Create a Project&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.4 &lt;a href=&#34;#extract-ole-objects&#34;&gt;Extract OLE Objects&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;extract-ole-objects-from-a-workbook&#34;&gt;Extract OLE Objects from a Workbook&lt;/h2&gt;
+&lt;h3 id=&#34;creating-a-template-workbook&#34;&gt;Creating a Template Workbook&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Created a workbook in Microsoft Excel.&lt;/li&gt;
+&lt;li&gt;Add a Microsoft Word document, an Excel workbook and a PDF document as OLE objects on first worksheet.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&#34;table table-striped&#34; role=&#34;alert&#34;&gt;
+    &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Template document with OLE objects (OleFile.xls)&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5017693/5112157.png&#34; alt=&#34;&#34;&gt;        Next extract the OLE objects and save them to the hard disk with their respective file types.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+
+&lt;h3 id=&#34;download-and-install-asposecells&#34;&gt;Download and Install Aspose.Cells&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.aspose.com/community/files/51/.net-components/aspose.cells-for-.net/default.aspx&#34;&gt;Download Aspose.Cells for .NET&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Install it on your development computer.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;All Aspose components, when installed, work in evaluation mode. The evaluation mode has no time limit and it only injects watermarks into produced documents.&lt;/p&gt;
+&lt;h3 id=&#34;create-a-project&#34;&gt;Create a Project&lt;/h3&gt;
+&lt;p&gt;Start &lt;strong&gt;Visual Studio.Net&lt;/strong&gt; and create a new console application. This example will show a C# console application, but you can use VB.NET too.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Add References
+&lt;ol&gt;
+&lt;li&gt;Add a reference to Aspose.Cells component to your project, for example add a reference to &amp;hellip;\Program Files\Aspose\Aspose.Cells\Bin\Net1.0\Aspose.Cells.dll&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;extract-ole-objects&#34;&gt;Extract OLE Objects&lt;/h3&gt;
+&lt;p&gt;The code below does the actual work of finding and extracting OLE objects. The OLE objects (DOC, XLS and PDF files) are saved to disk.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Set Worksheet Tab Color</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/mngworkbooksandworksheets/set&#43;worksheet&#43;tab&#43;color/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/mngworkbooksandworksheets/set&#43;worksheet&#43;tab&#43;color/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--set-worksheet-tab-color&#34;&gt;Aspose.Cells for .NET : Set Worksheet Tab Color&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells allows you to change the color of individual worksheet tabs to make them prominent from the rest. For example, you can make Expenses red, Sales green, Assets blue, etc.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#setting-worksheet-tab-color-with-microsoft-excel&#34;&gt;Setting Worksheet Tab Color with Microsoft Excel&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#setting-worksheet-tab-color-with-aspose.cells&#34;&gt;Setting Worksheet Tab Color with Aspose.Cells&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;setting-worksheet-tab-color-with-microsoft-excel&#34;&gt;Setting Worksheet Tab Color with Microsoft Excel&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Right-click a tab in the tab-sheet at the bottom of the current worksheet.&lt;/li&gt;
+&lt;li&gt;Select &lt;strong&gt;Tab color&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Select a color from the palette.&lt;/li&gt;
+&lt;li&gt;Click &lt;strong&gt;OK&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;setting-worksheet-tab-color-with-asposecells&#34;&gt;Setting Worksheet Tab Color with Aspose.Cells&lt;/h2&gt;
+&lt;p&gt;The sample code below shows how to set tab color with Aspose.Cells.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Apply Conditional Formatting in Worksheets</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/mngworkbooksandworksheets/apply&#43;conditional&#43;formatting&#43;in&#43;worksheets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/mngworkbooksandworksheets/apply&#43;conditional&#43;formatting&#43;in&#43;worksheets/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--apply-conditional-formatting-in-worksheets&#34;&gt;Aspose.Cells for .NET : Apply Conditional Formatting in Worksheets&lt;/h1&gt;
+&lt;p&gt;This article is designed to provide a detailed understanding of how to add conditional formatting to a range of cells in a worksheet.&lt;/p&gt;
+&lt;p&gt;Conditional formatting is an advanced feature in Microsoft Excel that allows you to apply formats to a range of cells, and have that formatting change depending on the value of the cell or the value of a formula. For example, the background of a cell may be red to highlight a negative value, or the text color might be green for a positive value. When the value of the cell meets the format condition, the format is applied. If the value of the cell does not meet the format condition, the cell&amp;rsquo;s default formatting is used.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s possible to apply conditional formatting with Microsoft Office Automation but that has its drawbacks. There are several reasons and issues involved: for example, security, stability, scalability and speed. The main reason for finding another solution is that Microsoft themselves strongly recommends against Office Automation for software solutions.&lt;/p&gt;
+&lt;p&gt;This article shows how to create a console application, add conditional formatting on cells with a few simplest lines of code using the Aspose.Cells API.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#using-aspose.cells-to-apply-conditional-formatting-based-on-cell-value&#34;&gt;Using Aspose.Cells to Apply Conditional Formatting Based on Cell Value&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#using-aspose.cells-to-apply-conditional-formatting-based-on-formula&#34;&gt;Using Aspose.Cells to Apply Conditional Formatting Based on Formula&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;using-asposecells-to-apply-conditional-formatting-based-on-cell-value&#34;&gt;Using Aspose.Cells to Apply Conditional Formatting Based on Cell Value&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Download and Install Aspose.Cells&lt;/strong&gt;.
+&lt;ol&gt;
+&lt;li&gt;Download Aspose.Cells for .NET.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Install it on your development computer.&lt;br&gt;
+All Aspose components, when installed, work in evaluation mode. The evaluation mode has no time limit and it only injects watermarks into produced documents.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Create a project&lt;/strong&gt;.&lt;br&gt;
+Start Visual Studio.NET and create a new console application. This example creates a C# console application, but you can use VB.NET too.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Add references&lt;/strong&gt;.&lt;br&gt;
+Add a reference to Aspose.Cells to your project, for example add a reference to ….\Program Files\Aspose\Aspose.Cells\Bin\Net1.0\Aspose.Cells.dll&lt;/li&gt;
+&lt;li&gt;*Apply conditional formatting based on cell value.&lt;br&gt;
+Below is the code used to accomplish the task. I applies conditional formatting on a cell.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;When the above code is executed, conditional formatting is applied to cell “A1” in first worksheet of the output file (output.xls). The conditional formatting applied to A1 depends on the cell value. If the cell value of A1 is between 50 and 100 the background color is red due to the conditional formatting applied.&lt;/p&gt;
+&lt;h2 id=&#34;using-asposecells-to-apply-conditional-formatting-based-on-formula&#34;&gt;Using Aspose.Cells to Apply Conditional Formatting Based on Formula&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Applying conditional formatting depending on formula (Code Snippet)&lt;br&gt;
+Below is the code to accomplish the task. It applies conditional formatting on B3.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;When the above code is executed, conditional formatting is applied to cell “B3” in the first worksheet of the output file (output.xls). The conditional formatting applied depends on the formula which calculates the value of “B3” as sum of B1 &amp;amp; B2.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Combine Multiple Workbooks into a Single Workbook</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/mngworkbooksandworksheets/combine&#43;multiple&#43;workbooks&#43;into&#43;a&#43;single&#43;workbook/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/mngworkbooksandworksheets/combine&#43;multiple&#43;workbooks&#43;into&#43;a&#43;single&#43;workbook/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--combine-multiple-workbooks-into-a-single-workbook&#34;&gt;Aspose.Cells for .NET : Combine Multiple Workbooks into a Single Workbook&lt;/h1&gt;
+&lt;p&gt;Sometimes, you need to combine workbooks with various content like images, charts and data into a single workbook. Aspose.Cells supports this feature. This article shows how to create a console application in Visual Studio and combine workbooks with a few, simple lines of code using Aspose.Cells.&lt;/p&gt;
+&lt;h2 id=&#34;combining-workbooks-with-images-and-charts&#34;&gt;Combining Workbooks with Images and Charts&lt;/h2&gt;
+&lt;p&gt;The example code combines two workbooks into a single workbook using Aspose.Cells. The code loads the source workbooks, uses the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/workbook/methods/combine&#34;&gt;Workbook.combine()&lt;/a&gt; method to combine them and saves the output workbook.&lt;/p&gt;
+&lt;h4 id=&#34;source-workbooks&#34;&gt;Source Workbooks&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs-qa.aspose.com/download/attachments/5276659/charts.xlsx?version=1&amp;amp;modificationDate=1447513883960&amp;amp;api=v2&#34;&gt;charts.xlsx&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs-qa.aspose.com/download/attachments/5276659/picture.xlsx?version=1&amp;amp;modificationDate=1447513883983&amp;amp;api=v2&#34;&gt;picture.xlsx&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;output-workbooks&#34;&gt;Output Workbooks&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs-qa.aspose.com/download/attachments/5276659/combined.xlsx?version=1&amp;amp;modificationDate=1447513884007&amp;amp;api=v2&#34;&gt;combined.xlsx&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;screenshots&#34;&gt;Screenshots&lt;/h4&gt;
+&lt;p&gt;Below are screenshots of the source and output workbooks.&lt;/p&gt;
+&lt;p&gt;You can use any source workbooks. These images are just for illustration purposes.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The first worksheet of the charts workbook - stacked&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;download/attachments/5276659/731425608&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Second worksheet of charts workbook - line&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;download/attachments/5276659/838085336&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;First worksheet of the picture workbook - picture&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;download/attachments/5276659/1121323668&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;All three worksheets in the combined workbook - stacked, line, picture&lt;/strong&gt;&lt;br&gt;
+&lt;img src=&#34;download/attachments/5276659/735023027&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Opening Excel File without Open Save Cancel Dialog Box</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/mngworkbooksandworksheets/opening&#43;excel&#43;file&#43;without&#43;open&#43;save&#43;cancel&#43;dialog&#43;box/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/mngworkbooksandworksheets/opening&#43;excel&#43;file&#43;without&#43;open&#43;save&#43;cancel&#43;dialog&#43;box/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--opening-excel-file-without-open-save-cancel-dialog-box&#34;&gt;Aspose.Cells for .NET : Opening Excel File without Open Save Cancel Dialog Box&lt;/h1&gt;
+&lt;p&gt;This document explains how to open a Microsoft Excel file in a browser without showing the Open-Save-Cancel dialog box.&lt;/p&gt;
+&lt;p&gt;It is to be noted here that the security restriction that does not allow direct download of a file is enforced by Microsoft (or other browser vendors), not by Aspose. It is imposed to block and restrict potentially harmful files from getting downloaded to local machines.&lt;/p&gt;
+&lt;p&gt;It is risky for the client’s local system to allow download without showing the Open-Save-Cancel dialog to prompt for download. There is no option or workaround available from Aspose as it will be a very big security risk.&lt;/p&gt;
+&lt;h2 id=&#34;why-a-security-risk&#34;&gt;Why a security risk?&lt;/h2&gt;
+&lt;p&gt;The following image shows the Open-Save-Cancel dialog box shown by Internet Explorer when trying to download a file.&lt;/p&gt;
+
+&lt;div class=&#34;table table-striped&#34; role=&#34;alert&#34;&gt;
+    &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;The Open-Save-Cancel dialog&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5017701/5112199.png&#34; alt=&#34;&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;As explained above, allowing a file to open or run on your system without confirmation that you really want it to is a security risk. Some files contains viruses, and some site will try to download harmful files to your machine without prompting you. It is therefore not recommended that you allow file download without the download prompt so that users have to verify the file and its source can be verified before downloading or running it. Disabling the download dialog box makes the system vulnerable to viruses, Trojans and hackers who may silently affect your system.&lt;/p&gt;
+&lt;h2 id=&#34;opening-a-file-without-the-open-save-cancel-dialog-box&#34;&gt;Opening a File without the Open-Save-Cancel dialog box&lt;/h2&gt;
+&lt;p&gt;While it is a big security concern, Microsoft still provides Internet Explorer settings that allow users to disable the Open-Save-Cancel prompt for file download.&lt;/p&gt;
+&lt;p&gt;In Windows Explorer:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;On the &lt;strong&gt;Tools&lt;/strong&gt; menu, select &lt;strong&gt;Folder Options&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Click the File Types tab in the Folder Options dialog.&lt;/li&gt;
+&lt;li&gt;Select the XLS extension file type.&lt;/li&gt;
+&lt;li&gt;Click &lt;strong&gt;Advanced&lt;/strong&gt;.&lt;br&gt;
+A dialog box is displayed. It has three options at the bottom.&lt;/li&gt;
+&lt;li&gt;Uncheck &lt;strong&gt;Confirm open after download&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Select the third option - &lt;strong&gt;Browse in same window&lt;/strong&gt; - to view the Excel file in Internet Explorer without starting Microsoft Excel standalone.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&#34;table table-striped&#34; role=&#34;alert&#34;&gt;
+    &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Editing file type options&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5017701/5112196.png&#34; alt=&#34;&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;This setting allows files to run directly in the web browser, without the Open-Save-Cancel dialog showing when downloading or opening the file.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Combine Multiple Worksheets into a Single Worksheet</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/mngworkbooksandworksheets/combine&#43;multiple&#43;worksheets&#43;into&#43;a&#43;single&#43;worksheet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/mngworkbooksandworksheets/combine&#43;multiple&#43;worksheets&#43;into&#43;a&#43;single&#43;worksheet/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--combine-multiple-worksheets-into-a-single-worksheet&#34;&gt;Aspose.Cells for .NET : Combine Multiple Worksheets into a Single Worksheet&lt;/h1&gt;
+&lt;p&gt;Sometimes, you need to combine multiple worksheets into a single worksheet. This can easily be achieved using Aspose.Cells API. This article will show you a code example that reads a source workbook and combines the data of all source worksheets into a single worksheet inside a destination workbook.&lt;/p&gt;
+&lt;p&gt;The following code snippet shows you how to combine multiple worksheets into a single worksheet.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Disable Compatibility Checker in Excel</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/mngworkbooksandworksheets/disable&#43;compatibility&#43;checker&#43;in&#43;excel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/mngworkbooksandworksheets/disable&#43;compatibility&#43;checker&#43;in&#43;excel/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--disable-compatibility-checker-in-excel&#34;&gt;Aspose.Cells for .NET : Disable Compatibility Checker in Excel&lt;/h1&gt;
+&lt;p&gt;Microsoft Excel&amp;rsquo;s Compatibility Checker flags when saving a file in an earlier file format might cause functionality issues or loss of fidelity. The Compatibility Checker is a feature of Microsoft Office Excel 2007 and Microsoft Excel 2010.&lt;/p&gt;
+&lt;p&gt;When you save a workbook in a previous version, Excel 97 through Excel 2003, from Excel 2007 or Excel 2010, the Compatibility Checker scans the workbook to see if it contains features that are not supported by the earlier version. To help you make decisions about how to handle compatibility issues, the Compatibility Checker displays dialog boxes with options. It can also be used to create a report on any issues in the workbook, or disable the feature.&lt;/p&gt;
+&lt;p&gt;Sometimes, you need to disable the Compatibility Checker for a particular spreadsheet. With Aspose.Cells&amp;rsquo; APIs you can do this programmatically so that users don&amp;rsquo;t get frustrated or confused by the Compatibility Checker dialog box popping up when they re-save the file in Microsoft Excel manually.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#using-microsoft-excel&#34;&gt;Using Microsoft Excel&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#using-aspose.cells-apis&#34;&gt;Using Aspose.Cells APIs&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;2.1 &lt;a href=&#34;#code-examples&#34;&gt;Code Examples&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;using-microsoft-excel&#34;&gt;Using Microsoft Excel&lt;/h2&gt;
+&lt;p&gt;To disable the Compatibility Checker in Microsoft Excel (for example Microsoft Excel 2007/2010):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;(Excel 2007) On the Office button, click &lt;strong&gt;Prepare&lt;/strong&gt;, then &lt;strong&gt;Run Compatibility Checker&lt;/strong&gt;, and then clear the &lt;strong&gt;Check compatibility when you save this workbook&lt;/strong&gt; option.&lt;/li&gt;
+&lt;li&gt;(Excel 2010) On the File tab, click &lt;strong&gt;Info&lt;/strong&gt;, then &lt;strong&gt;Check for issues&lt;/strong&gt;, click &lt;strong&gt;Check Compatibility&lt;/strong&gt;, and, finally, clear the &lt;strong&gt;Check compatibility when you save this workbook&lt;/strong&gt; option.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;using-asposecells-apis&#34;&gt;Using Aspose.Cells APIs&lt;/h2&gt;
+&lt;p&gt;Set the &lt;strong&gt;Workbook.Settings.CheckComptiliblity&lt;/strong&gt; property to &lt;strong&gt;False&lt;/strong&gt; to disable Microsoft Excel&amp;rsquo;s Compatibility Checker.&lt;/p&gt;
+&lt;h3 id=&#34;code-examples&#34;&gt;Code Examples&lt;/h3&gt;
+&lt;p&gt;The code examples that follow show how to disable the Compatibility Checker with Aspose.Cells for .NET, first using C# and then using Visual Basic.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Optimizing Memory Usage while Working with Big Files having Large Datasets</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/mngworkbooksandworksheets/optimizing&#43;memory&#43;usage&#43;while&#43;working&#43;with&#43;big&#43;files&#43;having&#43;large&#43;datasets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/mngworkbooksandworksheets/optimizing&#43;memory&#43;usage&#43;while&#43;working&#43;with&#43;big&#43;files&#43;having&#43;large&#43;datasets/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--optimizing-memory-usage-while-working-with-big-files-having-large-datasets&#34;&gt;Aspose.Cells for .NET : Optimizing Memory Usage while Working with Big Files having Large Datasets&lt;/h1&gt;
+&lt;p&gt;When building a workbook with large data sets, or reading a big Microsoft Excel file, the total amount of RAM the process will take is always a concern. There are measures that can be adapted to cope with the challenge. Aspose.Cells provides some relevant options and API calls to lower, reduce and optimize memory use. Also, it can help the process work more efficiently and run faster.&lt;/p&gt;
+&lt;p&gt;Use the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/memorysetting&#34;&gt;MemorySetting&lt;/a&gt;.MemoryPreference option to optimize memory use for cells data and decrease the overall memory cost. When building a large data set for cells, it can save a certain amount of memory compared to using the default setting (&lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/memorysetting&#34;&gt;MemorySetting&lt;/a&gt;.Normal).&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#optimizing-memory&#34;&gt;Optimizing Memory&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#reading-large-excel-files&#34;&gt;Reading Large Excel Files&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1.2 &lt;a href=&#34;#writing-large-excel-files&#34;&gt;Writing Large Excel Files&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#caution&#34;&gt;Caution&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;optimizing-memory&#34;&gt;Optimizing Memory&lt;/h2&gt;
+&lt;h3 id=&#34;reading-large-excel-files&#34;&gt;Reading Large Excel Files&lt;/h3&gt;
+&lt;p&gt;The following example shows how to read a large Microsoft Excel file in optimized mode.&lt;/p&gt;
+&lt;h3 id=&#34;writing-large-excel-files&#34;&gt;Writing Large Excel Files&lt;/h3&gt;
+&lt;p&gt;The following example shows how to write a large dataset to a worksheet in an optimized mode.&lt;/p&gt;
+&lt;h2 id=&#34;caution&#34;&gt;Caution&lt;/h2&gt;
+&lt;p&gt;The default option, &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/memorysetting&#34;&gt;MemorySetting&lt;/a&gt;.Normal is applied for all versions. For some situations, such as building a workbook with a large data set for cells, the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/memorysetting&#34;&gt;MemorySetting&lt;/a&gt;.MemoryPreference option may optimize the memory use and decrease the memory cost for the application. However, this option may degrade performance in some special cases such as follow.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Accessing Cells Randomly and Repeatedly&lt;/strong&gt;: The most efficient sequence for accessing the cells collection is cell by cell in one row, and then row by row. Especially, if you access rows/cells by the Enumerator acquired from &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/cells&#34;&gt;Cells&lt;/a&gt;, &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/rowcollection&#34;&gt;RowCollection&lt;/a&gt; and &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/row&#34;&gt;Row&lt;/a&gt;, the performance would be maximized with &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/memorysetting&#34;&gt;MemorySetting&lt;/a&gt;.MemoryPreference.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Inserting &amp;amp; Deleting Cells &amp;amp; Rows&lt;/strong&gt;: Please note that if there are lots of insert/delete operations for Cells/Rows, the performance degradation will be notable for *MemoryPreference *mode as compared to the &lt;em&gt;Normal&lt;/em&gt; mode.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Operating on Different Cell Types&lt;/strong&gt;: If most of the cells contain string values or formulas, the memory cost will be the same as &lt;em&gt;Normal&lt;/em&gt; mode but if there are lots of empty cells, or cell values are numeric, bool and so on, the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/memorysetting&#34;&gt;MemorySetting&lt;/a&gt;.MemoryPreference option will give better performance.&lt;/li&gt;
+&lt;/ol&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Create Manipulate or Remove Scenarios from Worksheets</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/mngworkbooksandworksheets/create&#43;manipulate&#43;or&#43;remove&#43;scenarios&#43;from&#43;worksheets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/mngworkbooksandworksheets/create&#43;manipulate&#43;or&#43;remove&#43;scenarios&#43;from&#43;worksheets/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--create-manipulate-or-remove-scenarios-from-worksheets&#34;&gt;Aspose.Cells for .NET : Create, Manipulate or Remove Scenarios from Worksheets&lt;/h1&gt;
+&lt;p&gt;Sometimes, you need to create, manipulate or delete scenarios in spreadsheets. A scenario is a named &amp;lsquo;what if?&amp;rsquo; model that includes variable input cells linked by one or more formulas. Before creating a scenario, design the worksheet so that it contains at least one formula that depends on cells that different values can be inserted into. The following example shows how to create and remove scenarios from a worksheet in a workbook via Aspose.Cells APIs.&lt;/p&gt;
+&lt;p&gt;Aspose.Cells provides some useful classes, for example, &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/scenariocollection&#34;&gt;ScenarioCollection&lt;/a&gt;, &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/scenario&#34;&gt;Scenario&lt;/a&gt;, &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/scenarioinputcellcollection&#34;&gt;ScenarioInputCellCollection&lt;/a&gt;, and &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/scenarioinputcell&#34;&gt;ScenarioInputCell&lt;/a&gt; classes. It also provides the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/worksheet/properties/scenarios&#34;&gt;Worksheet.Scenarios&lt;/a&gt; property. The sample code below opens an XLSX Excel file that contains some scenarios and removes an existing scenario. It also adds a new scenario to the worksheet before saving the Excel file. The example uses a very simple template file that contains a scenario.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Reading CSV File with Multiple Encodings</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/mngworkbooksandworksheets/reading&#43;csv&#43;file&#43;with&#43;multiple&#43;encodings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/mngworkbooksandworksheets/reading&#43;csv&#43;file&#43;with&#43;multiple&#43;encodings/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--reading-csv-file-with-multiple-encodings&#34;&gt;Aspose.Cells for .NET : Reading CSV File with Multiple Encodings&lt;/h1&gt;
+&lt;p&gt;Sometimes, your CSV file contains multiple Encodings (Unicode, ANSI, UTF8, UTF7, etc). Aspose.Cells allows you to load such CSV files and converting them into other formats, for example, PDF or XLSX.&lt;/p&gt;
+&lt;p&gt;Aspose.Cells provides the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/txtloadoptions/properties/ismultiencoded&#34;&gt;TxtLoadOptions.IsMultiEncoded&lt;/a&gt; property, which you need to set to &lt;strong&gt;true&lt;/strong&gt; to load your CSV file with multiple encodings properly.&lt;/p&gt;
+&lt;p&gt;The following screenshot shows a sample CSV file that contains two lines. The first line is in &lt;strong&gt;ANSI&lt;/strong&gt; encoding and the second line is in &lt;strong&gt;Unicode&lt;/strong&gt; encoding&lt;/p&gt;
+
+&lt;div class=&#34;table table-striped&#34; role=&#34;alert&#34;&gt;
+    &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Input file&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5017651/5112225.png&#34; alt=&#34;&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;The following screenshot shows the XLSX file converted from the above CSV file without setting the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/txtloadoptions/properties/ismultiencoded&#34;&gt;TxtLoadOptions.IsMultiEncoded&lt;/a&gt; property to &lt;strong&gt;true&lt;/strong&gt;. As you can see, the Unicode text was not converted properly.&lt;/p&gt;
+
+&lt;div class=&#34;table table-striped&#34; role=&#34;alert&#34;&gt;
+    &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Output file 1: no accommodation made for multiple encoding&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5017651/5112226.png&#34; alt=&#34;&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;The following screenshot shows the XSLX file converted from the above CSV file after setting the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/txtloadoptions/properties/ismultiencoded&#34;&gt;TxtLoadOptions.IsMultiEncoded&lt;/a&gt; property to &lt;strong&gt;true&lt;/strong&gt;. As you can see, the Unicode text is now converted properly.&lt;/p&gt;
+
+&lt;div class=&#34;table table-striped&#34; role=&#34;alert&#34;&gt;
+    &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Output file 2: IsMultiEncoded is set to true&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5017651/5112227.png&#34; alt=&#34;&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;Below is the sample code that converts the above CSV file into XLSX format properly.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Get the Version Number of the Application that Created the Excel Document</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/mngworkbooksandworksheets/get&#43;the&#43;version&#43;number&#43;of&#43;the&#43;application&#43;that&#43;created&#43;the&#43;excel&#43;document/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/mngworkbooksandworksheets/get&#43;the&#43;version&#43;number&#43;of&#43;the&#43;application&#43;that&#43;created&#43;the&#43;excel&#43;document/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--get-the-version-number-of-the-application-that-created-the-excel-document&#34;&gt;Aspose.Cells for .NET : Get the Version Number of the Application that Created the Excel Document&lt;/h1&gt;
+&lt;p&gt;Often you need to know the version number of the application that created a Microsoft Excel document. Aspose.Cells provides the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.properties/builtindocumentpropertycollection/properties/version&#34;&gt;Workbook.BuiltInDocumentProperties.Version&lt;/a&gt; property for this purpose.&lt;/p&gt;
+&lt;p&gt;The following sample code demonstrates the use of the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.properties/builtindocumentpropertycollection/properties/version&#34;&gt;Workbook.BuiltInDocumentProperties.Version&lt;/a&gt; property. It loads Excel files created with Microsoft Excel 2003, 2007, 2010 and 2013 and prints the version number of the application that created these Excel documents.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: How to set AutoRecover property of Workbook</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/mngworkbooksandworksheets/how&#43;to&#43;set&#43;autorecover&#43;property&#43;of&#43;workbook/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/mngworkbooksandworksheets/how&#43;to&#43;set&#43;autorecover&#43;property&#43;of&#43;workbook/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--how-to-set-autorecover-property-of-workbook&#34;&gt;Aspose.Cells for .NET : How to set AutoRecover property of Workbook&lt;/h1&gt;
+&lt;p&gt;You can use Aspose.Cells to set AutoRecover property of workbook. The default value of this property is &lt;strong&gt;true&lt;/strong&gt;. When you set it &lt;strong&gt;false&lt;/strong&gt; on a workbook, Microsoft Excel disables Autorecover (Autosave) on that Excel file.&lt;/p&gt;
+&lt;p&gt;Aspose.Cells provides &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/workbooksettings/properties/autorecover&#34;&gt;Workbook.Settings.AutoRecover&lt;/a&gt; property to enable or disable this option.&lt;/p&gt;
+&lt;p&gt;The following code explains how to use &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/workbooksettings/properties/autorecover&#34;&gt;Workbook.Settings.AutoRecover&lt;/a&gt; property of the workbook. The code first reads the default value of this property which is &lt;strong&gt;true&lt;/strong&gt;, then it sets it as &lt;strong&gt;false&lt;/strong&gt; and saves the workbook. Then it reads the workbook again and reads the value of this property which is &lt;strong&gt;false&lt;/strong&gt; at this time.&lt;/p&gt;
+&lt;h2 id=&#34;output&#34;&gt;Output&lt;/h2&gt;
+&lt;p&gt;Here is the console output of the above sample code.&lt;/p&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_b1ee37c6af&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_b1ee37c6af&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;
+&lt;span style=&#34;color:#000&#34;&gt;AutoRecover&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;True&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;AutoRecover&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;False&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Save ODS File in ODF 1.1 and 1.2 Specifications</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/mngworkbooksandworksheets/save&#43;ods&#43;file&#43;in&#43;odf&#43;1.1&#43;and&#43;1.2&#43;specifications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/mngworkbooksandworksheets/save&#43;ods&#43;file&#43;in&#43;odf&#43;1.1&#43;and&#43;1.2&#43;specifications/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--save-ods-file-in-odf-11-and-12-specifications&#34;&gt;Aspose.Cells for .NET : Save ODS File in ODF 1.1 and 1.2 Specifications&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells supports saving an ODS file (&lt;strong&gt;OpenDocument Spreadsheet&lt;/strong&gt;) in the ODF (&lt;strong&gt;OpenDocument Format&lt;/strong&gt;) 1.1 and 1.2 specifications. Aspose.Cells has &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/odssaveoptions/properties/isstrictschema11&#34;&gt;OdsSaveOptions.IsStrictSchema11&lt;/a&gt; property that specifies the use of ODF 1.1 specification for saving ODS files. The default value of this property is &lt;strong&gt;false&lt;/strong&gt;, so the ODS file saved without this setting uses the 1.2 specifications.&lt;/p&gt;
+&lt;p&gt;The sample code below creates a workbook object, adds some value to cell A1 on the first worksheet and then saves the ODS file in ODF 1.1 and 1.2 specifications. By default, the ODS file is saved in ODF 1.2 specification.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Check Password to modify using Aspose.Cells</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/mngworkbooksandworksheets/check&#43;password&#43;to&#43;modify&#43;using&#43;aspose.cells/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/mngworkbooksandworksheets/check&#43;password&#43;to&#43;modify&#43;using&#43;aspose.cells/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--check-password-to-modify-using-asposecells&#34;&gt;Aspose.Cells for .NET : Check Password to modify using Aspose.Cells&lt;/h1&gt;
+&lt;p&gt;Sometimes, you need to check if the given password matches with the &lt;strong&gt;Password to modify&lt;/strong&gt; programmatically. Aspose.Cells provides &lt;code&gt;Workbook``Settings.WriteProtection.ValidatePassword()&lt;/code&gt; method which you can use to check if the given Password to modify is correct or not.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#check-password-to-modify-in-microsoft-excel&#34;&gt;Check Password to modify in Microsoft Excel&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#check-password-to-modify-using-aspose.cells&#34;&gt;Check Password to modify using Aspose.Cells&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;2.1 &lt;a href=&#34;#console-output&#34;&gt;Console Output&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;check-password-to-modify-in-microsoft-excel&#34;&gt;Check Password to modify in Microsoft Excel&lt;/h2&gt;
+&lt;p&gt;You can assign &lt;strong&gt;Password to open&lt;/strong&gt; and &lt;strong&gt;Password to modify&lt;/strong&gt; while creating your workbooks in Microsoft Excel. Please see this screenshot which shows the interface Microsoft Excel provides to specify these passwords.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5017659/5112231.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;check-password-to-modify-using-asposecells&#34;&gt;Check Password to modify using Aspose.Cells&lt;/h2&gt;
+&lt;p&gt;The following sample codes load the &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/5017659/5112232.xlsx&#34;&gt;source Excel&lt;/a&gt; file. It has a Password to open as 1234 and Password to modify as 5678. The code first checks if 567 is correct Password to modify and it returns false and then it checks if 5678 is Password to modify and it returns true.&lt;/p&gt;
+&lt;h3 id=&#34;console-output&#34;&gt;Console Output&lt;/h3&gt;
+&lt;p&gt;Here is the Console Output of the above sample code after loading the &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/5017659/5112232.xlsx&#34;&gt;source Excel&lt;/a&gt; file.&lt;/p&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_4519b883c2&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_4519b883c2&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Is&lt;/span&gt; &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;567&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;correct&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Password&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;to&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;modify&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;False&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Is&lt;/span&gt; &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;5678&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;correct&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Password&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;to&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;modify&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;True&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Adding Custom Properties visible inside Document Information Panel</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/mngworkbooksandworksheets/adding&#43;custom&#43;properties&#43;visible&#43;inside&#43;document&#43;information&#43;panel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/mngworkbooksandworksheets/adding&#43;custom&#43;properties&#43;visible&#43;inside&#43;document&#43;information&#43;panel/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--adding-custom-properties-visible-inside-document-information-panel&#34;&gt;Aspose.Cells for .NET : Adding Custom Properties visible inside Document Information Panel&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#adding-custom-properties-visible-inside-document-information-panel&#34;&gt;Adding Custom Properties visible inside Document Information Panel&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#related-article&#34;&gt;Related Article&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;adding-custom-properties-visible-inside-document-information-panel&#34;&gt;Adding Custom Properties visible inside Document Information Panel&lt;/h2&gt;
+&lt;p&gt;Aspose.Cells can be used to add custom properties inside the workbook object which are visible inside the Document Information Panel. You can open the Document Information Panel in Microsoft Excel using &lt;code&gt;File &amp;gt; Info &amp;gt; Properties &amp;gt; Show Document Panel&lt;/code&gt; menu commands.&lt;/p&gt;
+&lt;p&gt;Please use &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.properties/contenttypepropertycollection/methods/add/index&#34;&gt;Workbook.ContentTypeProperties.Add()&lt;/a&gt; method to add a custom property which will be visible in the Document Information Panel&lt;/p&gt;
+&lt;p&gt;The following sample code adds two custom properties. The first property is without any type and the second property has a type as DateTime. Once, you will open the output Excel file generated by this code, you will see these two properties inside the Document Information Panel.&lt;/p&gt;
+&lt;h3 id=&#34;related-article&#34;&gt;Related Article&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/technicalarticles/general/mngworkbooksandworksheets/use+custom+xml+parts+in+aspose.cells&#34;&gt;Use Custom XML Parts in Aspose.Cells&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Determining if the License is loaded successfully</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/mngworkbooksandworksheets/determining&#43;if&#43;the&#43;license&#43;is&#43;loaded&#43;successfully/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/mngworkbooksandworksheets/determining&#43;if&#43;the&#43;license&#43;is&#43;loaded&#43;successfully/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--determining-if-the-license-is-loaded-successfully&#34;&gt;Aspose.Cells for .NET : Determining if the License is loaded successfully&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells provides &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/workbook/properties/islicensed&#34;&gt;Workbook.IsLicensed&lt;/a&gt; property which you can use to determine if the license is loaded successfully or not. If you access this property before setting the license, it will return &lt;strong&gt;false&lt;/strong&gt; and if you will call this property after setting the license, it will return &lt;strong&gt;true&lt;/strong&gt; indicating that license has been loaded successfully.&lt;/p&gt;
+&lt;p&gt;The following code accesses the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/workbook/properties/islicensed&#34;&gt;Workbook.IsLicensed&lt;/a&gt; property before setting a license and it returns &lt;strong&gt;false&lt;/strong&gt;. Then it loads the license and accesses the property again which now returns &lt;strong&gt;true&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;console-output&#34;&gt;Console Output&lt;/h2&gt;
+&lt;p&gt;Here is the console (debug) output of the above sample code&lt;/p&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_cabcf64b05&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_cabcf64b05&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;
+&lt;span style=&#34;color:#000&#34;&gt;False&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;True&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: How to Detect a File Format and Check if the File is Encrypted</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/mngworkbooksandworksheets/how&#43;to&#43;detect&#43;a&#43;file&#43;format&#43;and&#43;check&#43;if&#43;the&#43;file&#43;is&#43;encrypted/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/mngworkbooksandworksheets/how&#43;to&#43;detect&#43;a&#43;file&#43;format&#43;and&#43;check&#43;if&#43;the&#43;file&#43;is&#43;encrypted/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--how-to-detect-a-file-format-and-check-if-the-file-is-encrypted&#34;&gt;Aspose.Cells for .NET : How to Detect a File Format and Check if the File is Encrypted&lt;/h1&gt;
+&lt;p&gt;Sometimes you need to detect a file&amp;rsquo;s format before opening it because the file extension does not guarantee that the file content is appropriate. The file might be encrypted (a password-protected file) so it can&amp;rsquo;t be read it directly, or we should not read it. Aspose.Cells provides the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/fileformatutil/methods/detectfileformat/index&#34;&gt;FileFormatUtil.DetectFileFormat()&lt;/a&gt; static method and some relevant APIs that you can use to process documents.&lt;/p&gt;
+&lt;p&gt;The following sample code illustrates how to detect a file format (using the file path) and check its extension. You can also determine whether the file is encrypted.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Export Excel Data to DataTable without any Formatting</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/mngworkbooksandworksheets/export&#43;excel&#43;data&#43;to&#43;datatable&#43;without&#43;any&#43;formatting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/mngworkbooksandworksheets/export&#43;excel&#43;data&#43;to&#43;datatable&#43;without&#43;any&#43;formatting/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--export-excel-data-to-datatable-without-any-formatting&#34;&gt;Aspose.Cells for .NET : Export Excel Data to DataTable without any Formatting&lt;/h1&gt;
+&lt;p&gt;Sometimes users want to export excel data into a data table without any formatting. For example, if some cell has a value 0.012345 and it is formatted as to display two decimal places, then when the user will export excel data to a data table, it will be exported as 0.01 and not as 0.012345. To deal with this problem, Aspose.Cells has provided &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/exporttableoptions/properties/formatstrategy&#34;&gt;ExportTableOptions.FormatStrategy&lt;/a&gt; property which can take one of these three values&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;CellValueFormatStrategy.CellStyle&lt;/li&gt;
+&lt;li&gt;CellValueFormatStrategy.DisplayStyle&lt;/li&gt;
+&lt;li&gt;CellValueFormatStrategy.None&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you will set it to CellValueFormatStrategy.None, then it will export the data without any formatting.&lt;/p&gt;
+&lt;p&gt;The following sample explains the use of &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/exporttableoptions/properties/formatstrategy&#34;&gt;ExportTableOptions.FormatStrategy&lt;/a&gt; property to export excel data with and without any formatting.&lt;/p&gt;
+&lt;h2 id=&#34;console-output&#34;&gt;Console Output&lt;/h2&gt;
+&lt;p&gt;Below is the console debug output of the above sample code&lt;/p&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_bc3fa7b477&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_bc3fa7b477&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Cell&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;String&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Value&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;0.01&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Cell&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;String&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Value&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;without&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Format&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;0.012345&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Export&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Data&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Table&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;with&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Format&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Strategy&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;as&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Cell&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Style&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;0.01&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Export&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Data&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Table&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;with&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Format&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Strategy&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;as&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;None&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;0.012345&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Convert Revision of XLSB to XLSM</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/mngworkbooksandworksheets/convert&#43;revision&#43;of&#43;xlsb&#43;to&#43;xlsm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/mngworkbooksandworksheets/convert&#43;revision&#43;of&#43;xlsb&#43;to&#43;xlsm/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--convert-revision-of-xlsb-to-xlsm&#34;&gt;Aspose.Cells for .NET : Convert Revision of XLSB to XLSM&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells now supports to fully convert revisions of XLSB file into XLSM file. Revisions are found inside the path \xl\revisions. You can view them by changing your XLSB file extension to ZIP. The \xl\revisions path contains files ending with .bin extensions.&lt;/p&gt;
+&lt;p&gt;When you convert your XLSB file into XLSM file using Aspose.Cells, these .bin files successfully converts to .xml files as shown in these two screenshots.&lt;/p&gt;
+&lt;p&gt;The following code sample shows you how to convert the XLSB file into XLSM format using Aspose.Cells.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Calculate Page Setup Scaling Factor</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/mngworkbooksandworksheets/calculate&#43;page&#43;setup&#43;scaling&#43;factor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/mngworkbooksandworksheets/calculate&#43;page&#43;setup&#43;scaling&#43;factor/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--calculate-page-setup-scaling-factor&#34;&gt;Aspose.Cells for .NET : Calculate Page Setup Scaling Factor&lt;/h1&gt;
+&lt;p&gt;When you set Page Setup Scaling using &lt;strong&gt;Fit to n page(s) wide by m tall&lt;/strong&gt; option, Microsoft Excel calculates the Page Setup Scaling Factor. You can calculate the same thing using &lt;code&gt;SheetRender.PageScale&lt;/code&gt; property. This property returns a double value which can be converted to percentage value. For example, if it returns 0.5 then it means scaling factor is 50%.&lt;/p&gt;
+&lt;p&gt;The following sample code illustrates how to calculate page setup scaling factor using &lt;code&gt;SheetRender.PageScale&lt;/code&gt; property.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Release Unmanaged Resources of the Workbook</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/mngworkbooksandworksheets/release&#43;unmanaged&#43;resources&#43;of&#43;the&#43;workbook/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/mngworkbooksandworksheets/release&#43;unmanaged&#43;resources&#43;of&#43;the&#43;workbook/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--release-unmanaged-resources-of-the-workbook&#34;&gt;Aspose.Cells for .NET : Release Unmanaged Resources of the Workbook&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells provides &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/workbook/methods/dispose&#34;&gt;Workbook.Dispose()&lt;/a&gt; method to release the unmanaged resources of the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/workbook&#34;&gt;Workbook&lt;/a&gt; object. The dispose pattern is used only for objects that access unmanaged resources, such as file and pipe handles, registry handles, wait handles or pointers to blocks of unmanaged memory. This is because the garbage collector is very efficient at reclaiming unused managed objects, but it is unable to reclaim unmanaged objects.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/workbook&#34;&gt;Workbook&lt;/a&gt;object now implements the &lt;em&gt;System.IDisposable&lt;/em&gt; interface which has a single method &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/workbook/methods/dispose&#34;&gt;Dispose()&lt;/a&gt;. You can either directly call the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/workbook/methods/dispose&#34;&gt;Workbook.Dispose()&lt;/a&gt; method or you can use the *Using *statement to call this method automatically.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Using WorkbookMetadata</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/mngworkbooksandworksheets/using&#43;workbookmetadata/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/mngworkbooksandworksheets/using&#43;workbookmetadata/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--using-workbookmetadata&#34;&gt;Aspose.Cells for .NET : Using WorkbookMetadata&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells allows you to load a light-weight version of workbook into memory to edit its metadata information. Please use the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.metadata/workbookmetadata&#34;&gt;WorkbookMetadata&lt;/a&gt; class to load the workbook.&lt;/p&gt;
+&lt;p&gt;The following sample code uses &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.metadata/workbookmetadata&#34;&gt;WorkbookMetadata&lt;/a&gt; class to edit custom document properties of a workbook. Once you open the workbook using &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/workbook&#34;&gt;Workbook&lt;/a&gt; class, you will be able to read the document properties. Here is a sample code using the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.metadata/workbookmetadata&#34;&gt;WorkbookMetadata&lt;/a&gt; class.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Editing Hyperlinks of Worksheet</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/mngworkbooksandworksheets/editing&#43;hyperlinks&#43;of&#43;worksheet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/mngworkbooksandworksheets/editing&#43;hyperlinks&#43;of&#43;worksheet/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--editing-hyperlinks-of-worksheet&#34;&gt;Aspose.Cells for .NET : Editing Hyperlinks of Worksheet&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells allows you to access all the hyperlinks of the worksheet using the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/worksheet/properties/hyperlinks&#34;&gt;Worksheet.Hyperlinks&lt;/a&gt; collection. You can access each hyperlink from this collection one by one and edit its properties.&lt;/p&gt;
+&lt;p&gt;The following sample code accesses all the hyperlinks of the worksheet and changes their &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/hyperlink/properties/address&#34;&gt;Hyperlink.Address&lt;/a&gt; property to the Aspose website.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Remove Unused Styles inside the Workbook</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/mngworkbooksandworksheets/remove&#43;unused&#43;styles&#43;inside&#43;the&#43;workbook/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/mngworkbooksandworksheets/remove&#43;unused&#43;styles&#43;inside&#43;the&#43;workbook/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--remove-unused-styles-inside-the-workbook&#34;&gt;Aspose.Cells for .NET : Remove Unused Styles inside the Workbook&lt;/h1&gt;
+&lt;p&gt;Unused styles in excel file not only take space but also cause performance issues while converting to different formats like PDF, HTML, etc. Aspose.Cells provides the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/workbook/methods/removeunusedstyles&#34;&gt;Workbook.RemoveUnusedStyles()&lt;/a&gt; to remove all the unused styles inside the workbook.&lt;/p&gt;
+&lt;p&gt;The following code explains the usage of &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/workbook/methods/removeunusedstyles&#34;&gt;Workbook.RemoveUnusedStyles()&lt;/a&gt;. The code loads the &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/5024962/5115520.xlsx&#34;&gt;template excel file&lt;/a&gt; which you can download from the provided link. It contains an unused style named &lt;strong&gt;AsposeStyle&lt;/strong&gt;, this style and all other unused styles will be removed after the execution of the code.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5024962/5115521.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Load or Import CSV file with Formulas</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/mngworkbooksandworksheets/load&#43;or&#43;import&#43;csv&#43;file&#43;with&#43;formulas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/mngworkbooksandworksheets/load&#43;or&#43;import&#43;csv&#43;file&#43;with&#43;formulas/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--load-or-import-csv-file-with-formulas&#34;&gt;Aspose.Cells for .NET : Load or Import CSV file with Formulas&lt;/h1&gt;
+&lt;p&gt;CSV file mostly contains textual data and they do not contain any formulas. However, sometimes it happens that CSV files also contain formulas. Such CSV files should be loaded by setting the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/txtloadoptions/properties/hasformula&#34;&gt;TxtLoadOptions.HasFormula&lt;/a&gt; as &lt;strong&gt;true&lt;/strong&gt;. Once this property will be set &lt;strong&gt;true&lt;/strong&gt;, Aspose.Cells will not treat formula as simple text. They will be treated as formula and Aspose.Cells formula calculation engine will process them as usual.&lt;/p&gt;
+&lt;p&gt;The following code illustrates how you can load as well as import a CSV file with formulas. You can use any CSV file. For illustration purpose, we use the &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/5018760/5115034.csv&#34;&gt;simple csv file&lt;/a&gt; which contains this data. As you see it contains a formula.&lt;/p&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_adcc8eadbc&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_adcc8eadbc&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;
+&lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;300&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt;&lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;500&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,=&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Sum&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;A1&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;B1&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;p&gt;The code first loads the CSV file, then import it again at cell D4. Finally, it saves the workbook object in XSLX format. The &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/5018760/5115052.xlsx&#34;&gt;output XLSX file&lt;/a&gt; looks like this. As you see cell C3 and F4 contain formula and its result 800.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5018760/5115033.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Detect if Worksheet is Password Protected</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/mngworkbooksandworksheets/detect&#43;if&#43;worksheet&#43;is&#43;password&#43;protected/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/mngworkbooksandworksheets/detect&#43;if&#43;worksheet&#43;is&#43;password&#43;protected/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--detect-if-worksheet-is-password-protected&#34;&gt;Aspose.Cells for .NET : Detect if Worksheet is Password Protected&lt;/h1&gt;
+&lt;p&gt;It is possible to protect the workbooks and worksheets separately. For instance, a spreadsheet may contain one or more worksheets that are password-protected, however, the spreadsheet itself may or may not be protected. Aspose.Cells APIs provide the means to detect if a given worksheet is password protected or not. This article demonstrates the usage of Aspose.Cells for .NET API to achieve the same.&lt;/p&gt;
+&lt;p&gt;Aspose.Cells for .NET 8.7.0 has exposed the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/protection/properties/isprotectedwithpassword&#34;&gt;Protection.IsProtectedWithPassword&lt;/a&gt; property to detect if a worksheet is password protected or not. Boolean type &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/protection/properties/isprotectedwithpassword&#34;&gt;Protection.IsProtectedWithPassword&lt;/a&gt; property returns &lt;strong&gt;true&lt;/strong&gt; if &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/worksheet&#34;&gt;Worksheet&lt;/a&gt; is password-protected and &lt;strong&gt;false&lt;/strong&gt; if not.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Verify Password Used to Protect the Worksheet</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/mngworkbooksandworksheets/verify&#43;password&#43;used&#43;to&#43;protect&#43;the&#43;worksheet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/mngworkbooksandworksheets/verify&#43;password&#43;used&#43;to&#43;protect&#43;the&#43;worksheet/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--verify-password-used-to-protect-the-worksheet&#34;&gt;Aspose.Cells for .NET : Verify Password Used to Protect the Worksheet&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells APIs have enhanced the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/protection&#34;&gt;Protection&lt;/a&gt; class by introducing some useful properties &amp;amp; methods. One such method is the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/protection/methods/verifypassword&#34;&gt;VerifyPassword&lt;/a&gt; which allows specifying a password as an instance of *string *and verifies if the same password has been used to protect the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/worksheet&#34;&gt;Worksheet&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/protection/methods/verifypassword&#34;&gt;Protection.VerifyPassword&lt;/a&gt; method returns **true **if the specified password matches the password used to protect the given worksheet and **false **if the specified password does not match. Following piece of code uses the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/protection/methods/verifypassword&#34;&gt;Protection.VerifyPassword&lt;/a&gt; method in conjunction with &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/protection/properties/isprotectedwithpassword&#34;&gt;Protection.IsProtectedWithPassword&lt;/a&gt; property to detect the password protection, and verifies the password.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Search Data using Original Values</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/mngworkbooksandworksheets/search&#43;data&#43;using&#43;original&#43;values/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/mngworkbooksandworksheets/search&#43;data&#43;using&#43;original&#43;values/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--search-data-using-original-values&#34;&gt;Aspose.Cells for .NET : Search Data using Original Values&lt;/h1&gt;
+&lt;p&gt;Sometimes the value of the data is hidden because it is formatted in some way. For example, suppose cell D4 has formula &lt;code&gt;=Sum(A1:A2)&lt;/code&gt; and its value is 20 but it is formatted as &amp;mdash;, then the value 20 is hidden and cannot be found using Microsoft Excel find options. However, you can find it using Aspose.Cells using &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/lookintype&#34;&gt;LookInType.OriginalValues&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The following sample code illustrates the above point. It finds cell D4 which cannot be found using Microsoft Excel find options but Aspose.Cells can find it using &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/lookintype&#34;&gt;LookInType.OriginalValues&lt;/a&gt;. Please read the comments inside the code for more information.&lt;/p&gt;
+&lt;h2 id=&#34;console-output&#34;&gt;Console Output&lt;/h2&gt;
+&lt;p&gt;Here is the console output of the above sample code.&lt;/p&gt;
+
+
+
+
+
+
+    
+    
+
+
+
+
+&lt;div class=&#34;position-relative&#34;&gt;
+    &lt;div class=&#34;position-absolute&#34; style=&#34;right:0;&#34;&gt;
+        &lt;button class=&#34;btn btn-light&#34; data-clipboard-target=&#34;#clipboard_46c06b9aee&#34;&gt;
+        Copy
+        &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;clipboard_46c06b9aee&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Aspose&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Cells&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Cell&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;[&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;D4&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;ValueType&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;IsNumeric&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Value&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;---;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Formula&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:=&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;SUM&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;A1&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;A2&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)]&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Use Custom XML Parts in Aspose.Cells</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/mngworkbooksandworksheets/use&#43;custom&#43;xml&#43;parts&#43;in&#43;aspose.cells/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/mngworkbooksandworksheets/use&#43;custom&#43;xml&#43;parts&#43;in&#43;aspose.cells/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--use-custom-xml-parts-in-asposecells&#34;&gt;Aspose.Cells for .NET : Use Custom XML Parts in Aspose.Cells&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#using-custom-xml-parts-in-aspose.cells&#34;&gt;Using Custom XML Parts in Aspose.Cells&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;1.1 &lt;a href=&#34;#related-article&#34;&gt;Related Article&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;using-custom-xml-parts-in-asposecells&#34;&gt;Using Custom XML Parts in Aspose.Cells&lt;/h2&gt;
+&lt;p&gt;Custom XML Parts are the XML data that is stored by different applications like SharePoint etc inside the excel file. This data is consumed by different applications that need it. Microsoft Excel does not make use of this data so there is no GUI to add it. You can view this data by changing the extension of &lt;strong&gt;.xlsx&lt;/strong&gt; into &lt;strong&gt;.zip&lt;/strong&gt; and then by opening it using &lt;strong&gt;WinZip&lt;/strong&gt;. You can also open the ZIP file using any 3rd part Windows zip utility such as WinRAR or WinZip etc. The data is present inside the &lt;strong&gt;customXml&lt;/strong&gt; folder.&lt;/p&gt;
+&lt;p&gt;You can add custom XML parts using Aspose.Cells via the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.properties/contenttypepropertycollection/methods/add/index&#34;&gt;Workbook.ContentTypeProperties.Add()&lt;/a&gt; method.&lt;/p&gt;
+&lt;p&gt;The following sample code makes use of &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.properties/contenttypepropertycollection/methods/add/index&#34;&gt;Workbook.ContentTypeProperties.Add()&lt;/a&gt; method and adds the &lt;strong&gt;Book Catalog XML&lt;/strong&gt; and its name is &lt;strong&gt;BookStore&lt;/strong&gt;. The following image shows the result of this code. As you can see Book Catalog XML is added inside the BookStore node which is the name of this property.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5018956/5115249.png&#34; alt=&#34;&#34;&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5018956/5115250.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;related-article&#34;&gt;Related Article&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/technicalarticles/general/mngworkbooksandworksheets/adding+custom+properties+visible+inside+document+information+panel&#34;&gt;Adding Custom Properties visible inside Document Information Panel&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Filtering the kind of data while loading the workbook from template file</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/mngworkbooksandworksheets/filtering&#43;the&#43;kind&#43;of&#43;data&#43;while&#43;loading&#43;the&#43;workbook&#43;from&#43;template&#43;file/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/mngworkbooksandworksheets/filtering&#43;the&#43;kind&#43;of&#43;data&#43;while&#43;loading&#43;the&#43;workbook&#43;from&#43;template&#43;file/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--filtering-the-kind-of-data-while-loading-the-workbook-from-template-file&#34;&gt;Aspose.Cells for .NET : Filtering the kind of data while loading the workbook from template file&lt;/h1&gt;
+&lt;p&gt;Sometimes, you want to specify which kind of data should be loaded when building the workbook from the template file. Filtering loaded data can improve the performance for your special purpose, especially when using &lt;a href=&#34;https://docs2.aspose.com/cells/net/developerguide/technicalarticles/general/using+lightcells+api&#34;&gt;LightCells APIs&lt;/a&gt;. Please use the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/loadoptions/properties/loadfilter&#34;&gt;LoadOptions.LoadFilter&lt;/a&gt; property for this purpose.&lt;/p&gt;
+&lt;p&gt;The following sample code loads only shape objects while loading the workbook from the &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/5013590/5115552.xlsx&#34;&gt;template file&lt;/a&gt; which you can download from the given link. The following screenshot shows the &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/5013590/5115552.xlsx&#34;&gt;template file&lt;/a&gt; contents and also explains that the data in Red color and Yellow background will not be loaded because &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/loadoptions/properties/loadfilter&#34;&gt;LoadOptions.LoadFilter&lt;/a&gt; property has been set to &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/loaddatafilteroptions&#34;&gt;LoadDataFilterOptions.Shape&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5013590/5115554.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The following screenshot shows the &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/5013590/5115555.pdf&#34;&gt;output PDF&lt;/a&gt; which you can download from the given link. Here you can see, the data in Red color and Yellow background is not present but all shapes are there.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5013590/5115553.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Detecting Empty Worksheets</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/mngworkbooksandworksheets/detecting&#43;empty&#43;worksheets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/mngworkbooksandworksheets/detecting&#43;empty&#43;worksheets/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--detecting-empty-worksheets&#34;&gt;Aspose.Cells for .NET : Detecting Empty Worksheets&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#check-for-populated-cells&#34;&gt;Check for Populated Cells&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#check-for-empty-initialized-cells&#34;&gt;Check for Empty Initialized Cells&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 &lt;a href=&#34;#check-for-shapes&#34;&gt;Check for Shapes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;4 &lt;a href=&#34;#programming-sample&#34;&gt;Programming Sample&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;check-for-populated-cells&#34;&gt;Check for Populated Cells&lt;/h2&gt;
+&lt;p&gt;Worksheets can have one or more cells populated with values where a value can be simple (text, numeric, date/time) or a formula or a formula based value. In such a case, it is easy to detect if a given worksheet is empty or not. All we have to check is the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/cells/properties/maxdatarow&#34;&gt;Cells.MaxDataRow&lt;/a&gt; or &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/cells/properties/maxdatacolumn&#34;&gt;Cells.MaxDataColumn&lt;/a&gt; properties. If the aforementioned properties return zero or positive values that means, one or more cells have been populated, however, if any of these properties return -1 that indicates that none of the cells have been populated in the given worksheet.&lt;/p&gt;
+&lt;p&gt;The rows &amp;amp; columns collections have zero-based index therefore a cell at row 0 &amp;amp; column 0 means the first cell in the worksheet, which is A1.&lt;/p&gt;
+&lt;h2 id=&#34;check-for-empty-initialized-cells&#34;&gt;Check for Empty Initialized Cells&lt;/h2&gt;
+&lt;p&gt;All cells which have values are automatically initialized, however, there is a possibility that a worksheet has cells with only formatting applied. In such a scenario, the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/cells/properties/maxdatarow&#34;&gt;Cells.MaxDataRow&lt;/a&gt; or &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/cells/properties/maxdatacolumn&#34;&gt;Cells.MaxDataColumn&lt;/a&gt; properties will return -1 indicating the absence of any populated values but initialized cells due to the cell formatting cannot be detected using this approach. In order to check if a worksheet has empty initialized cells, it is advised to use the &lt;code&gt;IEnumerator.MoveNext&lt;/code&gt; method on the enumerator acquired from &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/cells&#34;&gt;Cells&lt;/a&gt; collection. If the &lt;code&gt;IEnumerator.MoveNext&lt;/code&gt; method returns &lt;strong&gt;true&lt;/strong&gt; that means there are one or more initialized cells in the given worksheet.&lt;/p&gt;
+&lt;h2 id=&#34;check-for-shapes&#34;&gt;Check for Shapes&lt;/h2&gt;
+&lt;p&gt;It is possible that a given worksheet does not have any populated cells, however, it could contain shapes &amp;amp; objects such as controls, charts, images and so on. If we need to check if a worksheet contains any shape, we can do it by inspecting the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.drawing/shapecollection&#34;&gt;ShapeCollection.Count&lt;/a&gt; property. Any positive value indicates the presence of shape(s) in the worksheet.&lt;/p&gt;
+&lt;h2 id=&#34;programming-sample&#34;&gt;Programming Sample&lt;/h2&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Load Source Excel File Without Charts</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/mngworkbooksandworksheets/load&#43;source&#43;excel&#43;file&#43;without&#43;charts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/mngworkbooksandworksheets/load&#43;source&#43;excel&#43;file&#43;without&#43;charts/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--load-source-excel-file-without-charts&#34;&gt;Aspose.Cells for .NET : Load Source Excel File Without Charts&lt;/h1&gt;
+&lt;p&gt;Aspose.Cells allows you to load your excel file without charts. Please use &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/loadoptions/properties/loadfilter&#34;&gt;LoadOptions.LoadFilter&lt;/a&gt; property for this purpose.&lt;/p&gt;
+&lt;h2 id=&#34;load-spreadsheet-without-charts&#34;&gt;Load Spreadsheet Without Charts&lt;/h2&gt;
+&lt;p&gt;The following sample code loads the sample excel file without charts and saves it in output PDF format.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Load Workbook with specified Printer Paper Size</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/mngworkbooksandworksheets/load&#43;workbook&#43;with&#43;specified&#43;printer&#43;paper&#43;size/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/mngworkbooksandworksheets/load&#43;workbook&#43;with&#43;specified&#43;printer&#43;paper&#43;size/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--load-workbook-with-specified-printer-paper-size&#34;&gt;Aspose.Cells for .NET : Load Workbook with specified Printer Paper Size&lt;/h1&gt;
+&lt;p&gt;You can specify the printer paper size of your choice while loading your workbook using the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/loadoptions/methods/setpapersize&#34;&gt;LoadOptions.SetPaperSize()&lt;/a&gt; method. Please note, if you create a new file in MS Excel, you will find the paper size is the same as the setting of the default printer in your machine.&lt;/p&gt;
+&lt;p&gt;The following sample code illustrates the usage of &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/loadoptions/methods/setpapersize&#34;&gt;LoadOptions.SetPaperSize()&lt;/a&gt; method. It first creates a workbook, then saves it in memory stream in XLSX format. Then it loads it with A5 paper size and saves it in PDF format. Then it loads it again with A3 paper size and saves it again in PDF format. If you open the output PDFs and check their paper size, you will see they are different. One is A5 and the other is A3. Please download the &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/5013825/5115234.pdf&#34;&gt;A5 output PDF&lt;/a&gt; and &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/5013825/5115233.pdf&#34;&gt;A3 output PDF&lt;/a&gt; generated by the code for your reference.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Change Data Source of the Chart to Destination Worksheet while Copying Rows or Range</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/mngworkbooksandworksheets/change&#43;data&#43;source&#43;of&#43;the&#43;chart&#43;to&#43;destination&#43;worksheet&#43;while&#43;copying&#43;rows&#43;or&#43;range/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/mngworkbooksandworksheets/change&#43;data&#43;source&#43;of&#43;the&#43;chart&#43;to&#43;destination&#43;worksheet&#43;while&#43;copying&#43;rows&#43;or&#43;range/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--change-data-source-of-the-chart-to-destination-worksheet-while-copying-rows-or-range&#34;&gt;Aspose.Cells for .NET : Change Data Source of the Chart to Destination Worksheet while Copying Rows or Range&lt;/h1&gt;
+&lt;p&gt;
+
+&lt;div class=&#34;card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-primary rounded&#34; style=&#34;border-width:4px !important;&#34;&gt;
+    &lt;div class=&#34;wrap border border-left-0 rounded&#34;&gt;
+        
+        &lt;div class=&#34;card-header border-0 bg-white pl-3 text-primary&#34;&gt;
+            &lt;h3&gt;Contents Summary&lt;/h3&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;card-body pt-1&#34;&gt;
+            &lt;ul&gt;
+&lt;li&gt;1 &lt;a href=&#34;#possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2 &lt;a href=&#34;#change-data-source-of-the-chart-to-destination-worksheet-while-copying-rows-or-range&#34;&gt;Change Data Source of the Chart to Destination Worksheet while Copying Rows or Range&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;possible-usage-scenarios&#34;&gt;Possible Usage Scenarios&lt;/h2&gt;
+&lt;p&gt;When you copy rows or range which contains charts to a new worksheet, then the data source of the chart does not change. For example, if the data source of chart is &lt;code&gt;=Sheet1!$A$1:$B$4&lt;/code&gt;, then after copying rows or range to new worksheet, the data source will remain the same i.e &lt;code&gt;=Sheet1!$A$1:$B$4&lt;/code&gt;. It still refers to old worksheet i.e. &lt;code&gt;Sheet1&lt;/code&gt;. This is also the behavior in Microsoft Excel. But if you want that it to refer to the new destination worksheet, then please use the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/copyoptions/properties/refertodestinationsheet&#34;&gt;CopyOptions.ReferToDestinationSheet&lt;/a&gt; property and set it to **true **while calling the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/cells/methods/copyrows/index&#34;&gt;Cells.CopyRows()&lt;/a&gt; method. Now if your destination worksheet is &lt;code&gt;DestSheet&lt;/code&gt;, then the data source of your chart will change from &lt;code&gt;=Sheet1!$A$1:$B$4&lt;/code&gt; to &lt;code&gt;=DestSheet!$A$1:$B$4&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;change-data-source-of-the-chart-to-destination-worksheet-while-copying-rows-or-range&#34;&gt;Change Data Source of the Chart to Destination Worksheet while Copying Rows or Range&lt;/h2&gt;
+&lt;p&gt;The following sample code explains the usage of &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells/copyoptions/properties/refertodestinationsheet&#34;&gt;CopyOptions.ReferToDestinationSheet&lt;/a&gt; property while copying rows or range containing charts to a new worksheet. The code uses the &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/5013542/5113699.xlsx&#34;&gt;sample excel file&lt;/a&gt; and generates the &lt;a href=&#34;https://docs2.aspose.com/cells/net/attachments/5013542/5113697.xlsx&#34;&gt;output excel file&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs2.aspose.com/cells/net/attachments/5013542/5113695.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Net: Insert a Linked Picture from Web Address</title>
+      <link>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/mngworkbooksandworksheets/insert&#43;a&#43;linked&#43;picture&#43;from&#43;web&#43;address/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roywangt.github.io/cells/net/developerguide/technicalarticles/general/mngworkbooksandworksheets/insert&#43;a&#43;linked&#43;picture&#43;from&#43;web&#43;address/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;asposecells-for-net--insert-a-linked-picture-from-web-address&#34;&gt;Aspose.Cells for .NET : Insert a Linked Picture from Web Address&lt;/h1&gt;
+&lt;p&gt;Sometimes you need to insert a picture from the web (http://) into a worksheet. To do so, specify the picture’s URL and the picture will be downloaded every time the spreadsheet is opened in Microsoft Excel. The image is not physically embedded into the Excel document, but points to a web resource.&lt;/p&gt;
+&lt;h2 id=&#34;using-microsoft-excel&#34;&gt;Using Microsoft Excel&lt;/h2&gt;
+&lt;p&gt;In Microsoft Excel (for example 2007):&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Click the &lt;strong&gt;Insert&lt;/strong&gt; menu and select &lt;strong&gt;Picture&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Specify the web address for the picture in the Insert Picture dialog.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;using-asposecells-for-net&#34;&gt;Using Aspose.Cells for .NET&lt;/h2&gt;
+&lt;p&gt;Aspose.Cells for .NET supports adding a linked image using the &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.drawing/shapecollection/methods/addlinkedpicture&#34;&gt;ShapeCollection.AddLinkedPicture(int upperLeftRow, int upperLeftColumn, int heightPixels, int widthPixels, string sourceFullName)&lt;/a&gt;. The method returns a &lt;a href=&#34;https://apireference.aspose.com/net/cells/aspose.cells.drawing/picture&#34;&gt;Picture&lt;/a&gt; object.&lt;/p&gt;
+&lt;p&gt;The following example shows how to add linked picture from web address to a worksheet.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>
